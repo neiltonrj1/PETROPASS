@@ -190,6 +190,16 @@ function montaDados() {
     t.baseEstats = total;
   }
 
+  /* marca as questões que chegaram incompletas, em todos os acervos */
+  const contaAviso = {};
+  const marca = q => { const a = avisoDaQuestao(q); if (a) { q.aviso = a; contaAviso[a] = (contaAviso[a] || 0) + 1; } };
+  for (const v of conteudo) for (const m of v.mods) (m.qs || []).forEach(marca);
+  for (const vid in quizzes) quizzes[vid].forEach(marca);
+  for (const p of provas) p.questoes.forEach(marca);
+  const totalAviso = Object.values(contaAviso).reduce((a, b) => a + b, 0);
+  if (totalAviso) avisos.push(`${totalAviso} questões marcadas como incompletas: ` +
+    Object.entries(contaAviso).map(([k, n]) => `${n} ${k}`).join(', '));
+
   const arqMapas = path.join(DADOS, 'mapas.json');
   const mapas = existe(arqMapas) ? leJson(arqMapas) : {};
   delete mapas._leia;
@@ -199,6 +209,35 @@ function montaDados() {
 
   const versao = leJson(path.join(RAIZ, 'package.json')).version;
   return { versao, trilhas, conteudo, quizzes, provas, mapas };
+}
+
+/* ---------------- questão que chegou incompleta ----------------
+   Na conversão do caderno para texto, tabela e lista de afirmativas se
+   perdem. O extrator de provas já barrava isso; as questões da lição
+   nunca passaram pelo mesmo teste e havia gente respondendo no escuro.
+
+   São três gravidades:
+     'alternativas-iguais' e 'itens-ausentes' → não há resposta possível
+     'marcador-de-figura'                     → o texto admite a lacuna
+     'pede-desenho'                           → cita um desenho; pode ser
+        um diagrama clássico (Fe-C) que o aluno tem de saber de cor, então
+        continua respondível — só ganha aviso.                          */
+const SO_ROTULO = /^(apenas\s+)?([IVX]+|[A-E])(\s*(,|e|\se\s)\s*([IVX]+|[A-E]))*\.?$/i;
+const PEDE_DESENHO = /\b(figura|figuras|esquema|gr[áa]fico|gr[áa]ficos|desenho|diagrama|ilustra[çc][ãa]o|croqui|circuito abaixo|tabela abaixo|tabela a seguir|tabela acima)\b/i;
+
+function avisoDaQuestao(q) {
+  const alts = q.alts || {};
+  const letras = ['A', 'B', 'C', 'D', 'E'].filter(x => x in alts);
+  const txt = letras.map(x => String(alts[x] || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+  const baixo = txt.map(t => t.toLowerCase());
+  if (baixo.some((t, i) => t && baixo.indexOf(t) !== i)) return 'alternativas-iguais';
+
+  const e = String(q.q || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+  if (/\[\s*figura/i.test(e)) return 'marcador-de-figura';
+  if (letras.length >= 4 && txt.every(t => SO_ROTULO.test(t))
+      && !/(^|[\s(])(I|II|III|IV|V)\s*[-–—.):]\s*\S/.test(e)) return 'itens-ausentes';
+  if (PEDE_DESENHO.test(e)) return 'pede-desenho';
+  return null;
 }
 
 /* Comparação sem acento e sem caixa: a lista de palavras-chave é escrita

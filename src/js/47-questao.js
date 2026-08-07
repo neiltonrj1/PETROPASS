@@ -148,21 +148,30 @@ function questaoHTML(fonte, q, mod, pos, total){
     </div>`;
   }
 
+  /* Questão que perdeu tabela ou lista de afirmativas na conversão do
+     caderno não pode valer erro: marcar no escuro e levar um "✘" ensina
+     ao aluno que ele não sabe um assunto que ele talvez saiba.        */
+  if(q.aviso) h += avisoIncompleta(q, mod);
+  const travada = q.aviso === 'alternativas-iguais' || q.aviso === 'itens-ausentes' || q.aviso === 'marcador-de-figura';
+
   const riscadas = S.risca[id] || [];
-  h += `<div class="qz-alts">`;
+  h += `<div class="qz-alts${travada?' qz-travada':''}">`;
   for(const L of LETRAS){
     if(!(L in q.alts)) continue;
     let cls = 'alt';
     if(respondida) cls += (L===q.correta) ? ' correta' : (L===resp ? ' errada' : ' apagada');
+    else if(travada) cls += ' apagada';
     else if(riscadas.includes(L)) cls += ' riscada';
     h += `<div class="alt-linha">
-      <button class="${cls}" ${respondida?'':`onclick="respondeQuestao('${fonte}',${q.n},'${L}')"`}>
+      <button class="${cls}" ${(respondida||travada)?'disabled':`onclick="respondeQuestao('${fonte}',${q.n},'${L}')"`}>
         <span class="letra">${L}</span><span>${esc(q.alts[L])}</span></button>
-      ${respondida?'':`<button class="alt-risca" title="descartar esta alternativa"
+      ${(respondida||travada)?'':`<button class="alt-risca" title="descartar esta alternativa"
         onclick="riscaAlt('${id}','${L}')">${riscadas.includes(L)?'↺':'✕'}</button>`}
     </div>`;
   }
   h += `</div>`;
+  if(travada) h += `<div class="qz-bloco"><h4>✔ O gabarito oficial é a letra ${q.correta}</h4>
+    <div>${p.certa || esc(q.alts[q.correta]||'')}</div></div>`;
 
   if(respondida){
     h += `<div class="qz-resp">
@@ -201,6 +210,30 @@ function questaoHTML(fonte, q, mod, pos, total){
     </div></div>`;
   }
   return h + `</article>`;
+}
+
+/* Aviso de questão que chegou incompleta do caderno. Ela continua na tela
+   de propósito: sumir com ela esconderia do aluno que aquele assunto cai.
+   O que muda é a honestidade — o app diz o que falta em vez de cobrar uma
+   resposta que o texto exibido não permite dar.                        */
+function avisoIncompleta(q, mod){
+  const T = {
+    'alternativas-iguais': ['Duas alternativas iguais nesta questão',
+      'A conversão do caderno perdeu sinais (normalmente um menos) e duas opções ficaram idênticas. Como está, não há resposta única — por isso ela não conta erro.'],
+    'itens-ausentes': ['As afirmativas desta questão não vieram no texto',
+      'As alternativas são combinações de I, II, III… mas a lista das afirmativas se perdeu na conversão. Sem ela não há o que comparar, então a questão não conta erro.'],
+    'marcador-de-figura': ['Esta questão depende de uma figura do caderno',
+      'O enunciado se refere a um desenho que não foi transposto. Ela fica aqui para você saber que o assunto cai, mas não conta erro.'],
+    'pede-desenho': ['Esta questão foi escrita para uma figura',
+      'O enunciado cita um gráfico, diagrama ou tabela do caderno. Se for um diagrama clássico do assunto — Fe-C, TTT, Schaeffler — você deve saber lê-lo de cabeça, e a aba <b>Figuras</b> tem o desenho.'],
+  }[q.aviso];
+  if(!T) return '';
+  const leve = q.aviso === 'pede-desenho';
+  return `<div class="qz-bloco ${leve?'atencao':'falta'}">
+    <h4>${leve?'⚠':'✂'} ${T[0]}</h4><div>${T[1]}</div>
+    ${!leve && mod && mod.id ? `<button class="btn btn-s" style="margin-top:9px"
+      onclick="abrirModulo('${mod.id}','figuras')">📐 Ver as figuras deste módulo</button>` : ''}
+  </div>`;
 }
 
 /* Linha do tempo das tentativas — uma bolinha por rodada. */
@@ -294,9 +327,15 @@ function errosDaQuestao(fonte, q, excluiAtual){
   const t = S.tentativas[qid(fonte,q)] || [];
   return (excluiAtual ? t.slice(0, -1) : t).filter(x => !x.ok).length;
 }
+/* Questão travada por ter chegado incompleta não entra na conta: senão o
+   módulo nunca fecharia e a rodada 2 jamais liberaria. */
+function travadaPorFalta(q){
+  return q.aviso === 'alternativas-iguais' || q.aviso === 'itens-ausentes' || q.aviso === 'marcador-de-figura';
+}
 /* Situação da lista inteira: quantas faltam, e o placar de cada rodada. */
-function situacao(fonte, qs){
+function situacao(fonte, todas){
   const R = S.quiz[fonte] || {};
+  const qs = (todas || []).filter(q => !travadaPorFalta(q));
   const feitas = qs.filter(q => R[q.n] !== undefined).length;
   const certas = qs.filter(q => R[q.n] === q.correta).length;
   const rodada = rodadaAtual(fonte);

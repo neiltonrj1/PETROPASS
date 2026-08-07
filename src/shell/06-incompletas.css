@@ -1,0 +1,11 @@
+/* ================================================================
+   QUESTÃO QUE CHEGOU INCOMPLETA DO CADERNO
+   Fica visível, mas não cobra resposta que o texto não permite dar.
+   ================================================================ */
+
+.qz-bloco.falta{background:var(--chip);border-color:var(--line-forte);}
+.qz-bloco.falta h4{color:var(--ink2);}
+
+/* alternativas travadas: dá para ler, não dá para marcar */
+.qz-alts.qz-travada .alt{cursor:default;opacity:.72;}
+.qz-alts.qz-travada .alt:hover{border-color:var(--line);background:var(--card);}

@@ -169,6 +169,23 @@ horizontal está a coluna do cargo e informe no catálogo:
 pagina: 8, faixaX: [620, 800],
 ```
 
+### Mexer na estética pelo Claude Design
+
+```
+npm run design
+```
+
+Isso regenera a pasta `design/`: 12 páginas que mostram os componentes do app
+usando o **CSS de verdade** (`src/shell/estilo.css`), sem as fontes em base64.
+Dá para abrir os arquivos direto no navegador, ou pedir ao Claude Code para
+enviá-los ao projeto **PETROPASS study app design** no
+[Claude Design](https://claude.ai/design) — onde eles convivem com os
+documentos da marca e das capas, no arquivo *PETROPASS App - componentes*.
+
+O caminho de volta não é automático: o que você ajustar no Claude Design não
+entra no app sozinho. Quase toda a estética sai de umas 20 variáveis no
+`:root` do `estilo.css` — mudar uma delas muda o app inteiro, nos dois temas.
+
 ### Trocar o projeto do Supabase
 
 Edite `config.js` com o Project URL e a chave **anon public** do novo projeto

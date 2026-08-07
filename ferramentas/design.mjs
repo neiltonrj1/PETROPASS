@@ -350,6 +350,73 @@ feitos.push(pagina({
   </div>`,
 }));
 
+/* ---------------------------------------------------------------
+   Índice em formato de canvas (.dc.html), para conviver com os
+   outros documentos do projeto no Claude Design. Cada amostra entra
+   num iframe: assim o CSS do app fica isolado e não vaza para o
+   canvas, e o que aparece é a tela de verdade, não uma imitação.
+   --------------------------------------------------------------- */
+const rot = (n, t) => `<div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'Instrument Sans',sans-serif;color:rgba(0,0,0,.55)">
+  <a href="#${n}" style="font:600 10.5px/1 'JetBrains Mono',monospace;padding:3px 7px;background:rgba(0,0,0,.08);border-radius:5px">${n}</a>${t}</div>`;
+
+const cartoes = feitos.map((f, i) => {
+  const n = String.fromCharCode(97 + i);
+  return `<div id="${n}" style="display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px">
+    ${rot(n, f.titulo)}
+    <iframe src="./${f.arquivo}" loading="lazy"
+      style="width:${Math.min(f.largura, 620)}px;height:${f.altura}px;border:1px solid #E1DFD8;border-radius:10px;background:#FFF"></iframe>
+  </div>`;
+}).join('\n');
+
+const dc = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#EFEEE9;color:#14161A;font-family:'Instrument Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;text-wrap:pretty}
+</style>
+</helmet>
+
+<section id="app" style="padding:44px 48px 56px">
+  <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:6px">
+    <span style="font:600 10px/1 'JetBrains Mono',monospace;padding:4px 8px;background:#14161A;color:#C9F24A;border-radius:4px">APP</span>
+    <span style="font:600 13px/1.2 'Instrument Sans',sans-serif">Componentes do app, como estão hoje</span>
+  </div>
+  <p style="margin:0 0 26px;max-width:760px;font:400 13px/1.6 'Instrument Sans',sans-serif;color:#5B6068">
+    Cada quadro abaixo é a tela <b>de verdade</b> do PETROPASS: usa o mesmo <code style="font:400 12px 'JetBrains Mono',monospace;background:rgba(0,0,0,.06);padding:1px 5px;border-radius:4px">src/shell/estilo.css</code>
+    que está publicado, sem imitação. Quase todos aparecem em tema claro e escuro, um sob o outro.
+    Aponte o que incomoda pela letra — por exemplo: “na <a href="#e" style="font:600 11px 'JetBrains Mono',monospace;background:rgba(0,0,0,.07);padding:2px 6px;border-radius:4px">e</a> os cartões estão altos demais”
+    ou “o cinza do texto de apoio na <a href="#b" style="font:600 11px 'JetBrains Mono',monospace;background:rgba(0,0,0,.07);padding:2px 6px;border-radius:4px">b</a> está fraco”.
+    Regenerado por <code style="font:400 12px 'JetBrains Mono',monospace;background:rgba(0,0,0,.06);padding:1px 5px;border-radius:4px">npm run design</code>.
+  </p>
+
+  <div style="display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start">
+${cartoes}
+  </div>
+
+  <p style="margin:26px 0 0;font:400 12px/1.5 'Instrument Sans',sans-serif;color:rgba(0,0,0,.5)">
+    A marca em uso no app é a direção <b>1c</b> (PETRO | PASS com a barra ácida), do documento
+    <b>PETROPASS Marca</b>. Quase toda a estética sai de umas 20 variáveis no <code style="font:400 12px 'JetBrains Mono',monospace;background:rgba(0,0,0,.06);padding:1px 5px;border-radius:4px">:root</code>
+    — mudar uma delas muda o app inteiro, nos dois temas.
+  </p>
+</section>
+</x-dc>
+</body>
+</html>
+`;
+fs.writeFileSync(path.join(DEST, 'PETROPASS App - componentes.dc.html'), dc, 'utf8');
+
 console.log(`✓ ${feitos.length} páginas geradas em design/\n`);
 feitos.forEach(f => console.log(`  ${f.grupo.padEnd(12)} ${f.titulo.padEnd(34)} ${f.arquivo}`));
+console.log('  Canvas       PETROPASS App - componentes.dc.html');
 console.log('\nPara enviar ao Claude Design, peça ao Claude Code — ou abra os arquivos direto no navegador.');

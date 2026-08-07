@@ -1,43 +1,62 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Publica o PETROPASS no GitHub Pages.
+#
+# O site é só o punhado de arquivos listados em "Separar o que vai ao ar":
+# index.html (gerado pelo build), config.js, sw.js, o manifesto e os ícones.
+# O código-fonte em src/ e as ferramentas ficam no repositório, mas não são
+# publicados — não há por que servir 60 arquivos que ninguém baixa.
+name: Publicar no GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
+  publicar:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Baixar o repositório
         uses: actions/checkout@v4
-      - name: Setup Pages
+
+      - name: Instalar o Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Instalar as dependências
+        run: npm ci || npm install
+
+      - name: Refazer o index.html a partir de src/
+        run: npm run build
+
+      - name: Conferir se o app abre sem erro
+        run: node ferramentas/testar.mjs
+
+      - name: Separar o que vai ao ar
+        run: |
+          mkdir -p _site
+          cp index.html config.js sw.js manifest.webmanifest icon-192.png icon-512.png _site/
+
+      - name: Configurar o Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+
+      - name: Enviar os arquivos
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
+          path: '_site'
+
+      - name: Publicar
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4

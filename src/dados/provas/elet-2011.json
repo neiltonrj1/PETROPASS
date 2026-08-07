@@ -1,0 +1,280 @@
+{
+ "id": "elet-2011",
+ "trilha": "eletrica",
+ "ano": 2011,
+ "nome": "Eng. Jr — Elétrica",
+ "processo": "Petrobras PSP RH 3/2011",
+ "caderno": "Elétrica\\prova_9_engenheiro_a_junior_area_eletrica.pdf",
+ "folhaGabarito": "gabaritos.pdf",
+ "total": 19,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2011, Q21",
+   "q": "A reatância de uma máquina síncrona de 50 MVA e 15 kV é de 10%. O valor dessa reatância, em p.u., sabendo-se que as bases no setor em que se encontra esse equipamento são de 100 MVA e 30 kV, é",
+   "alts": {
+    "A": "0,01",
+    "B": "0,03",
+    "C": "0,05",
+    "D": "0,12",
+    "E": "0,80"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2011, Q22",
+   "q": "A expressão acima apresenta a igualdade entre a matriz fasorial e o produto das matrizes transformação e componentes simétricos. Os valores de x, y e z são respectivamente os componentes simétricos da fase",
+   "alts": {
+    "A": "na sequência positiva, na sequência negativa e na sequência zero",
+    "B": "na sequência positiva, na sequência negativa e na sequência zero",
+    "C": "nas sequências positiva, negativa e zero",
+    "D": "nas sequências positiva, negativa e zero",
+    "E": "nas sequências positiva, negativa e zero"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2011, Q24",
+   "q": "Uma linha de transmissão de 120 km de extensão possui impedância em série própria igual a 0,02 + j0,05 [Ω/km] e impedância mútua entre as fases de j0,02 [Ω/km]. A impedância de sequência direta para essa linha, em ohms, é",
+   "alts": {
+    "A": "2,4 + j3,6",
+    "B": "2,4 + j6,0",
+    "C": "1,2 + j3,6",
+    "D": "1,2 + j6,0",
+    "E": "1,2 + j8,4"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2011, Q25",
+   "q": "Após o dimensionamento de um projeto elétrico de baixa tensão, o projetista constatou que, para um dado circuito, a proteção contra contatos indiretos não foi atingida. A providência que NÃO permite solucionar o problema é",
+   "alts": {
+    "A": "aumentar a bitola do fio do circuito.",
+    "B": "diminuir a potência das cargas ligadas a esse circuito.",
+    "C": "diminuir o comprimento do circuito.",
+    "D": "trocar o disjuntor por outro mais rápido.",
+    "E": "utilizar um DR nesse circuito."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2011, Q31",
+   "q": "As constantes generalizadas de circuito de uma linha de transmissão monofásica são A = 0,80 1,5°, B = 145 85°Ω, C = 0,0025 89,7° S e D = 0,80 1,5°. Considere que a linha está em vazio, em regime permanente, e a tensão no terminal emissor é igual a 100 0° kV. Então, o valor, em kV, do módulo da tensão no terminal receptor da linha é",
+   "alts": {
+    "A": "65",
+    "B": "80",
+    "C": "100",
+    "D": "125",
+    "E": "145"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2011, Q36",
+   "q": "Em relação aos dispositivos de proteção, seccionamento e comando de circuitos, empregados em instalações elétricas, de acordo com as Normas em vigor e a disponibilização dessas unidades no mercado, afirma-se que o(s)",
+   "alts": {
+    "A": "seccionador é um dispositivo de manobra que, obrigatoriamente, tem de suportar correntes residuais desprezíveis por ocasião de sua abertura ou fechamento.",
+    "B": "fusíveis são compostos por um dispositivo bimetálico que se flexiona no caso de uma corrente acima de determinado valor, provocando o imediato desencaixe de sua base e interrupção do circuito.",
+    "C": "disjuntor deve ser substituído sempre que for acionado devido a curto-circuito ou sobrecarga.",
+    "D": "disjuntores em caixa moldada são fabricados exclusivamente como modelos unipolares.",
+    "E": "disjuntores de uma instalação de baixa tensão são usados nos fios (ou cabos) neutro e de proteção (terra) dos circuitos."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2011, Q37",
+   "q": "Nas instalações elétricas, a construção, a manutenção e a utilização de um sistema de aterramento e das malhas de terra possibilitam, dentre outras coisas, estabilidade e segurança à instalação. A esse respeito, de acordo com o estabelecido em Norma e pelas técnicas de construção, verifica-se que",
+   "alts": {
+    "A": "os mastros e as antenas devem estar isolados do sistema de aterramento.",
+    "B": "as armaduras metálicas do concreto das fundações são o eletrodo de aterramento preferencial.",
+    "C": "os eletrodos de aterramento de uma edificação, definidos pela NBR 5410/2004, não podem ser usados conjuntamente pelo sistema de proteção contra descargas atmosféricas, definidos na NBR 5419/2005.",
+    "D": "a infraestrutura de aterramento só é dispensável no caso de instalações temporárias.",
+    "E": "a infraestrutura de aterramento, nas fundações em alvenaria, tem que ser constituída por material que seja de cobre ou revestido por esse metal."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2011, Q39",
+   "q": "O disjuntor termomagnético e o dispositivo à corrente Diferencial Residual (DR) são equipamentos de proteção muito utilizados em instalações elétricas de baixa tensão. As suas atuações ocorrem Para o disjuntor Para o DR",
+   "alts": {
+    "A": "corrente de fuga e sobrecorrente corrente de curto-circuito",
+    "B": "corrente de curto-circuito e sobrecorrente corrente de fuga",
+    "C": "corrente de curto-circuito e corrente de fuga sobrecorrente",
+    "D": "corrente de curto-circuito corrente de fuga e sobrecorrente",
+    "E": "sobrecorrente corrente de fuga e corrente de curto-circuito"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2011, Q41",
+   "q": "Dois motores de corrente contínua têm potências e velocidades nominais iguais, um, com excitação em derivação, e outro, com excitação série. Com respeito a esses motores, analise as afirmações seguintes. I – No motor com excitação em derivação, a corrente de excitação é pequena em relação à corrente nominal. II – No motor com excitação série, a queda de tensão no enrolamento de excitação é pequena em relação à tensão nominal. III – Para ambos os motores, a queda de tensão no enrolamento de excitação é pequena. É correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "II, apenas.",
+    "C": "III, apenas.",
+    "D": "I e II, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2011, Q42",
+   "q": "Em um motor de indução, a função da resistência de aquecimento é",
+   "alts": {
+    "A": "proteger o enrolamento do rotor contra sobrecarga.",
+    "B": "proteger o enrolamento do estator do motor para evitar sobrecarga do equipamento.",
+    "C": "aumentar o torque de partida do motor, de modo a atender cargas com grande inércia.",
+    "D": "reduzir a corrente de partida do motor acima de 5 CV, de modo a não aumentar a demanda da instalação.",
+    "E": "impedir a condensação de água no motor, quando ele se encontrar instalado em locais úmidos."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2011, Q43",
+   "q": "Considere um motor trifásico de 10 HP (1 HP = 746 W), com rendimento de 80%, fator de potência de 1 3 e alimentado por uma tensão de linha de 100 volts. A corrente elétrica a ser considerada no dimensionamento dos cabos elétricos utilizados em sua instalação, em ampères, é",
+   "alts": {
+    "A": "99,80",
+    "B": "98,25",
+    "C": "95,40",
+    "D": "93,25",
+    "E": "89,50"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2011, Q44",
+   "q": "As Normas referentes à instalação de motores elétricos de indução, com rotor de gaiola em instalações de baixa tensão, e as técnicas de instalação desses equipamentos preconizam",
+   "alts": {
+    "A": "consultar, obrigatoriamente, a empresa de distribuição de energia elétrica local, no caso de partida direta de motores com potência acima de 2 (dois) CV, ligados diretamente à rede pública.",
+    "B": "considerar um fator de potência igual a 0,6 para o rotor bloqueado na ocasião da partida, ao se calcular a queda de tensão.",
+    "C": "proteger o equipamento contra sobrecargas e curto-circuito com o uso de fusíveis ou chaves magnéticas com relés térmicos (disjuntores) no ramal ligado à terra e/ou neutro.",
+    "D": "instalar chaves estrela-triângulo ou um compensador para limitar correntes de sobrecarga nos respectivos motores em regime permanente.",
+    "E": "dimensionar os condutores de forma tal que, durante a partida do motor, limitem a queda de tensão máxima nos terminais do dispositivo de partida a 10% da tensão nominal respectiva."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2011, Q45",
+   "q": "Uma subestação que se liga à rede pública de distribuição de média tensão e disponibiliza ao usuário baixa tensão possui dois transformadores em paralelo e atende a uma demanda total de 1125 kVA. Dados dos transformadores: • Trafo 1: potência de 500 kVA nominais e impedância percentual de 2,5%. • Trafo 2: potência de 750 kVA nominais e impedância percentual de 3%. Com base nos dados acima, a distribuição de cargas para as unidades de transformação 1 e 2 são dadas pelas demandas parciais, em kVA, respectivamente, por",
+   "alts": {
+    "A": "375 e 750",
+    "B": "450 e 675",
+    "C": "500 e 625",
+    "D": "525 (trafo 1 em sobrecarga) e 600",
+    "E": "562,5 para cada unidade (trafo 1 em sobrecarga)"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2011, Q46",
+   "q": "Para que um transformador trifásico esteja inserido em uma instalação elétrica com o primário na configuração em estrela aterrado, e o secundário, em delta, a relação de espiras entre os enrolamentos primários e secundários deve ser igual à relação de tensões de",
+   "alts": {
+    "A": "Linha e Fase",
+    "B": "Linha e Linha",
+    "C": "Terra e Fase",
+    "D": "Terra e Linha",
+    "E": "Fase e Linha"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2011, Q48",
+   "q": "Considere o circuito equivalente de um transformador trifásico de três enrolamentos, obtido a partir da associação de um banco de transformadores monofásicos. As impedâncias Z 1, Z 2 e Z 3 representam as impedâncias de dispersão entre os três pares de enrolamentos. A realização de ensaios de curto-circuito dos circuitos primário, secundário e terciário, nesse equipamento, resultou no seguinte quadro: Impedância Circuito energizado Circuito em curto Circuito em aberto Valor (pu) Z 12 primário secundário terciário 0,03 Z 13 primário terciário secundário 0,02 Z 23 secundário terciário primário 0,02 A partir desses resultados, os valores das impedâncias Z 1, Z 2 e Z 3 do circuito, em pu, equivalente desse banco de transformadores são, respectivamente,",
+   "alts": {
+    "A": "1,0; 1,5 e 1,5",
+    "B": "0,1; 0,2 e 0,3",
+    "C": "0,15; 0,15 e 0,02",
+    "D": "0,05; 0,01 e 0,05",
+    "E": "0,015; 0,015 e 0,005"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2011, Q56",
+   "q": "Com respeito à equação M. x = y, em que e, analise as afirmativas abaixo. I - A equação apresenta uma única solução. II - O posto da matriz M é igual a 4. III - A nulidade da Matriz M é igual a 1. É correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "I e III"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2011, Q58",
+   "q": "O determinante da matriz M, de ordem 3 por 3, é 240, e a matriz K é definida como sendo K = 2 x M. O valor do determinante da matriz K é",
+   "alts": {
+    "A": "240",
+    "B": "480",
+    "C": "1.440",
+    "D": "1.920",
+    "E": "2.160"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2011, Q62",
+   "q": "Em um sistema de bombeamento de água, utiliza-se uma bomba centrífuga cuja vazão e altura de carga total são, respectivamente, 0,5 m 3 /s e 3 m quando operando a 1.800 rpm. A bomba é acionada por um motor elétrico síncrono de 4 polos, conectado a uma rede elétrica de frequência igual a 60 Hz. Considere que o escoamento é permanente, não viscoso, uniforme e sem perdas. Se o motor elétrico for substituído por um motor síncrono de 2 polos, então, nessa nova condição, a altura de carga total da bomba, em metros, é",
+   "alts": {
+    "A": "0,75",
+    "B": "1,50",
+    "C": "6,00",
+    "D": "9,00",
+    "E": "12,00"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2011, Q63",
+   "q": "Um gás ideal pode ser levado de seu estado inicial de pressão-volume x a um estado final y, através de três processos diferentes, 1, 2 e 3, conforme indicado no diagrama acima. De acordo com as informações acima, analise as afirmações a seguir. O trabalho realizado pelo gás nos três processos indicados será o mesmo. PORQUE O trabalho realizado por um gás depende apenas de seus estados inicial e final de pressão-volume. Analisando-se as afirmações acima, conclui-se que",
+   "alts": {
+    "A": "as duas afirmações são verdadeiras, e a segunda justifica a primeira.",
+    "B": "as duas afirmações são verdadeiras, e a segunda não justifica a primeira.",
+    "C": "a primeira afirmação é verdadeira, e a segunda é falsa.",
+    "D": "a primeira afirmação é falsa, e a segunda é verdadeira.",
+    "E": "as duas afirmações são falsas."
+   },
+   "correta": "E"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   27,
+   29,
+   32,
+   34,
+   38,
+   40,
+   53,
+   54,
+   55,
+   60,
+   64,
+   66,
+   67
+  ],
+  "quebradas": [
+   70
+  ]
+ }
+}

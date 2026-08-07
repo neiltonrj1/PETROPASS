@@ -1,0 +1,61 @@
+<p><strong>1. Energia cinética e trabalho.</strong> <strong>E<sub>c</sub> = ½·m·v²</strong>, em joules com m em kg e v em m/s.</p>
+<p><strong>Cuidado com a unidade:</strong> a velocidade quase sempre vem em km/h e precisa virar m/s dividindo por <strong>3,6</strong>. Para 10 kg a 36 km/h: v = 10 m/s ⇒ E<sub>c</sub> = ½ × 10 × 100 = <strong>500 J</strong>.</p>
+<p><strong>Teorema trabalho-energia:</strong> o trabalho da resultante é igual à variação da energia cinética — por isso a energia cinética de um corpo é exatamente "a energia necessária para levá-lo do repouso àquela velocidade" (ou a que ele devolve ao parar). Note ainda: dobrar a velocidade <strong>quadruplica</strong> a energia cinética.</p>
+
+<p><strong>2. Quantidade de movimento e colisões.</strong> <strong>p = m·v</strong>; num sistema isolado a quantidade de movimento <strong>total se conserva</strong> sempre.</p>
+<table>
+<thead>
+<tr><th>Colisão</th><th>Conserva p</th><th>Conserva E<sub>c</sub></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Perfeitamente elástica</strong></td><td>sim</td><td><strong>sim</strong></td></tr>
+<tr><td><strong>Parcialmente elástica</strong></td><td>sim</td><td>não (perde parte)</td></tr>
+<tr><td><strong>Perfeitamente inelástica</strong> (ficam unidos)</td><td>sim</td><td><strong>não</strong> — perda máxima</td></tr>
+</tbody>
+</table>
+<p><em>Caso clássico:</em> dois corpos de <strong>massas iguais</strong>, mesma direção e mesmo sentido, com velocidades v₁ e v₂, que <strong>permanecem unidos</strong> após o choque: m·v₁ + m·v₂ = 2m·v' ⇒ <strong>v' = (v₁ + v₂)/2</strong>, a média das velocidades. E a energia cinética final é <strong>menor</strong> que a inicial — a diferença vira deformação e calor.</p>
+
+<p><strong>3. Lei de Hooke.</strong> <strong>F = k·x</strong> (mola) e, na forma de tensão-deformação, <strong>σ = E·ε</strong>. O enunciado correto é: <strong>a deformação é diretamente proporcional à tensão aplicada</strong>, dentro do regime elástico. Duas ressalvas que a banca cobra: a lei só vale <strong>até o limite de proporcionalidade</strong>, e <em>E</em> (módulo de elasticidade ou de Young) é <strong>propriedade do material</strong>, não da peça.</p>
+
+<p><strong>4. Fluidos: continuidade e Bernoulli.</strong> Para fluido <strong>incompressível</strong> em regime permanente, a <strong>equação da continuidade</strong> dá <strong>A₁v₁ = A₂v₂</strong>: se a seção da mangueira <strong>se reduz</strong>, a velocidade <strong>aumenta</strong> na mesma proporção inversa.</p>
+<p><strong>Bernoulli</strong> (fluido não viscoso, incompressível, sem turbulência, ao longo de uma linha de corrente):</p>
+<p><strong>P + ½ρv² + ρgh = constante</strong></p>
+<p>Consequência imediata: onde a <strong>velocidade aumenta, a pressão diminui</strong> (efeito Venturi). É o que explica a sustentação da asa, o carburador e o medidor Venturi. Para escoamento real acrescenta-se a <strong>perda de carga</strong>, dada por Darcy-Weisbach: <strong>h<sub>f</sub> = f·(L/D)·(v²/2g)</strong>.</p>
+<p><strong>Regime de escoamento</strong> pelo número de Reynolds <strong>Re = ρvD/μ</strong>: laminar até ~2 000, transição até ~4 000, turbulento acima disso.</p>
+
+<p><strong>5. Bombas.</strong> <strong>Potência hidráulica = ρ·g·Q·H</strong> (W, com Q em m³/s e H em m); <strong>potência de eixo = potência hidráulica ÷ rendimento</strong>. Para bomba centrífuga, as <strong>leis de semelhança</strong>: Q ∝ n, H ∝ n², <strong>Potência ∝ n³</strong>. Reduzir 10 % da rotação reduz a potência em ~27 % — é por isso que trocar estrangulamento de válvula por inversor de frequência economiza tanta energia. <strong>NPSH disponível &gt; NPSH requerido</strong>, sob pena de <strong>cavitação</strong>.</p>
+
+<p><strong>6. Termodinâmica: primeira lei.</strong> <strong>ΔU = Q − W</strong> (calor que entra menos trabalho que o sistema realiza). Para <strong>gás ideal</strong>, a energia interna depende <strong>só da temperatura</strong>. Daí a conclusão mais cobrada:</p>
+<p><strong>Numa transformação isotérmica de gás ideal, ΔU = 0, logo Q = W</strong> — todo o calor recebido é convertido em trabalho, e o gás não muda sua energia interna.</p>
+<table>
+<thead>
+<tr><th>Transformação</th><th>Constante</th><th>Relação</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Isotérmica</strong></td><td>T</td><td>ΔU = 0, Q = W, PV = constante</td></tr>
+<tr><td><strong>Isobárica</strong></td><td>P</td><td>W = PΔV</td></tr>
+<tr><td><strong>Isocórica</strong></td><td>V</td><td>W = 0, Q = ΔU</td></tr>
+<tr><td><strong>Adiabática</strong></td><td>—</td><td>Q = 0, ΔU = −W, PV<sup>γ</sup> = constante</td></tr>
+</tbody>
+</table>
+<p><strong>Ponto que gera pegadinha:</strong> a variação de energia interna entre dois estados <strong>não depende do caminho</strong> (U é função de estado), mas <strong>Q e W dependem</strong> — por isso três processos diferentes ligando os mesmos estados x e y têm o mesmo ΔU e valores distintos de calor e trabalho.</p>
+
+<p><strong>7. Segunda lei e rendimento.</strong> Nenhuma máquina térmica converte todo o calor em trabalho. Para uma máquina operando entre T<sub>quente</sub> e T<sub>fria</sub> (em <strong>kelvin</strong>): <strong>η<sub>Carnot</sub> = 1 − T<sub>fria</sub>/T<sub>quente</sub></strong> — o teto teórico. A entropia de um sistema isolado nunca diminui; processos reais são irreversíveis.</p>
+
+<p><strong>8. Transferência de calor.</strong> Três mecanismos:</p>
+<table>
+<thead>
+<tr><th>Mecanismo</th><th>Precisa de meio material?</th><th>Lei</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Condução</strong></td><td>sim (sem transporte de matéria)</td><td>Fourier: <strong>q = −kA·dT/dx</strong></td></tr>
+<tr><td><strong>Convecção</strong></td><td>sim (com movimento do fluido)</td><td>Newton: <strong>q = hA(T<sub>s</sub> − T<sub>∞</sub>)</strong></td></tr>
+<tr><td><strong>Irradiação</strong></td><td><strong>não</strong> — ocorre por ondas eletromagnéticas, inclusive no vácuo</td><td>Stefan-Boltzmann: <strong>q = εσA·T⁴</strong></td></tr>
+</tbody>
+</table>
+<p><strong>A resposta cobrada sobre irradiação:</strong> a transferência acontece por <strong>ondas eletromagnéticas, sem necessidade de meio material</strong> — é assim que o calor do Sol chega à Terra.</p>
+<p><strong>Condução unidimensional em regime permanente</strong> numa parede plana de espessura L: <strong>q = k·A·(T₁ − T₂) ÷ L</strong>. O perfil de temperatura é <strong>linear</strong> quando k é constante; se k varia com a temperatura, o perfil <strong>deixa de ser reto</strong> (côncavo ou convexo conforme k cresça ou diminua com T). Paredes em série somam <strong>resistências térmicas</strong>: R = L/(kA).</p>
+
+<p><strong>9. Unidades e ordens de grandeza.</strong> 1 N = 1 kg·m/s²; 1 J = 1 N·m; 1 W = 1 J/s; 1 Pa = 1 N/m²; 1 bar = 10⁵ Pa ≈ 1 atm; 1 cv ≈ 735 W; 1 HP = 746 W; g ≈ 9,8 m/s²; ρ<sub>água</sub> = 1 000 kg/m³. Conferir a unidade antes de escolher a alternativa elimina metade dos distratores.</p>
+
+<p><strong>Resumo de véspera:</strong> E<sub>c</sub> = ½mv² com v em m/s (÷3,6); choque perfeitamente inelástico entre massas iguais dá a média das velocidades e perde energia; Hooke é deformação proporcional à tensão, no regime elástico; A₁v₁ = A₂v₂ e, em Bernoulli, mais velocidade significa menos pressão; potência de bomba ∝ n³; isotérmica de gás ideal tem ΔU = 0 e Q = W; ΔU não depende do caminho, Q e W dependem; irradiação dispensa meio material; parede plana: q = kAΔT/L.</p>

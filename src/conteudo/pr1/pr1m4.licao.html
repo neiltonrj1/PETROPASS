@@ -1,0 +1,66 @@
+<p><strong>1. Por que existe estoque.</strong> Cinco funções clássicas: <strong>proteção</strong> contra incerteza, <strong>ciclo</strong> (produzir em lote é mais barato que unitário), <strong>antecipação</strong> (sazonalidade), <strong>canal</strong> (material em trânsito) e <strong>desacoplamento</strong> (independência entre etapas). Todo estoque é <em>capital imobilizado</em> — daí a tensão permanente entre nível de serviço e custo.</p>
+
+<p><strong>2. Curva ABC (Pareto).</strong> Classifica os itens pelo <strong>valor de consumo anual</strong> = consumo (unidades/ano) × custo unitário — <em>não</em> pela quantidade nem pelo preço isolados.</p>
+<table>
+<thead>
+<tr><th>Classe</th><th>% dos itens</th><th>% do valor</th><th>Como controlar</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>A</strong></td><td>~20 %</td><td>~80 %</td><td>controle rigoroso, revisão contínua, estoque de segurança calculado</td></tr>
+<tr><td><strong>B</strong></td><td>~30 %</td><td>~15 %</td><td>controle intermediário</td></tr>
+<tr><td><strong>C</strong></td><td>~50 %</td><td>~5 %</td><td>controle simples, lote grande, revisão periódica</td></tr>
+</tbody>
+</table>
+<p><strong>Roteiro da questão de prova:</strong> (1) calcule consumo × custo de cada item; (2) ordene do maior para o menor; (3) acumule o percentual; (4) corte em ~80 % e ~95 %. <strong>Pegadinha:</strong> um item barato com consumo altíssimo pode ser classe A; um item caríssimo comprado uma vez por ano costuma ser C.</p>
+
+<p><strong>3. Lote econômico de compra (LEC/EOQ).</strong></p>
+<p><strong>LEC = √(2 · D · C<sub>p</sub> / C<sub>m</sub>)</strong>, onde <em>D</em> = demanda anual, <em>C<sub>p</sub></em> = custo de <strong>pedido</strong> (por pedido) e <em>C<sub>m</sub></em> = custo de <strong>manutenção</strong> por unidade por ano.</p>
+<p>Propriedades que a banca cobra sem conta:</p>
+<ul>
+<li>No ponto ótimo, <strong>custo de pedir = custo de manter</strong>.</li>
+<li>A curva de custo total é <strong>achatada</strong> perto do mínimo: errar o lote em 20 % encarece pouco.</li>
+<li>Se a demanda <strong>quadruplica</strong>, o lote apenas <strong>dobra</strong> (raiz quadrada). Idem para o custo de pedido.</li>
+<li>Estoque médio do modelo = LEC/2. Número de pedidos por ano = D/LEC.</li>
+</ul>
+
+<p><strong>4. Ponto de pedido e estoque de segurança.</strong></p>
+<p><strong>PP = d̄ · LT + ES</strong>, com <em>d̄</em> = demanda média por período e <em>LT</em> = lead time.<br>
+<strong>ES = z · σ<sub>LT</sub></strong>, em que <em>z</em> vem do nível de serviço desejado (z ≈ 1,65 para 95 %; z ≈ 2,33 para 99 %).</p>
+<p>Dois sistemas de reposição:</p>
+<table>
+<thead>
+<tr><th></th><th>Revisão contínua (Q)</th><th>Revisão periódica (P)</th></tr>
+</thead>
+<tbody>
+<tr><td>Quando pede</td><td>ao atingir o ponto de pedido</td><td>em datas fixas</td></tr>
+<tr><td>Quanto pede</td><td>quantidade fixa (LEC)</td><td>quantidade variável, até o nível máximo</td></tr>
+<tr><td>Estoque de segurança</td><td>menor</td><td>maior (cobre LT + intervalo de revisão)</td></tr>
+<tr><td>Indicado para</td><td>itens A</td><td>itens C, compras agrupadas do mesmo fornecedor</td></tr>
+</tbody>
+</table>
+
+<p><strong>5. Indicadores de estoque.</strong> <strong>Giro = consumo anual ÷ estoque médio</strong>. <strong>Cobertura (em meses) = estoque médio ÷ consumo mensal</strong>. Giro alto e cobertura baixa andam juntos. O <strong>custo das mercadorias vendidas (CMV) = estoque inicial + compras − estoque final</strong>.</p>
+
+<p><strong>6. Previsão de demanda — os métodos que caem.</strong></p>
+<table>
+<thead>
+<tr><th>Método</th><th>Fórmula</th><th>Quando usar</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Média móvel simples de n períodos</strong></td><td>média das n últimas observações</td><td>demanda estável, sem tendência</td></tr>
+<tr><td><strong>Média móvel ponderada</strong></td><td>Σ(peso × demanda), Σpesos = 1</td><td>quando o passado recente pesa mais</td></tr>
+<tr><td><strong>Suavização exponencial simples</strong></td><td><em>F</em><sub>t+1</sub> = <em>F</em><sub>t</sub> + α(<em>D</em><sub>t</sub> − <em>F</em><sub>t</sub>)</td><td>estável; α alto reage rápido e oscila mais</td></tr>
+<tr><td><strong>Holt</strong></td><td>nível + tendência</td><td>série com tendência</td></tr>
+<tr><td><strong>Holt-Winters</strong></td><td>nível + tendência + sazonalidade</td><td>série sazonal</td></tr>
+<tr><td><strong>Regressão linear</strong></td><td><em>y</em> = a + b·x</td><td>tendência linear ou causal</td></tr>
+</tbody>
+</table>
+<p>O <strong>índice de sazonalidade</strong> de um período = demanda média do período ÷ demanda média geral; a previsão dessazonalizada é multiplicada por ele no fim.</p>
+
+<p><strong>7. Erro de previsão.</strong> <strong>MAD</strong> = média dos erros absolutos; <strong>MSE</strong> = média dos erros ao quadrado (pune mais o erro grande); <strong>MAPE</strong> = média do erro percentual absoluto (comparável entre produtos); <strong>viés (BIAS)</strong> = média dos erros com sinal — se for consistentemente ≠ 0, o modelo está enviesado. Regra: <strong>toda previsão erra</strong>; previsão agregada erra menos que a individual; e quanto mais longe o horizonte, maior o erro.</p>
+
+<p><strong>8. Administração de materiais.</strong> É a função <strong>coordenadora</strong> responsável pelo planejamento e controle do <strong>fluxo de materiais</strong>, do fornecedor à entrega do produto acabado, englobando compras, recebimento, armazenagem, movimentação interna e controle de estoques. Objetivo permanente: <strong>maximizar o uso dos recursos e o nível de atendimento com o menor investimento em estoque</strong>.</p>
+
+<p><strong>9. Efeito chicote (bullwhip).</strong> Pequenas variações da demanda do consumidor final se amplificam à medida que sobem a cadeia. Causas: previsões feitas isoladamente por elo, lotes de pedido grandes, promoções e variações de preço, e racionamento com pedidos inflados. Combate: <strong>compartilhar informação de demanda real</strong> (CPFR, VMI), reduzir lotes e estabilizar preços.</p>
+
+<p><strong>Resumo de véspera:</strong> ABC ordena por consumo × custo; no LEC o custo de pedir iguala o de manter e demanda ×4 dobra o lote; PP = demanda no lead time + ES; giro = consumo ÷ estoque médio; α alto reage rápido; MAPE compara produtos diferentes; efeito chicote se combate com informação compartilhada.</p>

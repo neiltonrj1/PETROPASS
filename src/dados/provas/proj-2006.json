@@ -1,0 +1,160 @@
+{
+ "id": "proj-2006",
+ "trilha": "projetos",
+ "ano": 2006,
+ "nome": "Eng. Jr — Análise de Projetos de Investimentos",
+ "processo": "Petrobras PSP 03/2006",
+ "caderno": "34.pdf",
+ "folhaGabarito": "gabsup.pdf",
+ "total": 11,
+ "questoes": [
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2006, Q22",
+   "q": "A probabilidade de uma experiência ser bem sucedida é 1/3. Qual é a probabilidade de, em três experiências independentes, pelo menos uma ser bem sucedida?",
+   "alts": {
+    "A": "3 1",
+    "B": "27 13",
+    "C": "2 1",
+    "D": "27 19",
+    "E": "1"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2006, Q23",
+   "q": "Deve-se decidir entre investir no projeto X, ou no projeto Y, ou em nenhum deles. A taxa mínima de atratividade é 10% ao ano e os fluxos de caixa dos projetos, bem como as taxas internas de retorno (TIR) e os valores presentes líquidos (VPL) (i = 10% ao ano) encontram-se a seguir. VPL(X) = 26,8 TIR(X) = 21,9% a.a. VPL(Y) = 34,0 TIR(Y) = 18,3% a.a A decisão que deve ser tomada é:",
+   "alts": {
+    "A": "investir em X, porque tem maior TIR.",
+    "B": "investir em X, porque tem menor VPL.",
+    "C": "investir em Y, porque tem maior VPL.",
+    "D": "investir indiferentemente em X ou em Y, que são igualmente atrativos.",
+    "E": "não investir."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2006, Q31",
+   "q": "Em relação à avaliação de empresas, é correto afirmar, sobre o método de fluxo de caixa descontado, que:",
+   "alts": {
+    "A": "permite sempre indicar o melhor projeto entre aqueles mutuamente excludentes.",
+    "B": "utiliza a taxa de juros livre de risco para descontar os fluxos de caixa que excedem o investimento inicial.",
+    "C": "não impede qualquer indicação entre projetos que não sejam mutuamente excludentes.",
+    "D": "chega-se ao conceito de valor presente líquido diminuindo o investimento inicial do fluxo de caixa descontado.",
+    "E": "chega-se ao conceito de payback descontado, somando-se o fluxo de caixa descontado ao investimento inicial."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2006, Q32",
+   "q": "Considere a matriz de resultados (pay-offs) abaixo. Dois agentes econômicos, A e B, devem decidir se tomam decisões de aumentar ou manter constante o preço do produto no qual são concorrentes. Nessa perspectiva, é correto afirmar, sobre o resultado do jogo pelo critério de dominância, que:",
+   "alts": {
+    "A": "não há estratégia dominante para nenhum dos agentes.",
+    "B": "aumentar o preço é estratégia dominante para o Agente A.",
+    "C": "aumentar o preço é estratégia dominante para os dois agentes.",
+    "D": "manter o preço é estratégia dominante para o Agente B.",
+    "E": "manter o preço é estratégia dominante para o Agente A."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2006, Q33",
+   "q": "É correto afirmar, em relação ao modelo IS-LM, que, dada uma situação de armadilha de liquidez, a(o):",
+   "alts": {
+    "A": "curva IS se torna vertical.",
+    "B": "curva IS se torna horizontal.",
+    "C": "eficácia da política monetária é máxima.",
+    "D": "eficácia da política fiscal é máxima.",
+    "E": "equilíbrio macroeconômico não se altera com qualquer aumento de investimentos públicos. Agente B Aumenta Mantém Aumenta (3,2) (-1,1) Mantém (1,1) (2,3) Agente A"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2006, Q34",
+   "q": "O Modelo de Sweezy, de economia industrial, é caracterizado por um(a):",
+   "alts": {
+    "A": "cartel perfeito.",
+    "B": "duopólio no qual as empresas escolhem o preço simultaneamente, com resultado de produção de 2/3 da quantidade de monopólio.",
+    "C": "oligopólio no qual os custos marginais são nulos.",
+    "D": "oligopólio no qual as empresas escolhem a quantidade simultaneamente.",
+    "E": "curva de demanda quebrada."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2006, Q35",
+   "q": "Sobre as origens da industrialização brasileira, assinale a afirmativa correta.",
+   "alts": {
+    "A": "As divergências entre os interesses de cafeicultores eram grandes e numerosas.",
+    "B": "Após a primeira guerra mundial intensificou-se o afluxo de investimentos estrangeiros ao Brasil.",
+    "C": "O início da industrialização brasileira caracterizou-se pela abertura comercial e pelo liberalismo econômico, além do surgimento de uma massa de trabalhadores assalariados.",
+    "D": "A indústria brasileira tem origem com os incentivos gerados logo após a chegada de Dom João VI ao Brasil, no século XIX.",
+    "E": "A manutenção do câmbio flexível durante toda a segunda parte do século XIX permitiu o financiamento barato das novas operações industriais."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2006, Q36",
+   "q": "Ao final de determinado exercício, uma companhia comercial apresentou as seguintes informações: Considerando os respectivos fundamentos teórico-contábeis das informações acima, na Demonstração do Resultado do Exercício (DRE) o total das despesas operacionais, em reais, é:",
+   "alts": {
+    "A": "3.980,00",
+    "B": "4.000,00",
+    "C": "5.050,00",
+    "D": "5.700,00",
+    "E": "9.030,00 Em reais Abatimento sobre Vendas 200,00 Devolução de Vendas 450,00 Despesas Administrativas 3.080,00 ICMS sobre Vendas 3.330,00 Despesas com Vendas 1.120,00 Receitas Financeiras 1.050,00 Despesas Financeiras 850,00 Vendas Brutas 18.500,00"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2006, Q37",
+   "q": "Num fluxo de caixa em que o valor do investimento inicial é R$ 100.000,00 e os resultados esperados são: R$ 20.000,00, no primeiro ano; R$ 30.000,00, no segundo; R$ 25.000,00, no terceiro; R$ 35.000,00, no quarto e R$ 40.000,00, no quinto, o elemento que a empresa deve utilizar para tomar a decisão no tempo 0 (zero) é denominado:",
+   "alts": {
+    "A": "custo de depreciação.",
+    "B": "custo de oportunidade.",
+    "C": "taxa de risco.",
+    "D": "taxa de desconto.",
+    "E": "taxa de capitalização."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2006, Q39",
+   "q": "Considere o processo de condução unidimensional em regime permanente da parede de um forno industrial feito de um material cuja condutividade térmica é Cm W 5,1 o. O lado externo da parede encontra-se a uma temperatura de 100 o C e está sujeito ao ar externo cuja temperatura e coeficiente de filme valem, respectivamente, 25 o C e Cm W 20 o. Considerando que a espessura da parede é igual a 0,15 m, a temperatura interna da parede do forno, em o C, é:",
+   "alts": {
+    "A": "160",
+    "B": "225",
+    "C": "250",
+    "D": "1000",
+    "E": "1500"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2006, Q40",
+   "q": "O gerente de materiais de uma empresa fabricante de diversos produtos plásticos precisa decidir sobre a instalação de um dos sistemas computadorizados de controle de estoques. O primeiro deles, de custo elevado, registra em tempo real todas as movimentações dos produtos no estoque. O segundo registra as movimentações no estoque a cada três meses e tem custo mais modesto. Levando em conta estas considerações e as características da empresa, o gerente de materiais optou pelo primeiro sistema, apesar de mais caro, pois o(a):",
+   "alts": {
+    "A": "custo dos materiais é feito ao final do exercício fiscal.",
+    "B": "valor total do estoque é calculado através do levantamento manual.",
+    "C": "atualização do estoque é feita a cada movimentação.",
+    "D": "entrada dos materiais no estoque é feita ao final de cada semestre.",
+    "E": "saída dos materiais é anotada antes de ser feita a venda."
+   },
+   "correta": "C"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [],
+  "quebradas": []
+ }
+}

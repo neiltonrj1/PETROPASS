@@ -1,0 +1,127 @@
+{
+ "id": "elet-2006",
+ "trilha": "eletrica",
+ "ano": 2006,
+ "nome": "Eng. Jr — Áreas Elétrica e Eletrônica",
+ "processo": "Petrobras PSP 03/2006",
+ "caderno": "Elétrica\\37.pdf",
+ "folhaGabarito": "gabsup.pdf",
+ "total": 8,
+ "questoes": [
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2006, Q25",
+   "q": "A chave estrela-triângulo é muito utilizada para a partida de motores, em função de seu custo reduzido, praticidade e outras vantagens. Para um dado motor, possível de ser ligado nas configurações estrela e triângulo, a utilização desta chave garante a redução na corrente de partida de:",
+   "alts": {
+    "A": "3 1",
+    "B": "2 1",
+    "C": "3 1",
+    "D": "4 1",
+    "E": "RT S LA LB LC C2 C2 C3 C2 C3 C1 C3 C1 C2 C1 C2 C3C1 C2 C3C1 S1 S2 S3"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2006, Q27",
+   "q": "As componentes de seqüência negativa de um sistema trifásico equilibrado consistem de três fasores iguais em módulo e:",
+   "alts": {
+    "A": "120º defasados entre si, com a mesma seqüência de fase dos fasores originais.",
+    "B": "120º defasados entre si, com uma seqüência de fase inversa à dos fasores originais.",
+    "C": "com a mesma defasagem e a mesma seqüência de fase dos fasores originais.",
+    "D": "com defasagem nula entre si.",
+    "E": "com uma defasagem diferente dos fasores originais, mas com uma seqüência de fase inversa."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2006, Q30",
+   "q": "De acordo com a Primeira Lei da Termodinâmica, com relação às transformações isotérmicas de um gás ideal, é correto afirmar que o(a):",
+   "alts": {
+    "A": "calor trocado pelo gás com o meio exterior é igual ao trabalho realizado no mesmo processo.",
+    "B": "quantidade de calor recebida é maior que o trabalho realizado.",
+    "C": "variação da energia interna do gás é igual à quantidade de calor trocada com o meio exterior.",
+    "D": "temperatura final do gás é sempre maior que a inicial.",
+    "E": "pressão do gás permanece constante durante toda a transformação. Imag Real0-8 -2"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2006, Q35",
+   "q": "O sistema tarifário de energia elétrica segue um conjunto de normas e regulamentos, a fim de se estabelecer o preço da energia elétrica para os diversos tipos de consumidores. A responsabilidade pela regulamentação das tarifas é:",
+   "alts": {
+    "A": "do Ministério de Minas e Energia - MME.",
+    "B": "da ELETROBRÁS.",
+    "C": "da Agência Nacional de Energia Elétrica - ANEEL.",
+    "D": "da Câmara de Comercialização de Energia Elétrica - CCEE.",
+    "E": "das Concessionárias de Energia Elétrica. C B A"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2006, Q37",
+   "q": "O Brasil tem as usinas hidrelétricas como a base no fornecimento da energia elétrica. No entanto, a energia térmica vem aumentando a sua participação na geração. Dentre as alternativas abaixo, aquela que NÃO favoreceu esse aumento foi a(o):",
+   "alts": {
+    "A": "introdução da iniciativa privada no mercado.",
+    "B": "necessidade do país de se construir usinas geradoras em um menor tempo.",
+    "C": "falta de interesse da iniciativa privada pela construção de hidrelétricas.",
+    "D": "longo tempo para a construção de hidrelétricas.",
+    "E": "baixo custo operacional das termelétricas."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2006, Q38",
+   "q": "O Fator de Carga (FC) é a razão entre a demanda média e a demanda máxima, medida em uma instalação ou num sistema elétrico. A respeito do FC, é correto afirmar que, quanto mais próximo da unidade:",
+   "alts": {
+    "A": "mais otimizado será o dimensionamento dos materiais elétricos da instalação ou sistema.",
+    "B": "menor será o consumo da energia da instalação ou sistema elétrico.",
+    "C": "melhor será o fator de potência da instalação ou do sistema elétrico.",
+    "D": "melhor a qualidade no fornecimento de energia elétrica.",
+    "E": "menor potência poderão ter os equipamentos que mobiliam a instalação."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2006, Q39",
+   "q": "Energias Renováveis são aqueles recursos energéticos que não derivam de recursos minerais finitos e que têm o potencial de prover serviços energéticos com pouca ou nenhuma emissão de poluentes atmosféricos e gases de efeito estufa. A respeito das fontes de energia renováveis, considere as seguintes afirmações: I - a energia eólica permite a geração de energia elétrica em grande escala; II - a energia solar não permite a geração de energia elétrica em grande escala; III - as células de hidrogênio permitem a geração de energia elétrica em grande escala. A(s) afirmação(ões) correta(s) é(são) apenas:",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "II e III"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2006, Q40",
+   "q": "O setor elétrico vem sofrendo algumas mudanças no sentido de permitir a introdução da iniciativa privada no mercado de energia elétrica e, com isso, estabelecer a competitividade. Como conseqüência, espera-se melhorar a qualidade e diminuir os custos para o consumidor final. A medida que contribui para o estabelecimento dessa competitividade é a(o):",
+   "alts": {
+    "A": "introdução das geradoras térmicas pela iniciativa privada.",
+    "B": "construção de usinas hidrelétricas de grande porte.",
+    "C": "desverticalização das empresas do setor elétrico existentes.",
+    "D": "privatização das usinas hidrelétricas existentes.",
+    "E": "aumento da participação do Estado na geração."
+   },
+   "correta": "C"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   28,
+   31,
+   36
+  ],
+  "quebradas": [
+   32
+  ]
+ }
+}

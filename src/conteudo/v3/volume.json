@@ -1,0 +1,27 @@
+{
+ "id": "v3",
+ "t": "Soldagem, END e Fabricação",
+ "sub": "Bloco 3 · ~31% da prova",
+ "mods": [
+  {
+   "id": "v3m1",
+   "n": "Módulo 1",
+   "t": "Soldagem I: Processos, Terminologia e Simbologia"
+  },
+  {
+   "id": "v3m2",
+   "n": "Módulo 2",
+   "t": "Soldagem II: Metalurgia da Soldagem, Schaeffler, Defeitos e Soldabilidade"
+  },
+  {
+   "id": "v3m3",
+   "n": "Módulo 3",
+   "t": "Ensaios Não Destrutivos (END)"
+  },
+  {
+   "id": "v3m4",
+   "n": "Módulo 4",
+   "t": "Processos de Fabricação: Siderurgia, Fundição e Conformação"
+  }
+ ]
+}

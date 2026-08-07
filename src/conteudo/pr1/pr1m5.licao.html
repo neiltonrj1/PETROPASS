@@ -1,0 +1,64 @@
+<p><strong>1. Os quatro tipos de arranjo físico.</strong> É o tema com maior chance de cair com conta junto.</p>
+<table>
+<thead>
+<tr><th>Arranjo</th><th>Como se organiza</th><th>Volume × variedade</th><th>Ponto forte / fraco</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Posicional</strong> (fixo)</td><td>o produto fica parado; recursos vão até ele</td><td>volume mínimo, variedade máxima</td><td>produto grande demais para mover / custo alto por unidade</td></tr>
+<tr><td><strong>Funcional</strong> (por processo)</td><td>agrupa recursos <em>semelhantes</em> (torno com torno)</td><td>baixo volume, alta variedade</td><td>flexível e robusto a quebras / fluxo confuso, muito estoque em processo, lead time longo</td></tr>
+<tr><td><strong>Celular</strong></td><td>agrupa tudo que uma <em>família</em> de peças precisa</td><td>médio</td><td>compromisso entre os dois / exige reorganizar máquinas</td></tr>
+<tr><td><strong>Por produto</strong> (linha)</td><td>recursos na <em>sequência</em> das operações</td><td>alto volume, baixa variedade</td><td>custo unitário baixo, fluxo simples e previsível / rígido e vulnerável — parou um posto, parou a linha</td></tr>
+</tbody>
+</table>
+<p><strong>Vantagens do arranjo por produto que a banca lista:</strong> fluxo previsível e visível, baixo estoque em processo, baixo custo unitário, movimentação curta e conveniente, controle simples. <strong>Desvantagens:</strong> pouca flexibilidade de mix, trabalho repetitivo, e a linha inteira depende do posto mais lento.</p>
+
+<p><strong>2. Balanceamento de linha.</strong> As três contas que aparecem juntas:</p>
+<p><strong>Tempo de ciclo</strong> = tempo disponível ÷ demanda do período.<br>
+<strong>Número mínimo teórico de postos</strong> <em>N</em> = conteúdo de trabalho total ÷ tempo de ciclo (arredondado <strong>para cima</strong>).<br>
+<strong>Eficiência do balanceamento</strong> = conteúdo de trabalho total ÷ (nº real de postos × tempo de ciclo).</p>
+<p>A <strong>perda por balanceamento</strong> é o complemento da eficiência. O <strong>tempo de atravessamento</strong> (<em>throughput time</em>) ≈ nº de postos × tempo de ciclo.</p>
+<p><strong>Pegadinha:</strong> quem <em>dita</em> a capacidade real da linha é o <strong>posto mais lento</strong> (o gargalo), não a média. Se o ciclo exigido for menor que o tempo do posto mais lento, a linha não atende à demanda por mais que se acrescentem postos em outros pontos.</p>
+
+<p><strong>3. Capacidade: os três nomes.</strong></p>
+<table>
+<thead>
+<tr><th>Capacidade</th><th>O que é</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>de projeto</strong></td><td>a nominal, do catálogo, sem nenhuma perda</td></tr>
+<tr><td><strong>efetiva</strong></td><td>projeto − perdas <em>planejadas</em> (setup, manutenção preventiva, troca de turno)</td></tr>
+<tr><td><strong>real / produção efetiva</strong></td><td>efetiva − perdas <em>não planejadas</em> (quebra, falta de material, refugo)</td></tr>
+</tbody>
+</table>
+<p><strong>Utilização = real ÷ projeto</strong> · <strong>Eficiência = real ÷ efetiva</strong>. Trocar as duas é o erro mais comum. E <strong>OEE = disponibilidade × desempenho × qualidade</strong>.</p>
+
+<p><strong>4. Estratégias de capacidade.</strong> <strong>Antecipar</strong> a demanda (capacidade à frente: nunca perde venda, mas ociosa), <strong>acompanhar</strong> (atrás da demanda: alta utilização, perde venda no pico) ou <strong>ajustar com estoque</strong>. Ampliação em <strong>degraus</strong>: quanto maior o degrau, maior a economia de escala e maior o risco de ociosidade.</p>
+<p>O gatilho econômico para ampliar é o <strong>ponto de equilíbrio da nova capacidade</strong>: a demanda adicional precisa gerar margem de contribuição suficiente para cobrir o <em>custo fixo do incremento</em>. Conta típica: <em>demanda adicional = custo fixo do incremento ÷ margem de contribuição unitária</em>.</p>
+
+<p><strong>5. Economias e deseconomias de escala.</strong> O custo unitário cai com o volume até um ponto (diluição de fixos, poder de compra, especialização) e volta a subir depois (complexidade de coordenação, congestionamento, transporte, burocracia). A curva de custo médio de longo prazo é, por isso, em <strong>U</strong>.</p>
+
+<p><strong>6. Localização de instalações.</strong> Fatores determinantes: proximidade de mercado e de fornecedores, custo e disponibilidade de mão de obra, custo de transporte (entrada e saída), infraestrutura, incentivos fiscais e restrições ambientais. O <strong>método do centro de gravidade</strong> dá o ponto que minimiza o custo de transporte ponderado:</p>
+<p><em>x*</em> = Σ(<em>V<sub>i</sub></em>·<em>x<sub>i</sub></em>) ÷ Σ<em>V<sub>i</sub></em> &nbsp;·&nbsp; <em>y*</em> = Σ(<em>V<sub>i</sub></em>·<em>y<sub>i</sub></em>) ÷ Σ<em>V<sub>i</sub></em>, com <em>V<sub>i</sub></em> = volume movimentado até o ponto <em>i</em>.</p>
+<p><strong>Pegadinha:</strong> o <em>preço de venda do produto</em> não é fator determinante de localização — o que pesa é custo logístico, mercado, insumo e mão de obra.</p>
+
+<p><strong>7. Sequenciamento de ordens (uma máquina).</strong> Regras de despacho e o que cada uma minimiza:</p>
+<table>
+<thead>
+<tr><th>Regra</th><th>Critério</th><th>Bom para</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>SPT / MTP</strong> (menor tempo de processamento)</td><td>o trabalho mais curto primeiro</td><td>minimiza o <strong>tempo médio de fluxo</strong> e o nº médio de trabalhos no sistema</td></tr>
+<tr><td><strong>EDD</strong> (menor data de entrega)</td><td>o que vence antes</td><td>minimiza o <strong>atraso máximo</strong></td></tr>
+<tr><td><strong>PEPS/FIFO</strong></td><td>ordem de chegada</td><td>justiça percebida</td></tr>
+<tr><td><strong>Menor folga</strong> (<em>slack</em>)</td><td>(prazo − hoje) − tempo restante</td><td>urgência real</td></tr>
+<tr><td><strong>IPI</strong> (índice de prioridade)</td><td>tempo restante ÷ trabalho restante</td><td>múltiplas operações</td></tr>
+</tbody>
+</table>
+<p>Para <strong>duas máquinas em série</strong>, use a <strong>regra de Johnson</strong>: separe os menores tempos; se o menor tempo está na máquina 1, coloque o trabalho <em>no começo</em>; se está na máquina 2, <em>no fim</em>; repita para os restantes, de fora para dentro. Ela minimiza o <em>makespan</em>.</p>
+
+<p><strong>8. Estudo de tempos e movimentos.</strong> <strong>Estudo de movimentos</strong> = análise detalhada dos movimentos do corpo empregados na execução da tarefa, para eliminar os desnecessários e simplificar/ordenar os úteis (Gilbreth, <em>therbligs</em>). <strong>Estudo de tempos</strong> = cronoanálise:</p>
+<p><strong>Tempo normal = tempo cronometrado médio × ritmo</strong> · <strong>Tempo-padrão = tempo normal × (1 + fator de tolerância)</strong>.</p>
+
+<p><strong>9. Produtividade.</strong> <strong>Produtividade = saída ÷ entrada</strong>. Parcial quando usa um insumo só (peças por hora-homem); total quando usa todos, em valor. Cuidado: <em>produção</em> é a saída absoluta; <em>produtividade</em> é a razão. Aumentar a produção sem mexer nos insumos aumenta a produtividade; aumentar os dois na mesma proporção, não.</p>
+
+<p><strong>Resumo de véspera:</strong> funcional agrupa recursos iguais, por produto segue a sequência; ciclo = tempo disponível ÷ demanda; eficiência de balanceamento = conteúdo ÷ (postos × ciclo); utilização usa projeto, eficiência usa efetiva; centro de gravidade pondera por volume; SPT minimiza fluxo médio e EDD minimiza atraso máximo; Johnson resolve duas máquinas.</p>

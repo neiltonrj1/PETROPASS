@@ -1,0 +1,77 @@
+<p><strong>1. A ideia de Fortescue.</strong> Qualquer conjunto de três fasores desequilibrados se decompõe em <strong>três conjuntos equilibrados</strong>:</p>
+<table>
+<thead>
+<tr><th>Sequência</th><th>Como são os três fasores</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Positiva (direta, 1)</strong></td><td>iguais em módulo, defasados <strong>120°</strong>, na <strong>mesma</strong> sequência de fases do sistema (a-b-c)</td></tr>
+<tr><td><strong>Negativa (inversa, 2)</strong></td><td>iguais em módulo, defasados <strong>120°</strong>, na sequência <strong>oposta</strong> (a-c-b)</td></tr>
+<tr><td><strong>Zero (homopolar, 0)</strong></td><td>iguais em módulo e <strong>em fase</strong> — defasagem <strong>zero</strong> entre eles</td></tr>
+</tbody>
+</table>
+<p><strong>Definição que cai literal:</strong> "as componentes de sequência negativa consistem em três fasores iguais em módulo, defasados de 120° entre si e com sequência de fases <em>oposta</em> à do sistema original". Se a alternativa disser "em fase", é sequência <strong>zero</strong>; se disser "mesma sequência", é <strong>positiva</strong>.</p>
+
+<p><strong>2. A matriz de transformação.</strong> Com o operador <strong>a = 1∠120°</strong> (e a² = 1∠240°, a³ = 1, 1 + a + a² = 0):</p>
+<p>[V<sub>a</sub> V<sub>b</sub> V<sub>c</sub>]<sup>T</sup> = <strong>A</strong> · [V₀ V₁ V₂]<sup>T</sup>, com <strong>A</strong> = [[1,1,1],[1,a²,a],[1,a,a²]].</p>
+<p>E o caminho inverso: <strong>V₀ = ⅓(V<sub>a</sub> + V<sub>b</sub> + V<sub>c</sub>)</strong>, <strong>V₁ = ⅓(V<sub>a</sub> + aV<sub>b</sub> + a²V<sub>c</sub>)</strong>, <strong>V₂ = ⅓(V<sub>a</sub> + a²V<sub>b</sub> + aV<sub>c</sub>)</strong>.</p>
+<p><strong>Consequências práticas:</strong> num sistema <strong>equilibrado</strong> só existe sequência <strong>positiva</strong> (V₀ = V₂ = 0). A componente de <strong>sequência zero é a média das três</strong> — logo, sem retorno pela terra ou pelo neutro, <strong>I₀ = 0</strong>. Num sistema a três fios sem neutro, a corrente de sequência zero simplesmente não existe.</p>
+
+<p><strong>3. Redes de sequência dos equipamentos.</strong></p>
+<table>
+<thead>
+<tr><th>Equipamento</th><th>Z₁</th><th>Z₂</th><th>Z₀</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Linha de transmissão</strong></td><td>Z₁ = Z<sub>próp</sub> − Z<sub>mútua</sub></td><td>= Z₁</td><td>Z₀ = Z<sub>próp</sub> + 2Z<sub>mútua</sub> — tipicamente <strong>2,5 a 3,5 vezes Z₁</strong></td></tr>
+<tr><td><strong>Transformador</strong></td><td>Z<sub>curto</sub></td><td>= Z₁</td><td>depende da <strong>ligação</strong> e do aterramento</td></tr>
+<tr><td><strong>Máquina síncrona</strong></td><td>X″<sub>d</sub></td><td>≈ X″<sub>d</sub></td><td>o menor dos três</td></tr>
+</tbody>
+</table>
+<p><em>Conta típica:</em> linha de 120 km com z<sub>própria</sub> = 0,02 + j0,05 Ω/km e z<sub>mútua</sub> = j0,02 Ω/km.<br>
+z₁ = (0,02 + j0,05) − j0,02 = 0,02 + j0,03 Ω/km ⇒ <strong>Z₁ = 120 × (0,02 + j0,03) = 2,4 + j3,6 Ω</strong>.<br>
+z₀ = (0,02 + j0,05) + 2(j0,02) = 0,02 + j0,09 ⇒ Z₀ = 2,4 + j10,8 Ω.</p>
+<p><strong>Guarde:</strong> sequência <strong>positiva subtrai</strong> a mútua; sequência <strong>zero soma o dobro</strong> dela.</p>
+
+<p><strong>4. Como o transformador se comporta na rede de sequência zero.</strong> Regra prática:</p>
+<ul>
+<li><strong>Y aterrado – Δ:</strong> passa Z₀ do lado Y-aterrado até o delta; o delta <strong>fecha o caminho internamente</strong> e não transfere para o outro lado.</li>
+<li><strong>Y aterrado – Y aterrado:</strong> passa Z₀ dos dois lados (é o único que "atravessa").</li>
+<li><strong>Y aterrado – Y isolado:</strong> <strong>não há caminho</strong> — a corrente de sequência zero de um lado não aparece no outro.</li>
+<li><strong>Δ – Δ:</strong> circuito aberto para sequência zero em ambos os lados.</li>
+</ul>
+
+<p><strong>5. Os quatro tipos de falta.</strong> Conectando as redes de sequência conforme o tipo:</p>
+<table>
+<thead>
+<tr><th>Falta</th><th>Conexão das redes</th><th>Corrente na fase faltosa</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Trifásica</strong> (simétrica)</td><td>só a rede de sequência positiva</td><td>I = V ÷ Z₁ · <em>geralmente a maior</em></td></tr>
+<tr><td><strong>Fase-terra</strong></td><td>as três redes em <strong>série</strong></td><td><strong>I<sub>falta</sub> = 3·I₁ = 3V ÷ (Z₁+Z₂+Z₀+3Z<sub>f</sub>)</strong></td></tr>
+<tr><td><strong>Fase-fase</strong></td><td>positiva e negativa em <strong>paralelo</strong> (sem a zero)</td><td>I = √3·V ÷ (Z₁+Z₂) ≈ 0,866 da trifásica</td></tr>
+<tr><td><strong>Fase-fase-terra</strong></td><td>positiva em série com o paralelo de negativa e zero</td><td>—</td></tr>
+</tbody>
+</table>
+<p><strong>Ponto que cai direto:</strong> na falta <strong>fase-terra</strong> vale <strong>I₁ = I₂ = I₀</strong>, e a corrente total da fase é a <strong>soma das três</strong>, ou seja, <strong>três vezes</strong> a de sequência positiva. Se a questão informa I₁ = 100 A no ponto da falta fase-terra, a corrente de falta é <strong>300 A</strong>.</p>
+<p>Outra: em rede com Z₀ &lt; Z₁ (perto de gerador ou de transformador com neutro solidamente aterrado), a corrente de <strong>falta fase-terra pode superar a trifásica</strong>. Por isso se usa aterramento por resistor ou reator para limitá-la.</p>
+
+<p><strong>6. Estatística das faltas.</strong> Ordem de frequência em sistemas de potência: <strong>fase-terra (~70–80 %) &gt; fase-fase (~15 %) &gt; fase-fase-terra (~5–10 %) &gt; trifásica (~2–5 %)</strong>. A trifásica é a mais rara e, em geral, a mais severa — daí ser o caso base do dimensionamento.</p>
+
+<p><strong>7. Aterramento do neutro do sistema.</strong></p>
+<table>
+<thead>
+<tr><th>Tipo</th><th>Corrente de falta à terra</th><th>Sobretensão nas fases sãs</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Solidamente aterrado</strong></td><td>alta</td><td>baixa (≈1,0 p.u.)</td></tr>
+<tr><td><strong>Por resistor/reator</strong></td><td>limitada</td><td>moderada</td></tr>
+<tr><td><strong>Isolado</strong></td><td>só capacitiva, muito baixa</td><td><strong>alta</strong> (até √3 p.u.) e risco de ferrorressonância</td></tr>
+</tbody>
+</table>
+<p>É o compromisso clássico: limitar a corrente de falta aumenta a sobretensão e dificulta a detecção pela proteção.</p>
+
+<p><strong>8. Efeito das correntes de sequência negativa nas máquinas.</strong> A sequência negativa gira ao contrário e induz correntes no rotor com frequência <strong>2f</strong>, provocando <strong>aquecimento intenso</strong>. Por isso motores e geradores têm proteção de <strong>desequilíbrio (função 46)</strong>, com limite do tipo I₂²·t ≤ K. Motor alimentado com tensões desequilibradas perde conjugado e sobreaquece — um desequilíbrio de 3 % nas tensões pode gerar 20 % de desequilíbrio nas correntes.</p>
+
+<p><strong>9. Componente contínua e assimetria.</strong> A corrente de curto real tem uma <strong>componente CC</strong> que depende do instante da falta e decai com a constante de tempo X/R. Ela define a <strong>corrente assimétrica</strong>, usada para verificar o esforço eletrodinâmico e a capacidade de fechamento dos disjuntores. Fator de assimetria típico: 1,5 a 1,7 vezes o valor eficaz simétrico.</p>
+
+<p><strong>Resumo de véspera:</strong> zero está em fase, negativa tem sequência oposta, positiva é a normal; V₀ = média das três; Z₁ subtrai a mútua e Z₀ soma 2×; Y-aterrado com Y-isolado não passa sequência zero; fase-terra liga as três redes em série e I<sub>falta</sub> = 3I₁; fase-terra é a falta mais comum e a trifásica a mais rara; sequência negativa aquece o rotor.</p>

@@ -1,0 +1,32 @@
+{
+ "id": "pr2",
+ "t": "Qualidade, Logística, Custos e Pessoas",
+ "sub": "Bloco 2 · o resto da prova de Produção",
+ "mods": [
+  {
+   "id": "pr2m1",
+   "n": "Módulo 1",
+   "t": "Gestão da qualidade, custos da qualidade e Seis Sigma"
+  },
+  {
+   "id": "pr2m2",
+   "n": "Módulo 2",
+   "t": "Logística, cadeia de suprimentos e roteirização"
+  },
+  {
+   "id": "pr2m3",
+   "n": "Módulo 3",
+   "t": "Custos, custeio, ponto de equilíbrio e engenharia econômica"
+  },
+  {
+   "id": "pr2m4",
+   "n": "Módulo 4",
+   "t": "Ergonomia, organização do trabalho e segurança"
+  },
+  {
+   "id": "pr2m5",
+   "n": "Módulo 5",
+   "t": "Pesquisa operacional, estatística, confiabilidade e manutenção"
+  }
+ ]
+}

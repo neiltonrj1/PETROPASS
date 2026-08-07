@@ -1,0 +1,59 @@
+<p><strong>1. As três regiões da junta soldada.</strong> Toda solda por fusão apresenta: <strong>Zona Fundida (ZF)</strong> — fundiu e solidificou (grãos colunares/dendríticos, composição = mistura MB + adição); <strong>Zona Termicamente Afetada (ZTA)</strong> — porção do metal de base <strong>adjacente à ZF que não fundiu, mas aqueceu e sofreu alterações microestruturais/de propriedades</strong> pelo ciclo térmico; <strong>Metal de Base (MB)</strong> inalterado. A definição da ZTA é <em>microestrutural</em>, não uma temperatura fixa — não decore "acima de 727 °C": há efeitos também abaixo (revenimento, envelhecimento).</p>
+<p><strong>2. ZTA dos aços-carbono</strong> (seguindo a direção do fluxo de calor, da ZF para o MB):
+1. <strong>Região de granulação grosseira</strong> (junto à linha de fusão, T ≫ A₃): crescimento de grão austenítico → pior tenacidade, pode formar bainita/martensita;
+2. <strong>Região de granulação fina / normalizada</strong> (pouco acima de A₃): refino de grão;
+3. <strong>Região intercrítica / parcialmente transformada</strong> (entre A₁=727 °C e A₃): só a perlita austenitiza;
+4. <strong>Região subcrítica</strong> (abaixo de A₁): revenimento/esferoidização.</p>
+<p><strong>Mnemônico: "G-F-P-S"</strong> (Grosseira → Fina → Parcial → Subcrítica). Em aço baixa liga normalizado (~0,3%C), a ZTA de granulação grosseira resfriada rapidamente exibe misturas de <strong>ferrita, bainita e martensita</strong>.</p>
+<p><strong>3. ZTA de ligas não transformáveis:</strong>
+- <strong>Alumínio e ligas encruadas:</strong> mudança mais marcante = <strong>crescimento de grão</strong> e recristalização (perda do encruamento).
+- <strong>Ligas endurecíveis por precipitação (Al-Mg-Si, série 6XXX):</strong> <strong>dissolução e crescimento/coalescimento dos precipitados</strong> (superenvelhecimento) → queda de resistência na ZTA.
+- <strong>Cobre eletrolítico (tough pitch):</strong> contém Cu₂O; na soldagem forma <strong>partículas de óxido nos contornos de grão</strong> e sofre "doença do hidrogênio" (H₂ + Cu₂O → H₂O vapor → trincas/poros). Prefira cobre desoxidado com fósforo.
+- <strong>Aços inoxidáveis austeníticos:</strong> sensitização (precipitação de carbonetos de Cr em contornos, 450–850 °C) em região preferencial da ZTA → corrosão intergranular.</p>
+<p><strong>4. Microestruturas da ZF de aços C-Mn</strong> (do pior para o melhor em tenacidade): martensita/carbonetos ≪ ferrita proeutetoide (de contorno de grão) &lt; ferrita de Widmanstätten &lt; <strong>ferrita acicular</strong> (fina, intragranular, entrelaçada — <strong>a melhor tenacidade</strong>; nucleia em inclusões, favorecida por Ti/O controlado).</p>
+<p><strong>5. Diluição.</strong> <code>D = (massa de MB fundida) / (massa total da ZF) × 100%</code>. A composição da ZF é média ponderada: <code>X_ZF = (1−D)·X_adição + D·X_base</code>. Em solda dissimilar de dois metais de base, reparta a fração D igualmente (D/2 para cada), salvo indicação. Valores típicos: TIG com adição 2–20%; eletrodo revestido 10–30%; plasma com adição 20–40%; arco submerso 30–60%.</p>
+<p><strong>6. Diagrama de Schaeffler</strong> — prevê a microestrutura da ZF de aços inoxidáveis (campos A, F, M e mistos):
+- <strong>Cr-equivalente (eixo x):</strong> <code>Cr_eq = %Cr + %Mo + 1,5·%Si + 0,5·%Nb</code> → elementos <strong>ferritizantes</strong> (Cr, Mo, Si, Nb; também Al, Ti, V, W).
+- <strong>Ni-equivalente (eixo y):</strong> <code>Ni_eq = %Ni + 30·%C + 0,5·%Mn</code> → elementos <strong>austenitizantes</strong> (Ni, C — peso 30!, Mn; também N e Cu em versões derivadas).
+- <strong>Método com diluição:</strong> calcule Cr_eq/Ni_eq de cada material, marque os pontos, obtenha o ponto da ZF pela média ponderada (regra da alavanca sobre o segmento adição–base) e leia o campo.
+- Regiões de risco (decore!): <strong>Ni_eq alto (austenita pura) → trinca a quente</strong>; <strong>Cr_eq alto (ferrita alta) → crescimento de grão e fase sigma (475–900 °C)</strong>; <strong>canto inferior esquerdo (martensita) → trinca a frio</strong>. A "zona segura" da solda inox é austenita com <strong>~5–10% de ferrita delta</strong> (a ferrita dissolve S e P e trava as trincas de solidificação).</p>
+<p><strong>7. Descontinuidades e defeitos</strong> (descontinuidade ≠ defeito: só é defeito se reprovar pelo critério de aceitação):
+- <strong>Porosidade:</strong> gases retidos no metal líquido aprisionados na solidificação (H₂ de umidade, sujeira);
+- <strong>Falta de fusão:</strong> ausência de continuidade metalúrgica entre metal de solda e MB <strong>ou entre passes adjacentes</strong>;
+- <strong>Falta de penetração:</strong> raiz não preenchida/insuficiente;
+- <strong>Mordedura:</strong> entalhe no MB na margem do cordão (corrente alta, técnica ruim);
+- <strong>Inclusão de escória</strong>, respingos, distorções/empenamento (contração térmica).</p>
+<p><strong>8. Trincas — o par clássico:</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Trinca A FRIO (induzida por H)</strong></th>
+<th><strong>Trinca A QUENTE (solidificação/liquação)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quando</td>
+<td>Horas/dias depois (tempo de incubação), T &lt; ~200 °C</td>
+<td>Durante/logo após a solidificação, T alta</td>
+</tr>
+<tr>
+<td>Onde</td>
+<td>ZTA (e ZF) — típica "sob o cordão"</td>
+<td>Centro do cordão, interdendrítica</td>
+</tr>
+<tr>
+<td>Fatores</td>
+<td><strong>H₂ (umidade do revestimento) + microestrutura frágil (martensita, ZTA de baixa tenacidade) + tensões residuais trativas</strong></td>
+<td>Filmes líquidos de baixo ponto de fusão: <strong>S, P</strong> (FeS), austenita pura, restrição, formato desfavorável do cordão</td>
+</tr>
+<tr>
+<td>Prevenção</td>
+<td>Preaquecimento, eletrodos baixo-H <strong>secos</strong>, pós-aquecimento, menor restrição</td>
+<td>Baixar S e P, Mn/S alto, ferrita delta 5–10%, cordão convexo adequado</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mnemônico trinca a frio: "HMT" — Hidrogênio + Microestrutura dura + Tensão trativa</strong> (os três juntos!).</p>
+<p><strong>9. Soldabilidade.</strong> <em>Metalúrgica</em>: capacidade do material de ser soldado sem degradação — expressa pelo <strong>carbono equivalente</strong> <code>CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15</code> (CE &gt; ~0,40% → risco de trinca a frio → preaquecer). A soldabilidade metalúrgica responde por trinca a frio na ZTA, perda de tenacidade, sensitização. Já as <strong>tensões residuais</strong> surgem da contração térmica não uniforme — existem mesmo em material de soldabilidade perfeita (são questão <em>operacional/de projeto</em>, não metalúrgica). Aços de baixo C: excelente soldabilidade (mas Mn, Si, S, P influenciam a tenacidade da junta); aços de médio/alto C: trincas na ZTA mesmo sem resfriamento brusco.</p>

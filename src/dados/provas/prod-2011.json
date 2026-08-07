@@ -1,0 +1,539 @@
+{
+ "id": "prod-2011",
+ "trilha": "producao",
+ "ano": 2011,
+ "nome": "Eng. Jr — Produção",
+ "processo": "Petrobras PSP RH 3/2011",
+ "caderno": "prova_14_engenheiro_a_junior_area_producao.pdf",
+ "folhaGabarito": "gabaritos.pdf",
+ "total": 40,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2011, Q21",
+   "q": "A receita (vendas) e o custo das mercadorias vendidas (CMV), referentes ao departamento de administração de materiais de uma grande empresa, estão indicados na tabela a seguir. Valores em R$ Despesas Receitas 1 - Receita (Vendas) 2.000.000,00 2 - CVM: 2.1 - Mão de Obra Direta 250.000,00 2.2 - Materiais Diretos 750.000,00 2.3 - Custos Indiretos de Produção 200.000,00 Considerando-se redução de 20% no custo de material direto, redução de 10% nos custos indiretos de produção e que o custo da mão de obra direta permanece inalterado, o lucro, em mil reais, ficará entre",
+   "alts": {
+    "A": "100 e 200",
+    "B": "300 e 400",
+    "C": "500 e 600",
+    "D": "700 e 800",
+    "E": "900 e 1.000"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2011, Q22",
+   "q": "Numa empresa manufatureira, a administração de materiais é uma função coordenadora responsável pelo planejamento e controle do fluxo dos materiais. O planejamento de materiais tem, entre outros, o(s) objetivo(s) de",
+   "alts": {
+    "A": "minimizar o fluxo das informações e o giro de estoque.",
+    "B": "minimizar o giro de estoque de materiais e coordenar as operações de produção.",
+    "C": "coordenar as operações de produção e aumentar o lead time das atividades fabris.",
+    "D": "reduzir os investimentos em estoque e maximizar os níveis de atendimento aos clientes.",
+    "E": "reduzir a utilização dos recursos da empresa e minimizar o fluxo das informações."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2011, Q23",
+   "q": "Em um sistema produtivo, são necessários os seguintes insumos: a formulação de planos para atingir as metas empresariais; a descrição dos produtos feita através da lista de material e suas quantidades; as especificações do processo com instruções detalhadas; o tempo necessário para realizar as tarefas; e os recursos que estão disponíveis na empresa. Esses insumos básicos são integrantes do sistema de",
+   "alts": {
+    "A": "compras e financeiro da empresa",
+    "B": "distribuição e recebimento de materiais",
+    "C": "planejamento e controle da produção",
+    "D": "promoções e vendas de produtos e serviços",
+    "E": "marketing empresarial Considere as informações e a tabela a seguir para responder às questões de nos 24 e 25. A Indústria de Embalagens Cardoso Ltda. é uma conceituada empresa de fabricação de caixas de papelão especiais. A tabela abaixo apresenta uma lista de recursos básicos (papelão ondulado e tempo de trabalho) necessários para a produção de cada grupo de produto. Tabela: Recursos utilizados na produção Produto Papelão Ondulado (em cm 2) Tempo de Trabalho (minuto-padrão) caixa tipo A-1 60 3 caixa tipo B-5 30 2 caixa tipo C-7 15 1 Essa empresa recebeu uma encomenda de um cliente especial e precisa fabricar 2.000 caixas tipo A-1, 4.000 caixas tipo B-5 e 6.000 caixas tipo C-7."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2011, Q24",
+   "q": "A quantidade necessária de papelão ondulado, em metros quadrados, para atender a essa encomenda, está entre",
+   "alts": {
+    "A": "10 e 15",
+    "B": "20 e 25",
+    "C": "30 e 35",
+    "D": "40 e 45",
+    "E": "50 e 55"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2011, Q25",
+   "q": "O tempo de trabalho, em horas, necessário para atender à encomenda solicitada, está compreendido entre",
+   "alts": {
+    "A": "100 e 250",
+    "B": "300 e 400",
+    "C": "500 e 550",
+    "D": "600 e 700",
+    "E": "800 e 850"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2011, Q26",
+   "q": "Um engenheiro de produção de uma fábrica de embalagens atua como projetista de processo de fabricação e deseja avaliar dois métodos para a produção de contêiner, que utiliza em seu insumo material de alta resistência ao impacto. O 1o método tem um custo fixo de R$ 3.000,00 para ferramentaria e gabaritos, e um custo variável de R$ 5,00 por unidade. O 2 o método exige a compra de uma máquina importada no valor de R$ 23.000,00 e tem custos variáveis de R$ 2,00 por unidade. A variação do custo, em mil reais, entre os dois processos para a produção de 4.000 unidades de contêiner produzidas, está compreendida entre",
+   "alts": {
+    "A": "4,5 e 6,5",
+    "B": "7,2 e 9,5",
+    "C": "10,1 e 15,0",
+    "D": "18,4 e 21,2",
+    "E": "22,0 e 23,6"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2011, Q27",
+   "q": "O processo de determinar, detalhadamente, os recursos necessários para realizar a produção, em cada centro de trabalho, é feito através do CRP (Capacity Requirements Planning). Um dos insumos exigidos para esse planejamento é o(a)",
+   "alts": {
+    "A": "arquivo de roteamento",
+    "B": "inventário rotativo",
+    "C": "Electronic Data Interchange – EDI",
+    "D": "inspeção do produto acabado",
+    "E": "localização dos fornecedores"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2011, Q28",
+   "q": "Em uma fábrica de embalagens, o departamento de produção tem seu centro de trabalho com disponibilidade de 140 horas semanais, sendo que as embalagens são produzidas durante 112 horas, não havendo outra atividade a ser feita. Nessas condições, o percentual de utilização desse centro de trabalho é de",
+   "alts": {
+    "A": "20%",
+    "B": "56%",
+    "C": "65%",
+    "D": "70%",
+    "E": "80%"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2011, Q29",
+   "q": "O departamento de produção de uma empresa, que atua no ramo de fabricação de envelopes plásticos, dispõe, em seu centro de trabalho, de cinco máquinas, que operam oito horas por dia, durante seis dias por semana. A utilização média desse setor tem sido de 80%, e sua eficiência, de 110%. Nessas condições, a capacidade calculada para esse centro de trabalho, numa semana média, em horas padrão, está entre",
+   "alts": {
+    "A": "200 e 215",
+    "B": "185 e 190",
+    "C": "150 e 155",
+    "D": "130 e 140",
+    "E": "110 e 125"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2011, Q30",
+   "q": "O centro de trabalho de produção de cartões-postais personalizados das Indústrias Beleza Postal Ltda. deve fabricar um lote com 200 unidades de um de seus produtos, conforme pedido PT-123. O tempo de preparação das máquinas é de 30 minutos, e o tempo de operação é de 0,2 horas por unidade. Nessas condições, o tempo padrão necessário para atender a esse pedido, em horas padrão, está entre",
+   "alts": {
+    "A": "24 e 26",
+    "B": "39 e 42",
+    "C": "50 e 60",
+    "D": "62 e 72",
+    "E": "88 e 93"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2011, Q31",
+   "q": "A Eco Máquinas para Embalagens Ltda. é uma empresa de médio porte, usuária do FMS (Flexible Manufacturing System), que se utiliza da automação para transporte e manuseio de materiais para usinagem. O uso de um FMS traz como benefício o(a)",
+   "alts": {
+    "A": "aumento no uso de mão de obra",
+    "B": "aumento de estoque de itens em processo",
+    "C": "incremento do tempo de transporte dos itens",
+    "D": "redução do lead time da produção",
+    "E": "redução da utilização dos equipamentos da linha de produção"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2011, Q32",
+   "q": "A Cia. Barbono Ltda. investiu, nos últimos dois anos, aproximadamente R$ 2 milhões de reais na informatização de seus processos financeiros, controle de compras, de almoxarifado, entre outros processos, integrando todos os departamentos. O Sr. Barbono esperava que os tempos de resposta, principalmente dos processos de compras e controle do almoxarifado, fossem melhorados. Entretanto, após a implantação dos softwares, os processos se tornaram mais lentos, particularmente no setor de compras, onde as aquisições em caráter de urgência aumentaram significativamente as despesas. Uma consultoria foi contratada para fazer um diagnóstico e apontar as causas do problema. Analise as causas apontadas a seguir. I - As requisições de compras tinham normas que exigiam assinatura e carimbo devidamente reconhecidos e procedimentos feitos manualmente. II - O planejamento das necessidades de material era feito quando o estoque terminava. III - O fluxo do processo de compras tinha controles rígidos, exigindo assinaturas dos três níveis hierárquicos da organização, chegando até o Sr. Barbono, que podia vetar a solicitação. IV - A estrutura organizacional era centralizada. Estão corretas as causas descritas em",
+   "alts": {
+    "A": "I e II, apenas.",
+    "B": "I e IV, apenas.",
+    "C": "III e IV, apenas.",
+    "D": "I, II e III, apenas.",
+    "E": "I, II, III e IV."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2011, Q33",
+   "q": "Uma empresa possui 200 funcionários contratados para trabalharem 40 horas por semana, em jornada normal de 8 horas. Se, no mês de agosto, houve 78 ausências e, em relação a meias faltas e atrasos, tinha-se verificado que os funcionários deixaram de trabalhar um total de 16 horas no mês, o índice de absentismo, no referido período, foi de",
+   "alts": {
+    "A": "5%",
+    "B": "4%",
+    "C": "3%",
+    "D": "2%",
+    "E": "1%"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2011, Q34",
+   "q": "Uma empresa pretende realizar uma previsão de demanda para um determinado item produzido. A tabela a seguir mostra a demanda realizada nos seis últimos períodos. Mês janeiro fevereiro março abril maio junho Demanda realizada (unidades) 120 130 125 140 145 150 Com base na tabela acima, é INCORRETO afirmar que, utilizando-se o método da média móvel",
+   "alts": {
+    "A": "simples, tomando por referência os três últimos períodos, o valor projetado para julho será igual a 145 unidades.",
+    "B": "simples, tomando por referência os quatro últimos períodos, o valor projetado para julho será igual a 140 unidades.",
+    "C": "simples, tomando por referência todos os seis períodos, o valor projetado para julho será igual a 135 unidades.",
+    "D": "ponderada, tomando por referência os dois últimos períodos e um peso duas vezes maior para o mês de junho, o valor projetado para julho será igual a 145 unidades.",
+    "E": "ponderada, tomando por referência os três últimos períodos e um peso três vezes maior para o mês de junho, o valor projetado para julho será igual a 147 unidades."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2011, Q35",
+   "q": "O alcance dos objetivos operacionais de uma empresa relaciona-se diretamente com um planejamento de pessoal bem estruturado e executado. Um modelo de planejamento de pessoal que permita predizer uma necessidade de curto prazo, capaz de prever consequências de contingências e que possa ser utilizado na análise do sistema de carreiras, é o modelo",
+   "alts": {
+    "A": "com base na procura estimada de produto ou serviço",
+    "B": "com base no fluxo de pessoal",
+    "C": "com base em segmentos de cargos",
+    "D": "de substituição de postos-chave",
+    "E": "de Greenwald"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2011, Q36",
+   "q": "Uma empresa está ampliando o programa de qualidade total para todos os seus setores. Nesse contexto, a contribuição do departamento de planejamento de pessoal à gestão da qualidade concretiza- -se por meio de diversos modos, EXCETO pela(o)",
+   "alts": {
+    "A": "elaboração de técnicas de desenvolvimento organizacional",
+    "B": "incorporação da qualidade na gestão de recursos humanos",
+    "C": "realização da avaliação dos funcionários",
+    "D": "incentivo ao trabalho em equipe mediante recompensas individuais",
+    "E": "treinamento de funcionários para coleta de dados relevantes ao programa de qualidade"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2011, Q37",
+   "q": "Uma empresa adotou uma classificação ABC (80/20) para os itens consumidos, conforme mostra a tabela a seguir. Item Consumo anual (unidades) Custo unitário (R$) Valor consumido (R$) I 5 188,00 940,00 II x 75,00 600,00 III 15 5,00 75,00 IV 20 8,00 160,00 V 30 2,00 60,00 VI y 3,00 90,00 Com base na tabela acima, afirma-se que",
+   "alts": {
+    "A": "x + y é igual a 38, sendo o produto III da classe A.",
+    "B": "x + y é igual a 38, sendo os produtos I e II da classe A.",
+    "C": "x é igual a 8, e y é igual a 30, sendo os produtos II e VI da classe B.",
+    "D": "x é igual a 8, e y é igual a 35, sendo VI um produto da classe C.",
+    "E": "existe um produto da classe A, dois da classe B e dois da classe C."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2011, Q38",
+   "q": "Uma das práticas mais comuns na atualidade empresarial é, na gestão de recursos humanos, realizar periodicamente a avaliação de desempenho dos funcionários. Ainda que os métodos utilizados variem entre as organizações, para incorporar as especificidades pontuais de cada uma, há alguns métodos particularmente populares. Nesse sentido, afirma-se que são métodos tradicionais de avaliação de desempenho, EXCETO",
+   "alts": {
+    "A": "apuração em escala",
+    "B": "pesquisa de campo",
+    "C": "escolha forçada",
+    "D": "escalas gráficas",
+    "E": "incidentes críticos"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2011, Q39",
+   "q": "A Refortec S.A. produz componentes mecânicos para empilhadeiras. Seus custos fixos anuais são de R$ 450.000,00, e os custos variáveis unitários de R$ 150,00, por unidade. A empresa espera vender 15.000 unidades por ano, ao preço médio de R$ 300,00. Com base nessas informações, a Refortec",
+   "alts": {
+    "A": "operará com prejuízo durante três anos.",
+    "B": "operará com prejuízo durante dois anos.",
+    "C": "terá um ponto de equilíbrio equivalente a 3.000 componentes.",
+    "D": "terá um ponto de equilíbrio equivalente a 100 componentes.",
+    "E": "deverá aumentar em 10% o preço de venda dos componentes para não ter prejuízo."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2011, Q40",
+   "q": "É marcante o crescimento do uso, por departamentos de planejamento de pessoal, de técnicas que projetem, matematicamente, tendências passadas e presentes em previsões futuras, referentes ao fluxo de pessoal em uma empresa ou em um de seus setores. Nesse sentido, uma das ferramentas mais utilizadas é a matriz de probabilidade de transição, capaz de examinar o padrão geral de movimento dentro e fora da empresa e o padrão intermediário desses dois ambientes. Observe a matriz de probabilidade de transição abaixo, que descreve a proporção de empregados que estava no estado de origem, no Período 1, e, no estado de destino, no Período 2. MILKOVICH, George T.; BOUDREAU, John W. Administração de Recursos Humanos. São Paulo: Atlas, 2004, p. 150. Considerando-se a matriz acima, afirma-se que",
+   "alts": {
+    "A": "possibilita revelar oportunidades internas, como a participação cooperativa de funcionários de um setor em outro, o que não ocorre na hipótese apresentada.",
+    "B": "é inadequada para identificar padrões de carreira.",
+    "C": "é ineficaz para análises sobre o impacto das saídas na organização.",
+    "D": "permite identificar a movimentação entre os cargos relacionados a marketing e os demais.",
+    "E": "fornece dados insuficientes para a previsão de oferta interna futura. BLOCO 2"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2011, Q41",
+   "q": "Numa determinada fábrica, solicitou-se a produção de 300 unidades de um item que precisa de duas estações de trabalho, E-1 e E-2, para seu processamento. O tempo de preparação em E-1 é de 30 minutos, e o tempo de operação é de 4 minutos por item. O tempo de preparação em E-2 é de 40 minutos, e o tempo de operação é de 2 minutos por item. O tempo de espera entre as duas estações de trabalho é de meia hora. O tempo de transporte entre E-1 e E-2 é de 10 minutos. O tempo de espera, após a operação em E-2, é de 1 hora para finalizar os trabalhos nessa linha de produção. Não existe fila em nenhuma das duas estações de trabalho. O tempo exigido para a produção (MLT – Manufacturing Lead Time), em horas, está entre",
+   "alts": {
+    "A": "1 e 6",
+    "B": "8 e 14",
+    "C": "15 e 21",
+    "D": "22 e 28",
+    "E": "29 e 36"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2011, Q42",
+   "q": "Uma determinada empresa de serviços, para obter um fluxo de clientes mais eficiente, utiliza o arranjo físico por produto. Dentre as desvantagens do uso desse tipo de arranjo físico inclui-se o(a)",
+   "alts": {
+    "A": "aumento da velocidade dos serviços e de produção",
+    "B": "nível alto de utilização dos equipamentos e colaboradores",
+    "C": "sistema com baixa flexibilidade em resposta a mudanças no volume de produção",
+    "D": "tempo de treinamento menor se comparado a outro tipo de arranjo físico",
+    "E": "execução de tarefas rotineiras pelo setor de contabilidade e de compras"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2011, Q43",
+   "q": "A empresa Z busca selecionar o melhor local para a instalação de uma nova unidade de produção. Tal unidade deverá abastecer dois mercados, representados pelas cidades X e Y, com demandas iguais a 2.000 t e 3.500 t, respectivamente. Considerando-se a distância entre as duas cidades igual a 100 km, afirma-se que",
+   "alts": {
+    "A": "qualquer localização entre X e Y resultará no mesmo custo com transporte.",
+    "B": "a instalação da unidade na cidade X, para redução dos custos com transporte, é melhor do que na cidade Y, pois a quantidade consumida será menor.",
+    "C": "a localização que minimiza os custos com transporte corresponde ao meio do caminho entre as cidades, ou seja, a 50 km de cada uma.",
+    "D": "a melhor localização para a unidade, com base no método do centro de gravidade, é um ponto entre as duas cidades, distando 75,5 km de X e 24,5 km de Y.",
+    "E": "a melhor localização para a unidade, com base no método do centro de gravidade, é um ponto entre as duas cidades, distando 63,6 km de X e 36,4 km de Y."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2011, Q44",
+   "q": "Suponha que o setor de operações de retaguarda (back-office) de uma grande empresa de serviço esteja projetando uma operação para processar solicitações de entregas de encomendas e trabalhe com o arranjo físico por produto. O número de solicitações a serem processadas é de 240 por semana, e o tempo disponível para processar as solicitações é de 8 horas diárias, trabalhando 5 dias por semana. Nessas condições, o tempo de ciclo, para esse arranjo físico, está, em minutos, entre",
+   "alts": {
+    "A": "34 e 38",
+    "B": "28 e 32",
+    "C": "22 e 26",
+    "D": "15 e 19",
+    "E": "8 e 12"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2011, Q45",
+   "q": "Uma empresa de médio porte em operações de serviço, que utiliza o arranjo físico por produto, calculou que o conteúdo médio de trabalho, ao processar uma solicitação de serviço, é de 60 minutos, sendo as solicitações processadas a cada 20 minutos. Nessas condições, o número de estágios, para esse tipo de arranjo físico, está entre",
+   "alts": {
+    "A": "2 e 6",
+    "B": "7 e 11",
+    "C": "12 e 16",
+    "D": "18 e 22",
+    "E": "24 e 30"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2011, Q46",
+   "q": "Em diversas situações, o analista da área de tecnologia da informação se depara com a tarefa de análise e redesenho de processos empresariais. São técnicas que auxiliam o trabalho do analista, EXCETO a de",
+   "alts": {
+    "A": "fluxogramação de processos",
+    "B": "elaboração de manuais de procedimentos",
+    "C": "desenvolvimento de formulários",
+    "D": "gerenciamento das negociações com a direção",
+    "E": "levantamento das informações sobre o processo"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2011, Q47",
+   "q": "Suponha que uma empresa está estudando implantar o programa Seis Sigma no setor de distribuição, sendo que o tempo de entrega dos serviços voltados às empresas de comércio eletrônico, certamente será um dos projetos prioritários. No estudo de viabilidade de implantação do programa, analisou-se a entrega postada na cidade de São Paulo, remetida ao município do Rio de Janeiro. Verificou-se que, para essa hipótese, o tempo médio das entregas é de, aproximadamente, 36 horas, com desvio padrão de 4 horas. Para caracterizar se o referido processo encontra-se de acordo com os parâmetros do Seis Sigma, a ferramenta mais indicada será o(a)",
+   "alts": {
+    "A": "Programa 5S",
+    "B": "Diagrama de Pareto",
+    "C": "Mapeamento de Processos",
+    "D": "Análise de Capacidade",
+    "E": "Análise de Conformidade"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2011, Q52",
+   "q": "O gerenciamento por diretrizes (hoshin kanri) consiste, sinteticamente, no alinhamento de uma empresa a seus objetivos estratégicos. Nesse sentido, analise as afirmativas abaixo. I - A gestão por diretrizes prescinde do planejamento operacional e não engloba mecanismos de controle. II - O gerenciamento por diretrizes pode resultar em muitas lacunas ou superposições, estimulando apenas otimizações locais, tendo em vista que as diretrizes se desdobram em grupos organizados verticalmente, e não através dos processos. III - Os diagramas de causa e efeito, de relações, de Pareto e de correlações são ferramentas úteis para explicitar diretrizes, a partir dos macroindicadores selecionados. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "I e II",
+    "D": "I e III",
+    "E": "II e III"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2011, Q53",
+   "q": "Uma empresa possui um órgão responsável por pesquisas e estudos. Esse órgão visa a assessorar a administração estratégica, estabelecer políticas e diretrizes gerais para a empresa, com a participação das demais gerências setoriais, definindo sua linha de produtos, o nível de lucratividade esperado, os mercados a serem atendidos e os impactos dos ambientes internos e externos sobre a empresa. Essas atribuições descritas são características da Gerência",
+   "alts": {
+    "A": "é o mais viável do ponto de vista econômico-industrial.",
+    "B": "é qualitativamente superior a outros congêneres não avaliados ofertados no mercado.",
+    "C": "atende a requisitos mínimos estabelecidos em norma ou regulamento técnico.",
+    "D": "atende aos requisitos mais rigorosos de uma norma ou regulamento técnico.",
+    "E": "possui índice de falhas ou não conformidades igual a zero."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2011, Q54",
+   "q": "Robert Kaplan e David Norton desenvolveram, nos anos 90, o Balanced Scorecard. Trata-se de um modelo de sistema de medição de desempenho – ou, como preferem os autores, de um sistema de gestão estratégica – que se estrutura em quatro perspectivas básicas, agregando outros enfoques às metodologias tradicionais, centradas somente no aspecto financeiro. As quatro perspectivas em que se estrutura o Balanced Scorecard são:",
+   "alts": {
+    "A": "Laboral; Clientes; Processos Internos; Treinamento",
+    "B": "Laboral; Processos Externos; Fornecedores; Aprendizado e Crescimento Organizacional",
+    "C": "Financeira; Clientes; Processos Externos; Aprendizado e Crescimento Organizacional",
+    "D": "Financeira; Clientes; Processos Internos; Aprendizado e Crescimento Organizacional",
+    "E": "Financeira; Fornecedores; Clientes; Processos Internos"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2011, Q55",
+   "q": "Uma empresa possui apenas uma equipe técnica e precisa determinar a sequência ótima de processamento de seis trabalhos. Em função das características dos serviços realizados e da formação da própria equipe, os trabalhos são realizados um de cada vez. A ordem de chegada dos trabalhos na empresa foi I, II, III, IV, V e VI, conforme apresenta a tabela a seguir. Trabalho Tempo de processamento (horas) Número de horas até a entrega programada I 10 15 II 15 30 III 8 25 IV 10 35 V 12 40 VI 5 20 Com relação ao sequenciamento dos trabalhos, conclui-se que,",
+   "alts": {
+    "A": "sendo os trabalhos processados conforme a ordem de chegada, dois trabalhos atrasarão em relação ao programado.",
+    "B": "sendo os trabalhos processados conforme a ordem de chegada, quatro trabalhos atrasarão em relação ao programado.",
+    "C": "sendo os trabalhos sequenciados conforme o tempo de processamento de cada um, o atraso total será minimizado se forem iniciados na ordem decrescente desses tempos.",
+    "D": "sendo os trabalhos sequenciados conforme o tempo programado para a entrega de cada um, o atraso total será minimizado se forem iniciados na ordem decrescente desses tempos.",
+    "E": "sendo os trabalhos sequenciados de forma aleatória, o número de trabalhos em atraso sofrerá alteração pouco significativa. BLOCO 3"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2011, Q56",
+   "q": "Na Análise Ergonômica do Trabalho (AET), as três primeiras etapas que constituem a fase de análise (demanda, atividade e tarefa) permitem realizar o diagnóstico para que se formulem as recomendações ergonômicas. A AET constitui-se em um exemplo de ergonomia de",
+   "alts": {
+    "A": "concepção",
+    "B": "conscientização",
+    "C": "participação",
+    "D": "recomendação",
+    "E": "correção"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2011, Q57",
+   "q": "Visando a dar conforto ao trabalhador nos postos de trabalho, recomenda-se que",
+   "alts": {
+    "A": "a altura do cotovelo seja a referência para a superfície de trabalho, nos trabalhos em pé.",
+    "B": "a cadeira não tenha altura regulável, se a mesa de trabalho tiver uma altura fixa.",
+    "C": "o encosto das cadeiras tenha um afastamento máximo de 10 cm do assento.",
+    "D": "o trabalhador ajuste-se às características do local de trabalho.",
+    "E": "os assentos das cadeiras tenham borda frontal arredondada e muita conformação na base."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2011, Q58",
+   "q": "No mundo contemporâneo, o trabalho noturno passou a ser vital para diversas áreas. Algumas atividades não podem ser interrompidas, seja pelo seu caráter de imprescindibilidade, seja por razões econômicas. Entretanto, o trabalho noturno provoca desgastes ao trabalhador. Que prática tem a finalidade de tornar o trabalho noturno menos prejudicial ao trabalhador?",
+   "alts": {
+    "A": "Estudo do ritmo circadiano",
+    "B": "Aumento da jornada de trabalho",
+    "C": "Realização esporádica de atendimentos médicos",
+    "D": "Realização de atividades que demandem menos movimentação",
+    "E": "Diminuição da quantidade de finais de semana livres e do número de folgas"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2011, Q59",
+   "q": "Condições inadequadas no ambiente de trabalho contribuem para o erro humano e aumentam os riscos de acidentes. Nos locais de trabalho onde são executadas atividades que exijam solicitação intelectual e atenção constante, a NR-17 recomenda que",
+   "alts": {
+    "A": "a velocidade do ar seja superior a 0,75 m/s e inferior a 1,15 m/s.",
+    "B": "a umidade relativa do ar não seja inferior a 40%.",
+    "C": "o índice de temperatura efetiva esteja entre 18 o C e 21 o C.",
+    "D": "o nível de ruído aceitável para efeito de conforto seja de até 75 dB.",
+    "E": "as superfícies de trabalho, sobre as quais são executadas as atividades, sejam brilhosas."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2011, Q60",
+   "q": "A representação visual de um processo utilizado por divesas organizações, cuja finalidade é pôr em evidência a origem, o processamento e o destino das informações num fluxo normal do processo de trabalho, é o",
+   "alts": {
+    "A": "diagrama de dispersão",
+    "B": "organograma",
+    "C": "fluxograma",
+    "D": "pictograma",
+    "E": "histograma"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2011, Q63",
+   "q": "A tabela a seguir apresenta algumas estatísticas sobre o número de solicitações à Coordenação de Inspeção, Aceitação e Veto de Navios (COINV) da Transpetro, em 2009, para uso dos terminais aquaviários da empresa por navios de terceiros, por tipo de carga nos últimos 5 anos. Medidas estatísticas Produto químico Gases Condensado / Nafta Álcool Média 74,8 18,6 62,8 60,2 Mediana 65 20 69 57 Desvio padrão 19,74 8,02 23,32 17,80 1 o Quartil 62 13 42 55 3 o Quartil 94 25 70 69 Curtose −2,94 −1,87 −1,05 0,36 Assimetria (x) 0,47 (y) 0,41 (z) 0,32 (w) 0,01 Mínimo 55 8 38 36 Máximo 98 27 95 84 Soma 374 93 314 301 Contagem 5 5 5 5 Os sinais de x, y, z e w são, respectivamente,",
+   "alts": {
+    "A": "positivo, negativo, negativo e negativo",
+    "B": "positivo, negativo, negativo e positivo",
+    "C": "positivo, negativo, positivo e negativo",
+    "D": "negativo, positivo, positivo e negativo",
+    "E": "negativo, negativo, negativo e positivo"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2011, Q65",
+   "q": "Um investidor precisa calcular a variância dos lucros de algumas empresas para auxiliá-lo na caracterização do risco de um investimento. As informações sobre lucros são fornecidas em reais e, como ele não quer trabalhar com valores muito grandes, resolveu trabalhar com os números em milhões de reais. A variância obtida com os dados em milhões de reais é a variância dos dados em reais dividida por",
+   "alts": {
+    "A": "10 12",
+    "B": "10 9",
+    "C": "10 6",
+    "D": "10 3",
+    "E": "10 0"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2011, Q67",
+   "q": "Um dos riscos de acidentes em dutos de gás natural é de vazamento. A probabilidade de que o vazamento provoque um incêndio é de 1%. Caso não haja incêndio, o problema não acabou, pois pode ocorrer explosão de uma nuvem de gás. No caso de não haver incêndio, a probabilidade de haver explosão é de 1%. Dado que houve um vazamento, qual é a probabilidade aproximada de não haver incêndio e não ocorrer explosão?",
+   "alts": {
+    "A": "1%",
+    "B": "2%",
+    "C": "97%",
+    "D": "98%",
+    "E": "99%"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2011, Q70",
+   "q": "Considere as séries estatísticas. X: X 1, X 2,..., X n com média μ X, desvio padrão σ X, X i > 1, i = 1, 2,..., n, e σ X > 0; Y: Y 1, Y 2,..., Y n com média μ Y e desvio padrão σ Y. Se, onde i = 1, 2,..., n, então",
+   "alts": {
+    "A": "o desvio padrão do conjunto X é igual ao desvio padrão do conjunto Y.",
+    "B": "o desvio padrão do conjunto X é igual ao coeficiente de variação do conjunto Y.",
+    "C": "o desvio padrão do conjunto Y é igual ao coeficiente de variação do conjunto X.",
+    "D": "o coeficiente de variação do conjunto Y é igual ao desvio padrão do conjunto X dividido por.",
+    "E": "o coeficiente de variação do conjunto Y é igual ao coeficiente de variação do conjunto X dividido por μ X."
+   },
+   "correta": "C"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [],
+  "quebradas": [
+   51
+  ]
+ }
+}

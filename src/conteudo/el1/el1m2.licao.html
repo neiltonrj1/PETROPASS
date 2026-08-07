@@ -1,0 +1,47 @@
+<p><strong>1. O transformador ideal e o real.</strong> Relação de espiras <strong>a = N₁/N₂ = V₁/V₂ = I₂/I₁</strong>. Impedância vista do primário: <strong>Z₁ = a²·Z₂</strong>. No transformador real entram: resistência dos enrolamentos (R₁, R₂), reatâncias de dispersão (X₁, X₂) e o ramo de magnetização em paralelo (R<sub>m</sub> ∥ jX<sub>m</sub>).</p>
+<table>
+<thead>
+<tr><th>Ensaio</th><th>Como se faz</th><th>O que fornece</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Circuito aberto</strong> (a vazio)</td><td>alimenta o lado de <strong>baixa</strong>, alta em aberto, tensão nominal</td><td><strong>perdas no ferro</strong> (histerese + Foucault) e o ramo de magnetização</td></tr>
+<tr><td><strong>Curto-circuito</strong></td><td>curto no lado de <strong>baixa</strong>, alimenta a alta com tensão reduzida até I nominal</td><td><strong>perdas no cobre</strong> e a impedância série (Z<sub>eq</sub>, a "impedância percentual")</td></tr>
+</tbody>
+</table>
+<p><strong>Rendimento máximo</strong> ocorre quando <strong>perdas no cobre = perdas no ferro</strong> — como o cobre varia com o quadrado da carga e o ferro é praticamente constante, isso acontece em carga parcial (tipicamente 50–70 % da nominal).</p>
+
+<p><strong>2. Regulação de tensão.</strong> <strong>Reg % = (V<sub>vazio</sub> − V<sub>plena carga</strong>) ÷ V<sub>plena carga</sub> × 100</strong>. Carga <strong>indutiva</strong> piora a regulação (tensão cai mais); carga <strong>capacitiva</strong> pode até dar regulação <strong>negativa</strong> (a tensão sobe com a carga). Regulação boa é regulação <em>baixa</em>.</p>
+
+<p><strong>3. Ligações trifásicas e defasagem angular.</strong> É o assunto mais cobrado do módulo. A notação é <strong>Ynd11</strong>, <strong>Dyn1</strong>, <strong>Yy0</strong>: primeira letra maiúscula = lado de alta, segunda minúscula = lado de baixa, <strong>n</strong> = neutro acessível, e o <strong>número × 30°</strong> = atraso da baixa em relação à alta (índice horário).</p>
+<table>
+<thead>
+<tr><th>Ligação</th><th>Defasagem BT × AT</th><th>Uso típico</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Yy0 / Dd0</strong></td><td>0°</td><td>quando é preciso manter a fase</td></tr>
+<tr><td><strong>Dy1 / Yd1</strong></td><td>BT atrasada 30°</td><td>elevador de usina, distribuição</td></tr>
+<tr><td><strong>Dy11 / Yd11</strong></td><td>BT adiantada 30°</td><td>padrão IEC de distribuição</td></tr>
+</tbody>
+</table>
+<p><strong>Regra que resolve as questões:</strong> ligações <strong>Y-Δ</strong> ou <strong>Δ-Y</strong> introduzem defasagem de <strong>30°</strong>; ligações <strong>Y-Y</strong> ou <strong>Δ-Δ</strong> <strong>não introduzem defasagem</strong>. Dois transformadores só podem ser paralelados se tiverem <strong>o mesmo índice horário</strong>, mesma relação de transformação, mesma sequência de fases e impedâncias percentuais próximas.</p>
+
+<p><strong>4. Estrela aterrada × estrela isolada × delta: caminho para a corrente de terra.</strong> Um transformador com um lado em <strong>estrela aterrada</strong> e o outro em <strong>estrela não aterrada</strong> (ou em delta sem aterramento) <strong>não oferece caminho para a corrente de sequência zero atravessar</strong>: a falta à terra de um lado não é "vista" pelo outro. Consequências:</p>
+<ul>
+<li>O <strong>delta</strong> funciona como armadilha de sequência zero: a corrente circula dentro do delta, mas não sai para a linha.</li>
+<li>O <strong>delta</strong> também dá caminho para as correntes harmônicas de <strong>3ª ordem</strong> de magnetização, evitando distorção da tensão — por isso o terciário em delta.</li>
+<li>Só um <strong>neutro aterrado</strong> permite alimentar carga fase-neutro e faz o transformador ser <em>fonte</em> de corrente de curto fase-terra daquele lado.</li>
+</ul>
+
+<p><strong>5. Transformador de três enrolamentos.</strong> Modela-se por um circuito em <strong>estrela de três impedâncias</strong> (Z<sub>P</sub>, Z<sub>S</sub>, Z<sub>T</sub>), obtidas de três ensaios de curto-circuito dois a dois:</p>
+<p><strong>Z<sub>P</sub> = ½(Z<sub>PS</sub> + Z<sub>PT</sub> − Z<sub>ST</sub>)</strong> · <strong>Z<sub>S</sub> = ½(Z<sub>PS</sub> + Z<sub>ST</sub> − Z<sub>PT</sub>)</strong> · <strong>Z<sub>T</sub> = ½(Z<sub>PT</sub> + Z<sub>ST</sub> − Z<sub>PS</sub>)</strong>.</p>
+<p>Todas as impedâncias devem estar na <strong>mesma base</strong> antes de somar. É comum uma delas dar <strong>negativa</strong> — não é erro de conta, é característica do modelo.</p>
+
+<p><strong>6. Autotransformador.</strong> Enrolamento único com derivação: parte da potência passa por <strong>condução</strong> e parte por <strong>indução</strong>. Vantagens: menor, mais barato, mais eficiente e com menor impedância para a mesma potência. Desvantagens: <strong>não há isolação galvânica</strong> entre os lados e a <strong>corrente de curto é maior</strong> (impedância menor). Relação: <strong>S<sub>aparente</sub>/S<sub>própria</sub> = 1/(1 − 1/a)</strong> — quanto mais próxima de 1 a relação, maior o ganho.</p>
+
+<p><strong>7. Corrente de inrush (magnetização).</strong> Ao energizar em vazio, o fluxo residual somado ao fluxo transitório satura o núcleo e a corrente pode chegar a <strong>8 a 12 vezes a nominal</strong>, decaindo em alguns ciclos. Ela é rica em <strong>2ª harmônica</strong> — e é exatamente por isso que os relés diferenciais de transformador usam <strong>bloqueio por 2ª harmônica</strong>, para não atuar indevidamente na energização.</p>
+
+<p><strong>8. Transformadores de instrumento.</strong> <strong>TC</strong> (transformador de corrente): primário em <strong>série</strong> com a linha, secundário nunca pode ser aberto em carga (tensão perigosa); relação típica 5 A ou 1 A. <strong>TP</strong> (de potencial): primário em <strong>paralelo</strong>, secundário nunca em curto; relação típica 115 V. Classes de exatidão para medição (0,3; 0,6) e para proteção (10P, com fator de sobrecorrente).</p>
+
+<p><strong>9. Resfriamento e sobrecarga.</strong> Nomenclatura de quatro letras (ex.: <strong>ONAN</strong> = óleo natural, ar natural; <strong>ONAF</strong> = óleo natural, ar forçado; <strong>OFAF</strong>, <strong>ODAF</strong>). A vida do transformador é a vida do <strong>isolamento</strong>: pela regra de Montsinger, cada <strong>6 a 8 °C</strong> acima da temperatura de referência <strong>reduz a vida à metade</strong>.</p>
+
+<p><strong>Resumo de véspera:</strong> Z₁ = a²Z₂; ensaio a vazio dá perdas no ferro e curto dá perdas no cobre; rendimento máximo quando cobre = ferro; Y-Δ defasa 30°, Y-Y não defasa; estrela aterrada + estrela isolada não passa sequência zero; delta prende sequência zero e a 3ª harmônica; três enrolamentos usam a estrela equivalente e uma impedância pode ser negativa; autotransformador não isola; inrush tem 2ª harmônica.</p>

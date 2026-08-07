@@ -1,0 +1,58 @@
+<p><strong>1. Velocidade síncrona e escorregamento.</strong></p>
+<p><strong>n<sub>s</sub> = 120·f ÷ p</strong> (rpm), com <em>p</em> = número de <strong>polos</strong>. Para 60 Hz: 2 polos → 3600 rpm; 4 polos → 1800; <strong>6 polos → 1200</strong>; 8 polos → 900.</p>
+<p><strong>s = (n<sub>s</sub> − n) ÷ n<sub>s</sub></strong> · <strong>n = n<sub>s</sub>(1 − s)</strong>. Com 6 polos, 60 Hz e s = 5 %: n = 1200 × 0,95 = <strong>1140 rpm</strong>.</p>
+<p>E a frequência no rotor: <strong>f<sub>rotor</sub> = s · f</strong> — na partida (s = 1) vale a frequência da rede; em regime, poucos hertz.</p>
+
+<p><strong>2. Balanço de potência do motor de indução.</strong> A cadeia, na ordem em que a banca pede:</p>
+<p><strong>P<sub>entrada</sub> = √3·V<sub>L</sub>·I<sub>L</sub>·cos φ</strong> → (− perdas no cobre do estator − perdas no ferro) → <strong>P<sub>entreferro</sub> (P<sub>g</sub>)</strong> → (− perdas no cobre do rotor) → <strong>P<sub>mecânica convertida</strong> → (− atrito e ventilação) → <strong>P<sub>eixo</sub></strong>.</p>
+<p>Duas relações que economizam tempo:</p>
+<p><strong>Perdas no cobre do rotor = s · P<sub>entreferro</sub></strong> &nbsp;·&nbsp; <strong>P<sub>convertida</sub> = (1 − s) · P<sub>entreferro</sub></strong>.</p>
+<p>Daí sai o teto de rendimento: <strong>η<sub>máx</sub> ≈ 1 − s</strong>. Um motor com 5 % de escorregamento não pode ter rendimento acima de 95 %.</p>
+<p><strong>Conta de corrente:</strong> P<sub>eixo</sub> em HP × 746 ÷ η = P<sub>entrada</sub>; depois <strong>I<sub>L</sub> = P<sub>entrada</sub> ÷ (√3 · V<sub>L</sub> · cos φ)</strong>.</p>
+
+<p><strong>3. Conjugado e a curva T × n.</strong> Pontos que caem:</p>
+<ul>
+<li><strong>Conjugado de partida</strong> (s = 1): 1,5 a 3 vezes o nominal na gaiola comum.</li>
+<li><strong>Conjugado máximo</strong> (<em>breakdown</em>), em s<sub>máx</sub> = R₂/X₂: <strong>não depende de R₂</strong> — só o <em>escorregamento</em> em que ele ocorre depende. Aumentar R₂ (rotor bobinado com reostato) <strong>desloca</strong> o pico para escorregamentos maiores, aumentando o conjugado de partida sem alterar o valor do pico.</li>
+<li><strong>Conjugado ∝ V²</strong>: uma queda de 10 % na tensão derruba o conjugado em ~19 %. É a razão de motores "não partirem" com tensão baixa.</li>
+<li>A corrente de partida direta é de <strong>6 a 8 vezes</strong> a nominal.</li>
+</ul>
+
+<p><strong>4. Métodos de partida.</strong></p>
+<table>
+<thead>
+<tr><th>Método</th><th>Tensão / corrente</th><th>Conjugado</th><th>Observação</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Direta</strong></td><td>100 % / 6–8 I<sub>n</sub></td><td>100 %</td><td>só para motores pequenos ou rede forte</td></tr>
+<tr><td><strong>Estrela-triângulo</strong></td><td>corrente cai a <strong>1/3</strong></td><td>cai a <strong>1/3</strong></td><td>exige motor com <strong>6 terminais</strong> e tensão de rede igual à tensão de <strong>triângulo</strong> do motor; só serve para partida <strong>em vazio ou com carga leve</strong></td></tr>
+<tr><td><strong>Autotransformador (compensadora)</strong></td><td>tensão em taps de 65/80 %</td><td>∝ V²</td><td>mais caro; permite escolher o tap</td></tr>
+<tr><td><strong>Soft-starter</strong></td><td>rampa de tensão por tiristores</td><td>∝ V²</td><td>partida suave, sem controle de velocidade em regime</td></tr>
+<tr><td><strong>Inversor (VFD)</strong></td><td>V/f constante</td><td>conjugado nominal desde a partida</td><td>também controla velocidade; solução mais completa</td></tr>
+</tbody>
+</table>
+<p><strong>Por que a estrela-triângulo reduz a corrente a um terço:</strong> em estrela a tensão de fase é V<sub>L</sub>/√3, então a corrente de fase cai por √3, e a corrente de linha em Δ é √3 vezes a de fase — combinando, a corrente de linha cai por 3. Como T ∝ V², o conjugado também cai a 1/3.</p>
+
+<p><strong>5. Resistência de aquecimento.</strong> Presente em motores de ambiente úmido, sua função é <strong>manter o enrolamento acima da temperatura ambiente enquanto o motor está parado, para evitar a condensação de umidade</strong> sobre o isolamento. Não tem relação com partida, com aquecimento de óleo ou com pré-aquecimento de mancal. Ela é <strong>energizada quando o motor está desligado</strong> e desenergizada quando ele parte.</p>
+
+<p><strong>6. Máquina síncrona: excitação e a curva V.</strong> O motor síncrono gira <strong>exatamente</strong> na velocidade síncrona (s = 0). Com potência mecânica constante, variar a corrente de campo muda o fator de potência:</p>
+<table>
+<thead>
+<tr><th>Excitação</th><th>Fator de potência</th><th>Reativo</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Subexcitado</strong></td><td>atrasado</td><td><strong>consome</strong> reativo (como um indutor)</td></tr>
+<tr><td><strong>Excitação normal</strong></td><td>unitário</td><td>corrente de armadura <strong>mínima</strong></td></tr>
+<tr><td><strong>Sobre-excitado</strong></td><td>adiantado</td><td><strong>fornece</strong> reativo (como um capacitor)</td></tr>
+</tbody>
+</table>
+<p>O gráfico de I<sub>armadura</sub> × I<sub>campo</sub> tem forma de <strong>V</strong> — daí o nome. Um motor síncrono <strong>sobre-excitado</strong> acionando carga constante funciona como <strong>compensador síncrono</strong>, corrigindo o fator de potência da instalação enquanto trabalha. É a aplicação clássica na indústria.</p>
+<p><strong>Ângulo de carga δ:</strong> P = (E·V/X<sub>s</sub>)·sen δ. O conjugado cresce com δ até 90° — passou disso, a máquina <strong>perde o sincronismo</strong>. O motor síncrono <strong>não tem conjugado de partida</strong> próprio: parte como indução, pelo enrolamento amortecedor (gaiola de partida), e só então se sincroniza.</p>
+
+<p><strong>7. Categorias de conjugado e classes de isolamento.</strong> Categorias NBR 17094: <strong>N</strong> (uso geral), <strong>H</strong> (alto conjugado de partida, para cargas de partida pesada), <strong>D</strong> (alto conjugado e alto escorregamento, para cargas de impacto). Classes de isolamento pela temperatura total admissível: <strong>A 105 °C · E 120 · B 130 · F 155 · H 180</strong>. Grau de proteção <strong>IP</strong>: primeiro dígito = sólidos, segundo = água (IP55 é o padrão industrial).</p>
+
+<p><strong>8. Proteção do motor.</strong> <strong>Relé de sobrecarga (térmico)</strong> protege contra sobrecorrentes moderadas e prolongadas — ele <strong>não</strong> protege contra curto-circuito. <strong>Fusível ou disjuntor-motor</strong> protege contra curto. A curva do relé é ajustada acima da corrente nominal e abaixo da curva de dano térmico do motor; o ajuste precisa deixar passar o transitório de partida (6–8 I<sub>n</sub> por alguns segundos) e atuar antes que o enrolamento sofra. Motor com <strong>fator de serviço</strong> 1,15 admite 15 % de sobrecarga contínua.</p>
+
+<p><strong>9. Rotor gaiola × bobinado.</strong> A <strong>gaiola</strong> é robusta, barata e sem manutenção, mas tem partida "dura". O <strong>bobinado</strong> (anéis) permite inserir resistência externa: aumenta o conjugado de partida, reduz a corrente e ainda dá algum controle de velocidade — ao custo de escovas e manutenção.</p>
+
+<p><strong>Resumo de véspera:</strong> n<sub>s</sub> = 120f/p; perdas no rotor = s·P<sub>entreferro</sub> e η ≤ 1 − s; T ∝ V²; estrela-triângulo divide corrente e conjugado por 3; resistência de aquecimento evita condensação com o motor parado; síncrono sobre-excitado fornece reativo (curva V); δ &gt; 90° perde sincronismo; térmico não protege contra curto.</p>

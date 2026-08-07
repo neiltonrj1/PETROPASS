@@ -1,0 +1,62 @@
+<p><strong>1. Probabilidade: as regras que resolvem tudo.</strong></p>
+<ul>
+<li><strong>Complementar:</strong> P(Ā) = 1 − P(A). Daí a arma mais útil da prova: <strong>P(pelo menos um) = 1 − P(nenhum)</strong>.</li>
+<li><strong>União:</strong> P(A∪B) = P(A) + P(B) − P(A∩B).</li>
+<li><strong>Independentes:</strong> P(A∩B) = P(A)·P(B).</li>
+<li><strong>Condicional:</strong> P(A|B) = P(A∩B) ÷ P(B).</li>
+<li><strong>Bayes:</strong> P(A|B)·P(B) = P(B|A)·P(A) — ou seja, <strong>P(X)·P(Y|X) = P(Y)·P(X|Y)</strong>. Essa igualdade é a resposta correta quando a questão apresenta relações entre P(X), P(X/Y) e P(Y/X).</li>
+</ul>
+<p><em>Exemplo resolvido:</em> probabilidade de sucesso de 1/3, três experiências independentes, pelo menos um sucesso: <strong>1 − (2/3)³ = 1 − 8/27 = 19/27</strong>.</p>
+<p><em>Encadeamento:</em> vazamento em duto com probabilidade <em>p</em>; dado o vazamento, incêndio com 1 %. A probabilidade de vazamento <strong>e</strong> incêndio é o <strong>produto</strong> ao longo do ramo da árvore.</p>
+
+<p><strong>2. Distribuições.</strong></p>
+<table>
+<thead>
+<tr><th>Distribuição</th><th>Uso</th><th>Média · Variância</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Binomial</strong></td><td>n tentativas independentes, dois resultados</td><td>np · np(1−p)</td></tr>
+<tr><td><strong>Poisson</strong></td><td>contagem de eventos raros por intervalo</td><td>λ · λ</td></tr>
+<tr><td><strong>Normal</strong></td><td>fenômenos contínuos, soma de muitos efeitos</td><td>μ · σ²</td></tr>
+<tr><td><strong>Exponencial</strong></td><td>tempo entre eventos com taxa constante</td><td>1/λ · 1/λ²</td></tr>
+<tr><td><strong>Uniforme</strong> [a,b]</td><td>igual probabilidade em toda a faixa</td><td>(a+b)/2 · (b−a)²/12</td></tr>
+</tbody>
+</table>
+<p><strong>Normal padrão (μ = 0, σ = 1):</strong> simétrica em torno de zero, logo <strong>P(Z &gt; 0) = P(Z &lt; 0) = 0,5</strong> e <strong>P(Z &lt; −a) = P(Z &gt; a)</strong>. Regra empírica: 68 % em ±1σ, 95 % em ±2σ, 99,7 % em ±3σ. <strong>Padronização: Z = (X − μ) ÷ σ.</strong></p>
+
+<p><strong>3. Medidas de posição e dispersão.</strong> <strong>Média</strong> é sensível a valores extremos; <strong>mediana</strong> não. Em distribuição assimétrica à direita, <strong>média &gt; mediana &gt; moda</strong>. <strong>Variância</strong> σ² = média dos quadrados dos desvios; na prática <strong>σ² = E[X²] − (E[X])²</strong>.</p>
+<p><strong>Propriedades das transformações lineares</strong> — é aqui que a banca arma a questão. Se <em>Y</em> = <em>aX</em> + <em>b</em>:</p>
+<ul>
+<li><strong>μ<sub>Y</sub> = a·μ<sub>X</sub> + b</strong>;</li>
+<li><strong>σ²<sub>Y</sub> = a²·σ²<sub>X</sub></strong> e <strong>σ<sub>Y</sub> = |a|·σ<sub>X</sub></strong>;</li>
+<li>somar constante <strong>não muda</strong> a dispersão; multiplicar por <em>a</em> multiplica o desvio por |a| e a variância por a².</li>
+</ul>
+<p><strong>Coeficiente de variação = σ/μ</strong>: adimensional, é o que permite comparar a dispersão de séries com médias diferentes. Por isso, comparar risco de investimentos de retornos médios distintos exige CV, não σ puro.</p>
+
+<p><strong>4. Covariância e correlação.</strong> <strong>Cov(X,Y) = E[XY] − E[X]E[Y]</strong>; <strong>ρ = Cov(X,Y) ÷ (σ<sub>X</sub>σ<sub>Y</sub>)</strong>, com −1 ≤ ρ ≤ 1. Variância da soma: <strong>Var(X+Y) = Var(X) + Var(Y) + 2·Cov(X,Y)</strong> — só é a soma simples quando as variáveis são <strong>não correlacionadas</strong>. É esse termo cruzado que faz a diversificação reduzir risco de carteira.</p>
+<p><strong>Correlação não é causalidade</strong>, e ρ mede apenas relação <strong>linear</strong>: pode haver dependência forte com ρ = 0.</p>
+
+<p><strong>5. Inferência.</strong> <strong>Teorema central do limite:</strong> a média amostral tende à normal com desvio <strong>σ/√n</strong>, qualquer que seja a distribuição de origem (n suficientemente grande). Daí: quadruplicar a amostra reduz o erro <strong>pela metade</strong>. <strong>Intervalo de confiança</strong>: x̄ ± z·σ/√n. Em teste de hipóteses, <strong>erro tipo I</strong> = rejeitar H₀ verdadeira (probabilidade α); <strong>erro tipo II</strong> = não rejeitar H₀ falsa (β); <strong>poder</strong> = 1 − β. Reduzir α aumenta β, mantida a amostra.</p>
+
+<p><strong>6. Teoria dos jogos — leitura da matriz de pay-offs.</strong> Numa matriz de decisão simultânea entre dois agentes, cada célula traz o par (ganho de A, ganho de B).</p>
+<ul>
+<li><strong>Estratégia dominante</strong>: aquela que dá o melhor resultado para o jogador <em>independentemente</em> do que o outro faça. Procure comparando linha a linha (para A) e coluna a coluna (para B).</li>
+<li><strong>Equilíbrio de Nash</strong>: par de estratégias em que <strong>nenhum jogador melhora mudando sozinho</strong> de estratégia. Nem sempre é o melhor resultado coletivo.</li>
+<li><strong>Dilema do prisioneiro</strong>: cada um tem estratégia dominante que leva a um equilíbrio <strong>pior para ambos</strong> do que a cooperação. É o modelo das guerras de preço e das disputas de capacidade entre oligopolistas.</li>
+<li><strong>Ótimo de Pareto</strong>: resultado do qual não se pode melhorar um sem piorar o outro. Nash ≠ Pareto necessariamente.</li>
+</ul>
+<p><strong>Roteiro de resolução:</strong> (1) procure estratégias dominantes e elimine as dominadas; (2) marque, em cada coluna, a melhor resposta de A e, em cada linha, a de B; (3) a célula com as duas marcas é o equilíbrio de Nash.</p>
+
+<p><strong>7. Decisão sob incerteza.</strong> Sem probabilidades conhecidas: <strong>maximin</strong> (maximiza o pior caso — pessimista/Wald), <strong>maximax</strong> (otimista), <strong>minimax arrependimento</strong> (Savage), <strong>Laplace</strong> (supõe equiprobabilidade), <strong>Hurwicz</strong> (média ponderada entre o melhor e o pior). Com probabilidades conhecidas, usa-se o <strong>valor monetário esperado</strong>, e o <strong>valor esperado da informação perfeita (VEIP)</strong> = valor esperado com informação perfeita − VME sem ela.</p>
+
+<p><strong>8. Conjuntos e vetores (apoio matemático).</strong> <strong>Complemento do complemento:</strong> (Xᶜ)ᶜ = <strong>X</strong> — o resultado volta ao conjunto original. De Morgan: (A∪B)ᶜ = Aᶜ∩Bᶜ e (A∩B)ᶜ = Aᶜ∪Bᶜ.</p>
+<p><strong>Produto escalar:</strong> u·v = Σu<sub>i</sub>v<sub>i</sub> = |u||v|cos θ. Se o produto escalar é <strong>zero</strong>, os vetores são <strong>ortogonais</strong> (perpendiculares). Para (2,1,3) e (1,1,−1): 2 + 1 − 3 = 0 ⇒ <strong>perpendiculares</strong>. Produto escalar positivo ⇒ ângulo agudo; negativo ⇒ obtuso.</p>
+
+<p><strong>9. Matrizes e sistemas lineares.</strong> Para M·x = y: <strong>solução única</strong> se det(M) ≠ 0 (M invertível); se det(M) = 0, o sistema é <strong>impossível</strong> ou <strong>indeterminado</strong>, conforme o posto da matriz ampliada. Propriedades cobradas:</p>
+<ul>
+<li><strong>det(kM) = k<sup>n</sup>·det(M)</strong> para matriz <em>n</em>×<em>n</em>. Com n = 3 e det(M) = 240: <strong>det(2M) = 2³ × 240 = 1 920</strong>.</li>
+<li>det(M·N) = det(M)·det(N); det(M<sup>T</sup>) = det(M); det(M<sup>−1</sup>) = 1/det(M).</li>
+<li>Trocar duas linhas inverte o sinal do determinante; linhas proporcionais ⇒ determinante zero.</li>
+</ul>
+
+<p><strong>Resumo de véspera:</strong> P(ao menos um) = 1 − (1−p)ⁿ; Bayes dá P(X)P(Y|X) = P(Y)P(X|Y); somar constante não muda a variância e multiplicar por a a multiplica por a²; CV compara dispersões; erro da média cai com √n; Nash é o par sem desvio unilateral vantajoso; (Xᶜ)ᶜ = X; produto escalar zero ⇒ perpendiculares; det(kM) = kⁿ det(M).</p>

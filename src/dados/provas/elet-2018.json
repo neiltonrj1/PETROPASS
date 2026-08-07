@@ -1,0 +1,255 @@
+{
+ "id": "elet-2018",
+ "trilha": "eletrica",
+ "ano": 2018,
+ "nome": "Eng. Jr — Elétrica",
+ "processo": "Transpetro PSP RH 2018.1",
+ "caderno": "Elétrica\\engenheiro_a_junior_eletrica.pdf",
+ "folhaGabarito": "gabarito_definitivo.pdf",
+ "total": 16,
+ "questoes": [
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2018, Q22",
+   "q": "Um motor de corrente contínua shunt, alimentado por uma fonte de tensão constante e operando em suas condições nominais, subitamente perde seu circuito de campo. Essa falha durante a operação provocará a(o)",
+   "alts": {
+    "A": "diminuição da velocidade do motor, devido ao aumento da tensão induzida.",
+    "B": "inversão do fluxo de potência do motor, fazendo-o funcionar como gerador.",
+    "C": "aumento da corrente de carga e, consequentemente, o aumento de sua velocidade.",
+    "D": "aumento da tensão induzida no motor, aumentando sua velocidade.",
+    "E": "travamento do rotor do motor, uma vez que o torque induzido cai a zero."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2018, Q23",
+   "q": "Um motor síncrono de uma indústria é empregado para acionar uma carga que demanda uma potência constante, com fator de potência indutivo. Esse motor é alimentado com tensão terminal e frequência constantes. Em determinado ponto de sua operação, ajustes são feitos no motor de modo que a corrente de campo do rotor sofra um aumento. Considerando-se desprezíveis as perdas no motor, ocorrerá",
+   "alts": {
+    "A": "consumo de menos reativos pelo motor, em virtude do aumento da tensão induzida.",
+    "B": "consumo de mais reativos pelo motor, em virtude do aumento da tensão induzida.",
+    "C": "diminuição do torque mecânico entregue à carga, em virtude do aumento da corrente de linha.",
+    "D": "aumento do torque mecânico entregue à carga, em virtude do aumento da corrente de linha.",
+    "E": "aumento da velocidade do motor, em virtude do aumento da tensão induzida."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2018, Q24",
+   "q": "Linhas de transmissão de energia são sistemas complexos que demandam certas peculiaridades em sua construção, de modo a melhorar o seu desempenho. Dentre as soluções desenvolvidas na construção das linhas de transmissão, uma delas é a transposição, que tem por principal finalidade reduzir",
+   "alts": {
+    "A": "as perdas da linha por efeito corona.",
+    "B": "as perdas na linha por efeito Ferranti.",
+    "C": "o efeito da capacitância shunt da linha.",
+    "D": "o comprimento das linhas, reduzindo as perdas por efeito Joule.",
+    "E": "o desbalanceamento das tensões induzidas na linha, provocado pela falta de simetria da rede."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2018, Q26",
+   "q": "Um motor de indução trifásico (MIT), 220 V, 6 polos, 60 Hz, ligação Y opera com um escorregamento de 5%. Esse motor drena da rede elétrica uma corrente de 40 A e opera com um fator de potência 0,8 (indutivo). Sabendo-se que as perdas do motor, nessas condições de operação, são 1.200 W, o valor aproximado do torque mecânico aplicado à carga, em Nm, é",
+   "alts": {
+    "A": "87",
+    "B": "92",
+    "C": "102",
+    "D": "112",
+    "E": "117"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2018, Q28",
+   "q": "Relés de sobrecorrente são dispositivos empregados para realizar a proteção de motores elétricos contra sobrecarga. Em um projeto de proteção de um motor de indução trifásico, 220 V, 17,3 kW, fator de potência 0,8 e rendimento 0,9, que tem a capacidade de operar com uma elevação de temperatura admissível de 40 o C, o valor aproximado da máxima corrente de ajuste do relé, em ampères, é",
+   "alts": {
+    "A": "41",
+    "B": "47",
+    "C": "51",
+    "D": "63",
+    "E": "79"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2018, Q31",
+   "q": "Uma carga monofásica do tipo impedância constante, composta por uma resistência de 3 ohms e indutância de 0,05  Henry, é alimentada por uma fonte de tensão ideal, senoidal, de 100 V e 40 Hz. A corrente elétrica na carga, em ampères, é igual a",
+   "alts": {
+    "A": "10",
+    "B": "20",
+    "C": "25",
+    "D": "30",
+    "E": "50"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2018, Q33",
+   "q": "Um equipamento possui como valores nominais de potência e tensão, respectivamente, 20 MVA e 500 kV. Os valores de base adotados no setor onde esse equipamento se encontra são 2,5 MVA e 250 kV. Sabendo-se que a reatância desse equipamento, para seus valores nominais, é de 0,3 pu, o novo valor, em pu, considerando-se a base adotada, será de",
+   "alts": {
+    "A": "0,15",
+    "B": "0,20",
+    "C": "0,25",
+    "D": "0,30",
+    "E": "0,35"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2018, Q34",
+   "q": "Em um sistema elétrico de potência, um transformador na configuração estrela, aterrado em um lado e estrela não aterrado para o outro, é representado no diagrama de reatâncias de sequência zero por uma reatância",
+   "alts": {
+    "A": "em série no sistema",
+    "B": "aberta no sistema",
+    "C": "em paralelo no sistema",
+    "D": "isolada em paralelo no sistema",
+    "E": "em série no sistema e outra em paralelo"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2018, Q35",
+   "q": "Um curto-circuito fase-terra ocorre em um sistema trifásico. Sabe-se que a corrente de sequência positiva no ponto da falta é igual a 5 pu. As bases adotadas no setor da falta são 4 MVA e 100 kV. A corrente de curto-circuito dessa falta, em ampères, é igual a",
+   "alts": {
+    "A": "200",
+    "B": "200 3",
+    "C": "450",
+    "D": "600 3",
+    "E": "600"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2018, Q37",
+   "q": "Uma sequência x(n) discreta e causal, que significa dizer que x(n)  0 para n  0, tem como transformada Z a expressão: X(z)  7z 2  11z z 2  4z  3. A expressão mais simples, em função do degrau unitário u(n), que melhor exprime analiticamente essa sequência é:",
+   "alts": {
+    "A": "x(n)  7u(n)  11u(n  1)",
+    "B": "x(n)  5u(n)  2(5) n u(n  1)",
+    "C": "x(n)  2u(n)  5(3) n u(n)",
+    "D": "x(n)  5u(n)  2(3) n u(n)",
+    "E": "x(n)  2u(n)  11(4) n u(n)"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2018, Q38",
+   "q": "O modelo de um sistema linear está representado a seguir pelas suas equações de estado:     0 1 0 X t X t 15 8 1               \u0003 u(t) e saída y(t)=[1 2]X(t) Sobre esse sistema é aplicado um controle com realimentação de estados, cuja lei de controle é dada por u(t) K X(t)  r(t), onde são definidos o vetor de ganhos K = [k 1 k 2 ] e r(t), o sinal de entrada de referência. Para que em malha fechada os polos desse sistema sejam complexos conjugados e alocados em s  5  j10, qual será o valor do vetor de ganhos K?",
+   "alts": {
+    "A": "K  [10 5]",
+    "B": "K  [50 4]",
+    "C": "K  [110 2]",
+    "D": "K  [120 2]",
+    "E": "K  [110 4]"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2018, Q41",
+   "q": "Seja um sistema de 2 a ordem, linear e analógico, que liga um sinal U de entrada ao sinal Y de saída e cujo modelo é representado pela função de transferência G(s)  Y(s) U(s)  K(s  5) (s  2)(s 10) Esse modelo foi submetido a uma realimentação proporcional de saída, fazendo com que o ganho K varie no intervalo 0  K . Na configuração acima descrita, vai ocorrer que, para um determinado valor do ganho K, um dos dois polos de malha fechada será zero, e o outro polo, consequentemente, terá valor igual a",
+   "alts": {
+    "A": "12",
+    "B": "5",
+    "C": "10",
+    "D": "12",
+    "E": "20"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2018, Q42",
+   "q": "Um sistema elétrico linear tem como sinal de entrada uma tensão v(t), e como saída um sinal de corrente i(t). Sua dinâmica é modelada pela seguinte equação diferencial: d 2 i dt 2  4 di dt 29i(t) = 10 dv dt  5v(t) A função de transferência desse sistema, no domínio de Laplace, é obtida pela relação H(s)  I(s) V(s), onde I(s) e V(s) são as transformadas de Laplace aplicadas, respectivamente, sobre os sinais i(t) e v(t). A função de transferência desse sistema apresenta, no plano S de Laplace, um zero real em",
+   "alts": {
+    "A": "s 2 e dois polos reais s 4 e s 29",
+    "B": "s 0.5 e dois polos reais s 2 e s 8",
+    "C": "s 2 e dois polos complexos conjugados s 2 j5",
+    "D": "s 0,5 e dois polos complexos conjugados s 2 j5",
+    "E": "s 0,5 e dois polos complexos conjugados s 2 j5"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2018, Q45",
+   "q": "Um sinal de tensão elétrica, variando continuamente no tempo, tem sua amplitude limitada entre 5V e 5V para possibilitar a sua digitalização através de um conversor Analógico/Digital (A/D) operando com 8 bits. Essa conversão, nas condições apresentadas acima, vai acarretar um erro na quantização da amplitude da tensão, medido em mV, de aproximadamente",
+   "alts": {
+    "A": "10",
+    "B": "40",
+    "C": "60",
+    "D": "100",
+    "E": "200"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2018, Q46",
+   "q": "Foi solicitado a um engenheiro que projetasse um ramal de distribuição aéreo de 13,8 kV, de 8 km de comprimento, para alimentar diversas cargas ao longo de seu comprimento. Estima-se que as cargas a serem alimentadas por esse ramal podem ser aproximadas por uma carga trifásica uniformemente distribuída, cuja densidade linear de carga é de 250 kVA/km. Sabendo-se que a máxima queda de tensão percentual admitida no ramal é de 4%, o maior coeficiente de queda de tensão admissível do ramal em % MVA.km é",
+   "alts": {
+    "A": "0,05",
+    "B": "0,20",
+    "C": "0,25",
+    "D": "0,40",
+    "E": "0,50"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2018, Q49",
+   "q": "Considere um ramal de distribuição de 13,8 kV, protegido por um relé de sobrecorrente temporizado, que obedece à seguinte curva de proteção: Sabe-se que • a relação de transformação do transformador de corrente é 100:5; • a corrente de ajuste secundária da unidade temporizada é 3 A. Caso ocorra uma falta bifásica no ramal, cujo valor da corrente seja de 480 A, em quantos segundos, a partir do instante em que ocorreu a falta, o relé deverá atuar?",
+   "alts": {
+    "A": "3",
+    "B": "0,7",
+    "C": "0,4",
+    "D": "0,3",
+    "E": "0,1"
+   },
+   "correta": "C"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [
+   36,
+   57
+  ],
+  "comFigura": [
+   25,
+   27,
+   32,
+   40,
+   43,
+   44,
+   47,
+   48,
+   53,
+   55,
+   56,
+   58,
+   59,
+   61,
+   62,
+   63,
+   64,
+   67,
+   69
+  ],
+  "quebradas": [
+   30,
+   39,
+   54,
+   60,
+   65,
+   66
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+<p><strong>1. Função de transferência e sistemas de 2ª ordem.</strong> Forma canônica:</p>
+<p><strong>G(s) = ω<sub>n</sub>² ÷ (s² + 2ζω<sub>n</sub>s + ω<sub>n</sub>²)</strong></p>
+<p>Comparando com um denominador <em>s²</em> + <em>as</em> + <em>b</em>: <strong>ω<sub>n</sub> = √b</strong> e <strong>ζ = a ÷ (2√b)</strong>. Classificação pelo amortecimento:</p>
+<table>
+<thead>
+<tr><th>ζ</th><th>Comportamento</th><th>Polos</th></tr>
+</thead>
+<tbody>
+<tr><td>ζ = 0</td><td>oscilação sustentada</td><td>imaginários puros</td></tr>
+<tr><td>0 &lt; ζ &lt; 1</td><td><strong>subamortecido</strong>: oscila e converge</td><td>complexos conjugados</td></tr>
+<tr><td>ζ = 1</td><td>criticamente amortecido: mais rápido <em>sem</em> ultrapassagem</td><td>reais e iguais</td></tr>
+<tr><td>ζ &gt; 1</td><td>superamortecido: lento, sem oscilar</td><td>reais e distintos</td></tr>
+</tbody>
+</table>
+<p>Índices: <strong>ultrapassagem M<sub>p</sub> = e<sup>−ζπ/√(1−ζ²)</sup></strong>; frequência amortecida <strong>ω<sub>d</sub> = ω<sub>n</sub>√(1−ζ²)</strong>; tempo de acomodação (2 %) <strong>t<sub>s</sub> ≈ 4/(ζω<sub>n</sub>)</strong>. <strong>Ganho estático</strong> = G(0), o valor final para entrada degrau unitário (teorema do valor final: lim<sub>s→0</sub> s·Y(s)).</p>
+
+<p><strong>2. Estabilidade.</strong> Sistema contínuo é estável se <strong>todos os polos têm parte real negativa</strong> (semiplano esquerdo). Critério de <strong>Routh-Hurwitz</strong>: condição necessária é que todos os coeficientes existam e tenham o <strong>mesmo sinal</strong>; a condição suficiente é não haver troca de sinal na primeira coluna da tabela — o número de trocas é o número de polos instáveis. Em sistemas discretos, a estabilidade exige <strong>|z| &lt; 1</strong> (dentro do círculo unitário).</p>
+
+<p><strong>3. Espaço de estados.</strong> <strong>ẋ = A·x + B·u</strong> e <strong>y = C·x + D·u</strong>. Fatos cobrados:</p>
+<ul>
+<li>Os <strong>polos do sistema são os autovalores de A</strong> — obtidos de <strong>det(sI − A) = 0</strong>.</li>
+<li>Para A = [[0, 1], [−15, −8]]: det(sI−A) = s² + 8s + 15 = (s+3)(s+5) ⇒ polos em <strong>−3 e −5</strong>, sistema <strong>estável e superamortecido</strong> (ζ &gt; 1, pois ω<sub>n</sub> = √15 ≈ 3,87 e ζ = 8/(2·3,87) ≈ 1,03).</li>
+<li>Função de transferência: <strong>G(s) = C(sI − A)<sup>−1</sup>B + D</strong>.</li>
+<li><strong>Controlabilidade</strong>: posto completo de [B AB A²B …]. <strong>Observabilidade</strong>: posto completo de [C; CA; CA²; …].</li>
+</ul>
+
+<p><strong>4. Controlador PID.</strong> <strong>u = K<sub>p</sub>e + K<sub>i</sub>∫e dt + K<sub>d</sub>·de/dt</strong>.</p>
+<table>
+<thead>
+<tr><th>Ação</th><th>Efeito</th><th>Custo</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Proporcional</strong></td><td>acelera a resposta, reduz (não zera) o erro</td><td>aumenta a ultrapassagem</td></tr>
+<tr><td><strong>Integral</strong></td><td><strong>zera o erro em regime</strong> para degrau</td><td>reduz a estabilidade, causa <em>windup</em></td></tr>
+<tr><td><strong>Derivativa</strong></td><td>antecipa, amortece, reduz a ultrapassagem</td><td>amplifica ruído</td></tr>
+</tbody>
+</table>
+<p><strong>Tipo do sistema</strong> = número de integradores em malha aberta: tipo 0 tem erro finito ao degrau; <strong>tipo 1 zera o erro ao degrau</strong> e tem erro finito à rampa; tipo 2 zera também o de rampa.</p>
+
+<p><strong>5. Transformada Z e sinais discretos.</strong> <strong>X(z) = Σ x(n)·z<sup>−n</sup></strong> (n de 0 a ∞, para sinal causal). Pares essenciais:</p>
+<table>
+<thead>
+<tr><th>x(n)</th><th>X(z)</th><th>Região de convergência</th></tr>
+</thead>
+<tbody>
+<tr><td>δ(n)</td><td>1</td><td>todo z</td></tr>
+<tr><td>u(n) (degrau)</td><td>z/(z−1)</td><td>|z| &gt; 1</td></tr>
+<tr><td><strong>a<sup>n</sup>·u(n)</strong></td><td><strong>z/(z−a)</strong> = 1/(1−a z<sup>−1</sup>)</td><td>|z| &gt; |a|</td></tr>
+<tr><td>n·a<sup>n</sup>u(n)</td><td>az/(z−a)²</td><td>|z| &gt; |a|</td></tr>
+</tbody>
+</table>
+<p><strong>Como identificar a sequência a partir de X(z):</strong> coloque na forma z/(z−a) — o <strong>polo em <em>a</em></strong> dá diretamente x(n) = a<sup>n</sup>u(n). Vários polos ⇒ some as parcelas (frações parciais). Teorema do valor inicial: x(0) = lim<sub>z→∞</sub> X(z).</p>
+
+<p><strong>6. Amostragem e quantização.</strong> <strong>Nyquist–Shannon:</strong> f<sub>amostragem</sub> &gt; <strong>2·f<sub>máxima</sub></strong> do sinal; abaixo disso ocorre <strong>aliasing</strong> (rebatimento), que é irreversível — daí o filtro <em>anti-aliasing</em> antes do conversor.</p>
+<p><strong>Quantização:</strong> com <em>n</em> bits há <strong>2<sup>n</sup> níveis</strong>. Para uma faixa de entrada de amplitude total <em>FE</em> (por exemplo, de −5 V a +5 V ⇒ FE = 10 V):</p>
+<p><strong>Resolução (degrau) = FE ÷ 2<sup>n</sup></strong>. Com 10 V e 8 bits: 10/256 ≈ <strong>39 mV</strong>; com 12 bits: 10/4096 ≈ 2,4 mV.</p>
+<p>O <strong>erro máximo de quantização</strong> é <strong>±½ degrau</strong>, e a relação sinal-ruído de quantização cresce ≈ <strong>6 dB por bit</strong>.</p>
+
+<p><strong>7. Eletrônica de potência: os quatro conversores.</strong></p>
+<table>
+<thead>
+<tr><th>Conversor</th><th>De → Para</th><th>Aplicação</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Retificador</strong></td><td>CA → CC</td><td>fonte, carregador, excitação de máquina</td></tr>
+<tr><td><strong>Inversor</strong></td><td>CC → CA</td><td>acionamento de motor, solar, no-break</td></tr>
+<tr><td><strong>Chopper</strong> (CC-CC)</td><td>CC → CC</td><td>buck, boost, buck-boost</td></tr>
+<tr><td><strong>Gradador / cicloconversor</strong></td><td>CA → CA</td><td>soft-starter, controle de potência</td></tr>
+</tbody>
+</table>
+<p>Retificador monofásico de <strong>onda completa</strong> com carga resistiva: V<sub>CC,médio</sub> = 2V<sub>m</sub>/π ≈ 0,9·V<sub>rms</sub>; de <strong>meia onda</strong>: V<sub>m</sub>/π. Trifásico de <strong>6 pulsos</strong>: V<sub>CC</sub> ≈ 1,35·V<sub>L</sub>. O <strong>inversor PWM</strong> controla amplitude e frequência pela largura dos pulsos — base do acionamento <strong>V/f constante</strong>, que mantém o fluxo e o conjugado do motor de indução em toda a faixa de velocidade.</p>
+<p>Chaves semicondutoras: <strong>diodo</strong> (não controlado), <strong>tiristor/SCR</strong> (liga por gatilho, desliga só na passagem por zero), <strong>TRIAC</strong> (bidirecional), <strong>GTO</strong>, <strong>MOSFET</strong> (alta frequência, baixa potência) e <strong>IGBT</strong> (o padrão em acionamento industrial: tensão de comando de MOSFET com capacidade de corrente de bipolar).</p>
+
+<p><strong>8. Convolução e resposta ao impulso.</strong> Num sistema LIT, <strong>y = x * h</strong>: a saída é a convolução da entrada com a resposta ao impulso. No domínio transformado isso vira <strong>multiplicação</strong>: Y(s) = X(s)·H(s) (ou Y(z) = X(z)·H(z)). Trocar convolução por produto no domínio errado é o erro mais comum.</p>
+
+<p><strong>9. Instrumentação e malhas de controle industrial.</strong> Elementos: sensor/transmissor, controlador, atuador (válvula, inversor) e o processo. Sinais padronizados: <strong>4–20 mA</strong> (o "zero vivo" de 4 mA permite detectar cabo rompido) e 3–15 psi em pneumático. Controle <strong>feedback</strong> corrige depois do desvio; <strong>feedforward</strong> antecipa a perturbação medida; <strong>cascata</strong> usa uma malha rápida interna dentro de uma lenta externa. Redes: HART, Foundation Fieldbus, Profibus, Modbus.</p>
+
+<p><strong>Resumo de véspera:</strong> ω<sub>n</sub> = √b e ζ = a/(2√b); polos = autovalores de A = raízes de det(sI−A); integral zera erro ao degrau; z/(z−a) ⇒ a<sup>n</sup>u(n); Nyquist exige f<sub>s</sub> &gt; 2f<sub>máx</sub>; resolução = faixa/2<sup>n</sup> e erro ±½ degrau; retificador é CA→CC e inversor é CC→CA; IGBT domina acionamento; 4–20 mA tem zero vivo.</p>

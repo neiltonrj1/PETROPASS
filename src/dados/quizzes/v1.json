@@ -1,0 +1,626 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q21",
+  "q": "Os polímeros estão cada dia mais presentes nas indústrias de base. Uma característica importante na engenharia é a capacidade de alguns polímeros de liquefazer e retornar ao estado sólido com o aumento e a redução da temperatura, respectivamente. Esses são denominados de Termoplásticos, enquanto outros polímeros, quando endurecidos, não retornam mais ao estado líquido, por isso, são denominados de Termofixos. Três tipos de polímeros muito comuns na indústria são polietileno, politetrafluoretileno (\"teflon\") e resina epóxi que, respectivamente, são",
+  "alts": {
+   "A": "termoplástico, termoplástico e termofixo",
+   "B": "termoplástico, termofixo e termoplástico",
+   "C": "termofixo, termoplástico e termofixo",
+   "D": "termofixo, termofixo e termoplástico",
+   "E": "termofixo, termoplástico e termoplástico"
+  },
+  "correta": "A",
+  "explica": "Polietileno e PTFE (Teflon) têm cadeias lineares que amolecem com o calor e re-endurecem no resfriamento, de forma reversível: são termoplásticos. A resina epóxi cura formando uma rede tridimensional de ligações cruzadas irreversíveis e não retorna ao estado líquido (degrada antes): é termofixo.",
+  "erradas": {
+   "B": "Classifica o Teflon como termofixo e o epóxi como termoplástico: é exatamente o inverso, o PTFE amolece com calor e o epóxi tem ligações cruzadas irreversíveis.",
+   "C": "Chama o polietileno de termofixo, mas o PE é o termoplástico mais clássico que existe (cadeias lineares que fundem e resolidificam).",
+   "D": "Erra dois dos três: polietileno e Teflon são termoplásticos, e o epóxi é termofixo, não o contrário.",
+   "E": "Acerta o Teflon mas inverte polietileno (termoplástico, não termofixo) e epóxi (termofixo, não termoplástico)."
+  },
+  "pontos": [
+   "Pegadinha: achar que o Teflon, por resistir a alta temperatura, seria termofixo; ele é termoplástico de alto desempenho.",
+   "Termoplástico = amolece/liquefaz reversivelmente (PE, PP, PVC, PTFE, náilon, PET); termofixo = rede de ligações cruzadas, não volta a líquido (epóxi, poliéster insaturado, fenólicas, borracha vulcanizada).",
+   "Epóxi é o termofixo favorito da banca; polietileno é o termoplástico favorito."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q22",
+  "q": "Nas cinco ligas não ferrosas a seguir, as concentrações dos elementos estão em porcentagens de massa, e o primeiro elemento é o elemento matriz.\n\nI – Al – 2,7% Cu\nII – Pb – 25% Sn\nIII – Fe – 2,5% Cr\nIV – Cu – 30% Zn\nV – Ni – 22% Cr\n\nQual delas é muito empregada em ambientes gasosos muito corrosivos e com temperaturas acima de 1000 °C?",
+  "alts": {
+   "A": "I",
+   "B": "II",
+   "C": "III",
+   "D": "IV",
+   "E": "V"
+  },
+  "correta": "E",
+  "explica": "Ambiente gasoso muito corrosivo acima de 1000 °C é o domínio das superligas Ni-Cr (Ni-22%Cr, tipo Inconel 600): o Cr forma a película protetora de Cr2O3 e o Ni garante estabilidade estrutural e resistência à fluência a quente. Regra prática: temperatura muito alta + gás corrosivo = liga Ni-Cr.",
+  "erradas": {
+   "A": "Al-2,7%Cu funde por volta de 650 °C; nenhuma liga de alumínio sobrevive a 1000 °C.",
+   "B": "Pb-25%Sn é liga de solda branda, funde em torno de 250 °C; é a opção de MENOR ponto de fusão da lista.",
+   "C": "Fe-2,5%Cr é apenas um aço baixa-liga: 2,5% de Cr protege até ~550 °C, mas oxida rápido demais a 1000 °C.",
+   "D": "Cu-30%Zn (latão) perde resistência mecânica e oxida severamente em alta temperatura; serve para cartuchos, não para fornos."
+  },
+  "pontos": [
+   "Decore a associação: >1000 °C + gás corrosivo = Ni-Cr (Inconel/Nicrome); a banca repete isso em 2014 (Q40) e 2018 (Q22).",
+   "Elimine por ponto de fusão: Pb-Sn ~250 °C e ligas de Al ~660 °C caem de cara.",
+   "Cr baixo (2-2,5%) protege só na faixa 300-550 °C (aços Cr-Mo); não confunda com serviço acima de 1000 °C."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q23",
+  "q": "O aço AISI 1030 é um aço ao carbono que pode ser endurecido por um tratamento térmico",
+  "alts": {
+   "A": "intercrítico no campo bifásico cementita-austenita, seguido de têmpera em água.",
+   "B": "intercrítico no campo bifásico ferrita-perlita, seguido de resfriamento lento.",
+   "C": "no campo monofásico austenítico, seguido de resfriamento rápido.",
+   "D": "no campo monofásico austenítico, seguido de resfriamento lento.",
+   "E": "numa temperatura abaixo do eutetoide, seguido de resfriamento rápido."
+  },
+  "correta": "C",
+  "explica": "Endurecer aço-carbono significa temperar: aquecer acima de A3, no campo monofásico austenítico, e resfriar rapidamente para transformar a austenita em martensita, a microestrutura mais dura. O AISI 1030 (0,30%C) é hipoeutetoide, então a austenitização plena ocorre acima de A3.",
+  "erradas": {
+   "A": "O campo bifásico cementita + austenita só existe para aços hipereutetoides (%C > 0,76); o 1030 é hipoeutetoide e esse campo nem existe para ele.",
+   "B": "Além de o resfriamento lento gerar perlita mole (não endurece), 'campo bifásico ferrita-perlita' é tecnicamente errado: perlita não é fase, é microconstituinte.",
+   "D": "Austenitizar corretamente mas resfriar lento produz ferrita + perlita (recozimento/normalização), que é mole, não endurecida.",
+   "E": "Abaixo do eutetoide (727 °C) não se forma austenita; sem austenita, não há o que transformar em martensita, logo não há têmpera."
+  },
+  "pontos": [
+   "Receita de têmpera: campo 100% austenítico + resfriamento mais rápido que a taxa crítica = martensita.",
+   "SAE/AISI 10XX: XX = %C em centésimos (1030 = 0,30%C, hipoeutetoide).",
+   "Fique atento a alternativas que citam 'fase perlita': perlita e ledeburita são microconstituintes, não fases."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q26",
+  "q": "A reação martensítica é uma transformação no estado sólido que ocorre em aços devido a um resfriamento muito",
+  "alts": {
+   "A": "lento da região austenítica",
+   "B": "lento da região ferrítica",
+   "C": "rápido da região ferrítica",
+   "D": "rápido da região perlítica",
+   "E": "rápido da região austenítica"
+  },
+  "correta": "E",
+  "explica": "A martensita só se forma a partir da austenita resfriada rapidamente o bastante para evitar as transformações difusionais (desviar do nariz da curva TTT/CCT) e cruzar a temperatura Ms. A transformação ocorre por cisalhamento da rede, sem difusão.",
+  "erradas": {
+   "A": "Resfriamento lento da austenita dá tempo para a difusão e produz ferrita + perlita, nunca martensita.",
+   "B": "Ferrita não se transforma em martensita; a martensita nasce exclusivamente da austenita, e resfriamento lento não gera martensita de forma alguma.",
+   "C": "Mesmo com resfriamento rápido, a ferrita (CCC, estável) não tem austenita para transformar; a origem tem de ser o campo austenítico.",
+   "D": "Perlita já é produto de decomposição (ferrita + cementita); não se converte em martensita por resfriamento."
+  },
+  "pontos": [
+   "Fórmula mental: martensita = austenita + resfriamento muito rápido (mais rápido que a taxa crítica).",
+   "A transformação é adifusional e atérmica: progride com a queda de temperatura entre Ms e Mf, não com o tempo.",
+   "Distratores clássicos trocam a fase de origem (ferrita/perlita) ou a velocidade (lento); as duas condições precisam estar certas."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q29",
+  "q": "Aços superduplex são aços inoxidáveis muito resistentes à corrosão e, por isso, empregados na indústria petroquímica. A característica duplex é uma alusão à microestrutura desses aços constituída de ferrita e",
+  "alts": {
+   "A": "austenita",
+   "B": "carbetos (carbonetos) de cromo",
+   "C": "cementita",
+   "D": "martensita",
+   "E": "perlita"
+  },
+  "correta": "A",
+  "explica": "Duplex e superduplex têm microestrutura bifásica de ferrita + austenita em proporções próximas de 50/50; é isso que o nome 'duplex' designa. O superduplex apenas eleva Cr, Mo e N (PREN > 40), mantendo as mesmas duas fases.",
+  "erradas": {
+   "B": "Carbonetos de cromo (M23C6) são fase indesejável nos inox: causam sensitização e corrosão intergranular, jamais definem a microestrutura duplex.",
+   "C": "Cementita (Fe3C) é fase de aços-carbono; não caracteriza aços inoxidáveis duplex.",
+   "D": "Martensita define a família dos inox martensíticos (ex.: 410, 420), não os duplex.",
+   "E": "Perlita é microconstituinte de aços-carbono resfriados lentamente; não existe na microestrutura dos inox duplex."
+  },
+  "pontos": [
+   "Decore: duplex = ferrita + austenita (~50/50); a banca cobrou o mesmo conceito em 2014 (Q37) e 2018 (Q29).",
+   "Não confunda as fases desejadas (alfa + gama) com as indesejáveis (fase sigma e carbonetos de Cr).",
+   "Superduplex = duplex com mais Cr, Mo, N (PREN > 40); a microestrutura continua a mesma dupla de fases."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q30",
+  "q": "Um dos aços inoxidáveis com maior emprego na indústria é o AISI 304, com composição típica de 18% massa de Cr e 8% massa de Ni, baixo carbono e outros elementos residuais. Esses aços apresentam uma pequena quantidade de carbonetos de cromo dispersos numa microestrutura de",
+  "alts": {
+   "A": "ferrita pura",
+   "B": "austenita pura",
+   "C": "martensita pura",
+   "D": "ferrita e austenita misturados",
+   "E": "martensita e austenita misturados"
+  },
+  "correta": "B",
+  "explica": "O AISI 304 (18%Cr-8%Ni) é o aço inoxidável austenítico clássico: o níquel estabiliza a austenita CFC à temperatura ambiente, formando uma matriz de austenita 'pura' com pequenos carbonetos de cromo dispersos.",
+  "erradas": {
+   "A": "Ferrita pura descreve os inox ferríticos (ex.: 405, 430), que têm Cr alto mas não têm Ni.",
+   "C": "Martensita exige carbono mais alto e têmpera (inox 410/420); o 304 tem C baixíssimo e não é temperável.",
+   "D": "Ferrita + austenita é a microestrutura dos duplex (Ni reduzido, ~4-7%); com 8%Ni o 304 é totalmente austenítico.",
+   "E": "Mistura de martensita e austenita não descreve o 304; é o tipo de distrator que combina famílias diferentes de inox."
+  },
+  "pontos": [
+   "Grave a dupla 18-8: 18%Cr + 8%Ni = 304 = austenítico (o Ni é o gamógeno que segura a austenita CFC em temperatura ambiente).",
+   "Se o Ni cai para ~4% com 18%Cr, o aço tende a duplex; sem Ni e com C alto (14%Cr-0,12%C), martensítico.",
+   "Erro clássico: chamar o 18-8 de ferrítico só por causa do Cr alto."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q31",
+  "q": "Alguns aços de baixa liga podem ser empregados em temperaturas elevadas, entre 300 °C e 550 °C. Nesses aços, a taxa de oxidação em temperaturas elevadas pode ser reduzida de maneira significativa pela adição de um elemento de liga em concentrações acima de 2% massa. Este elemento é o",
+  "alts": {
+   "A": "vanádio",
+   "B": "carbono",
+   "C": "nióbio",
+   "D": "zircônio",
+   "E": "cromo"
+  },
+  "correta": "E",
+  "explica": "O cromo em teores acima de 2% forma película de óxido aderente e protetora, reduzindo drasticamente a taxa de oxidação a quente na faixa de 300 a 550 °C. É a razão de ser dos aços Cr-Mo de refinaria e caldeiraria (1¼Cr-½Mo, 2¼Cr-1Mo).",
+  "erradas": {
+   "A": "Vanádio é microligante formador de carbonetos, usado em frações de ~0,1%; não é adicionado em 2% nem protege contra oxidação.",
+   "B": "Carbono controla dureza e microestrutura; não forma óxido protetor e não reduz oxidação a quente.",
+   "C": "Nióbio também é microligante formador de carbonetos (NbC) em teores mínimos; não é o protetor contra oxidação.",
+   "D": "Zircônio não é empregado para proteção contra oxidação em aços de baixa liga."
+  },
+  "pontos": [
+   "Associação direta de prova: Cr >= 2% = proteção contra oxidação a quente (300-550 °C) = aços Cr-Mo de caldeiras e fornos.",
+   "V e Nb aparecem como distratores porque são elementos de liga famosos, mas atuam como microligantes de carbonetos em ~0,1%, não em 2%.",
+   "Não confunda: para inoxidabilidade (corrosão aquosa) o Cr precisa de ~11-12%; para reduzir oxidação a quente bastam ~2%."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q32",
+  "q": "A estabilidade da fase austenita em aços é aumentada pela adição dos seguintes elementos de liga:",
+  "alts": {
+   "A": "N, Ni, Nb, V",
+   "B": "Cr, Mn, Nb, Ni",
+   "C": "C, Mn, Nb, Si",
+   "D": "C, Mn, N, Ni",
+   "E": "C, Ni, Nb, Ti"
+  },
+  "correta": "D",
+  "explica": "Os estabilizadores da austenita (gamógenos) clássicos são C, N, Mn e Ni — exatamente os quatro da letra D. Eles ampliam o campo gama do diagrama e favorecem a temperabilidade.",
+  "erradas": {
+   "A": "Nb e V são alfagênicos/formadores de carbonetos; basta um intruso para invalidar a lista.",
+   "B": "Cr é o alfagênico por excelência (estabiliza a ferrita) e o Nb também contamina a lista.",
+   "C": "Si é alfagênico e desoxidante, e Nb é formador de carbonetos; dois intrusos na lista.",
+   "E": "Nb e Ti são fortes formadores de carbonetos e estabilizadores da ferrita, não da austenita."
+  },
+  "pontos": [
+   "Mnemônico: gamógenos = C-N-Mn-Ni (os quatro que a banca repete; some Cu e Co à lista completa).",
+   "Alfagênicos: Cr, Si, Mo, V, Nb, Ti, W, Al; qualquer um deles na lista elimina a alternativa.",
+   "Estratégia: procure o intruso; não é preciso validar os quatro elementos, basta achar um alfagênico."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q36",
+  "q": "O tratamento térmico de um aço com carbono médio, 0,3% massa, que consiste em aquecer dentro do campo austenítico seguido de resfriamento rápido (em água com sal, ou água gelada) resulta numa microestrutura constituída de",
+  "alts": {
+   "A": "martensita",
+   "B": "ferrita",
+   "C": "cementita",
+   "D": "austenita",
+   "E": "perlita"
+  },
+  "correta": "A",
+  "explica": "Austenitização completa seguida de resfriamento severo (água com sal ou água gelada são os meios mais drásticos) não dá tempo para a decomposição difusional da austenita: ela se transforma em martensita, por cisalhamento, abaixo de Ms.",
+  "erradas": {
+   "B": "Ferrita pró-eutetoide exige resfriamento lento pelo campo alfa + gama; a têmpera severa suprime essa transformação difusional.",
+   "C": "Cementita como constituinte destacado aparece em resfriamento de equilíbrio (e em hipereutetoides); não é o produto de uma têmpera.",
+   "D": "Austenita não se retém à temperatura ambiente num aço-carbono de 0,3%C; ela se transforma em martensita ao cruzar Ms.",
+   "E": "Perlita é o produto do resfriamento LENTO (forno ou ar); é exatamente o que a têmpera em água com sal evita."
+  },
+  "pontos": [
+   "Água com sal / água gelada = meios de resfriamento mais severos = têmpera plena = martensita.",
+   "Compare com a Q29 de 2014: se o aquecimento for INTERCRÍTICO (alfa + gama), o resultado é ferrita + martensita; aqui o campo é 100% austenítico, então é só martensita.",
+   "Severidade dos meios: água salgada > água > óleo > ar."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q37",
+  "q": "Os materiais cristalinos apresentam uma organização periódica em que o volume unitário pode ser descrito por um paralelogramo com parâmetros geométricos bem definidos: arestas, denominadas a, b e c, e os ângulos entre os planos das faces do paralelogramo, denominados α, β e γ. Associe o sistema cristalino com seus parâmetros geométricos.\n\nI – Sistema Cúbico\nII – Sistema Hexagonal\nIII – Sistema Tetragonal\nIV – Sistema Ortorrômbico\n\nP: a = b ≠ c; α = β = γ = 90°\nQ: a = b = c; α = β = γ = 90°\nR: a = b ≠ c; α = β = 90°, γ = 120°\nS: a ≠ b ≠ c; α = β = γ = 90°\nT: a = b = c; α = β = γ ≠ 90°\n\nAs associações corretas são:",
+  "alts": {
+   "A": "I – P, II – T, III – Q, IV – R",
+   "B": "I – Q, II – R, III – S, IV – T",
+   "C": "I – Q, II – T, III – R, IV – S",
+   "D": "I – Q, II – R, III – P, IV – S",
+   "E": "I – T, II – R, III – S, IV – Q"
+  },
+  "correta": "D",
+  "explica": "Cúbico: tudo igual e tudo 90° (Q). Hexagonal: a = b ≠ c com γ = 120° (R) — é o único sistema com ângulo de 120°. Tetragonal: a = b ≠ c com todos os ângulos 90° (P), o 'cúbico esticado'. Ortorrômbico: a ≠ b ≠ c, todos 90° (S). T (a = b = c, ângulos iguais ≠ 90°) é o romboédrico/trigonal, que fica de fora.",
+  "erradas": {
+   "A": "Dá P (tetragonal) ao cúbico e T (romboédrico) ao hexagonal; o cúbico exige a = b = c com 90° (Q).",
+   "B": "Acerta cúbico e hexagonal, mas dá S (ortorrômbico) ao tetragonal e T (romboédrico) ao ortorrômbico.",
+   "C": "Dá T (romboédrico) ao hexagonal; o hexagonal é o R, o único com γ = 120°.",
+   "E": "Dá T ao cúbico: T tem ângulos diferentes de 90° (romboédrico); o cúbico é 'tudo igual, tudo 90°'."
+  },
+  "pontos": [
+   "O hexagonal é o ÚNICO sistema com γ = 120°; ache o R primeiro e elimine alternativas.",
+   "Pegadinha clássica: confundir P (tetragonal, todos 90°) com R (hexagonal, γ = 120°) — ambos têm a = b ≠ c.",
+   "T (a = b = c, ângulos iguais ≠ 90°) é o romboédrico/trigonal, colocado só para distrair."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q22",
+  "q": "Um operário comprou uma barra metálica feita de uma liga de cobre com 15% em massa de zinco em solução sólida. A única fase presente nesse metal é cúbica de face centrada, sendo que a barra foi adquirida na condição recristalizada. O operário precisou dobrar a barra para ajustá-la num determinado equipamento. Como o procedimento não foi bem sucedido, ele precisou desdobrá-la, descobrindo, então, que precisava fazer um esforço muito maior que o utilizado no primeiro dobramento. O engenheiro responsável pela área compreendeu rapidamente o que tinha ocorrido e explicou que, nesse caso, a barra sofreu um endurecimento durante o dobramento, causado pela",
+  "alts": {
+   "A": "geração e interação das discordâncias (deslocações) com outras discordâncias e com os átomos do soluto de zinco.",
+   "B": "geração e interação de vacâncias com outras vacâncias e com os átomos de zinco.",
+   "C": "geração e interação de trincas com outras trincas e com os átomos de zinco.",
+   "D": "redução da densidade total de discordâncias (deslocações) absorvidas pelos átomos de zinco.",
+   "E": "redução na densidade total de vacâncias que interagiram com outras vacâncias ou que foram absorvidas pelos átomos de zinco."
+  },
+  "correta": "A",
+  "explica": "Deformação plástica ocorre pelo movimento e multiplicação de discordâncias. No dobramento, a densidade de discordâncias cresce e elas interagem entre si e com os átomos de Zn em solução sólida, travando o escorregamento: é o encruamento. Por isso desdobrar a barra exige esforço maior.",
+  "erradas": {
+   "B": "Vacâncias não controlam o endurecimento por deformação; o defeito responsável pelo encruamento é a discordância (defeito de linha).",
+   "C": "Trincas não endurecem o material, fragilizam; e dobrar uma barra dúctil não gera trincas como mecanismo de endurecimento.",
+   "D": "Inverte o fenômeno: a densidade de discordâncias AUMENTA na deformação a frio (de ~10^6 para ~10^10-10^12 cm/cm3), não diminui.",
+   "E": "Combina o defeito errado (vacâncias) com o sentido errado (redução); o encruamento é aumento da densidade de discordâncias."
+  },
+  "pontos": [
+   "Encruamento = geração + interação de DISCORDÂNCIAS; sempre desconfie de alternativas com vacâncias ou trincas.",
+   "A palavra 'redução' de densidade de discordâncias é a pegadinha de sinal: deformar a frio sempre AUMENTA a densidade.",
+   "Com soluto em solução sólida (Zn no Cu), soma-se o ancoramento das discordâncias pelos átomos de soluto."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q24",
+  "q": "(adaptada) O ensaio Jominy é um dos mais empregados para definir a temperabilidade de um aço. Um ensaio Jominy foi realizado em três aços distintos, com os seguintes resultados: o aço A apresenta curva quase horizontal, mantendo dureza elevada (próxima à da extremidade temperada) mesmo a grandes distâncias da extremidade resfriada; o aço B apresenta queda gradual de dureza com a distância; o aço C apresenta queda abrupta de dureza logo nos primeiros milímetros. Após análise do resultado desse ensaio, constata-se que o(s) aço(s)",
+  "alts": {
+   "A": "C é o de maior temperabilidade.",
+   "B": "A é o de maior temperabilidade.",
+   "C": "B é o de maior temperabilidade.",
+   "D": "C apresenta profundidade de têmpera muito maior que o aço A.",
+   "E": "A, B e C apresentam a mesma temperabilidade."
+  },
+  "correta": "B",
+  "explica": "Curva Jominy achatada significa dureza mantida longe da extremidade temperada, ou seja, martensita formada mesmo nas regiões de resfriamento mais lento: isso é, por definição, a maior temperabilidade. O aço A, de curva quase horizontal, é o mais temperável.",
+  "erradas": {
+   "A": "O aço C é o de MENOR temperabilidade: sua dureza despenca logo nos primeiros milímetros, indicando martensita só na superfície.",
+   "C": "O aço B tem temperabilidade intermediária (queda gradual); quem mantém a dureza é o A.",
+   "D": "Inverte os aços: a profundidade de têmpera do C é muito MENOR que a do A, pois sua dureza cai abruptamente.",
+   "E": "As três curvas são claramente distintas; curvas Jominy diferentes significam temperabilidades diferentes."
+  },
+  "pontos": [
+   "Leitura da curva Jominy: achatada = alta temperabilidade; despenca logo = baixa temperabilidade.",
+   "Maior distância da extremidade temperada = menor taxa de resfriamento naquele ponto.",
+   "Temperabilidade é profundidade de endurecimento, não dureza máxima (esta depende do %C)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q32",
+  "q": "Aços de construção mecânica são ligas de ferro e carbono com adição de elementos de liga capazes de aumentar a resistência mecânica pela precipitação de carbonetos ou pelo aumento da temperabilidade. Nesses aços, os elementos que favorecem a precipitação de carbonetos são os seguintes:",
+  "alts": {
+   "A": "Si e Cr",
+   "B": "V e Si",
+   "C": "V e Mo",
+   "D": "Cr e N",
+   "E": "N e Mo"
+  },
+  "correta": "C",
+  "explica": "Os formadores de carbonetos por excelência são V e Mo (junto com Cr, Nb, Ti e W). Vanádio e molibdênio precipitam carbonetos finos que endurecem o aço, base dos aços de construção mecânica ligados.",
+  "erradas": {
+   "A": "Si não forma carbonetos: é desoxidante e alfagênico; a presença do Si invalida a dupla, apesar de o Cr formar carbonetos.",
+   "B": "Novamente o Si contamina a lista: ele nunca aparece como formador de carboneto.",
+   "D": "N não forma carbonetos (forma nitretos); o Cr sozinho não salva a alternativa.",
+   "E": "N forma nitretos, não carbonetos; a dupla precisa ter dois formadores de carboneto verdadeiros."
+  },
+  "pontos": [
+   "Formadores de carbonetos: V, Mo, Cr, Nb, Ti, W (afinidade crescente: Cr < Mo < W < V < Nb < Ti).",
+   "Dois intrusos recorrentes: Si (desoxidante, não forma carboneto) e N (forma nitreto, não carboneto).",
+   "Ni também nunca forma carboneto: fica em solução na matriz (cai em outras questões da banca)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q35",
+  "q": "Os tratamentos térmicos dos aços dependem fortemente da adição de solutos capazes de aumentar o campo austenítico ou o campo ferrítico e de precipitar carbonetos. Para aumentar o campo austenítico e favorecer a temperabilidade, o aço poderá ter os seguintes elementos de liga estabilizadores da austenita:",
+  "alts": {
+   "A": "N, Ni e Nb",
+   "B": "N, Cr e Si",
+   "C": "C, Cr e V",
+   "D": "C, Mn e Ni",
+   "E": "C, Nb e V"
+  },
+  "correta": "D",
+  "explica": "C, Mn e Ni são gamógenos clássicos: ampliam o campo austenítico. C e Mn ainda aumentam a temperabilidade, deslocando as curvas TTT/CCT para a direita. É a única alternativa sem nenhum elemento alfagênico ou formador de carboneto.",
+  "erradas": {
+   "A": "O Nb é alfagênico e formador de carbonetos; um único intruso derruba a lista, mesmo com N e Ni corretos.",
+   "B": "Cr e Si são alfagênicos (estabilizam a ferrita); só o N é gamógeno.",
+   "C": "Cr e V estabilizam a ferrita e formam carbonetos; apenas o C é gamógeno.",
+   "E": "Nb e V são formadores de carbonetos/alfagênicos; a lista tem dois intrusos."
+  },
+  "pontos": [
+   "Mesma regra do C-N-Mn-Ni: memorize os quatro gamógenos e procure o intruso em cada alternativa.",
+   "Questão-irmã da 2018 Q32: a banca recicla esse conceito; dominar a lista resolve as duas.",
+   "Todos os elementos dissolvidos na austenita (exceto Co) aumentam a temperabilidade, mas 'estabilizar a austenita' é só para os gamógenos."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q36",
+  "q": "A temperatura de austenitização de aços hipoeutetoides está diretamente associada à linha A3 (ou Ae3) do diagrama de equilíbrio de fases do aço. O aço que apresentará a menor temperatura de austenitização será o",
+  "alts": {
+   "A": "1020",
+   "B": "1030",
+   "C": "1040",
+   "D": "1045",
+   "E": "1050"
+  },
+  "correta": "E",
+  "explica": "A linha A3 decresce com o aumento do %C: de 912 °C no ferro puro até 727 °C no eutetoide (0,76%C). Entre os aços 10XX listados, o de maior carbono é o 1050 (0,50%C), logo tem a menor A3 e a menor temperatura de austenitização.",
+  "erradas": {
+   "A": "O 1020 (0,20%C) é o de MENOR carbono da lista, logo tem a MAIOR A3; seria a resposta se a pergunta pedisse a maior temperatura.",
+   "B": "0,30%C ainda está longe do eutetoide; sua A3 é maior que a dos aços 1040, 1045 e 1050.",
+   "C": "0,40%C tem A3 menor que 1020/1030, mas maior que 1045 e 1050.",
+   "D": "0,45%C perde apenas para o 1050; a menor A3 é a do aço de maior %C da lista."
+  },
+  "pontos": [
+   "Regra: em hipoeutetoides, quanto MAIOR o %C, MENOR a temperatura de austenitização (A3 cai de 912 para 727 °C).",
+   "Leia com cuidado se a banca pede a MENOR ou a MAIOR temperatura: o distrator simétrico (1020) está sempre lá.",
+   "SAE 10XX: XX = centésimos de %C (1050 = 0,50%C)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q37",
+  "q": "Aços inoxidáveis duplex são uma categoria muito especial de aços inoxidáveis de grande aplicação na indústria do petróleo por apresentarem excelente resistência à corrosão. A microestrutura desses aços é constituída de maneira preponderante pelas seguintes fases:",
+  "alts": {
+   "A": "ferrita e carbonetos",
+   "B": "ferrita e austenita",
+   "C": "carbonetos e martensita",
+   "D": "austenita e fase sigma",
+   "E": "martensita e nitretos"
+  },
+  "correta": "B",
+  "explica": "'Duplex' designa a microestrutura bifásica ferrita + austenita, em proporções próximas de 50/50, que combina a resistência mecânica e à corrosão sob tensão da ferrita com a tenacidade da austenita.",
+  "erradas": {
+   "A": "Carbonetos (de cromo) são fase indesejável nos inox — causam sensitização; não fazem parte da definição do duplex.",
+   "C": "Martensita caracteriza os inox martensíticos (410/420) e carbonetos são indesejáveis; nada a ver com duplex.",
+   "D": "Fase sigma é o intermetálico Fe-Cr duro e frágil que os tratamentos térmicos precisam EVITAR, jamais fase constituinte desejada.",
+   "E": "Martensita e nitretos não definem o duplex; é uma combinação sem correspondência com nenhuma família usual."
+  },
+  "pontos": [
+   "Duplex = ferrita + austenita (~50/50); questão-irmã da 2018 Q29.",
+   "Distratores usam as fases INDESEJÁVEIS (sigma, carbonetos de Cr): saiba separar fases desejadas de fases-problema.",
+   "Composição típica dos duplex: 22-25%Cr, 4-7%Ni, com N e Mo (ex.: 2205, 2507)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q38",
+  "q": "Diversos compósitos têm sido empregados pela indústria na construção de plataformas marítimas e nos sistemas de extração de petróleo. O compósito que envolve a participação de uma matriz polimérica e uma fibra cerâmica é o",
+  "alts": {
+   "A": "epóxi com fibras de Kevlar",
+   "B": "epóxi com fibras de vidro",
+   "C": "alumínio com fibras de carbono",
+   "D": "alumínio com nanotubos de titanato",
+   "E": "polietileno com fibras de sisal"
+  },
+  "correta": "B",
+  "explica": "Epóxi é matriz polimérica (resina termofixa) e a fibra de vidro é um reforço cerâmico (vidro é material cerâmico). É o clássico PRFV (plástico reforçado com fibra de vidro), muito usado em plataformas e dutos.",
+  "erradas": {
+   "A": "Kevlar é fibra polimérica (aramida): epóxi + Kevlar é polímero + polímero, não polímero + cerâmica.",
+   "C": "A matriz é metálica (alumínio), não polimérica; a classificação do compósito segue a matriz.",
+   "D": "Novamente matriz metálica (Al); não atende ao requisito de matriz polimérica.",
+   "E": "Sisal é fibra natural orgânica (vegetal), não cerâmica; polietileno + sisal é polímero + fibra natural."
+  },
+  "pontos": [
+   "Classifique cada componente: epóxi = polímero; vidro = cerâmica; Kevlar = polímero (aramida); Al = metal; sisal = fibra natural.",
+   "A pegadinha favorita é o Kevlar parecer 'cerâmico' por ser fibra de alta resistência: ele é polimérico.",
+   "PRFV (epóxi ou poliéster + fibra de vidro) é o exemplo canônico de matriz polimérica + reforço cerâmico."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q40",
+  "q": "A fabricação de fornos para temperaturas acima de 800 °C requer o uso de metais resistentes na região quente do forno. A seguinte liga de metais pode ser empregada nessa região:",
+  "alts": {
+   "A": "alumínio e cobre",
+   "B": "alumínio e lítio",
+   "C": "níquel e cromo",
+   "D": "zinco e alumínio",
+   "E": "chumbo e estanho"
+  },
+  "correta": "C",
+  "explica": "Para a região quente de fornos (>800 °C) é preciso alto ponto de fusão e resistência à oxidação: as ligas Ni-Cr (tipo Nicrome/Inconel) atendem aos dois requisitos, pois o Cr forma óxido protetor e o Ni mantém a resistência estrutural a quente.",
+  "erradas": {
+   "A": "Ligas Al-Cu fundem por volta de 660 °C, abaixo da própria temperatura de operação do forno.",
+   "B": "Al-Li também é liga de alumínio (fusão ~660 °C), inviável acima de 800 °C.",
+   "D": "Zn-Al funde ainda mais baixo que as ligas de alumínio; o zinco funde a ~420 °C.",
+   "E": "Pb-Sn é liga de solda branda, com fusão em torno de 200-300 °C: a pior opção possível para um forno."
+  },
+  "pontos": [
+   "Regra prática: temperatura muito alta (>800-1000 °C) = liga Ni-Cr; a banca repete em 2014 e 2018.",
+   "Elimine por ponto de fusão: Al ~660 °C, Zn ~420 °C, Pb-Sn ~200-300 °C.",
+   "O papel de cada elemento: Cr = óxido protetor (Cr2O3); Ni = estabilidade e fluência a quente."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q22",
+  "q": "A oficina mecânica de uma empresa comprou um lote de alumínio comercialmente puro (constituído de uma única fase) e descobriu que o mesmo estava com uma dureza muito elevada, o que dificultava seu processo de conformação mecânica. Os técnicos propuseram um tratamento térmico de uma hora para a recristalização do material. Sabendo-se que a temperatura de fusão do alumínio é de, aproximadamente, 660 °C, que temperatura resultará na menor dureza possível?",
+  "alts": {
+   "A": "60 °C",
+   "B": "100 °C",
+   "C": "150 °C",
+   "D": "190 °C",
+   "E": "490 °C"
+  },
+  "correta": "E",
+  "explica": "A recristalização do Al (T_f = 660 °C = 933 K) exige T de pelo menos ~0,4·T_f ≈ 373 K ≈ 100 °C, mas o objetivo é a MENOR dureza possível em 1 h: usa-se a maior temperatura disponível abaixo da fusão. A 490 °C ocorre recristalização completa mais crescimento de grão, e pelo efeito Hall-Petch grão maior significa menor resistência e menor dureza.",
+  "erradas": {
+   "A": "60 °C está abaixo até do limiar de recristalização (~0,4·T_f em K ≈ 100 °C); praticamente nada acontece em 1 h.",
+   "B": "100 °C é apenas o limiar aproximado da recristalização: em 1 h daria recristalização incompleta ou grão muito fino, dureza ainda alta.",
+   "C": "150 °C recristaliza, mas gera grão fino: pela relação de Hall-Petch, grão fino mantém dureza mais alta que a mínima possível.",
+   "D": "190 °C ainda produz grão relativamente fino; a dureza mínima exige a temperatura mais alta disponível, com crescimento de grão."
+  },
+  "pontos": [
+   "Pegadinha central: a pergunta não é 'qual a temperatura de recristalização' (~0,4·T_f), e sim 'qual dá a MENOR dureza' — resposta: a maior T abaixo da fusão.",
+   "Hall-Petch: grão menor = mais duro; crescimento de grão = mais mole.",
+   "T_recr ≈ 0,3-0,5·T_fusão em KELVIN (660 °C = 933 K; 0,4×933 ≈ 373 K ≈ 100 °C): quem calcula em °C cai na armadilha."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q23",
+  "q": "Um sistema binário, constituído somente de duas fases sólidas com solubilidade limitada e um líquido que forma uma reação eutética, apresenta uma característica físico-química de grande importância tecnológica, que consiste em:",
+  "alts": {
+   "A": "o líquido eutético apresenta uma temperatura de solidificação maior que as temperaturas de solidificação das fases sólidas.",
+   "B": "o líquido eutético apresenta uma temperatura de solidificação menor que as temperaturas de solidificação das fases sólidas.",
+   "C": "o líquido eutético apresenta uma temperatura de solidificação intermediária entre as temperaturas de fusão das fases sólidas.",
+   "D": "o líquido eutético nunca se solidifica, portanto, não apresenta temperatura de solidificação.",
+   "E": "as fases sólidas nunca se fundem e, portanto, não apresentam uma temperatura de solidificação."
+  },
+  "correta": "B",
+  "explica": "O ponto eutético é o mínimo da curva liquidus: a composição eutética solidifica (e funde) numa temperatura INFERIOR às temperaturas de fusão dos componentes/fases puros. É exatamente isso que torna as ligas eutéticas tecnologicamente úteis (soldas Pb-Sn, metais de adição).",
+  "erradas": {
+   "A": "Inverte a geometria do diagrama: o eutético é o ponto de MENOR temperatura de solidificação, não o maior.",
+   "C": "Se fosse intermediária não haveria vantagem tecnológica; o eutético fica ABAIXO das duas temperaturas de fusão, é o mínimo da liquidus.",
+   "D": "Absurdo físico: o líquido eutético solidifica, e numa única temperatura (reação invariante L → α + β).",
+   "E": "Absurdo físico: as fases sólidas fundem normalmente; a questão trata da posição relativa das temperaturas."
+  },
+  "pontos": [
+   "Grave a imagem: eutético = vale (mínimo) da curva liquidus = menor ponto de fusão do sistema.",
+   "Aplicação prática que justifica a 'importância tecnológica': soldas Pb-Sn quase eutéticas fundem baixo.",
+   "Na reação eutética, L, α e β coexistem numa única temperatura (equilíbrio invariante, F = 0)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q26",
+  "q": "O diagrama Fe-C metaestável é constituído das seguintes fases na região de importância tecnológica: líquido, austenita, ferrita alfa, ferrita delta e cementita. Essas fases sofrem diversas transformações em função da temperatura, sabendo-se que, durante o",
+  "alts": {
+   "A": "resfriamento, o líquido eutético se transforma em ferrita e perlita.",
+   "B": "resfriamento, o líquido eutético se transforma em ferrita e austenita.",
+   "C": "resfriamento, a austenita eutetoide se transforma em ferrita e cementita.",
+   "D": "aquecimento, a ferrita e a austenita se transformam em líquido eutético.",
+   "E": "aquecimento, a ferrita peritetoide se transforma em austenita e líquido."
+  },
+  "correta": "C",
+  "explica": "A reação eutetoide do Fe-C, no resfriamento, é γ(0,76%C) → α + Fe3C a 727 °C: a austenita eutetoide se decompõe em ferrita e cementita (o agregado lamelar resultante é a perlita).",
+  "erradas": {
+   "A": "Erra a reação eutética: L(4,3%C) → austenita + cementita (ledeburita); não envolve ferrita nem perlita (que nem é fase).",
+   "B": "O líquido eutético gera austenita + CEMENTITA, não ferrita + austenita.",
+   "D": "Reação inexistente no Fe-C: ferrita + austenita não se combinam para formar líquido eutético no aquecimento.",
+   "E": "Não existe 'ferrita peritetoide' no Fe-C; a reação peritética real é L + δ → γ, a 1495 °C."
+  },
+  "pontos": [
+   "Decore os esquemas: eutetoide γ → α + Fe3C (727 °C, 0,76%C); eutética L → γ + Fe3C (1148 °C, 4,3%C).",
+   "Confusão clássica: trocar eutética por eutetoide; 'eutetoide' é sólido → 2 sólidos.",
+   "Perlita e ledeburita são microconstituintes, não fases; alternativa que trata perlita como produto de fase líquida está errada."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q27",
+  "q": "Um aço hipereutetoide é aquecido na região da fase austenita e resfriado ao ar. Que microestrutura será observada no microscópio óptico após preparação metalográfica?",
+  "alts": {
+   "A": "Cementita pró-eutetoide e perlita",
+   "B": "Cementita e perlita pró-eutetoide",
+   "C": "Austenita e cementita",
+   "D": "Ferrita e perlita pró-eutetoide",
+   "E": "Ferrita pró-eutetoide e perlita"
+  },
+  "correta": "A",
+  "explica": "No hipereutetoide resfriado ao ar (próximo ao equilíbrio), entre Acm e A1 precipita cementita pró-eutetoide nos contornos de grão da austenita; a 727 °C a austenita restante transforma-se em perlita. Resultado: cementita pró-eutetoide + perlita.",
+  "erradas": {
+   "B": "'Perlita pró-eutetoide' não existe: pró-eutetoide é a fase que precipita ANTES da reação eutetoide (ferrita ou cementita), nunca a perlita.",
+   "C": "Austenita não sobrevive à temperatura ambiente em aço-carbono resfriado ao ar; ela se decompõe totalmente ao cruzar 727 °C.",
+   "D": "Além de 'perlita pró-eutetoide' não existir, ferrita pró-eutetoide é coisa de aço HIPOeutetoide.",
+   "E": "Ferrita pró-eutetoide + perlita é a microestrutura dos HIPOeutetoides (%C < 0,76); o enunciado diz hipereutetoide."
+  },
+  "pontos": [
+   "Regra: hipo = ferrita pró-eutetoide + perlita; hiper = cementita pró-eutetoide + perlita.",
+   "'Pró-eutetoide' só pode ser fase (ferrita ou cementita); 'perlita pró-eutetoide' é sempre distrator.",
+   "Resfriamento ao ar (normalização) segue a lógica de equilíbrio para fins de prova: sem martensita."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q34",
+  "q": "Cinco aços ao carbono foram normalizados e as quantidades de ferrita e perlita foram medidas por microscopia óptica quantitativa. Nesse contexto, considerando-se os aços a seguir, qual deles apresentou a maior fração volumétrica de ferrita?",
+  "alts": {
+   "A": "SAE 1060",
+   "B": "SAE 1045",
+   "C": "SAE 1030",
+   "D": "SAE 1015",
+   "E": "SAE 1005"
+  },
+  "correta": "E",
+  "explica": "Quanto menor o %C, maior a fração de ferrita: pela regra da alavanca logo acima de 727 °C, %ferrita = (0,76 − C0)/(0,76 − 0,02). Na nomenclatura SAE 10XX, XX é o %C em centésimos: o 1005 tem 0,05%C, o mais pobre em carbono da lista, logo o mais ferrítico.",
+  "erradas": {
+   "A": "O 1060 (0,60%C) é o de MAIOR carbono da lista, portanto o de maior fração de perlita e MENOR fração de ferrita; seria a resposta se pedissem mais perlita.",
+   "B": "0,45%C dá menos ferrita que qualquer aço de carbono inferior; a ferrita cresce quando o C diminui.",
+   "C": "0,30%C ainda tem bem menos ferrita que o 1015 e o 1005.",
+   "D": "0,15%C fica perto, mas o 1005 (0,05%C) tem ainda menos carbono e, portanto, mais ferrita."
+  },
+  "pontos": [
+   "Relação inversa a decorar: menos C = mais ferrita; mais C = mais perlita (até 0,76%C).",
+   "SAE 10XX: XX = centésimos de %C (1005 = 0,05%C; 1060 = 0,60%C).",
+   "Cuidado com a leitura: se a pergunta trocar para 'maior fração de PERLITA', a resposta vira o de maior carbono."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q35",
+  "q": "Aços hipereutetoides são empregados na fabricação de lâminas de faca e trilhos de trem, porque apresentam, após o tratamento de normalização, uma microestrutura mais dura e resistente à abrasão, que consiste em",
+  "alts": {
+   "A": "ferrita pura",
+   "B": "ferrita pró-eutetoide e perlita",
+   "C": "perlita pura",
+   "D": "cementita pró-eutetoide e perlita",
+   "E": "cementita pura"
+  },
+  "correta": "D",
+  "explica": "Hipereutetoide normalizado: entre Acm e A1 forma-se cementita pró-eutetoide (rede dura nos contornos de grão) e, a 727 °C, a austenita restante vira perlita. A cementita dura mais a perlita fina da normalização dão a resistência à abrasão de lâminas e trilhos.",
+  "erradas": {
+   "A": "Ferrita pura é a microestrutura de ferro quase sem carbono (%C < 0,022), mole e dúctil: o oposto do que se busca em lâminas.",
+   "B": "Ferrita pró-eutetoide + perlita é a microestrutura dos HIPOeutetoides; o enunciado fala de hipereutetoides.",
+   "C": "Perlita pura corresponde ao aço exatamente eutetoide (0,76%C), não ao hipereutetoide.",
+   "E": "Cementita pura (100% Fe3C) não existe como microestrutura de aço; exigiria 6,7%C, fora da faixa dos aços."
+  },
+  "pontos": [
+   "Trio a decorar: hipo = ferrita + perlita; eutetoide = perlita pura; hiper = cementita pró-eutetoide + perlita.",
+   "Associação de aplicação: dureza/resistência à abrasão (facas, trilhos) = hipereutetoide com rede de cementita.",
+   "Aços têm no máximo ~2,1%C; 'cementita pura' (6,7%C) é sempre distrator absurdo."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q37",
+  "q": "Bronzes constituem um dos grupos mais importantes de ligas não ferrosas por apresentarem elevada resistência à corrosão marítima. Os bronzes são constituídos com os metais cobre, estanho, prata, níquel e antimônio. O elemento com teor acima de 50% em massa nos bronzes é",
+  "alts": {
+   "A": "cobre",
+   "B": "estanho",
+   "C": "prata",
+   "D": "níquel",
+   "E": "antimônio"
+  },
+  "correta": "A",
+  "explica": "Bronze é liga à base de cobre (Cu-Sn e variantes com Al, Si, Ni): o cobre é sempre o elemento majoritário, com teor acima de 50% em massa. Estanho, prata, níquel e antimônio entram como adições minoritárias.",
+  "erradas": {
+   "B": "O estanho é o principal elemento de LIGA do bronze, mas em teor minoritário; quem passa de 50% é o cobre.",
+   "C": "Prata aparece apenas como adição eventual em pequenas quantidades.",
+   "D": "Níquel é adição minoritária em algumas variantes de bronze, nunca a matriz.",
+   "E": "Antimônio é adição minoritária; jamais ultrapassa o cobre."
+  },
+  "pontos": [
+   "Decore o par: bronze = Cu-Sn (matriz de cobre); latão = Cu-Zn — ambos à base de COBRE.",
+   "A pegadinha é achar que o estanho, por dar nome à liga, seria o majoritário: a matriz é sempre o Cu.",
+   "Aplicação associada pela banca: bronzes = resistência à corrosão marítima."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q40",
+  "q": "São materiais industriais considerados não metálicos:",
+  "alts": {
+   "A": "carbeto de tungstênio, óxido de alumínio e fibra de vidro",
+   "B": "carbeto de nióbio, nióbio e fluoreto de cálcio",
+   "C": "cobre, óxido de zinco, poliestireno",
+   "D": "polietileno, magnésio e carbonato de cálcio",
+   "E": "silício, molibdênio e cobalto"
+  },
+  "correta": "A",
+  "explica": "Carbeto de tungstênio (WC), óxido de alumínio (Al2O3) e fibra de vidro são todos materiais cerâmicos — compostos inorgânicos não metálicos. Materiais não metálicos englobam cerâmicos e polímeros; a letra A é a única lista sem nenhum metal.",
+  "erradas": {
+   "B": "O nióbio puro é um METAL; o carbeto de nióbio e o fluoreto de cálcio são cerâmicos, mas um metal na lista a invalida.",
+   "C": "O cobre é metal; óxido de zinco (cerâmico) e poliestireno (polímero) não salvam a lista.",
+   "D": "O magnésio é metal; polietileno (polímero) e carbonato de cálcio (cerâmico) estão certos, mas a lista está contaminada.",
+   "E": "Molibdênio e cobalto são metais, e o silício tem caráter metálico/metaloide — nas listas da banca conta como 'metálico'."
+  },
+  "pontos": [
+   "Estratégia: procure o metal intruso em cada alternativa; basta um para eliminar.",
+   "Compostos (óxidos, carbetos, nitretos, vidros) são cerâmicos mesmo contendo átomos de metal: WC e Al2O3 são NÃO metálicos.",
+   "Pegadinha do elemento vs composto: nióbio (metal) ≠ carbeto de nióbio (cerâmico); Si e Mo em listas valem como metálicos."
+  ]
+ }
+]

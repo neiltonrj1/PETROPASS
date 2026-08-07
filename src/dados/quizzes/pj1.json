@@ -1,0 +1,170 @@
+[
+ {
+  "origem": "Cesgranrio 2011, Q21 (Análise e Projetos)",
+  "q": "Dois projetos de investimento diferentes são mutuamente exclusivos. Em consequência,",
+  "alts": {
+   "A": "têm a mesma taxa interna de retorno.",
+   "B": "têm o mesmo Valor Presente Líquido.",
+   "C": "devem ser implementados lentamente.",
+   "D": "não podem ser implementados simultaneamente.",
+   "E": "implicam o mesmo valor de investimento inicial."
+  },
+  "correta": "D",
+  "explica": "Mutuamente exclusivos é uma relação de INCOMPATIBILIDADE: aceitar um implica necessariamente rejeitar o outro. É o caso de duas máquinas para a mesma função, dois usos para o mesmo terreno, duas tecnologias para a mesma planta. Nada na definição obriga os projetos a terem indicadores ou portes parecidos.",
+  "erradas": {
+   "A": "Nada impede que tenham TIRs completamente diferentes — em geral têm.",
+   "B": "Se tivessem sempre o mesmo VPL, a escolha seria indiferente e o conceito perderia sentido.",
+   "C": "Velocidade de implantação não tem relação com exclusividade mútua.",
+   "E": "Portes distintos são comuns: é justamente aí que TIR e VPL podem apontar caminhos diferentes."
+  },
+  "pontos": [
+   "Excludentes: escolher um elimina o outro. Independentes: a decisão sobre um não afeta a do outro. Contingentes: um só existe se o outro for feito.",
+   "Entre excludentes, decida pelo MAIOR VPL — não pela maior TIR. Com portes diferentes, os dois critérios podem discordar.",
+   "A ferramenta formal para resolver o conflito é a TIR incremental: monte o fluxo diferença entre os projetos e compare essa taxa com a TMA."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q24 (Análise e Projetos)",
+  "q": "O Valor Presente Líquido de um projeto de investimento da empresa X, avaliado à taxa mínima de atratividade, é negativo. Logo, o projeto",
+  "alts": {
+   "A": "deve ser implementado pela empresa X.",
+   "B": "diminui o valor de mercado de X, se for implementado.",
+   "C": "apresenta taxa interna de retorno negativa.",
+   "D": "é viável apenas em pequena escala.",
+   "E": "necessita de investimentos iniciais reduzidos."
+  },
+  "correta": "B",
+  "explica": "O VPL mede quanto de riqueza o projeto acrescenta hoje, já descontado o custo de oportunidade do capital. VPL negativo significa que o projeto rende MENOS que a TMA: executá-lo destrói valor e, portanto, reduz o valor de mercado da empresa.",
+  "erradas": {
+   "A": "É o oposto: VPL negativo é critério de rejeição.",
+   "C": "Cuidado com essa. VPL negativo à TMA garante apenas que a TIR é MENOR que a TMA — ela pode ser perfeitamente positiva, digamos 6 % com TMA de 12 %.",
+   "D": "Reduzir a escala não muda o sinal do VPL quando a rentabilidade por unidade de capital é insuficiente.",
+   "E": "O tamanho do investimento inicial não decorre do sinal do VPL."
+  },
+  "pontos": [
+   "VPL > 0 ⇔ TIR > TMA. VPL = 0 ⇔ TIR = TMA. VPL < 0 ⇔ TIR < TMA (mas a TIR pode continuar positiva).",
+   "O VPL já embute o custo de oportunidade: zero não significa 'não ganhou nada', e sim 'ganhou exatamente a TMA'.",
+   "A curva VPL × taxa é decrescente e corta o eixo horizontal justamente na TIR."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q25 (Análise e Projetos)",
+  "q": "Todos os gastos e recebimentos, presentes e futuros, do fluxo financeiro de certo projeto de investimento, aumentam 40% no caso de se considerar um cenário externo alternativo. Logo, nesse cenário, o projeto terá",
+  "alts": {
+   "A": "vida útil maior em 40%.",
+   "B": "taxa interna de retorno inalterada.",
+   "C": "prazo de retorno do capital empregado maior em 40%.",
+   "D": "valores presentes líquidos inalterados.",
+   "E": "despesas financeiras líquidas menores em 20%."
+  },
+  "correta": "B",
+  "explica": "Multiplicar todo o fluxo por um mesmo fator k equivale a colocar k em evidência na expressão do VPL: VPL(i) passa a ser k·VPL(i). A TIR é a taxa que zera essa expressão — e k·VPL(i) = 0 tem exatamente a mesma raiz que VPL(i) = 0. Ou seja, o VPL fica 40 % maior, mas a TIR não muda.",
+  "erradas": {
+   "A": "A vida útil é dada pelo número de períodos do fluxo; escalar os valores não acrescenta nenhum período.",
+   "C": "O payback também não muda: se todas as parcelas crescem na mesma proporção, o momento em que o acumulado cobre o investimento é o mesmo.",
+   "D": "O VPL muda sim — fica multiplicado por 1,40.",
+   "E": "Nada no enunciado permite concluir queda de despesa financeira; aliás, tudo cresceu 40 %."
+  },
+  "pontos": [
+   "Escalar o fluxo inteiro: VPL fica ×k, TIR e payback ficam IGUAIS.",
+   "Deslocar o fluxo no tempo é outra história: aí o VPL muda e a TIR também.",
+   "É a mesma lógica de mudança de moeda ou de unidade: a rentabilidade percentual não depende da escala."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q32 (Análise e Projetos)",
+  "q": "Se a taxa de juros compostos relevante for de 1% a.m., a quantia de R$ 1.000,00, a ser paga 6 meses no futuro, teria um valor no presente dado pela expressão",
+  "alts": {
+   "A": "1.000,00 × (1,06)",
+   "B": "1.000,00 × (1,01)⁶",
+   "C": "1.000,00 × (0,01)⁶",
+   "D": "1.000,00 ÷ (1,01)⁶",
+   "E": "1.000,00 + (1,01)⁶"
+  },
+  "correta": "D",
+  "explica": "Trazer um valor futuro para o presente é DESCONTAR, e no regime composto isso significa dividir pelo fator de capitalização: VP = VF ÷ (1 + i)ⁿ = 1.000 ÷ (1,01)⁶ ≈ R$ 942,05. O valor presente é sempre menor que o valor futuro quando a taxa é positiva.",
+  "erradas": {
+   "A": "Usa juro simples (1 % × 6 = 6 %) e ainda multiplica em vez de dividir — dois erros somados.",
+   "B": "Multiplicar por (1,01)⁶ capitaliza: leva o valor para o futuro, o contrário do que se pede.",
+   "C": "(0,01)⁶ é um número minúsculo; a base do fator é (1 + i), não i.",
+   "E": "Somar um fator adimensional a um valor em reais não faz sentido dimensional."
+  },
+  "pontos": [
+   "Descontar = dividir por (1+i)ⁿ. Capitalizar = multiplicar por (1+i)ⁿ. Se o resultado ficou maior que o valor futuro, você inverteu.",
+   "Teste de sanidade: o valor presente de uma quantia futura sempre cai quando a taxa ou o prazo aumentam.",
+   "Para séries de parcelas iguais use VP = PMT·[1 − (1+i)⁻ⁿ]/i."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q35 (Análise e Projetos)",
+  "q": "Uma simulação mostra que, se as vendas de certa empresa aumentarem 10%, seu lucro operacional aumenta 50%. Ou seja, o(a)",
+  "alts": {
+   "A": "grau de alavancagem operacional da empresa é maior que um.",
+   "B": "ponto de equilíbrio para obter lucro positivo é zero.",
+   "C": "custo fixo da empresa é zero.",
+   "D": "custo variável da empresa é zero.",
+   "E": "alavancagem financeira da empresa é maior que um."
+  },
+  "correta": "A",
+  "explica": "O grau de alavancagem operacional é a razão entre a variação percentual do lucro operacional e a variação percentual das vendas: GAO = 50 % ÷ 10 % = 5. Como 5 > 1, a empresa é alavancada operacionalmente — sinal de peso relevante de custos fixos, que amplificam o resultado para cima e para baixo.",
+  "erradas": {
+   "B": "Ponto de equilíbrio zero significaria custo fixo zero e, portanto, GAO igual a 1 — o lucro variaria na mesma proporção das vendas.",
+   "C": "Se o custo fixo fosse zero, não haveria alavancagem operacional alguma.",
+   "D": "Custo variável zero levaria a margem de contribuição igual ao preço, mas isso não é o que os 50 % permitem concluir.",
+   "E": "Alavancagem financeira nasce das DESPESAS DE JUROS e liga o lucro operacional ao lucro líquido. O enunciado para no lucro operacional."
+  },
+  "pontos": [
+   "GAO = Δ% do lucro operacional ÷ Δ% das vendas = margem de contribuição total ÷ lucro operacional.",
+   "GAO alto = muito custo fixo = mais risco OPERACIONAL. GAF alto = muita dívida = mais risco FINANCEIRO.",
+   "Alavancagem total = GAO × GAF. Cuidado com a palavra 'operacional' no enunciado: ela é a chave da resposta."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q46 (Análise e Projetos)",
+  "q": "O que caracteriza o project finance como maneira de financiar projetos de investimento é a",
+  "alts": {
+   "A": "escala reduzida dos projetos viáveis.",
+   "B": "redução da taxa interna de retorno do projeto de investimento.",
+   "C": "ausência de risco a encarecer os encargos financeiros do projeto.",
+   "D": "garantia elevada exigida pelos credores da empresa investidora.",
+   "E": "utilização do fluxo financeiro do projeto para garantir os credores."
+  },
+  "correta": "E",
+  "explica": "No project finance o crédito é concedido olhando a capacidade de geração de caixa do PRÓPRIO projeto, e não o balanço dos patrocinadores. Cria-se uma sociedade de propósito específico (SPE), e as garantias são os ativos e, sobretudo, os recebíveis e contratos do empreendimento. O recurso contra os sócios é limitado ou inexistente.",
+  "erradas": {
+   "A": "É o contrário: a estrutura só se justifica em projetos GRANDES, de capital intensivo — infraestrutura, energia, óleo e gás.",
+   "B": "A forma de financiar não altera a TIR do projeto em si, que depende do fluxo operacional.",
+   "C": "Risco não desaparece; ele é identificado, alocado por contrato a quem melhor o suporta e precificado. Estrutura sem garantia de balanço costuma ter encargos maiores.",
+   "D": "Justamente o oposto: exige-se menos garantia do investidor, porque a garantia é o projeto."
+  },
+  "pontos": [
+   "Marca registrada: SPE + garantias no fluxo de caixa e nos recebíveis + recurso limitado (non-recourse) aos patrocinadores.",
+   "O risco fica 'ring-fenced': isolado do balanço dos sócios.",
+   "Depende de uma teia de contratos de longo prazo (fornecimento, offtake, EPC, O&M) que tornem o fluxo previsível — sem previsibilidade, não há project finance."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2006, Q31 (Análise de Projetos de Investimentos)",
+  "q": "Em relação à avaliação de empresas, é correto afirmar, sobre o método de fluxo de caixa descontado, que",
+  "alts": {
+   "A": "permite sempre indicar o melhor projeto entre aqueles mutuamente excludentes.",
+   "B": "utiliza a taxa de juros livre de risco para descontar os fluxos de caixa que excedem o investimento inicial.",
+   "C": "não impede qualquer indicação entre projetos que não sejam mutuamente excludentes.",
+   "D": "chega-se ao conceito de valor presente líquido diminuindo o investimento inicial do fluxo de caixa descontado.",
+   "E": "chega-se ao conceito de payback descontado, somando-se o fluxo de caixa descontado ao investimento inicial."
+  },
+  "correta": "D",
+  "explica": "É a definição operacional do VPL: traga todos os fluxos futuros a valor presente e subtraia o investimento inicial. VPL = Σ FC_t/(1+i)^t − I₀. Simples assim — e é justamente por isso que a alternativa parece 'óbvia demais' e muita gente desconfia dela.",
+  "erradas": {
+   "A": "O advérbio 'sempre' derruba a alternativa: com vidas diferentes, restrição de capital ou opções embutidas, o maior VPL isolado pode não ser a melhor escolha.",
+   "B": "Erro conceitual grave. O FCD desconta a uma taxa AJUSTADA AO RISCO do fluxo (WACC ou custo do capital próprio), nunca à taxa livre de risco.",
+   "C": "Frase confusa e falsa: entre projetos independentes o método indica normalmente — aceita-se todo aquele com VPL positivo.",
+   "E": "O payback descontado não 'soma' e pronto: ele acumula os fluxos descontados período a período e responde QUANDO o acumulado cobre o investimento. Confundir isso com VPL é a troca clássica."
+  },
+  "pontos": [
+   "VPL responde QUANTO; payback responde QUANDO. Nunca troque um pelo outro.",
+   "Taxa de desconto do FCD: FCFF desconta ao WACC (dá o valor da firma); FCFE desconta ao custo do capital próprio (dá o valor do equity).",
+   "Desconfie de 'sempre', 'nunca' e 'em qualquer caso' em questões de finanças — quase sempre são o alvo."
+  ]
+ }
+]

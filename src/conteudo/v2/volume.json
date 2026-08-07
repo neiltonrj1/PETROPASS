@@ -1,0 +1,32 @@
+{
+ "id": "v2",
+ "t": "Ensaios, Corrosão e Danos",
+ "sub": "Bloco 2 · ~31% da prova",
+ "mods": [
+  {
+   "id": "v2m1",
+   "n": "Módulo 1",
+   "t": "Ensaios mecânicos (tração, dureza, impacto/Charpy, fadiga, fluência)"
+  },
+  {
+   "id": "v2m2",
+   "n": "Módulo 2",
+   "t": "Corrosão I: eletroquímica, pilhas, potenciais, Pourbaix, polarização e passivação"
+  },
+  {
+   "id": "v2m3",
+   "n": "Módulo 3",
+   "t": "Corrosão II: formas de corrosão e proteção (catódica, revestimentos, inibidores)"
+  },
+  {
+   "id": "v2m4",
+   "n": "Módulo 4",
+   "t": "Mecanismos de dano: fraturas, sensitização e fragilizações (H₂, sigma, revenido, 475 °C)"
+  },
+  {
+   "id": "v2m5",
+   "n": "Módulo 5",
+   "t": "Resistência dos materiais essencial (tensão, deformação, Poisson, energia elástica, dimensionamento e vasos de pressão)"
+  }
+ ]
+}

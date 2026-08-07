@@ -1,0 +1,26 @@
+<p><strong>1. As quatro fórmulas que resolvem 90% das questões.</strong>
+- <strong>Tensão normal:</strong> σ = F/A [Pa]. Cuidado feroz com unidades: 1 GPa = 10⁹ Pa; 1 MPa = 10⁶ Pa = 1 N/mm²; 1 cm² = 10⁻⁴ m²; 1 ton = 1.000 kg → 10.000 N (com g = 10 m/s²).
+- <strong>Deformação (específica):</strong> ε = ΔL/L₀ [adimensional]. Em %: multiplique por 100.
+- <strong>Lei de Hooke:</strong> σ = E·ε (válida na região elástica). Daí: ΔL = FL/AE.
+- <strong>Coeficiente de Poisson:</strong> ν = −ε_transversal/ε_longitudinal. Tração no eixo → <strong>contração</strong> lateral: ε_t = −ν·ε_long. Valores típicos: metais ~0,3; borracha/limite incompressível 0,5; teórico entre −1 e 0,5.</p>
+<p><strong>2. Estado plano e Hooke generalizada.</strong> Para tensões normais σx, σy, σz:
+<strong>εx = [σx − ν(σy + σz)]/E</strong> (e permutações). Caso clássico de prova: estado <strong>plano</strong> (σz = 0) com σx = σy = −σ (compressão biaxial): εz = −ν(σx+σy)/E = <strong>+2νσ/E</strong> — o cubo <strong>expande</strong> na direção livre. Não esqueça o sinal: compressão nas faces → alongamento em z.</p>
+<p><strong>3. Energia elástica armazenada (resiliência).</strong> Densidade de energia na região linear-elástica:
+<strong>u = σ²/2E = E·ε²/2 = σ·ε/2</strong> [J/m³].
+Aplicação "mola": a melhor mola armazena mais energia por volume → quer <strong>limite elástico alto</strong> e <strong>módulo E baixo</strong>. Exemplo real de prova: material X (ε_lim = 0,05; E = 100 MPa): u = 100×10⁶·(0,05)²/2 = <strong>125.000 J/m³</strong>; material Y (ε_lim = 0,01; E = 1000 MPa): u = 10⁹·(0,01)²/2 = 50.000 J/m³ → X vence.</p>
+<p><strong>4. Dimensionamento — o critério que MANDA é o mais restritivo.</strong> Roteiro:
+1. Liste os critérios: (i) não escoar → σ ≤ LE (ou LE/FS); (ii) rigidez/deformação máxima → σ ≤ E·ε_max; (iii) às vezes ruptura → σ ≤ LR.
+2. Calcule a área mínima exigida por cada critério: A ≥ F/σ_admissível.
+3. <strong>Adote a MAIOR área</strong> (o critério mais exigente governa).
+Pegadinha recorrente: a banca dá E e deformação máxima E TAMBÉM o limite de escoamento baixo — o candidato calcula pela rigidez e erra; o escoamento (40 MPa, por exemplo) pode ser mais restritivo que a rigidez (80 MPa). Compare sempre!
+Em vigas biapoiadas com carga no meio ou peso total distribuído: <strong>cada apoio recebe metade da carga.</strong></p>
+<p><strong>5. Vasos de pressão de parede fina (t ≤ r/10).</strong> Pressão interna p, raio r, espessura t:
+- <strong>Tensão circunferencial (do anel, "hoop"):</strong> <strong>σc = p·r/t</strong> — a MAIOR tensão; é ela que dimensiona.
+- <strong>Tensão longitudinal (axial):</strong> <strong>σl = p·r/2t</strong> — metade da circunferencial.
+- <strong>Esfera:</strong> σ = p·r/2t nas duas direções (por isso esferas de GLP).
+Consequências cobradas: trincas longitudinais são mais perigosas (abertas pela tensão circunferencial); dobrar a pressão ou o raio dobra a tensão; dobrar a espessura cai pela metade. Mnemônico: <strong>"o aro estoura primeiro"</strong> (σ_circ = 2×σ_long — a salsicha rasga no comprimento).</p>
+<p><strong>6. Kit de conversões e valores para não travar na conta.</strong>
+- g = 10 m/s²; 500 ton = 5×10⁶ N; 
+- σ = 250 MPa e F = 2,5×10⁶ N → A = 0,01 m² = lado 0,1 m = 100 mm;
+- ε = 0,04 cm / 100 cm = 4×10⁻⁴; σ = 200 GPa × 4×10⁻⁴ = 80 MPa;
+- Área do círculo: A = πd²/4 (d = 5 cm → A ≈ 19,6 cm² = 1,96×10⁻³ m²).</p>

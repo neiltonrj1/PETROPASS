@@ -1,0 +1,74 @@
+[
+ {
+  "origem": "Cesgranrio 2011, Q50 (Análise e Projetos)",
+  "q": "Uma característica importante em um mercado perfeitamente competitivo é o(a)",
+  "alts": {
+   "A": "preço ser igual ao custo variável médio das empresas.",
+   "B": "preço ser igual ao custo marginal das empresas.",
+   "C": "custo total ser menor que o custo total médio.",
+   "D": "lucro ser positivo e o mesmo para todas as empresas.",
+   "E": "igualdade da produção de todas as empresas."
+  },
+  "correta": "B",
+  "explica": "Em concorrência perfeita a firma é tomadora de preço: sua curva de demanda é horizontal, o que faz preço = receita média = receita marginal. Como toda firma maximiza lucro produzindo onde receita marginal = custo marginal, o equilíbrio é P = CMg. É essa igualdade que dá a eficiência alocativa do modelo.",
+  "erradas": {
+   "A": "P = CVMe é o ponto de FECHAMENTO no curto prazo — abaixo dele a firma para de produzir. Não é característica do equilíbrio.",
+   "C": "Custo total menor que custo total médio é impossível para produção maior que uma unidade; a frase não faz sentido dimensional.",
+   "D": "No longo prazo o lucro ECONÔMICO tende a zero, justamente pela livre entrada e saída de firmas.",
+   "E": "As firmas podem ter escalas diferentes; o modelo exige produto homogêneo, não empresas idênticas."
+  },
+  "pontos": [
+   "Quatro marcas da concorrência perfeita: muitas firmas, produto homogêneo, livre entrada e saída, informação perfeita.",
+   "Consequências: firma é price taker, P = RMe = RMg, equilíbrio em P = CMg e lucro econômico zero no longo prazo.",
+   "No monopólio, RMg < P e o equilíbrio é RMg = CMg, com preço acima do custo marginal — daí a perda de peso morto."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q52 (Análise e Projetos)",
+  "q": "O Produto Interno Bruto (PIB) de um país, em certo período, mede o valor do(a)",
+  "alts": {
+   "A": "fluxo de produção de bens e serviços finais produzidos pelos nacionais no país.",
+   "B": "fluxo de produção de bens e serviços finais produzidos no país.",
+   "C": "fluxo de produção de bens e serviços finais vendidos no mercado interno.",
+   "D": "capacidade total de produção instalada no país.",
+   "E": "produção doméstica mais as importações destinadas ao mercado interno."
+  },
+  "correta": "B",
+  "explica": "PIB é o valor de mercado de todos os bens e serviços FINAIS PRODUZIDOS DENTRO DAS FRONTEIRAS do país num período. O critério é territorial (interno), não de nacionalidade, e o que conta é a produção — não a venda nem a capacidade instalada.",
+  "erradas": {
+   "A": "Restringir aos 'nacionais' é o critério do PNB (Produto Nacional Bruto), que segue a nacionalidade do dono do fator de produção, não o território.",
+   "C": "Bens produzidos e exportados entram no PIB mesmo sem serem vendidos no mercado interno; e importações não entram.",
+   "D": "Capacidade instalada é um ESTOQUE potencial; o PIB é um FLUXO efetivamente produzido no período.",
+   "E": "Importação é produção de outro país — entra na conta pelo sinal negativo (PIB = C + I + G + X − M)."
+  },
+  "pontos": [
+   "Palavras que decidem a questão: FINAIS (evita dupla contagem), PRODUZIDOS (não vendidos nem instalados), DENTRO DAS FRONTEIRAS (interno, não nacional), NO PERÍODO (fluxo, não estoque).",
+   "PIB pela despesa: C + I + G + X − M. Pela renda: salários + juros + aluguéis + lucros.",
+   "PIB nominal usa preços correntes; PIB real usa preços de um ano-base; a razão entre eles é o deflator implícito."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2006, Q33 (Análise de Projetos de Investimentos)",
+  "q": "É correto afirmar, em relação ao modelo IS-LM, que, dada uma situação de armadilha de liquidez, a(o)",
+  "alts": {
+   "A": "curva IS se torna vertical.",
+   "B": "curva IS se torna horizontal.",
+   "C": "eficácia da política monetária é máxima.",
+   "D": "eficácia da política fiscal é máxima.",
+   "E": "equilíbrio macroeconômico não se altera com qualquer aumento de investimentos públicos."
+  },
+  "correta": "D",
+  "explica": "Na armadilha da liquidez a curva LM fica HORIZONTAL: o juro está no piso e a demanda por moeda é infinitamente elástica. Nessa condição, expandir a oferta de moeda não derruba mais o juro nem estimula o investimento — a política monetária perde tração. Já a política fiscal se torna plenamente eficaz, e sem efeito de expulsão (crowding out), porque o juro não sobe quando o governo gasta mais.",
+  "erradas": {
+   "A": "IS vertical corresponde a investimento totalmente insensível ao juro — outro caso extremo, não a armadilha.",
+   "B": "A curva que se torna horizontal é a LM, não a IS.",
+   "C": "É exatamente o contrário: na armadilha a política monetária é ineficaz.",
+   "E": "Aumentar investimento público desloca a IS para a direita e ELEVA a renda de equilíbrio — com efeito ainda maior justamente porque não há crowding out."
+  },
+  "pontos": [
+   "Armadilha da liquidez = LM horizontal = juro no piso = monetária impotente e fiscal poderosa.",
+   "No caso normal, política fiscal expansionista eleva renda E juro (daí o crowding out); política monetária expansionista eleva renda e REDUZ o juro.",
+   "IS é o equilíbrio do mercado de bens (decrescente); LM é o do mercado monetário (crescente)."
+  ]
+ }
+]

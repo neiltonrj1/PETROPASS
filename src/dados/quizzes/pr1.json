@@ -1,0 +1,170 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q24 (Produção)",
+  "q": "Um processo típico de desenvolvimento de produto é dividido em macrofases, a saber: Pré-desenvolvimento, Desenvolvimento e Pós-desenvolvimento. A macrofase de Desenvolvimento, por sua vez, é dividida em diversas fases. Uma dessas fases tem como objetivo criar, a partir do Plano do Projeto, as chamadas Especificações-Meta, compostas pelos requisitos e informações qualitativas necessários para o desenvolvimento do futuro produto. O nome dessa fase é",
+  "alts": {
+   "A": "Lançamento do Produto",
+   "B": "Preparação da Produção",
+   "C": "Projeto Conceitual",
+   "D": "Projeto Detalhado",
+   "E": "Projeto Informacional"
+  },
+  "correta": "E",
+  "explica": "As Especificações-Meta são a entrega característica do Projeto Informacional. Essa é a primeira fase da macrofase de Desenvolvimento: parte do Plano do Projeto, levanta as necessidades dos clientes, transforma-as em requisitos do produto e os traduz em requisitos mensuráveis com valores-meta. Só depois de ter esse alvo definido é que se começa a gerar soluções.",
+  "erradas": {
+   "A": "O Lançamento é a última fase do Desenvolvimento: cuida de marketing, vendas, distribuição e assistência técnica de um produto que já está pronto e homologado.",
+   "B": "A Preparação da Produção vem depois do Projeto Detalhado: produz o lote-piloto, homologa o processo produtivo e treina o pessoal.",
+   "C": "O Projeto Conceitual vem logo depois do Informacional e entrega a concepção do produto — arquitetura, funções e princípios de solução. Ele consome as Especificações-Meta, não as produz.",
+   "D": "O Projeto Detalhado gera desenhos, tolerâncias, protótipos e planos de fim de vida. É a fase mais próxima da fabricação, e já parte de uma concepção escolhida."
+  },
+  "pontos": [
+   "Grave o par: Informacional entrega ESPECIFICAÇÕES-META; Conceitual entrega a CONCEPÇÃO.",
+   "A ordem completa do Desenvolvimento é: Informacional → Conceitual → Detalhado → Preparação da Produção → Lançamento.",
+   "Pré-desenvolvimento tem duas fases (planejamento estratégico dos produtos e planejamento do projeto); pós-desenvolvimento tem duas (acompanhar e descontinuar)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q28 (Produção)",
+  "q": "O quadro conceitual conhecido como as “Cinco Forças de Porter” apoia a análise da influência dos Fornecedores, Clientes, Nível de Rivalidade, Novos Entrantes e Bens Substitutos na lucratividade média de um determinado setor. Um elemento extra — o papel dos Complementares — também passou a ser considerado nessa análise por também influenciar o nível de lucratividade das empresas de um setor. A influência direta dos complementares faz aumentar",
+  "alts": {
+   "A": "a quantidade de fornecedores e, consequentemente, o poder de barganha destes.",
+   "B": "a quantidade de compradores e, consequentemente, o poder de barganha destes.",
+   "C": "a disposição dos compradores para pagar pelos produtos.",
+   "D": "a rivalidade dos concorrentes e, consequentemente, uma guerra de preços.",
+   "E": "a barreira de saída das empresas concorrentes do setor."
+  },
+  "correta": "C",
+  "explica": "Complementar é o produto que, usado junto com o seu, aumenta o valor percebido pelo cliente — console e jogo, carro e combustível, impressora e cartucho. Quanto melhor e mais disponível o complementar, mais o comprador está disposto a pagar pelo seu produto. É o oposto do substituto, que reduz essa disposição.",
+  "erradas": {
+   "A": "Complementar não é fornecedor de insumo; ele atua no mercado do cliente, não na sua cadeia de suprimentos.",
+   "B": "Mesmo que a base de compradores cresça, o efeito que a literatura destaca é sobre a disposição a pagar, não sobre o poder de barganha deles.",
+   "D": "Complementares tendem a ampliar o bolo do setor, o que alivia a rivalidade em vez de acirrá-la.",
+   "E": "Barreira de saída tem a ver com ativos específicos e custos de encerrar a operação, nada a ver com complementaridade."
+  },
+  "pontos": [
+   "Substituto REDUZ a disposição a pagar; complementar AUMENTA. É o eixo da questão.",
+   "A ideia dos complementares vem do modelo da 'rede de valor' (Brandenburger e Nalebuff), muitas vezes chamado de sexta força.",
+   "Cuidado para não confundir complementar com fornecedor: o complementar está do lado do cliente."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q30 (Produção)",
+  "q": "A estrutura de uma organização pode ser entendida como uma combinação de seis partes básicas, a saber: Ápice Estratégico, Linha Intermediária, Núcleo Operacional, Ideologia, Tecnoestrutura e Equipe de Apoio. A combinação dessas partes leva a diferentes configurações adotadas pelas organizações. Sobre essas configurações, tem-se que a organização",
+  "alts": {
+   "A": "empreendedora apresenta procedimentos de planejamento e controle fortemente padronizados.",
+   "B": "profissional se caracteriza por possuir tecnoestrutura menos relevante do que a equipe de apoio.",
+   "C": "política se caracteriza pela clareza dos mecanismos de coordenação e centralização do poder em um líder político.",
+   "D": "máquina utiliza, com bastante frequência, o mecanismo de coordenação lateral por ajustes mútuos.",
+   "E": "missionária é altamente especializada e possui divisão clara das tarefas."
+  },
+  "correta": "B",
+  "explica": "Na organização profissional (hospital, universidade, escritório de advocacia) a coordenação vem da padronização de HABILIDADES, adquiridas na formação do profissional, e não da padronização de processos escrita por analistas. Por isso a tecnoestrutura é pequena, enquanto a equipe de apoio é grande — laboratório, biblioteca, secretaria, TI, tudo para sustentar o profissional que atende.",
+  "erradas": {
+   "A": "A organização empreendedora (estrutura simples) coordena por supervisão direta do dono, com pouca formalização. Padronização forte é a marca da burocracia mecanizada.",
+   "C": "A organização política é justamente a que não tem mecanismo de coordenação dominante: o poder é disputado e difuso, não centralizado com clareza.",
+   "D": "A organização máquina coordena por padronização de processos de trabalho. Ajustamento mútuo é a coordenação típica da adhocracia.",
+   "E": "A missionária coordena por padronização de NORMAS e valores compartilhados, com pouca especialização e divisão de tarefas frouxa."
+  },
+  "pontos": [
+   "Ligue cada configuração ao seu mecanismo: simples → supervisão direta; máquina → padronização de processos; profissional → padronização de habilidades; divisionalizada → padronização de resultados; adhocracia → ajustamento mútuo; missionária → padronização de normas.",
+   "Tecnoestrutura é quem PADRONIZA o trabalho dos outros (métodos, PCP, qualidade); apoio é quem presta serviço indireto sem padronizar nada.",
+   "Se a questão descreve profissional com muita regra escrita, é distrator: quem traz a regra pronta é a formação do profissional, não a empresa."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q52 (Produção)",
+  "q": "O CRP (Capacity Requirements Planning) e o MRP (Material Requirement Planning) são módulos de planejamento e controle da produção de curto prazo do MRP II (Manufacturing Resource Planning). São requisitos imediatos de entrada para esses módulos:",
+  "alts": {
+   "A": "lista de centros produtivos; lista de materiais; e ordens de compra",
+   "B": "lista de centros produtivos; lista de materiais; e roteiros e tempos de fabricação",
+   "C": "lista de centros produtivos; ordens de fabricação; e previsão de demanda",
+   "D": "lista de materiais; necessidade de compras; e previsão de demanda",
+   "E": "perfil de recursos críticos; previsão de demanda; e registro de estoques"
+  },
+  "correta": "B",
+  "explica": "Os dois módulos juntos precisam saber o QUE compõe o produto e POR ONDE ele passa. A lista de materiais (BOM) dá a composição, de que o MRP precisa para explodir as necessidades; a lista de centros produtivos e os roteiros com tempos dizem em que máquina cada operação ocorre e quanto tempo consome — sem isso o CRP não consegue somar carga por centro de trabalho.",
+  "erradas": {
+   "A": "Ordem de compra é SAÍDA do MRP, não entrada. O MRP é que decide o que comprar e quando.",
+   "C": "Ordem de fabricação também é saída. E a previsão de demanda alimenta o plano-mestre (MPS), que fica um nível acima — não é entrada imediata do MRP/CRP.",
+   "D": "Necessidade de compras é resultado, não insumo; e de novo a previsão pertence ao nível do MPS.",
+   "E": "Perfil de recursos críticos é a entrada do RCCP (o planejamento grosseiro de capacidade sobre o MPS), não do CRP detalhado."
+  },
+  "pontos": [
+   "Regra prática: tudo que é 'ordem' (de compra ou de fabricação) é SAÍDA do MRP. Tudo que é cadastro (BOM, roteiro, centro de trabalho, estoque) é ENTRADA.",
+   "RCCP trabalha sobre o MPS com recursos críticos; CRP trabalha sobre as ordens do MRP com todos os centros.",
+   "O MRP calcula material supondo capacidade infinita; é o CRP que confere se a fábrica aguenta."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q66 (Produção)",
+  "q": "Segundo o modelo administrativo de tomada de decisão, existe um processo que consiste em analisar alternativas apenas até que seja encontrada uma solução que apresente um mínimo de requisitos e, então, encerrar a procura por uma melhor solução. Esse processo é denominado",
+  "alts": {
+   "A": "subotimização",
+   "B": "incubação",
+   "C": "heurística",
+   "D": "estruturação",
+   "E": "maldição do conhecimento"
+  },
+  "correta": "C",
+  "explica": "No modelo administrativo (Simon), o gestor opera sob racionalidade limitada: não consegue avaliar todas as alternativas nem prever todas as consequências. Ele usa então regras práticas — heurísticas — e para na primeira alternativa que atende a um patamar mínimo aceitável. Esse comportamento de parar no 'bom o bastante' é o satisficing, viabilizado justamente pelo uso de heurísticas.",
+  "erradas": {
+   "A": "Subotimização é otimizar uma parte em prejuízo do todo (o setor bate a meta e a empresa perde). É consequência possível, não o processo de busca descrito.",
+   "B": "Incubação é a fase do processo criativo em que o problema é deixado 'descansando' até a solução surgir. Não tem a ver com parar a busca por atingir um mínimo.",
+   "D": "Estruturação é organizar e delimitar o problema, uma etapa anterior à busca por alternativas.",
+   "E": "A maldição do conhecimento é o viés de quem sabe muito e não consegue mais enxergar o problema como um leigo. Nada a ver com critério de parada."
+  },
+  "pontos": [
+   "Modelo CLÁSSICO/racional = todas as alternativas, decisão ótima. Modelo ADMINISTRATIVO = racionalidade limitada, heurística e satisficing.",
+   "Satisficing (satisfazer + suficiente) é o nome do comportamento; heurística é o atalho mental que o torna possível.",
+   "Há ainda o modelo político (coalizões e negociação) e o incremental (pequenos passos)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q37 (Produção)",
+  "q": "Uma empresa adotou uma classificação ABC (80/20) para os itens consumidos. O item I tem consumo anual de 5 unidades e custo unitário de R$ 188,00 (valor consumido R$ 940,00); o item II tem consumo x e custo de R$ 75,00 (valor R$ 600,00); o item III, consumo 15 e custo R$ 5,00 (valor R$ 75,00); o item IV, consumo 20 e custo R$ 8,00 (valor R$ 160,00); o item V, consumo 30 e custo R$ 2,00 (valor R$ 60,00); e o item VI, consumo y e custo R$ 3,00 (valor R$ 90,00). Com base nesses dados, afirma-se que",
+  "alts": {
+   "A": "x + y é igual a 38, sendo o produto III da classe A.",
+   "B": "x + y é igual a 38, sendo os produtos I e II da classe A.",
+   "C": "x é igual a 8, e y é igual a 30, sendo os produtos II e VI da classe B.",
+   "D": "x é igual a 8, e y é igual a 35, sendo VI um produto da classe C.",
+   "E": "existe um produto da classe A, dois da classe B e dois da classe C."
+  },
+  "correta": "B",
+  "explica": "Primeiro os consumos que faltam: x = 600 ÷ 75 = 8 e y = 90 ÷ 3 = 30, logo x + y = 38. Depois ordene pelo valor consumido: I = 940, II = 600, IV = 160, VI = 90, III = 75, V = 60, total de R$ 1.925,00. Acumulando: I = 48,8 %; I + II = 80,0 %. Com o corte em 80 %, a classe A é formada exatamente por I e II.",
+  "erradas": {
+   "A": "A soma está certa, mas o item III tem apenas R$ 75,00 de valor consumido — é um dos últimos da fila, jamais classe A.",
+   "C": "Os valores de x e y estão corretos, mas o item VI (R$ 90,00, 4,7 % do total) entra depois do IV; colocar II na classe B contraria o corte de 80 %.",
+   "D": "y = 35 daria valor consumido de R$ 105,00, e não os R$ 90,00 informados.",
+   "E": "São seis itens no enunciado, e a alternativa só distribui cinco."
+  },
+  "pontos": [
+   "Sempre ordene pelo VALOR CONSUMIDO = consumo anual × custo unitário. Nem o preço nem a quantidade decidem sozinhos.",
+   "Repare no item V: é o de maior consumo em unidades (30) e mesmo assim é o último em valor. Essa inversão é a pegadinha padrão.",
+   "Roteiro: calcule o valor de cada item, ordene decrescente, acumule o percentual e corte em ~80 % (A) e ~95 % (B)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q42 (Produção)",
+  "q": "Uma determinada empresa de serviços, para obter um fluxo de clientes mais eficiente, utiliza o arranjo físico por produto. Dentre as desvantagens do uso desse tipo de arranjo físico inclui-se o(a)",
+  "alts": {
+   "A": "aumento da velocidade dos serviços e de produção",
+   "B": "nível alto de utilização dos equipamentos e colaboradores",
+   "C": "sistema com baixa flexibilidade em resposta a mudanças no volume de produção",
+   "D": "tempo de treinamento menor se comparado a outro tipo de arranjo físico",
+   "E": "execução de tarefas rotineiras pelo setor de contabilidade e de compras"
+  },
+  "correta": "C",
+  "explica": "O arranjo por produto organiza os recursos na sequência das operações. Isso dá fluxo rápido, previsível e barato por unidade, mas amarra a operação a um volume e a um mix específicos: mudar o volume exige rebalancear a linha inteira, e mudar o produto pode inviabilizar o arranjo. Rigidez é o preço da eficiência.",
+  "erradas": {
+   "A": "Aumentar a velocidade é vantagem do arranjo por produto, não desvantagem.",
+   "B": "Alta utilização de equipamentos e pessoas também é vantagem — é o que dilui o custo fixo.",
+   "D": "Como cada posto executa uma tarefa curta e repetitiva, o treinamento é mais rápido. Vantagem, não desvantagem.",
+   "E": "Rotina em contabilidade e compras não é característica de arranjo físico; é distrator sem relação com o tema."
+  },
+  "pontos": [
+   "Arranjo por produto: fluxo simples, baixo estoque em processo, custo unitário baixo — em troca de rigidez e trabalho repetitivo.",
+   "Outra fragilidade cobrada: parou um posto, para a linha inteira. Não há caminho alternativo.",
+   "O oposto é o arranjo funcional (por processo): flexível e robusto a quebras, mas com fluxo confuso, muito estoque em processo e lead time longo."
+  ]
+ }
+]

@@ -1,0 +1,506 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q56",
+  "q": "Chama-se reforço de solda ao metal de solda depositado em excesso,",
+  "alts": {
+   "A": "com o objetivo de garantir melhor resistência mecânica",
+   "B": "com o objetivo de garantir melhor tenacidade",
+   "C": "além do necessário para preencher a junta",
+   "D": "por erro do soldador",
+   "E": "por motivos de segurança"
+  },
+  "correta": "C",
+  "explica": "Por definição da terminologia de soldagem (AWS/Modenesi), reforço é o metal de solda depositado além do necessário para o preenchimento da junta. A definição é puramente geométrica. Reforço excessivo, aliás, cria concentração de tensões na margem do cordão e é limitado por norma.",
+  "erradas": {
+   "A": "O reforço não é recurso de projeto para aumentar resistência; excesso de reforço até prejudica, por concentrar tensões.",
+   "B": "O reforço não melhora tenacidade; a definição é geométrica, não de propriedade mecânica.",
+   "D": "Reforço não é erro do soldador; é o excesso normal além do preenchimento, controlado por norma.",
+   "E": "Reforço não é margem de segurança; é apenas o metal depositado além do necessário para preencher a junta."
+  },
+  "pontos": [
+   "Reforço = excesso de metal de solda além do preenchimento da junta, definição puramente geométrica",
+   "Excesso de reforço é concentrador de tensão na margem do cordão, não aumenta resistência",
+   "Normas limitam a altura do reforço justamente por isso"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q57",
+  "q": "Entre os processos de soldagem relacionados a seguir, o que mais concentra calor numa região mais estreita é o processo conhecido como soldagem",
+  "alts": {
+   "A": "com eletrodo revestido",
+   "B": "MIG",
+   "C": "por arco submerso",
+   "D": "TIG",
+   "E": "a laser"
+  },
+  "correta": "E",
+  "explica": "A questão pede a maior densidade de energia (potência por área). A ordem crescente é: chama < eletrodo revestido/MIG/arco submerso < TIG < plasma < laser/feixe de elétrons. Processos de alta densidade de energia aquecem uma região muito estreita, com ZTA mínima e alta penetração (keyhole). Entre as opções, o laser é o de calor mais concentrado.",
+  "erradas": {
+   "A": "Eletrodo revestido tem densidade de energia baixa/média, na mesma faixa de MIG e arco submerso.",
+   "B": "MIG fica na faixa intermediária de densidade de energia, bem abaixo do laser.",
+   "C": "Arco submerso tem grande aporte térmico total, mas o calor não é concentrado numa região estreita.",
+   "D": "TIG concentra mais que os demais processos a arco comuns, mas ainda fica abaixo de plasma e muito abaixo do laser."
+  },
+  "pontos": [
+   "Decore a ordem: chama < eletrodo revestido/MIG/SAW < TIG < plasma < laser/feixe de elétrons",
+   "Maior densidade de energia = cordão e ZTA mais estreitos e menor distorção",
+   "Não confunda aporte térmico total (alto no arco submerso) com concentração de calor"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q61",
+  "q": "Um tipo de defeito que pode surgir na soldagem de ligas metálicas, que pode ser causado devido à ação de gases retidos no metal inicialmente líquido e depois solidificado é",
+  "alts": {
+   "A": "o empenamento/distorções",
+   "B": "os poros",
+   "C": "a falta de fusão",
+   "D": "a falta de penetração",
+   "E": "a mordedura"
+  },
+  "correta": "B",
+  "explica": "Gases dissolvidos no metal líquido (H2 de umidade/sujeira, N2, CO) perdem solubilidade na solidificação; se não escapam da poça, ficam aprisionados como cavidades, formando os poros. Só a porosidade tem origem em gases retidos no metal líquido.",
+  "erradas": {
+   "A": "Empenamento/distorções vêm da contração térmica não uniforme, não de gases retidos.",
+   "C": "Falta de fusão é ausência de continuidade metalúrgica por técnica/energia insuficiente, não por gases.",
+   "D": "Falta de penetração é raiz não preenchida por técnica/energia insuficiente, sem relação com gases.",
+   "E": "Mordedura é um entalhe no metal de base na margem do cordão, causada por corrente alta ou técnica ruim."
+  },
+  "pontos": [
+   "Porosidade = gases retidos na solidificação (H2 de umidade e sujeira é a causa clássica)",
+   "Associe cada descontinuidade à sua causa: distorção = contração térmica; mordedura = entalhe na margem",
+   "Eletrodos úmidos são fonte de hidrogênio: causam poros e trinca a frio"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q62",
+  "q": "Entre as fases que podem surgir no metal de solda de aços carbono-manganês ou baixa liga, qual a mais favorável à tenacidade desses materiais soldados?",
+  "alts": {
+   "A": "Carbonetos",
+   "B": "Ferrita acicular",
+   "C": "Ferrita de Widmanstätten",
+   "D": "Ferrita proeutetoide",
+   "E": "Martensita"
+  },
+  "correta": "B",
+  "explica": "A ferrita acicular forma agulhas finas entrelaçadas, nucleadas intragranularmente em inclusões, com granulação finíssima e contornos de alto ângulo que desviam trincas. É a microestrutura de melhor tenacidade do metal de solda C-Mn, buscada nos consumíveis modernos.",
+  "erradas": {
+   "A": "Carbonetos são fases frágeis, prejudiciais à tenacidade.",
+   "C": "Ferrita de Widmanstätten forma placas grosseiras alinhadas, de baixa tenacidade.",
+   "D": "Ferrita proeutetoide (de contorno de grão) forma redes grosseiras nos contornos, com baixa tenacidade.",
+   "E": "Martensita é dura e frágil, a pior opção em tenacidade no metal de solda."
+  },
+  "pontos": [
+   "Ferrita acicular = melhor tenacidade da zona fundida em aços C-Mn",
+   "Ordem do pior ao melhor: martensita/carbonetos < ferrita proeutetoide < Widmanstätten < acicular",
+   "A ferrita acicular nucleia em inclusões, favorecida por Ti/O controlado nos consumíveis"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q63",
+  "q": "No diagrama de Schaeffler, um elemento que participa da fórmula do cálculo do teor de níquel equivalente nos aços inoxidáveis soldados é o",
+  "alts": {
+   "A": "alumínio",
+   "B": "molibdênio",
+   "C": "manganês",
+   "D": "nióbio",
+   "E": "silício"
+  },
+  "correta": "C",
+  "explica": "As fórmulas de Schaeffler são Ni_eq = %Ni + 30x%C + 0,5x%Mn (elementos austenitizantes) e Cr_eq = %Cr + %Mo + 1,5x%Si + 0,5x%Nb (elementos ferritizantes). Entre as opções, o único elemento do Ni-equivalente é o manganês.",
+  "erradas": {
+   "A": "Alumínio é ferritizante, associado ao lado do Cr-equivalente, não ao Ni-equivalente.",
+   "B": "Molibdênio entra no Cr-equivalente (ferritizante), com coeficiente 1.",
+   "D": "Nióbio entra no Cr-equivalente com coeficiente 0,5 (ferritizante).",
+   "E": "Silício entra no Cr-equivalente com coeficiente 1,5 (ferritizante)."
+  },
+  "pontos": [
+   "Decore: Ni_eq = Ni + 30C + 0,5Mn (austenitizantes: Ni, C com peso 30, Mn)",
+   "Cr_eq = Cr + Mo + 1,5Si + 0,5Nb (ferritizantes: Cr, Mo, Si, Nb, Al, Ti, V, W)",
+   "O carbono tem peso 30 no Ni_eq: pequenas variações de C deslocam muito o ponto"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q64",
+  "q": "O ensaio visual permite observar alguns tipos de defeitos de fabricação de materiais metálicos, porém não permite detectar",
+  "alts": {
+   "A": "trincas superficiais",
+   "B": "mordeduras de solda",
+   "C": "dupla laminação",
+   "D": "ranhuras profundas de usinagem",
+   "E": "falta de penetração na solda"
+  },
+  "correta": "C",
+  "explica": "A dupla laminação é uma descontinuidade interna da chapa (separação paralela à superfície, herdada de inclusões e vazios laminados), invisível ao ensaio visual, que só percebe o que aflora à superfície. Descontinuidades internas exigem métodos volumétricos como ultrassom.",
+  "erradas": {
+   "A": "Trincas superficiais afloram à superfície e são detectáveis visualmente.",
+   "B": "Mordedura é entalhe superficial na margem do cordão, visível a olho nu.",
+   "D": "Ranhuras de usinagem são marcas superficiais, detectáveis pelo ensaio visual.",
+   "E": "Falta de penetração é visível pela raiz da solda, quando acessível."
+  },
+  "pontos": [
+   "Ensaio visual só detecta descontinuidades superficiais visíveis",
+   "Dupla laminação é interna: detectada por ultrassom, nunca por VT ou LP",
+   "Falta de penetração pode ser vista pela raiz acessível, por isso não é a resposta"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q65",
+  "q": "O ensaio por líquidos penetrantes baseia-se em qual princípio físico?",
+  "alts": {
+   "A": "Empuxo",
+   "B": "Princípio de Huygens",
+   "C": "Efeito Doppler",
+   "D": "Capilaridade",
+   "E": "Hidrodinâmica"
+  },
+  "correta": "D",
+  "explica": "O penetrante entra nas descontinuidades abertas à superfície por ação capilar: a combinação de tensão superficial e molhabilidade puxa o líquido para dentro de aberturas estreitas. O revelador o extrai de volta pelo mesmo fenômeno, formando a indicação.",
+  "erradas": {
+   "A": "Empuxo é força de flutuação em fluidos (Arquimedes), sem relação com a entrada do penetrante em frestas.",
+   "B": "O princípio de Huygens trata de propagação de ondas, não de líquidos em frestas.",
+   "C": "O efeito Doppler é a variação de frequência de ondas com o movimento relativo, irrelevante para LP.",
+   "E": "Hidrodinâmica trata de escoamento de fluidos em geral, mas o mecanismo específico do LP é a capilaridade."
+  },
+  "pontos": [
+   "LP = capilaridade (tensão superficial + molhabilidade), tanto na penetração quanto na revelação",
+   "LP só detecta descontinuidades abertas à superfície",
+   "Menor viscosidade facilita e acelera a penetração; ar aprisionado dificulta"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q66",
+  "q": "Uma faixa de temperatura adequada para a laminação a quente de placas fundidas de ligas de alumínio é",
+  "alts": {
+   "A": "150 °C a 200 °C",
+   "B": "250 °C a 300 °C",
+   "C": "350 °C a 400 °C",
+   "D": "450 °C a 500 °C",
+   "E": "550 °C a 600 °C"
+  },
+  "correta": "D",
+  "explica": "A laminação a quente de placas de ligas de Al ocorre tipicamente entre 450 e 500 °C: bem acima da temperatura de recristalização (cerca de 0,5 da temperatura de fusão, que é 660 °C para o Al) e com folga em relação à fusão incipiente dos eutéticos de baixo ponto de fusão, que ocorreria acima de ~550 °C.",
+  "erradas": {
+   "A": "150-200 °C fica abaixo da recristalização e daria esforços de laminação excessivos para placas fundidas.",
+   "B": "250-300 °C ainda é baixo demais: esforços elevados e sem recristalização plena.",
+   "C": "350-400 °C continua abaixo da faixa industrial adequada para placas fundidas espessas.",
+   "E": "550-600 °C traz risco de fusão incipiente de eutéticos (queima); é faixa de homogeneização, não de laminação."
+  },
+  "pontos": [
+   "Al lamina a quente a 450-500 °C; acima de ~550 °C há risco de queima (fusão incipiente de eutéticos)",
+   "Referência: T_fusão do Al = 660 °C; T_recristalização ~ 0,4-0,5 T_fusão em K",
+   "Aços laminam a quente a 900-1200 °C, para comparação"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q67",
+  "q": "Uma característica que não influi no comportamento das partículas magnéticas nas proximidades de um campo de fuga é o(a)",
+  "alts": {
+   "A": "tamanho das partículas",
+   "B": "forma das partículas",
+   "C": "propriedade magnética das partículas",
+   "D": "atração das partículas pelo campo gravitacional",
+   "E": "condutividade elétrica das partículas"
+  },
+  "correta": "E",
+  "explica": "As partículas respondem ao campo de fuga por atração magnética; influem o tamanho, a forma (alongadas se alinham ao campo), as propriedades magnéticas (permeabilidade alta, retentividade baixa) e o peso/gravidade. A condutividade elétrica é irrelevante: as partículas não conduzem corrente no ensaio, a força é magnética, não eletrostática.",
+  "erradas": {
+   "A": "O tamanho influi: define mobilidade e sensibilidade das partículas.",
+   "B": "A forma influi: partículas alongadas alinham-se melhor ao campo de fuga.",
+   "C": "As propriedades magnéticas (permeabilidade, retentividade) são essenciais à formação da indicação.",
+   "D": "O peso/gravidade influi: partículas mais densas exigem campo de fuga maior para serem retidas."
+  },
+  "pontos": [
+   "PM: influem tamanho, forma, densidade, permeabilidade/retentividade e viscosidade do meio; condutividade elétrica NÃO",
+   "A força que atrai as partículas é magnética, não elétrica",
+   "PM só se aplica a materiais ferromagnéticos e detecta superficiais e subsuperficiais rasas"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q69",
+  "q": "Qual a função de um penetrômetro numa inspeção radiográfica?",
+  "alts": {
+   "A": "Indicar a qualidade da imagem radiográfica.",
+   "B": "Indicar o nível de profundidade de penetração dos raios X.",
+   "C": "Indicar a espessura da peça inspecionada.",
+   "D": "Indicar o grau de penetração dos raios X.",
+   "E": "Indicar o grau de sensibilidade do filme radiográfico."
+  },
+  "correta": "A",
+  "explica": "Penetrômetro é o IQI (Indicador de Qualidade de Imagem): peça padronizada com furos ou fios de espessuras conhecidas, radiografada junto com a peça. Se seus elementos essenciais aparecem no filme, comprova-se que a técnica atingiu a qualidade/sensibilidade de imagem requerida.",
+  "erradas": {
+   "B": "O penetrômetro não mede profundidade de penetração da radiação; avalia a qualidade da imagem obtida.",
+   "C": "Ele não mede a espessura da peça; suas espessuras conhecidas servem apenas de referência de sensibilidade da técnica.",
+   "D": "O nome induz ao erro: não indica grau de penetração dos raios X, e sim qualidade de imagem.",
+   "E": "Ele avalia a técnica radiográfica como um todo (fonte, geometria, exposição, filme), não só a sensibilidade do filme."
+  },
+  "pontos": [
+   "Penetrômetro = IQI = Indicador de Qualidade de Imagem, apesar do nome enganoso",
+   "É radiografado junto com a peça; a visibilidade de seus fios/furos comprova a sensibilidade da técnica",
+   "Não mede espessura nem penetração da radiação"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q70",
+  "q": "Dois ensaios que permitem observar trincas situadas no interior de peças metálicas são:",
+  "alts": {
+   "A": "ensaio visual e ensaio de líquidos penetrantes",
+   "B": "ensaio de líquidos penetrantes e ensaio de partículas magnéticas",
+   "C": "ensaio de partículas magnéticas e ensaio radiográfico (raios X)",
+   "D": "ensaio radiográfico (raios X) e ensaio de ultrassom",
+   "E": "ensaio de ultrassom e ensaio de líquidos penetrantes"
+  },
+  "correta": "D",
+  "explica": "Trincas no interior só são acessíveis a métodos volumétricos: radiografia (variação de absorção da radiação) e ultrassom (reflexão do feixe sônico). Visual e LP só veem a superfície; PM alcança no máximo descontinuidades subsuperficiais rasas. Toda alternativa que inclui VT, LP ou PM está eliminada.",
+  "erradas": {
+   "A": "Visual e LP só detectam descontinuidades superficiais (LP exige abertura à superfície).",
+   "B": "LP é superficial e PM chega no máximo a subsuperficial rasa; nenhum vê o interior da peça.",
+   "C": "PM não alcança trincas internas profundas, apenas superficiais e subsuperficiais rasas.",
+   "E": "O ultrassom serve, mas LP só detecta descontinuidades abertas à superfície, o que invalida o par."
+  },
+  "pontos": [
+   "Internos = US e RX (métodos volumétricos); superficiais = VT, LP; subsuperficial raso = PM",
+   "Elimine qualquer alternativa de 'trinca interna' que contenha VT, LP ou PM",
+   "Lembre: RX vê mal trincas planas fechadas mal orientadas; US é o melhor para defeito planar interno"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q58",
+  "q": "Devido às características básicas do ensaio, líquidos penetrantes possuem grande aplicação em produtos metálicos e não metálicos. Líquidos que contenham enxofre em sua composição química, porém, NÃO devem ser adotados na inspeção de produtos de",
+  "alts": {
+   "A": "aços de baixo carbono",
+   "B": "aços inoxidáveis austeníticos",
+   "C": "ferros fundidos modulares",
+   "D": "ligas de alumínio",
+   "E": "ligas de cobre"
+  },
+  "correta": "B",
+  "explica": "O enxofre ataca ligas à base de níquel e aços inoxidáveis austeníticos (que contêm cerca de 8% de Ni): em serviço a quente, o S forma eutéticos de baixo ponto de fusão e fragiliza os contornos de grão. Analogamente, halogênios (Cl, F) são proibidos em inox austenítico e titânio pelo risco de corrosão sob tensão. Gabarito oficial: B.",
+  "erradas": {
+   "A": "Aços de baixo carbono não têm restrição a penetrantes com enxofre.",
+   "C": "Ferros fundidos nodulares não sofrem o ataque por enxofre característico das ligas com níquel.",
+   "D": "Ligas de alumínio não têm restrição específica ao enxofre em penetrantes.",
+   "E": "Ligas de cobre não são o caso clássico de restrição; a proibição do S vale para ligas de Ni e inox austenítico."
+  },
+  "pontos": [
+   "Enxofre em penetrantes: proibido em ligas de níquel e aços inox austeníticos",
+   "Halogênios (Cl, F): proibidos em inox austenítico e titânio (corrosão sob tensão)",
+   "O motivo do S: eutéticos de baixo ponto de fusão que fragilizam contornos a quente"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q64",
+  "q": "Ensaios radiográficos têm larga aplicação na indústria, permitindo a detecção de descontinuidades através de modificações na radiação ocasionadas por absorção pela matéria e passagens por descontinuidades. Tal técnica, porém, NÃO é recomendada para indicar",
+  "alts": {
+   "A": "trincas de corrosão",
+   "B": "trincas de fadiga",
+   "C": "trincas em inspeção de dutos",
+   "D": "junta fria em produtos fundidos",
+   "E": "falta de fusão em juntas soldadas ferrosas"
+  },
+  "correta": "B",
+  "explica": "A radiografia exige variação de massa atravessada pelo feixe. Trincas de fadiga são extremamente fechadas (faces comprimidas em contato) e planas, quase não alteram a absorção e raramente se alinham ao feixe, portanto o método não é recomendado; detectam-se por PM/LP na superfície ou por ultrassom. Gabarito oficial: B.",
+  "erradas": {
+   "A": "Trincas de corrosão tendem a ser mais abertas, gerando variação de absorção detectável.",
+   "C": "Trincas em dutos, quando abertas e favoravelmente orientadas, são indicáveis por radiografia.",
+   "D": "Junta fria em fundidos é descontinuidade com separação volumétrica, bem indicada pelo RX.",
+   "E": "Falta de fusão com separação volumétrica é detectável pela variação de absorção."
+  },
+  "pontos": [
+   "RX é ótimo para defeitos volumétricos (poros, escória, falta de penetração, junta fria)",
+   "RX é ruim para trincas planas fechadas, especialmente de fadiga: use PM/LP ou US",
+   "Trinca só aparece no RX se aberta e mais ou menos paralela ao feixe"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q65",
+  "q": "Apesar de todos os modernos métodos de ensaios não destrutivos, o ensaio visual continua sendo muito utilizado, devido à sua simplicidade. No ensaio visual, destaca-se que a(o)",
+  "alts": {
+   "A": "lupa é recomendada para a inspeção interna de tubos de pequeno diâmetro.",
+   "B": "qualificação do inspetor não influencia no processo da inspeção.",
+   "C": "precisão do paquímetro não influencia na determinação exata da espessura de chapas.",
+   "D": "sucesso da inspeção depende da posição do defeito.",
+   "E": "acabamento da superfície não influencia na inspeção."
+  },
+  "correta": "D",
+  "explica": "O sucesso do ensaio visual depende da posição e orientação do defeito: ele precisa aflorar à superfície e estar acessível e iluminado para ser visto. Os demais itens negam fatores que comprovadamente influenciam a inspeção visual. Gabarito oficial: D.",
+  "erradas": {
+   "A": "Para o interior de tubos de pequeno diâmetro usa-se boroscópio/endoscópio, não lupa.",
+   "B": "A qualificação, acuidade e fadiga visual do inspetor influenciam diretamente a inspeção.",
+   "C": "A precisão do instrumento de medição (paquímetro calibrado) influencia a determinação de espessura.",
+   "E": "Limpeza e acabamento da superfície são fatores clássicos que influenciam a indicação visual."
+  },
+  "pontos": [
+   "Fatores do VT: limpeza, acabamento, iluminação (intensidade e comprimento de onda), acuidade/fadiga e qualificação do inspetor, posição do defeito, instrumentos",
+   "Interior de tubos finos = boroscópio, não lupa",
+   "Cuidado com alternativas que negam fatores óbvios ('não influencia')"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q67",
+  "q": "As leis do magnetismo estão presentes no ensaio não destrutivo de partículas magnéticas, o que permite a indicação de descontinuidades em equipamentos. Nesse contexto, verifica-se que esse ensaio",
+  "alts": {
+   "A": "se aplica com as partículas em suspensão no ar, na água ou num destilado leve de petróleo.",
+   "B": "indica somente descontinuidades superficiais.",
+   "C": "não indica marcas da usinagem do equipamento.",
+   "D": "não detecta inclusões não metálicas em juntas soldadas.",
+   "E": "não é influenciado pela orientação da descontinuidade."
+  },
+  "correta": "A",
+  "explica": "As partículas podem ser aplicadas por via seca (suspensão no ar) ou via úmida (suspensão em água ou num destilado leve de petróleo, tipo querosene), exatamente o texto da alternativa A. As demais alternativas negam características reais do ensaio. Gabarito oficial: A.",
+  "erradas": {
+   "B": "PM detecta também descontinuidades subsuperficiais rasas, não só superficiais (vantagem sobre o LP).",
+   "C": "PM indica sim marcas de usinagem, encruamento e variações metalúrgicas (indicações falsas/não relevantes).",
+   "D": "PM detecta inclusões não metálicas subsuperficiais em juntas soldadas.",
+   "E": "A orientação é decisiva: a detecção é melhor com a descontinuidade perpendicular ao fluxo magnético."
+  },
+  "pontos": [
+   "PM: via seca (ar) ou via úmida (água ou destilado leve de petróleo/querosene)",
+   "PM detecta superficiais E subsuperficiais rasas, só em materiais ferromagnéticos",
+   "Magnetizar em duas direções, pois a detecção depende da orientação da descontinuidade"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q68",
+  "q": "Ensaios não destrutivos são técnicas aplicadas a materiais, equipamentos e estruturas com o objetivo de avaliar propriedades, desempenho e integridade sem comprometer suas futuras aplicações. A sequência das etapas associadas com ensaios não destrutivos inicia-se com aplicação e prossegue com",
+  "alts": {
+   "A": "modificação, detecção, conversão e interpretação",
+   "B": "modificação, detecção, interpretação e conversão",
+   "C": "detecção, modificação, conversão e interpretação",
+   "D": "detecção, modificação, interpretação e conversão",
+   "E": "detecção, interpretação, modificação e conversão"
+  },
+  "correta": "A",
+  "explica": "A sequência canônica dos END é: aplicação do meio de ensaio, modificação do meio pela descontinuidade, detecção dessa modificação, conversão em indicação/registro interpretável e interpretação/avaliação final. Só a alternativa A respeita a ordem física do fenômeno. Gabarito oficial: A.",
+  "erradas": {
+   "B": "Inverte conversão e interpretação: não se interpreta antes de a modificação ser convertida em indicação.",
+   "C": "Não há como detectar antes de o meio ser modificado pela descontinuidade.",
+   "D": "Detecção antes da modificação e interpretação antes da conversão violam a ordem física.",
+   "E": "Coloca detecção e interpretação antes da modificação e conversão, sem lógica física."
+  },
+  "pontos": [
+   "Sequência END: Aplicação > Modificação > Detecção > Conversão > Interpretação",
+   "Mnemônico: A-M-D-C-I",
+   "Raciocínio físico: o meio precisa ser modificado antes de detectado, e convertido antes de interpretado"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q58",
+  "q": "Em operações de soldagem, duas ou mais peças são conectadas para formar um único componente. Assim, quanto à definição de zona termicamente afetada, tal região é uma porção de material adjacente ao metal de solda, que, pela ação do calor proveniente desse metal de solda,",
+  "alts": {
+   "A": "fundiu.",
+   "B": "aqueceu acima de 1394 °C.",
+   "C": "aqueceu acima de 912 °C.",
+   "D": "aqueceu acima de 727 °C.",
+   "E": "aqueceu e sofreu alterações microestruturais."
+  },
+  "correta": "E",
+  "explica": "A definição consagrada de ZTA é microestrutural: região que não fundiu, mas aqueceu e sofreu alterações de microestrutura e propriedades pelo ciclo térmico. Não há temperatura universal, e mesmo em aços a ZTA inclui a região subcrítica (revenida) abaixo de A1.",
+  "erradas": {
+   "A": "Quem fundiu é a zona fundida, não a ZTA; a ZTA por definição não funde.",
+   "B": "1394 °C é uma temperatura de transformação do ferro puro, não define a ZTA.",
+   "C": "912 °C (A3 do ferro puro) não é critério: há alterações na ZTA abaixo dessa temperatura.",
+   "D": "727 °C (A1) só valeria para aços com transformação eutetoide, e mesmo neles a ZTA tem região subcrítica abaixo de A1."
+  },
+  "pontos": [
+   "ZTA = não fundiu, mas aqueceu e teve microestrutura/propriedades alteradas (definição microestrutural)",
+   "Não decore temperatura fixa: há efeitos abaixo de 727 °C (revenimento, envelhecimento)",
+   "Alternativas com temperaturas fixas são armadilhas clássicas nessa questão"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q61",
+  "q": "Os processos TIG e MIG/MAG são processos de soldagem ao arco elétrico. Tais processos são adotados em operações industriais que envolvem soldagem de materiais metálicos ferrosos e não ferrosos. No que se refere às suas características, o(s) processo(s)",
+  "alts": {
+   "A": "TIG adota eletrodo virtualmente não consumível.",
+   "B": "MAG forma uma atmosfera gasosa inerte durante a soldagem.",
+   "C": "MIG/MAG adotam eletrodo virtualmente não consumível.",
+   "D": "MIG/MAG sempre transferem metal para a poça de fusão por curto-circuito.",
+   "E": "TIG e MIG formam uma atmosfera gasosa ativa durante a soldagem."
+  },
+  "correta": "A",
+  "explica": "No TIG o eletrodo de tungstênio não se destina a ser fundido: é virtualmente não consumível, sofrendo apenas desgaste lento. O metal de adição, quando usado, vem de uma vareta separada.",
+  "erradas": {
+   "B": "MAG usa gás ATIVO (CO2 e misturas oxidantes), não inerte; inerte é o MIG.",
+   "C": "MIG/MAG usam arame consumível contínuo, que é o próprio metal de adição.",
+   "D": "Curto-circuito é apenas um dos modos de transferência; há também globular e spray.",
+   "E": "TIG e MIG usam gás inerte (Ar, He); atmosfera ativa é característica do MAG."
+  },
+  "pontos": [
+   "TIG = eletrodo de tungstênio não consumível + gás inerte; adição opcional por vareta",
+   "MIG = gás inerte; MAG = gás ativo; ambos com arame consumível",
+   "MIG/MAG têm vários modos de transferência: curto-circuito, globular e spray"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q63",
+  "q": "Líquidos penetrantes é uma das principais técnicas de ensaios não destrutivos. Nessa técnica, aplica-se um líquido sobre a superfície do componente. Esse líquido penetra no interior da descontinuidade, que é indicada por um agente revelador. Nesse contexto, considere as afirmativas abaixo.\n\nI — A presença de ar no interior da descontinuidade dificulta a penetração do líquido.\nII — O líquido penetra no interior da descontinuidade por efeito de forças capilares.\nIII — Líquidos menos viscosos penetram mais facilmente nas descontinuidades.\nIV — Líquidos menos viscosos penetram com menor velocidade nas descontinuidades.\n\nEstá correto o que se afirma em",
+  "alts": {
+   "A": "I e III, apenas.",
+   "B": "II e IV, apenas.",
+   "C": "I, II e III, apenas.",
+   "D": "II, III e IV, apenas.",
+   "E": "I, II, III e IV."
+  },
+  "correta": "C",
+  "explica": "I é verdadeira: ar aprisionado gera contrapressão que dificulta a entrada do líquido. II é verdadeira: o mecanismo é a capilaridade. III é verdadeira: menor viscosidade facilita o escoamento para dentro da descontinuidade. IV é falsa, pois contradiz III: menor viscosidade significa maior velocidade de penetração.",
+  "erradas": {
+   "A": "Omite a afirmativa II, que é verdadeira: a capilaridade é justamente o princípio do ensaio.",
+   "B": "Inclui IV, que é falsa (menos viscoso penetra mais rápido), e omite I e III, verdadeiras.",
+   "D": "Inclui a afirmativa IV, falsa: menor viscosidade aumenta a velocidade de penetração.",
+   "E": "III e IV são contraditórias entre si; não podem ser ambas verdadeiras, e a falsa é a IV."
+  },
+  "pontos": [
+   "Viscosidade retarda a penetração: líquidos menos viscosos penetram mais fácil E mais rápido",
+   "Ar aprisionado na descontinuidade dificulta a entrada do penetrante",
+   "Se duas afirmativas se contradizem, no máximo uma é verdadeira: use isso para eliminar alternativas"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q67",
+  "q": "O ensaio não destrutivo por ultrassom se baseia na reflexão sofrida pela energia sonora quando da passagem por descontinuidades ou defeitos existentes na peça ou componente. Assim, em relação à inspeção por ultrassom, verifica-se que",
+  "alts": {
+   "A": "é adotada somente na indicação de poros e cavidades.",
+   "B": "possui pouca sensibilidade para detectar defeitos inferiores a 5 mm.",
+   "C": "pode ser adotada para monitorar processos de corrosão interna em tubulações e dutos.",
+   "D": "não há necessidade de cabeçotes especiais para detecção de determinada posição do defeito.",
+   "E": "não permite a determinação da profundidade do defeito."
+  },
+  "correta": "C",
+  "explica": "Medindo o tempo de percurso do eco de fundo, o ultrassom mede a espessura remanescente da parede, técnica padrão para monitorar corrosão interna de tubulações e dutos (inclusive com pigs instrumentados). É um dos usos clássicos do US na inspeção de equipamentos.",
+  "erradas": {
+   "A": "US detecta muito mais que poros: trincas, dupla laminação, falta de fusão e outros defeitos internos.",
+   "B": "US tem alta sensibilidade, detectando defeitos milimétricos, bem menores que 5 mm.",
+   "D": "Posições e orientações específicas exigem cabeçotes especiais, como os angulares para soldas.",
+   "E": "O US fornece a profundidade do defeito pelo tempo de trajeto do eco."
+  },
+  "pontos": [
+   "Medição de espessura por US = monitoramento de corrosão interna (clássico da inspeção)",
+   "US localiza profundidade e dimensiona defeitos internos, mesmo pequenos e planos",
+   "Cabeçotes angulares são necessários para inspecionar soldas e defeitos mal orientados"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q70",
+  "q": "Ensaio visual em materiais é a técnica mais antiga de ensaios não destrutivos utilizada pelo homem. São fatores que influenciam na indicação visual de defeitos, EXCETO",
+  "alts": {
+   "A": "limpeza da superfície inspecionada",
+   "B": "acabamento da superfície inspecionada",
+   "C": "fadiga visual do inspetor",
+   "D": "comprimento de onda da iluminação",
+   "E": "qualificação do soldador"
+  },
+  "correta": "E",
+  "explica": "Influenciam a indicação visual: limpeza e acabamento da superfície, condição do olho do inspetor (fadiga visual) e características da iluminação, inclusive o comprimento de onda da luz. A qualificação do soldador afeta a qualidade da solda produzida, não o processo de enxergar o defeito na inspeção: é a exceção.",
+  "erradas": {
+   "A": "Limpeza da superfície é fator clássico: sujeira esconde descontinuidades.",
+   "B": "O acabamento superficial influencia diretamente a visibilidade das indicações.",
+   "C": "A fadiga visual do inspetor compromete a capacidade de detecção.",
+   "D": "O comprimento de onda (tipo de luz) da iluminação influencia o contraste e a percepção."
+  },
+  "pontos": [
+   "Não confunda qualificação do SOLDADOR (qualidade da solda) com qualificação do INSPETOR (qualidade da inspeção)",
+   "Iluminação influi em intensidade E comprimento de onda",
+   "Questões EXCETO: procure o fator que atua antes da inspeção, não durante"
+  ]
+ }
+]

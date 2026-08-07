@@ -1,0 +1,32 @@
+{
+ "id": "pr1",
+ "t": "Gestão da Produção e Operações",
+ "sub": "Bloco 1 · o miolo da prova de Produção",
+ "mods": [
+  {
+   "id": "pr1m1",
+   "n": "Módulo 1",
+   "t": "Estratégia de operações, competitividade e projeto organizacional"
+  },
+  {
+   "id": "pr1m2",
+   "n": "Módulo 2",
+   "t": "Desenvolvimento de produto, projeto de processo e inovação"
+  },
+  {
+   "id": "pr1m3",
+   "n": "Módulo 3",
+   "t": "Planejamento e controle da produção: S&OP, MPS, MRP, CRP e BOM"
+  },
+  {
+   "id": "pr1m4",
+   "n": "Módulo 4",
+   "t": "Estoques, curva ABC, lote econômico e previsão de demanda"
+  },
+  {
+   "id": "pr1m5",
+   "n": "Módulo 5",
+   "t": "Arranjo físico, capacidade, balanceamento de linha e sequenciamento"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+<p><strong>1. O método do fluxo de caixa descontado (FCD).</strong> É o método dominante em <em>valuation</em>: o valor de uma empresa é o <strong>valor presente dos fluxos de caixa futuros que ela é capaz de gerar</strong>, descontados a uma taxa que reflete o <strong>risco</strong> desses fluxos.</p>
+<p><strong>Ponto que a banca cobra literalmente:</strong> o FCD usa, para desconto, uma taxa <strong>ajustada ao risco</strong> do negócio — e <strong>não</strong> a taxa livre de risco. Alternativa que diga "utiliza a taxa de juros livre de risco" está errada. E é do FCD que se chega ao <strong>valor presente líquido</strong>, <strong>subtraindo o investimento inicial do fluxo de caixa descontado</strong>.</p>
+
+<p><strong>2. Os dois fluxos e as duas taxas.</strong> Coerência obrigatória entre numerador e denominador:</p>
+<table>
+<thead>
+<tr><th>Fluxo</th><th>Desconta-se a</th><th>Resultado</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>FCFF</strong> (fluxo livre para a firma)</td><td><strong>WACC</strong></td><td>valor da <strong>empresa</strong> (<em>enterprise value</em>)</td></tr>
+<tr><td><strong>FCFE</strong> (fluxo livre para o acionista)</td><td><strong>K<sub>e</sub></strong> (custo do capital próprio)</td><td>valor do <strong>patrimônio líquido</strong> (<em>equity</em>)</td></tr>
+</tbody>
+</table>
+<p><strong>Equity = Enterprise value − dívida líquida.</strong> Descontar o fluxo do acionista pelo WACC (ou o da firma pelo K<sub>e</sub>) é erro conceitual grave.</p>
+<p><strong>FCFF = EBIT·(1 − T) + depreciação − investimento em ativo fixo (CAPEX) − variação do capital de giro.</strong></p>
+
+<p><strong>3. Custo médio ponderado de capital (WACC).</strong></p>
+<p><strong>WACC = (E/V)·K<sub>e</sub> + (D/V)·K<sub>d</sub>·(1 − T)</strong>, com V = E + D.</p>
+<p>O termo <strong>(1 − T)</strong> existe porque o juro da dívida é <strong>dedutível do imposto</strong> — é o <em>benefício fiscal da dívida</em> (<em>tax shield</em>). Por isso o capital de terceiros é, à primeira vista, mais barato que o próprio; mas endividar demais eleva o risco de falência e, com ele, K<sub>e</sub> e K<sub>d</sub>.</p>
+
+<p><strong>4. Custo do capital próprio pelo CAPM.</strong></p>
+<p><strong>K<sub>e</sub> = R<sub>f</sub> + β·(R<sub>m</sub> − R<sub>f</sub>)</strong>, com R<sub>f</sub> = taxa livre de risco, (R<sub>m</sub> − R<sub>f</sub>) = prêmio de risco de mercado.</p>
+<p>O <strong>β</strong> mede o <strong>risco sistemático</strong> (não diversificável): β = 1 acompanha o mercado; β &gt; 1 amplifica; β &lt; 1 amortece. Risco <strong>específico</strong> (diversificável) não é remunerado, porque o investidor pode eliminá-lo montando carteira. Em mercados emergentes acrescenta-se o <strong>prêmio de risco-país</strong>.</p>
+
+<p><strong>5. Valor terminal.</strong> Como não se projeta fluxo até o infinito, projeta-se um horizonte explícito (5 a 10 anos) e calcula-se o <strong>valor terminal</strong>, tipicamente pela perpetuidade de Gordon:</p>
+<p><strong>VT = FC<sub>n+1</sub> ÷ (WACC − g)</strong>, exigindo <strong>g &lt; WACC</strong> — e, por realismo, <em>g</em> não maior que o crescimento de longo prazo da economia.</p>
+<p>O valor terminal costuma responder por <strong>60 % a 80 %</strong> do valor total: é o item mais sensível de toda a avaliação, e o primeiro a ser testado em análise de sensibilidade.</p>
+
+<p><strong>6. Outros métodos de avaliação.</strong></p>
+<table>
+<thead>
+<tr><th>Método</th><th>Ideia</th><th>Limitação</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Múltiplos de mercado</strong> (P/L, EV/EBITDA, P/VPA)</td><td>compara com empresas semelhantes</td><td>depende de achar comparáveis de verdade; embute distorções do mercado</td></tr>
+<tr><td><strong>Valor patrimonial contábil</strong></td><td>patrimônio líquido do balanço</td><td>custo histórico; ignora intangíveis e geração futura</td></tr>
+<tr><td><strong>Valor de liquidação</strong></td><td>venda dos ativos, quitadas as dívidas</td><td>piso de valor, não valor de continuidade</td></tr>
+<tr><td><strong>EVA</strong> = NOPAT − (WACC × capital investido)</td><td>lucro <strong>acima</strong> do custo do capital</td><td>medida de período, sensível a critérios contábeis</td></tr>
+<tr><td><strong>Opções reais</strong></td><td>precifica flexibilidade</td><td>complexo; parâmetros difíceis de estimar</td></tr>
+</tbody>
+</table>
+
+<p><strong>7. O que o FCD faz e o que não faz.</strong> Ele <strong>não</strong> "indica sempre o melhor projeto entre mutuamente excludentes" — vidas diferentes, restrição de capital e opções embutidas podem inverter a ordem. Também <strong>não impede</strong> a classificação entre projetos independentes: nesse caso todos com VPL positivo podem ser aceitos. Reconhecer essas nuances é o que separa o acerto do erro nas questões de "é correto afirmar".</p>
+
+<p><strong>8. Opções financeiras (aparecem junto com avaliação).</strong> <strong>Call</strong> = direito de comprar ao preço de exercício; <strong>put</strong> = direito de vender. Para uma <strong>call</strong>:</p>
+<ul>
+<li><strong>Valor intrínseco</strong> = máx(0; preço do ativo − preço de exercício).</li>
+<li><strong>Valor total = intrínseco + valor tempo</strong>; o valor tempo cresce com o <strong>prazo</strong> e com a <strong>volatilidade</strong>.</li>
+<li>Entre calls do mesmo ativo e mesmo vencimento, a de <strong>menor preço de exercício vale mais</strong>. Entre calls de mesmo exercício, a de <strong>vencimento mais longo vale mais</strong>.</li>
+<li>Uma call <em>in the money</em> tem intrínseco positivo; <em>out of the money</em>, intrínseco zero (mas valor total ainda positivo antes do vencimento).</li>
+</ul>
+
+<p><strong>9. Fluxo de caixa da empresa × lucro contábil.</strong> Lucro não é caixa. As diferenças: depreciação e amortização (despesa sem caixa), variação de contas a receber e a pagar, estoques, e o regime de competência × caixa. É por isso que o <strong>EBITDA</strong> (lucro antes de juros, impostos, depreciação e amortização) é usado como <em>proxy</em> de geração operacional de caixa — com a ressalva de que ele ignora CAPEX e capital de giro, e por isso <strong>não é fluxo de caixa livre</strong>.</p>
+
+<p><strong>Resumo de véspera:</strong> FCD desconta a taxa ajustada ao risco, nunca a livre de risco; VPL = FCD − investimento; FCFF com WACC dá o valor da firma, FCFE com K<sub>e</sub> dá o do acionista; WACC tem (1−T) na dívida; CAPM remunera só o risco sistemático (β); valor terminal exige g &lt; WACC e domina o resultado; EBITDA não é fluxo de caixa livre; call vale mais com exercício menor e prazo maior.</p>

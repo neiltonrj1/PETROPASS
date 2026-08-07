@@ -1,0 +1,74 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q58 (Produção)",
+  "q": "Os custos de controle da qualidade podem não ser pequenos, sejam eles de responsabilidade dos indivíduos ou de um departamento de controle da qualidade. Desse modo, faz-se necessário detectar todos os custos e benefícios associados à qualidade. Geralmente esses custos da qualidade são classificados em quatro categorias. Nesse sentido, paradas na linha de produção, descarte de material e retrabalho são exemplos de custos de",
+  "alts": {
+   "A": "falha interna",
+   "B": "falha externa",
+   "C": "substituição",
+   "D": "prevenção",
+   "E": "avaliação"
+  },
+  "correta": "A",
+  "explica": "Os três exemplos têm algo em comum: o defeito já aconteceu, mas foi descoberto ainda DENTRO da fábrica, antes de chegar ao cliente. Esse é exatamente o conceito de falha interna — refugo, retrabalho, reinspeção e parada de linha.",
+  "erradas": {
+   "B": "Falha externa é a que o cliente descobre: garantia, recall, devolução, indenização e perda de imagem. Aqui nada saiu da fábrica.",
+   "C": "'Substituição' não é uma das quatro categorias. As quatro são prevenção, avaliação, falha interna e falha externa.",
+   "D": "Prevenção é o que se gasta ANTES para o defeito não ocorrer: treinamento, projeto robusto, qualificação de fornecedor, manutenção preventiva.",
+   "E": "Avaliação é o que se gasta para DESCOBRIR o defeito: inspeção, ensaios, calibração, auditoria. Descarte e retrabalho não são atos de medir, são consequências."
+  },
+  "pontos": [
+   "Divida em duas famílias: custos de CONTROLE (prevenção + avaliação) e custos de FALHA (interna + externa).",
+   "A fronteira entre falha interna e externa é a porta da fábrica: quem descobriu, você ou o cliente?",
+   "Relação que a banca cobra: investir em prevenção derruba mais que proporcionalmente os custos de falha, e o custo total da qualidade cai."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q33 (Produção)",
+  "q": "Um prestador de serviços logísticos designado como 4 PL é aquele que fornece",
+  "alts": {
+   "A": "serviços logísticos para suas próprias atividades, porém em empresas diferentes dentro de um mesmo grupo empresarial.",
+   "B": "serviços integrados de armazenagem e transporte para terceiros.",
+   "C": "serviços integrados de armazenagem, roteirização, transporte, escrituração fiscal, picking para terceiros.",
+   "D": "integração logística para seus clientes, contratando e gerenciando outros prestadores de serviços logísticos na cadeia de suprimentos de um único cliente.",
+   "E": "integração logística global para seus clientes, contratando e gerenciando outros prestadores de serviços logísticos para diferentes clientes que interagem, integrando toda a cadeia de suprimentos de vários clientes."
+  },
+  "correta": "D",
+  "explica": "O traço que define o 4PL é ser um INTEGRADOR: ele não possui ativos próprios de transporte e armazenagem, e sim contrata e gerencia outros operadores logísticos, montando e coordenando a solução para a cadeia de suprimentos de um cliente. Ele vende gestão e inteligência, não frota.",
+  "erradas": {
+   "A": "Fazer a própria logística, mesmo dentro de um grupo, é 1PL — operação própria.",
+   "B": "Serviço isolado ou dois serviços combinados para terceiros ainda é 2PL.",
+   "C": "Um pacote amplo de operações executadas pelo próprio prestador, com seus ativos, é 3PL.",
+   "E": "Integrar as cadeias de VÁRIOS clientes que interagem entre si, em escala global e com forte base em informação, é a definição de 5PL."
+  },
+  "pontos": [
+   "Escala: 1PL faz sozinho · 2PL contrata um serviço · 3PL terceiriza um conjunto com ativos do prestador · 4PL integra e gerencia outros prestadores · 5PL integra várias cadeias.",
+   "Se a alternativa mencionar frota ou armazém próprios, não é 4PL.",
+   "A diferença entre 4PL e 5PL na banca é o escopo: um cliente contra vários clientes que interagem."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q61 (Produção)",
+  "q": "Problemas de roteirização de veículos dizem respeito à vinculação de um grupo de clientes que devem ser visitados a um conjunto de veículos e respectivos motoristas, envolvendo também a programação e o sequenciamento das visitas. No método que se baseia no conceito de ganho, parte-se da pior situação possível: o veículo sai do CD com a mercadoria destinada a um único cliente e, após a entrega, o veículo retorna ao CD. Em seguida insere-se um outro cliente nessa rota. Este método é conhecido sob a designação de",
+  "alts": {
+   "A": "II - OPT",
+   "B": "III - OPT",
+   "C": "Varredura",
+   "D": "Inserção do ponto mais distante",
+   "E": "Clark & Wright"
+  },
+  "correta": "E",
+  "explica": "O método das economias (savings) de Clarke & Wright parte de uma rota dedicada por cliente — a pior configuração possível — e calcula, para cada par de clientes i e j, o ganho de atendê-los na mesma viagem: s(i,j) = d(0,i) + d(0,j) − d(i,j). Depois combina os pares na ordem decrescente de ganho, respeitando capacidade e demais restrições. O 'conceito de ganho' citado no enunciado é a assinatura do método.",
+  "erradas": {
+   "A": "2-OPT é um método de MELHORIA: pega uma rota já pronta e troca dois arcos para tentar encurtá-la. Não parte de rotas individuais.",
+   "B": "3-OPT é a mesma ideia com três arcos — também melhoria, não construção.",
+   "C": "A varredura (sweep) agrupa os clientes por setor angular em torno do depósito e só depois sequencia cada grupo. Não usa ganho.",
+   "D": "A inserção do ponto mais distante constrói a rota inserindo clientes um a um por proximidade/distância, sem calcular economia de combinação."
+  },
+  "pontos": [
+   "Separe as famílias: CONSTRUÇÃO (economias de Clarke & Wright, varredura, inserção, vizinho mais próximo) e MELHORIA (2-OPT, 3-OPT, Lin-Kernighan).",
+   "Palavra-chave de Clarke & Wright: economia ou ganho, e o ponto de partida de uma rota por cliente.",
+   "Roteirização é NP-difícil: por isso se usa heurística, que dá boa solução em tempo aceitável sem garantir a ótima."
+  ]
+ }
+]

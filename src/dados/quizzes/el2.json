@@ -1,0 +1,172 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q33 (Elétrica)",
+  "q": "Um equipamento possui como valores nominais de potência e tensão, respectivamente, 20 MVA e 500 kV. Os valores de base adotados no setor onde esse equipamento se encontra são 2,5 MVA e 250 kV. Sabendo-se que a reatância desse equipamento, para seus valores nominais, é de 0,3 pu, o novo valor, em pu, considerando-se a base adotada, será de",
+  "alts": {
+   "A": "0,15",
+   "B": "0,20",
+   "C": "0,25",
+   "D": "0,30",
+   "E": "0,35"
+  },
+  "correta": "A",
+  "explica": "Aplique a fórmula de mudança de base: Z_nova = Z_velha × (S_nova/S_velha) × (V_velha/V_nova)². Substituindo: 0,3 × (2,5/20) × (500/250)² = 0,3 × 0,125 × 4 = 0,15 pu. Note que a razão de potências entra direta e a de tensões entra ao quadrado e invertida (velha sobre nova).",
+  "erradas": {
+   "B": "0,20 aparece quando se esquece de elevar a razão de tensões ao quadrado em algum passo.",
+   "C": "0,25 sai de trocar a ordem de alguma razão, geralmente usando 250/500 sem inverter a de potências.",
+   "D": "0,30 é o valor original — resultado de considerar que as bases se cancelam, o que só ocorreria se S e V fossem iguais nos dois casos.",
+   "E": "0,35 não sai de nenhuma combinação coerente; é distrator de arredondamento."
+  },
+  "pontos": [
+   "Z_nova = Z_velha · (S_nova/S_velha) · (V_velha/V_nova)². Escreva a fórmula antes de substituir — inverter a razão de tensões é o erro campeão.",
+   "Potência entra na razão DIRETA; tensão entra ao QUADRADO e na razão INVERSA.",
+   "Confira a ordem de grandeza: aqui a potência de base caiu 8× (puxa para baixo) e a tensão de base caiu pela metade, o que ao quadrado multiplica por 4. Efeito líquido: metade do valor original."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q21 (Elétrica)",
+  "q": "A reatância de uma máquina síncrona de 50 MVA e 15 kV é de 10%. O valor dessa reatância, em p.u., sabendo-se que as bases no setor em que se encontra esse equipamento são de 100 MVA e 30 kV, é",
+  "alts": {
+   "A": "0,01",
+   "B": "0,03",
+   "C": "0,05",
+   "D": "0,12",
+   "E": "0,80"
+  },
+  "correta": "C",
+  "explica": "10 % equivale a 0,10 pu na base própria da máquina (50 MVA e 15 kV). Mudando para 100 MVA e 30 kV: 0,10 × (100/50) × (15/30)² = 0,10 × 2 × 0,25 = 0,05 pu. A potência de base dobrou (dobra a impedância em pu) e a tensão de base dobrou (divide por quatro) — o efeito líquido é metade do valor original.",
+  "erradas": {
+   "A": "0,01 sai de aplicar a razão de tensões sem elevar ao quadrado e ainda dividir pela de potências.",
+   "B": "0,03 não corresponde a nenhuma combinação das razões envolvidas.",
+   "D": "0,12 aparece quando se usa (30/15)² no lugar de (15/30)², invertendo a razão de tensões.",
+   "E": "0,80 é o resultado de usar as duas razões invertidas: 0,1 × (50/100) × (30/15)² = 0,2... e variações desse erro."
+  },
+  "pontos": [
+   "Impedância percentual é a impedância em pu na base do próprio equipamento, multiplicada por 100. 10 % = 0,10 pu.",
+   "A potência de base é ÚNICA para todo o estudo; a tensão de base muda a cada transformador, na relação de espiras.",
+   "Aplicação prática dessa grandeza: a corrente de curto nos terminais é aproximadamente I_nominal ÷ Z_pu. Impedância menor significa curto maior."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q34 (Elétrica)",
+  "q": "Em um sistema elétrico de potência, um transformador na configuração estrela, aterrado em um lado e estrela não aterrado para o outro, é representado no diagrama de reatâncias de sequência zero por uma reatância",
+  "alts": {
+   "A": "em série no sistema",
+   "B": "aberta no sistema",
+   "C": "em paralelo no sistema",
+   "D": "isolada em paralelo no sistema",
+   "E": "em série no sistema e outra em paralelo"
+  },
+  "correta": "B",
+  "explica": "Corrente de sequência zero é igual nas três fases e precisa de um caminho de retorno — pela terra ou pelo neutro. O lado em estrela ATERRADA oferece esse caminho, mas o lado em estrela NÃO aterrada não: sem neutro ligado à terra, não há por onde a corrente de sequência zero circular. O circuito de sequência zero fica, portanto, ABERTO entre os dois lados.",
+  "erradas": {
+   "A": "Só é série quando os DOIS lados são estrela aterrada — aí a sequência zero atravessa o transformador.",
+   "C": "O ramo em paralelo (para a referência) aparece no caso estrela aterrada com delta: a corrente circula dentro do delta e não segue adiante.",
+   "D": "Não existe essa configuração no modelo de sequência zero de transformador.",
+   "E": "Combinação inventada; o modelo tem uma topologia definida para cada tipo de ligação."
+  },
+  "pontos": [
+   "Decore o mapa da sequência zero: Yaterrada–Yaterrada = série (passa); Yaterrada–Δ = ramo em paralelo para a referência (circula no delta, não passa); Yaterrada–Yisolada = ABERTO; Δ–Δ = aberto dos dois lados.",
+   "O delta é uma armadilha de sequência zero — e também é o que dá caminho para a 3ª harmônica de magnetização, evitando distorção de tensão.",
+   "Só um neutro aterrado permite alimentar carga fase-neutro e torna o transformador uma fonte de corrente de curto fase-terra daquele lado."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q35 (Elétrica)",
+  "q": "Um curto-circuito fase-terra ocorre em um sistema trifásico. Sabe-se que a corrente de sequência positiva no ponto da falta é igual a 5 pu. As bases adotadas no setor da falta são 4 MVA e 100 kV. A corrente de curto-circuito dessa falta, em ampères, é igual a",
+  "alts": {
+   "A": "200",
+   "B": "200√3",
+   "C": "450",
+   "D": "600√3",
+   "E": "600"
+  },
+  "correta": "B",
+  "explica": "Na falta fase-terra as três redes de sequência ficam em série, o que impõe I₁ = I₂ = I₀. A corrente na fase faltosa é a soma das três: I_falta = 3·I₁ = 15 pu. A corrente de base é I_base = S/(√3·V) = 4×10⁶ / (√3 × 100×10³) = 40/√3 ≈ 23,09 A. Multiplicando: 15 × 40/√3 = 600/√3 = 200√3 ≈ 346 A.",
+  "erradas": {
+   "A": "200 A sai de esquecer o √3 na corrente de base, ou de racionalizar errado no fim.",
+   "C": "450 A não corresponde a nenhuma etapa coerente do cálculo.",
+   "D": "600√3 é o resultado de multiplicar pelo √3 em vez de dividir na corrente de base.",
+   "E": "600 A é 15 × 40, ou seja, ignora completamente o √3 do sistema trifásico."
+  },
+  "pontos": [
+   "Falta fase-terra: as três redes em SÉRIE, I₁ = I₂ = I₀ e a corrente da fase é 3·I₁. É o resultado mais cobrado do assunto.",
+   "Falta fase-fase: redes positiva e negativa em PARALELO, sem a de sequência zero.",
+   "Falta trifásica: só a rede de sequência positiva.",
+   "I_base = S_base ÷ (√3 · V_base), com S em VA e V em volts. Esquecer o √3 é o erro clássico."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q24 (Elétrica)",
+  "q": "Uma linha de transmissão de 120 km de extensão possui impedância em série própria igual a 0,02 + j0,05 [Ω/km] e impedância mútua entre as fases de j0,02 [Ω/km]. A impedância de sequência direta para essa linha, em ohms, é",
+  "alts": {
+   "A": "2,4 + j3,6",
+   "B": "2,4 + j6,0",
+   "C": "1,2 + j3,6",
+   "D": "1,2 + j6,0",
+   "E": "1,2 + j8,4"
+  },
+  "correta": "A",
+  "explica": "Para a sequência direta (positiva), a impedância por quilômetro é a própria MENOS a mútua: z₁ = (0,02 + j0,05) − j0,02 = 0,02 + j0,03 Ω/km. Multiplicando pelos 120 km: Z₁ = 2,4 + j3,6 Ω. Repare que a parte resistiva não é afetada, porque a mútua informada é puramente indutiva.",
+  "erradas": {
+   "B": "2,4 + j6,0 sai de somar a mútua em vez de subtrair — isso daria a sequência zero, que é z_própria + 2·z_mútua.",
+   "C": "1,2 + j3,6 usa metade do comprimento na parte resistiva; a extensão é a mesma para as duas partes.",
+   "D": "1,2 + j6,0 combina os dois erros anteriores.",
+   "E": "1,2 + j8,4 corresponde a somar duas vezes a mútua e ainda errar o comprimento."
+  },
+  "pontos": [
+   "Sequência positiva e negativa: z₁ = z₂ = z_própria − z_mútua. Sequência zero: z₀ = z_própria + 2·z_mútua.",
+   "Por isso Z₀ costuma ficar entre 2,5 e 3,5 vezes Z₁ numa linha aérea — número que a banca gosta de cobrar de memória.",
+   "Multiplique pela extensão só no fim, e aplique aos dois termos (resistivo e reativo)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2006, Q27 (Elétrica e Eletrônica)",
+  "q": "As componentes de sequência negativa de um sistema trifásico consistem de três fasores iguais em módulo e",
+  "alts": {
+   "A": "120º defasados entre si, com a mesma sequência de fase dos fasores originais.",
+   "B": "120º defasados entre si, com uma sequência de fase inversa à dos fasores originais.",
+   "C": "com a mesma defasagem e a mesma sequência de fase dos fasores originais.",
+   "D": "com defasagem nula entre si.",
+   "E": "com uma defasagem diferente dos fasores originais, mas com uma sequência de fase inversa."
+  },
+  "correta": "B",
+  "explica": "As três componentes de qualquer sequência têm o mesmo módulo. O que as distingue é o arranjo angular: a sequência POSITIVA tem 120° de defasagem na mesma ordem de fases do sistema (a-b-c); a NEGATIVA tem os mesmos 120°, mas na ordem invertida (a-c-b); e a ZERO tem os três fasores EM FASE, com defasagem nula.",
+  "erradas": {
+   "A": "Mesma sequência de fase é a definição da componente POSITIVA (direta).",
+   "C": "Descreve novamente a sequência positiva, agora sem sequer citar o valor da defasagem.",
+   "D": "Defasagem nula é a marca da sequência ZERO (homopolar).",
+   "E": "A sequência de fase invertida está certa, mas a defasagem continua sendo de 120°, não outra."
+  },
+  "pontos": [
+   "Tabela mental: POSITIVA = 120°, ordem a-b-c · NEGATIVA = 120°, ordem a-c-b · ZERO = 0°, os três em fase.",
+   "Num sistema perfeitamente equilibrado só existe sequência positiva.",
+   "A corrente de sequência negativa gira ao contrário e induz correntes de frequência 2f no rotor, aquecendo a máquina — daí a proteção de desequilíbrio (função ANSI 46)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q45 (Elétrica)",
+  "q": "Um sinal de tensão elétrica, variando continuamente no tempo, tem sua amplitude limitada entre −5 V e +5 V para possibilitar a sua digitalização através de um conversor Analógico/Digital (A/D) operando com 8 bits. Essa conversão, nas condições apresentadas acima, vai acarretar um erro na quantização da amplitude da tensão, medido em mV, de aproximadamente",
+  "alts": {
+   "A": "10",
+   "B": "40",
+   "C": "60",
+   "D": "100",
+   "E": "200"
+  },
+  "correta": "B",
+  "explica": "A faixa total de entrada vai de −5 V a +5 V, ou seja, 10 V. Com 8 bits há 2⁸ = 256 níveis de quantização. O degrau (resolução) é 10 V ÷ 256 ≈ 0,039 V ≈ 39 mV, que arredonda para 40 mV. Esse é o passo mínimo que o conversor consegue distinguir e a referência de erro pedida pela banca.",
+  "erradas": {
+   "A": "10 mV corresponderia a cerca de 10 bits, não 8.",
+   "C": "60 mV não sai de nenhuma potência de 2 com essa faixa.",
+   "D": "100 mV daria uma faixa de 25,6 V, ou pouco mais de 6 bits.",
+   "E": "200 mV corresponde a 50 níveis: nem 8 bits, nem múltiplo de 2."
+  },
+  "pontos": [
+   "Resolução = faixa total ÷ 2ⁿ. A faixa é a AMPLITUDE TOTAL: de −5 a +5 são 10 V, não 5.",
+   "Cada bit a mais divide o degrau pela metade e melhora a relação sinal-ruído em cerca de 6 dB.",
+   "Rigorosamente, o erro máximo de quantização é ±½ degrau (≈ 19,5 mV aqui); a banca pediu o degrau, então acompanhe a alternativa mais próxima de 39 mV.",
+   "Não confunda com amostragem: Nyquist trata do EIXO DO TEMPO (f_amostragem > 2·f_máxima); quantização trata do EIXO DA AMPLITUDE."
+  ]
+ }
+]

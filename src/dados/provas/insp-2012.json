@@ -1,0 +1,598 @@
+{
+ "id": "insp-2012",
+ "trilha": "inspecao",
+ "ano": 2012,
+ "nome": "Eng. de Equipamentos Jr — Inspeção",
+ "processo": "Petrobras PSP RH 1/2012",
+ "caderno": "prova_16_engenheiro_a_de_equipamentos_junior_inspecao.pdf",
+ "folhaGabarito": "gabarito_nivel_superior.pdf",
+ "total": 44,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2012, Q21",
+   "q": "Um engenheiro precisa adquirir uma certa liga metálica composta por 99% do elemento Ficticium e, portanto, precisa da massa específica para calcular a massa total de material que será adquirido. Os únicos dados de que o engenheiro dispõe são: • massa atômica = 93 unidades de massa atômica; • estrutura cristalina cúbica de corpo centrado com parâmetro de rede cristalina = 0,33 nm; • número de Avogrado = 6,0 10 23. Qual a massa específica, aproximada, em kg/m 3, desse material?",
+   "alts": {
+    "A": "2.158",
+    "B": "4.315",
+    "C": "8.630",
+    "D": "17.260",
+    "E": "21.575"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2012, Q22",
+   "q": "A oficina mecânica de uma empresa comprou um lote de alumínio comercialmente puro (constituído de uma única fase) e descobriu que o mesmo estava com uma dureza muito elevada, o que dificultava seu processo de conformação mecânica. Os técnicos propuseram um tratamento térmico de uma hora para a recristalização do material. Sabendo-se que a temperatura de fusão do alumínio é de, aproximadamente, 660 °C, que temperatura resultará na menor dureza possível?",
+   "alts": {
+    "A": "60 °C",
+    "B": "100 °C",
+    "C": "150 °C",
+    "D": "190 °C",
+    "E": "490 °C"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2012, Q23",
+   "q": "Um sistema binário, constituído somente de duas fases sólidas com solubilidade limitada e um líquido que forma uma reação eutética, apresenta uma característica físico-química de grande importância tecnológica, que consiste em:",
+   "alts": {
+    "A": "o líquido eutético apresenta uma temperatura de solidificação maior que as temperaturas de solidificação das fases sólidas.",
+    "B": "o líquido eutético apresenta uma temperatura de solidificação menor que as temperaturas de solidificação das fases sólidas.",
+    "C": "o líquido eutético apresenta uma temperatura de solidificação intermediária entre as temperaturas de fusão das fases sólidas.",
+    "D": "o líquido eutético nunca se solidifica, portanto, não apresenta temperatura de solidificação.",
+    "E": "as fases sólidas nunca se fundem e, portanto, não apresentam uma temperatura de solidificação."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2012, Q24",
+   "q": "Um aço ao carbono com 0,30% em massa de carbono sofreu um tratamento térmico de normalização que consiste em aquecer na região da fase austenita e resfriar ao ar. Considere-se que a condição de resfriamento permite passar pela temperatura do eutetoide mantendo o equilíbrio termodinâmico. Sabendo-se que a composição da austenita na temperatura do eutetoide é de 0,9% em massa de carbono, qual a quantidade, em % massa, de perlita estimada?",
+   "alts": {
+    "A": "16,7%",
+    "B": "33,3%",
+    "C": "45,5%",
+    "D": "66,7%",
+    "E": "90,0%"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2012, Q25",
+   "q": "Uma lâmina de cobre comercialmente puro será empregada em um equipamento industrial. A única restrição de projeto é a carga máxima a que essa lâmina precisa resistir. Esse material pode ser fornecido nas seguintes condições: I - laminado a frio e recozido (recozimento pleno); II - laminado a frio e com 5% de deformação no último passe; III - laminado a frio e com 10% de deformação no último passe; IV - laminado a frio e com 15% de deformação no último passe. Todas as lâminas apresentavam a mesma espessura antes de iniciarem o processo de laminação. Cada passe de laminação é seguido de um tratamento de recozimento pleno, exceto o último passe. Todos os processos de laminação empregados fornecem valores de resistência mecânica suficientemente elevados para atender ao projeto. A espessura do material não é fator crítico para sua aplicação, mas a massa total de cobre precisa ser reduzida. Assim sendo, qual o material que, por ser mais apropriado, deve ser escolhido para ser empregado no equipamento?",
+   "alts": {
+    "A": "Qualquer material, independente da condição de laminação, pois todas apresentam o mesmo valor de resistência mecânica e a mesma massa por unidade de área da lâmina.",
+    "B": "O material laminado a frio e recozido, por apresentar a menor massa e o maior valor de resistência mecânica.",
+    "C": "O material laminado a frio e com 5% de deformação no último passe, por apresentar a menor massa e o maior valor de resistência mecânica.",
+    "D": "O material laminado a frio e com 10% de deformação no último passe, por apresentar a menor massa e o maior valor de resistência mecânica.",
+    "E": "O material laminado a frio e com 15% de deformação no último passe, por apresentar a menor massa e o maior valor de resistência mecânica."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2012, Q26",
+   "q": "O diagrama Fe-C metaestável é constituído das seguintes fases na região de importância tecnológica: líquido, austenita, ferrita alfa, ferrita delta e cementita. Essas fases sofrem diversas transformações em função da temperatura, sabendo-se que, durante o",
+   "alts": {
+    "A": "resfriamento, o líquido eutético se transforma em ferrita e perlita.",
+    "B": "resfriamento, o líquido eutético se transforma em ferrita e austenita.",
+    "C": "resfriamento, a austenita eutetoide se transforma em ferrita e cementita.",
+    "D": "aquecimento, a ferrita e a austenita se transformam em líquido eutético.",
+    "E": "aquecimento, a ferrita peritetoide se transforma em austenita e líquido."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2012, Q27",
+   "q": "Um aço hipereutetoide é aquecido na região da fase austenita e resfriado ao ar. Que microestrutura será observada no microscópio óptico após preparação metalográfica?",
+   "alts": {
+    "A": "Cementita pró-eutetoide e perlita",
+    "B": "Cementita e perlita pró-eutetoide",
+    "C": "Austenita e cementita",
+    "D": "Ferrita e perlita pró-eutetoide",
+    "E": "Ferrita pró-eutetoide e perlita"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2012, Q28",
+   "q": "Temperabilidade está associada à capacidade de endurecimento de um aço durante um resfriamento rápido de uma temperatura dentro do campo austenítico. Durante um teste de temperabilidade, foram empregados três meios distintos de resfriamento: água com sal à temperatura ambiente, óleo à temperatura ambiente e ar parado. Os dois aços analisados possuíam 0,4% em massa de carbono. O aço A era um aço ao carbono, enquanto o aço B era um aço ligado, com maior teor de manganês que o aço A. Sendo assim, conclui-se que o(s) aço(s)",
+   "alts": {
+    "A": "A apresenta maior temperabilidade que o aço B, pois o aço A apresenta menor concentração de manganês que o aço B.",
+    "B": "A apresenta maior temperabilidade que o aço B, pois o aço A somente foi totalmente endurecido na água, enquanto o aço B foi totalmente endurecido no óleo.",
+    "C": "B apresenta maior temperabilidade que o aço A, pois o aço A somente foi totalmente endurecido na água, enquanto o aço B foi totalmente endurecido no óleo.",
+    "D": "A e B apresentam a mesma temperabilidade, pois ambos formam uma microestrutura composta de ferrita e perlita quando resfriados ao ar.",
+    "E": "A e B apresentam a mesma temperabilidade, pois ambos foram totalmente endurecidos quando resfriados na água."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2012, Q29",
+   "q": "As curvas TTT de um aço descrevem a decomposição da austenita em diversas microestruturas quando um aço é resfriado rapidamente da região austenita para a temperatura em que será mantido por um tempo prefixado (tratamento isotérmico). Elas indicam a quantidade de uma determinada fase formada pela decomposição da austenita. Essas curvas normalmente apresentam a forma da letra C como resultado das interações termodinâmicas e cinéticas. A forma da curva C de uma curva TTT ocorre porque, em temperaturas muito baixas, a força motriz para a transformação é muito",
+   "alts": {
+    "A": "elevada, e a difusão do carbono é muito elevada.",
+    "B": "elevada, mas a difusão do carbono é muito baixa.",
+    "C": "baixa, e a difusão do carbono é muito elevada.",
+    "D": "baixa, mas a difusão do carbono é muito elevada.",
+    "E": "baixa, e a difusão do carbono é muito baixa."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2012, Q30",
+   "q": "Considere as afirmativas abaixo sobre a transformação martensítica em aços. I - A transformação martensítica é uma transformação anisotérmica que ocorre abaixo de uma temperatura crítica. II - Durante a transformação martensítica, a concentração de carbono da ferrita não muda. III - Durante a transformação martensítica, a concentração de carbono da austenita não muda. IV - A transformação martensítica ocorre sem difusão de longo alcance. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I e II",
+    "B": "II e III",
+    "C": "III e IV",
+    "D": "I, II e IV",
+    "E": "I, III e IV"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2012, Q31",
+   "q": "Elementos de liga agem mesmo quando presentes em quantidades muito pequenas. Durante um procedimento de manutenção corretiva, solicitou-se a análise química de um determinado aço que apresentou a seguinte composição em percentagem em massa dos elementos: 0,40%C, 1,80%Ni, 0,50%Cr, 0,25%Mo, 0,005%Nb, 0,02%P e 0,01%S. Baseado nessa composição, o engenheiro responsável deve ter concluído que esse aço",
+   "alts": {
+    "A": "poderá ter a precipitação de carbonetos de níquel.",
+    "B": "poderá ter a precipitação de carbonetos de molibdênio e de nióbio.",
+    "C": "é inoxidável.",
+    "D": "é hipereutetoide",
+    "E": "não possui elementos contaminantes."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2012, Q32",
+   "q": "SILVA, André Luiz V. da Costa; MEI, Paulo R. Aços e Ligas Especiais. São Paulo: Edgard Blücher, 2006. p. 77. A curva CCT é empregada para escolher a taxa de resfriamento apropriada para causar a formação de uma microestrutura específica de um aço. Um aço SAE 1541 precisa ser resfriado numa velocidade apropriada para formar uma microestrutura que consiste em 45% de ferrita pró-eutetoide, 15% ferrita bainítica e o restante perlita. O diagrama CCT desse aço está apresentado acima, juntamente com várias curvas de resfriamento que podem ser obtidas facilmente numa oficina de tratamento térmico. Que curva deverá gerar a microestrutura mais próxima do aço proposto?",
+   "alts": {
+    "A": "1000 °C/min",
+    "B": "500 °C/min",
+    "C": "300 °C/min",
+    "D": "140 °C/min",
+    "E": "28 °C/min"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2012, Q33",
+   "q": "Ensaios de tração são muito empregados para a caracterização inicial das propriedades mecânicas de materiais estruturais. O engenheiro de controle da qualidade de uma indústria recebeu um novo carregamento de dois materiais estruturais e decidiu fazer um ensaio de tração antes de aceitar o carregamento. Retirou uma quantidade apropriada de cada material e enviou para o laboratório de ensaios mecânicos com o pedido de que assim que terminasse o ensaio fosse informado sobre os valores das principais propriedades. O técnico do laboratório realizou o ensaio de tração e apresentou as seguintes informações: • Material A: 525 MPa, 345 MPa e redução de área 32,0% • Material B: 1015 MPa, 525 MPa e redução de área 11,0% I - O material B é mais dútil que o material A, porque apresenta um limite de escoamento de 1015 MPa e um limite de resistência mecânica de 525 MPa. II - O material A é mais dútil que o material B, porque apresenta uma redução de área de 32,0% III - O material A apresenta um limite de escoamento de 525 MPa e, portanto, igual ao limite de escoamento do material B. IV - O material B apresenta um limite de resistência mecânica de 1015 MPa, quase o dobro do limite de resistência mecânica do material A, de 525 MPa. Apesar de os resultados experimentais estarem corretos, o técnico se confundiu na interpretação e concluiu corretamente APENAS o que está informado em",
+   "alts": {
+    "A": "I e II",
+    "B": "I e III",
+    "C": "II e III",
+    "D": "II e IV",
+    "E": "III e IV"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2012, Q34",
+   "q": "Cinco aços ao carbono foram normalizados e as quantidades de ferrita e perlita foram medidas por microscopia óptica quantitativa. Nesse contexto, considerando-se os aços a seguir, qual deles apresentou a maior fração volumétrica de ferrita?",
+   "alts": {
+    "A": "SAE 1060",
+    "B": "SAE 1045",
+    "C": "SAE 1030",
+    "D": "SAE 1015",
+    "E": "SAE 1005"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2012, Q35",
+   "q": "Aços hipereutetoides são empregados na fabricação de lâminas de faca e trilhos de trem, porque apresentam, após o tratamento de normalização, uma microestrutura mais dura e resistente à abrasão, que consiste em",
+   "alts": {
+    "A": "ferrita pura",
+    "B": "ferrita pró-eutetoide e perlita",
+    "C": "perlita pura",
+    "D": "cementita pró-eutetoide e perlita",
+    "E": "cementita pura"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2012, Q36",
+   "q": "O aço é essencialmente uma liga de ferro e carbono. No entanto, a adição de outros elementos pode promover a melhoria dessa liga inicial, dando origem aos aços ligados. Existem dezenas de diferentes tipos de aços ligados, mas os elementos atuam quase sempre de maneira bem definida, relacionada com suas propriedades físico-químicas. Desse modo, emprega-se nos aços o elemento de liga",
+   "alts": {
+    "A": "silício para retirar enxofre de solução pela formação de sulfetos e para retirar oxigênio de solução pela formação de óxidos.",
+    "B": "níquel para retirar enxofre de solução pela formação de sulfetos e para aumentar o campo austenítico.",
+    "C": "manganês para retirar enxofre de solução pela formação de sulfetos e para aumentar o campo austenítico.",
+    "D": "nióbio para retirar enxofre de solução pela formação de sulfetos e para formar carbonetos (carbetos).",
+    "E": "cromo para retirar enxofre de solução pela formação de sulfetos e para aumentar o campo ferrítico."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2012, Q37",
+   "q": "Bronzes constituem um dos grupos mais importantes de ligas não ferrosas por apresentarem elevada resistência à corrosão marítima. Os bronzes são constituídos com os metais cobre, estanho, prata, níquel e antimônio. O elemento com teor acima de 50% em massa nos bronzes é",
+   "alts": {
+    "A": "cobre",
+    "B": "estanho",
+    "C": "prata",
+    "D": "níquel",
+    "E": "antimônio"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2012, Q38",
+   "q": "A classificação de aços inoxidáveis divide a família de aços em cinco grupos distintos. A composição desses aços inclui três elementos principais: cromo, molibdênio e níquel, cujos teores variam de acordo com o tipo de aço. Um carregamento de três tipos de aço inoxidável apresentou as seguintes composições em percentagem de massa: Aço inox A: 18%Cr, 8%Ni e 0,01%C Aço inox B: 18%Cr, 4%Ni e 0,02%C Aço inox C: 14%Cr e 0,12%C O engenheiro do controle de qualidade concluiu que o(s) aço(s) inox",
+   "alts": {
+    "A": "A é austenítico, e o aço inox C é duplex (ferríticoaustenítico).",
+    "B": "B é duplex (ferrítico-austenítico), e o aço inox A é ferrítico.",
+    "C": "C é martensítico, e o aço inox A é austenítico.",
+    "D": "C é martensítico, e o aço inox A é ferrítico.",
+    "E": "B e C são duplex (ferrítico-austenítico)."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2012, Q39",
+   "q": "A sensitização de aços inoxidáveis é um problema sempre presente na soldagem desses materiais. A sensitização pode ser revertida por tratamento térmico por um tempo apropriado com as seguintes condições:",
+   "alts": {
+    "A": "temperatura elevada o suficiente para solubilizar os carbonetos de cromo, seguida de resfriamento relativamente rápido.",
+    "B": "temperatura elevada o suficiente para solubilizar os carbonetos de níquel, seguida de resfriamento relativamente rápido.",
+    "C": "atmosfera redutora e temperatura elevada o suficiente para reduzir os óxidos de cromo em cromo metálico.",
+    "D": "atmosfera redutora e temperatura elevada o suficiente para reduzir os óxidos de níquel em níquel metálico.",
+    "E": "atmosfera oxidante e temperatura elevada o suficiente para oxidar os carbonetos de níquel."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2012, Q41",
+   "q": "Uma companhia precisa de um aço com um teor muito baixo dos seguintes contaminantes: cromo, níquel e estanho. Duas companhias siderúrgicas propuseram fornecer o material solicitado: uma das companhias recicla aços (sucata), empregando um forno elétrico, e a outra produz aço empregando um alto forno e minério de ferro de elevada pureza. Que companhia possui melhores condições (tipo de forno e matéria-prima) para fornecer o aço com os menores teores de cromo, níquel e estanho?",
+   "alts": {
+    "A": "A companhia que emprega forno elétrico, porque esse processo é capaz de purificar totalmente a sucata empregada.",
+    "B": "A companhia que emprega forno elétrico, porque esse processo é capaz de purificar totalmente o minério de ferro.",
+    "C": "A companhia que emprega alto forno para redução do minério, porque esse processo é capaz de purificar totalmente a sucata de aço.",
+    "D": "A companhia que emprega alto forno, pois o minério de ferro não contém normalmente as impurezas mencionadas.",
+    "E": "Ambas companhias, pois os dois processos empregados são capazes de eliminar totalmente todas as impurezas."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2012, Q42",
+   "q": "Um cabo de estai, com diâmetro de 5 cm e comprimento de 10 m, está sob ação de uma força de 5.000 N. A maior deformação elástica que esse cabo pode sofrer sob a ação dessa força é de 1 mm. Qual o menor módulo de elasticidade que um material deve apresentar para atender essas condições de projeto?",
+   "alts": {
+    "A": "1,3 GPa",
+    "B": "6,4 GPa",
+    "C": "12,8 GPa",
+    "D": "25,5 GPa",
+    "E": "80,0 GPa"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2012, Q43",
+   "q": "Corrosão é um fenômeno presente em todas as áreas do processamento petroquímico e pode causar a perda total de uma peça, ou equipamento. Nem sempre a corrosão pode ser evitada, porém, em algumas situações, é possível reverter as condições que irão favorecer a corrosão por meio de um tratamento térmico. Essa situação está normalmente associada à corrosão",
+   "alts": {
+    "A": "galvânica",
+    "B": "uniforme",
+    "C": "seletiva",
+    "D": "puntiforme ou por pites",
+    "E": "por sensitização da solda"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2012, Q44",
+   "q": "Na montagem de equipamentos industriais, muitas vezes é imprescindível a união de dois metais totalmente distintos, por exemplo, bronze e aço ao carbono. Essa união favorece um mecanismo muito comum de corrosão denominado corrosão",
+   "alts": {
+    "A": "galvânica do aço com oxidação do ferro",
+    "B": "puntiforme (por pites) do bronze pelo oxigênio",
+    "C": "por aeração diferencial (crevice corrosion) do aço",
+    "D": "por aeração diferencial (crevice corrosion) do bronze",
+    "E": "por oxidação do bronze pelo hidrogênio"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2012, Q45",
+   "q": "A corrosão por aeração diferencial é um mecanismo especialmente importante nos processos de corrosão de flanges, que somente opera com algumas condições. Uma dessas condições é a presença de um(a)",
+   "alts": {
+    "A": "eletrólito e dois metais distintos",
+    "B": "eletrólito com composição variável de um sal",
+    "C": "eletrólito com composição uniforme de um sal",
+    "D": "concentração variável de oxigênio em um eletrólito",
+    "E": "concentração uniforme de oxigênio em um eletrólito"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2012, Q47",
+   "q": "Dois materiais estão sendo considerados para a produção de uma mola. Esses materiais apresentam as seguintes propriedades: material X, o limite de elasticidade ocorre para uma deformação de 0,05, e o módulo de elasticidade é 100 MPa; material Y, o limite de elasticidade ocorre para uma deformação de 0,01, e o módulo de elasticidade é 1000 MPa. Os dois materiais apresentam um comportamento linear-elástico até o limite da elasticidade. A mola com a maior capacidade de armazenar energia é a produzida com o material",
+   "alts": {
+    "A": "X, que é capaz de armazenar uma energia de 125.000 J/m 3.",
+    "B": "X, que é capaz de armazenar uma energia de 5.000.000 J/m 3.",
+    "C": "Y, que é capaz de armazenar uma energia de 10.000.000 J/m 3.",
+    "D": "Y, que é capaz de armazenar uma energia de 50.000 J/m 3.",
+    "E": "Y, que é capaz de armazenar uma energia de 1.250.000 J/m 3."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2012, Q48",
+   "q": "Al +3 + 3e −1 = Al −1,662 Zn +2 + 2e −1 = Zn −0,763 Fe +3 + 3e −1 = Fe −0,037 2H +1 + 2e −1 = H 2 0,000 Cu +2 + 2e −1 = Cu 0,337 Fe +3 + e −1 = Fe +2 0,771 Ag +1 + e −1 = Ag 0,7991 Au +1 + e −1 = Au 1,692 A tabela de potenciais de redução é muito útil para avaliar a possibilidade de oxidação de metais distintos, unidos eletricamente e imersos em um eletrólito. A tabela acima fornece alguns valores para diferentes sistemas de oxidação. Sendo assim, empregando-se essa tabela, verifica-se que",
+   "alts": {
+    "A": "hidrogênio não favorece a oxidação de nenhum metal.",
+    "B": "alumínio e cobre favorecem a oxidação do ferro metálico.",
+    "C": "zinco e cobre favorecem a oxidação do ferro metálico.",
+    "D": "prata e alumínio favorecem a oxidação do ouro metálico.",
+    "E": "prata e cobre favorecem a oxidação do ferro metálico."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2012, Q49",
+   "q": "Que condições são necessárias para a passivação de um aço inoxidável austenítico 18-8?",
+   "alts": {
+    "A": "Formação de um fino filme de Cr 2 O 3 e presença de oxigênio",
+    "B": "Formação de um fino filme de Cr 2 O 3 e presença de nitrogênio",
+    "C": "Formação de um fino filme de Cr 2 O 3 e formação de um fino filme de Fe 2 O 3",
+    "D": "Formação de um fino filme de Fe 2 O 3 e presença de oxigênio",
+    "E": "Formação de um fino filme de Fe 2 O 3 e presença de nitrogênio"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2012, Q50",
+   "q": "Sob que condições, a proteção com anodo de sacrifício do casco de um barco feito de aço será eficaz?",
+   "alts": {
+    "A": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material abaixo da linha d’água, mantendo-o isolado eletricamente do aço do casco.",
+    "B": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material acima da linha d’água, empregando um bom contato elétrico com o aço do casco.",
+    "C": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material abaixo da linha d’água, empregando um bom contato elétrico com o aço do casco.",
+    "D": "Empregar um material menos oxidável que o ferro, por exemplo, cobre, e prender esse material abaixo da linha d’água, empregando um bom contato elétrico com o aço do casco.",
+    "E": "Empregar um material menos oxidável que o ferro, por exemplo, cobre, e prender esse material acima da linha d’água, empregando um bom contato elétrico com o aço do casco."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2012, Q52",
+   "q": "A observação da superfície de fratura de um material que falha em serviço é uma etapa importante para a identificação dos mecanismos prováveis que causaram a falha. Essa observação precisa ser realizada no microscópio eletrônico de varredura para que os detalhes de relevo sejam bem visualizados. A partir disso, sabe-se que a fratura",
+   "alts": {
+    "A": "dútil ocorre com baixa absorção de energia e, portanto, apresenta uma superfície bastante lisa causada pela clivagem dos grãos.",
+    "B": "dútil ocorre com baixa absorção de energia e a fratura frágil ocorre com alta absorção de energia, não existindo, no entanto, nenhuma relação com a morfologia da fratura.",
+    "C": "dútil ocorre com alta absorção de energia e, portanto, apresenta uma superfície rugosa pela nucleação e crescimento de vazios.",
+    "D": "frágil ocorre com alta absorção de energia e, portanto, apresenta uma superfície bastante lisa causada pela clivagem dos grãos.",
+    "E": "frágil ocorre com baixa absorção de energia e, portanto, apresenta uma superfície rugosa pela nucleação e crescimento de vazios."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2012, Q54",
+   "q": "A fragilização por hidrogênio resulta da presença e difusão do hidrogênio para dentro de um aço. A respeito do processo de fragilização pelo hidrogênio e sua prevenção, considere as afirmativas abaixo. I - Soldas com a presença de umidade favorecem a fragilização pelo hidrogênio. II - Processos de eletrodeposição com evolução de hidrogênio podem causar a fragilização de um aço. III - A fragilização de um aço por hidrogênio pode normalmente ser revertida por um tratamento térmico adequado. Está correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2012, Q55",
+   "q": "Aços inoxidáveis ferríticos-austeníticos com baixo carbono são muito empregados em alguns equipamentos da indústria de petróleo. Isso se dá devido a sua elevada resistência à corrosão, aliada a excelentes propriedades mecânicas. O tratamento térmico desses aços deve ser bem controlado, em particular, a sua taxa de resfriamento. Numa região considerada crítica, baixas taxas de resfriamento podem causar a formação de uma fase capaz de deteriorar as propriedades mecânicas desses aços. Essa fase é denominada",
+   "alts": {
+    "A": "sigma, que é um composto de cromo e ferro.",
+    "B": "ferrita, que é uma liga de cromo, ferro e níquel.",
+    "C": "austenita, que é uma liga de cromo, ferro e níquel.",
+    "D": "óxido de cromo, que é um composto de cromo e oxigênio.",
+    "E": "óxido de ferro, que é um composto de ferro e oxigênio. BLOCO 3"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2012, Q57",
+   "q": "Considere que componentes estruturais foram soldados por processo que envolve fusão, e parte do material de base sofreu ciclo térmico de aquecimento e resfriamento, resultando no aparecimento de uma zona termicamente afetada (ZTA). A respeito da ZTA, considere as afirmativas abaixo. I - Nos aços-carbono, a susceptibilidade ao trincamento não é influenciada pela quantidade de carbono do material. II - Nos aços inoxidáveis, não há uma região preferencial para surgimento de corrosão intergranular. III - As transformações de fase ocorridas são em função das temperaturas alcançadas e da velocidade de resfriamento. IV - Nos aços de baixo carbono, adotando-se a direção do fluxo de calor, serão encontradas, em sequência, região de granulação grosseira, granulação fina e parcialmente transformada. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I e II",
+    "B": "I e III",
+    "C": "II e III",
+    "D": "II e IV",
+    "E": "III e IV"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2012, Q58",
+   "q": "Em operações de soldagem, duas ou mais peças são conectadas para formar um único componente. Assim, quanto à definição de zona termicamente afetada, tal região é uma porção de material adjacente ao metal de solda, que, pela ação do calor proveniente desse metal de solda,",
+   "alts": {
+    "A": "fundiu.",
+    "B": "aqueceu acima de 1394 °C.",
+    "C": "aqueceu acima de 912 °C.",
+    "D": "aqueceu acima de 727 °C.",
+    "E": "aqueceu e sofreu alterações microestruturais."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2012, Q59",
+   "q": "O arco elétrico é uma fonte de calor de larga aplicação em processos de soldagem, por transformar energia elétrica em térmica. Nesse contexto, considere as afirmativas abaixo. I - No processo TIG, o arco elétrico é estabelecido entre o eletrodo, o metal de adição e o metal de base. II - O uso de eletrodos revestidos permite a estabilidade do arco. III - Na soldagem por arco submerso, correntes elétricas excessivas durante a soldagem resultam em maiores distorções na junta soldada. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "II e III"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2012, Q60",
+   "q": "Trincas a frio induzidas por hidrogênio são de extrema preocupação para os profissionais de soldagem, pois necessitam de um tempo de incubação e, muitas vezes, ocorrem em dimensões inferiores ao limite de detecção do equipamento adotado na inspeção. São fatores que favorecem o aparecimento de trincas a frio em juntas soldadas:",
+   "alts": {
+    "A": "umidade no revestimento do eletrodo, alta tenacidade da zona termicamente afetada e tensões de solidificação da junta soldada",
+    "B": "umidade no revestimento do eletrodo, baixa tenacidade da zona termicamente afetada e tensões residuais trativas",
+    "C": "limpeza prévia da região soldada, baixa tenacidade da zona termicamente afetada e tensões residuais compressivas",
+    "D": "limpeza prévia da região soldada, baixa tenacidade da zona termicamente afetada e baixa dureza do metal de base",
+    "E": "alta tenacidade da zona termicamente afetada, maior aporte térmico na soldagem e tratamentos térmicos de alívio de tensão"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2012, Q61",
+   "q": "Os processos TIG e MIG/MAG são processos de soldagem ao arco elétrico. Tais processos são adotados em operações industriais que envolvem soldagem de materiais metálicos ferrosos e não ferrosos. No que se refere às suas características, o(s) processo(s)",
+   "alts": {
+    "A": "TIG adota eletrodo virtualmente não consumível.",
+    "B": "MAG forma uma atmosfera gasosa inerte durante a soldagem.",
+    "C": "MIG/MAG adotam eletrodo virtualmente não consumível.",
+    "D": "MIG/MAG sempre transferem metal para a poça de fusão por curto-circuito.",
+    "E": "TIG e MIG formam uma atmosfera gasosa ativa durante a soldagem."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2012, Q62",
+   "q": "A soldagem de aços-carbono é rotineira na indústria metal-mecânica, mas envolve fatores de risco, como soldabilidade (metalúrgica e operacional) do material e projeto satisfatório da estrutura soldada. Nesse contexto, caracteriza a soldabilidade metalúrgica dos aços-carbono, EXCETO ser",
+   "alts": {
+    "A": "expressa em termos do carbono equivalente do material.",
+    "B": "responsável por induzir o trincamento a frio da zona termicamente afetada da junta.",
+    "C": "responsável por perda de tenacidade da junta soldada.",
+    "D": "responsável pela sensitização do contorno de grão na zona termicamente afetada.",
+    "E": "responsável pelo aparecimento de tensões residuais na junta soldada."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2012, Q63",
+   "q": "Líquidos penetrantes é uma das principais técnicas de ensaios não destrutivos. Nessa técnica, aplica-se um líquido sobre a superfície do componente. Esse líquido penetra no interior da descontinuidade, que é indicada por um agente revelador. Nesse contexto, considere as afirmativas abaixo. I - A presença de ar no interior da descontinuidade dificulta a penetração do líquido. II - O líquido penetra no interior da descontinuidade por efeito de forças capilares. III - Líquidos menos viscosos penetram mais facilmente nas descontinuidades. IV - Líquidos menos viscosos penetram com menor velocidade nas descontinuidades. Está correto o que se afirma em",
+   "alts": {
+    "A": "I e III, apenas.",
+    "B": "II e IV, apenas.",
+    "C": "I, II e III, apenas.",
+    "D": "II, III e IV, apenas.",
+    "E": "I, II, III e IV."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2012, Q65",
+   "q": "O ensaio por partículas magnéticas pode ser utilizado na indicação de descontinuidades em diferentes etapas do projeto, desde a qualificação de soldadores até a garantia da qualidade do componente em serviço. São características do ensaio por partículas magnéticas, EXCETO",
+   "alts": {
+    "A": "detectar variações metalúrgicas no material.",
+    "B": "haver distorções no campo magnético quando da presença de descontinuidades no material.",
+    "C": "indicar poros internos em peças fundidas, independente das dimensões de ambos.",
+    "D": "existir dificuldade da indicação de descontinuidade, em função da orientação da descontinuidade e do fluxo magnético.",
+    "E": "poder provocar problemas na usinagem posterior do componente."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2012, Q66",
+   "q": "Ensaios não destrutivos, por não provocarem alterações físicas, químicas e microestruturais, permitem avaliações em materiais, componentes e estruturas que não afetam suas futuras aplicações ou continuidade das operações de serviço. Nesse contexto, considere as afirmativas abaixo. I - O comportamento de partículas magnéticas próximas a um campo de fuga é influenciado pela viscosidade do meio. II - Partículas magnéticas e radiografia são métodos usualmente adotados na detecção de trincas de fadiga. III - Líquidos penetrantes e partículas magnéticas são métodos que permitem a detecção de porosidades subsuperficiais em cordões de solda. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "II e III"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2012, Q67",
+   "q": "O ensaio não destrutivo por ultrassom se baseia na reflexão sofrida pela energia sonora quando da passagem por descontinuidades ou defeitos existentes na peça ou componente. Assim, em relação à inspeção por ultrassom, verifica-se que",
+   "alts": {
+    "A": "é adotada somente na indicação de poros e cavidades.",
+    "B": "possui pouca sensibilidade para detectar defeitos inferiores a 5 mm.",
+    "C": "pode ser adotada para monitorar processos de corrosão interna em tubulações e dutos.",
+    "D": "não há necessidade de cabeçotes especiais para detecção de determinada posição do defeito.",
+    "E": "não permite a determinação da profundidade do defeito."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2012, Q68",
+   "q": "A radiografia é um método não destrutivo que utiliza radiação penetrante do tipo raios X. A intensidade da radiação é modificada quando da passagem por imperfeições e descontinuidades. Desse modo, as variações na absorção da radiação servem de indicação da existência de defeitos. A formação das imagens em ensaios radiográficos é afetada, EXCETO pela",
+   "alts": {
+    "A": "espessura do componente inspecionado",
+    "B": "orientação do componente em relação ao filme fotográfico",
+    "C": "distância entre componente e filme fotográfico",
+    "D": "distância entre componente e fonte de radiação",
+    "E": "dimensão do componente em relação à dimensão da fonte"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2012, Q69",
+   "q": "As propriedades mecânicas de componentes fundidos são influenciadas pelo tamanho dos seus grãos cristalinos. No que se refere aos aços fundidos de baixa resistência mecânica, considere as afirmativas abaixo. I - O uso de inoculantes durante a solidificação do material favorece o crescimento de grão do material. II - A técnica de inoculação na solidificação caracteriza um tipo de nucleação conhecida como homogênea. III - Menor tamanho de grão diminui a temperatura de transição dúctil-frágil do material. IV - Maior tamanho de grão aumenta o limite de resistência do material. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "III",
+    "C": "I e II",
+    "D": "I e IV",
+    "E": "II e III"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2012, Q70",
+   "q": "Ensaio visual em materiais é a técnica mais antiga de ensaios não destrutivos utilizada pelo homem. São fatores que influenciam na indicação visual de defeitos, EXCETO",
+   "alts": {
+    "A": "limpeza da superfície inspecionada",
+    "B": "acabamento da superfície inspecionada",
+    "C": "fadiga visual do inspetor",
+    "D": "comprimento de onda da iluminação",
+    "E": "qualificação do soldador"
+   },
+   "correta": "E"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [
+   64
+  ],
+  "comFigura": [
+   46,
+   51,
+   53,
+   56
+  ],
+  "quebradas": [
+   40
+  ]
+ }
+}

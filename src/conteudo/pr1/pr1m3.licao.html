@@ -1,0 +1,47 @@
+<p><strong>1. A hierarquia do planejamento.</strong> Do longo para o curto prazo — a banca cobra qual nível responde por qual decisão:</p>
+<table>
+<thead>
+<tr><th>Nível</th><th>Horizonte</th><th>Unidade</th><th>Decide</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Planejamento agregado / S&amp;OP</strong></td><td>6 a 18 meses</td><td>famílias de produto</td><td>nível de força de trabalho, hora extra, subcontratação, estoque de antecipação</td></tr>
+<tr><td><strong>MPS</strong> (plano-mestre)</td><td>semanas a meses</td><td>produto final</td><td>o que produzir de cada item acabado, período a período</td></tr>
+<tr><td><strong>MRP</strong></td><td>semanas</td><td>componentes</td><td>quanto e quando comprar/produzir cada item da estrutura</td></tr>
+<tr><td><strong>CRP</strong></td><td>semanas</td><td>centro de trabalho</td><td>se há capacidade para o plano do MRP</td></tr>
+<tr><td><strong>Programação / sequenciamento</strong></td><td>dias e horas</td><td>ordem</td><td>em que ordem cada ordem entra em cada máquina</td></tr>
+</tbody>
+</table>
+<p><strong>Definição-padrão que cai:</strong> "processo de determinar detalhadamente os recursos necessários para realizar a produção em cada centro de trabalho" = <strong>CRP</strong> (Capacity Requirements Planning). Se falar em <em>famílias</em> e <em>médio prazo</em>, é o <strong>planejamento agregado</strong>. Se falar em capacidade grosseira sobre o MPS, é o <strong>RCCP</strong>.</p>
+
+<p><strong>2. MRP × CRP: a diferença que a banca explora.</strong> O MRP calcula <strong>materiais</strong> supondo capacidade infinita; o CRP confere se a fábrica <strong>aguenta</strong> aquele plano. Por isso o CRP roda <em>depois</em> do MRP e pode obrigar a refazê-lo. MRP II ("Manufacturing Resource Planning") é o MRP acrescido de capacidade, custos e finanças; o ERP estende isso à empresa inteira.</p>
+
+<p><strong>3. A lógica do MRP.</strong> Três entradas obrigatórias: <strong>MPS</strong>, <strong>lista de materiais (BOM)</strong> e <strong>registro de estoques</strong>. Para cada item, período a período:</p>
+<p><strong>Necessidade líquida = necessidade bruta − estoque disponível − recebimentos programados + estoque de segurança</strong></p>
+<p>e a ordem é <em>puxada para trás</em> pelo <strong>lead time</strong> (<em>offsetting</em>). Um item usado em dois produtos diferentes tem suas necessidades <strong>somadas</strong> no mesmo período.</p>
+
+<p><strong>4. Lista de materiais (BOM).</strong> Relaciona <strong>acessórios, subconjuntos (unidades intermediárias), peças componentes e matérias-primas</strong>, com a <strong>quantidade de cada um necessária para fabricar uma unidade do produto final</strong>, organizada em <strong>níveis</strong> (nível 0 = produto acabado). Variantes: BOM <strong>modular</strong> (para produtos configuráveis) e BOM <strong>fantasma</strong> (subconjunto que não é estocado).</p>
+<p><strong>Pegadinha:</strong> a BOM não traz roteiro de fabricação nem tempos — isso é o <strong>roteiro de produção</strong> (<em>routing</em>). BOM = <em>o que compõe</em>; roteiro = <em>por onde passa</em>.</p>
+
+<p><strong>5. Sistemas empurrados × puxados.</strong></p>
+<table>
+<thead>
+<tr><th></th><th>Empurrado (MRP)</th><th>Puxado (JIT/kanban)</th></tr>
+</thead>
+<tbody>
+<tr><td>Gatilho</td><td>previsão e programa</td><td>consumo real do posto seguinte</td></tr>
+<tr><td>Estoque</td><td>maior, absorve erro de previsão</td><td>mínimo, exige processo estável</td></tr>
+<tr><td>Bom quando</td><td>demanda dependente, lead time longo</td><td>demanda estável, lote pequeno, setup rápido</td></tr>
+</tbody>
+</table>
+<p><strong>Demanda independente</strong> (produto final) é <em>prevista</em>; <strong>demanda dependente</strong> (componentes) é <em>calculada</em> pela BOM. Essa distinção é a razão de existir do MRP.</p>
+
+<p><strong>6. Número de kanbans.</strong> <em>N</em> = (demanda no lead time × (1 + fator de segurança)) ÷ tamanho do contêiner. Reduzir o número de cartões <strong>expõe</strong> os problemas do processo — é intencional na filosofia enxuta ("baixar o nível do rio para aparecerem as pedras").</p>
+
+<p><strong>7. Teoria das Restrições (TOC/Goldratt).</strong> Cinco passos: <strong>identificar</strong> a restrição, <strong>explorar</strong> a restrição, <strong>subordinar</strong> tudo a ela, <strong>elevar</strong> a restrição e <strong>voltar ao passo 1</strong> (não deixar a inércia virar a nova restrição). O ganho do sistema é o ganho do <strong>gargalo</strong>: uma hora perdida no gargalo é uma hora perdida na fábrica inteira; uma hora ganha fora do gargalo é ilusão. Programação <strong>tambor–pulmão–corda</strong>: o gargalo é o tambor que dita o ritmo, o pulmão é o estoque que o protege, a corda amarra a liberação de material ao ritmo do tambor.</p>
+<p>Na TOC, o <strong>mix ótimo</strong> escolhe os produtos com maior <strong>margem de contribuição por hora de gargalo</strong> — não a maior margem unitária. É a conta clássica da prova: dividir a margem de cada produto pelo tempo que ele ocupa no recurso restritivo.</p>
+
+<p><strong>8. FMS — sistema flexível de manufatura.</strong> Conjunto de máquinas CNC ligadas por transporte automatizado e controle central, capaz de alternar entre peças diferentes <strong>sem parada relevante para setup</strong>. Entrega variedade com produtividade próxima da linha rígida; o preço é o investimento alto e a complexidade de programação.</p>
+
+<p><strong>9. Sistemas de informação do PCP.</strong> ERP integra tudo num banco único; APS faz programação com <strong>capacidade finita</strong> (o que o MRP puro não faz); MES controla o chão de fábrica em tempo real; SCM cuida da cadeia externa; CRM, do cliente.</p>
+
+<p><strong>Resumo de véspera:</strong> agregado → MPS → MRP → CRP → sequenciamento; CRP = recursos detalhados por centro de trabalho; MRP supõe capacidade infinita; BOM lista composição e quantidades por unidade, não roteiro; dependente se calcula, independente se prevê; no gargalo, ordene o mix por margem ÷ hora de gargalo.</p>

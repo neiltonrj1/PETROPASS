@@ -1,0 +1,98 @@
+{
+ "id": "elet-2008",
+ "trilha": "eletrica",
+ "ano": 2008,
+ "nome": "Eng. Jr — Elétrica",
+ "processo": "Transpetro PSP RH 002/2008",
+ "caderno": "Elétrica\\prova8.pdf",
+ "folhaGabarito": "Elétrica\\transpetro0208_gabsup.pdf",
+ "total": 6,
+ "questoes": [
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2008, Q33",
+   "q": "Suponha que a tensão u aplicada entre os terminais de um resistor não linear obedeça à seguinte relação: u=3i(t)+[i(t)] 2 V, onde t é dado em horas e i(t) é a corrente, em função do tempo, que passa pelo mesmo. Se a corrente que passa pelo resistor varia de acordo com a relação i(t)=4t, em A, a energia consumida pelo mesmo, em kWh, depois de 4 horas é",
+   "alts": {
+    "A": "1,21",
+    "B": "4,86",
+    "C": "5,12",
+    "D": "15,76",
+    "E": "19,45"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2008, Q34",
+   "q": "Das modalidades de contratação de compra e venda de energia elétrica mencionadas abaixo, aquela que NÃO está no conjunto dos contratos sujeitos ao registro da Câmara de Comercialização de Energia Elétrica (CCEE) é o Contrato",
+   "alts": {
+    "A": "Bilateral.",
+    "B": "de Comercialização de Energia no Ambiente Regulado.",
+    "C": "de Itaipu.",
+    "D": "do PROINFA.",
+    "E": "do BNDES. Es ER 0 jX S = P + jQS S S S = P + jQR R R I"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2008, Q36",
+   "q": "A estrutura tarifária brasileira está calcada basicamente na demanda de potência e no consumo de energia elétrica de uma instalação. Esses elementos compõem os diversos tipos de tarifas que serão atribuídos aos consumidores, em consonância às suas características. Do exposto, é correto afirmar que, para horários de ponta e fora de ponta, a tarifa",
+   "alts": {
+    "A": "horo-sazonal azul tem valores diferenciados de demandas.",
+    "B": "horo-sazonal verde tem valores diferenciados de demandas.",
+    "C": "horo-sazonal verde tem valor único de consumo.",
+    "D": "horo-sazonal azul tem valor único de consumo.",
+    "E": "convencional tem valores diferenciados de consumo."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2008, Q37",
+   "q": "As Usinas Termelétricas produzem energia elétrica a partir da queima de combustível e podem ser de ciclo simples ou de ciclo combinado. A grande vantagem do ciclo combinado sobre o ciclo simples é o seu maior rendimento, alcançado devido à(ao)",
+   "alts": {
+    "A": "melhor configuração do sistema da torre de arrefecimento, o que implica menor perda de água.",
+    "B": "maior eficiência das caldeiras, que conseguem aproveitar o calor desprendido, reutilizando-o nelas próprias, no ciclo seguinte de aquecimento.",
+    "C": "necessidade de menor temperatura para as caldeiras de geração de vapor.",
+    "D": "aproveitamento da energia térmica desprendida no processo primário de geração, que pode ser utilizada em outras máquinas térmicas.",
+    "E": "aproveitamento da energia térmica desprendida no processo de arrefecimento da geração, que pode ser utilizada em outras máquinas térmicas."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2008, Q38",
+   "q": "Sob a ótica do consumidor, as medidas de eficiência energética visam à melhor utilização da energia elétrica. A elevação do fator de carga é uma dessas medidas, que tem como conseqüência(s) imediata para a instalação elétrica a",
+   "alts": {
+    "A": "elevação somente do fator de potência.",
+    "B": "diminuição somente da demanda de potência.",
+    "C": "diminuição somente do consumo de energia elétrica.",
+    "D": "diminuição da demanda de potência e do consumo de energia elétrica.",
+    "E": "diminuição do consumo de energia elétrica e a elevação do fator de potência."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2008, Q39",
+   "q": "As temáticas energética e ambiental são analisadas concomitantemente em todos os empreendimentos energéticos, o que vem favorecendo a geração de energia por meio de fontes renováveis. A respeito desse tema, é correto afirmar que",
+   "alts": {
+    "A": "o potencial do bagaço de cana é uma possibilidade viável somente para o atendimento aos pequenos consumidores.",
+    "B": "a geração por meio de geradores a biodiesel é uma possibilidade viável, tendo em vista a facilidade de se produzir o combustível.",
+    "C": "a geração fotovoltaica, além de ser uma energia totalmente limpa, permite atender aos grandes centros urbanos consumidores.",
+    "D": "a geração eólica tem um grande potencial no Brasil, o que vem favorecendo uma participação na matriz energética brasileira cada vez mais significativa.",
+    "E": "a geração por meio de pequenas centrais hidrelétricas é uma possibilidade viável para locais que possuem recursos hídricos compatíveis e dificuldades inerentes às linhas de transmissão."
+   },
+   "correta": "E"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   28,
+   31
+  ],
+  "quebradas": []
+ }
+}

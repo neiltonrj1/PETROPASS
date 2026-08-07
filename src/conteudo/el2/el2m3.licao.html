@@ -1,0 +1,61 @@
+<p><strong>1. Os quatro parâmetros da linha.</strong> <strong>R</strong> (resistência, gera perda), <strong>L</strong> (indutância, do campo magnético), <strong>C</strong> (capacitância, do campo elétrico entre condutores e para a terra) e <strong>G</strong> (condutância de dispersão, quase sempre desprezada). R e L formam a <strong>impedância série</strong> <em>z</em> = R + jωL; C e G formam a <strong>admitância em derivação</strong> <em>y</em> = G + jωC.</p>
+<p>Efeitos construtivos cobrados:</p>
+<ul>
+<li><strong>Transposição</strong> das fases: iguala as indutâncias e capacitâncias das três fases ao longo do percurso, <strong>reduzindo o desequilíbrio</strong> e as componentes de sequência negativa e zero.</li>
+<li><strong>Condutores geminados</strong> (feixe/<em>bundle</em>): aumentam o raio equivalente, <strong>reduzem a reatância indutiva</strong>, aumentam a capacidade de transmissão e diminuem o <strong>efeito corona</strong> e a rádio-interferência.</li>
+<li><strong>Cabos para-raios</strong> (guarda) no topo: interceptam a descarga atmosférica e escoam para o aterramento das torres.</li>
+<li><strong>Espaçadores, amortecedores e isoladores</strong> de cadeia dimensionados por nível de poluição e distância de escoamento.</li>
+</ul>
+
+<p><strong>2. Modelos por comprimento.</strong></p>
+<table>
+<thead>
+<tr><th>Linha</th><th>Comprimento</th><th>Modelo</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Curta</strong></td><td>&lt; 80 km</td><td>só Z série; despreza a capacitância</td></tr>
+<tr><td><strong>Média</strong></td><td>80 – 240 km</td><td><strong>π nominal</strong>: Z no meio, Y/2 em cada ponta</td></tr>
+<tr><td><strong>Longa</strong></td><td>&gt; 240 km</td><td>parâmetros <strong>distribuídos</strong>, com funções hiperbólicas</td></tr>
+</tbody>
+</table>
+<p>Na linha longa: <strong>γ = √(zy)</strong> (constante de propagação, γ = α + jβ) e <strong>Z<sub>c</sub> = √(z/y)</strong> (impedância característica ou de surto, ~400 Ω em linha aérea, ~50 Ω em cabo).</p>
+
+<p><strong>3. Constantes generalizadas ABCD.</strong> Todo quadripolo passivo e recíproco se descreve por:</p>
+<p><strong>V<sub>S</sub> = A·V<sub>R</sub> + B·I<sub>R</sub></strong> &nbsp;·&nbsp; <strong>I<sub>S</sub> = C·V<sub>R</sub> + D·I<sub>R</sub></strong> &nbsp;(S = <em>sending</em>, R = <em>receiving</em>)</p>
+<p>Propriedades cobradas:</p>
+<ul>
+<li><strong>AD − BC = 1</strong> — sempre. É o teste de consistência da questão.</li>
+<li>Linha <strong>simétrica</strong> (a maioria): <strong>A = D</strong>.</li>
+<li><strong>A</strong> e <strong>D</strong> são adimensionais; <strong>B</strong> tem unidade de <strong>impedância (Ω)</strong>; <strong>C</strong>, de <strong>admitância (S)</strong>.</li>
+<li>Linha curta: A = D = 1, B = Z, C = 0.</li>
+<li>Em vazio (I<sub>R</sub> = 0): V<sub>S</sub> = A·V<sub>R</sub>, logo <strong>V<sub>R,vazio</sub> = V<sub>S</sub>/A</strong>.</li>
+</ul>
+<p><strong>Regulação de tensão da linha:</strong> <strong>Reg % = [(V<sub>S</sub>/|A|) − V<sub>R,plena</sub>] ÷ V<sub>R,plena</sub> × 100</strong>. É por isso que as questões dão A, B, C, D e a tensão na carga: primeiro ache V<sub>R</sub> em vazio dividindo por |A|.</p>
+
+<p><strong>4. Efeito Ferranti.</strong> Numa linha longa <strong>em vazio ou pouco carregada</strong>, a corrente capacitiva que circula pela reatância indutiva da linha faz a tensão no <strong>terminal receptor ficar MAIOR que a do emissor</strong>. Quanto mais longa a linha e menor a carga, pior. Combate: <strong>reatores em derivação (shunt)</strong> nos terminais, que consomem o reativo capacitivo excedente.</p>
+
+<p><strong>5. Compensação reativa.</strong></p>
+<table>
+<thead>
+<tr><th>Equipamento</th><th>Ligação</th><th>Função</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Reator shunt</strong></td><td>derivação</td><td>absorve reativo, <strong>reduz sobretensão</strong> em linha longa e leve (Ferranti)</td></tr>
+<tr><td><strong>Banco de capacitores shunt</strong></td><td>derivação</td><td>fornece reativo, <strong>eleva a tensão</strong> e corrige o FP em carga pesada</td></tr>
+<tr><td><strong>Capacitor série</strong></td><td>série</td><td><strong>cancela parte da reatância indutiva</strong> da linha: aumenta o limite de potência transmitida e melhora a estabilidade</td></tr>
+<tr><td><strong>Compensador estático (SVC) / STATCOM</strong></td><td>derivação</td><td>controle rápido e contínuo do reativo</td></tr>
+</tbody>
+</table>
+<p><strong>Potência natural (SIL)</strong> = V²/Z<sub>c</sub>: com essa carga, o reativo gerado pela capacitância iguala o consumido pela indutância e o perfil de tensão fica <strong>plano</strong>. Abaixo do SIL, a linha gera reativo (tende a subir a tensão); acima, consome.</p>
+
+<p><strong>6. Fluxo de potência entre duas barras.</strong> Para uma linha predominantemente indutiva (X ≫ R):</p>
+<p><strong>P ≈ (V<sub>S</sub>·V<sub>R</sub>/X)·sen δ</strong> &nbsp;·&nbsp; <strong>Q ≈ (V<sub>S</sub>/X)·(V<sub>S</sub> − V<sub>R</sub>·cos δ)</strong></p>
+<p>Leitura que a banca exige: a <strong>potência ativa</strong> é comandada pelo <strong>ângulo δ</strong>; a <strong>potência reativa</strong>, pela <strong>diferença de módulo</strong> das tensões. Daí o limite de estabilidade estática em δ = 90°.</p>
+
+<p><strong>7. Queda de tensão e escolha da tensão de distribuição.</strong> Queda aproximada: <strong>ΔV ≈ R·I·cos φ + X·I·sen φ</strong>. Como a potência é V·I, dobrar a tensão de operação <strong>reduz a corrente à metade</strong> e as <strong>perdas Joule a um quarto</strong>. Por isso ramais longos (por exemplo, 8 km) são feitos em <strong>média tensão</strong> (13,8 kV) e não em baixa: em BT a seção necessária seria economicamente inviável.</p>
+
+<p><strong>8. Distribuição: arranjos e qualidade.</strong> Arranjos: <strong>radial</strong> (simples e barato, menor confiabilidade), <strong>radial com recurso</strong> (chaves de transferência), <strong>anel</strong> e <strong>seletivo</strong>. Indicadores coletivos da ANEEL: <strong>DEC</strong> (duração equivalente de interrupção por unidade consumidora, em horas) e <strong>FEC</strong> (frequência equivalente, em número de interrupções); individuais: DIC, FIC, DMIC.</p>
+
+<p><strong>9. Sobretensões e proteção contra surtos.</strong> Origens: <strong>atmosférica</strong> (descarga direta ou induzida — frente de onda rápida), <strong>manobra</strong> (energização, rejeição de carga, religamento) e <strong>temporária</strong> (Ferranti, falta à terra em sistema isolado). Proteção: <strong>para-raios de óxido de zinco (ZnO)</strong>, cuja característica fortemente não linear conduz na sobretensão e volta a isolar depois. O <strong>NBI (nível básico de isolamento)</strong> é a referência de coordenação de isolamento — todos os equipamentos devem suportar mais que o nível de proteção do para-raios, com margem.</p>
+
+<p><strong>Resumo de véspera:</strong> transposição equilibra as fases e feixe reduz reatância e corona; π nominal para linha média; AD − BC = 1 e B é em ohms; V<sub>R</sub> em vazio = V<sub>S</sub>/A; Ferranti eleva a tensão na ponta em linha longa e vazia, combatido com reator shunt; capacitor série reduz X e aumenta a transmissão; P depende de δ e Q depende da diferença de módulos; dobrar a tensão reduz perdas a 1/4.</p>

@@ -1,0 +1,13 @@
+node_modules/
+_site/
+
+# Os PDFs das provas ficam fora do repositório: são grandes, não são
+# necessários para publicar (as questões já estão em src/dados/provas/)
+# e o material é de terceiros. Guarde-os na pasta indicada em
+# ferramentas/provas.config.mjs.
+provas-pdf/
+*.pdf
+
+# lixo de sistema
+.DS_Store
+Thumbs.db

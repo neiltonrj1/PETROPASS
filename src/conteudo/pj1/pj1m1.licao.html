@@ -1,0 +1,64 @@
+<p><strong>1. Os dois regimes.</strong></p>
+<p><strong>Juros simples:</strong> M = C(1 + i·n) — só o principal rende.<br>
+<strong>Juros compostos:</strong> M = C(1 + i)<sup>n</sup> — o juro incorpora ao principal.</p>
+<p>Comparação que a banca explora: para <strong>n &lt; 1 período</strong> o juro <strong>simples</strong> rende mais; em <strong>n = 1</strong> são iguais; para <strong>n &gt; 1</strong> o <strong>composto</strong> é sempre maior, e a diferença cresce exponencialmente.</p>
+<p><em>Exemplo típico:</em> R$ 100 000 a 1 % a.m. por 6 meses, juros compostos ⇒ <strong>100 000 × (1,01)<sup>6</sup> ≈ R$ 106 152</strong>. O distrator plantado é R$ 106 000 — resultado do juro simples. Quando não houver calculadora, use a aproximação binomial: (1,01)<sup>6</sup> ≈ 1 + 6(0,01) + 15(0,0001) = 1,0615.</p>
+
+<p><strong>2. Valor presente e valor futuro.</strong> <strong>VP = VF ÷ (1 + i)<sup>n</sup></strong>. Descontar é trazer para hoje; capitalizar é levar para frente. R$ 1 000 a receber em 6 meses, a 1 % a.m., valem hoje <strong>1000 ÷ 1,01<sup>6</sup> ≈ R$ 942</strong>.</p>
+<p><strong>Princípio da equivalência:</strong> dois fluxos são equivalentes se têm o <strong>mesmo valor presente à mesma taxa</strong>. Toda comparação entre alternativas deve ser feita na <em>mesma data focal</em> — comparar valores em datas diferentes é o erro estrutural mais comum.</p>
+
+<p><strong>3. Séries uniformes.</strong> Para <em>n</em> parcelas iguais de <em>PMT</em>, à taxa <em>i</em> (série <strong>postecipada</strong>, com a primeira parcela ao fim do 1º período):</p>
+<p><strong>VP = PMT · [1 − (1+i)<sup>−n</sup>] ÷ i</strong> &nbsp;·&nbsp; <strong>VF = PMT · [(1+i)<sup>n</sup> − 1] ÷ i</strong></p>
+<p>Série <strong>antecipada</strong> (primeira parcela hoje): multiplique o resultado por <strong>(1 + i)</strong>.<br>
+<strong>Perpetuidade:</strong> VP = PMT ÷ i. <strong>Perpetuidade crescente</strong> (Gordon): VP = PMT ÷ (i − g), válida só quando <strong>i &gt; g</strong>.</p>
+
+<p><strong>4. Taxas: nominal, efetiva, equivalente e real.</strong></p>
+<table>
+<thead>
+<tr><th>Conceito</th><th>Regra</th><th>Exemplo</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Proporcionais</strong> (juro simples)</td><td>divide linearmente</td><td>12 % a.a. ⇒ 1 % a.m.</td></tr>
+<tr><td><strong>Equivalentes</strong> (juro composto)</td><td>(1+i<sub>a</sub>) = (1+i<sub>m</sub>)<sup>12</sup></td><td>1 % a.m. ⇒ 12,68 % a.a.</td></tr>
+<tr><td><strong>Nominal × efetiva</strong></td><td>"12 % a.a. capitalizados mensalmente" = 1 % a.m. ⇒ efetiva 12,68 % a.a.</td><td>a nominal é sempre <strong>menor</strong> que a efetiva</td></tr>
+<tr><td><strong>Real</strong> (Fisher)</td><td>(1 + i<sub>nominal</sub>) = (1 + i<sub>real</sub>)(1 + inflação)</td><td>nominal 10 %, inflação 5 % ⇒ real ≈ 4,76 % (e <strong>não</strong> 5 %)</td></tr>
+</tbody>
+</table>
+<p><strong>Cuidado:</strong> juro real não é a subtração simples. Só com inflação baixa a aproximação i<sub>real</sub> ≈ i<sub>nom</sub> − π é aceitável.</p>
+
+<p><strong>5. Descontos.</strong> <strong>Desconto racional (por dentro):</strong> calculado sobre o <strong>valor presente</strong> — D = VF·i·n/(1 + i·n). <strong>Desconto comercial (bancário, por fora):</strong> calculado sobre o <strong>valor nominal</strong> — D = VF·d·n. O comercial é <strong>maior</strong> que o racional para a mesma taxa e prazo, e por isso é o preferido pelos bancos. A <strong>taxa efetiva</strong> de uma operação com desconto comercial é sempre maior que a taxa nominal contratada.</p>
+
+<p><strong>6. Sistemas de amortização.</strong></p>
+<table>
+<thead>
+<tr><th></th><th>SAC</th><th>Price (francês)</th><th>Americano</th></tr>
+</thead>
+<tbody>
+<tr><td>Amortização</td><td><strong>constante</strong> = PV/n</td><td>crescente</td><td>só no fim</td></tr>
+<tr><td>Juros</td><td>decrescentes</td><td>decrescentes</td><td>constantes</td></tr>
+<tr><td>Prestação</td><td><strong>decrescente</strong></td><td><strong>constante</strong></td><td>só juros, e o principal no fim</td></tr>
+<tr><td>Primeira prestação</td><td>maior que a do Price</td><td>menor</td><td>a menor de todas</td></tr>
+<tr><td>Juros totais pagos</td><td><strong>menores</strong></td><td>maiores</td><td>os maiores</td></tr>
+</tbody>
+</table>
+<p>No <strong>SAC</strong>, o juro do período <em>t</em> = saldo devedor anterior × i, e a prestação cai em progressão aritmética. No <strong>Price</strong>, a prestação é a PMT da série uniforme.</p>
+
+<p><strong>7. Fluxo de caixa: montagem.</strong> Convenção: saída negativa, entrada positiva; <strong>t = 0</strong> é o investimento inicial. Só entram <strong>fluxos incrementais de caixa</strong> — receitas e despesas que <em>mudam</em> por causa do projeto. Ficam de fora:</p>
+<ul>
+<li><strong>Custos afundados</strong> (<em>sunk costs</em>): já ocorreram, não são recuperáveis, não influenciam a decisão.</li>
+<li><strong>Rateios de custos fixos</strong> que existiriam de qualquer modo.</li>
+<li>A <strong>depreciação</strong>, que não é desembolso — entra apenas pelo <strong>benefício fiscal</strong> (economia de imposto = depreciação × alíquota).</li>
+</ul>
+<p>E entram, embora não apareçam na contabilidade: o <strong>custo de oportunidade</strong> de ativos já possuídos e usados no projeto, a <strong>variação do capital de giro</strong> (saída no início, recuperação no fim) e o <strong>valor residual</strong> dos ativos.</p>
+
+<p><strong>8. Efeito de multiplicar todo o fluxo por um fator.</strong> Se <strong>todos</strong> os gastos e recebimentos, presentes e futuros, aumentam <strong>40 %</strong>:</p>
+<ul>
+<li>o <strong>VPL fica multiplicado por 1,40</strong> (é uma função linear dos fluxos);</li>
+<li>a <strong>TIR não muda</strong> — ela é a taxa que zera a soma, e multiplicar tudo por uma constante não altera a raiz;</li>
+<li>o <strong>payback simples não muda</strong> (as proporções são as mesmas).</li>
+</ul>
+<p>Esse é um dos raciocínios mais cobrados na trilha.</p>
+
+<p><strong>9. Inflação nos fluxos.</strong> Coerência é a regra: <strong>fluxo nominal se desconta à taxa nominal; fluxo real (a preços constantes) se desconta à taxa real</strong>. Misturar os dois é o erro que a banca planta em questões de longo prazo. Quando a inflação afeta receitas e custos de forma diferente, é obrigatório trabalhar em termos nominais.</p>
+
+<p><strong>Resumo de véspera:</strong> composto é (1+i)ⁿ e supera o simples a partir de um período; equivalentes usam potência, proporcionais usam divisão; nominal &lt; efetiva; juro real vem de (1+i) = (1+r)(1+π); desconto comercial &gt; racional; SAC tem prestação decrescente e paga menos juros; sunk cost fica fora; multiplicar o fluxo todo muda o VPL mas não a TIR.</p>

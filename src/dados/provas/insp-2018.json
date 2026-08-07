@@ -1,0 +1,560 @@
+{
+ "id": "insp-2018",
+ "trilha": "inspecao",
+ "ano": 2018,
+ "nome": "Eng. de Equipamentos Jr — Inspeção",
+ "processo": "Petrobras PSP RH 2018.1",
+ "caderno": "engenheiro_a_de_equipamentos_junior_inspecao.pdf",
+ "folhaGabarito": "gabarito_oficial.pdf",
+ "total": 41,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2018, Q21",
+   "q": "Os polímeros estão cada dia mais presentes nas indústrias de base. Uma característica importante na engenharia é a capacidade de alguns polímeros de liquefazer e retornar ao estado sólido com o aumento e a redução da temperatura, respectivamente. Esses são denominados de Termoplásticos, enquanto outros polímeros, quando endurecidos, não retornam mais ao estado líquido, por isso, são denominados de Termofixos. Três tipos de polímeros muito comuns na indústria são polietileno, politetrafluoretileno (“teflon”) e resina epóxi que, respectivamente, são",
+   "alts": {
+    "A": "termoplástico, termoplástico e termofixo",
+    "B": "termoplástico, termofixo e termoplástico",
+    "C": "termofixo, termoplástico e termofixo",
+    "D": "termofixo, termofixo e termoplástico",
+    "E": "termofixo, termoplástico e termoplástico"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2018, Q22",
+   "q": "Nas cinco ligas não ferrosas a seguir, as concentrações dos elementos estão em porcentagens de massa, e o primeiro elemento é o elemento matriz. I - A\u0002 – 2,7% Cu II - Pb – 25% Sn III - Fe – 2,5% Cr IV - Cu – 30% Zn V - Ni – 22% Cr Qual delas é muito empregada em ambientes gasosos muito corrosivos e com temperaturas acima de 1000°C?",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "IV",
+    "E": "V"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2018, Q23",
+   "q": "O aço AISI 1030 é um aço ao carbono que pode ser endurecido por um tratamento térmico",
+   "alts": {
+    "A": "intercrítico no campo bifásico cementita-austenita, seguido de têmpera em água.",
+    "B": "intercrítico no campo bifásico ferrita-perlita, seguido de resfriamento lento.",
+    "C": "no campo monofásico austenítico, seguido de resfriamento rápido.",
+    "D": "no campo monofásico austenítico, seguido de resfriamento lento.",
+    "E": "numa temperatura abaixo do eutetoide, seguido de resfriamento rápido."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2018, Q24",
+   "q": "O ensaio de dureza é um ensaio simples e rápido que permite determinar a capacidade de um material",
+   "alts": {
+    "A": "sofrer uma deformação elástica causada pela penetração de uma ponta de prova.",
+    "B": "sofrer uma deformação plástica causada pela penetração de uma ponta de prova.",
+    "C": "absorver energia elástica causada por forças trativas.",
+    "D": "absorver energia durante a propagação de uma trinca até a completa ruptura do material.",
+    "E": "absorver energia durante o impacto em alta velocidade de um martelo."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2018, Q26",
+   "q": "A reação martensítica é uma transformação no estado sólido que ocorre em aços devido a um resfriamento muito",
+   "alts": {
+    "A": "lento da região austenítica",
+    "B": "lento da região ferrítica",
+    "C": "rapido da região ferrítica",
+    "D": "rápido da região perlítica",
+    "E": "rápido da região austenítica"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2018, Q27",
+   "q": "Tratamentos térmicos em fornos com oxigênio causam a descarbonetação superficial dos aços. Esse processo depende da difusão do carbono do interior para a superfície do aço e sua reação com o oxigênio. A espessura de descarbonetação, x, depende da temperatura,T, e do tempo, t, segundo a expressão x 2 = D(T). t, em que D(T) é a difusividade em função da temperatura, com uma energia de ativação de 241000J/mol e constante dos gases R = 8,314 J/mol. K. Um engenheiro solicitou o tratamento térmico de uma peça plana em aço ao carbono durante 1 hora a temperatura de 875°C e observou, depois, por metalografia que a região com maior descarbonetação era de 200 m. Ele achou a perda muito significativa e resolveu reduzir a região de descarbonetação para 20 m. Que temperatura (±1°C) ele precisou empregar mantendo o mesmo tempo de tratamento térmico?",
+   "alts": {
+    "A": "495°C",
+    "B": "698°C",
+    "C": "768°C",
+    "D": "875°C",
+    "E": "971°C"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2018, Q28",
+   "q": "Um engenheiro precisa solicitar o tratamento térmico de um aço SAE 4140 e conseguiu uma curva CCT desse aço ilustrada abaixo. Para obter as propriedades mecânicas desejadas, ele precisa garantir que a microestrutura do aço temperado seja uma mistura de bainita e martensita. As linhas tracejadas na curva CCT indicam diferentes taxas de resfriamento, identificadas pelos números de 1 a 5. O número corrrespondente à taxa de resfriamento que irá proporcionar a microestrutura desejada é o",
+   "alts": {
+    "A": "5",
+    "B": "4",
+    "C": "3",
+    "D": "2",
+    "E": "1"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2018, Q29",
+   "q": "Aços superduplex são aços inoxidáveis muito resistentes à corrosão e, por isso, empregados na indústria petroquímica. A característica duplex é uma alusão à microestrutura desses aços constituída de ferrita e",
+   "alts": {
+    "A": "austenita",
+    "B": "carbetos (carbonetos) de cromo",
+    "C": "cementita",
+    "D": "martensita",
+    "E": "perlita"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2018, Q30",
+   "q": "Um dos aços inoxidáveis com maior emprego na indústria é o AISI 304, com composição típica de 18% massa de Cr e 8% massa de Ni, baixo carbono e outros elementos residuais. Esses aços apresentam uma pequena quantidade de carbonetos de cromo dispersos numa microestrutura de",
+   "alts": {
+    "A": "ferrita pura",
+    "B": "austenita pura",
+    "C": "martensita pura",
+    "D": "ferrita e austenita misturados",
+    "E": "martensita e austenita misturados"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2018, Q31",
+   "q": "Alguns aços de baixa liga podem ser empregados em temperaturas elevadas, entre 300°C e 550°C. Nesses aços, a taxa de oxidação em temperaturas elevadas pode ser reduzida de maneira significativa pela adição de um elemento de liga em concentrações acima de 2% massa. Este elemento é o",
+   "alts": {
+    "A": "vanádio",
+    "B": "carbono",
+    "C": "nióbio",
+    "D": "zircônio",
+    "E": "cromo"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2018, Q32",
+   "q": "A estabilidade da fase austenita em aços é aumentada pela adição dos seguintes elementos de liga:",
+   "alts": {
+    "A": "N, Ni, Nb, V",
+    "B": "Cr, Mn, Nb, Ni",
+    "C": "C, Mn, Nb, Si",
+    "D": "C, Mn, N, Ni",
+    "E": "C, Ni, Nb, Ti Considere a Figura a seguir para responder às questões de n os 33 e 34."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2018, Q35",
+   "q": "Alumínio e suas ligas estão cada vez mais presentes na indústria. Segundo as normas técnicas, essas ligas estão divididas em séries que dependem da composição e de tratamentos térmicos para o controle das propriedades mecânicas. A série 2XXX pode ser endurecida por precipitação, enquanto as séries 1XXX e 3XXX não são endurecidas por precipitação. O almoxarifado de uma empresa possui quatro ligas de alumínio com as seguintes características: I) A\u0002 puro, série 1XXX, recristalizado, cujo tamanho de grão é 10 m; II) A\u0002-Mn, série 3XXX, recristalizado, cujo tamanho de grão é 10 m; III) A\u0002-Mn, série 3XXX, recristalizado, cujo tamanho de grão é 5 m; IV) A\u0002-Cu-Mg-Si, série 2XXX, solubilizado e envelhecido por precipitação, cujo tamanho de grão é 5 m. As ligas precisam ser organizadas em ordem crescente do limite de escoamento, mas não existe tempo para realizar um ensaio apropriado. O engenheiro, que tinha bom conhecimento dos mecanismos de endurecimento de ligas metálicas, ordenou corretamente as ligas em ordem crescente do limite de escoamento. A ordenação feita pelo engenheiro foi",
+   "alts": {
+    "A": "I, II, III e IV",
+    "B": "I, III, IV, II",
+    "C": "II, I, III, IV",
+    "D": "II, I, IV, III",
+    "E": "III, IV, II, I"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2018, Q36",
+   "q": "O tratamento térmico de um aço com carbono médio, 0,3% massa, que consiste em aquecer dentro do campo austenítico seguido de resfriamento rápido (em água com sal, ou água gelada) resulta numa microestrura constituída de",
+   "alts": {
+    "A": "martensita",
+    "B": "ferrita",
+    "C": "cemetita",
+    "D": "austenita",
+    "E": "perlita"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2018, Q37",
+   "q": "Os materiais cristalinos apresentam uma organização periódica em que o volume unitário pode ser descrito por um paralelogramo com parâmetros geométricos bem definidos: arestas, denominadas a, b e c e os ângulos entre os planos das faces do paralelogramo, denominados α, β e γ. Associe o sistema cristalino com seus parâmetros geométricos I – Sistema Cúbico P  a = b ≠ c α = β = γ = 90° II – Sistema Hexagonal Q  a = b = c α = β = γ = 90° III – Sistema Tetragonal R  a = b ≠ c α = β = 90° γ = 120° IV – Sistema Ortorrômbico S  a ≠ b ≠ c α = β = γ = 90° T  a = b = c α = β = γ ≠ 90° As associações corretas são:",
+   "alts": {
+    "A": "I – P, II – T, III – Q, IV – R",
+    "B": "I – Q, II – R, III – S, IV – T",
+    "C": "I – Q, II – T, III – R, IV – S",
+    "D": "I – Q, II – R, III – P, IV – S",
+    "E": "I – T, II – R, III – S, IV – Q"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2018, Q39",
+   "q": "Uma característica marcante das curvas TTT, Tempo- -Temperatura-Transformação, para a precipitação da fase α no estado sólido a partir de uma matrix homogênea de fase β, é o formato em C da curva de início de precipitação. Esse comportamento está associado ao processo de a(o)",
+   "alts": {
+    "A": "nucleação do precipitado depender de um superresfriamento abaixo da temperatura de equilíbrio entre as fases α e β, e o crescimento do precipitado depender da elevada difusividade presente em baixas temperaturas.",
+    "B": "nucleação do precipitado não depender de um superresfriamento abaixo da temperatura de equilíbrio entre as fases α e β, e o crescimento do precipitado depender da elevada difusividade presente em baixas temperaturas.",
+    "C": "nucleação do precipitado depender de um superresfriamento abaixo da temperatura de equilíbrio entre as fases α e β, e o crescimento do precipitado depender da baixa difusividade presente em baixas temperaturas.",
+    "D": "crescimento do precipitado depender de um superaquecimento acima da temperatura de equilíbrio entre as fases α e β, e a nucleação do precipitado depender da baixa difusividade presente em baixas temperaturas.",
+    "E": "crescimento do precipitado depender de um superaquecimento acima da temperatura de equilíbrio entre as fases α e β, e a nucleação do precipitado depender da elevada difusividade presente em baixas temperaturas."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2018, Q40",
+   "q": "A recristalização de um material deformado depende do tamanho de grão inicial, da intensidade de deformação, da temperatura de deformação e da temperatura de recristalização. Nesse processo de recristalização, ao se",
+   "alts": {
+    "A": "reduzir a intensidade de deformação, reduz-se a temperatura de recristalização para um mesmo tempo de tratamento.",
+    "B": "reduzir a intensidade de deformação, diminui-se o tamanho do grão recristalizado para uma mesma temperatura e tempo de tratamento.",
+    "C": "aumentar a intensidade de deformação, diminui-se o tamanho do grão recristalizado para uma mesma temperatura e tempo de tratamento.",
+    "D": "aumentar a intensidade de deformação, aumenta-se a temperatura de recristalização para um mesmo tempo de tratamento.",
+    "E": "aumentar a intensidade de deformação, aumenta-se o tamanho do grão recristalizado para uma mesma temperatura e tempo de tratamento. BLOCO 2"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2018, Q41",
+   "q": "Aços empregados em tanques contendo ácidos líquidos em temperaturas entre ambiente e 200°C são suscetíveis a danos causados pelo hidrogênio. É considerado um dano causado pelo hidrogênio a",
+   "alts": {
+    "A": "formação de carbetos dentro do aço",
+    "B": "formação de óxidos na superfície do aço",
+    "C": "formação microfissuras e bolhas no interior do aço",
+    "D": "carbonetação da superfície do aço",
+    "E": "dissolução do aço"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2018, Q42",
+   "q": "A fase  (sigma) é uma fase de grande importância tecnológica porque a formação dessa fase durante um tratamento térmico piora as propriedades mecânicas dos aços ligados com alto teor de",
+   "alts": {
+    "A": "carbono",
+    "B": "molibdênio",
+    "C": "silício",
+    "D": "nióbio",
+    "E": "cromo"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2018, Q44",
+   "q": "As curvas S x N apresentadas abaixo foram obtidas empregando a mesma razão tensão mínima por tensão máxima. Um determinado eixo sofrerá um carregamento cíclico dado pela expressão: S(t)=300+150sen(2νt)MPa, onde ν é a frequência de rotação do eixo. Para esse carregamento, verifica-se que o(s)",
+   "alts": {
+    "A": "material B falhará por fadiga antes dos materiais A e C",
+    "B": "material B nunca falhará por fadiga, e o material C falhará antes do material A",
+    "C": "material B nunca falhará por fadiga, e o material A falhará antes do material C",
+    "D": "materiais A e B nunca falharão por fadiga",
+    "E": "materiais A e C nunca falharão por fadiga"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2018, Q45",
+   "q": "Uma fratura dútil em um material policristalino tem por características físicas e microestruturais absorver",
+   "alts": {
+    "A": "muita energia devido ao movimento de discordâncias (deslocações) no interior dos grãos.",
+    "B": "muita energia devido ao movimento de discordâncias através dos contornos intergranulares de alta energia.",
+    "C": "muita energia devido às trincas por clivagem no interior dos grãos.",
+    "D": "pouca energia devido ao movimento de discordâncias (deslocações) no interior dos grãos.",
+    "E": "pouca energia devido à quebra de ligações atômicas nos contornos intergranulares de alta energia."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2018, Q46",
+   "q": "Um cubo de lado \u0002 foi construído com um material que possui um módulo de Young de 200 GPa e uma constante de Poisson de 0,33. Esse cubo é submetido a um estado plano de tensões compressivas elásticas sem nenhuma tensão cisalhante, | X | = | Y | = 200 MPa. Qual o valor da deformação percentual na direção z?",
+   "alts": {
+    "A": "0,066%",
+    "B": "0,033%",
+    "C": "0,0%",
+    "D": "0,033%",
+    "E": "0,066%"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2018, Q48",
+   "q": "Tubulações enterradas podem ser protegidas pelo método denominado proteção catódica galvânica. Este método emprega um",
+   "alts": {
+    "A": "gerador elétrico de corrente alternada para transformar a tubulação em catodo.",
+    "B": "gerador elétrico de corrente alternada para transformar a tubulação em anodo.",
+    "C": "gerador elétrico de corrente contínua para transformar a tubulação em anodo.",
+    "D": "metal com potencial de redução mais negativo que o metal da tubulação para agir como anodo.",
+    "E": "metal com potencial de redução mais positivo que o metal da tubulação para agir como anodo."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2018, Q50",
+   "q": "A sensitização de aços inoxidáveis austeníticos é um processo de corrosão eletroquímica associada à(ao)",
+   "alts": {
+    "A": "aumento do teor de cromo em solução na austenita nos contornos intergranulares",
+    "B": "redução do teor de cromo em solução na austenita no interior do grão",
+    "C": "precipitação de óxido de cromo no interior do grão",
+    "D": "precipitação de carbetos de cromo nos contornos intergranulares",
+    "E": "precipitação de carbetos de cromo no interior do grão"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2018, Q51",
+   "q": "Um técnico estava montando um sistema hidráulico para transporte de água pura empregando tubos de cobre. Quase no final do serviço, faltou material, e o técnico resolveu improvisar com tubos de aço (ferro) e uniu os dois tipos de tubo com conectores metálicos apropriados. O engenheiro de inspeção solicitou a retirada dos tubos de ferro porque o",
+   "alts": {
+    "A": "cobre e o ferro sofrerão corrosão intergranular.",
+    "B": "cobre irá favorecer a corrosão galvânica do ferro.",
+    "C": "ferro irá favorecer a corrosão por pites do cobre.",
+    "D": "ferro irá favorecer a corrosão galvânica do cobre.",
+    "E": "ferro irá favorecer a fragilização do cobre pelo hidrogênio."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2018, Q54",
+   "q": "Um conjunto de placas de aço comum provenientes de um mesmo lote foram empilhadas dentro de um galpão coberto para proteger as placas da chuva. O empilhamento deixa pequenas frestas entre as placas, e a umidade do local é extremamente elevada. Depois de meses, as placas foram retiradas do local para serem usadas e foi constatado que elas apresentavam na região central marcas de corrosão, mas não existia nenhuma corrosão perto das extremidades das placas, nem na placa que ficava no topo das demais. Esse tipo de corrosão é classificado como corrosão por",
+   "alts": {
+    "A": "pite",
+    "B": "erosão",
+    "C": "pilha galvânica",
+    "D": "pilha de concentração iônica",
+    "E": "pilha de aeração diferencial"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2018, Q55",
+   "q": "Uma haste, de seção reta quadrada, cujo lado mede a cm e de comprimento 1 m, será empregada em um projeto para suportar uma carga trativa de 80 kN ao longo do comprimento com uma deformação elástica máxima de 0,04 cm. A haste será feita de um material que apresenta um módulo de Young de 200 GPa e um limite de escoamento de 40 MPa. Assim sendo, o lado da secção quadrada da haste (com estimativa de ±1 mm) deverá ser de, no mínimo,",
+   "alts": {
+    "A": "32",
+    "B": "16",
+    "C": "45",
+    "D": "42",
+    "E": "35 BLOCO 3"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2018, Q56",
+   "q": "Chama-se reforço de solda ao metal de solda depositado em excesso,",
+   "alts": {
+    "A": "com o objetivo de garantir melhor resistência mecânica",
+    "B": "com o objetivo de garantir melhor tenacidade",
+    "C": "além do necessário para preencher a junta",
+    "D": "por erro do soldador",
+    "E": "por motivos de segurança"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2018, Q57",
+   "q": "Entre os processos de soldagem relacionados a seguir, o que mais concentra calor numa região mais estreita é o processo conhecido como soldagem",
+   "alts": {
+    "A": "com eletrodo revestido",
+    "B": "MIG",
+    "C": "por arco submerso",
+    "D": "TIG",
+    "E": "a laser"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2018, Q58",
+   "q": "Que tipo de transformações de fase acontece na ZTA (zona termicamente afetada) durante a soldagem de uma liga alumínio-magnésio-silício?",
+   "alts": {
+    "A": "Dissolução e crescimento de precipitados",
+    "B": "Transformação martensítica",
+    "C": "Transformação bainítica",
+    "D": "Refino de grão",
+    "E": "Maclagem"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2018, Q59",
+   "q": "Entre os tipos de cobre e ligas de cobre, qual é o mais suscetível à formação de partículas de óxidos nos contornos de grãos, como decorrência da soldagem?",
+   "alts": {
+    "A": "Cobre desoxidado com fósforo",
+    "B": "Cobre eletrolítico",
+    "C": "Cobre fundido a vácuo",
+    "D": "Latão",
+    "E": "Bronze"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2018, Q60",
+   "q": "Na fabricação do aço líquido, o alumínio é utilizado como um forte desoxidante. Entretanto, grande parte dele é perdida, quando esse elemento é adicionado à temperatura de vazamento. Qual é o percentual aproximado de perda de alumínio nessas condições?",
+   "alts": {
+    "A": "5 %",
+    "B": "10 %",
+    "C": "20 %",
+    "D": "30 %",
+    "E": "40 %"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2018, Q61",
+   "q": "Um tipo de defeito que pode surgir na soldagem de ligas metálicas, que pode ser causado devido à ação de gases retidos no metal inicialmente líquido e depois solidificado é",
+   "alts": {
+    "A": "o empenamento/distorções",
+    "B": "os poros",
+    "C": "a falta de fusão",
+    "D": "a falta de penetração",
+    "E": "a mordedura"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2018, Q62",
+   "q": "Entre as fases que podem surgir no metal de solda de aços carbono-manganês ou baixa liga, qual a mais favorável à tenacidade desses materiais soldados?",
+   "alts": {
+    "A": "Carbonetos",
+    "B": "Ferrita acicular",
+    "C": "Ferrita de Widmanstätten",
+    "D": "Ferrita proeutetoide",
+    "E": "Martensita"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2018, Q63",
+   "q": "No diagrama de Schaeffler, um elemento que participa da fórmula do cálculo do teor de níquel equivalente nos aços inoxidáveis soldados é o",
+   "alts": {
+    "A": "alumínio",
+    "B": "molibdênio",
+    "C": "manganês",
+    "D": "nióbio",
+    "E": "silício"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2018, Q64",
+   "q": "O ensaio visual permite observar alguns tipos de defeitos de fabricação de materiais metálicos, porém não permite detectar",
+   "alts": {
+    "A": "trincas superficiais",
+    "B": "mordeduras de solda",
+    "C": "dupla laminação",
+    "D": "ranhuras profundas de usinagem",
+    "E": "falta de penetração na solda"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2018, Q65",
+   "q": "O ensaio por líquidos penetrantes baseia-se em qual princípio físico?",
+   "alts": {
+    "A": "Empuxo",
+    "B": "Princípio de Huygens",
+    "C": "Efeito Doppler",
+    "D": "Capilaridade",
+    "E": "Hidrodinâmica"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2018, Q66",
+   "q": "Uma faixa de temperatura adequada para a laminação a quente de placas fundidas de ligas de alumínio é",
+   "alts": {
+    "A": "150°C a 200°C",
+    "B": "250°C a 300°C",
+    "C": "350°C a 400°C",
+    "D": "450°C a 500°C",
+    "E": "550°C a 600°C"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2018, Q67",
+   "q": "Uma característica que não influi no comportamento das partículas magnéticas nas proximidades de um campo de fuga é o(a)",
+   "alts": {
+    "A": "tamanho das partículas",
+    "B": "forma das partículas",
+    "C": "propriedade magnética das partículas",
+    "D": "atração das partículas pelo campo gravitacional",
+    "E": "condutividade elétrica das partículas"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2018, Q68",
+   "q": "Considerando as mesmas dimensões para as peças metálicas, para qual material deve ser utilizado o menor valor de frequência mínima na inspeção por ultrassons?",
+   "alts": {
+    "A": "Alumínio trefilado",
+    "B": "Bronze",
+    "C": "Cobre",
+    "D": "Ferro fundido",
+    "E": "Prata"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2018, Q69",
+   "q": "Qual a função de um penetrômetro numa inspeção radiográfica?",
+   "alts": {
+    "A": "Indicar a qualidade da imagem radiográfica.",
+    "B": "Indicar o nível de profundidade de penetração dos raios X.",
+    "C": "Indicar a espessura da peça inspecionada.",
+    "D": "Indicar o grau de penetração dos raios X.",
+    "E": "Indicar o grau de sensibilidade do filme radiográfico."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2018, Q70",
+   "q": "Dois ensaios que permitem observar trincas situadas no interior de peças metálicas são:",
+   "alts": {
+    "A": "ensaio visual e ensaio de líquidos penetrantes",
+    "B": "ensaio de líquidos penetrantes e ensaio de partículas magnéticas",
+    "C": "ensaio de partículas magnéticas e ensaio radiográfico (raios X)",
+    "D": "ensaio radiográfico (raios X) e ensaio de ultrassom",
+    "E": "ensaio de ultrassom e ensaio de líquidos penetrantes"
+   },
+   "correta": "D"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   25,
+   33,
+   34,
+   38,
+   43,
+   47,
+   49,
+   52,
+   53
+  ],
+  "quebradas": []
+ }
+}

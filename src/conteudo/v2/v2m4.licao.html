@@ -1,0 +1,94 @@
+<p><strong>1. Fratura dúctil × fratura frágil (fractografia).</strong> A prova cobra a associação energia ↔ mecanismo ↔ aparência:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Fratura dúctil</th>
+<th>Fratura frágil (transgranular)</th>
+<th>Fratura intergranular</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Energia absorvida</td>
+<td><strong>ALTA</strong></td>
+<td><strong>BAIXA</strong></td>
+<td><strong>BAIXA</strong></td>
+</tr>
+<tr>
+<td>Mecanismo</td>
+<td>Movimento de <strong>discordâncias</strong> no interior dos grãos; <strong>nucleação e crescimento de vazios</strong> (coalescência)</td>
+<td><strong>Clivagem</strong> — quebra de ligações ao longo de planos cristalinos dentro dos grãos</td>
+<td>Propagação <strong>ao longo dos contornos de grão</strong> enfraquecidos (segregação, carbonetos, H)</td>
+</tr>
+<tr>
+<td>Aparência no MEV</td>
+<td>Superfície <strong>rugosa/fibrosa com dimples</strong> (microcavidades)</td>
+<td>Superfície <strong>lisa, brilhante, facetada</strong></td>
+<td>"Rocha partida": grãos em relevo tipo favo</td>
+</tr>
+</tbody>
+</table>
+<p>Regra de memorização: <strong>"Dúctil = Dimples = Discordâncias = Demorada (muita energia)"; "Frágil = Faces lisas = Fácil (pouca energia)"</strong>. Fratura intergranular é sempre sinal de contorno de grão fragilizado — e absorve pouca energia.</p>
+<p><strong>2. Sensitização dos inox austeníticos.</strong> Ao manter um inox austenítico (304, 316) entre <strong>~425 e 870 °C</strong> (soldagem é o caso típico — ZTA), precipitam-se <strong>carbonetos de cromo M₂₃C₆ nos contornos de grão</strong>. Cada carboneto "rouba" Cr da vizinhança: a zona adjacente ao contorno fica com <strong>menos de ~11–12% Cr</strong> (empobrecida), perde a capacidade de passivar e vira anodo de uma pilha ativa-passiva → <strong>corrosão intergranular</strong>. Pontos cobrados:
+- É a <strong>precipitação de M₂₃C₆ rico em CROMO nos contornos INTERgranulares</strong> (não no interior do grão; não é óxido; não é carboneto de Nb — Nb e Ti são justamente os estabilizantes que EVITAM sensitização nos aços 347/321);
+- O problema é o <strong>empobrecimento de Cr em solução sólida junto ao contorno</strong> (não "aumento de Cr");
+- <strong>Reversão:</strong> tratamento de <strong>solubilização</strong> — aquecer alto o suficiente (~1050 °C) para <strong>dissolver os carbonetos de cromo</strong>, seguido de <strong>resfriamento rápido</strong> (para não repassar pela faixa crítica). Outras prevenções: aço com C baixo (304L/316L) ou estabilizado (Ti/Nb).
+- É o caso clássico de <strong>corrosão que se reverte por tratamento térmico</strong> (a "corrosão por sensitização da solda").</p>
+<p><strong>3. Tabela-mestra das fragilizações (DECORE):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Fragilização</th>
+<th>Causa</th>
+<th>Faixa de temperatura</th>
+<th>Materiais afetados</th>
+<th>Efeito / observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sensitização</strong></td>
+<td>Precipitação de M₂₃C₆ (Cr) nos contornos</td>
+<td><strong>425–870 °C</strong> (exposição/soldagem)</td>
+<td>Inox austeníticos (e ferríticos)</td>
+<td>Corrosão intergranular; reversível por solubilização + resfriamento rápido</td>
+</tr>
+<tr>
+<td><strong>Fase sigma (σ)</strong></td>
+<td>Composto intermetálico <strong>Fe-Cr</strong>, duro e frágil</td>
+<td><strong>~560–980 °C</strong> (duplex: resfriamento lento por ~600–950 °C)</td>
+<td>Aços com <strong>ALTO CROMO</strong>: duplex/superduplex, inox ferríticos e austeníticos</td>
+<td>Perda drástica de tenacidade e de resistência à corrosão; evitar resfriamento lento na faixa</td>
+</tr>
+<tr>
+<td><strong>Fragilização de revenido</strong> ("temper embrittlement")</td>
+<td><strong>Segregação de impurezas P, Sb, Sn, As nos contornos de grão</strong> da austenita prévia</td>
+<td><strong>~400–600 °C</strong> (revenido ou serviço prolongado)</td>
+<td>Aços <strong>baixa liga</strong> (Cr-Mo, Ni-Cr) com P/Sb</td>
+<td>Sobe a TTDF; fratura intergranular; reversível por reaquecimento acima da faixa + resfriamento rápido</td>
+</tr>
+<tr>
+<td><strong>Fragilização a 475 °C</strong></td>
+<td>Decomposição da ferrita em α′ rica em Cr</td>
+<td><strong>~370–540 °C</strong> (pico em 475 °C)</td>
+<td>Inox <strong>ferríticos e duplex</strong> (fase ferrita)</td>
+<td>Endurecimento + perda de tenacidade; limita temperatura de serviço dos duplex (~250–300 °C)</td>
+</tr>
+<tr>
+<td><strong>Fragilização por hidrogênio</strong></td>
+<td>H atômico absorvido difunde e se recombina/ancora discordâncias</td>
+<td>Ambiente a ~200 °C (pior perto da T ambiente)</td>
+<td>Aços de alta resistência, aços em meio ácido/H₂S</td>
+<td>Fratura retardada, frágil; ver detalhes abaixo</td>
+</tr>
+</tbody>
+</table>
+<p><strong>4. Danos pelo hidrogênio — o tema favorito da Petrobras.</strong> O <strong>hidrogênio atômico (H)</strong>, gerado por corrosão em meio ácido/H₂S, soldagem com umidade, eletrodeposição ou proteção catódica excessiva, é pequeno o bastante para difundir no aço. Formas de dano:
+- <strong>Empolamento (blistering) e trincas induzidas por hidrogênio (HIC):</strong> o H atômico se recombina em H₂ molecular em vazios/inclusões internas, gerando pressões enormes → <strong>microfissuras e bolhas no interior do aço</strong>. Típico de tanques/vasos com ácidos ou H₂S de temperatura ambiente até ~200 °C.
+- <strong>Fragilização por hidrogênio (HE):</strong> perda de ductilidade e fratura retardada sob tensão, mesmo abaixo do LE.
+- <strong>Ataque pelo hidrogênio a alta temperatura (HTHA):</strong> acima de ~230 °C e alta pressão de H₂, o H reage com carbonetos formando <strong>metano</strong> (descarbonetação + fissuração) — mecanismo diferente, de alta temperatura.</p>
+<p><strong>Fontes de H que a banca lista:</strong> umidade/água na soldagem (eletrodo não secado → H difusível na solda — por isso eletrodos básicos "baixo hidrogênio" e secagem em estufa), <strong>decapagem ácida</strong> e <strong>eletrodeposição</strong> (evolução de H na superfície), H₂S (veneno que impede a recombinação H+H→H₂ e empurra o H para dentro do aço).
+<strong>Prevenção/correção:</strong> manter solda e vizinhança <strong>secas</strong> (proteger da água/umidade), preaquecimento e pós-aquecimento, eletrodos baixo-H; <strong>baking</strong> (tratamento térmico brando, ~200 °C, algumas horas) <strong>remove o H difusível e reverte a fragilização</strong> se ainda não houve trinca. Jamais: molhar a solda, aumentar corrosão ácida, tratar em atmosfera rica em H₂ ou em vapor d'água.</p>
+<p><strong>5. Fase sigma em detalhe (cai TODA prova).</strong> Intermetálico <strong>Fe-Cr</strong> (≈ FeCr), duríssimo e frágil, que precipita em aços com <strong>alto teor de cromo</strong> quando expostos ou resfriados lentamente na faixa ~560–980 °C. Nos <strong>duplex/superduplex</strong> (ferrita + austenita), a ferrita rica em Cr e Mo é o berço da sigma: taxas de resfriamento <strong>baixas</strong> na janela crítica precipitam σ e <strong>deterioram tenacidade e resistência à corrosão</strong>. Por isso duplex exige solubilização (~1050–1100 °C) e resfriamento <strong>rápido</strong> (água). Gatilhos de resposta: "fase de Cr e Fe", "alto cromo", "resfriamento lento", "piora propriedades mecânicas".</p>
+<p><strong>Mnemônico-resumo das faixas: "475 é da ferrita; 4-a-6 (400–600) é do revenido com Fósforo; 4-a-8 (425–870) sensitiza; 5-a-9 (560–980) é a sigma."</strong></p>

@@ -1,0 +1,19 @@
+{
+  "name": "petropass",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "App de estudo para os concursos de engenharia da Petrobras (Cesgranrio). O site publicado é o index.html gerado pelo build.",
+  "scripts": {
+    "dev": "node ferramentas/dev.mjs",
+    "build": "node ferramentas/build.mjs",
+    "test": "node ferramentas/build.mjs && node ferramentas/testar.mjs",
+    "provas": "node ferramentas/extrair-provas.mjs",
+    "conferir": "node ferramentas/conferir.mjs",
+    "gabarito": "node ferramentas/mapear-gabarito.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "pdfjs-dist": "4.10.38"
+  }
+}

@@ -1,0 +1,51 @@
+<p><strong>1. Valor Presente Líquido.</strong></p>
+<p><strong>VPL = −I₀ + Σ<sub>t=1..n</sub> FC<sub>t</sub> ÷ (1 + i)<sup>t</sup></strong>, com <em>i</em> = <strong>TMA</strong> (taxa mínima de atratividade).</p>
+<p>Interpretação: o VPL é o <strong>ganho em valor de hoje</strong> acima do que o capital renderia à TMA. Decisão: <strong>VPL &gt; 0 aceita; VPL &lt; 0 rejeita; VPL = 0</strong> é indiferente (o projeto rende <em>exatamente</em> a TMA).</p>
+<p><strong>Inferência obrigatória:</strong> se o VPL calculado à TMA é <strong>negativo</strong>, então a <strong>TIR é menor que a TMA</strong> — as duas conclusões são equivalentes e a banca cobra exatamente essa ponte.</p>
+<p><em>Exemplo:</em> I₀ = R$ 100 000; fluxos de R$ 20 000, R$ 40 000, R$ 60 000 nos anos 1, 2 e 3. À TMA de 10 %: VPL = −100 000 + 18 182 + 33 058 + 45 079 = <strong>−R$ 3 681</strong> ⇒ rejeita, e a TIR está <strong>abaixo</strong> de 10 %.</p>
+
+<p><strong>2. Taxa Interna de Retorno.</strong> É a taxa que <strong>zera o VPL</strong>. Aceita-se o projeto se <strong>TIR &gt; TMA</strong>. Limitações que caem em prova:</p>
+<ul>
+<li><strong>Múltiplas TIR:</strong> pela regra de sinais de Descartes, um fluxo com <em>k</em> trocas de sinal pode ter até <em>k</em> raízes reais positivas. Fluxo convencional (uma só troca) tem TIR única.</li>
+<li><strong>Reinvestimento:</strong> a TIR supõe implicitamente que os fluxos intermediários rendem a <em>própria TIR</em>, o que costuma ser irreal. A <strong>TIR modificada (MTIR)</strong> corrige isso, reinvestindo à TMA.</li>
+<li><strong>Conflito com o VPL</strong> em projetos de <strong>portes</strong> ou <strong>durações</strong> diferentes: pode-se ter TIR maior e VPL menor. Nesse caso <strong>prevalece o VPL</strong>, porque ele mede ganho absoluto de riqueza. A ferramenta para decidir é a <strong>TIR incremental</strong> (do fluxo diferença entre os projetos), comparada à TMA.</li>
+</ul>
+
+<p><strong>3. Payback.</strong> <strong>Simples:</strong> tempo até o fluxo acumulado cobrir o investimento — ignora o valor do dinheiro no tempo e tudo o que ocorre <em>depois</em> do prazo. <strong>Descontado:</strong> mesma ideia com fluxos trazidos a valor presente; é sempre <strong>maior ou igual</strong> ao simples. Nenhum dos dois mede rentabilidade — são medidas de <strong>risco e liquidez</strong>.</p>
+<p><strong>Cuidado com a definição:</strong> "chega-se ao conceito de payback descontado somando-se o fluxo de caixa descontado ao investimento inicial (negativo) até o acumulado virar zero". Trocar isso pela definição de VPL é o distrator clássico — <strong>o VPL soma <em>todos</em> os fluxos descontados menos o investimento; o payback pergunta <em>quando</em> o acumulado zera</strong>.</p>
+
+<p><strong>4. Índice de lucratividade e anuidade equivalente.</strong> <strong>IL = VP das entradas ÷ I₀</strong>; aceita-se se IL &gt; 1 (equivale a VPL &gt; 0). É útil no <strong>racionamento de capital</strong>, porque ordena por eficiência do capital investido. Para projetos de <strong>vidas diferentes</strong>, compare pelo <strong>valor anual uniforme equivalente (VAUE)</strong> ou repita os projetos até o mínimo múltiplo comum das vidas — comparar VPLs de vidas diferentes, direto, é incorreto.</p>
+
+<p><strong>5. Projetos mutuamente exclusivos × independentes.</strong> <strong>Mutuamente exclusivos:</strong> aceitar um <strong>implica necessariamente rejeitar o outro</strong> (mesmo terreno, mesma função, mesma máquina). A regra é escolher o de <strong>maior VPL</strong>, não o de maior TIR. <strong>Independentes:</strong> a decisão sobre um não afeta a do outro — aceitam-se todos com VPL &gt; 0, respeitado o orçamento. Há ainda os <strong>contingentes</strong> (um só faz sentido se o outro for feito).</p>
+
+<p><strong>6. Taxa mínima de atratividade.</strong> A TMA representa o <strong>custo de oportunidade</strong> do capital: o retorno da melhor alternativa de risco semelhante. Para a empresa, a referência natural é o <strong>WACC</strong>. Quanto maior o risco do projeto, maior a TMA exigida — e menor o VPL de um mesmo fluxo. Aumentar a TMA reduz o VPL <strong>monotonicamente</strong>: a curva VPL × taxa é decrescente e cruza o eixo exatamente na TIR.</p>
+
+<p><strong>7. Análise de risco em projetos.</strong></p>
+<table>
+<thead>
+<tr><th>Técnica</th><th>O que faz</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Análise de sensibilidade</strong></td><td>varia <strong>uma</strong> variável por vez e observa o VPL — identifica as variáveis críticas</td></tr>
+<tr><td><strong>Análise de cenários</strong></td><td>combina variáveis em pessimista / provável / otimista</td></tr>
+<tr><td><strong>Simulação de Monte Carlo</strong></td><td>sorteia milhares de combinações e devolve a <strong>distribuição</strong> do VPL e a probabilidade de VPL &lt; 0</td></tr>
+<tr><td><strong>Árvore de decisão</strong></td><td>modela decisões sequenciais e resolve de trás para frente pelo valor esperado</td></tr>
+<tr><td><strong>Opções reais</strong></td><td>precifica a <strong>flexibilidade</strong> gerencial: adiar, expandir, abandonar, trocar de insumo</td></tr>
+</tbody>
+</table>
+<p>O <strong>ponto de equilíbrio</strong> aplicado a projetos responde: qual o valor mínimo da variável crítica (preço, volume) para o VPL ainda ser zero?</p>
+
+<p><strong>8. Avaliação social de projetos e preço-sombra.</strong> Na avaliação econômico-social o que interessa é o benefício para a <strong>sociedade</strong>, não o lucro privado. Por isso os preços de mercado são substituídos por <strong>preços-sombra</strong> (ou preços de conta): o <strong>valor social real do recurso</strong>, corrigindo distorções como impostos, subsídios, tarifas, controle de preços, câmbio administrado e desemprego estrutural.</p>
+<p>Exemplo consagrado: em economia com grande desemprego, o preço-sombra da mão de obra não qualificada é <strong>menor</strong> que o salário de mercado, porque o custo social de empregá-la é baixo. Em programação linear, "preço-sombra" tem o sentido correlato de <strong>valor marginal de uma unidade a mais do recurso escasso</strong>.</p>
+
+<p><strong>9. Erros clássicos em prova.</strong></p>
+<ul>
+<li>Escolher pelo maior TIR entre projetos <strong>excludentes</strong> de portes diferentes.</li>
+<li>Dizer que o VPL "sempre indica o melhor projeto entre excludentes" sem observar vidas diferentes e restrição de capital.</li>
+<li>Confundir payback descontado com VPL.</li>
+<li>Descontar um fluxo <em>real</em> por uma taxa <em>nominal</em>.</li>
+<li>Incluir custos afundados ou rateios no fluxo incremental.</li>
+<li>Esquecer a recuperação do <strong>capital de giro</strong> e o <strong>valor residual</strong> no último período.</li>
+</ul>
+
+<p><strong>Resumo de véspera:</strong> VPL &gt; 0 aceita e VPL &lt; 0 ⇒ TIR &lt; TMA; excludentes se decidem pelo maior VPL (ou pela TIR incremental); payback ignora o que vem depois; vidas diferentes exigem VAUE; TMA é custo de oportunidade; sensibilidade varia uma variável, cenário varia um conjunto e Monte Carlo dá a distribuição; preço-sombra é o valor social do recurso.</p>

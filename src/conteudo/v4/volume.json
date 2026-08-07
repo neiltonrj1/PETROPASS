@@ -1,0 +1,47 @@
+{
+ "id": "v4",
+ "t": "Português e Inglês",
+ "sub": "Básicas eliminatórias",
+ "mods": [
+  {
+   "id": "v4m1",
+   "n": "Módulo 1",
+   "t": "Interpretação de texto (método + pegadinhas da banca)"
+  },
+  {
+   "id": "v4m2",
+   "n": "Módulo 2",
+   "t": "Crase e regência"
+  },
+  {
+   "id": "v4m3",
+   "n": "Módulo 3",
+   "t": "Pontuação (vírgula, reticências, dois-pontos, travessão)"
+  },
+  {
+   "id": "v4m4",
+   "n": "Módulo 4",
+   "t": "Concordância verbal e nominal"
+  },
+  {
+   "id": "v4m5",
+   "n": "Módulo 5",
+   "t": "Morfossintaxe cobrada: funções do \"se\", vozes verbais, coordenadas × subordinadas (+ flexão verbal)"
+  },
+  {
+   "id": "v4m6",
+   "n": "Módulo 6",
+   "t": "Coesão, conectores e reescrita de frases"
+  },
+  {
+   "id": "v4m7",
+   "n": "Módulo 7",
+   "t": "Colocação pronominal + ortografia e porquês"
+  },
+  {
+   "id": "v4m8",
+   "n": "Módulo 8",
+   "t": "Inglês instrumental: textos técnicos de energia + vocabulário"
+  }
+ ]
+}

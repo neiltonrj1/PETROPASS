@@ -1,0 +1,66 @@
+<p><strong>1. Os três critérios de dimensionamento de condutor (NBR 5410).</strong> Calcula-se pelos três e adota-se a <strong>maior</strong> seção:</p>
+<table>
+<thead>
+<tr><th>Critério</th><th>O que verifica</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Capacidade de condução (ampacidade)</strong></td><td>o cabo aguenta a corrente de projeto sem exceder a temperatura, já aplicados os fatores de correção de <strong>temperatura</strong> e de <strong>agrupamento</strong></td></tr>
+<tr><td><strong>Queda de tensão</strong></td><td>limites da norma: <strong>4 %</strong> do ramal de entrada ao ponto mais distante em instalação alimentada pela concessionária em BT; <strong>7 %</strong> quando há transformador próprio; máximo <strong>2 %</strong> nos circuitos terminais em alguns casos</td></tr>
+<tr><td><strong>Proteção contra curto e sobrecarga</strong></td><td>o cabo suporta a solicitação térmica até o dispositivo atuar; e a condição <strong>I<sub>B</sub> ≤ I<sub>N</sub> ≤ I<sub>Z</sub></strong></td></tr>
+</tbody>
+</table>
+<p>Seções mínimas: <strong>1,5 mm²</strong> para iluminação, <strong>2,5 mm²</strong> para tomadas de uso geral, <strong>6 mm²</strong> para ramais de aquecedores conforme o caso. Em circuitos <strong>longos</strong>, o critério que manda é quase sempre a <strong>queda de tensão</strong> — é o caso do ramal de 8 km, em que a seção sai muito acima do exigido pela corrente.</p>
+
+<p><strong>2. A condição de coordenação I<sub>B</sub> ≤ I<sub>N</sub> ≤ I<sub>Z</sub>.</strong> <em>I<sub>B</sub></em> = corrente de projeto do circuito; <em>I<sub>N</sub></em> = corrente nominal do dispositivo de proteção; <em>I<sub>Z</sub></em> = capacidade de condução do condutor. Se o projetista descobre que a proteção escolhida tem <strong>I<sub>N</sub> maior que I<sub>Z</sub></strong>, o condutor está desprotegido: <strong>ou aumenta a seção do cabo, ou reduz o ajuste/nominal da proteção</strong>. Além disso, <strong>I₂ ≤ 1,45·I<sub>Z</sub></strong>, sendo I₂ a corrente convencional de atuação do dispositivo.</p>
+
+<p><strong>3. Disjuntor termomagnético × DR: proteções diferentes.</strong> Distinção que a banca repete todo ano:</p>
+<table>
+<thead>
+<tr><th>Dispositivo</th><th>Protege contra</th><th>Como funciona</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Disjuntor termomagnético</strong></td><td><strong>sobrecarga</strong> (bimetálico, atuação lenta e inversa) e <strong>curto-circuito</strong> (bobina magnética, atuação instantânea)</td><td>mede a corrente do circuito</td></tr>
+<tr><td><strong>DR (diferencial residual)</strong></td><td><strong>choque elétrico</strong> (contato direto e indireto) e correntes de <strong>fuga à terra</strong> — inclusive incêndio de origem elétrica</td><td>soma vetorialmente as correntes; se a soma ≠ 0, há fuga e ele desarma</td></tr>
+</tbody>
+</table>
+<p><strong>Sensibilidade:</strong> <strong>30 mA</strong> (alta sensibilidade) para proteção de pessoas — obrigatório em áreas molhadas, tomadas externas, áreas de cozinha e serviço; <strong>300 mA a 500 mA</strong> (baixa sensibilidade) apenas para proteção patrimonial contra incêndio. <strong>O DR não protege contra sobrecarga nem curto</strong>, e o disjuntor comum <strong>não protege contra choque</strong> — os dois se complementam.</p>
+
+<p><strong>4. Esquemas de aterramento.</strong> Primeira letra = situação da <strong>alimentação</strong> em relação à terra; segunda = situação das <strong>massas</strong>:</p>
+<table>
+<thead>
+<tr><th>Esquema</th><th>Característica</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>TN-S</strong></td><td>neutro (N) e condutor de proteção (PE) <strong>separados</strong> em toda a instalação</td></tr>
+<tr><td><strong>TN-C</strong></td><td>N e PE <strong>combinados</strong> num único condutor (PEN) — <strong>não</strong> se pode usar DR</td></tr>
+<tr><td><strong>TN-C-S</strong></td><td>combinados no trecho inicial, separados a partir de um ponto (o mais comum no Brasil)</td></tr>
+<tr><td><strong>TT</strong></td><td>massas ligadas a aterramento <strong>próprio</strong>, independente do da fonte</td></tr>
+<tr><td><strong>IT</strong></td><td>alimentação isolada (ou aterrada por impedância); a <strong>primeira falta não interrompe</strong> — usado em hospital, sala cirúrgica e processos críticos</td></tr>
+</tbody>
+</table>
+<p><strong>Funções do aterramento:</strong> estabelecer a referência de potencial, dar caminho de baixa impedância para a corrente de falta (permitindo a atuação da proteção), <strong>equipotencializar as massas</strong> (evitando tensão de toque perigosa) e escoar descargas atmosféricas e estáticas. O condutor PE <strong>nunca</strong> pode ser seccionado por dispositivo de manobra ou proteção.</p>
+
+<p><strong>5. Dispositivos de manobra: quem faz o quê.</strong></p>
+<table>
+<thead>
+<tr><th>Dispositivo</th><th>Manobra em carga?</th><th>Interrompe curto?</th><th>Seccionamento visível?</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Seccionador (chave seccionadora)</strong></td><td>não</td><td>não</td><td><strong>sim</strong> — é sua função</td></tr>
+<tr><td><strong>Interruptor</strong></td><td>sim</td><td>não</td><td>depende</td></tr>
+<tr><td><strong>Contator</strong></td><td>sim, com alta frequência de manobra</td><td>não</td><td>não</td></tr>
+<tr><td><strong>Disjuntor</strong></td><td>sim</td><td><strong>sim</strong></td><td>não necessariamente</td></tr>
+<tr><td><strong>Fusível</strong></td><td>—</td><td>sim (uma vez)</td><td>não</td></tr>
+</tbody>
+</table>
+<p><strong>Regra:</strong> manobrar um <strong>seccionador sob carga</strong> gera arco e destrói o equipamento; ele só abre com o circuito já desenergizado por um disjuntor. Fusíveis <strong>gG</strong> protegem circuitos gerais; <strong>aM</strong> protegem apenas contra curto em circuitos de motor (deixando a sobrecarga para o relé térmico).</p>
+
+<p><strong>6. Correntes de choque e limites.</strong> Efeitos no corpo humano: ~1 mA (percepção), 10–16 mA (limite de largar), &gt; 30 mA (tetanização respiratória), &gt; 50–80 mA (fibrilação ventricular). Por isso o DR de 30 mA. <strong>Tensão de contato limite</strong> (UL) em ambiente seco: 50 V CA. O que mata é a <strong>corrente</strong> e o <strong>percurso</strong>, não a tensão isoladamente.</p>
+
+<p><strong>7. Instalação de motores em BT.</strong> A norma exige, para cada motor: dispositivo de <strong>seccionamento</strong>, proteção contra <strong>curto-circuito</strong>, proteção contra <strong>sobrecarga</strong> e dispositivo de <strong>comando</strong>. O circuito terminal do motor é dimensionado para <strong>125 % da corrente nominal</strong> em serviço contínuo, e a proteção contra curto é ajustada para <strong>deixar passar a corrente de partida</strong>. Vários motores no mesmo circuito só são permitidos em condições específicas (potências pequenas, proteção individual contra sobrecarga).</p>
+
+<p><strong>8. Subestação de entrada.</strong> Uma subestação que recebe média tensão da concessionária e entrega baixa tensão ao usuário tem, no mínimo: proteção geral de MT (disjuntor ou chave fusível), <strong>transformador</strong>, proteção geral de BT, <strong>medição</strong> e aterramento. Com <strong>dois transformadores</strong>, os arranjos possíveis são: operação em paralelo (exige mesma relação, mesmo índice horário, mesma sequência de fase e impedâncias próximas) ou barramentos separados com interligação por <strong>chave de transferência</strong>, evitando o paralelismo permanente e limitando o nível de curto.</p>
+
+<p><strong>9. Simbologia e documentos do projeto.</strong> Diagrama <strong>unifilar</strong> (visão geral do sistema), <strong>trifilar</strong> (detalha as três fases e o comando), <strong>funcional</strong> (lógica de comando e intertravamento) e <strong>diagrama de blocos</strong>. Complementam o projeto: memorial descritivo, memória de cálculo, quadro de cargas, lista de materiais e ART.</p>
+
+<p><strong>Resumo de véspera:</strong> dimensione por ampacidade, queda de tensão e curto, e fique com a maior seção; I<sub>B</sub> ≤ I<sub>N</sub> ≤ I<sub>Z</sub>; DR protege pessoa (30 mA) e disjuntor protege circuito; TN-C não aceita DR; IT tolera a primeira falta; seccionador não abre sob carga; circuito de motor a 125 % da nominal; paralelismo de trafos exige mesmo índice horário.</p>

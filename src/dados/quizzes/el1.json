@@ -1,0 +1,99 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q26 (Elétrica)",
+  "q": "Um motor de indução trifásico (MIT), 220 V, 6 polos, 60 Hz, ligação Y opera com um escorregamento de 5%. Esse motor drena da rede elétrica uma corrente de 40 A e opera com um fator de potência 0,8 (indutivo). Sabendo-se que as perdas do motor, nessas condições de operação, são 1.200 W, o valor aproximado do torque mecânico aplicado à carga, em Nm, é",
+  "alts": {
+   "A": "87",
+   "B": "92",
+   "C": "102",
+   "D": "112",
+   "E": "117"
+  },
+  "correta": "B",
+  "explica": "São três passos. (1) Potência de entrada: P = √3·V·I·cos φ = 1,732 × 220 × 40 × 0,8 ≈ 12.193 W. (2) Potência no eixo: 12.193 − 1.200 = 10.993 W. (3) Velocidade: n_s = 120·60/6 = 1.200 rpm e n = 1.200 × (1 − 0,05) = 1.140 rpm, ou seja, ω = 1.140 × 2π/60 ≈ 119,4 rad/s. Logo T = P/ω = 10.993 / 119,4 ≈ 92 N·m.",
+  "erradas": {
+   "A": "87 N·m sai de descontar as perdas duas vezes, ou de usar uma velocidade maior que a real.",
+   "C": "102 N·m é o resultado de esquecer de subtrair as perdas: 12.193/119,4 ≈ 102. É o distrator mais tentador da questão.",
+   "D": "112 N·m aparece quando se usa a velocidade síncrona multiplicada pelo escorregamento errado.",
+   "E": "117 N·m sai de usar a potência de entrada com a velocidade síncrona reduzida indevidamente."
+  },
+  "pontos": [
+   "n_s = 120·f/p com p em NÚMERO DE POLOS (6 polos a 60 Hz = 1.200 rpm), não em pares de polos.",
+   "O torque no eixo usa a velocidade REAL do rotor (1.140 rpm), não a síncrona.",
+   "Converter rpm para rad/s: multiplique por 2π e divida por 60. Esquecer isso é o erro de unidade mais comum.",
+   "Guarde também: perdas no cobre do rotor = s × potência de entreferro, e o rendimento não pode passar de (1 − s)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q23 (Elétrica)",
+  "q": "Um motor síncrono de uma indústria é empregado para acionar uma carga que demanda uma potência constante, com fator de potência indutivo. Esse motor é alimentado com tensão terminal e frequência constantes. Em determinado ponto de sua operação, ajustes são feitos no motor de modo que a corrente de campo do rotor sofra um aumento. Considerando-se desprezíveis as perdas no motor, ocorrerá",
+  "alts": {
+   "A": "consumo de menos reativos pelo motor, em virtude do aumento da tensão induzida.",
+   "B": "consumo de mais reativos pelo motor, em virtude do aumento da tensão induzida.",
+   "C": "diminuição do torque mecânico entregue à carga, em virtude do aumento da corrente de linha.",
+   "D": "aumento do torque mecânico entregue à carga, em virtude do aumento da corrente de linha.",
+   "E": "aumento da velocidade do motor, em virtude do aumento da tensão induzida."
+  },
+  "correta": "A",
+  "explica": "Aumentar a corrente de campo aumenta a tensão induzida E. Partindo de um motor subexcitado (fator de potência indutivo, isto é, consumindo reativo), essa elevação de E caminha na direção da excitação normal e depois da sobre-excitação: o motor passa a consumir menos reativo e, se a excitação subir o bastante, chega a fornecer reativo à rede. É exatamente a curva V da máquina síncrona.",
+  "erradas": {
+   "B": "Consumir mais reativo seria o efeito de REDUZIR a corrente de campo (subexcitar ainda mais), não de aumentá-la.",
+   "C": "O torque é imposto pela carga, que é constante. A excitação muda o reativo, não a potência ativa.",
+   "D": "Mesmo motivo: a corrente de linha até muda de valor e de ângulo, mas a potência ativa — e portanto o torque — continua ditada pela carga.",
+   "E": "A máquina é síncrona: a velocidade é rigidamente 120·f/p. Enquanto houver sincronismo, mexer no campo não muda a rotação."
+  },
+  "pontos": [
+   "Curva V: com potência constante, subexcitado → FP atrasado (consome reativo); excitação normal → FP unitário e corrente de armadura MÍNIMA; sobre-excitado → FP adiantado (fornece reativo).",
+   "É por isso que se usa motor síncrono sobre-excitado como compensador síncrono: ele aciona a carga e corrige o fator de potência da fábrica ao mesmo tempo.",
+   "Velocidade de máquina síncrona não depende de carga nem de excitação — só de frequência e número de polos."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q42 (Elétrica)",
+  "q": "Em um motor de indução, a função da resistência de aquecimento é",
+  "alts": {
+   "A": "proteger o enrolamento do rotor contra sobrecarga.",
+   "B": "proteger o enrolamento do estator do motor para evitar sobrecarga do equipamento.",
+   "C": "aumentar o torque de partida do motor, de modo a atender cargas com grande inércia.",
+   "D": "reduzir a corrente de partida do motor acima de 5 CV, de modo a não aumentar a demanda da instalação.",
+   "E": "impedir a condensação de água no motor, quando ele se encontrar instalado em locais úmidos."
+  },
+  "correta": "E",
+  "explica": "A resistência de aquecimento (space heater) é energizada quando o motor está PARADO. Ela mantém o interior do motor alguns graus acima da temperatura ambiente, de modo que o ar dentro da carcaça não chegue ao ponto de orvalho. Sem isso, a umidade condensaria sobre o enrolamento e degradaria o isolamento — problema clássico em plataformas, áreas costeiras e ambientes externos.",
+  "erradas": {
+   "A": "Quem protege contra sobrecarga é o relé térmico (função 49), que atua desligando, não aquecendo.",
+   "B": "Mesma confusão: proteção térmica de sobrecarga é outro dispositivo, e ela não aquece o motor.",
+   "C": "Torque de partida se aumenta com resistência no circuito do ROTOR (rotor bobinado) ou com projeto de gaiola categoria H/D — não com resistência de aquecimento.",
+   "D": "Corrente de partida se reduz com estrela-triângulo, autotransformador, soft-starter ou inversor."
+  },
+  "pontos": [
+   "Regra de ouro: a resistência de aquecimento liga com o motor DESLIGADO e desliga quando o motor parte. Se a alternativa fala em efeito durante a operação, está errada.",
+   "O inimigo combatido é a condensação sobre o isolamento, não o frio em si.",
+   "Não confunda com o relé térmico (proteção contra sobrecarga) nem com resistência rotórica (partida de rotor bobinado)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q39 (Elétrica)",
+  "q": "O disjuntor termomagnético e o dispositivo à corrente Diferencial Residual (DR) são equipamentos de proteção muito utilizados em instalações elétricas de baixa tensão. As suas atuações ocorrem, respectivamente, para o disjuntor e para o DR, contra",
+  "alts": {
+   "A": "corrente de fuga e sobrecorrente / corrente de curto-circuito",
+   "B": "corrente de curto-circuito e sobrecorrente / corrente de fuga",
+   "C": "corrente de curto-circuito e corrente de fuga / sobrecorrente",
+   "D": "corrente de curto-circuito / corrente de fuga e sobrecorrente",
+   "E": "sobrecorrente / corrente de fuga e corrente de curto-circuito"
+  },
+  "correta": "B",
+  "explica": "O disjuntor termomagnético tem dois elementos e por isso cobre dois fenômenos: o bimetálico (térmico) atua nas sobrecargas, de forma lenta e inversa, e a bobina magnética atua no curto-circuito, de forma instantânea. O DR faz outra coisa: soma vetorialmente as correntes que entram e saem do circuito; se a soma não é zero, parte da corrente está indo para a terra ou pelo corpo de alguém — é a corrente de fuga (diferencial-residual).",
+  "erradas": {
+   "A": "Inverte tudo: quem detecta fuga é o DR, e o curto é atribuição do disjuntor.",
+   "C": "Atribui a fuga ao disjuntor e a sobrecarga ao DR; ambos estão trocados.",
+   "D": "O disjuntor também protege contra sobrecarga, não só contra curto; e o DR não protege contra sobrecarga.",
+   "E": "O disjuntor não deixa de proteger contra curto, e o DR não interrompe curto-circuito."
+  },
+  "pontos": [
+   "Disjuntor protege o CIRCUITO (condutor e equipamento). DR protege a PESSOA. São complementares, nunca substitutos.",
+   "Sensibilidade do DR: 30 mA para proteção de pessoas (obrigatório em áreas molhadas, cozinha, área de serviço e tomadas externas); 300–500 mA só para proteção patrimonial contra incêndio.",
+   "No esquema TN-C (neutro e proteção no mesmo condutor PEN) NÃO se pode usar DR."
+  ]
+ }
+]

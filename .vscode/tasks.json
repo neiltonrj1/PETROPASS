@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "▶ Rodar o app (localhost:5173)",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "🔨 Gerar o index.html",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "✅ Conferir se o app abre sem erro",
+      "type": "shell",
+      "command": "npm test",
+      "problemMatcher": [],
+      "group": { "kind": "test", "isDefault": true }
+    },
+    {
+      "label": "📄 Reextrair as questões dos PDFs das provas",
+      "type": "shell",
+      "command": "npm run provas",
+      "problemMatcher": []
+    },
+    {
+      "label": "🔍 Conferir a leitura de provas e gabaritos",
+      "type": "shell",
+      "command": "npm run conferir",
+      "problemMatcher": []
+    }
+  ]
+}

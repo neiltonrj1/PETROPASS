@@ -1,0 +1,561 @@
+{
+ "id": "insp-2014",
+ "trilha": "inspecao",
+ "ano": 2014,
+ "nome": "Eng. de Equipamentos Jr — Inspeção",
+ "processo": "Petrobras PSP RH 2014.2",
+ "caderno": "engenheiro_a_equipamentos_jnior_inspecao.pdf",
+ "folhaGabarito": "gabarito_oficial_apos_recursos.pdf",
+ "total": 41,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2014, Q21",
+   "q": "Ferro apresenta uma transição de fase de ferrita para austenita a 912 o C. A dilatação térmica é uma técnica muito empregada para estudar essa transição de fase. Um corpo de prova, com o formato de pequeno cilindro feito de ferro, é colocado em um forno, e seu comprimento é medido em função de um aumento linear da temperatura. Durante um aquecimento da temperatura ambiente até 1.200 o C, constata-se que o comprimento do corpo de prova",
+   "alts": {
+    "A": "aumenta de maneira quase linear, sem descontinuidade, até 1.200 o C.",
+    "B": "aumenta de maneira quase linear até a temperatura de transição, quando sofre uma pequena e brusca dilatação para depois continuar a aumentar.",
+    "C": "aumenta de maneira quase linear até a temperatura de transição, quando sofre uma pequena e brusca redução para depois continuar a aumentar.",
+    "D": "decresce de maneira quase linear, sem descontinuidade, até 1.200 o C.",
+    "E": "decresce de maneira quase linear até a temperatura de transição, quando sofre uma pequena e brusca redução para depois continuar a decrescer."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2014, Q22",
+   "q": "Um operário comprou uma barra metálica feita de uma liga de cobre com 15% em massa de zinco em solução sólida. A única fase presente nesse metal é cúbica de face centrada, sendo que a barra foi adquirida na condição recristalizada. O operário precisou dobrar a barra para ajustá-la num determinado equipamento. Como o procedimento não foi bem sucedido, ele precisou desdobrá-la, descobrindo, então, que precisava fazer um esforço muito maior que o utilizado no primeiro dobramento. O engenheiro responsável pela área compreendeu rapidamente o que tinha ocorrido e explicou que, nesse caso, a barra sofreu um endurecimento durante o dobramento, causado pela",
+   "alts": {
+    "A": "geração e interação das discordâncias (deslocações) com outras discordâncias e com os átomos do soluto de zinco.",
+    "B": "geração e interação de vacâncias com outras vacâncias e com os átomos de zinco.",
+    "C": "geração e interação de trincas com outras trincas e com os átomos de zinco.",
+    "D": "redução da densidade total de discordâncias (deslocações) absorvidas pelos átomos de zinco.",
+    "E": "redução na densidade total de vacâncias que interagiram com outras vacâncias ou que foram absorvidas pelos átomos de zinco."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2014, Q23",
+   "q": "Um engenheiro precisava de chapas de alumínio comercialmente puro de 2 mm de espessura. O estoque da empresa carregava chapas de 2,5 mm e 4 mm de espessura de alumínio recristalizado. Como a empresa tinha um bom laminador, o engenheiro resolveu laminar a frio uma chapa de cada espessura e, depois, recristalizar as duas chapas laminadas na mesma temperatura e pelo mesmo tempo. Após o tratamento térmico de recristalização, amostras foram retiradas de cada peça para caracterização metalográfica, e o engenheiro observou que a(s) chapa(s) com espessura inicial de",
+   "alts": {
+    "A": "2,5 mm apresentava um tamanho médio dos grãos e um limite de escoamento maior que a chapa com espessura inicial de 4 mm.",
+    "B": "2,5 mm apresentava um tamanho médio de grãos maior e um limite de escoamento menor que a chapa com espessura inicial de 4 mm.",
+    "C": "4 mm apresentava um tamanho médio dos grãos e um limite de escoamento maior que a chapa com espessura inicial de 2,5 mm.",
+    "D": "4 mm apresentava um tamanho médio de grãos maior e um limite de escoamento menor que a chapa com espessura inicial de 2,5 mm.",
+    "E": "2,5 e 4 mm apresentavam, ambas, o mesmo tamanho médio dos grãos e o mesmo limite de escoamento médio."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2014, Q25",
+   "q": "Dois metais A e B apresentam um diagrama de equilíbrio de fases à pressão de uma atmosfera, como apresentado abaixo. Em relação ao que é apresentado no diagrama, considere as afirmativas a seguir. I - O resfriamento de uma liga contendo 25% de B começará com a formação da fase sólida . II - O resfriamento de uma liga contendo 25% de B começará com a formação da fase sólida . III - As fases líquido,  e  estão em equilíbrio simultâneo em uma única temperatura. Está correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas",
+    "B": "II, apenas",
+    "C": "I e III, apenas",
+    "D": "II e III, apenas",
+    "E": "I, II, e III"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2014, Q26",
+   "q": "Aços inoxidáveis possuem grande quantidade de cromo como elemento de liga, podendo ser produzidos como aços austeníticos, ferríticos e martensíticos. Sob determinadas condições de tratamentos térmicos, o cromo causa a formação de fases indesejáveis que reduzem a resistência à corrosão ou deterioram as propriedades mecânicas do aço. Um tratamento térmico NÃO poderá formar as seguintes fases nos aços inoxidáveis ricos em cromo:",
+   "alts": {
+    "A": "austenítica e carbonetos ricos em ferro",
+    "B": "austenítica e ferrítica",
+    "C": "ferrítica e carbonetos ricos em ferro",
+    "D": "ferrítica e carbonitretos de vanádio",
+    "E": "sigma e carbonetos ricos em cromo Considere o diagrama de equilíbrio de fases do sistema ferro-carbono apresentado a seguir, com valores aproximados das concentrações de carbono dos principais pontos e sem as indicações das fases presentes, para responder às questões de n os 27 e 28."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2014, Q27",
+   "q": "O uso desse diagrama permite deteminar como condição de tratamento que um aço",
+   "alts": {
+    "A": "eutetoide pode ser austenitizado a 1.515 o C.",
+    "B": "eutetoide pode ser austenitizado a 600 o C.",
+    "C": "com 0,75% C, aquecido a 750 o C e resfriado lentamente até a temperatura ambiente, irá formar austenita com 6,7% C e ferrita com 0,02% C.",
+    "D": "com 0,75% C, aquecido a 750 o C e resfriado lentamente até a temperatura ambiente, irá formar ferrita com 0,02% C e cementita com 6,7% C.",
+    "E": "com 0,75% C, aquecido a 750 o C e resfriado lentamente até a temperatura ambiente, irá formar austenita, com 0,75% C."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2014, Q28",
+   "q": "A quantidade de perlita formada pela austenitização de um aço ao carbono contendo 0,25% C seguida de resfriamento lento, em massa, é de",
+   "alts": {
+    "A": "49,9%",
+    "B": "89,1%",
+    "C": "10,9%",
+    "D": "68,5%",
+    "E": "31,5%"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2014, Q29",
+   "q": "Um aço com 0,4% em massa de carbono é aquecido na região bifásica e resfriado muito rapidamente em água com sal. A microestrutura observada no microscópio ótico é constituída de duas fases, a saber:",
+   "alts": {
+    "A": "ferrita e perlita",
+    "B": "ferrita e martensita",
+    "C": "ferrita e cementita",
+    "D": "austenita e perlita",
+    "E": "austenita e cementita"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2014, Q30",
+   "q": "Um aço ao carbono foi tratado termicamente num forno com atmosfera descarbonetante por 1 hora a 600 o C. Após o tratamento térmico, observou-se uma profundidade de descarbonetação de 0,223 mm. Sabe-se que a profundidade de descarbonetação – x – pode ser aproximada por x 2 =  D t, em que t é o tempo de permanência na temperatura de tratamento, D é o coeficiente de difusão do carbono, e  é uma constante associada à geometria da peça de aço. Sabendo-se que a energia de ativação para a difusão do carbono na ferrita é de 99.500 J/mol, e que a constante dos gases R = 8,314 J/mol.K, qual é a profundidade de descarbonetação se o tratamento desse aço for realizado a 700 o C, por uma hora?",
+   "alts": {
+    "A": "4,5 mm",
+    "B": "0,45 mm",
+    "C": "0,35 mm",
+    "D": "45 m",
+    "E": "35 m"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2014, Q31",
+   "q": "A curva TTT representa uma transformação de fase, ou mais de uma, em função da temperatura e do tempo. Essa curva é obtida através de tratamentos isotérmicos. No caso dos aços, o tratamento corresponde a uma austenitização em temperaturas elevadas, seguida de um resfriamento muito rápido para uma temperatura intermediária e manutenção nessa temperatura por um tempo suficientemente longo para que a transformação ocorra. A transformação da austenita em perlita costuma apresentar uma forma em C, demorando para ocorrer em temperaturas muito elevadas e muito baixas. Essa forma em C é resultado de um processo de nucleação e crescimento em que a",
+   "alts": {
+    "A": "nucleação demora muito para ocorrer em temperaturas muito elevadas e muito baixas.",
+    "B": "velocidade de crescimento ocorre muito lentamente em temperaturas muito elevadas e muito baixas.",
+    "C": "taxa de nucleação é constante para toda a faixa de temperatura, mas a velocidade de crescimento é mais lenta em temperaturas elevadas e mais rápida em temperaturas baixas",
+    "D": "taxa de nucleação é menor em temperaturas elevadas e maior em temperaturas baixas, mas a velocidade de crescimento é constante para toda a faixa de temperatura.",
+    "E": "taxa de nucleação é menor em temperaturas elevadas e maior em temperaturas baixas, mas a velocidade de crescimento é maior em temperaturas elevadas e menor em temperaturas baixas."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2014, Q32",
+   "q": "Aços de construção mecânica são ligas de ferro e carbono com adição de elementos de liga capazes de aumentar a resistência mecânica pela precipitação de carbonetos ou pelo aumento da temperabilidade. Nesses aços, os elementos que favorecem a precipitação de carbonetos são os seguintes:",
+   "alts": {
+    "A": "Si e Cr",
+    "B": "V e Si",
+    "C": "V e Mo",
+    "D": "Cr e N",
+    "E": "N e Mo"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2014, Q34",
+   "q": "A transformação martensítica gera uma fase metaestável nos aços, a qual apresenta propriedades mecânicas muito especiais. Em relação às características presentes nas transformações martensíticas, considere as afirmativas a seguir. I - A transformação martensítica em aços faz com que eles fiquem mais maleáveis porque o carbono se precipita na forma de carbonetos durante a transformação. II - A transformação martensítica em aços faz com que eles fiquem mais duros porque o carbono permanece em solução. III - Aços que sofrem a transformação martensítica ficam mais dúcteis porque o carbono permanece em solução. IV - A transformação martensítica em aços faz a estrutura cúbica de face centrada da austenita se transformar em tetragonal de corpo centrado. Estão corretas as afirmativas",
+   "alts": {
+    "A": "I e III, apenas",
+    "B": "II e IV, apenas",
+    "C": "I, III e IV, apenas",
+    "D": "II, III e IV, apenas",
+    "E": "I, II, III e IV"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2014, Q35",
+   "q": "Os tratamentos térmicos dos aços dependem fortemente da adição de solutos capazes de aumentar o campo austenítico ou o campo ferrítico e de precipitar carbonetos. Para aumentar o campo austenítico e favorecer a temperabilidade, o aço poderá ter os seguintes elementos de liga estabilizadores da austenita:",
+   "alts": {
+    "A": "N, Ni e Nb",
+    "B": "N, Cr e Si",
+    "C": "C, Cr e V",
+    "D": "C, Mn e Ni",
+    "E": "C, Nb e V"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2014, Q36",
+   "q": "A temperatura de austenitização de aços hipo-eutetoides está diretamente associada à linha A3 (ou Ae3) do diagrama de equilíbrio de fases do aço. O aço que apresentará a menor temperatura de austenitização será o",
+   "alts": {
+    "A": "1020",
+    "B": "1030",
+    "C": "1040",
+    "D": "1045",
+    "E": "1050"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2014, Q37",
+   "q": "Aços inoxidáveis duplex são uma categoria muito especial de aços inoxidáveis de grande aplicação na indústria do petróleo por apresentarem excelente resistência à corrosão. A microestrutura desses aços é constituída de maneira preponderante pelas seguintes fases:",
+   "alts": {
+    "A": "ferrita e carbonetos",
+    "B": "ferrita e austenita",
+    "C": "carbonetos e martensita",
+    "D": "austenita e fase sigma",
+    "E": "martensita e nitretos"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2014, Q38",
+   "q": "Diversos compósitos têm sido empregados pela indústria na construção de plataformas marítimas e nos sistemas de extração de petróleo. O compósito que envolve a participação de uma matriz polimérica e uma fibra cerâmica é o",
+   "alts": {
+    "A": "epóxi com fibras de Kevlar",
+    "B": "epóxi com fibras de vidro",
+    "C": "alumínio com fibras de carbono",
+    "D": "alumínio com nanotubos de titanato",
+    "E": "polietileno com fibras de sisal"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2014, Q40",
+   "q": "A fabricação de fornos para temperaturas acima de 800 o C requer o uso de metais resistentes na região quente do forno. A seguinte liga de metais pode ser empregada nessa região:",
+   "alts": {
+    "A": "alumínio e cobre",
+    "B": "alumínio e lítio",
+    "C": "níquel e cromo",
+    "D": "zinco e alumínio",
+    "E": "chumbo e estanho BLOCO 2"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2014, Q41",
+   "q": "Aços de baixa liga (quantidade total de solutos menor que 5% em massa) contendo teores mais elevados de fósforo ou antimônio são particularmente suscetíveis a um tipo de falha resultante de um tratamento térmico inapropriado. Esse tratamento térmico ocorre na faixa de temperatura de",
+   "alts": {
+    "A": "800 a 900 o C, causando a segregação desses elementos nos contornos intergranulares.",
+    "B": "800 a 900 o C, causando a não segregação desses elementos dos contornos intergranulares.",
+    "C": "800 a 900 o C, causando a precipitação da fase sigma.",
+    "D": "400 a 600 o C, causando a segregação desses elementos nos contornos intergranulares.",
+    "E": "400 a 600 o C, causando a precipitação da fase sigma."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2014, Q42",
+   "q": "Fluência é um fenômeno extremamente importante para equipamentos mantidos em temperaturas elevadas, tais como, por exemplo, caldeiras e turbinas a gás. O principal parâmetro de engenharia obtido de um ensaio de fluência é a taxa de deformação em regime estacionário que corresponde à região linear da curva de fluência em função do tempo. O que ocorre com essa taxa de fluência?",
+   "alts": {
+    "A": "Diminui com o aumento da temperatura e da tensão aplicada e aumenta com o aumento do tamanho de grão do material.",
+    "B": "Diminui com a redução da temperatura, da tensão aplicada e do tamanho de grão do material.",
+    "C": "Aumenta com o aumento da temperatura, da tensão aplicada e do tamanho de grão do material.",
+    "D": "Aumenta com o aumento da temperatura e diminui com o aumento da tensão aplicada e do tamanho de grão do material.",
+    "E": "Aumenta com o aumento da temperatura e da tensão aplicada e diminui com o aumento do tamanho de grão do material."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2014, Q43",
+   "q": "A temperatura de transição dúctil-frágil pode ser obtida experimentalmente através de vários ensaios mecânicos, como, por exemplo, o ensaio Charpy. O ensaio Charpy e a temperatura de transição obtida, no entanto, apresentam limitações bastante importantes para um emprego mais generalizado. Dentre essas limitações, destaca-se a seguinte:",
+   "alts": {
+    "A": "A energia absorvida para causar a fratura não depende da temperatura.",
+    "B": "A energia absorvida na condição frágil é maior do que na condição dúctil.",
+    "C": "A energia absorvida depende das dimensões do corpo de prova.",
+    "D": "A energia absorvida independe das dimensões do corpo de prova.",
+    "E": "A temperatura de transição independe das dimensões do corpo de prova."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2014, Q44",
+   "q": "Um determinado material empregado na fabricação de dutos para o transporte de água industrial apresentou corrosão por pites quando os dutos começaram a operar. Para solucionar o problema, os engenheiros responsáveis pela operação deverão propor a seguinte solução:",
+   "alts": {
+    "A": "Reduzir ou eliminar os ions de cloro - C\u0002 1 - da solução aquosa, aumentar a presença de agentes oxidantes e aplicar uma proteção catódica.",
+    "B": "Reduzir ou eliminar os ions de cloro - C\u0002 1 - da solução aquosa, reduzir a presença de agentes oxidantes e aplicar uma proteção catódica.",
+    "C": "Tornar a água mais salina dissolvendo NaC\u0002 como inibidor de corrosão, reduzir a acidez e a presença de agentes oxidantes.",
+    "D": "Tornar a água mais salina, dissolvendo NaC\u0002 como inibidor de corrosão, aumentar a acidez e a presença de agentes oxidantes.",
+    "E": "Aumentar a concentração de ions de C\u0002 1 na solução aquosa, aumentar a presença de agentes oxidantes e aplicar uma proteção catódica."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2014, Q48",
+   "q": "A sensitização de aços inoxidáveis austeníticos é um fenômeno que ocorre durante a soldagem ou o tratamento térmico desses aços. Esse fenômeno está associado à",
+   "alts": {
+    "A": "precipitação de carbonetos M 3 C ricos em ferro nos contornos intergranulares.",
+    "B": "precipitação de carbonetos M 23 C 6 ricos em cromo nos contornos intergranulares.",
+    "C": "precipitação de carbonetos MC ricos em nióbio nos contornos intergranulares.",
+    "D": "corrosão localizada nos carbonetos MC ricos em nióbio.",
+    "E": "corrosão uniforme por toda a superfície do aço."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2014, Q49",
+   "q": "A corrosão galvânica está presente nas mais diversas condições industriais em que se realiza contato elétrico entre dois metais distintos em um meio eletrolítico. Alguns contatos elétricos típicos são: zinco com ferro, ferro com cobre e cobre com prata. Os potenciais de redução estão apresentados a seguir. O que se constata quanto ao favorecimento da corrosão a partir do contato entre esses elementos?",
+   "alts": {
+    "A": "Zinco com ferro: corrosão do ferro; ferro com cobre: corrosão do cobre",
+    "B": "Zinco com ferro: corrosão do zinco; ferro com cobre: corrosão do cobre",
+    "C": "Ferro com cobre: corrosão do ferro; cobre com prata: corrosão do cobre",
+    "D": "Ferro com cobre: corrosão do ferro; cobre com prata: corrosão da prata",
+    "E": "Ferro com zinco: corrosão do zinco; cobre com prata: corrosão da prata"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2014, Q50",
+   "q": "Um aço inoxidável austenítico foi empregado para a fabricação de um reator contendo uma solução aquosa com concentração apreciável de NaC\u0002. Após alguns meses de produção, o reator apresentou corrosão em pontos localizados espalhados por toda a superfície do aço. Uma análise metalográfica constatou que os pontos de corrosão não estavam associados aos contornos dos grãos austeníticos. Essa corrosão é classificada como",
+   "alts": {
+    "A": "austenítica",
+    "B": "uniforme",
+    "C": "galvânica",
+    "D": "em frestas",
+    "E": "por pite"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2014, Q51",
+   "q": "A corrosão por pites é responsável por um quarto de todas as perdas industriais por corrosão. Dentre as características desse tipo de corrosão, encontra-se a de",
+   "alts": {
+    "A": "apresentar uma taxa lenta e uniforme de corrosão em toda a superfície do metal.",
+    "B": "apresentar uma alta taxa de corrosão localizada em pontos da superfície.",
+    "C": "depender do contato elétrico com um metal mais nobre.",
+    "D": "depender do contato elétrico com um metal menos nobre.",
+    "E": "não estar associada à presença de ions de Cl 1 em solução."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2014, Q53",
+   "q": "Uma viga de 2 m de comprimento e 500 ton está apoiada pelas extremidades em duas pilastras. Essas pilastras são de um material metálico com seção reta quadrada, e o material que as compõe possui as seguintes propriedades: módulo de Young de 70 GPa, limite de escoamento de 250 MPa e limite de resistência mecânica de 360 MPa. Qual é o menor lado da seção quadrada, em mm, para que a pilastra não sofra uma deformação plástica permanente?",
+   "alts": {
+    "A": "3,2",
+    "B": "10,0",
+    "C": "31,6",
+    "D": "83,3",
+    "E": "100 Dado força de aceleração da gravidade = 10 m/s 2"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2014, Q54",
+   "q": "Um eixo metálico que possui um limite de fadiga de 200 MPa é empregado num sistema mecânico sob um esforço de tensão que varia, segundo uma senoide, com o tempo. Sabendo-se que esforços trativos são positivos e esforços compressivos são negativos, a condição de esforço, em MPa, que não causará fadiga no material é a tensão dada pela expressão",
+   "alts": {
+    "A": "100 + 150 sen (2.000.t)",
+    "B": "150 + 100 sen (2.000.t)",
+    "C": "250 sen (2.000.t)",
+    "D": "100 + 150 sen (2.000.t)",
+    "E": "150 + 100 sen (2.000.t)"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2014, Q55",
+   "q": "A fragilização por hidrogênio é um dos problemas mais importantes no emprego de diversos materiais metálicos, mas alguns procedimentos podem ser desenvolvidos para evitar essa fragilização. O que se deve fazer para reduzir a fragilização por hidrogênio?",
+   "alts": {
+    "A": "Proteger a região da solda e a vizinhança da presença de água durante o processo de soldagem das peças metálicas.",
+    "B": "Molhar a região da solda com muita água durante o processo de soldagem das peças metálicas.",
+    "C": "Aumentar a taxa de corrosão durante o processo de limpeza de peça metálica em meio ácido.",
+    "D": "Tratar a peça metálica termicamente, a altas temperaturas, numa atmosfera rica em hidrogênio.",
+    "E": "Tratar a peça metálica termicamente, a altas temperaturas, numa atmosfera rica em água. BLOCO 3"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2014, Q57",
+   "q": "A soldagem é considerada como o mais importante processo de união metálica, apresentando aplicações variadas, que vão desde fabricações simples até estruturas e componentes sofisticados. Em muitas aplicações, a soldagem pode complementar outros processos de união e de fabricação ou competir com eles, o que significa que a escolha do processo a ser adotado tem influência sobre a qualidade final do produto. Ao se escolher adequadamente um processo de soldagem, deve-se considerar que",
+   "alts": {
+    "A": "o eletrodo e o metal de base não estabelecem o arco elétrico nas soldagens por TIG.",
+    "B": "o eletrodo não é consumido na soldagem por MAG.",
+    "C": "o diâmetro do eletrodo revestido não influencia na qualidade do cordão.",
+    "D": "os eletrodos revestidos não são responsáveis pela estabilização do arco elétrico na operação de soldagem.",
+    "E": "a largura do cordão não sofre influência da intensidade de corrente nos processos com eletrodos revestidos."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2014, Q58",
+   "q": "Devido às características básicas do ensaio, líquidos penetrantes possuem grande aplicação em produtos metálicos e não metálicos. Líquidos que contenham enxofre em sua composição química, porém, NÃO devem ser adotados na inspeção de produtos de",
+   "alts": {
+    "A": "aços de baixo carbono",
+    "B": "aços inoxidáveis austeníticos",
+    "C": "ferros fundidos modulares",
+    "D": "ligas de alumínio",
+    "E": "ligas de cobre"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2014, Q59",
+   "q": "Zona termicamente afetada (ZTA) é a região da junta soldada que não se fundiu, mas que teve sua microestrutura e propriedades alteradas pelos ciclos térmicos de aquecimento e resfriamento durante a operação de soldagem. Em relação à ZTA, considere as afirmativas a seguir. I - Na soldagem do alumínio, a mudança microestrutural mais marcante é o crescimento de grão. II - Nas ligas ferrosas, há um aquecimento acima da temperatura de transformação eutetoide. III - Nos aços inoxidáveis, grãos grosseiros estão localizados junto ao metal de base, enquanto grãos finos estão localizados junto ao metal de solda. É correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas",
+    "B": "II, apenas",
+    "C": "I e II, apenas",
+    "D": "II e III, apenas",
+    "E": "I, II e III"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2014, Q60",
+   "q": "Descontinuidades de soldagem podem ser definidas como falta de homogeneidades física, mecânica ou metalúrgica na junta soldada, não sendo, porém, consideradas necessariamente defeitos. A descontinuidade metalúrgica que apresenta a definição apropriada encontra-se em:",
+   "alts": {
+    "A": "Porosidade: aprisionamento de gases em zona termicamente afetada.",
+    "B": "Falta de fusão: ausência de fusão entre passes adjacentes.",
+    "C": "Falta de penetração: imperfeição no passe de recobrimento da junta.",
+    "D": "Mordedura: falta de fusão no passe da raiz.",
+    "E": "Trincas de hidrogênio: descontinuidades planares que ocorrem durante a solidificação da poça de fusão."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2014, Q61",
+   "q": "A principal finalidade do ensaio por ultrassom (US) é a detecção de descontinuidades internas através da introdução de um feixe ultrassônico que, introduzido numa direção favorável e refletido pela descontinuidade, será mostrado na tela do aparelho como um pico (eco). O objetivo de se aplicar US phased array em vez do US convencional é",
+   "alts": {
+    "A": "determinar a espessura residual de dutos.",
+    "B": "indicar defeito conhecido como dupla laminação.",
+    "C": "inspecionar materiais dissimilares com diferentes estruturas metalúrgicas.",
+    "D": "manter constante o ângulo de incidência do feixe ultrassônico.",
+    "E": "inspecionar cordões subsuperficiais em soldagem multipasses."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2014, Q62",
+   "q": "Aços carbono são utilizados em muitas aplicações industriais, em operações de soldagem, em função de suas variadas propriedades. Como características de soldagem, tem-se a(o)",
+   "alts": {
+    "A": "soldabilidade idêntica de aços hipo e hipereutetoides.",
+    "B": "formação de trincas de contração na zona termicamente afetada de aços de alto carbono, ocorrendo somente sob condição de resfriamento brusco da junta.",
+    "C": "dificuldade na soldagem dos aços de baixo carbono por qualquer processo a arco elétrico.",
+    "D": "influência das quantidades de Mn, Si, S e P na tenacidade ao impacto da junta soldada nos aços de baixo carbono e baixa liga.",
+    "E": "não trincamento da zona fundida nos aços de médio carbono."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2014, Q63",
+   "q": "Um aço carbono ligado (0,5% C, 3% Ni e 5% Cr) será soldado a um outro inoxidável (Cr eq = 32% e Ni eq = 10%) pelo processo TIG com metal de adição (Cr eq = 2% e Ni = 4%) e diluição de 20%. Disponível em:<http://www.denversa.com.br>. Acesso em: 04 fev. 2014. A microestrutura da zona fundida prevista pelo diagrama de Schaeffler mostrado acima é",
+   "alts": {
+    "A": "totalmente martensítica",
+    "B": "totalmente ferrítica",
+    "C": "totalmente austenítica",
+    "D": "parte martensítica e parte ferrítica",
+    "E": "parte austenítica e parte martensítica"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2014, Q64",
+   "q": "Ensaios radiográficos têm larga aplicação na indústria, permitindo a detecção de descontinuidades através de modificações na radiação ocasionadas por absorção pela matéria e passagens por descontinuidades. Tal técnica, porém, NÃO é recomendada para indicar",
+   "alts": {
+    "A": "trincas de corrosão",
+    "B": "trincas de fadiga",
+    "C": "trincas em inspeção de dutos",
+    "D": "junta fria em produtos fundidos",
+    "E": "falta de fusão em juntas soldadas ferrosas"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2014, Q65",
+   "q": "Apesar de todos os modernos métodos de ensaios não destrutivos, o ensaio visual continua sendo muito utilizado, devido à sua simplicidade. No ensaio visual, destaca-se que a(o)",
+   "alts": {
+    "A": "lupa é recomendada para a inspeção interna de tubos de pequeno diâmetro.",
+    "B": "qualificação do inspetor não influencia no processo da inspeção.",
+    "C": "precisão do paquímetro não influencia na determinação exata da espessura de chapas.",
+    "D": "sucesso da inspeção depende da posição do defeito.",
+    "E": "acabamento da superfície não influencia na inspeção."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2014, Q66",
+   "q": "A microestrutura da região de uma solda a arco de duas placas laminadas de aço de baixa liga, na condição normalizada, contendo 0,3% de carbono, apresenta regiões com morfologias e propriedades bem distintas. A zona termicamente afetada é caracterizada por",
+   "alts": {
+    "A": "composição distinta do metal de base",
+    "B": "microestrutura com grãos colunares e dentritas",
+    "C": "microestrutura de ferrita, bainita e martensita",
+    "D": "microestrutura de ferrita pura",
+    "E": "microestrutura de perlita pura"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2014, Q67",
+   "q": "As leis do magnetismo estão presentes no ensaio não destrutivo de partículas magnéticas, o que permite a indicação de descontinuidades em equipamentos. Nesse contexto, verifica-se que esse ensaio",
+   "alts": {
+    "A": "se aplica com as partículas em suspensão no ar, na água ou num destilado leve de petróleo.",
+    "B": "indica somente descontinuidades superficiais.",
+    "C": "não indica marcas da usinagem do equipamento.",
+    "D": "não detecta inclusões não metálicas em juntas soldadas.",
+    "E": "não é influenciado pela orientação da descontinuidade."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2014, Q68",
+   "q": "Ensaios não destrutivos são técnicas aplicadas a materiais, equipamentos e estruturas com o objetivo de avaliar propriedades, desempenho e integridade sem comprometer suas futuras aplicações. A sequência das etapas associadas com ensaios não destrutivos inicia-se com aplicação e prossegue com",
+   "alts": {
+    "A": "modificação, detecção, conversão e interpretação",
+    "B": "modificação, detecção, interpretação e conversão",
+    "C": "detecção, modificação, conversão e interpretação",
+    "D": "detecção, modificação, interpretação e conversão",
+    "E": "detecção, interpretação, modificação e conversão"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2014, Q69",
+   "q": "Lingotes fundidos no estado bruto possuem variações microestruturais que estão associadas a zonas distintas conhecidas como zonas equiaxial central, colunar e equiaxial superficial. Em relação a essas três zonas distintas, considere as afirmativas abaixo. I - A zona colunar apresenta crescimento dendrítico, o qual ocorre de maneira contrária ao fluxo térmico. II - A zona equiaxial central somente ocorre se o líquido no interior do lingote apresentar um super-resfriamento. III - A zona equiaxial superficial apresenta a maior ductibilidade entre as três. É correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas",
+    "B": "II, apenas",
+    "C": "I e III, apenas",
+    "D": "II e III, apenas",
+    "E": "I, II e III"
+   },
+   "correta": "A"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   24,
+   33,
+   39,
+   45,
+   47,
+   52,
+   56,
+   70
+  ],
+  "quebradas": [
+   46
+  ]
+ }
+}

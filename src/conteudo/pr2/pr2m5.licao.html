@@ -1,0 +1,53 @@
+<p><strong>1. Programação linear.</strong> Todo problema tem <strong>função objetivo linear</strong>, <strong>variáveis de decisão</strong> e <strong>restrições lineares</strong> (mais a não negatividade). Fatos que a banca cobra sem cálculo:</p>
+<ul>
+<li>A região viável é um <strong>poliedro convexo</strong>; se existe ótimo, existe ótimo em um <strong>vértice</strong>.</li>
+<li>Pode haver <strong>solução única</strong>, <strong>infinitas soluções</strong> (objetivo paralelo a uma restrição), <strong>solução ilimitada</strong> ou <strong>inviabilidade</strong>.</li>
+<li><strong>Preço-sombra</strong> (dual) = quanto o valor ótimo melhora se a disponibilidade daquele recurso aumentar em uma unidade. Recurso <strong>não esgotado</strong> (folga &gt; 0) tem preço-sombra <strong>zero</strong>.</li>
+<li>Restrição <strong>ativa</strong> é a que "aperta" a solução; é nela que vale a pena investir.</li>
+</ul>
+
+<p><strong>2. Heurísticas e meta-heurísticas.</strong> São usadas quando o problema é combinatório e o método exato é inviável no tempo disponível — casos <strong>NP-difíceis</strong> como roteirização, sequenciamento e localização. A heurística dá <strong>boa solução rápida, sem garantia de otimalidade</strong>; a meta-heurística é uma estratégia geral que <strong>escapa de ótimos locais</strong>: algoritmos genéticos, busca tabu, recozimento simulado (<em>simulated annealing</em>), colônia de formigas, GRASP, enxame de partículas.</p>
+
+<p><strong>3. Probabilidade — o essencial.</strong></p>
+<p><strong>Complementar:</strong> P(pelo menos um) = 1 − P(nenhum). Com <em>n</em> tentativas independentes de probabilidade <em>p</em>: <strong>P(ao menos um sucesso) = 1 − (1 − p)<sup>n</sup></strong>. Com p = 1/3 e n = 3: 1 − (2/3)³ = <strong>19/27</strong>.</p>
+<p><strong>União:</strong> P(A∪B) = P(A) + P(B) − P(A∩B). <strong>Independentes:</strong> P(A∩B) = P(A)·P(B).</p>
+<p><strong>Condicional:</strong> P(A|B) = P(A∩B) ÷ P(B). <strong>Bayes:</strong> P(A|B) = P(B|A)·P(A) ÷ P(B) — daí sai a identidade cobrada: <strong>P(X)·P(Y|X) = P(Y)·P(X|Y)</strong>.</p>
+<p><strong>Encadeamento de eventos</strong> (árvore): vazamento → incêndio (1 %) → dano (…): multiplicam-se as probabilidades ao longo do ramo.</p>
+
+<p><strong>4. Distribuições que aparecem.</strong> <strong>Binomial</strong> (n tentativas, sucesso/fracasso): média <em>np</em>, variância <em>np</em>(1−<em>p</em>). <strong>Poisson</strong> (eventos raros por intervalo): média = variância = λ. <strong>Normal</strong>: simétrica, definida por μ e σ; 68 % em ±1σ, 95 % em ±2σ, 99,7 % em ±3σ. Na normal padrão (μ = 0, σ = 1), P(Z &gt; 0) = 0,5 e a simetria dá P(Z &lt; −a) = P(Z &gt; a). <strong>Exponencial</strong>: tempo entre falhas quando a taxa é constante — é a distribuição sem memória.</p>
+
+<p><strong>5. Medidas descritivas.</strong> <strong>Variância</strong> σ² = média dos quadrados dos desvios; <strong>desvio-padrão</strong> σ = √σ². Propriedades cobradas:</p>
+<ul>
+<li>Somar constante a todos os dados: <strong>média muda, variância não</strong>.</li>
+<li>Multiplicar todos por <em>k</em>: <strong>média fica ×k, variância fica ×k², desvio-padrão ×|k|</strong>.</li>
+<li><strong>Coeficiente de variação = σ ÷ μ</strong> — é o que permite comparar dispersões de séries com médias diferentes.</li>
+<li>Cálculo prático: <strong>σ² = média dos quadrados − quadrado da média</strong>.</li>
+</ul>
+
+<p><strong>6. Confiabilidade e curva da banheira.</strong> A taxa de falha ao longo da vida tem três fases: <strong>mortalidade infantil</strong> (taxa decrescente, defeito de fabricação/montagem), <strong>vida útil</strong> (taxa <strong>constante</strong>, falhas aleatórias — vale a exponencial) e <strong>desgaste</strong> (taxa crescente).</p>
+<p>Com taxa constante λ: <strong>R(t) = e<sup>−λt</sup></strong> e <strong>MTBF = 1/λ</strong>. Arranjos:</p>
+<p><strong>Série:</strong> R = R₁·R₂·…·R<sub>n</sub> (menor que a menor peça). <strong>Paralelo (redundância):</strong> R = 1 − ∏(1 − R<sub>i</sub>).</p>
+<p><strong>Disponibilidade = MTBF ÷ (MTBF + MTTR)</strong>. Aumentar a disponibilidade se faz aumentando o MTBF (confiabilidade) <em>ou</em> reduzindo o MTTR (mantenabilidade).</p>
+
+<p><strong>7. Políticas de manutenção.</strong></p>
+<table>
+<thead>
+<tr><th>Política</th><th>Quando agir</th><th>Indicada para</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Corretiva não planejada</strong></td><td>depois da quebra</td><td>item barato, sem impacto, redundante</td></tr>
+<tr><td><strong>Corretiva planejada</strong></td><td>depois da falha detectada, em data escolhida</td><td>quando a falha é previsível e tolerável</td></tr>
+<tr><td><strong>Preventiva</strong></td><td>em intervalo fixo de tempo ou uso</td><td>quando há <strong>desgaste</strong> conhecido</td></tr>
+<tr><td><strong>Preditiva</strong></td><td>quando o monitoramento indica</td><td>equipamento crítico e caro (vibração, termografia, análise de óleo)</td></tr>
+<tr><td><strong>Detectiva</strong></td><td>teste de função oculta</td><td>alarmes e sistemas de segurança</td></tr>
+</tbody>
+</table>
+<p><strong>Regra de decisão:</strong> preventiva só compensa se a taxa de falha for <strong>crescente</strong> (fase de desgaste). Em item com taxa de falha <strong>constante</strong>, trocar antes da hora não reduz a probabilidade de falha — é desperdício. Ferramentas: <strong>RCM</strong> (manutenção centrada em confiabilidade), <strong>FMEA</strong> (com o <strong>NPR = severidade × ocorrência × detecção</strong>) e <strong>TPM</strong>, com seus oito pilares e a meta de zero falha/zero defeito, medida pelo <strong>OEE</strong>.</p>
+
+<p><strong>8. Teoria das filas.</strong> Notação <strong>A/B/c</strong> (chegada/atendimento/servidores). Para M/M/1 com taxa de chegada λ e de atendimento μ: <strong>ρ = λ/μ</strong> (utilização), <strong>L = ρ/(1−ρ)</strong> (nº médio no sistema), <strong>W = 1/(μ−λ)</strong> (tempo médio no sistema). O ponto que a prova explora: quando ρ tende a 1, <strong>a fila explode</strong> — por isso operações de serviço não devem trabalhar com utilização próxima de 100 %. <strong>Lei de Little: L = λ·W</strong>, válida para qualquer fila estável.</p>
+
+<p><strong>9. Teoria da decisão e árvores.</strong> Critérios sob <strong>incerteza</strong>: <em>maximin</em> (pessimista), <em>maximax</em> (otimista), <em>minimax arrependimento</em> (Savage), Laplace (equiprobabilidade) e Hurwicz (mistura otimista/pessimista). Sob <strong>risco</strong> (probabilidades conhecidas): escolhe-se o maior <strong>valor monetário esperado (VME)</strong>. Numa <strong>árvore de decisão</strong>, o cálculo é feito de <strong>trás para frente</strong> (<em>rollback</em>): nos nós de acaso, calcula-se a esperança; nos nós de decisão, escolhe-se o melhor ramo. Esse é o método para comparar, por exemplo, automatizar (R$ 10 mi) × renegociar contratos (R$ 5 mi) quando cada opção pode gerar ganho alto ou baixo com probabilidades dadas.</p>
+
+<p><strong>10. Simulação.</strong> Usada quando o sistema é complexo demais para solução analítica: <strong>Monte Carlo</strong> (amostragem aleatória de distribuições) e <strong>simulação de eventos discretos</strong> (filas, chão de fábrica). Não dá a solução ótima — dá a <strong>distribuição dos resultados possíveis</strong>, e por isso é a ferramenta natural de análise de risco.</p>
+
+<p><strong>Resumo de véspera:</strong> ótimo da PL está num vértice; folga positiva ⇒ preço-sombra zero; P(ao menos um) = 1 − (1−p)ⁿ; multiplicar dados por k multiplica a variância por k²; série multiplica confiabilidades; preventiva só compensa com taxa de falha crescente; disponibilidade = MTBF/(MTBF+MTTR); L = λW; árvore de decisão se resolve de trás para frente.</p>

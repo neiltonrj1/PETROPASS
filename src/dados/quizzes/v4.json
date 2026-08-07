@@ -1,0 +1,434 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q10",
+  "q": "O acento indicativo de crase está corretamente empregado em:",
+  "alts": {
+   "A": "O médico atendia à domicílio.",
+   "B": "A perna de Virgínia piorava hora à hora.",
+   "C": "Anunciata fazia rezas à partir do meio-dia.",
+   "D": "Minha mãe levou à milagreira um bolo de fubá.",
+   "E": "O sobrinho da benzedeira assistiu à todas as sessões."
+  },
+  "correta": "D",
+  "explica": "Crase é a fusão da preposição a (exigida por levar algo A alguém) com o artigo a (aceito por 'a milagreira'). Teste do masculino: levou AO curandeiro, logo levou À milagreira. As demais alternativas violam os 'nuncas' da crase.",
+  "erradas": {
+   "A": "Não há crase antes de palavra masculina: o correto é 'a domicílio'.",
+   "B": "Não há crase em expressões com palavras repetidas: 'hora a hora'.",
+   "C": "Não há crase antes de verbo: 'a partir do meio-dia'.",
+   "E": "Não há crase antes do pronome indefinido 'todas': 'a todas as sessões'."
+  },
+  "pontos": [
+   "Troque por palavra masculina: se der 'ao', há crase (à milagreira = ao curandeiro).",
+   "Decore os 6 nuncas: masculino, verbo, numeral, plural com 'a' singular, palavras repetidas, pronomes sem artigo.",
+   "A banca monta 4 alternativas erradas justamente com esses 'nuncas' — elimine por eles primeiro."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q7",
+  "q": "De acordo com a norma-padrão, a frase que NÃO precisa ser corrigida é:",
+  "alts": {
+   "A": "Houveram muitos acertos naquela prova.",
+   "B": "Existia poucos alunos com dúvidas na sala.",
+   "C": "Ocorreram poucas dúvidas sobre a matéria.",
+   "D": "Devem haver muitos aprovados este ano.",
+   "E": "Vão fazer dois anos que estudei a matéria."
+  },
+  "correta": "C",
+  "explica": "Ocorrer NÃO é verbo impessoal: concorda normalmente com o sujeito 'poucas dúvidas', logo 'Ocorreram' está correto. Já haver (= existir) e fazer (tempo) são impessoais e ficam no singular, e o auxiliar herda essa impessoalidade.",
+  "erradas": {
+   "A": "Haver no sentido de existir é impessoal: 'Houve muitos acertos'.",
+   "B": "Existir NÃO é impessoal e concorda com o sujeito: 'Existiam poucos alunos'.",
+   "D": "O auxiliar herda a impessoalidade de haver: 'Deve haver muitos aprovados'.",
+   "E": "O auxiliar herda a impessoalidade de fazer (tempo): 'Vai fazer dois anos'."
+  },
+  "pontos": [
+   "Haver (= existir) e fazer (tempo/clima) ficam sempre na 3ª pessoa do singular; existir/ocorrer/acontecer concordam normalmente.",
+   "Isca clássica da banca: flexionar o auxiliar ('Devem haver', 'Vão fazer') — o auxiliar também fica no singular.",
+   "A banca mistura de propósito: haver singular versus existir plural na mesma questão."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q16",
+  "q": "No fragmento \"I couldn't turn down the great starting salary and a chance to live in New Orleans\", the expression 'turn down' could be replaced, without change in meaning, by",
+  "alts": {
+   "A": "refuse",
+   "B": "take",
+   "C": "accept",
+   "D": "request",
+   "E": "understand"
+  },
+  "correta": "A",
+  "explica": "Turn down é phrasal verb que significa recusar (refuse). O contexto confirma: 'I couldn't turn down the great starting salary' = não pude recusar o ótimo salário inicial.",
+  "erradas": {
+   "B": "Take (aceitar/pegar) inverte a lógica do 'couldn't': 'não pude aceitar' contradiz o contexto.",
+   "C": "Accept é o oposto de turn down; com 'couldn't' o sentido ficaria invertido.",
+   "D": "Request (solicitar) não corresponde ao sentido de turn down.",
+   "E": "Understand (entender) não tem relação com o sentido de recusar."
+  },
+  "pontos": [
+   "Substitua a alternativa na frase original: se o sentido do contexto se mantém, é a resposta.",
+   "Pegadinha típica: alternativas com sentido oposto (accept/take) que parecem caber por causa da negação 'couldn't'.",
+   "Phrasal verbs já cobrados pela banca: turn down = recusar; take stock = avaliar; point out = apontar; run out = esgotar-se."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q4",
+  "q": "O acento grave está empregado de acordo com a norma-padrão em:",
+  "alts": {
+   "A": "Ensinar implica à necessidade de também aprender.",
+   "B": "Os professores sempre visam à evolução dos alunos.",
+   "C": "A educação se constrói à duras penas.",
+   "D": "Recorrer à métodos pedagógicos alternativos é fundamental.",
+   "E": "É importante criar discussões àcerca do ensino."
+  },
+  "correta": "B",
+  "explica": "Visar no sentido de 'ter por objetivo' é transitivo indireto e rege a preposição 'a'; como 'a evolução' aceita artigo feminino, ocorre a crase: visam à evolução (teste: visam AO progresso).",
+  "erradas": {
+   "A": "Implicar no sentido de 'acarretar' é transitivo direto: 'implica a necessidade', sem crase.",
+   "C": "Locução com palavra no plural e 'a' no singular não tem crase: 'a duras penas'.",
+   "D": "Não há crase antes de palavra masculina no plural: 'a métodos'.",
+   "E": "'Acerca de' (= sobre) é palavra única e jamais recebe acento grave."
+  },
+  "pontos": [
+   "Crase é consequência de regência: primeiro verifique se o verbo pede 'a', depois se o termo seguinte aceita 'a'.",
+   "Verbos favoritos da banca: visar a, aspirar a (desejar), obedecer a, assistir a (ver) — e implicar (acarretar) SEM preposição.",
+   "Teste do masculino: visam à evolução = visam ao progresso."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q9",
+  "q": "De acordo com as normas da linguagem padrão, a colocação pronominal está INCORRETA em:",
+  "alts": {
+   "A": "Virgínia encontrava-se acamada há semanas.",
+   "B": "A ferida não se curava com os remédios.",
+   "C": "A benzedeira usava uma peruca que não favorecia-a.",
+   "D": "Imediatamente lhe deram uma caneta-tinteiro vermelha.",
+   "E": "Enquanto se rezavam Ave-Marias, a ferida era circundada."
+  },
+  "correta": "C",
+  "explica": "Há dois atrativos antes do verbo — o pronome relativo 'que' e a negação 'não' —, o que torna a próclise obrigatória: 'que não a favorecia'. A ênclise 'favorecia-a' após negação é erro grave.",
+  "erradas": {
+   "A": "Correta: sujeito expresso antes do verbo permite ênclise facultativa ('encontrava-se').",
+   "B": "Correta: a negação 'não' atrai o pronome ('não se curava').",
+   "D": "Correta: advérbio sem vírgula ('Imediatamente') atrai o pronome ('lhe deram').",
+   "E": "Correta: conjunção subordinativa 'enquanto' atrai o pronome ('se rezavam')."
+  },
+  "pontos": [
+   "Palavras atrativas exigem próclise: Negação, Relativos, Advérbios sem vírgula, Indefinidos, Conjunções subordinativas, interrogativos (N-R-A-I-C-Q).",
+   "Ênclise após 'não' ou após relativo 'que' é a alternativa errada favorita da banca.",
+   "Atenção ao comando INCORRETA: procure a frase errada, não a certa."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q5",
+  "q": "Observe o uso dos sinais de pontuação do trecho: \"Há, de igual forma, entre os mais afortunados, aqueles ligados à indústria, voltados para a construção civil, o mobiliário, a ourivesaria e o fabrico de bebidas.\" Qual das reescrituras desse trecho emprega corretamente os sinais de pontuação?",
+  "alts": {
+   "A": "Há, entre os mais afortunados de igual forma, aqueles ligados à indústria voltados para a construção civil, o mobiliário, a ourivesaria, e o fabrico de bebidas.",
+   "B": "De igual forma, há, entre os mais afortunados, aqueles ligados à indústria, voltados para a construção civil, o mobiliário, a ourivesaria e o fabrico de bebidas.",
+   "C": "Entre os mais afortunados, há de igual forma, aqueles ligados à indústria, voltados para a construção civil, o mobiliário, a ourivesaria, e o fabrico de bebidas.",
+   "D": "Há entre os mais afortunados de igual forma, aqueles ligados à indústria, voltados para a construção civil, o mobiliário, a ourivesaria e o fabrico de bebidas.",
+   "E": "De igual forma, entre os mais afortunados, há, aqueles, ligados à indústria, voltados para a construção civil, o mobiliário, a ourivesaria e o fabrico de bebidas."
+  },
+  "correta": "B",
+  "explica": "Adjunto adverbial deslocado para o início ('De igual forma') recebe vírgula depois; adjunto intercalado ('entre os mais afortunados') fica entre vírgulas; e a enumeração final 'A, B, C e D' não admite vírgula antes do 'e'.",
+  "erradas": {
+   "A": "Coloca vírgula indevida antes do 'e' final da enumeração e desloca 'de igual forma' quebrando o par de vírgulas.",
+   "C": "Não fecha corretamente o par de vírgulas do adjunto intercalado e insere vírgula antes do 'e' final.",
+   "D": "Deixa o adjunto intercalado sem abrir a vírgula ('Há entre os mais afortunados de igual forma,').",
+   "E": "Separa 'aqueles' de 'ligados' com vírgula, violando a regra de nunca separar nome de seu complemento essencial."
+  },
+  "pontos": [
+   "Adjunto deslocado para o início exige vírgula depois; intercalado exige o PAR de vírgulas (abrir e fechar).",
+   "Na série 'A, B, C e D' não cabe vírgula antes do 'e' final (salvo quebra intencional de série).",
+   "Nunca separe por vírgula sujeito de verbo, verbo de complemento nem nome de adjunto essencial."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018 Transpetro, Q9",
+  "q": "Em português, o acento grave indica a contração de dois \"a\" em um só, em um processo chamado crase, e está corretamente empregado em:",
+  "alts": {
+   "A": "Verei a política de outra forma à partir daquela conversa.",
+   "B": "Daqui à duas horas Lobo Neves receberá os amigos com alegria.",
+   "C": "Assistimos à apresentações inflamadas de alguns deputados e senadores.",
+   "D": "Em referência àqueles pensamentos, Lobo Neves calou-os rapidamente.",
+   "E": "A política, à qual não quero mais em minha vida, causou-me muitos problemas."
+  },
+  "correta": "D",
+  "explica": "'Em referência a' rege a preposição 'a', que se funde com o 'a' inicial do demonstrativo 'aqueles', formando 'àqueles' — crase obrigatória com aquele(s), aquela(s), aquilo quando o termo regente pede 'a'.",
+  "erradas": {
+   "A": "Não há crase antes de verbo: 'a partir daquela conversa'.",
+   "B": "Não há crase antes de numeral no sentido de 'daqui a': 'daqui a duas horas'.",
+   "C": "Não há crase antes de plural com 'a' no singular: 'a apresentações'.",
+   "E": "Querer (desejar) é transitivo direto: 'não quero a política' não admite preposição, logo 'à qual' está errado."
+  },
+  "pontos": [
+   "Àquele/àquela/àquilo: crase obrigatória sempre que o regente exige 'a' (referência a + aqueles = àqueles).",
+   "Os nuncas eliminam rápido: verbo (A), numeral (B) e plural com 'a' singular (C).",
+   "Em 'à qual/a qual', verifique a regência do verbo da oração adjetiva: verbo transitivo direto não aceita a preposição."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q12",
+  "q": "No fragmento \"we urgently need to take stock of policy initiatives around the world\", the expression 'take stock' means to",
+  "alts": {
+   "A": "reevaluate controversial decisions.",
+   "B": "plan ahead to overcome potential difficulties.",
+   "C": "make an overall assessment of a particular situation.",
+   "D": "discard unnecessary measures or questionable actions.",
+   "E": "get rid of all inefficient or superficial solutions to a problem."
+  },
+  "correta": "C",
+  "explica": "Take stock (of) significa fazer um balanço, uma avaliação geral de uma situação — metáfora do inventário (stock = estoque). É exatamente 'make an overall assessment of a particular situation'.",
+  "erradas": {
+   "A": "'Reevaluate controversial decisions' restringe demais: a expressão fala de avaliação geral, não só de decisões controversas.",
+   "B": "Planejar o futuro (plan ahead) não é o sentido: take stock avalia o presente/passado.",
+   "D": "Descartar medidas (discard) é ação que não está contida na expressão.",
+   "E": "Livrar-se de soluções (get rid of) é outro phrasal verb, sem relação com take stock."
+  },
+  "pontos": [
+   "Take stock (of) = fazer um balanço/avaliação geral; pense no inventário de um estoque.",
+   "Pegadinha da banca: alternativas que restringem demais o escopo ('controversial', 'all', 'only') costumam estar erradas.",
+   "Nas questões de expressão idiomática, ignore a tradução literal palavra a palavra."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q5",
+  "q": "A frase cuja regência do verbo respeita a norma-padrão é:",
+  "alts": {
+   "A": "Esquecemo-nos daquelas regras gramaticais.",
+   "B": "Os professores avisaram aos alunos da prova.",
+   "C": "Deve-se obedecer o português padrão.",
+   "D": "Assistimos uma aula brilhante.",
+   "E": "Todos aspiram o término do curso."
+  },
+  "correta": "A",
+  "explica": "Esquecer, quando pronominal (esquecer-se), exige a preposição 'de': 'Esquecemo-nos daquelas regras'. Sem o pronome, seria transitivo direto: 'esquecemos aquelas regras'. Misturar as duas construções é o erro cobrado.",
+  "erradas": {
+   "B": "Avisar admite um complemento com preposição e outro sem: 'avisaram os alunos da prova' ou 'avisaram aos alunos a prova' — nunca os dois preposicionados.",
+   "C": "Obedecer rege 'a': 'obedecer ao português padrão'.",
+   "D": "Assistir no sentido de 'ver' rege 'a': 'assistimos a uma aula'.",
+   "E": "Aspirar no sentido de 'desejar' rege 'a': 'aspiram ao término'."
+  },
+  "pontos": [
+   "Esquecer/lembrar: com pronome pede 'de' (esqueci-me de); sem pronome é direto (esqueci as regras).",
+   "Obedecer, assistir (ver) e aspirar (desejar) sempre com 'a' — trio favorito da banca.",
+   "Avisar/informar: dois complementos com a mesma preposição é sempre erro."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q4",
+  "q": "De acordo com a ortografia da língua portuguesa, a frase correta é:",
+  "alts": {
+   "A": "A última paralização ocorreu há cerca de dois anos.",
+   "B": "A última paralizassão ocorreu acerca de dois anos.",
+   "C": "A última paralização ocorreu a cerca de dois anos.",
+   "D": "A última paralisação ocorreu há cerca de dois anos.",
+   "E": "A última paralisação ocorreu a cerca de dois anos."
+  },
+  "correta": "D",
+  "explica": "Paralisar deriva de paralisia (com s), logo se escreve paralisação. E o fato ocorreu no passado: 'há cerca de dois anos' = faz aproximadamente dois anos (verbo haver indicando tempo decorrido).",
+  "erradas": {
+   "A": "'Paralização' com z está errado: o radical tem s (paralisia).",
+   "B": "'Paralizassão' e 'acerca de' (= sobre) estão ambos errados no contexto.",
+   "C": "Além do z indevido, 'a cerca de' indicaria distância/estimativa, não tempo passado.",
+   "E": "'A cerca de' indica distância ou quantidade aproximada, não tempo decorrido — o correto é 'há'."
+  },
+  "pontos": [
+   "-isar quando o radical tem s: analisar, pesquisar, paralisar (de paralisia); -izar quando não tem (realizar).",
+   "Há = tempo passado (= faz); a = tempo futuro/distância (daqui a dois anos).",
+   "Trio da banca: há cerca de (faz aproximadamente), acerca de (sobre), a cerca de (a uma distância aproximada de)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q16",
+  "q": "No fragmento \"Less field maintenance in the North Sea and easing geopolitical tensions could also add further barrels in the coming two quarters\", the word 'quarters' means a(an)",
+  "alts": {
+   "A": "time unit equivalent to the fourth part of a year",
+   "B": "time unit equivalent to the fourth part of an hour",
+   "C": "time unit equivalent to four months of the year",
+   "D": "volume measure unit equivalent to the fourth part of a gallon",
+   "E": "American coin worth 25 cents of a dollar"
+  },
+  "correta": "A",
+  "explica": "Em relatórios de mercado, quarter = trimestre, a quarta parte do ano. 'The coming two quarters' = os próximos dois trimestres. O contexto econômico (barris, produção) confirma o sentido temporal-financeiro.",
+  "erradas": {
+   "B": "Quarter como 15 minutos (quarto de hora) não cabe no contexto de projeção de produção.",
+   "C": "Trimestre são três meses, não quatro — pegadinha aritmética.",
+   "D": "O sentido de medida de volume (quarto de galão) está fora do contexto.",
+   "E": "A moeda de 25 cents é outro sentido de quarter, irrelevante aqui."
+  },
+  "pontos": [
+   "Vocabulário em contexto: o sentido é o do texto (relatório de mercado), não o primeiro do dicionário.",
+   "Quarter = trimestre = 3 meses (quarta parte de 12); a alternativa 'four months' é a pegadinha clássica.",
+   "A banca lista os vários sentidos reais da palavra — só um serve ao contexto."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018 Transpetro, Q10",
+  "q": "O período que atende plenamente às exigências da concordância verbal na norma-padrão da língua portuguesa é:",
+  "alts": {
+   "A": "Mais de um mandato foram exercidos por Lobo Neves.",
+   "B": "Fazem quinze anos que ele conseguiu entrar para a vida pública.",
+   "C": "Necessita-se de políticos mais compromissados com a população.",
+   "D": "Com certeza, haviam mais de trinta deputados no plenário naquele dia.",
+   "E": "Reeleger-se-á, somente, os políticos com um histórico de trabalho honesto."
+  },
+  "correta": "C",
+  "explica": "Necessitar de é transitivo indireto; com 'se', o pronome é índice de indeterminação do sujeito e o verbo fica invariável no singular: 'Necessita-se de políticos'. Não há passiva possível (sobra a preposição 'de').",
+  "erradas": {
+   "A": "'Mais de um' leva o verbo ao singular: 'Mais de um mandato foi exercido'.",
+   "B": "Fazer indicando tempo é impessoal: 'Faz quinze anos'.",
+   "D": "Haver (= existir) é impessoal: 'havia mais de trinta deputados'.",
+   "E": "Passiva sintética com sujeito plural: 'Reeleger-se-ão os políticos'."
+  },
+  "pontos": [
+   "Teste do 'se': se der passiva analítica ('os políticos serão reeleitos'), o verbo concorda; se sobrar preposição, fica no singular.",
+   "VTI/VI + se = indeterminação = singular sempre (necessita-se de, precisa-se de, vive-se).",
+   "'Mais de um' + singular = verbo no singular; haver e fazer impessoais = singular."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q9",
+  "q": "Um professor de gramática tradicional, ao corrigir uma redação, leu o trecho a seguir e percebeu algumas inadequações: \"Os grevistas sabiam o porque da greve, mas não entendiam porque havia tanta repressão.\" O professor corrigirá essas inadequações, produzindo o seguinte texto:",
+  "alts": {
+   "A": "Os grevistas sabiam o por quê da greve, mas não entendiam porque havia tanta repressão.",
+   "B": "Os grevistas sabiam o porque da greve, mas não entendiam porquê havia tanta repressão.",
+   "C": "Os grevistas sabiam o porquê da greve, mas não entendiam por que havia tanta repressão.",
+   "D": "Os grevistas sabiam o por que da greve, mas não entendiam porque havia tanta repressão.",
+   "E": "Os grevistas sabiam o porquê da greve, mas não entendiam porquê havia tanta repressão."
+  },
+  "correta": "C",
+  "explica": "'Sabiam o porquê': precedido de artigo 'o', é substantivo — junto e com acento. 'Não entendiam por que havia': interrogativa indireta (= por qual razão) — separado e sem acento, pois não está em fim de frase.",
+  "erradas": {
+   "A": "'O por quê' está errado: com artigo, o porquê substantivado se escreve junto; e 'porque' junto não serve para interrogativa indireta.",
+   "B": "Mantém 'o porque' sem acento (substantivo exige acento) e usa 'porquê' acentuado fora de fim de frase.",
+   "D": "'O por que' separado está errado para o substantivo; e a interrogativa indireta pede 'por que' separado, não 'porque'.",
+   "E": "'Porquê' com acento só em fim de frase ou como substantivo com artigo — na interrogativa indireta é 'por que'."
+  },
+  "pontos": [
+   "Com artigo (o/um) = substantivo = porquê (junto, com acento).",
+   "Pergunta direta ou indireta = por que (separado); só ganha acento (por quê) em fim de frase.",
+   "Resposta/causa = porque (junto, sem acento)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q5",
+  "q": "No diálogo abaixo, cada fala corresponde a um número.\nI — Por que ele adquiriu somente um ingresso!\nII — Comprou dois: um para você outro para mim.\nIII — Mas ele saiu daqui dizendo: \"Só comprarei o meu!\"\nIV — Pelo visto você acredita em tudo, o que ele diz.\nEm relação ao diálogo, a pontuação está correta APENAS em",
+  "alts": {
+   "A": "I",
+   "B": "III",
+   "C": "I e II",
+   "D": "II e IV",
+   "E": "III e IV"
+  },
+  "correta": "B",
+  "explica": "Só a fala III está correta: citação direta introduzida por dois-pontos e aspas, com o ponto de exclamação dentro das aspas. As demais falas contêm erros de pontuação típicos.",
+  "erradas": {
+   "A": "A fala I é interrogativa ('Por que...') e termina com '!' em vez de '?'.",
+   "C": "Além do erro de I, a fala II omite a vírgula da elipse: 'um para você, outro para mim'.",
+   "D": "II não tem a vírgula da elipse e IV tem vírgula indevida entre 'tudo' e seu complemento ('em tudo o que ele diz').",
+   "E": "IV está errada: a vírgula separa 'tudo' de 'o que ele diz', termos que se completam."
+  },
+  "pontos": [
+   "Pergunta iniciada por 'por que' exige '?' no final — cheque a compatibilidade entre início e fim da frase.",
+   "Elipse de verbo pede vírgula: 'um para você, outro para mim'.",
+   "Citação direta dentro de fala: dois-pontos + aspas, com a pontuação da citação dentro das aspas."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018 Transpetro, Q13",
+  "q": "No fragmento \"The threat to stability is all the greater given that Iran is likely to win any such clash\", 'given that' can be replaced, without change in meaning, by",
+  "alts": {
+   "A": "even so",
+   "B": "even though",
+   "C": "despite the fact that",
+   "D": "because of the fact that",
+   "E": "taking into account that"
+  },
+  "correta": "E",
+  "explica": "Given that = 'considerando que / levando em conta que', com valor causal-argumentativo: a ameaça é maior CONSIDERANDO QUE o Irã provavelmente venceria. A equivalência consagrada pela banca é 'taking into account that'.",
+  "erradas": {
+   "A": "Even so (= mesmo assim) é concessivo-adversativo e inverteria a relação lógica.",
+   "B": "Even though (= embora) é concessivo, o oposto do valor causal de given that.",
+   "C": "Despite the fact that (= apesar de) também é concessivo e inverte a relação.",
+   "D": "Because of the fact that se aproxima do valor causal, mas a equivalência exata cobrada pela banca é 'taking into account that'."
+  },
+  "pontos": [
+   "Given that = considerando que (causa/justificativa); primeiro classifique a relação lógica, depois elimine os concessivos.",
+   "Even though, despite, although = concessão — eliminam-se em bloco quando o conector original é causal.",
+   "Quando duas alternativas parecem caber, prefira a equivalência mais literal ('taking into account' = 'levando em conta')."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q10",
+  "q": "O verso \"O português são dois\" está de acordo com a norma-padrão. A frase em que também se respeita a norma-padrão, com relação à concordância, é:",
+  "alts": {
+   "A": "Na reunião, houveram muitos imprevistos.",
+   "B": "Estranhou-se as mudanças na empresa.",
+   "C": "Devem fazer cinco meses que não o vejo.",
+   "D": "Precisam-se de vendedores nesta loja.",
+   "E": "Pensou-se muito nas sugestões dos funcionários."
+  },
+  "correta": "E",
+  "explica": "Pensar em é transitivo indireto; o 'se' é índice de indeterminação do sujeito e o verbo fica no singular: 'Pensou-se nas sugestões'. Não há passiva possível porque sobra a preposição 'em'.",
+  "erradas": {
+   "A": "Haver (= existir) é impessoal: 'houve muitos imprevistos'.",
+   "B": "Passiva sintética com sujeito plural: 'Estranharam-se as mudanças' (= as mudanças foram estranhadas).",
+   "C": "Fazer indicando tempo é impessoal e o auxiliar herda: 'Deve fazer cinco meses'.",
+   "D": "Precisar de é transitivo indireto: indeterminação, verbo no singular — 'Precisa-se de vendedores'."
+  },
+  "pontos": [
+   "VTD + se = passiva sintética = verbo concorda com o sujeito paciente (estranharam-se as mudanças).",
+   "VTI + se = indeterminação = singular sempre (precisa-se de, pensou-se em).",
+   "Teste rápido: vire passiva analítica; se sobrar preposição, o verbo fica no singular."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018 Transpetro, Q8",
+  "q": "O pronome oblíquo átono está empregado de acordo com o que prevê a variedade formal da norma-padrão da língua em:",
+  "alts": {
+   "A": "Poucos dar-lhe-iam a atenção merecida.",
+   "B": "Lobo Neves nunca se afastara da vida pública.",
+   "C": "Diria-lhe para evitar a carreira política se perguntasse.",
+   "D": "Ele tinha um problema que mantinha-o preocupado todo o tempo.",
+   "E": "Se atormentou com aquela crise de melancolia que parecia não ter fim."
+  },
+  "correta": "B",
+  "explica": "A palavra negativa 'nunca' é atrativa e exige próclise: 'nunca se afastara'. As demais alternativas violam regras de colocação: mesóclise com atrativo, ênclise com futuro, ênclise após relativo e pronome iniciando frase.",
+  "erradas": {
+   "A": "O indefinido 'Poucos' atrai o pronome: 'Poucos lhe dariam' — mesóclise indevida com atrativo presente.",
+   "C": "Ênclise com futuro do pretérito é proibida: 'Dir-lhe-ia' (mesóclise) ou próclise com atrativo.",
+   "D": "O relativo 'que' atrai: 'que o mantinha' — ênclise após relativo é erro.",
+   "E": "Não se inicia frase com pronome átono: 'Atormentou-se'."
+  },
+  "pontos": [
+   "Negação (não, nunca, jamais) = próclise obrigatória.",
+   "Futuro do presente/pretérito sem atrativo = mesóclise (dir-lhe-ia); COM atrativo, o atrativo vence (poucos lhe dariam).",
+   "Nunca inicie frase com pronome átono nem faça ênclise após relativo 'que'."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2011, Q9",
+  "q": "A frase em que todas as palavras estão escritas de forma correta, conforme a ortografia da Língua Portuguesa, é:",
+  "alts": {
+   "A": "Foi um previlégio ser acompanhado pelo advogado do sindicato.",
+   "B": "Estão cojitando de fabricar salas acústicas.",
+   "C": "A senhora possue algumas horas para tirar a cesta.",
+   "D": "O lado de traz segue até à sala de descanso.",
+   "E": "Estava hesitante sobre a escolha do bege claro para a mobília."
+  },
+  "correta": "E",
+  "explica": "'Hesitante' (com h), 'bege' (com g) e 'mobília' (com acento) estão todas corretas. As demais alternativas trazem grafias erradas de palavras que a banca recicla em prova.",
+  "erradas": {
+   "A": "O correto é 'privilégio', com i — 'previlégio' não existe.",
+   "B": "O correto é 'cogitando', com g — 'cojitando' está errado.",
+   "C": "O correto é 'possui' — a forma 'possue' não existe.",
+   "D": "O lado de 'trás' se escreve com s; 'traz' é forma do verbo trazer."
+  },
+  "pontos": [
+   "Lista curta que a banca recicla: privilégio, cogitar, possui, atrás/trás, hesitante, mobília, bege.",
+   "Trás (lugar, com s) versus traz (verbo trazer, com z) — pegadinha recorrente.",
+   "Procure a frase sem NENHUM erro: basta uma palavra errada para eliminar a alternativa."
+  ]
+ }
+]

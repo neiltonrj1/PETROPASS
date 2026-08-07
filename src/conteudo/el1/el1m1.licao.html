@@ -1,0 +1,56 @@
+<p><strong>1. Fasores e impedância.</strong> Em regime permanente senoidal, uma tensão <em>v</em>(t) = V<sub>m</sub>·cos(ωt + θ) vira o fasor <strong>V̇ = V∠θ</strong>, com <strong>V = V<sub>m</sub>/√2</strong> (valor eficaz). As três impedâncias elementares:</p>
+<table>
+<thead>
+<tr><th>Elemento</th><th>Impedância</th><th>Defasagem corrente × tensão</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Resistor</strong></td><td>Z = R</td><td>em fase</td></tr>
+<tr><td><strong>Indutor</strong></td><td>Z = jωL = jX<sub>L</sub></td><td>corrente <strong>atrasada</strong> 90°</td></tr>
+<tr><td><strong>Capacitor</strong></td><td>Z = 1/(jωC) = −jX<sub>C</sub></td><td>corrente <strong>adiantada</strong> 90°</td></tr>
+</tbody>
+</table>
+<p><strong>Mnemônico consagrado:</strong> <em>ELI the ICE man</em> — no indutor (L) a tensão (E) vem antes da corrente (I); no capacitor (C) a corrente (I) vem antes da tensão (E).</p>
+<p>Com ω = 2πf e f = 60 Hz, ω ≈ 377 rad/s. Uma carga R = 3 Ω com L = 0,05 H tem X<sub>L</sub> = 377 × 0,05 ≈ 18,8 Ω, logo <strong>Z ≈ 3 + j18,8 Ω</strong>, |Z| ≈ 19,1 Ω e φ ≈ 80,9° indutivo.</p>
+
+<p><strong>2. As três potências.</strong></p>
+<p><strong>S = V̇ · İ*</strong> (potência complexa) = <strong>P + jQ</strong>, com:</p>
+<ul>
+<li><strong>P = V·I·cos φ</strong> — potência <strong>ativa</strong>, em W: é a que realiza trabalho.</li>
+<li><strong>Q = V·I·sen φ</strong> — potência <strong>reativa</strong>, em var: circula sem consumir energia média, mas ocupa condutor e transformador.</li>
+<li><strong>S = V·I = √(P² + Q²)</strong> — potência <strong>aparente</strong>, em VA: é o que dimensiona o equipamento.</li>
+</ul>
+<p><strong>Fator de potência = cos φ = P/S.</strong> Carga indutiva ⇒ Q &gt; 0, FP <strong>atrasado</strong>. Carga capacitiva ⇒ Q &lt; 0, FP <strong>adiantado</strong>. Em trifásico equilibrado: <strong>P = √3 · V<sub>L</sub> · I<sub>L</sub> · cos φ</strong>.</p>
+<p><strong>Pegadinha frequente:</strong> potência aparente é <em>soma vetorial</em>, não aritmética — 3 kW com 4 kvar dão 5 kVA, não 7.</p>
+
+<p><strong>3. Correção do fator de potência.</strong> A capacitância entrega reativo <em>capacitivo</em> que cancela o <em>indutivo</em> da carga. Mantendo P constante:</p>
+<p><strong>Q<sub>capacitor</sub> = P · (tg φ₁ − tg φ₂)</strong>, indo de cos φ₁ para cos φ₂.</p>
+<p>Efeitos de elevar o FP, todos cobrados: reduz a <strong>corrente</strong> para a mesma potência ativa ⇒ reduz <strong>perdas Joule</strong> (que caem com o quadrado da corrente), reduz <strong>queda de tensão</strong>, <strong>libera capacidade</strong> de transformadores e cabos e evita a cobrança de excedente reativo. No Brasil o FP de referência é <strong>0,92</strong>.</p>
+
+<p><strong>4. Ligações trifásicas.</strong></p>
+<table>
+<thead>
+<tr><th>Ligação</th><th>Tensão</th><th>Corrente</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Estrela (Y)</strong></td><td>V<sub>linha</sub> = √3 · V<sub>fase</sub></td><td>I<sub>linha</sub> = I<sub>fase</sub></td></tr>
+<tr><td><strong>Triângulo (Δ)</strong></td><td>V<sub>linha</sub> = V<sub>fase</sub></td><td>I<sub>linha</sub> = √3 · I<sub>fase</sub></td></tr>
+</tbody>
+</table>
+<p>Uma mesma carga ligada em Δ consome <strong>três vezes</strong> a potência que consumiria em Y sob a mesma tensão de linha — é a base da partida estrela-triângulo. Conversão: <strong>Z<sub>Δ</sub> = 3·Z<sub>Y</sub></strong>.</p>
+
+<p><strong>5. Potência instantânea e valor eficaz.</strong> O valor eficaz (RMS) é o que produz o mesmo aquecimento de uma contínua equivalente: <strong>V<sub>rms</sub> = √(média de v²)</strong>. Para senoide pura, V<sub>rms</sub> = V<sub>pico</sub>/√2. Para onda quadrada simétrica, V<sub>rms</sub> = V<sub>pico</sub>. Sinal com componente contínua e harmônicos: <strong>V<sub>rms</sub> = √(V₀² + V₁² + V₂² + …)</strong> — soma quadrática, nunca aritmética.</p>
+
+<p><strong>6. Circuitos não lineares.</strong> Quando a relação tensão-corrente não é uma reta — por exemplo <em>u</em> = 3<em>i</em> + <em>i</em>² — não existe "resistência" única. Trabalha-se com:</p>
+<ul>
+<li><strong>Resistência estática</strong> no ponto: R = u/i;</li>
+<li><strong>Resistência dinâmica</strong> (incremental): r = du/di — no exemplo, r = 3 + 2<em>i</em>, que <strong>depende do ponto de operação</strong>.</li>
+</ul>
+<p>Consequência prática: <strong>não vale a superposição</strong> em circuito não linear, e uma entrada senoidal gera <strong>harmônicos</strong> na saída.</p>
+
+<p><strong>7. Ressonância.</strong> Em série RLC, na frequência <strong>f₀ = 1/(2π√(LC))</strong> as reatâncias se cancelam: a impedância é <strong>mínima e puramente resistiva</strong>, a corrente é máxima e o FP é unitário. Em paralelo é o oposto: impedância máxima, corrente de linha mínima. <strong>Fator de qualidade</strong> Q = ω₀L/R (série); quanto maior Q, mais seletivo e mais estreita a banda passante (BW = f₀/Q).</p>
+
+<p><strong>8. Teoremas de circuitos.</strong> <strong>Thévenin</strong>: qualquer bipolo linear equivale a uma fonte de tensão V<sub>Th</sub> (tensão de circuito aberto) em série com Z<sub>Th</sub> (impedância vista dos terminais, com fontes independentes zeradas). <strong>Norton</strong> é o dual (fonte de corrente em paralelo). <strong>Máxima transferência de potência</strong> em CA ocorre quando <strong>Z<sub>carga</sub> = Z<sub>Th</sub>*</strong> (conjugado) — e nesse ponto o rendimento é apenas 50 %. <strong>Superposição</strong> vale só em circuito <em>linear</em> e não se aplica diretamente à potência.</p>
+
+<p><strong>9. Harmônicos e qualidade de energia.</strong> Cargas não lineares (retificadores, inversores, fornos a arco, reatores eletrônicos) injetam correntes harmônicas. Efeitos: aquecimento adicional em transformadores e motores, sobrecarga do <strong>condutor neutro</strong> pelas harmônicas de <strong>3ª ordem e múltiplas</strong> (que são de sequência zero e se <strong>somam</strong> no neutro em vez de se cancelar), ressonância com bancos de capacitores e erro em medidores. Indicador: <strong>THD</strong>. Note ainda: o <strong>fator de potência de deslocamento</strong> (cos φ da fundamental) é diferente do <strong>fator de potência total</strong> quando há distorção.</p>
+
+<p><strong>Resumo de véspera:</strong> ELI the ICE man; S = √(P²+Q²); FP = P/S e a referência regulatória é 0,92; Q<sub>cap</sub> = P(tgφ₁ − tgφ₂); em Y a linha é √3 vezes a fase e em Δ a corrente de linha é √3 vezes a de fase; Z<sub>Δ</sub> = 3Z<sub>Y</sub>; em circuito não linear a resistência dinâmica é du/di; harmônicas de 3ª ordem somam no neutro.</p>

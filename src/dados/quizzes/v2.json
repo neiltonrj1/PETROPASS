@@ -1,0 +1,482 @@
+[
+ {
+  "origem": "Cesgranrio 2018, Q24",
+  "q": "O ensaio de dureza é um ensaio simples e rápido que permite determinar a capacidade de um material",
+  "alts": {
+   "A": "sofrer uma deformação elástica causada pela penetração de uma ponta de prova.",
+   "B": "sofrer uma deformação plástica causada pela penetração de uma ponta de prova.",
+   "C": "absorver energia elástica causada por forças trativas.",
+   "D": "absorver energia durante a propagação de uma trinca até a completa ruptura do material.",
+   "E": "absorver energia durante o impacto em alta velocidade de um martelo."
+  },
+  "correta": "B",
+  "explica": "Dureza é, por definição, a resistência do material à deformação plástica localizada imposta por um penetrador (esfera, cone ou pirâmide). A impressão deixada pelo indentador é permanente, ou seja, plástica. É um ensaio rápido, barato, quase não destrutivo e que se correlaciona com o limite de resistência.",
+  "erradas": {
+   "A": "A deformação medida no ensaio de dureza é permanente (plástica), não elástica: a impressão fica marcada na peça.",
+   "C": "Absorver energia elástica sob tração é resiliência, medida no ensaio de tração, não dureza.",
+   "D": "Energia absorvida na propagação de uma trinca até a ruptura descreve tenacidade à fratura, não dureza.",
+   "E": "Energia absorvida no impacto de um martelo pendular descreve o ensaio Charpy, não o de dureza."
+  },
+  "pontos": [
+   "Dureza = resistência à deformação PLÁSTICA localizada por penetração",
+   "Escalas: Brinell (esfera), Rockwell (profundidade), Vickers (pirâmide de diamante)",
+   "Dureza se correlaciona com o LR, mas não mede energia (isso é Charpy)"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q41",
+  "q": "Aços empregados em tanques contendo ácidos líquidos em temperaturas entre ambiente e 200 °C são suscetíveis a danos causados pelo hidrogênio. É considerado um dano causado pelo hidrogênio a",
+  "alts": {
+   "A": "formação de carbetos dentro do aço",
+   "B": "formação de óxidos na superfície do aço",
+   "C": "formação de microfissuras e bolhas no interior do aço",
+   "D": "carbonetação da superfície do aço",
+   "E": "dissolução do aço"
+  },
+  "correta": "C",
+  "explica": "Em meio ácido entre a temperatura ambiente e 200 °C, a corrosão gera hidrogênio atômico, que é pequeno o bastante para difundir para dentro do aço. Nos vazios e inclusões internas ele se recombina em H2 molecular, gerando pressões enormes que causam microfissuras e bolhas (empolamento/blistering e trincas induzidas por hidrogênio, HIC).",
+  "erradas": {
+   "A": "Formação de carbetos não é dano por hidrogênio; o HTHA, aliás, DESTRÓI carbonetos formando metano, e só ocorre em alta temperatura.",
+   "B": "Formação de óxidos na superfície é oxidação/corrosão comum, sem relação com o hidrogênio difundido.",
+   "D": "Carbonetação é um fenômeno de alta temperatura envolvendo carbono, não hidrogênio.",
+   "E": "Dissolução do aço é corrosão generalizada do metal, não um dano interno causado pelo hidrogênio."
+  },
+  "pontos": [
+   "H atômico difunde no aço e vira H2 em vazios internos: pressão gera bolhas e microfissuras",
+   "Faixa típica de empolamento/HIC: temperatura ambiente até ~200 °C, meios ácidos ou com H2S",
+   "H2S é veneno que impede a recombinação superficial e empurra o H para dentro do aço"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q42",
+  "q": "A fase sigma é uma fase de grande importância tecnológica porque a formação dessa fase durante um tratamento térmico piora as propriedades mecânicas dos aços ligados com alto teor de",
+  "alts": {
+   "A": "carbono",
+   "B": "molibdênio",
+   "C": "silício",
+   "D": "nióbio",
+   "E": "cromo"
+  },
+  "correta": "E",
+  "explica": "A fase sigma é um composto intermetálico Fe-Cr, duro e frágil, que precipita em aços com alto teor de cromo (inox ferríticos, austeníticos e principalmente duplex) quando expostos ou resfriados lentamente na faixa de aproximadamente 560 a 980 °C. Sua formação deteriora drasticamente a tenacidade e a resistência à corrosão.",
+  "erradas": {
+   "A": "Carbono forma carbonetos (como M23C6 na sensitização), não a fase sigma, que é um intermetálico Fe-Cr.",
+   "B": "O molibdênio até acelera a formação da sigma, mas a fase é definida pelo sistema Fe-Cr; a resposta pedida é cromo.",
+   "C": "Silício não é o elemento formador da fase sigma.",
+   "D": "Nióbio forma carbonetos MC estabilizadores (aço 347), sem relação com a fase sigma."
+  },
+  "pontos": [
+   "Fase sigma = intermetálico Fe-Cr, dura e frágil, típica de aços com ALTO CROMO",
+   "Faixa crítica ~560-980 °C; resfriamento lento nessa janela precipita sigma (perigo nos duplex)",
+   "Prevenção: solubilização ~1050-1100 °C seguida de resfriamento rápido (água)"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q45",
+  "q": "Uma fratura dútil em um material policristalino tem por características físicas e microestruturais absorver",
+  "alts": {
+   "A": "muita energia devido ao movimento de discordâncias (deslocações) no interior dos grãos.",
+   "B": "muita energia devido ao movimento de discordâncias através dos contornos intergranulares de alta energia.",
+   "C": "muita energia devido às trincas por clivagem no interior dos grãos.",
+   "D": "pouca energia devido ao movimento de discordâncias (deslocações) no interior dos grãos.",
+   "E": "pouca energia devido à quebra de ligações atômicas nos contornos intergranulares de alta energia."
+  },
+  "correta": "A",
+  "explica": "A fratura dúctil absorve MUITA energia porque é precedida de intensa deformação plástica, que ocorre pelo movimento de discordâncias no interior dos grãos, com nucleação e crescimento de vazios até a coalescência. No MEV a superfície é rugosa, fibrosa e com dimples.",
+  "erradas": {
+   "B": "O mecanismo da deformação plástica dúctil é o movimento de discordâncias dentro dos grãos, não a travessia dos contornos como mecanismo de fratura.",
+   "C": "Clivagem é o mecanismo da fratura FRÁGIL transgranular, com baixa energia, incompatível com fratura dúctil.",
+   "D": "Erra a energia: fratura dúctil absorve muita energia, não pouca.",
+   "E": "Descreve fratura intergranular frágil (baixa energia nos contornos), o oposto da fratura dúctil."
+  },
+  "pontos": [
+   "Regra: Dúctil = Dimples = Discordâncias = muita energia (Demorada)",
+   "Frágil = faces lisas por clivagem = pouca energia (Fácil)",
+   "Fratura dúctil: nucleação e crescimento de vazios gera superfície rugosa/fibrosa no MEV"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q48",
+  "q": "Tubulações enterradas podem ser protegidas pelo método denominado proteção catódica galvânica. Este método emprega um",
+  "alts": {
+   "A": "gerador elétrico de corrente alternada para transformar a tubulação em catodo.",
+   "B": "gerador elétrico de corrente alternada para transformar a tubulação em anodo.",
+   "C": "gerador elétrico de corrente contínua para transformar a tubulação em anodo.",
+   "D": "metal com potencial de redução mais negativo que o metal da tubulação para agir como anodo.",
+   "E": "metal com potencial de redução mais positivo que o metal da tubulação para agir como anodo."
+  },
+  "correta": "D",
+  "explica": "Proteção catódica GALVÂNICA é o método do anodo de sacrifício: conecta-se à tubulação um metal com potencial de redução mais negativo (mais ativo), como Mg ou Zn, que vira anodo e corrói no lugar da estrutura, transformando-a em catodo. Não há fonte externa de energia.",
+  "erradas": {
+   "A": "Descreve mal o método por corrente impressa, que usa corrente CONTÍNUA (retificador), nunca alternada, e não é o método galvânico.",
+   "B": "Além de citar corrente alternada, transformar a estrutura em anodo seria acelerar sua corrosão, o oposto da proteção.",
+   "C": "A corrente impressa usa corrente contínua, mas para tornar a estrutura CATODO, jamais anodo; e o método pedido é o galvânico, sem gerador.",
+   "E": "Um metal mais positivo (mais nobre) viraria catodo e agravaria a corrosão da tubulação, invertendo a pilha."
+  },
+  "pontos": [
+   "Galvânica = anodo de sacrifício (Mg, Zn, Al): metal MAIS NEGATIVO morre no lugar da estrutura",
+   "Corrente impressa = fonte de corrente CONTÍNUA + anodos inertes; a estrutura vira sempre CATODO",
+   "O Mais Negativo Morre: quem tem potencial de redução mais negativo é o anodo"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q50",
+  "q": "A sensitização de aços inoxidáveis austeníticos é um processo de corrosão eletroquímica associada à(ao)",
+  "alts": {
+   "A": "aumento do teor de cromo em solução na austenita nos contornos intergranulares.",
+   "B": "redução do teor de cromo em solução na austenita no interior do grão.",
+   "C": "precipitação de óxido de cromo no interior do grão.",
+   "D": "precipitação de carbetos de cromo nos contornos intergranulares.",
+   "E": "precipitação de carbetos de cromo no interior do grão."
+  },
+  "correta": "D",
+  "explica": "A sensitização é a precipitação de carbetos de cromo (M23C6) nos contornos intergranulares, típica da exposição à faixa de ~425-870 °C (soldagem). Cada carboneto rouba cromo da vizinhança do contorno, que fica com menos de ~11-12% Cr, perde a capacidade de passivar e sofre corrosão intergranular.",
+  "erradas": {
+   "A": "O teor de cromo em solução junto aos contornos DIMINUI (empobrecimento), não aumenta.",
+   "B": "É a alternativa tentadora: há redução de Cr, mas na zona adjacente ao CONTORNO de grão, não no interior do grão.",
+   "C": "O precipitado é carboneto de cromo, não óxido, e forma-se nos contornos, não no interior do grão.",
+   "E": "Acerta a espécie (carbetos de cromo) mas erra o local: a precipitação ocorre nos contornos intergranulares."
+  },
+  "pontos": [
+   "Sensitização: M23C6 rico em Cr precipita nos CONTORNOS de grão (faixa ~425-870 °C)",
+   "O problema é o empobrecimento de Cr junto ao contorno (< ~11-12% Cr), que deixa de passivar",
+   "Prevenção: aços L (baixo C) ou estabilizados com Ti/Nb (321/347); cura: solubilização + resfriamento rápido"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q51",
+  "q": "Um técnico estava montando um sistema hidráulico para transporte de água pura empregando tubos de cobre. Quase no final do serviço, faltou material, e o técnico resolveu improvisar com tubos de aço (ferro) e uniu os dois tipos de tubo com conectores metálicos apropriados. O engenheiro de inspeção solicitou a retirada dos tubos de ferro porque o",
+  "alts": {
+   "A": "cobre e o ferro sofrerão corrosão intergranular.",
+   "B": "cobre irá favorecer a corrosão galvânica do ferro.",
+   "C": "ferro irá favorecer a corrosão por pites do cobre.",
+   "D": "ferro irá favorecer a corrosão galvânica do cobre.",
+   "E": "ferro irá favorecer a fragilização do cobre pelo hidrogênio."
+  },
+  "correta": "B",
+  "explica": "Cobre (+0,34 V) unido eletricamente ao ferro (-0,44 V) com água como eletrólito forma uma pilha galvânica. O ferro, de potencial de redução mais negativo, vira anodo e corrói; o cobre, mais nobre, vira catodo e acelera a corrosão galvânica do ferro.",
+  "erradas": {
+   "A": "Corrosão intergranular exige contornos de grão fragilizados (por exemplo sensitização), o que não ocorre pela simples união de dois metais.",
+   "C": "Pites exigem cloretos rompendo filme passivo; além disso o cobre é o membro protegido (catódico) do par.",
+   "D": "Inverte os papéis: o metal nobre (cobre) não corrói; quem corrói é o ferro, mais ativo.",
+   "E": "Não há fonte de hidrogênio no sistema, e o cobre não é o material suscetível nesse cenário."
+  },
+  "pontos": [
+   "O Mais Negativo Morre: Fe (-0,44 V) é anodo frente ao Cu (+0,34 V)",
+   "Pilha galvânica exige: dois metais distintos + contato elétrico + eletrólito",
+   "Metais nobres (Cu, Ag) aceleram a corrosão do ferro; Zn e Mg protegem"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2018, Q53",
+  "q": "A corrosão galvânica é, talvez, o mais importante mecanismo de corrosão dos metais. Considere os seguintes potenciais padrão de redução: Mg: -2,38 V; Zn: -0,76 V; Fe: -0,44 V; Ni: -0,26 V; Sn: -0,14 V; H2: 0,00 V; Cu: +0,34 V; Au: +1,42 V. A observação desses valores permite concluir que, numa junção metálica entre o",
+  "alts": {
+   "A": "magnésio e o zinco, o zinco é o anodo.",
+   "B": "zinco e o estanho, o zinco é o anodo.",
+   "C": "estanho e o magnésio, o magnésio é o catodo.",
+   "D": "cobre e o estanho, o estanho é o catodo.",
+   "E": "níquel e o estanho, o níquel é o catodo."
+  },
+  "correta": "B",
+  "explica": "Em cada par, o metal de potencial de redução mais negativo é o anodo (corrói) e o mais positivo é o catodo (protegido). No par zinco (-0,76 V) e estanho (-0,14 V), o zinco é o mais negativo, logo é o anodo. Todas as demais alternativas invertem o papel de algum metal.",
+  "erradas": {
+   "A": "O Mg (-2,38 V) é mais negativo que o Zn (-0,76 V), portanto o anodo do par é o magnésio, não o zinco.",
+   "C": "O Mg é o mais negativo do par com Sn, logo é o ANODO, não o catodo.",
+   "D": "O Sn (-0,14 V) é mais negativo que o Cu (+0,34 V), portanto o estanho é o anodo, não o catodo.",
+   "E": "O Ni (-0,26 V) é mais negativo que o Sn (-0,14 V), portanto o níquel é o anodo, não o catodo."
+  },
+  "pontos": [
+   "O Mais Negativo Morre: potencial de redução mais negativo = anodo = corrói",
+   "Série de nobreza crescente: Mg < Al < Zn < Fe < Ni < Sn < H < Cu < Ag < Au",
+   "Compare sempre os dois potenciais do par: o mais positivo é o catodo protegido"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q43",
+  "q": "A temperatura de transição dúctil-frágil pode ser obtida experimentalmente através de vários ensaios mecânicos, como, por exemplo, o ensaio Charpy. O ensaio Charpy e a temperatura de transição obtida, no entanto, apresentam limitações bastante importantes para um emprego mais generalizado. Dentre essas limitações, destaca-se a seguinte:",
+  "alts": {
+   "A": "A energia absorvida para causar a fratura não depende da temperatura.",
+   "B": "A energia absorvida na condição frágil é maior do que na condição dúctil.",
+   "C": "A energia absorvida depende das dimensões do corpo de prova.",
+   "D": "A energia absorvida independe das dimensões do corpo de prova.",
+   "E": "A temperatura de transição independe das dimensões do corpo de prova."
+  },
+  "correta": "C",
+  "explica": "A energia Charpy não é uma propriedade intrínseca do material: ela depende das dimensões do corpo de prova, do entalhe e da geometria do ensaio. Por isso o resultado não pode ser usado diretamente em projeto quantitativo; para isso emprega-se a mecânica da fratura (K_IC). Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "Falsa: a dependência da temperatura é justamente a base da curva de transição dúctil-frágil.",
+   "B": "Inverte os patamares: na condição frágil o material absorve MENOS energia, não mais.",
+   "D": "Nega a limitação real: a energia absorvida DEPENDE das dimensões do corpo de prova.",
+   "E": "A temperatura de transição também varia com a geometria e as dimensões do corpo de prova."
+  },
+  "pontos": [
+   "Energia Charpy não é propriedade intrínseca: depende de dimensões, entalhe e geometria",
+   "Para projeto quantitativo usa-se K_IC (mecânica da fratura), não a energia Charpy",
+   "Patamar dúctil = alta energia (dimples); patamar frágil = baixa energia (clivagem)"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q46",
+  "q": "A fratura intergranular é caracterizada pela propagação",
+  "alts": {
+   "A": "por clivagem e com alta absorção de energia",
+   "B": "por dentro dos grãos e com baixa absorção de energia",
+   "C": "ao longo dos contornos dos grãos e com baixa absorção de energia",
+   "D": "ao longo dos contornos dos grãos e com alta absorção de energia",
+   "E": "ao redor das inclusões e com alta absorção de energia"
+  },
+  "correta": "C",
+  "explica": "Fratura intergranular é a que se propaga ao longo dos contornos de grão enfraquecidos (por segregação de impurezas, carbonetos ou hidrogênio). Como os contornos fragilizados são caminhos fáceis para a trinca, a absorção de energia é baixa, caracterizando fratura frágil. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "Clivagem é o mecanismo da fratura frágil TRANSgranular (dentro dos grãos), não da intergranular; e a energia é baixa, não alta.",
+   "B": "Propagação por dentro dos grãos é fratura transgranular; a intergranular segue os contornos.",
+   "D": "É a pegadinha: acerta o caminho (contornos), mas erra a energia, que é baixa por serem caminhos enfraquecidos.",
+   "E": "Vazios ao redor de inclusões com alta energia descrevem a fratura DÚCTIL (dimples), não a intergranular."
+  },
+  "pontos": [
+   "Intergranular = trinca pelos CONTORNOS de grão + BAIXA energia (fratura frágil)",
+   "Aparência no MEV: relevo de grãos tipo rocha partida/favo",
+   "Fratura intergranular é sempre sinal de contorno de grão fragilizado (segregação, carbonetos, H)"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q48",
+  "q": "A sensitização de aços inoxidáveis austeníticos é um fenômeno que ocorre durante a soldagem ou o tratamento térmico desses aços. Esse fenômeno está associado à",
+  "alts": {
+   "A": "precipitação de carbonetos M3C ricos em ferro nos contornos intergranulares.",
+   "B": "precipitação de carbonetos M23C6 ricos em cromo nos contornos intergranulares.",
+   "C": "precipitação de carbonetos MC ricos em nióbio nos contornos intergranulares.",
+   "D": "corrosão localizada nos carbonetos MC ricos em nióbio.",
+   "E": "corrosão uniforme por toda a superfície do aço."
+  },
+  "correta": "B",
+  "explica": "A sensitização é a precipitação de carbonetos M23C6 ricos em CROMO nos contornos intergranulares, na faixa de ~425-870 °C (típico da zona termicamente afetada da soldagem). O empobrecimento de cromo junto aos contornos impede a passivação local e causa corrosão intergranular. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "M3C rico em ferro é a cementita dos aços comuns, não o precipitado da sensitização.",
+   "C": "MC rico em nióbio é o carboneto ESTABILIZADOR (aços 347/321) que justamente PREVINE a sensitização.",
+   "D": "Os carbonetos de nióbio não são o sítio da corrosão; eles protegem o aço ao prender o carbono.",
+   "E": "A sensitização causa corrosão INTERGRANULAR localizada nos contornos, não corrosão uniforme."
+  },
+  "pontos": [
+   "Precipitado da sensitização: M23C6 rico em CROMO, nos contornos de grão",
+   "Faixa crítica de sensitização: ~425-870 °C (soldagem/ZTA é o caso típico)",
+   "Ti e Nb (aços 321/347) estabilizam o carbono e evitam a sensitização"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q49 (adaptada)",
+  "q": "A corrosão galvânica está presente nas mais diversas condições industriais em que se realiza contato elétrico entre dois metais distintos em um meio eletrolítico. Alguns contatos elétricos típicos são: zinco com ferro, ferro com cobre e cobre com prata. Os potenciais de redução são: Ag: +0,80 V; Cu: +0,34 V; Fe: -0,44 V; Zn: -0,76 V. O que se constata quanto ao favorecimento da corrosão a partir do contato entre esses elementos?",
+  "alts": {
+   "A": "Zinco com ferro: corrosão do ferro; ferro com cobre: corrosão do cobre",
+   "B": "Zinco com ferro: corrosão do zinco; ferro com cobre: corrosão do cobre",
+   "C": "Ferro com cobre: corrosão do ferro; cobre com prata: corrosão do cobre",
+   "D": "Ferro com cobre: corrosão do ferro; cobre com prata: corrosão da prata",
+   "E": "Ferro com zinco: corrosão do zinco; cobre com prata: corrosão da prata"
+  },
+  "correta": "C",
+  "explica": "Em cada par corrói o metal de potencial de redução mais negativo. Zn (-0,76) com Fe (-0,44): corrói o zinco. Fe (-0,44) com Cu (+0,34): corrói o ferro. Cu (+0,34) com Ag (+0,80): corrói o cobre. A única alternativa em que os dois pares citados estão corretos é a C. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "No par Zn/Fe quem corrói é o zinco (mais negativo), e no par Fe/Cu quem corrói é o ferro, não o cobre.",
+   "B": "Acerta o par Zn/Fe, mas erra o par Fe/Cu: o cobre é o catodo protegido; quem corrói é o ferro.",
+   "D": "No par Cu/Ag a prata é o metal mais nobre (catodo); quem corrói é o cobre, não a prata.",
+   "E": "Acerta o par Fe/Zn, mas erra o par Cu/Ag: corrói o cobre, pois a prata é mais positiva."
+  },
+  "pontos": [
+   "O Mais Negativo Morre: em cada par, o de potencial de redução menor é o anodo",
+   "Zn protege o Fe (base da galvanização); Cu acelera a corrosão do Fe",
+   "Cheque TODOS os pares da alternativa: a banca acerta um e erra o outro de propósito"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q50",
+  "q": "Um aço inoxidável austenítico foi empregado para a fabricação de um reator contendo uma solução aquosa com concentração apreciável de NaCl. Após alguns meses de produção, o reator apresentou corrosão em pontos localizados espalhados por toda a superfície do aço. Uma análise metalográfica constatou que os pontos de corrosão não estavam associados aos contornos dos grãos austeníticos. Essa corrosão é classificada como",
+  "alts": {
+   "A": "austenítica",
+   "B": "uniforme",
+   "C": "galvânica",
+   "D": "em frestas",
+   "E": "por pite"
+  },
+  "correta": "E",
+  "explica": "Aço inox + solução com NaCl (cloretos) + ataque em pontos localizados e profundos espalhados pela superfície, sem relação com contornos de grão (o que descarta a intergranular) e sem geometria confinada: é o quadro clássico de corrosão por pites, em que o Cl- rompe localmente o filme passivo. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "Corrosão austenítica não é uma forma de corrosão; austenita é a fase do aço.",
+   "B": "Corrosão uniforme seria perda de espessura homogênea em toda a superfície, o oposto de pontos localizados.",
+   "C": "Corrosão galvânica exigiria contato elétrico entre dois metais distintos, não mencionado no enunciado.",
+   "D": "Corrosão em frestas exigiria geometria confinada (flanges, juntas, depósitos), não citada no problema."
+  },
+  "pontos": [
+   "Cloreto fura inox: pite = Cl- + filme passivo rompido localmente",
+   "Pite é autocatalítico: dentro do pite o meio acidifica e concentra Cl-",
+   "Pite não depende de segundo metal (galvânica) nem de fresta; ataque em pontos discretos"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q51",
+  "q": "A corrosão por pites é responsável por um quarto de todas as perdas industriais por corrosão. Dentre as características desse tipo de corrosão, encontra-se a de",
+  "alts": {
+   "A": "apresentar uma taxa lenta e uniforme de corrosão em toda a superfície do metal.",
+   "B": "apresentar uma alta taxa de corrosão localizada em pontos da superfície.",
+   "C": "depender do contato elétrico com um metal mais nobre.",
+   "D": "depender do contato elétrico com um metal menos nobre.",
+   "E": "não estar associada à presença de íons de Cl- em solução."
+  },
+  "correta": "B",
+  "explica": "O pite caracteriza-se por alta taxa de corrosão LOCALIZADA em pontos discretos da superfície, com o restante praticamente intacto. Por isso é perigoso: perfura a parede com pouquíssima perda de massa total e é difícil de detectar. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "A": "Taxa lenta e uniforme em toda a superfície descreve a corrosão UNIFORME, o oposto do pite.",
+   "C": "Depender de contato com outro metal é característica da corrosão GALVÂNICA; pite não precisa de segundo metal.",
+   "D": "Mesmo erro: pite não depende de contato elétrico com metal algum, nobre ou não.",
+   "E": "É o contrário: pites estão fortemente associados aos íons cloreto, que rompem o filme passivo."
+  },
+  "pontos": [
+   "Pite = alta taxa LOCAL em pontos discretos; perfura com pouca perda de massa",
+   "Fortemente associado a Cl-; ataca inox e alumínio (rompe o filme passivo)",
+   "Não confundir com galvânica: pite não exige contato com outro metal"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2014, Q55",
+  "q": "A fragilização por hidrogênio é um dos problemas mais importantes no emprego de diversos materiais metálicos, mas alguns procedimentos podem ser desenvolvidos para evitar essa fragilização. O que se deve fazer para reduzir a fragilização por hidrogênio?",
+  "alts": {
+   "A": "Proteger a região da solda e a vizinhança da presença de água durante o processo de soldagem das peças metálicas.",
+   "B": "Molhar a região da solda com muita água durante o processo de soldagem das peças metálicas.",
+   "C": "Aumentar a taxa de corrosão durante o processo de limpeza de peça metálica em meio ácido.",
+   "D": "Tratar a peça metálica termicamente, a altas temperaturas, numa atmosfera rica em hidrogênio.",
+   "E": "Tratar a peça metálica termicamente, a altas temperaturas, numa atmosfera rica em água."
+  },
+  "correta": "A",
+  "explica": "A prevenção da fragilização por hidrogênio consiste em cortar a fonte de hidrogênio: manter a solda e a vizinhança secas e protegidas da água, pois a umidade se dissocia no arco e injeta hidrogênio difusível na solda. Por isso usam-se eletrodos básicos de baixo hidrogênio secados em estufa. Gabarito oficial da Cesgranrio.",
+  "erradas": {
+   "B": "Molhar a solda é exatamente injetar hidrogênio na poça de fusão, o oposto da prevenção.",
+   "C": "Mais corrosão ácida gera mais hidrogênio atômico na superfície, que é absorvido pelo aço.",
+   "D": "Atmosfera rica em H2 em alta temperatura carrega a peça de hidrogênio em vez de removê-lo.",
+   "E": "Vapor de água em alta temperatura também fornece hidrogênio (e ainda oxida a peça)."
+  },
+  "pontos": [
+   "Prevenção = cortar a FONTE de H: solda seca, eletrodos baixo-H secados em estufa, preaquecimento",
+   "Fontes de H: umidade na soldagem, decapagem ácida, eletrodeposição, H2S",
+   "Baking (~200 °C, algumas horas) remove o H difusível e reverte a fragilização se ainda não trincou"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q33",
+  "q": "Ensaios de tração são muito empregados para a caracterização inicial das propriedades mecânicas de materiais estruturais. O engenheiro de controle da qualidade de uma indústria recebeu um novo carregamento de dois materiais estruturais e decidiu fazer um ensaio de tração antes de aceitar o carregamento. O técnico do laboratório realizou o ensaio e apresentou as seguintes informações: Material A: 525 MPa, 345 MPa e redução de área 32,0%; Material B: 1015 MPa, 525 MPa e redução de área 11,0%. Considere as conclusões: I - O material B é mais dútil que o material A, porque apresenta um limite de escoamento de 1015 MPa e um limite de resistência mecânica de 525 MPa. II - O material A é mais dútil que o material B, porque apresenta uma redução de área de 32,0%. III - O material A apresenta um limite de escoamento de 525 MPa e, portanto, igual ao limite de escoamento do material B. IV - O material B apresenta um limite de resistência mecânica de 1015 MPa, quase o dobro do limite de resistência mecânica do material A, de 525 MPa. Apesar de os resultados experimentais estarem corretos, o técnico se confundiu na interpretação e concluiu corretamente APENAS o que está informado em",
+  "alts": {
+   "A": "I e II",
+   "B": "I e III",
+   "C": "II e III",
+   "D": "II e IV",
+   "E": "III e IV"
+  },
+  "correta": "D",
+  "explica": "Como o limite de escoamento é sempre menor que o limite de resistência, para o material A tem-se LE = 345 e LR = 525 MPa, e para o B, LE = 525 e LR = 1015 MPa. A afirmativa II é verdadeira (redução de área de 32% > 11%, logo A é mais dúctil) e a IV também (LR de B = 1015, quase o dobro de 525). Logo, II e IV.",
+  "erradas": {
+   "A": "Inclui a afirmativa I, que troca LE com LR: o limite de escoamento nunca pode ser maior que o de resistência.",
+   "B": "Inclui I (troca LE/LR) e III (o LE de A é 345 MPa, não 525), ambas falsas.",
+   "C": "Inclui a III, que é falsa: 525 MPa é o LR do material A; seu LE é 345 MPa.",
+   "E": "Inclui a III, falsa: os limites de escoamento de A (345) e B (525) são diferentes."
+  },
+  "pontos": [
+   "Regra de ouro: dado um par de tensões, o MAIOR é o LR e o MENOR é o LE (LE < LR sempre)",
+   "Ductilidade se mede por alongamento ou redução de área: maior RA = mais dúctil",
+   "Resistência alta não significa ductilidade alta; em geral é o contrário"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q44",
+  "q": "Na montagem de equipamentos industriais, muitas vezes é imprescindível a união de dois metais totalmente distintos, por exemplo, bronze e aço ao carbono. Essa união favorece um mecanismo muito comum de corrosão denominado corrosão",
+  "alts": {
+   "A": "galvânica do aço com oxidação do ferro",
+   "B": "puntiforme (por pites) do bronze pelo oxigênio",
+   "C": "por aeração diferencial (crevice corrosion) do aço",
+   "D": "por aeração diferencial (crevice corrosion) do bronze",
+   "E": "por oxidação do bronze pelo hidrogênio"
+  },
+  "correta": "A",
+  "explica": "Bronze é liga à base de cobre (nobre) e o aço ao carbono é essencialmente ferro (ativo, potencial mais negativo). A união elétrica dos dois em meio eletrolítico forma um par galvânico em que o aço é o anodo: corrosão galvânica do aço, com oxidação do ferro (Fe vira Fe2+ liberando elétrons).",
+  "erradas": {
+   "B": "Pites exigiriam cloretos rompendo filme passivo, e o bronze é o membro protegido (catódico) do par.",
+   "C": "Aeração diferencial nasce de gradiente de oxigênio em frestas, não da simples união de metais distintos.",
+   "D": "Além de o mecanismo típico ser galvânico, o bronze é o metal nobre protegido do par.",
+   "E": "Não há mecanismo de oxidação do bronze pelo hidrogênio nesse cenário; o bronze é o catodo."
+  },
+  "pontos": [
+   "Dois metais distintos + contato elétrico + eletrólito = corrosão GALVÂNICA",
+   "O Mais Negativo Morre: aço (ferro) corrói, bronze (cobre) fica protegido",
+   "Reação anódica: Fe -> Fe2+ + 2e- (oxidação do ferro)"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q49",
+  "q": "Que condições são necessárias para a passivação de um aço inoxidável austenítico 18-8?",
+  "alts": {
+   "A": "Formação de um fino filme de Cr2O3 e presença de oxigênio",
+   "B": "Formação de um fino filme de Cr2O3 e presença de nitrogênio",
+   "C": "Formação de um fino filme de Cr2O3 e formação de um fino filme de Fe2O3",
+   "D": "Formação de um fino filme de Fe2O3 e presença de oxigênio",
+   "E": "Formação de um fino filme de Fe2O3 e presença de nitrogênio"
+  },
+  "correta": "A",
+  "explica": "A resistência à corrosão do inox 18-8 (18% Cr, 8% Ni) vem do filme passivo de Cr2O3: fino, contínuo, aderente e autorregenerável. A formação e o reparo desse filme exigem meio oxidante, ou seja, presença de oxigênio (ou outro oxidante). Por isso o inox sofre em meios redutores ou desaerados, como frestas.",
+  "erradas": {
+   "B": "O nitrogênio é praticamente inerte e não forma nem repara o filme passivo.",
+   "C": "O filme protetor é de óxido de cromo; óxido de ferro não confere a passivação do inox.",
+   "D": "Fe2O3 (ferrugem/óxido de ferro) não é o filme passivo protetor do aço inoxidável.",
+   "E": "Combina os dois erros: filme errado (Fe2O3) e gás errado (nitrogênio)."
+  },
+  "pontos": [
+   "Passivação do inox = filme fino, contínuo e aderente de Cr2O3 + presença de OXIGÊNIO",
+   "Meio redutor ou desaerado (frestas) despassiva o inox",
+   "É preciso ~11-12% de Cr em solução sólida para formar o filme passivo"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q50",
+  "q": "Sob que condições a proteção com anodo de sacrifício do casco de um barco feito de aço será eficaz?",
+  "alts": {
+   "A": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material abaixo da linha d'água, mantendo-o isolado eletricamente do aço do casco.",
+   "B": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material acima da linha d'água, empregando um bom contato elétrico com o aço do casco.",
+   "C": "Empregar um material mais oxidável que o ferro, por exemplo, zinco, e prender esse material abaixo da linha d'água, empregando um bom contato elétrico com o aço do casco.",
+   "D": "Empregar um material menos oxidável que o ferro, por exemplo, cobre, e prender esse material abaixo da linha d'água, empregando um bom contato elétrico com o aço do casco.",
+   "E": "Empregar um material menos oxidável que o ferro, por exemplo, cobre, e prender esse material acima da linha d'água, empregando um bom contato elétrico com o aço do casco."
+  },
+  "correta": "C",
+  "explica": "O anodo de sacrifício exige três requisitos simultâneos: metal mais oxidável (mais ativo) que o ferro, como o zinco; instalação no eletrólito, ou seja, abaixo da linha d'água; e bom contato elétrico com o casco, para os elétrons circularem. Só a alternativa C reúne os três.",
+  "erradas": {
+   "A": "Falha no contato elétrico: anodo isolado do casco não forma pilha e é inútil.",
+   "B": "Falha na posição: acima da linha d'água o anodo está fora do eletrólito e não há pilha.",
+   "D": "Cobre é MENOS oxidável (mais nobre) que o ferro: inverteria a pilha e corroeria o casco.",
+   "E": "Combina dois erros: metal nobre (cobre) e posição fora d'água."
+  },
+  "pontos": [
+   "Anodo de sacrifício: metal mais ativo (Zn, Mg, Al) + bom contato elétrico + imerso no eletrólito",
+   "Mnemônico: Sacrifício de bom contato, embaixo d'água",
+   "Metal mais nobre (Cu) no casco inverteria a pilha e aceleraria a corrosão do aço"
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q52",
+  "q": "A observação da superfície de fratura de um material que falha em serviço é uma etapa importante para a identificação dos mecanismos prováveis que causaram a falha. Essa observação precisa ser realizada no microscópio eletrônico de varredura para que os detalhes de relevo sejam bem visualizados. A partir disso, sabe-se que a fratura",
+  "alts": {
+   "A": "dútil ocorre com baixa absorção de energia e, portanto, apresenta uma superfície bastante lisa causada pela clivagem dos grãos.",
+   "B": "dútil ocorre com baixa absorção de energia e a fratura frágil ocorre com alta absorção de energia, não existindo, no entanto, nenhuma relação com a morfologia da fratura.",
+   "C": "dútil ocorre com alta absorção de energia e, portanto, apresenta uma superfície rugosa pela nucleação e crescimento de vazios.",
+   "D": "frágil ocorre com alta absorção de energia e, portanto, apresenta uma superfície bastante lisa causada pela clivagem dos grãos.",
+   "E": "frágil ocorre com baixa absorção de energia e, portanto, apresenta uma superfície rugosa pela nucleação e crescimento de vazios."
+  },
+  "correta": "C",
+  "explica": "Fratura dúctil: alta absorção de energia (deformação plástica) e superfície rugosa/fibrosa com dimples, formada pela nucleação e crescimento de vazios. Fratura frágil: baixa energia e superfície lisa e facetada por clivagem. Somente a alternativa C monta corretamente o trio energia-mecanismo-aparência.",
+  "erradas": {
+   "A": "Troca tudo: a dúctil absorve MUITA energia e a superfície lisa por clivagem é característica da FRÁGIL.",
+   "B": "Inverte as energias e ainda nega a relação com a morfologia, que é justamente a base da fractografia.",
+   "D": "A frágil absorve POUCA energia; acerta apenas a morfologia lisa por clivagem.",
+   "E": "Cruza fratura frágil (baixa energia, correto) com a morfologia da dúctil (rugosa com vazios), o que é errado."
+  },
+  "pontos": [
+   "Dúctil = alta energia + superfície rugosa com dimples (vazios que nucleiam e coalescem)",
+   "Frágil = baixa energia + superfície lisa/brilhante facetada (clivagem)",
+   "A morfologia no MEV identifica o mecanismo: fractografia é energia + mecanismo + aparência"
+  ]
+ }
+]

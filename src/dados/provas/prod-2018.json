@@ -1,0 +1,570 @@
+{
+ "id": "prod-2018",
+ "trilha": "producao",
+ "ano": 2018,
+ "nome": "Eng. Jr — Produção",
+ "processo": "Transpetro PSP RH 2018.1",
+ "caderno": "engenheiro_a_junior_producao.pdf",
+ "folhaGabarito": "gabarito_definitivo.pdf",
+ "total": 42,
+ "questoes": [
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2018, Q22",
+   "q": "Uma das dificuldades encontradas pelos pequenos empresários é a correta definição de preço dos seus produtos. O proprietário de uma academia de ginástica oferece a modalidade de crossfit como uma das atividades indicadas para queima de calorias em curto espaço de tempo. Após 12 meses sem reajustar o preço da mensalidade dessa modalidade, o proprietário realizou um estudo sobre impactos do preço sobre a demanda pelo serviço ofertado. Ele chegou à conclusão de que, se a mensalidade passar dos atuais R$ 200,00 para R$ 250,00, a demanda pelo serviço cairá 10%. Desconsidere as demais variáveis que possam, eventualmente, influenciar na relação entre preço e demanda. Em relação à demanda, tem-se que ela",
+   "alts": {
+    "A": "cai a 20%, se o preço aumentar 20%.",
+    "B": "sobe 10%, caso o preço diminua 5%.",
+    "C": "é inelástica e igual a 0,4.",
+    "D": "é elástica e igual a 2,5.",
+    "E": "permanece inalterada com um aumento de 5% no preço."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2018, Q23",
+   "q": "Um dos conceitos mais importantes presentes em Projeto de Sistemas Produtivos é a definição de “fit”, ou ajuste. Esse conceito consiste em melhorar a congruência entre",
+   "alts": {
+    "A": "abordagem competitiva e operação",
+    "B": "atributos de qualidade do produto e demanda dos clientes",
+    "C": "processos de negócios e competências disponíveis",
+    "D": "tecnologia e disponibilidade de recursos financeiros",
+    "E": "planejamento e controle estratégico"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2018, Q24",
+   "q": "Um processo típico de desenvolvimento de produto é dividido em macrofases, a saber: Pré-desenvolvimento, Desenvolvimento e Pós-desenvolvimento. A macrofase de Desenvolvimento, por sua vez, é dividida em diversas fases. Uma dessas fases tem como objetivo criar, a partir do Plano do Projeto, as chamadas Especificações-Meta, compostas pelos requisitos e informações qualitativas necessários para o desenvolvimento do futuro produto. O nome dessa fase é",
+   "alts": {
+    "A": "Lançamento do Produto",
+    "B": "Preparação da Produção",
+    "C": "Projeto Conceitual",
+    "D": "Projeto Detalhado",
+    "E": "Projeto Informacional"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2018, Q25",
+   "q": "O Design Thinking vem sendo frequentemente adotado nas empresas para diferentes aplicações, tendo como objetivo primordial a construção de soluções de problemas considerados complexos. A característica determinante do Design Thinking, enquanto ações mobilizadoras para resolução de problemas, se dá pela(o)",
+   "alts": {
+    "A": "organização do trabalho colaborativo das pessoas envolvidas, em uma lógica que articula simultaneamente análise e síntese.",
+    "B": "ausência de métodos, procedimentos e ferramentas, justamente para que não haja nenhum viés na busca por soluções.",
+    "C": "modelagem de dados e informações em softwares de simulação, fazendo com que não seja necessária a imersão direta dos participantes nos problemas reais.",
+    "D": "participação única de especialistas que, com suas competências e experiências, criarão diversas soluções alternativas para o problema.",
+    "E": "planejamento estruturado no início da definição do problema, antes de se construir uma solução única e otimizada."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2018, Q26",
+   "q": "Um dos fundamentos de excelência, segundo a Fundação Prêmio Nacional da Qualidade, é o compromisso com as partes interessadas. Tal fundamento orienta que uma efetiva gestão de partes interessadas deva",
+   "alts": {
+    "A": "eliminar riscos por selecionar as partes interessadas mais importantes e afastar as menos importantes.",
+    "B": "identificar, classificar e criar mecanismos para garantir o envolvimento e comprometimento das partes interessadas.",
+    "C": "criar fundo de financiamento coletivo para subsidiar partes interessadas mais importantes.",
+    "D": "conduzir inciativas sem a necessidade de planejar a participação das partes interessadas, deixando que a agenda de projetos, por si só, ajude a evidenciar interessados e os envolver gradativamente.",
+    "E": "considerar a contratação de todas as partes interessadas, mesmo que em contratos temporários."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2018, Q27",
+   "q": "Uma fornecedora de hortifrutigranjeiros para instituições públicas (Escolas, Quartéis do Exército e da Polícia, etc.) e empresas privadas (supermercados, lanchonetes, etc.), localizada no interior do Estado do Rio de Janeiro, teve seus processos modelados, e, a partir de alguns problemas identificados, elencaram-se algumas ações de melhoria. Sabe- -se que a visão do cliente é um elemento fundamental no processo de priorização de ações de melhoria, pois orienta a adoção de critérios bem definidos que promova o alinhamento dos processos empresariais com o valor percebido pelo cliente. Sobre este aspecto, a matriz importância e desempenho é um importante instrumento para que se avaliem os atributos de qualidade de uma empresa, sua posição em relação aos consumidores e em relação aos concorrentes. A matriz a seguir representa o caso dessa fornecedora: De acordo com as orientações dadas pela matriz, o critério a ser priorizado no trabalho de melhoria dos processos da fornecedora é o(a)",
+   "alts": {
+    "A": "Atendimento às Variações da Demanda",
+    "B": "Frescor dos Produtos",
+    "C": "Preço Médio dos Produtos",
+    "D": "Oferta de Variedade de Produtos",
+    "E": "Rapidez da Reposição das Prateleiras"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2018, Q28",
+   "q": "O quadro conceitual conhecido como as “Cinco Forças de Porter” apoia a análise da influência dos Fornecedores, Clientes, Nível de Rivalidade, Novos Entrantes e Bens Substitutos na lucratividade média de um determinado setor. Um elemento extra — o papel dos Complementares — também passou a ser considerado nessa análise por também influenciar o nível de lucratividade das empresas de um setor. A influência direta dos complementares faz aumentar",
+   "alts": {
+    "A": "a quantidade de fornecedores e, consequentemente, o poder de barganha destes.",
+    "B": "a quantidade de compradores e, consequentemente, o poder de barganha destes.",
+    "C": "a disposição dos compradores para pagar pelos produtos.",
+    "D": "a rivalidade dos concorrentes e, consequentemente, uma guerra de preços.",
+    "E": "a barreira de saída das empresas concorrentes do setor."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2018, Q29",
+   "q": "A partir de uma perspectiva interna das empresas, a Visão Baseada em Recursos (VBR) consiste em uma abordagem da Estratégia Empresarial que reconhece a importância dos recursos relacionados à empresa como fonte de vantagem competitiva. Torna-se importante, pois, o desenvolvimento e a efetiva gestão desses recursos, entendidos aqui como os ativos financeiros, físicos, humanos, tecnológicos e organizacionais utilizados para se gerar valor. Entretanto, para a efetiva gestão de tais recursos, é importante que se adotem critérios para destacar quais deles são mais valiosos sob o ponto de vista do posicionamento estratégico diferenciado. Sob este aspecto, os recursos considerados valiosos devem ser",
+   "alts": {
+    "A": "abundantes, acessíveis e caros",
+    "B": "abundantes, inovadores e úteis",
+    "C": "apropriáveis, flexíveis e caros",
+    "D": "apropriáveis, inimitáveis e insubstituíveis",
+    "E": "disponíveis, inovadores e insubstituíveis"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2018, Q30",
+   "q": "A estrutura de uma organização pode ser entendida como uma combinação de seis partes básicas, a saber: Ápice Estratégico, Linha Intermediária, Núcleo Operacional, Ideologia, Tecnoestrutura e Equipe de Apoio. A combinação dessas partes leva a diferentes configurações adotadas pelas organizações. Sobre essas configurações, tem-se que a organização",
+   "alts": {
+    "A": "empreendedora apresenta procedimentos de planejamento e controle fortemente padronizados.",
+    "B": "profissional se caracteriza por possuir tecnoestrutura menos relevante do que a equipe de apoio.",
+    "C": "política se caracteriza pela clareza dos mecanismos de coordenação e centralização do poder em um líder político.",
+    "D": "máquina utiliza, com bastante frequência, o mecanismo de coordenação lateral por ajustes mútuos.",
+    "E": "missionária é altamente especializada e possui divisão clara das tarefas."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2018, Q31",
+   "q": "Um projeto organizacional tem, como um dos objetivos, adequar a divisão do trabalho, os mecanismos de coordenação, e as relações de autoridade e poder às necessidades da empresa. Um componente importante desse projeto é a definição do arranjo organizacional. O arranjo organizacional do tipo funcional é mais adequado quando se verifica(m)",
+   "alts": {
+    "A": "atividades bem definidas e enquadradas por departamentos.",
+    "B": "necessidade de criar um novo modelo de negócio.",
+    "C": "forte interdependência das atividades envolvidas.",
+    "D": "grande necessidade de competências especiais, dificilmente formalizáveis.",
+    "E": "vários novos projetos com curta duração."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2018, Q32",
+   "q": "Sabe-se que a inovação tem se mostrado um elemento primordial para sustentação da vantagem competitiva das organizações. Gerir inovação nas organizações não é um processo simples, já que exige um comprometimento muito grande por parte de todos os colaboradores, além de envolver muitas incertezas e complexidades. Uma das características marcantes de organizações inovadoras é a sua capacidade de serem ambidestras. Organizações ambidestras são aquelas que",
+   "alts": {
+    "A": "conduzem ações de planejamento estratégico que articula pensamento analítico e criativo ao mesmo tempo.",
+    "B": "conduzem ações coordenadas e voltadas para a inovação incremental e radical ao mesmo tempo.",
+    "C": "possuem modelos de negócios que viabilizam clientes não pagantes, a partir da oferta de produtos para clientes pagantes.",
+    "D": "desenvolvem, em um mesmo momento, diferentes tecnologias, usando a mesma plataforma tecnológica.",
+    "E": "oferecem produtos em diferentes segmentos de mercado ao mesmo tempo, obtendo assim ganhos com economias de escopo."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2018, Q33",
+   "q": "Um prestador de serviços logísticos designado como 4 PL é aquele que fornece",
+   "alts": {
+    "A": "serviços logísticos para suas próprias atividades, porém em empresas diferentes dentro de um mesmo grupo empresarial.",
+    "B": "serviços integrados de armazenagem e transporte para terceiros.",
+    "C": "serviços integrados de armazenagem, roteirização, transporte, escrituração fiscal, picking para terceiros.",
+    "D": "integração logística para seus clientes, contratando e gerenciando outros prestadores de serviços logísticos na cadeia de suprimentos de um único cliente.",
+    "E": "integração logística global para seus clientes, contratando e gerenciando outros prestadores de serviços logísticos para diferentes clientes que interagem, integrando toda a cadeia de suprimentos de vários clientes."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2018, Q34",
+   "q": "Uma empresa aumentou o volume de produção de um único produto, mantendo seus custos fixos de produção constantes e com diminuição do custo unitário médio do bem produzido no período de três anos, sem realizar novos investimentos em infraestrutura, equipamentos ou tecnologia que modifiquem sua capacidade produtiva. Nesse caso, a empresa realizou uma",
+   "alts": {
+    "A": "economia de escala de curto prazo",
+    "B": "economia de escala de longo prazo",
+    "C": "economia de escala de curto e longo prazos",
+    "D": "deseconomia de escala de longo prazo",
+    "E": "deseconomia de escala de curto prazo"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2018, Q35",
+   "q": "Um engenheiro de produção deve decidir se propõe a aquisição de um equipamento no valor de R$ 800.000 para expandir a capacidade produtiva da fábrica. Com a adição do novo equipamento, estima-se que o lucro líquido ao final de 3 anos seria de R$ 900.000, com os fluxos de caixa anuais de R$ 200.000, R$ 300.000 e R$ 400.000, respectivamente no primeiro, segundo e terceiro anos de operações. Estima-se que o custo de capital seja de 10% ao ano, nos três anos do projeto. Nessas condições, tem-se o seguinte:",
+   "alts": {
+    "A": "há um crescimento não linear e, portanto, incerto do fluxo de caixa, não justificando o investimento.",
+    "B": "o rendimento do investimento ultrapassa em R$ 150.000 o valor de aquisição, justificando a expansão de capacidade.",
+    "C": "o rendimento do projeto, em valores presentes, é de R$ 69.722 negativos, não justificando o investimento.",
+    "D": "o rendimento anual médio do projeto, em valores presentes, é de R$ 300.000, justificando o investimento.",
+    "E": "em valores presentes médios anuais, o aumento anual do fluxo de caixa do projeto é de R$ 100.000, justificando o investimento."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2018, Q37",
+   "q": "Uma empresa captou R$ 100.000 reais a uma taxa de juros compostos de 1% ao mês. Ao cabo de seis meses no futuro, essa dívida terá um valor em reais, no presente, de",
+   "alts": {
+    "A": "R$ 103.030",
+    "B": "R$ 104.060",
+    "C": "R$ 105.101",
+    "D": "R$ 106.000",
+    "E": "R$ 106.152"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2018, Q38",
+   "q": "As heurísticas e meta-heurísticas são bastante utilizadas em modelagem matemática e simulações na Engenharia de Produção, sobretudo nas situações para as quais",
+   "alts": {
+    "A": "se busca uma solução matemática exata para o problema estudado.",
+    "B": "não se podem testar diferentes cenários com soluções alternativas.",
+    "C": "há necessidade de testar as soluções no ambiente real de ocorrência do evento estudado.",
+    "D": "há uma dificuldade ou impossibilidade de se obter uma solução ótima para uma formulação matemática que seja uma representação razoável de um problema real.",
+    "E": "há necessidade de fazer análises de sensibilidade dos resultados obtidos."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2018, Q43",
+   "q": "Um fabricante de eletrodomésticos envia uma carga de 60 televisores para um Centro de Distribuição (CD), que fará a separação desses aparelhos em 20 televisores para entrega imediata em três caminhões menores para três clientes diferentes, sem estocar os produtos no CD. Esse procedimento é chamado de",
+   "alts": {
+    "A": "Merge in transit",
+    "B": "Transit point",
+    "C": "Cross Docking",
+    "D": "Armazenamento drive-in / drive-thru",
+    "E": "FIFO"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2018, Q44",
+   "q": "No que diz respeito aos procedimentos e conceitos para definição da estratégia e do planejamento de capacidade de processos produtivos, tem-se que",
+   "alts": {
+    "A": "a decisão pela estratégia de acompanhar a demanda implica o uso de fontes de capacidade para suprir a diferença entre a taxa de produção constante e a taxa de demanda variável.",
+    "B": "a estratégia de capacidade de nivelar a capacidade é caracterizada quando a capacidade de produção em cada período de tempo é variada para coincidir exatamente com a demanda agregada prevista nesse período.",
+    "C": "o planejamento bruto da capacidade, preconizado pelo Sistema Toyota de Produção, visa a definir a estratégia de capacidade da organização.",
+    "D": "as fontes comuns de capacidade são estoques, backlog, trabalho em hora extra ou subcontratações.",
+    "E": "os recursos de Capacidade Restrita (CCRs) são aqueles cuja capacidade disponível é menor do que a capacidade necessária para atender às ordens demandadas pelo mercado, sendo a restrição do sistema."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2018, Q45",
+   "q": "O fordismo é um sistema clássico de organização industrial que consolidou o modelo de linhas de montagem como forma de produzir grandes volumes de produto a baixo custo. Um dos elementos que viabiliza tal sistema é a especialização da mão de obra, caracterizada por um trabalho, no qual o operador",
+   "alts": {
+    "A": "em 10.000 clientes para justificar um novo incremento de capacidade.",
+    "B": "em 20.000 clientes para justificar um novo incremento de capacidade.",
+    "C": "em mais de 10.000 clientes para justificar um novo incremento de capacidade.",
+    "D": "em mais de 20.000 clientes para justificar um novo incremento de capacidade.",
+    "E": "entre 10.000 e 20.000 clientes para justificar um novo incremento de capacidade."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2018, Q46",
+   "q": "A empresa de operação logística W, diante da necessidade de aumentar o nível de serviço ao cliente, precisa deliberar sobre duas soluções projetadas por sua equipe técnica, a saber: automatizar a montagem de pedidos, com valor de implantação de R$10.000.000,00, ou reajustar os contratos com transportadoras, com valor de R$5.000.000,00. Quando implementadas, ambas as soluções podem gerar ganhos elevados ou pequenos com o aumento de nível de serviço. Para tomar essa decisão, a cúpula executiva da empresa optou por aplicar a análise de Valor Monetário Esperado (Expected Monetary Value - EMV), um método para análise quantitativa de risco. Os fatores a serem considerados nesse processo decisório são representados na árvore de decisão que segue: A primeira solução, que consiste em automatizar a montagem de pedidos, apresenta probabilidade de 85% de gerar R$ 20.000.000,00 em ganho por aumento do nível de serviço e 15% de probabilidade de ganho de R$ 2.000.000,00. A segunda solução, que consiste em reajustar os contratos com transportadoras, apresenta probabilidade de 60% de gerar R$ 30.000.000,00 em ganho por aumento do nível de serviço e 40% de probabilidade de ganho de R$ 10.000.000,00. Portanto, seguindo o método adotado para tomada de decisão, a solução a ser implantada por W é",
+   "alts": {
+    "A": "automatizar a montagem de pedidos, por apresentar um VME de 17 milhões.",
+    "B": "automatizar a montagem de pedidos, por apresentar um VME de 7,3 milhões.",
+    "C": "automatizar a montagem de pedidos, por apresentar um VME superior ao VME da solução de ajustar os contratos com as transportadoras.",
+    "D": "reajustar os contratos com as transportadoras, por apresentar um VME de 12 milhões.",
+    "E": "reajustar os contratos com as transportadoras, por apresentar um VME de 17 milhões."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2018, Q47",
+   "q": "Um equipamento A é formado por três componentes X essenciais independentes que interagem. Em testes de confiabilidade realizados no componente X, observouse que, em sua expectativa de vida, somente 2% de X falharam. Dessa forma, uma vez que o componente X possui grau de confiabilidade 0,98, qual é a confiabilidade do equipamento A?",
+   "alts": {
+    "A": "0,93",
+    "B": "0,94",
+    "C": "0,95",
+    "D": "0,96",
+    "E": "0,98"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2018, Q48",
+   "q": "Um dos métodos utilizados em projetos de postos de trabalho consiste no estudo de movimentos, que contempla o “estudo detalhado dos movimentos de cada mão, seguido por uma detalhada e cuidadosa aplicação dos princípios de economia dos movimentos” (BARNES, 1977, p.87). A ferramenta que permite visualizar o trabalho em termos de movimentos elementares das mãos é o",
+   "alts": {
+    "A": "fluxograma",
+    "B": "gráfico de atividades",
+    "C": "gráfico de operações",
+    "D": "gráfico homem-máquina",
+    "E": "mapofluxograma"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2018, Q50",
+   "q": "Nas últimas três décadas, os países ocidentais vêm experimentando uma mudança na sua base econômica, tradicionalmente manufatureira e industrial, para uma era informacional predominantemente sustentada pela prestação de serviços. No entanto, essa rápida mudança no mercado não foi acompanhada pelo desenvolvimento de métodos e/ou técnicas para o projeto de novos serviços (Tatikonda e Zeithaml, 2002), como, de fato, tradicionalmente, já existem modelos consolidados para o projeto e desenvolvimento de produtos (Bullinger et al., 2003). (MALLET, LIPPI, 2013, p.97) Nesse contexto, sobre as abordagens existentes para dar suporte ao desenvolvimento e à criação de serviços, tem- -se que",
+   "alts": {
+    "A": "a abordagem do Design é centrada no usuário, e os seus métodos, por consequência, baseiam-se no pressuposto de que o projeto e o desenvolvimento do serviço dispensam a lógica de coprodução e demandam equipe técnica e especializada para obter melhores resultados.",
+    "B": "a Engenharia de Serviços, vista como a sistematização e a roteirização do processo de projeto do serviço, é uma abordagem que apresenta como limitação a construção de serviços muito imprevisíveis e/ou de cunho basicamente criativo.",
+    "C": "a prototipagem é uma técnica utilizada exclusivamente para patentear serviços.",
+    "D": "o Design Thinking possui fases rígidas no processo de desenvolvimento, como o projeto informacional, projeto conceitual, e projeto detalhado.",
+    "E": "o Service Blueprinting é uma ferramenta utilizada para desdobrar a função qualidade, sendo um sistema formal para identificar os desejos dos clientes e eliminar características de produtos e atividades que não agregam valor."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2018, Q51",
+   "q": "O departamento de engenharia e manutenção da indústria X está deliberando sobre a política de manutenção de um equipamento considerado recurso crítico para o sistema produtivo. Após análise do manual técnico e de desempenho do equipamento em operação, foi possível identificar que a vibração mecânica é um parâmetro relacionado ao desempenho do equipamento. Dessa forma, a indústria optou por instalar sensores no equipamento, de modo a implementar o método de análise de vibrações. Esse método é adotado em manutenção do tipo",
+   "alts": {
+    "A": "setup",
+    "B": "preventiva",
+    "C": "preditiva",
+    "D": "corretiva planejada",
+    "E": "corretiva não planejada"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2018, Q52",
+   "q": "O CRP (Capacity Requirements Planning) e o MRP (Material Requirement Planning) são módulos de planejamento e controle da produção de curto prazo do MRP II (Manufacturing Resource Planning). São requisitos imediatos de entrada para esses módulos:",
+   "alts": {
+    "A": "lista de centros produtivos; lista de materiais; e ordens de compra",
+    "B": "lista de centros produtivos; lista de materiais; e roteiros e tempos de fabricação",
+    "C": "lista de centros produtivos; ordens de fabricação; e previsão de demanda",
+    "D": "lista de materiais; necessidade de compras; e previsão de demanda",
+    "E": "perfil de recursos críticos; previsão de demanda; e registro de estoques"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2018, Q53",
+   "q": "O planejamento agregado é parte integrante do processo de planejamento e controle da produção. Planejar determina o que se pretende que aconteça em algum momento no futuro. Controlar é o processo de se ajustar quando os fatos não acontecem como o esperado. Qual dos seguintes fatores difere por ocasião do estabelecimento do planejamento agregado em um serviço e em uma manufatura?",
+   "alts": {
+    "A": "Incerteza na demanda",
+    "B": "Perecibilidade da capacidade",
+    "C": "Custo de armazenamento de estoque",
+    "D": "Custo das horas extras",
+    "E": "Custo da contratação"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2018, Q54",
+   "q": "Uma Lista de Material (em inglês, Bill of Material — BOM) relaciona os acessórios, as unidades intermediárias, as peças componentes, as matérias-primas e as quantidades correspondentes necessárias para elaborar um produto final. Uma árvore de estrutura de produto representa visualmente a Lista de Material daquele produto específico. Considere a seguinte árvore de estrutura do produto: A(2 M(3 N(4 B(3 P C(4 C(4 D(5 Se 17 P são requeridos, e não há estoque disponível para qualquer item, quantos C serão necessários?",
+   "alts": {
+    "A": "18",
+    "B": "16",
+    "C": "136",
+    "D": "204",
+    "E": "272"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2018, Q55",
+   "q": "Uma estratégia criativa e distintiva que proporcione uma vantagem competitiva sustentável é importante porque",
+   "alts": {
+    "A": "a empresa, sem uma estratégia definida, provavelmente entrará em bancarrota.",
+    "B": "a empresa, sem uma vantagem competitiva, não pode ter um modelo de negócio lucrativo.",
+    "C": "o modo pelo qual a empresa satisfaz clientes e supera rivais é o que permite à alta gerência escolher uma visão estratégica apropriada para essa empresa.",
+    "D": "uma vantagem competitiva é o que permite que a empresa atinja seus objetivos estratégicos.",
+    "E": "uma estratégia que gera uma vantagem competitiva, em relação aos rivais, proporciona à empresa lucratividade e desempenho financeiro acima da média."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2018, Q56",
+   "q": "Uma das principais responsabilidades de um gerente é conseguir o uso produtivo dos recursos de uma organização. Produtividade é o indicador utilizado para descrever isso, medindo a relação entre output (bens e serviços produzidos) e input (recursos empregados). Para organizações sem fins lucrativos, uma maior produtividade significa custos mais baixos. Nas organizações com fins lucrativos, a produtividade é um fator importante para determinar o quão competitiva é a empresa. Qual das seguintes ações tende a reduzir a produtividade de uma empresa?",
+   "alts": {
+    "A": "Redução na taxa de sucata",
+    "B": "Redução na rotatividade dos trabalhadores",
+    "C": "Melhoria na segurança no local de trabalho",
+    "D": "Existência de trabalhadores inexperientes",
+    "E": "Implantação de um programa de treinamento para os trabalhadores"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2018, Q57",
+   "q": "Os objetivos mais amplos, que as operações produtivas necessitam perseguir para satisfazer seus stakeholders, formam o pano de fundo para todo o processo decisório da produção. Entretanto, no nível operacional, é necessário um conjunto de objetivos mais estreitamente definidos. Segundo alguns autores, esses são cinco objetivos de desempenho básicos e se aplicam a todos os tipos de operações produtivas. Considerando-se, por exemplo, uma empresa que atua no ramo de delivery, a seguinte descrição caracteriza o objetivo de desempenho denominado confiabilidade:",
+   "alts": {
+    "A": "Uma empresa que entrega mais frequentemente do que seus concorrentes.",
+    "B": "Uma empresa que entrega sempre no mesmo dia da semana.",
+    "C": "Uma empresa que sempre entrega no tempo prometido.",
+    "D": "Uma empresa que tem um sistema de agendamento informatizado de entregas.",
+    "E": "Uma empresa que tem uma frota padronizada de motocicletas."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2018, Q58",
+   "q": "Os custos de controle da qualidade podem não ser pequenos, sejam eles de responsabilidade dos indivíduos ou de um departamento de controle da qualidade. Desse modo, faz-se necessário detectar todos os custos e benefícios associados à qualidade. Geralmente esses custos da qualidade são classificados em quatro categorias. Nesse sentido, paradas na linha de produção, descarte de material e retrabalho são exemplos de custos de",
+   "alts": {
+    "A": "falha interna",
+    "B": "falha externa",
+    "C": "substituição",
+    "D": "prevenção",
+    "E": "avaliação"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2018, Q59",
+   "q": "Os movimentos competitivos e as abordagens gerenciais que a direção de uma empresa usa para aumentar o negócio, atrair e satisfazer os clientes, realizar operações e atingir os objetivos organizacionais são usualmente caracterizados como sendo sua(seu)",
+   "alts": {
+    "A": "estratégia",
+    "B": "visão estratégica",
+    "C": "modelo de negócio",
+    "D": "intenção estratégica",
+    "E": "declaração de missão"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2018, Q61",
+   "q": "Problemas de roteirização de veículos dizem respeito à vinculação de um grupo de clientes que devem ser visitados a um conjunto de veículos e respectivos motoristas, envolvendo também a programação e o sequenciamento das visitas. No método que se baseia no conceito de ganho, parte-se da pior situação possível: o veículo sai do CD com a mercadoria destinada a um único cliente e, após a entrega, o veículo retorna ao CD. Em seguida insere-se um outro cliente nessa rota. Este método é conhecido sob a designação de",
+   "alts": {
+    "A": "II - OPT",
+    "B": "III - OPT",
+    "C": "Varredura",
+    "D": "Inserção do ponto mais distante",
+    "E": "Clark & Wright"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2018, Q62",
+   "q": "Em projetos de redes logísticas, a localização de uma instalação depende de vários aspectos. Um aspecto que NÃO é determinante para a definição da localização é (são)",
+   "alts": {
+    "A": "a proximidade do mercado consumidor",
+    "B": "a proximidade das fontes de matérias-primas",
+    "C": "o valor dos impostos",
+    "D": "o local das instalações dos principais concorrentes da empresa",
+    "E": "os custos de transportes e da armazenagem"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2018, Q63",
+   "q": "Em relação ao risco de assalto a residência, uma empresa de segurança classifica as habitações de um bairro residencial, como tendo risco elevado, médio ou baixo. 20% das habitações têm risco elevado de assalto e 40%, risco médio. De acordo com os registros oficiais, 30% das habitações com risco elevado já foram assaltadas, 90% das habitações de risco médio nunca foram assaltadas e apenas 1% das habitações de baixo risco foram assaltadas. O percentual de habitações já assaltadas nesse bairro é de, aproximadamente,",
+   "alts": {
+    "A": "0,10",
+    "B": "0,25",
+    "C": "0,5",
+    "D": "0,75",
+    "E": "0,8"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2018, Q64",
+   "q": "Nos termos da Lei n o 13.303/2016, as licitações realizadas e os contratos celebrados destinam-se a assegurar a seleção da proposta mais vantajosa, inclusive no que se refere ao ciclo de",
+   "alts": {
+    "A": "tratamento compensatório",
+    "B": "manutenção da coisa",
+    "C": "qualidade do material",
+    "D": "vida do objeto",
+    "E": "custo do bem"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2018, Q65",
+   "q": "A Lei Complementar n o 123/2006 dispõe que a administração pública deverá estabelecer, em certames para aquisição de bens de natureza divisível, cota de um certo percentual do objeto para a contratação de microempresas e empresas de pequeno porte. De acordo com essa Lei, tal percentual é de até",
+   "alts": {
+    "A": "5%",
+    "B": "10%",
+    "C": "25%",
+    "D": "35%",
+    "E": "50%"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2018, Q66",
+   "q": "Segundo o modelo administrativo de tomada de decisão, existe um processo que consiste em analisar alternativas apenas até que seja encontrada uma solução que apresente um mínimo de requisitos e, então, encerrar a procura por uma melhor solução. Esse processo é denominado",
+   "alts": {
+    "A": "subotimização",
+    "B": "incubação",
+    "C": "heurística",
+    "D": "estruturação",
+    "E": "maldição do conhecimento"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2018, Q67",
+   "q": "A empresa Z produz os produtos A e B, que compartilham recursos na linha de montagem, cuja capacidade semanal é de 150 horas. O tempo de produção de cada unidade de A e B, na linha de montagem, é, respectivamente, de 2h e 2h 30min. O chefe do PCP desenvolveu o seguinte MPS para atender a demanda de Z: MPS de Z Semana 1 Semana 2 Semana 3 Semana 4 Semana 5 Produção necessária do produto A 50 0 0 100 0 Produção necessária do produto B 0 0 50 0 50 Considerando que a empresa opera com sistema de lote fixo de 50 unidades, não pode atrasar suas entregas, e que há uma parada da linha de montagem, com duração de 25h, prevista para a semana 3, verifica-se que o MPS é",
+   "alts": {
+    "A": "exequível, pois a carga total necessária para produção de A e de B é menor do que a capacidade total, dispensando qualquer ajuste no plano.",
+    "B": "absolutamente inexequível, visto a sobrecarga da semana 4.",
+    "C": "inexequível, mas pode tornar-se viável com a suspensão da parada programada.",
+    "D": "inexequível, mas pode tornar-se viável se a produção de A, na semana 4, for distribuída na produção de 60 unidades na semana 2, e 40, na semana 4.",
+    "E": "inexequível, mas pode tornar-se viável se a produção de A, na semana 4, for distribuída na produção de 50 unidades na semana 2, e 50, na semana 4."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2018, Q68",
+   "q": "Considere o seguinte conceito: Quando o receio da extinção e a urgência de sobreviver financeiramente ditam a conduta moral, o emprego direto da força é uma norma aceita. Trata-se do conceito de",
+   "alts": {
+    "A": "utilitarismo",
+    "B": "darwinismo social",
+    "C": "maquiavelismo",
+    "D": "congregacionismo",
+    "E": "neopositivismo"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2018, Q69",
+   "q": "Uma indústria de grande porte apresentou as seguintes informações, referentes à comercialização de um dos produtos de sua linha: Custos fixos 150.000,00 Custos variáveis 200.000,00 Despesas variáveis 50.000,00 Vendas no período 600.000,00 Considerando-se o método de custeio variável, adotado pela indústria e as informações recebidas, o grau de alavancagem operacional desse produto é",
+   "alts": {
+    "A": "1,50",
+    "B": "1,60",
+    "C": "1,75",
+    "D": "2,00",
+    "E": "3,00"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2018, Q70",
+   "q": "A indústria M, que custeia os seus produtos pelo método direto ou variável, apresentou as seguintes informações com relação à produção de 10.000 unidades de um dos modelos de sua linha: Custos fixos 200.000,00 Custos variáveis 350.000,00 Despesas fixas 50.000,00 Investimento no produto 1.200.000,00 Vendas no período 600.000,00 Custo de oportunidade esperado 10% Preço de venda unitário 85,00 Considerando-se as informações recebidas, a indústria atinge o ponto de equilíbrio econômico (PEE), quando comercializar",
+   "alts": {
+    "A": "4.000 unidades",
+    "B": "5.000 unidades",
+    "C": "6.400 unidades",
+    "D": "7.400 unidades",
+    "E": "9.400 unidades"
+   },
+   "correta": "D"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [
+   49
+  ],
+  "comFigura": [
+   21,
+   36,
+   39,
+   60
+  ],
+  "quebradas": []
+ }
+}

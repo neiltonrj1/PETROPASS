@@ -1,0 +1,57 @@
+<p><strong>1. Os operadores logísticos: 1PL a 5PL.</strong> Cai direto, com a definição de cada sigla:</p>
+<table>
+<thead>
+<tr><th>Sigla</th><th>Quem é</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>1PL</strong></td><td>a própria empresa faz sua logística (frota própria)</td></tr>
+<tr><td><strong>2PL</strong></td><td>contrata um serviço isolado: transporte ou armazenagem</td></tr>
+<tr><td><strong>3PL</strong></td><td>terceiriza um <strong>conjunto</strong> de operações logísticas, com ativos próprios</td></tr>
+<tr><td><strong>4PL</strong></td><td><strong>integrador</strong>: não tem ativos; combina os recursos, a capacidade e a tecnologia da própria organização com os de <strong>outros prestadores</strong> para projetar, construir e gerir soluções de cadeia de suprimentos</td></tr>
+<tr><td><strong>5PL</strong></td><td>gestor de redes e de e-business, foco em informação e otimização de várias cadeias</td></tr>
+</tbody>
+</table>
+<p><strong>Chave do 4PL:</strong> ele <em>gerencia outros operadores</em>. Se a alternativa disser "possui frota e armazéns próprios", é 3PL, não 4PL.</p>
+
+<p><strong>2. Funções do centro de distribuição.</strong> Receber, conferir, armazenar, <strong>separar (picking)</strong>, consolidar, expedir. Duas operações que a banca separa:</p>
+<ul>
+<li><strong>Cross-docking:</strong> a carga entra e sai em poucas horas, <strong>sem ser estocada</strong> — só é separada e reconsolidada por destino. Reduz estoque e lead time; exige sincronia perfeita.</li>
+<li><strong>Merge in transit:</strong> componentes de origens diferentes se juntam em trânsito para chegar ao cliente como um único pedido.</li>
+</ul>
+<p><strong>Milk run</strong> = uma rota coleta em vários fornecedores num mesmo giro. <strong>Transit point</strong> = ponto de transbordo sem estoque, dedicado a uma região.</p>
+
+<p><strong>3. Modais de transporte.</strong></p>
+<table>
+<thead>
+<tr><th>Modal</th><th>Custo</th><th>Velocidade</th><th>Ideal para</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Aquaviário</strong></td><td>o menor</td><td>o menor</td><td>granel, longa distância, baixo valor agregado</td></tr>
+<tr><td><strong>Ferroviário</strong></td><td>baixo</td><td>baixa</td><td>granel sólido, minério, grãos</td></tr>
+<tr><td><strong>Dutoviário</strong></td><td>baixo por volume, altíssimo investimento</td><td>constante</td><td>líquidos e gases, fluxo contínuo</td></tr>
+<tr><td><strong>Rodoviário</strong></td><td>médio-alto</td><td>média</td><td>porta a porta, distância curta e média</td></tr>
+<tr><td><strong>Aéreo</strong></td><td>o maior</td><td>o maior</td><td>alto valor, urgência, perecível</td></tr>
+</tbody>
+</table>
+<p><strong>Intermodal</strong> = mais de um modal, com <strong>um contrato por modal</strong>; <strong>multimodal</strong> = mais de um modal com <strong>um único documento e um único responsável</strong> (o Operador de Transporte Multimodal). Essa é a distinção cobrada.</p>
+
+<p><strong>4. Nível de serviço logístico.</strong> Componentes: disponibilidade de produto, tempo de ciclo do pedido, consistência do prazo, flexibilidade, informação e pós-venda. Indicador-síntese muito cobrado: <strong>OTIF</strong> (<em>on time in full</em>) — entrega no prazo <em>e</em> completa. A curva custo × nível de serviço é <strong>exponencial</strong>: passar de 95 % para 99 % custa muito mais que passar de 85 % para 95 %.</p>
+
+<p><strong>5. Problema de roteirização de veículos (VRP).</strong> Definição que cai literal: <strong>vincular um grupo de clientes que devem ser visitados a um conjunto de veículos/rotas, determinando a sequência de visitas, de modo a minimizar o custo total, respeitando as restrições</strong> (capacidade do veículo, janela de tempo, jornada do motorista, autonomia). É uma generalização do caixeiro-viajante (TSP) e pertence à classe <strong>NP-difícil</strong> — daí o uso de heurísticas.</p>
+<p>Heurísticas clássicas: <strong>economias de Clarke &amp; Wright</strong>, <strong>varredura</strong> (<em>sweep</em>), <strong>vizinho mais próximo</strong>, <strong>inserção</strong>. Meta-heurísticas: <strong>algoritmos genéticos</strong>, <strong>busca tabu</strong>, <strong>recozimento simulado</strong>, <strong>colônia de formigas</strong>, <strong>GRASP</strong>.</p>
+<p><strong>Por que se usa heurística:</strong> em problemas combinatórios grandes, o método exato levaria tempo inviável; a heurística entrega uma <strong>boa solução em tempo aceitável</strong>, <em>sem garantia de otimalidade</em>. A meta-heurística acrescenta mecanismos para <strong>escapar de ótimos locais</strong>.</p>
+
+<p><strong>6. Gestão da cadeia de suprimentos.</strong> <strong>SCM</strong> integra os processos do fornecedor do fornecedor ao cliente do cliente. Práticas colaborativas: <strong>VMI</strong> (o fornecedor gerencia o estoque no cliente), <strong>CPFR</strong> (planejamento, previsão e reposição colaborativos), <strong>ECR</strong>, <strong>postponement</strong> (adiar a diferenciação do produto até o último momento possível).</p>
+<p><strong>Cadeia enxuta × ágil:</strong> a <strong>enxuta</strong> serve produto funcional, de demanda previsível, e otimiza custo; a <strong>ágil</strong> serve produto inovador, de demanda volátil, e otimiza responsividade (Fisher). O modelo <strong>leagile</strong> usa o ponto de desacoplamento: enxuto antes dele, ágil depois.</p>
+
+<p><strong>7. Logística reversa.</strong> Fluxo de retorno: pós-venda (devolução, garantia) e pós-consumo (reciclagem, reuso, destinação final). A <strong>Política Nacional de Resíduos Sólidos (Lei 12.305/2010)</strong> torna a logística reversa obrigatória para agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes e suas embalagens, lâmpadas e eletroeletrônicos, com <strong>responsabilidade compartilhada</strong> pelo ciclo de vida.</p>
+
+<p><strong>8. Compras e contratos públicos.</strong> Como a Petrobras é estatal, caem duas leis:</p>
+<ul>
+<li><strong>Lei 13.303/2016</strong> (estatais): as licitações e contratos destinam-se a assegurar a <strong>seleção da proposta mais vantajosa</strong>, inclusive quanto ao ciclo de vida do objeto, e a <strong>evitar operações em que se caracterize sobrepreço ou superfaturamento</strong>, tratando de forma isonômica os licitantes.</li>
+<li><strong>LC 123/2006</strong> (micro e pequenas empresas): a administração <strong>deverá</strong> estabelecer, em certames para aquisição de bens de natureza <strong>divisível</strong>, <strong>cota de até 25 % do objeto para a contratação de microempresas e empresas de pequeno porte</strong>. Há ainda o empate ficto e a preferência de contratação.</li>
+</ul>
+
+<p><strong>9. Armazenagem e movimentação.</strong> Endereçamento fixo × aleatório; curva ABC aplicada ao <em>layout</em> (itens de maior giro perto da expedição); estratégias de <em>picking</em>: por pedido, por zona, por lote (<em>batch</em>) e por onda. Equipamentos: paleteira, empilhadeira, transelevador, AGV.</p>
+
+<p><strong>Resumo de véspera:</strong> 4PL integra outros operadores e não tem ativos; cross-docking não estoca; multimodal tem documento e responsável únicos; OTIF é prazo + completo; VRP é NP-difícil e por isso usa heurística; 4PL ≠ 3PL; LC 123 fixa cota de até 25 % para ME/EPP em bens divisíveis.</p>

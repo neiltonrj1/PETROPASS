@@ -1,0 +1,32 @@
+{
+ "id": "pj1",
+ "t": "Engenharia Econômica e Finanças",
+ "sub": "Bloco 1 · o núcleo da prova de Análise e Projetos",
+ "mods": [
+  {
+   "id": "pj1m1",
+   "n": "Módulo 1",
+   "t": "Matemática financeira: juros, séries, taxas equivalentes e sistemas de amortização"
+  },
+  {
+   "id": "pj1m2",
+   "n": "Módulo 2",
+   "t": "Análise de investimentos: VPL, TIR, payback e projetos mutuamente exclusivos"
+  },
+  {
+   "id": "pj1m3",
+   "n": "Módulo 3",
+   "t": "Fluxo de caixa descontado, custo de capital e avaliação de empresas"
+  },
+  {
+   "id": "pj1m4",
+   "n": "Módulo 4",
+   "t": "Estrutura de capital, alavancagem, capital de giro e project finance"
+  },
+  {
+   "id": "pj1m5",
+   "n": "Módulo 5",
+   "t": "Contabilidade, análise de balanços e custos"
+  }
+ ]
+}

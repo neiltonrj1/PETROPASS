@@ -1,0 +1,70 @@
+<p><strong>1. Ensaio de tração — o "cartão de visitas" do material.</strong> Um corpo de prova padronizado é tracionado até a ruptura, gerando a curva tensão × deformação. Dela saem as propriedades que a banca adora embaralhar:</p>
+<table>
+<thead>
+<tr>
+<th>Propriedade</th>
+<th>Símbolo</th>
+<th>O que é</th>
+<th>Pegadinha clássica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Módulo de Young (elasticidade)</td>
+<td>E</td>
+<td>Inclinação da região elástica (rigidez)</td>
+<td>NÃO é resistência! Material rígido ≠ material resistente</td>
+</tr>
+<tr>
+<td>Limite de escoamento</td>
+<td>LE (σe)</td>
+<td>Tensão onde começa a deformação plástica</td>
+<td>É sempre MENOR que o LR</td>
+</tr>
+<tr>
+<td>Limite de resistência (à tração)</td>
+<td>LR (σr)</td>
+<td>Tensão máxima da curva de engenharia</td>
+<td>É sempre MAIOR que o LE</td>
+</tr>
+<tr>
+<td>Ductilidade</td>
+<td>Along. % ou RA %</td>
+<td>Deformação plástica até a fratura (alongamento ou redução de área)</td>
+<td>Maior RA = mais dúctil</td>
+</tr>
+<tr>
+<td>Resiliência</td>
+<td>Ur</td>
+<td>Energia <strong>elástica</strong> absorvida até o escoamento: <strong>Ur = σe²/2E</strong></td>
+<td>Quer LE alto e E BAIXO</td>
+</tr>
+<tr>
+<td>Tenacidade</td>
+<td>—</td>
+<td>Energia total (área sob toda a curva) até a fratura</td>
+<td>Precisa de resistência + ductilidade</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regra de ouro anti-pegadinha:</strong> quando a banca dá dois números de tensão para um material, o <strong>maior é o LR e o menor é o LE</strong> — a Cesgranrio já montou questão inteira (2012, Q33) sobre um técnico que trocou os dois. E quem "mais se deforma para uma dada tensão" é o material de <strong>menor E</strong> (ε = σ/E).</p>
+<p><strong>2. Ensaio de dureza.</strong> Mede a resistência do material à <strong>deformação plástica localizada</strong> causada pela <strong>penetração</strong> de um indentador (ponta de prova). É rápido, barato, quase não destrutivo e se correlaciona com o LR. Escalas: Brinell (HB, esfera), Rockwell (HRC/HRB, leitura direta de profundidade), Vickers (HV, pirâmide de diamante, microdureza). <strong>Não confunda:</strong> dureza não mede energia absorvida (isso é Charpy) nem deformação elástica.</p>
+<p><strong>3. Ensaio de impacto Charpy.</strong> Um martelo pendular rompe um corpo de prova entalhado; mede-se a <strong>energia absorvida</strong> na fratura. Serve para levantar a <strong>temperatura de transição dúctil-frágil (TTDF)</strong>: em altas temperaturas o material absorve muita energia (patamar dúctil, fratura com dimples), em baixas absorve pouca (patamar frágil, clivagem). Aços ferríticos (CCC) exibem transição; austeníticos (CFC) e alumínio, não.
+<strong>Limitações que a banca cobra:</strong> o resultado <strong>depende das dimensões e do entalhe do corpo de prova</strong> (não é propriedade intrínseca; não serve diretamente para projeto quantitativo — para isso, mecânica da fratura/K_IC), e a TTDF também varia com a geometria.
+<strong>Critério de seleção em prova:</strong> o material serve se, na <strong>menor temperatura de operação</strong>, ele ainda estiver no <strong>patamar dúctil</strong> (energia ≥ mínimo do projeto). Compare a TTDF de cada aço com a temperatura mínima do local.</p>
+<p><strong>4. Fadiga e curvas S–N.</strong> Falha progressiva sob carregamento <strong>cíclico</strong>, com tensões máximas frequentemente ABAIXO do LE. Definições com carregamento senoidal S(t) = σm + σa·sen(ωt):
+- <strong>Tensão média:</strong> σm = (σmax + σmin)/2
+- <strong>Amplitude:</strong> σa = (σmax − σmin)/2
+- <strong>Razão de tensões:</strong> R = σmin/σmax</p>
+<p>A curva S–N (Wöhler) relaciona tensão com número de ciclos até a falha N. <strong>Aços apresentam limite de fadiga</strong> (patamar horizontal, tipicamente ~35–50% do LR): abaixo dele, vida infinita. Ligas de alumínio NÃO têm limite (curva sempre decrescente — usa-se resistência à fadiga a 10⁷/10⁸ ciclos).
+<strong>Dois raciocínios que decidem questões:</strong>
+- Se a tensão de trabalho fica <strong>abaixo do limite de fadiga / da curva do material no N exigido</strong>, ele "nunca falha" (ou dura mais que o projeto);
+- <strong>Trinca de fadiga só nucleia e propaga sob tração.</strong> Ciclo <strong>totalmente compressivo</strong> (σmax ≤ 0) não causa fadiga — a compressão fecha a trinca. Tensão média compressiva é benéfica; tração média é maligna.
+Conta útil: nº de ciclos = tempo de vida ÷ período. Ex.: 20 anos com 1 ciclo/63 s → 20×3,15×10⁷ s ÷ 63 s ≈ <strong>10⁷ ciclos</strong>.</p>
+<p><strong>5. Fluência (creep).</strong> Deformação <strong>lenta, contínua e permanente</strong> sob tensão <strong>constante</strong> em <strong>temperatura elevada</strong> (relevante para T &gt; 0,4·Tfusão em K) — caldeiras, fornos, turbinas. A curva deformação × tempo tem 3 estágios:
+1. <strong>Primário</strong> — taxa decrescente (encruamento domina);
+2. <strong>Secundário (estacionário)</strong> — taxa constante, <strong>o parâmetro de engenharia mais importante</strong> (dε/dt = mínimo);
+3. <strong>Terciário</strong> — taxa acelera (vazios, estricção) até a ruptura.</p>
+<p><strong>A taxa de fluência secundária AUMENTA com:</strong> ↑ temperatura e ↑ tensão aplicada. <strong>E DIMINUI com:</strong> ↑ tamanho de grão (contornos de grão escorregam e geram vacâncias — grão grosso resiste melhor à fluência; por isso palhetas de turbina monocristalinas).
+<strong>Mnemônico "TT sobe, Grão segura":</strong> Temperatura e Tensão sobem a taxa; Grão grande segura a fluência.</p>
+<p><strong>Resumo de qual ensaio mede o quê:</strong> tração → resistência/rigidez/ductilidade; dureza → resistência à penetração (plástica); Charpy → energia de impacto e TTDF; fadiga → vida sob ciclos; fluência → deformação em T alta e tempo longo.</p>

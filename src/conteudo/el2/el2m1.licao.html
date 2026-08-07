@@ -1,0 +1,54 @@
+<p><strong>1. Por que existe o p.u.</strong> Num sistema com vários níveis de tensão, trabalhar em ohms obriga a refletir impedâncias por a² a cada transformador. No sistema <strong>por unidade</strong> todas as grandezas viram frações de uma base, e a impedância do transformador fica <strong>a mesma vista de qualquer lado</strong>. Vantagens: some os valores diretamente, compare máquinas de portes diferentes e detecte erro de conta na hora (valores típicos ficam entre 0,01 e 1).</p>
+
+<p><strong>2. As bases.</strong> Escolhem-se <strong>duas</strong> — normalmente <strong>S<sub>base</sub></strong> (trifásica, em MVA) e <strong>V<sub>base</sub></strong> (de linha, em kV) — e as outras saem:</p>
+<p><strong>Z<sub>base</sub> = V<sub>base</sub>² ÷ S<sub>base</sub></strong> &nbsp;·&nbsp; <strong>I<sub>base</sub> = S<sub>base</sub> ÷ (√3 · V<sub>base</sub>)</strong>.</p>
+<p>Com V em kV e S em MVA, Z<sub>base</sub> sai direto em <strong>ohms</strong>. E o valor em p.u. é sempre <strong>grandeza real ÷ base</strong>.</p>
+<p><strong>Regra de ouro:</strong> a tensão de base muda de um lado para o outro do transformador na <strong>mesma relação de espiras</strong>; a potência de base é <strong>única para todo o sistema</strong>.</p>
+
+<p><strong>3. Mudança de base — a fórmula que resolve a questão.</strong> O fabricante dá a impedância na base <em>do próprio equipamento</em> (sua potência e sua tensão nominais). Para levá-la à base do estudo:</p>
+<p><strong>Z<sub>nova</sub> = Z<sub>velha</sub> · (S<sub>nova</sub>/S<sub>velha</sub>) · (V<sub>velha</sub>/V<sub>nova</sub>)²</strong></p>
+<p><em>Exemplo resolvido:</em> máquina síncrona de <strong>50 MVA, 15 kV, X = 10 % = 0,10 p.u.</strong>; bases do estudo: <strong>100 MVA e 15 kV</strong>.<br>
+Z<sub>nova</sub> = 0,10 × (100/50) × (15/15)² = <strong>0,20 p.u.</strong></p>
+<p><em>Segundo exemplo:</em> equipamento de <strong>20 MVA e 500 kV</strong>, bases <strong>100 MVA e 250 kV</strong>:<br>
+Z<sub>nova</sub> = Z<sub>velha</sub> × (100/20) × (500/250)² = Z<sub>velha</sub> × 5 × 4 = <strong>20 · Z<sub>velha</sub></strong>. Note que a tensão entra ao <strong>quadrado</strong> e vai no numerador a <em>velha</em> — inverter essa razão é o erro mais comum.</p>
+
+<p><strong>4. Sequência prática do estudo em p.u.</strong></p>
+<ol>
+<li>Escolha S<sub>base</sub> única (100 MVA é o padrão do setor).</li>
+<li>Escolha V<sub>base</sub> num ponto e propague pelos transformadores conforme a relação de espiras — isso define <strong>zonas de tensão</strong>.</li>
+<li>Converta cada impedância para a base nova.</li>
+<li>Resolva o circuito em p.u.</li>
+<li>Volte para as unidades reais multiplicando pelas bases: <strong>I<sub>real</sub> = I<sub>p.u.</sub> × I<sub>base</sub> da zona</strong>.</li>
+</ol>
+
+<p><strong>5. Impedância percentual e corrente de curto.</strong> A impedância percentual do transformador é justamente sua impedância em p.u. na própria base, ×100. Daí sai a estimativa mais usada em campo:</p>
+<p><strong>I<sub>curto</sub> ≈ I<sub>nominal</sub> ÷ Z<sub>%</sub>(p.u.)</strong> · <strong>S<sub>curto</sub> ≈ S<sub>base</sub> ÷ Z<sub>p.u.</sub></strong></p>
+<p>Um transformador com Z = 5 % entrega curto de aproximadamente <strong>20 vezes</strong> a corrente nominal nos seus terminais. Por isso <strong>impedância menor significa curto maior</strong>: o barramento fica mais "duro", com melhor regulação, mas exige disjuntores de maior capacidade de interrupção.</p>
+
+<p><strong>6. Potência de curto-circuito e equivalente da rede.</strong> A concessionária informa a <strong>potência de curto-circuito</strong> (MVA) no ponto de entrega. Convertendo: <strong>Z<sub>rede</sub>(p.u.) = S<sub>base</sub> ÷ S<sub>curto</sub></strong>. Barra "infinita" é aquela cuja impedância tende a zero — tensão constante independentemente da carga.</p>
+
+<p><strong>7. Reatâncias da máquina síncrona.</strong> Três valores, cada um para um instante:</p>
+<table>
+<thead>
+<tr><th>Reatância</th><th>Símbolo</th><th>Quando vale</th><th>Ordem de grandeza</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Subtransitória</strong></td><td>X″<sub>d</sub></td><td>primeiros ciclos</td><td>0,10 – 0,25 p.u.</td></tr>
+<tr><td><strong>Transitória</strong></td><td>X′<sub>d</sub></td><td>alguns ciclos a ~1 s</td><td>0,20 – 0,40 p.u.</td></tr>
+<tr><td><strong>Síncrona (regime)</strong></td><td>X<sub>d</sub></td><td>regime permanente</td><td>1,0 – 2,0 p.u.</td></tr>
+</tbody>
+</table>
+<p>Como <strong>X″ &lt; X′ &lt; X</strong>, a corrente de curto é <strong>máxima no primeiro instante</strong> e decai. Use X″<sub>d</sub> para dimensionar a capacidade de interrupção do disjuntor e os esforços eletrodinâmicos; X′<sub>d</sub>, para estudo de estabilidade transitória.</p>
+
+<p><strong>8. Convenções que evitam erro.</strong> Em p.u., tensão nominal = 1,0∠0°. Potência de base trifásica com tensão de base de linha dá a mesma Z<sub>base</sub> que a monofásica com tensão de fase — não há fator √3 sobrando. Se a questão der potência <strong>monofásica</strong> ou tensão <strong>de fase</strong>, use-as de forma coerente e o resultado é o mesmo.</p>
+
+<p><strong>9. Erros clássicos em prova.</strong></p>
+<ul>
+<li>Inverter a razão de tensões: o correto é <strong>(V<sub>velha</sub>/V<sub>nova</sub>)²</strong>.</li>
+<li>Esquecer que a relação de potências é <strong>direta</strong> (S<sub>nova</sub>/S<sub>velha</sub>).</li>
+<li>Misturar zonas de tensão: cada trecho separado por transformador tem sua V<sub>base</sub> e sua I<sub>base</sub>.</li>
+<li>Somar impedância em p.u. com impedância em ohm.</li>
+<li>Usar X<sub>d</sub> (síncrona) no cálculo de curto para dimensionar disjuntor, quando o correto é X″<sub>d</sub>.</li>
+</ul>
+
+<p><strong>Resumo de véspera:</strong> Z<sub>base</sub> = V²/S com kV e MVA; Z<sub>nova</sub> = Z<sub>velha</sub>·(S<sub>nova</sub>/S<sub>velha</sub>)·(V<sub>velha</sub>/V<sub>nova</sub>)²; S<sub>base</sub> é única e V<sub>base</sub> muda a cada transformador; I<sub>curto</sub> ≈ I<sub>n</sub>/Z<sub>p.u.</sub>; X″ &lt; X′ &lt; X e o curto é máximo no primeiro ciclo.</p>

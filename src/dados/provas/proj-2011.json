@@ -1,0 +1,499 @@
+{
+ "id": "proj-2011",
+ "trilha": "projetos",
+ "ano": 2011,
+ "nome": "Eng. Jr — Análise e Projetos de Investimento",
+ "processo": "Petrobras PSP RH 3/2011",
+ "caderno": "prova_6_engenheiro_a_junior_area_analise_e_projetos_de_investimento.pdf",
+ "folhaGabarito": "gabaritos.pdf",
+ "total": 36,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2011, Q21",
+   "q": "Dois projetos de investimento diferentes são mutuamente exclusivos. Em consequência,",
+   "alts": {
+    "A": "têm a mesma taxa interna de retorno.",
+    "B": "têm o mesmo Valor Presente Líquido.",
+    "C": "devem ser implementados lentamente.",
+    "D": "não podem ser implementados simultaneamente.",
+    "E": "implicam o mesmo valor de investimento inicial."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2011, Q23",
+   "q": "Na escolha e avaliação social de projetos, a aplicação do conceito de “preço-sombra”",
+   "alts": {
+    "A": "pode alterar os valores das taxas internas de retorno.",
+    "B": "é inadequada e deve ser evitada.",
+    "C": "diminui o período de retorno do investimento.",
+    "D": "aumenta o Valor Presente Líquido.",
+    "E": "não altera a ordem de preferência para a escolha entre os projetos."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2011, Q24",
+   "q": "O Valor Presente Líquido de um projeto de investimento da empresa X, avaliado à taxa mínima de atratividade, é negativo. Logo, o projeto",
+   "alts": {
+    "A": "deve ser implementado pela empresa X.",
+    "B": "diminui o valor de mercado de X, se for implementado.",
+    "C": "apresenta taxa interna de retorno negativa.",
+    "D": "é viável apenas em pequena escala.",
+    "E": "necessita de investimentos iniciais reduzidos."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2011, Q25",
+   "q": "Todos os gastos e recebimentos, presentes e futuros, do fluxo financeiro de certo projeto de investimento, aumentam 40% no caso de se considerar um cenário externo alternativo. Logo, nesse cenário, o projeto terá",
+   "alts": {
+    "A": "vida útil maior em 40%.",
+    "B": "taxa interna de retorno inalterada.",
+    "C": "prazo de retorno do capital empregado maior em 40%.",
+    "D": "valores presentes líquidos inalterados.",
+    "E": "despesas financeiras líquidas menores em 20%."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2011, Q26",
+   "q": "Alguns fatores externos às empresas são importantes na determinação de seu ambiente de negócios. Dentre os fatores abaixo relacionados, aquele que NÃO é considerado fator externo é a(o)",
+   "alts": {
+    "A": "mudança na distribuição da população por faixa etária",
+    "B": "redistribuição de renda entre as classes sociais",
+    "C": "maior participação feminina na força de trabalho",
+    "D": "evolução da renda per capita da população",
+    "E": "volume de lucros retidos na empresa"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2011, Q27",
+   "q": "Ao formular sua estratégia mercadológica, a empresa X precisa identificar os potenciais concorrentes e não considerar apenas os existentes. As características relacionadas abaixo identificam os potenciais concorrentes, EXCETO a",
+   "alts": {
+    "A": "facilidade de suplantar as barreiras à entrada no setor de X.",
+    "B": "facilidade de verticalizar por ser um fornecedor importante de X.",
+    "C": "sinergia entre sua atual atividade e a atividade de X.",
+    "D": "agressividade de seus dirigentes, embora atuando em setor diferente do de X.",
+    "E": "facilidade de verticalizar por ser um comprador importante de X."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2011, Q28",
+   "q": "Uma empresa industrial processa minério para obter um determinado metal. De cada tonelada de minério processado ela extrai 30 kg do metal para venda a seus clientes. Essa característica de processo produtivo tende a fazer com que a empresa se localize",
+   "alts": {
+    "A": "próximo da sua fonte de matéria-prima que é o minério",
+    "B": "próximo dos compradores de seu produto",
+    "C": "na mesma região que seus concorrentes",
+    "D": "na região com menor custo de mão de obra",
+    "E": "na área com maior vantagem fiscal"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2011, Q30",
+   "q": "Uma empresa decide adotar uma estratégia mercadológica baseada em pioneirismo, oferecendo produtos novos, descobrindo demandas e atraindo novos clientes. Tal escolha estratégica pode ser mais adequada se a(o)",
+   "alts": {
+    "A": "cultura gerencial da empresa enfatizar o controle de custos.",
+    "B": "habilidade mercadológica da empresa não for um ponto forte.",
+    "C": "empresa produzir bens facilmente imitáveis pela concorrência.",
+    "D": "empresa for uma fornecedora experiente de serviços customizados.",
+    "E": "produto básico da empresa for padronizado (commodities)."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2011, Q31",
+   "q": "A técnica de gerenciamento de projetos PERT consiste em classificar as tarefas componentes como sequenciais ou simultâneas, e diagramá-las numa rede de atividades sucessivas ou em paralelo, com o objetivo básico de identificar o(a)",
+   "alts": {
+    "A": "custo de cada atividade",
+    "B": "valor da atividade",
+    "C": "caminho crítico para a execução do projeto",
+    "D": "real necessidade do projeto",
+    "E": "importância social do projeto"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2011, Q32",
+   "q": "Se a taxa de juros compostos relevante for de 1% a. m., a quantia de R$ 1.000,00, a ser paga 6 meses no futuro, teria um valor dado, em reais, no presente, pela expressão",
+   "alts": {
+    "A": "1.000,00 x (1.06)",
+    "B": "1.000,00 x (1.01) 6",
+    "C": "1.000,00 x (0.01) 6",
+    "D": "1.000,00 (1.01) 6",
+    "E": "1.000,00 + (1.01) 6"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2011, Q33",
+   "q": "Para financiar novos investimentos, uma empresa se endividou. Nesse caso, a empresa",
+   "alts": {
+    "A": "aumentou sua alavancagem financeira.",
+    "B": "diminuiu sua despesa com juros.",
+    "C": "reduziu seus lucros futuros.",
+    "D": "deve aumentar o preço que cobra.",
+    "E": "vai reduzir os dividendos que paga."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2011, Q34",
+   "q": "A administração de capital de giro de uma empresa lida com ativos e passivos circulantes, dentre os quais NÃO se encontra(m) o(s)",
+   "alts": {
+    "A": "caixa",
+    "B": "estoques",
+    "C": "investimento em equipamentos",
+    "D": "valores a receber dos clientes",
+    "E": "valores a pagar aos fornecedores"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2011, Q35",
+   "q": "Uma simulação mostra que, se as vendas de certa empresa aumentarem 10%, seu lucro operacional aumenta 50%. Ou seja, o(a)",
+   "alts": {
+    "A": "grau de alavancagem operacional da empresa é maior que um.",
+    "B": "ponto de equilíbrio para obter lucro positivo é zero.",
+    "C": "custo fixo da empresa é zero.",
+    "D": "custo variável da empresa é zero.",
+    "E": "alavancagem financeira da empresa é maior que um."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2011, Q36",
+   "q": "A alavancagem financeira de uma empresa se relaciona à razão entre o",
+   "alts": {
+    "A": "caixa total e o custo fixo",
+    "B": "custo fixo e o custo total",
+    "C": "custo médio e o preço de venda",
+    "D": "ativo permanente e o passivo permanente",
+    "E": "capital de terceiros e o capital próprio"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2011, Q37",
+   "q": "O financiamento a longo prazo das empresas no Brasil muitas vezes depende do crédito dos bancos públicos, como o Banco Nacional de Desenvolvimento Econômico e Social (BNDES). Os encargos financeiros desse banco, tipicamente, incluem a",
+   "alts": {
+    "A": "correção cambial + 12% a.a.",
+    "B": "correção monetária (IPCA) + 12% a.a.",
+    "C": "taxa de juros de longo prazo (TJLP) + spread de risco.",
+    "D": "taxa de juros interbancária + 8% a.a.",
+    "E": "meta de inflação + 12% a.a."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2011, Q38",
+   "q": "Em um certo mercado, estão sendo negociadas três opções de compra do mesmo ativo, com as seguintes características: Opção X: preço de exercício R$ 100,00 vencimento até 29/7/2011 Opção Y: preço de exercício R$ 110,00 vencimento até 29/7/2011 Opção Z: preço de exercício R$ 100,00 vencimento até 30/8/2011 Nessa situação, verifica-se que os prêmios das opções no mercado são tais que o",
+   "alts": {
+    "A": "prêmio de X = prêmio de Y",
+    "B": "prêmio de X = prêmio de Z",
+    "C": "maior prêmio é o de X",
+    "D": "maior prêmio é o de Y",
+    "E": "maior prêmio é o de Z"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2011, Q39",
+   "q": "Um jogo de escolha simultânea entre duas pessoas, X e Y, é representado na matriz abaixo. Em cada célula da matriz, o número à esquerda corresponde ao ganho da pessoa X, e o da direita ao ganho de Y, ambos medidos em reais. Os jogadores conhecem previamente todas as estratégias possíveis e os ganhos em cada célula. Estratégias de X Estratégias de Y Y 1 Y 2 Y 3 X 1 1; 3 2; 2 3; 1 X 2 4; 2 5; 3 6; 4 X 3 3; 5 2; 4 1; 3 O exame da matriz permite concluir que a(o)",
+   "alts": {
+    "A": "estratégia X 3 domina estritamente X 1.",
+    "B": "estratégia X 2 domina estritamente Y 3.",
+    "C": "combinação X 2 e Y 2 é a solução do jogo.",
+    "D": "jogador Y não tem estratégia dominante.",
+    "E": "jogador X não tem estratégia dominante."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2011, Q43",
+   "q": "Na análise do balanço patrimonial de uma empresa, é frequente calcular-se a relação Ativo Circulante Passivo Circulante, a qual é denominada índice de",
+   "alts": {
+    "A": "rentabilidade",
+    "B": "liquidez corrente",
+    "C": "liquidez imediata",
+    "D": "imobilização do capital",
+    "E": "endividamento"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2011, Q45",
+   "q": "O método de fluxo de caixa descontado, para a avaliação de empresas por parte de potenciais compradores, usa, para desconto dos valores futuros, a taxa",
+   "alts": {
+    "A": "interna de retorno do investimento",
+    "B": "de juros do mercado interbancário",
+    "C": "de juros no mercado de crédito",
+    "D": "de juros que seja o custo de oportunidade dos compradores",
+    "E": "de inflação da economia + juro real de 6% a.a."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2011, Q46",
+   "q": "O que caracteriza o project finance como maneira de financiar projetos de investimento é a",
+   "alts": {
+    "A": "escala reduzida dos projetos viáveis.",
+    "B": "redução da taxa interna de retorno do projeto de investimento.",
+    "C": "ausência de risco a encarecer os encargos financeiros do projeto.",
+    "D": "garantia elevada exigida pelos credores da empresa investidora.",
+    "E": "utilização do fluxo financeiro do projeto para garantir os credores."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2011, Q47",
+   "q": "O mercado mundial de afretamento de navios tem algumas características importantes, entre as quais NÃO se encontra o(a)",
+   "alts": {
+    "A": "substancial espaço de tempo entre a encomenda de um navio e sua entrega pelo fabricante.",
+    "B": "grande estabilidade dos preços do frete, raras sendo as flutuações anuais maiores que 5%.",
+    "C": "oferta no curto prazo ser determinada pelo estoque de navios existentes.",
+    "D": "tendência de longo prazo de redução dos preços do frete.",
+    "E": "forte influência do desempenho econômico mundial sobre a demanda por frete."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2011, Q50",
+   "q": "Uma característica importante em um mercado perfeitamente competitivo é o(a)",
+   "alts": {
+    "A": "preço ser igual ao custo variável médio das empresas.",
+    "B": "preço ser igual ao custo marginal das empresas.",
+    "C": "custo total ser menor que o custo total médio.",
+    "D": "lucro ser positivo e o mesmo para todas as empresas.",
+    "E": "igualdade da produção de todas as empresas."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2011, Q51",
+   "q": "A respeito do custo de operação dos navios, considere as afirmativas abaixo. I - O custo de operação de um navio diminui com a sua idade, os demais fatores sendo constantes. II - O custo de operação de um navio aumenta com o custo da tripulação, os demais fatores sendo constantes. III - O custo de operação de um navio aumenta com o custo dos seguros, os demais fatores sendo constantes. Está correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "II, apenas.",
+    "C": "I e II, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2011, Q52",
+   "q": "O Produto Interno Bruto (PIB) de um país, em certo período, mede o valor do(a)",
+   "alts": {
+    "A": "fluxo de produção de bens e serviços finais produzidos pelos nacionais no país.",
+    "B": "fluxo de produção de bens e serviços finais produzidos no país.",
+    "C": "fluxo de produção de bens e serviços finais vendidos no mercado interno.",
+    "D": "capacidade total de produção instalada no país.",
+    "E": "produção doméstica mais as importações destinadas ao mercado interno."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2011, Q54",
+   "q": "Se o multiplicador dos meios de pagamento em certo país for igual a 2, isso significa que o(a)",
+   "alts": {
+    "A": "total de meios de pagamento é o dobro do PIB.",
+    "B": "total de empréstimos é o dobro dos depósitos nos bancos.",
+    "C": "total de meios de pagamentos é o dobro da base monetária.",
+    "D": "velocidade renda de circulação de moeda é 0,5.",
+    "E": "taxa de inflação no país deve dobrar."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2011, Q55",
+   "q": "O custo total médio de uma empresa é de R$ 10,00 por unidade produzida, sendo o nível de produção de 100 unidades/dia. Se o nível de produção aumentasse para 101 unidades/dia, o custo total médio seria R$ 9,95/unidade. No nível de produção de 100 unidades por dia, o custo marginal é",
+   "alts": {
+    "A": "maior que R$ 10,00/unidade",
+    "B": "menor que R$ 10,00/unidade",
+    "C": "de R$ 9,95 a R$ 10,00/unidade",
+    "D": "igual a R$ 10,00/unidade",
+    "E": "igual a R$ 9,95/unidade BLOCO 3"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2011, Q56",
+   "q": "Suponha que dois corpos de igual massa, se deslocando na mesma linha reta e na mesma direção, colidam e permaneçam unidos após a colisão. A velocidade comum após a colisão será",
+   "alts": {
+    "A": "nula, se as velocidades iniciais dos corpos forem diferentes.",
+    "B": "igual à do corpo inicialmente mais veloz.",
+    "C": "a média simples das velocidades iniciais dos dois corpos.",
+    "D": "a diferença entre as velocidades iniciais dos dois corpos.",
+    "E": "a soma das velocidades dos dois corpos."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2011, Q57",
+   "q": "Um fluido não viscoso e incompressível flui, sem turbulência, através de uma mangueira, cuja seção transversal se reduz paulatinamente de uma área inicial A 1 para uma área final A 2. Constatou-se que a velocidade do fluido no trecho final é 40% maior que no trecho inicial. Nessas condições, conclui-se que",
+   "alts": {
+    "A": "A 2 = 0,4 A 1",
+    "B": "A 2 = 0,6 A 1",
+    "C": "A 2 = A 1 1,4",
+    "D": "A 1 = A 2 1,4",
+    "E": "A 1 + A = 1,4"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2011, Q59",
+   "q": "Um corpo de massa igual a 9,8 kg se desloca à velocidade constante de 10 m/s. Sua energia cinética é a energia necessária para elevar do nível do solo um corpo de 10 kg de massa até uma altura, medida em metros, de",
+   "alts": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "E": "5"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2011, Q60",
+   "q": "A lei de Hooke, a respeito dos corpos elásticos submetidos a tensão, enuncia-se como:",
+   "alts": {
+    "A": "A tensão é diretamente proporcional à deformação.",
+    "B": "A temperatura aumentando, diminui a deformação para dada tensão.",
+    "C": "A temperatura aumentando, diminui a tensão necessária para obter certa deformação.",
+    "D": "A tensão de cisalhamento deforma apenas a superfície do corpo.",
+    "E": "A tração provoca deformação maior que a compressão."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2011, Q61",
+   "q": "Considere um conjunto U, do qual X é um subconjunto não vazio e próprio. Seja Y o complemento do complemento de X (os complementos sendo considerados em relação a U). Então, a",
+   "alts": {
+    "A": "união de X e Y é igual a U.",
+    "B": "diferença de X e Y é igual a U.",
+    "C": "intercessão de X e Y é vazia.",
+    "D": "intercessão de X e Y é igual a U.",
+    "E": "intercessão de X e Y é igual a X."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2011, Q62",
+   "q": "Considere dois vetores cujos componentes são números reais: (2, 1, 3) e (1, 1, −1). Como o produto escalar desses dois vetores é nulo, eles são",
+   "alts": {
+    "A": "paralelos",
+    "B": "coincidentes",
+    "C": "ortogonais",
+    "D": "sequenciais",
+    "E": "equidistantes"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2011, Q64",
+   "q": "Suponha que P (X), P (X/Y) e P (Y/X) representem, respectivamente, a probabilidade do evento X, a probabilidade de X caso o evento Y tenha ocorrido e a probabilidade de Y caso X tenha ocorrido. Se X e Y forem eventos independentes, então",
+   "alts": {
+    "A": "P (X) = P (Y)",
+    "B": "P (Y/X) = P (Y)",
+    "C": "P (X/Y) = P (Y)",
+    "D": "X e Y são disjuntos",
+    "E": "X e Y ocorrem simultaneamente"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2011, Q66",
+   "q": "Uma variável aleatória X tem uma distribuição de probabilidade normal de média nula e desvio padrão igual a 1. Se P (E) representar a probabilidade de um evento E, a única afirmação abaixo INCORRETA é",
+   "alts": {
+    "A": "P (X < −1) = zero",
+    "B": "P (X > zero) = 0,5",
+    "C": "P (X < zero) = P (X > zero)",
+    "D": "P (X < - 2) > P (X > 3)",
+    "E": "P (X > - 1) > P (X < -1)"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2011, Q68",
+   "q": "Um corpo de 10 kg de massa se desloca à velocidade de 36 km/h. Sua energia cinética, medida em joules (J), é calculável pela expressão",
+   "alts": {
+    "A": "10 x 36 2",
+    "B": "10 x 36 2 2",
+    "C": "10 2 x 36 2",
+    "D": "(10 x 1.000) x 36 2 2",
+    "E": "10 x (36 x 10 3 3.600) 2 2"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2011, Q69",
+   "q": "O calor pode ser transferido por condução, convecção ou irradiação. Na irradiação, a transferência de calor acontece",
+   "alts": {
+    "A": "através de um corpo, devido ao movimento das moléculas",
+    "B": "através de ondas eletromagnéticas",
+    "C": "através de colisões entre átomos e moléculas",
+    "D": "devido ao contato com um líquido ou gás em movimento",
+    "E": "em razão da diferença de densidade do fluido"
+   },
+   "correta": "B"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   22,
+   48,
+   49,
+   53,
+   58,
+   63,
+   65
+  ],
+  "quebradas": [
+   29,
+   40,
+   41,
+   42,
+   44
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+<p><strong>1. As duas equações que resolvem tudo.</strong></p>
+<p><strong>E<sub>a</sub> = k·φ·ω</strong> (força contraeletromotriz) &nbsp;·&nbsp; <strong>T = k·φ·I<sub>a</sub></strong> (conjugado).</p>
+<p>E a malha da armadura: <strong>V<sub>t</sub> = E<sub>a</sub> + R<sub>a</sub>·I<sub>a</sub></strong> (motor) ou <strong>V<sub>t</sub> = E<sub>a</sub> − R<sub>a</sub>·I<sub>a</sub></strong> (gerador).</p>
+<p>Isolando a velocidade: <strong>ω = (V<sub>t</sub> − R<sub>a</sub>·I<sub>a</sub>) ÷ (k·φ)</strong>. <em>Toda</em> questão de máquina CC sai daí. Note o essencial: <strong>a velocidade é inversamente proporcional ao fluxo</strong>.</p>
+
+<p><strong>2. Os tipos de excitação.</strong></p>
+<table>
+<thead>
+<tr><th>Tipo</th><th>Campo</th><th>Fluxo depende de</th><th>Comportamento</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Independente</strong></td><td>fonte separada</td><td>só da fonte de campo</td><td>velocidade quase constante; melhor controle</td></tr>
+<tr><td><strong>Shunt (derivação)</strong></td><td>em <strong>paralelo</strong> com a armadura</td><td>da tensão de terminal</td><td>velocidade quase constante; conjugado de partida moderado</td></tr>
+<tr><td><strong>Série</strong></td><td>em <strong>série</strong> com a armadura</td><td>da <strong>corrente de armadura</strong></td><td>conjugado de partida <strong>altíssimo</strong> (T ∝ I²), velocidade despenca com a carga e <strong>dispara em vazio</strong></td></tr>
+<tr><td><strong>Composto</strong></td><td>série + shunt</td><td>dos dois</td><td>compromisso: bom conjugado de partida sem disparar em vazio</td></tr>
+</tbody>
+</table>
+<p><strong>Comparação clássica da prova:</strong> dois motores CC de mesma potência e mesma velocidade nominal, um shunt e outro série. O <strong>série</strong> tem <strong>maior conjugado de partida</strong> e <strong>maior variação de velocidade com a carga</strong>; o <strong>shunt</strong> tem velocidade mais estável. Motor série <strong>jamais</strong> pode partir sem carga acoplada — a velocidade tende ao infinito e a máquina se destrói ("embalamento").</p>
+
+<p><strong>3. O comportamento do motor shunt quando a carga aumenta.</strong> Sequência de raciocínio pedida em prova:</p>
+<ol>
+<li>A carga cresce ⇒ o motor <strong>desacelera</strong> um pouco;</li>
+<li>menor ω ⇒ menor E<sub>a</sub> = kφω;</li>
+<li>com V<sub>t</sub> fixo, <strong>I<sub>a</sub> = (V<sub>t</sub> − E<sub>a</sub>)/R<sub>a</sub> aumenta</strong>;</li>
+<li>maior I<sub>a</sub> ⇒ maior conjugado T = kφI<sub>a</sub>, até equilibrar a carga.</li>
+</ol>
+<p>Resultado: <strong>a corrente de armadura sobe e a velocidade cai ligeiramente</strong>. A corrente de campo praticamente não muda (V<sub>t</sub> é constante). Quem responde "a velocidade aumenta" caiu no distrator.</p>
+
+<p><strong>4. Controle de velocidade — as três vias.</strong></p>
+<table>
+<thead>
+<tr><th>Método</th><th>Efeito</th><th>Faixa</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Variação da tensão de armadura</strong></td><td>ω ∝ V<sub>t</sub>, com conjugado constante</td><td><strong>abaixo</strong> da nominal</td></tr>
+<tr><td><strong>Enfraquecimento de campo</strong></td><td>reduz φ ⇒ ω sobe, com <strong>potência constante</strong> (conjugado cai)</td><td><strong>acima</strong> da nominal</td></tr>
+<tr><td><strong>Resistência em série na armadura</strong></td><td>reduz ω, mas dissipa energia</td><td>abaixo; baixo rendimento</td></tr>
+</tbody>
+</table>
+<p><strong>Alerta:</strong> se o circuito de campo <strong>abrir</strong> num motor shunt em operação, φ → φ<sub>residual</sub> e a velocidade <strong>dispara</strong>. Por isso existe o relé de falta de campo.</p>
+
+<p><strong>5. Partida.</strong> Na partida ω = 0, logo E<sub>a</sub> = 0 e <strong>I<sub>partida</sub> = V<sub>t</sub>/R<sub>a</sub></strong> — como R<sub>a</sub> é pequena (décimos de ohm), a corrente seria dezenas de vezes a nominal. Soluções: <strong>reostato de partida</strong> em série com a armadura, retirado por estágios, ou partida com <strong>tensão reduzida</strong> (conversor). Nunca se limita a corrente de partida mexendo no campo — pelo contrário, na partida o campo deve estar <strong>máximo</strong>, para gerar conjugado com menos corrente.</p>
+
+<p><strong>6. Reação de armadura e comutação.</strong> A corrente da armadura cria um campo que <strong>distorce</strong> o campo principal (desloca a linha neutra) e provoca leve <strong>desmagnetização</strong>. Consequências: faiscamento nas escovas e queda de E<sub>a</sub>. Correções: <strong>interpolos</strong> (polos de comutação, ligados <em>em série</em> com a armadura) e <strong>enrolamento de compensação</strong> nas sapatas polares.</p>
+
+<p><strong>7. Frenagem.</strong> <strong>Dinâmica/reostática:</strong> desliga a fonte e liga um resistor na armadura — a máquina vira gerador e dissipa a energia em calor. <strong>Regenerativa:</strong> devolve a energia à rede, possível quando E<sub>a</sub> &gt; V<sub>t</sub> (descida de carga, veículo em declive). <strong>Contracorrente (plugging):</strong> inverte a polaridade da armadura — freia rapidíssimo, mas com corrente altíssima; exige resistor limitador.</p>
+
+<p><strong>8. Perdas e rendimento.</strong> Perdas <strong>rotacionais</strong> (atrito e ventilação) + <strong>no ferro</strong> (histerese ∝ f·B<sup>n</sup>; Foucault ∝ f²·B²) + <strong>no cobre</strong> (R<sub>a</sub>I<sub>a</sub>² e a do campo) + perdas nas escovas (≈ 2 V × I<sub>a</sub>). <strong>η = P<sub>saída</sub>/P<sub>entrada</sub></strong>. Como no transformador, o rendimento é máximo quando as perdas variáveis igualam as fixas.</p>
+
+<p><strong>9. Gerador CC.</strong> A curva de <strong>característica externa</strong> (V × I<sub>carga</sub>): o <strong>shunt</strong> tem queda suave e se autolimita no curto; o <strong>série</strong> só gera com carga; o <strong>composto</strong> pode ser <em>hipo</em>, <em>plano</em> ou <em>hipercomposto</em> conforme o enrolamento série reforce mais ou menos o fluxo. Para o gerador shunt <strong>escorvar</strong> (excitar-se sozinho) são necessários: magnetismo <strong>residual</strong>, ligação de campo com <strong>polaridade correta</strong>, sentido de rotação correto e resistência de campo abaixo da <strong>resistência crítica</strong>.</p>
+
+<p><strong>Resumo de véspera:</strong> E<sub>a</sub> = kφω e T = kφI<sub>a</sub>; ω ∝ (V − R<sub>a</sub>I<sub>a</sub>)/φ; série tem o maior conjugado de partida e dispara em vazio; shunt segura a velocidade; carga maior no shunt ⇒ I<sub>a</sub> sobe e ω cai um pouco; enfraquecer campo aumenta a velocidade; abrir o campo faz disparar; interpolos corrigem a comutação.</p>

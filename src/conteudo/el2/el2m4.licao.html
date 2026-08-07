@@ -1,0 +1,69 @@
+<p><strong>1. O que a proteção precisa entregar.</strong> Cinco requisitos, sempre cobrados juntos: <strong>seletividade</strong> (isolar só o trecho defeituoso), <strong>rapidez</strong>, <strong>sensibilidade</strong> (detectar a menor falta prevista), <strong>confiabilidade</strong> (atuar quando deve = <em>dependabilidade</em>; não atuar quando não deve = <em>segurança</em>) e <strong>economia</strong>. Toda proteção principal tem uma <strong>proteção de retaguarda</strong> (<em>backup</em>), local ou remota.</p>
+
+<p><strong>2. Tabela ANSI dos números de função.</strong> Decore os mais cobrados:</p>
+<table>
+<thead>
+<tr><th>Função</th><th>Nome</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>50</strong></td><td>sobrecorrente <strong>instantâneo</strong></td></tr>
+<tr><td><strong>51</strong></td><td>sobrecorrente <strong>temporizado</strong></td></tr>
+<tr><td><strong>50N / 51N</strong></td><td>os mesmos, de <strong>neutro</strong> (falta à terra)</td></tr>
+<tr><td><strong>46</strong></td><td>sequência negativa / desequilíbrio</td></tr>
+<tr><td><strong>49</strong></td><td>térmico (imagem térmica)</td></tr>
+<tr><td><strong>27 / 59</strong></td><td>sub / sobretensão</td></tr>
+<tr><td><strong>81</strong></td><td>sub/sobrefrequência</td></tr>
+<tr><td><strong>87</strong></td><td><strong>diferencial</strong> (87T transformador, 87B barra, 87G gerador)</td></tr>
+<tr><td><strong>21</strong></td><td>distância (impedância)</td></tr>
+<tr><td><strong>67</strong></td><td>sobrecorrente <strong>direcional</strong></td></tr>
+<tr><td><strong>79</strong></td><td>religamento automático</td></tr>
+<tr><td><strong>86</strong></td><td>relé de bloqueio (<em>lockout</em>)</td></tr>
+</tbody>
+</table>
+
+<p><strong>3. A curva do relé de sobrecorrente temporizado (51).</strong> É <strong>tempo inverso</strong>: quanto maior a corrente, menor o tempo de atuação. Forma normalizada (IEC 60255):</p>
+<p><strong>t = DT · K ÷ [(I/I<sub>ajuste</sub>)<sup>α</sup> − 1]</strong></p>
+<p>com <em>DT</em> = <strong>dial de tempo</strong> (multiplicador de tempo) e, conforme a curva:</p>
+<table>
+<thead>
+<tr><th>Curva</th><th>K</th><th>α</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Normalmente inversa (NI)</strong></td><td>0,14</td><td>0,02</td></tr>
+<tr><td><strong>Muito inversa (MI)</strong></td><td>13,5</td><td>1</td></tr>
+<tr><td><strong>Extremamente inversa (EI)</strong></td><td>80</td><td>2</td></tr>
+</tbody>
+</table>
+<p><strong>Como resolver a questão típica:</strong> a prova dá a expressão da curva, o dial e a corrente de falta; você calcula <strong>M = I<sub>falta</sub>/I<sub>ajuste</sub></strong> (o "múltiplo"), substitui e obtém <em>t</em>. Dois cuidados: (a) as correntes devem estar do <strong>mesmo lado do TC</strong> — se o ajuste é secundário, divida a corrente primária pela relação do TC; (b) se M ≤ 1, o relé <strong>não atua</strong> (o denominador fica zero ou negativo).</p>
+<p><strong>Escolha da curva:</strong> a <strong>extremamente inversa</strong> é a que melhor se casa com curvas de <strong>fusível</strong> e com a curva de dano térmico (I²t) de condutores e transformadores; a <strong>normalmente inversa</strong> é a de uso geral em distribuição.</p>
+
+<p><strong>4. Ajustes do relé de sobrecorrente.</strong></p>
+<ul>
+<li><strong>Unidade temporizada (51):</strong> ajustada <strong>acima</strong> da maior corrente de carga prevista (incluindo sobrecarga admissível) e <strong>abaixo</strong> da menor corrente de curto no fim do trecho protegido. Regra prática: 1,2 a 1,5 × I<sub>carga máxima</sub>.</li>
+<li><strong>Unidade instantânea (50):</strong> ajustada <strong>acima</strong> da maior corrente de curto do <strong>trecho seguinte</strong> (para não atuar por falta lá na frente) e acima da corrente de <em>inrush</em>/partida.</li>
+<li><strong>Proteção de motor:</strong> o ajuste precisa deixar passar a partida (6–8 I<sub>n</sub> por alguns segundos) e atuar antes do limite térmico do enrolamento — é a "janela" entre a curva de partida e a curva de dano.</li>
+</ul>
+
+<p><strong>5. Coordenação e seletividade.</strong> Objetivo: a proteção <strong>mais próxima da falta</strong> atua primeiro. Formas:</p>
+<table>
+<thead>
+<tr><th>Tipo</th><th>Como se obtém</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Cronológica</strong></td><td>degrau de tempo entre relés em série: <strong>0,2 a 0,4 s</strong> entre relés digitais</td></tr>
+<tr><td><strong>Amperimétrica</strong></td><td>ajustes de corrente diferentes, aproveitando a impedância entre os pontos</td></tr>
+<tr><td><strong>Lógica / bloqueio</strong></td><td>o relé a jusante envia sinal de bloqueio ao de montante</td></tr>
+<tr><td><strong>Por zonas</strong></td><td>diferencial (87) e distância (21) com zonas 1, 2 e 3</td></tr>
+</tbody>
+</table>
+<p>O intervalo de coordenação soma: tempo de abertura do disjuntor a jusante + erro dos relés + erro dos TCs + margem de segurança.</p>
+
+<p><strong>6. Proteção diferencial (87).</strong> Compara a corrente que <strong>entra</strong> com a que <strong>sai</strong> da zona; a diferença indica falta interna. É <strong>absolutamente seletiva</strong> (protege só o que está entre os TCs) e por isso <strong>não serve de retaguarda</strong> para nada. Cuidados: a característica <strong>percentual (de restrição)</strong> compensa o erro de relação e a saturação dos TCs, e o <strong>bloqueio por 2ª harmônica</strong> evita atuação na corrente de <em>inrush</em> do transformador. Na aplicação em transformador, é preciso ainda compensar a <strong>defasagem</strong> da ligação (Δ-Y) e eliminar a sequência zero.</p>
+
+<p><strong>7. Proteção de distância (21).</strong> Mede a impedância V/I vista pelo relé, que é proporcional à <strong>distância até a falta</strong>. Zonas usuais: <strong>Z1 ≈ 80–85 % da linha, instantânea</strong> (não alcança 100 % por causa dos erros de medição); <strong>Z2 ≈ 120 % com atraso</strong> (cobre o resto da linha e faz retaguarda do trecho seguinte); <strong>Z3</strong>, retaguarda remota mais lenta. Característica no plano R-X: <em>mho</em>, quadrilateral, impedância. É a proteção padrão de linhas de transmissão.</p>
+
+<p><strong>8. Religamento automático (79).</strong> A maioria das faltas em linhas aéreas é <strong>transitória</strong> (descarga atmosférica, galho, vento): abre-se o disjuntor, o arco se extingue e religa-se após um tempo morto. Numa falta <strong>permanente</strong> o relé bloqueia após o número de tentativas programado. Não se usa religamento automático em <strong>cabos subterrâneos</strong>, porque ali a falta é sempre permanente e o religamento agrava o dano.</p>
+
+<p><strong>9. TCs, saturação e disjuntores.</strong> A <strong>saturação do TC</strong> durante curtos elevados distorce o sinal e pode atrasar ou impedir a atuação — daí as classes de proteção (10P20, C400). O <strong>disjuntor</strong> é especificado por: tensão nominal, corrente nominal, <strong>capacidade de interrupção simétrica e assimétrica</strong>, capacidade de <strong>fechamento</strong> sobre falta e tempo total de eliminação. Meios de extinção: SF₆, vácuo (padrão em MT), óleo (obsoleto) e ar comprimido.</p>
+
+<p><strong>Resumo de véspera:</strong> 50 é instantâneo, 51 temporizado, 87 diferencial, 21 distância, 67 direcional, 79 religamento; t = DT·K/[(I/I<sub>aj</sub>)<sup>α</sup>−1] e M ≤ 1 não atua; extremamente inversa casa com fusível; instantâneo ajustado acima do curto do trecho seguinte; degrau de coordenação 0,2–0,4 s; diferencial é seletivo e não faz retaguarda; Z1 cobre 80–85 %; não se religa cabo subterrâneo.</p>

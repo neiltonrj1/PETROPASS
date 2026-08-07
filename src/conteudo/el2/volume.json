@@ -1,0 +1,37 @@
+{
+ "id": "el2",
+ "t": "Sistemas de Potência, Proteção e Controle",
+ "sub": "Bloco 2 · onde a prova de Elétrica costuma decidir a aprovação",
+ "mods": [
+  {
+   "id": "el2m1",
+   "n": "Módulo 1",
+   "t": "Sistema por unidade (p.u.) e mudança de base"
+  },
+  {
+   "id": "el2m2",
+   "n": "Módulo 2",
+   "t": "Componentes simétricas e cálculo de curto-circuito"
+  },
+  {
+   "id": "el2m3",
+   "n": "Módulo 3",
+   "t": "Linhas de transmissão: parâmetros, modelos e constantes ABCD"
+  },
+  {
+   "id": "el2m4",
+   "n": "Módulo 4",
+   "t": "Proteção de sistemas elétricos, relés de sobrecorrente e coordenação"
+  },
+  {
+   "id": "el2m5",
+   "n": "Módulo 5",
+   "t": "Sistemas de controle, sinais, amostragem e eletrônica de potência"
+  },
+  {
+   "id": "el2m6",
+   "n": "Módulo 6",
+   "t": "Setor elétrico brasileiro, tarifas e eficiência energética"
+  }
+ ]
+}

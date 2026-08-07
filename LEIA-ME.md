@@ -19,6 +19,21 @@ prova.
 As quatro compartilham os 8 módulos de **Português e Inglês**, que são
 eliminatórios para todo mundo.
 
+## Painel de estudo
+
+A tela inicial traz, para a trilha escolhida:
+
+- **Meta diária com cronômetro** — conta os minutos com o app aberto e ativo
+  (para quando você troca de aba ou larga o aparelho por mais de 3 minutos).
+- **Revisão espaçada** — cada módulo estudado entra numa fila e volta em 1, 3,
+  7, 16, 35 e 75 dias. Acertar sobe um degrau; errar volta ao início.
+- **Desempenho por semana** — percentual de acerto das últimas 12 semanas.
+- **Onde você mais erra** — os assuntos que mais aparecem no caderno de erros.
+- **Cobertura por bloco** — quanto você já cobriu de cada volume, com um risco
+  marcando o peso daquele bloco nas provas anteriores. Bloco pesado com barra
+  curta é onde está o maior ganho.
+- **Mapa da sessão** — no quiz e no simulado, uma casinha por questão.
+
 ---
 
 ## Como mexer nisso no VS Code

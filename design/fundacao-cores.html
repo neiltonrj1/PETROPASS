@@ -398,6 +398,118 @@ body.deslogado .aviso.a-ok{background:#12281D;border-color:#3BC07E;color:#3BC07E
 .fsl>span b{ color:var(--ink); font-family:var(--mono); font-size:.76rem; }
 .fsl input[type=range]{ width:100%; margin:0; accent-color:var(--verde); }
 
+/* ================================================================
+   v5 — linguagem visual do protótipo do Claude Design
+   (PETROPASS.dc.html: capas imersivas, cartões de painel,
+    números grandes em mono e etiquetas em versalete)
+
+   Os nomes de token do protótipo entram como apelidos dos que já
+   existiam, para o CSS novo poder ser escrito na linguagem dele
+   sem quebrar nada do que já usa os nomes antigos.
+   ================================================================ */
+:root{
+  --sf:var(--card); --sf2:var(--chip); --ink3:var(--muted);
+  --acid:var(--amarelo); --pri:var(--verde); --priink:var(--onv);
+  --ovl:rgba(20,22,26,.05);
+  --escuro:#101215; --escuro2:#191D22; --escuroInk:#F2F3EE; --escuroInk2:#8C939B;
+}
+[data-tema="escuro"]{ --ovl:rgba(255,255,255,.05); }
+
+/* ---- etiqueta em versalete, o rótulo dos cartões do painel ---- */
+.rotulo{font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);}
+
+/* ---- capa imersiva escura ---- */
+.capa{position:relative;background:var(--escuro);border-radius:var(--r-l);overflow:hidden;
+  padding:26px 24px;min-height:250px;display:flex;flex-direction:column;margin-bottom:13px;}
+.capa .spine{display:block;position:absolute;left:0;top:0;bottom:0;width:10px;background:var(--escuro2);}
+.capa .spine i{display:block;width:100%;background:var(--acid);}
+.capa .marca{position:absolute;right:-8px;bottom:-14px;font-family:var(--dsp);font-weight:900;
+  font-size:96px;line-height:.72;color:transparent;-webkit-text-stroke:2px #1D2126;pointer-events:none;
+  letter-spacing:-.06em;user-select:none;max-width:60%;overflow:hidden;text-align:right;}
+.capa .conteudo{position:relative;display:flex;flex-direction:column;flex:1;padding-left:14px;}
+.capa .olho{font:600 11px/1 var(--mono);letter-spacing:.12em;color:var(--acid);margin-bottom:14px;}
+.capa .olho.frio{color:#767C84;}
+.capa h2{font-family:var(--dsp);font-weight:800;letter-spacing:-.035em;font-size:1.95rem;line-height:1;
+  color:var(--escuroInk);margin:0;max-width:22ch;overflow-wrap:break-word;}
+.capa p{font-size:.92rem;line-height:1.5;color:var(--escuroInk2);margin:14px 0 0;max-width:52ch;}
+.capa .acoes{display:flex;align-items:center;gap:14px;margin-top:22px;flex-wrap:wrap;}
+.capa .pill{border:none;cursor:pointer;background:var(--acid);color:#14161A;border-radius:99px;
+  padding:13px 22px;font:700 .92rem/1 var(--ui);font-family:var(--ui);}
+.capa .pill:hover{opacity:.88;}
+.capa .pill.vazia{background:transparent;border:1.5px solid #2A2F35;color:var(--escuroInk);}
+.capa .pill.vazia:hover{border-color:#4E555C;opacity:1;}
+.capa .nota{font:500 12px/1.5 var(--mono);color:#767C84;}
+
+/* ---- grade de cartões do painel ---- */
+/* minmax(0,1fr) e não 1fr: com "auto" de mínimo, um item de texto sem
+   quebra (as linhas de revisão) empurra a coluna e a página inteira
+   passa a rolar de lado no celular.                                  */
+.painel{display:grid;grid-template-columns:minmax(0,1fr);gap:13px;margin-bottom:13px;}
+.pcard{background:var(--sf);border:1px solid var(--line);border-radius:16px;padding:20px;
+  display:flex;flex-direction:column;min-width:0;}
+.pcard .topo{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px;}
+.pcard .grande{font:700 2.5rem/1 var(--mono);color:var(--ink);}
+.pcard .unid{font:700 1.1rem/1 var(--mono);color:var(--ink3);}
+.pcard .legenda{font-size:.76rem;line-height:1.4;color:var(--ink3);margin-top:5px;}
+.pcard .delta{font-size:.76rem;font-weight:600;margin-left:6px;}
+.pcard .delta.sobe{color:var(--ok);} .pcard .delta.desce{color:var(--err);}
+
+/* anel da meta do dia */
+.anel{position:relative;width:132px;height:132px;margin:0 auto;}
+.anel .txt{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.anel .n{font:700 1.9rem/1 var(--mono);color:var(--ink);}
+.anel .u{font:500 10px/1 var(--mono);color:var(--ink3);margin-top:4px;letter-spacing:.04em;}
+
+/* linhas de item dentro dos cartões (revisões, erros) */
+.pitem{display:flex;align-items:center;gap:10px;padding:10px 11px;border:1px solid var(--line);
+  border-radius:10px;background:var(--sf2);text-align:left;width:100%;cursor:pointer;
+  font-family:var(--ui);color:var(--ink);}
+.pitem:hover{border-color:var(--ink3);}
+.pitem .bola{width:6px;height:6px;border-radius:50%;flex:none;}
+.pitem .t{flex:1;min-width:0;font-size:.79rem;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.pitem .n{font:600 11px/1 var(--mono);color:var(--ink3);flex:none;}
+.plista{display:flex;flex-direction:column;gap:8px;flex:1;min-width:0;}
+
+/* gráfico de barrinhas (desempenho por semana) */
+.spark{display:flex;align-items:flex-end;gap:4px;height:52px;margin-top:18px;}
+.spark i{flex:1;border-radius:3px 3px 0 0;background:var(--sf2);min-height:2px;}
+.spark i.on{background:var(--acid);}
+.spark-eixo{display:flex;justify-content:space-between;margin-top:8px;font:500 10px/1 var(--mono);color:var(--ink3);}
+
+/* cobertura por bloco: barra dupla (você × peso na prova) */
+.cob{display:flex;flex-direction:column;gap:11px;}
+.cob-l{display:grid;grid-template-columns:minmax(0,1fr) 46px;gap:9px;align-items:center;cursor:pointer;}
+.cob-l .t{font-size:.76rem;color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.cob-l .v{font:600 11px/1 var(--mono);color:var(--ink3);text-align:right;}
+.cob-tr{grid-column:1/-1;height:16px;border-radius:5px;background:var(--sf2);position:relative;overflow:hidden;}
+.cob-fl{position:absolute;left:0;top:0;bottom:0;background:var(--acid);border-radius:5px;}
+.cob-peso{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.55;}
+.cob-l:hover .t{text-decoration:underline;}
+
+/* mapa da sessão: uma casinha por questão */
+.mapa{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px;}
+.mapa b{width:20px;height:20px;border-radius:5px;background:var(--sf2);border:1px solid var(--line);
+  cursor:pointer;font:600 9.5px/18px var(--mono);color:var(--ink3);text-align:center;}
+.mapa b.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok);}
+.mapa b.nao{background:var(--errbg);border-color:var(--err);color:var(--err);}
+.mapa b.aqui{outline:2px solid var(--ink);outline-offset:1px;}
+.mapa-leg{display:flex;gap:14px;margin-top:10px;font:500 10.5px/1 var(--mono);color:var(--ink3);}
+
+@media(min-width:640px){
+  .painel{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .painel .largo{grid-column:span 2;}
+  .capa{padding:34px 30px;min-height:290px;}
+  .capa h2{font-size:2.6rem;}
+}
+@media(min-width:1080px){
+  body:not(.deslogado) .painel{grid-template-columns:repeat(3,minmax(0,1fr));}
+  body:not(.deslogado) .painel .largo{grid-column:span 3;}
+  body:not(.deslogado) .painel .medio{grid-column:span 2;}
+  body:not(.deslogado) .capa{padding:42px 38px;min-height:330px;}
+  body:not(.deslogado) .capa h2{font-size:3.1rem;}
+  body:not(.deslogado) .capa .marca{font-size:150px;bottom:-22px;}
+}
+
 
 /* ---- só do kit: molduras para comparar claro e escuro lado a lado ---- */
 html,body{background:#DAD8D2;}

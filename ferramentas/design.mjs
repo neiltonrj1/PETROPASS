@@ -350,6 +350,115 @@ feitos.push(pagina({
   </div>`,
 }));
 
+/* 13. Capa imersiva (v5) ----------------------------------------- */
+feitos.push(pagina({
+  arquivo: 'componentes-capa.html', grupo: 'Componentes', titulo: 'Capa imersiva',
+  subtitulo: 'O bloco escuro que abre a tela inicial e a de estudo, com a barra de progresso à esquerda e a inicial da trilha em contorno. Veio do protótipo do Claude Design.',
+  largura: 900, altura: 480,
+  corpo: `<div class="capa">
+    <span class="spine"><i style="height:68%"></i></span>
+    <span class="marca">PROD</span>
+    <div class="conteudo">
+      <div style="flex:1"></div>
+      <div class="olho frio">SEX, 7 DE AGO · 63 DIAS PARA A PROVA</div>
+      <h2>Faltam 19 minutos para fechar o dia.</h2>
+      <div class="acoes">
+        <button class="pill">Voltar ao estudo</button>
+        <span class="nota">7 DIAS SEGUIDOS · 7 A REVISAR</span>
+      </div>
+    </div>
+  </div>
+  <div class="capa">
+    <span class="spine"><i style="height:40%"></i></span>
+    <span class="marca">PR1</span>
+    <div class="conteudo">
+      <div style="flex:1"></div>
+      <div class="olho">BLOCO 1 · 2 DE 5 MÓDULOS</div>
+      <h2>Gestão da Produção e Operações</h2>
+      <p>44% da prova. Você já passou por 2 módulos — o próximo é planejamento e controle da produção.</p>
+      <div class="acoes">
+        <button class="pill">Continuar módulo 3</button>
+        <button class="pill vazia">Ver os 18 módulos</button>
+      </div>
+    </div>
+  </div>`,
+}));
+
+/* 14. Painel de estudo (v5) -------------------------------------- */
+feitos.push(pagina({
+  arquivo: 'componentes-painel.html', grupo: 'Componentes', titulo: 'Painel de estudo',
+  subtitulo: 'Meta diária com cronômetro, revisão espaçada, desempenho por semana, onde você mais erra e cobertura por bloco contra o peso na prova.',
+  largura: 900, altura: 900, tema: 'ambos',
+  corpo: `<div class="painel">
+    <div class="pcard" style="align-items:center;justify-content:center">
+      <div class="anel">
+        <svg width="132" height="132" viewBox="0 0 132 132">
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--sf2)" stroke-width="13"></circle>
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--acid)" stroke-width="13"
+            stroke-linecap="round" stroke-dasharray="240 352" transform="rotate(-90 66 66)"></circle></svg>
+        <div class="txt"><span class="n">41</span><span class="u">DE 60 MIN</span></div></div>
+      <div style="font-weight:600;font-size:.83rem;margin-top:14px">Meta de hoje</div>
+      <div class="legenda" style="text-align:center">19 min para fechar</div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Revisão de hoje</span><span style="font:700 .82rem/1 var(--mono)">7</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Estratégia de operações, competitividade</span><span class="n">+9d</span></button>
+        <button class="pitem"><span class="bola" style="background:#E8A317"></span><span class="t">Custos, custeio e ponto de equilíbrio</span><span class="n">+3d</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--ok)"></span><span class="t">Ergonomia e organização do trabalho</span><span class="n">hoje</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Revisar agora</button>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Desempenho</span></div>
+      <div style="display:flex;align-items:baseline;gap:4px">
+        <span class="grande">70</span><span class="unid">%</span>
+        <span class="delta sobe">▲ 3 pts</span></div>
+      <div class="legenda">acerto em 214 questões respondidas</div>
+      <div class="spark">${[38,42,45,44,51,55,58,57,62,64,67,70].map(v => `<i class="on" style="height:${v}%"></i>`).join('')}</div>
+      <div class="spark-eixo"><span>12 SEMANAS ATRÁS</span><span>AGORA</span></div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Onde você mais erra</span><span style="font:700 .82rem/1 var(--mono)">12</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Planejamento e controle da produção</span><span class="n">4×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.7"></span><span class="t">Estoques, curva ABC e lote econômico</span><span class="n">3×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.5"></span><span class="t">Pesquisa operacional e estatística</span><span class="n">2×</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Refazer as erradas</button>
+    </div>
+    <div class="pcard largo">
+      <div class="topo"><span class="rotulo">Cobertura por bloco · peso na prova</span></div>
+      <div class="cob">
+        <div class="cob-l"><span class="t">Gestão da Produção e Operações</span><span class="v">4/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:80%"></span><span class="cob-peso" style="left:53%"></span></span></div>
+        <div class="cob-l"><span class="t">Qualidade, Logística, Custos e Pessoas</span><span class="v">2/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:40%"></span><span class="cob-peso" style="left:47%"></span></span></div>
+        <div class="cob-l"><span class="t">Português e Inglês</span><span class="v">1/8</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:13%"></span></span></div>
+      </div>
+      <p class="legenda">A barra é o quanto você já cobriu; o risco vertical marca o peso daquele bloco nas provas anteriores.</p>
+    </div>
+  </div>`,
+}));
+
+/* 15. Mapa da sessão (v5) ---------------------------------------- */
+feitos.push(pagina({
+  arquivo: 'componentes-mapa.html', grupo: 'Componentes', titulo: 'Mapa da sessão',
+  subtitulo: 'Aparece embaixo do quiz e do simulado: uma casinha por questão, verde no acerto, vermelha no erro. Clicar pula direto para ela.',
+  largura: 900, altura: 380, tema: 'ambos',
+  corpo: `<div class="pcard">
+    <div class="topo"><span class="rotulo">Mapa da sessão</span>
+      <span style="font:600 .74rem/1 var(--mono);color:var(--ink3)">26 questões</span></div>
+    <div class="mapa">${Array.from({ length: 26 }, (_, i) => {
+      const cls = i < 6 ? 'ok' : (i === 6 || i === 9 ? 'nao' : (i < 12 ? 'ok' : ''));
+      return `<b class="${cls}${i === 13 ? ' aqui' : ''}">${i + 1}</b>`;
+    }).join('')}</div>
+    <div class="mapa-leg"><span style="color:var(--ok)">acertou · 10</span>
+      <span style="color:var(--err)">errou · 2</span><span>a responder · 14</span></div>
+  </div>`,
+}));
+
 /* ---------------------------------------------------------------
    Índice em formato de canvas (.dc.html), para conviver com os
    outros documentos do projeto no Claude Design. Cada amostra entra

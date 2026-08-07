@@ -1,10 +1,10 @@
-<!-- @dsCard group="Componentes" name="Leitor de lição" subtitle="Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima." width="900" height="760" -->
+<!-- @dsCard group="Componentes" name="Mapa da sessão" subtitle="Aparece embaixo do quiz e do simulado: uma casinha por questão, verde no acerto, vermelha no erro. Clicar pula direto para ela." width="900" height="380" -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leitor de lição · PETROPASS</title>
+<title>Mapa da sessão · PETROPASS</title>
 <style>
 /* =========================================================
    PETROPASS — sistema visual
@@ -527,50 +527,26 @@ html,body{background:#DAD8D2;}
 </head>
 <body>
 <div class="kit">
-  <h1>Leitor de lição</h1>
-  <p class="leg">Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima.</p>
+  <h1>Mapa da sessão</h1>
+  <p class="leg">Aparece embaixo do quiz e do simulado: uma casinha por questão, verde no acerto, vermelha no erro. Clicar pula direto para ela.</p>
   <div class="amostra" data-tema="claro">
   <div class="amostra-rot">tema claro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
-  </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
+  <div class="amostra-tela"><div class="pcard">
+    <div class="topo"><span class="rotulo">Mapa da sessão</span>
+      <span style="font:600 .74rem/1 var(--mono);color:var(--ink3)">26 questões</span></div>
+    <div class="mapa"><b class="ok">1</b><b class="ok">2</b><b class="ok">3</b><b class="ok">4</b><b class="ok">5</b><b class="ok">6</b><b class="nao">7</b><b class="ok">8</b><b class="ok">9</b><b class="nao">10</b><b class="ok">11</b><b class="ok">12</b><b class="">13</b><b class=" aqui">14</b><b class="">15</b><b class="">16</b><b class="">17</b><b class="">18</b><b class="">19</b><b class="">20</b><b class="">21</b><b class="">22</b><b class="">23</b><b class="">24</b><b class="">25</b><b class="">26</b></div>
+    <div class="mapa-leg"><span style="color:var(--ok)">acertou · 10</span>
+      <span style="color:var(--err)">errou · 2</span><span>a responder · 14</span></div>
+  </div></div>
 </div><div class="amostra" data-tema="escuro">
   <div class="amostra-rot">tema escuro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
-  </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
+  <div class="amostra-tela"><div class="pcard">
+    <div class="topo"><span class="rotulo">Mapa da sessão</span>
+      <span style="font:600 .74rem/1 var(--mono);color:var(--ink3)">26 questões</span></div>
+    <div class="mapa"><b class="ok">1</b><b class="ok">2</b><b class="ok">3</b><b class="ok">4</b><b class="ok">5</b><b class="ok">6</b><b class="nao">7</b><b class="ok">8</b><b class="ok">9</b><b class="nao">10</b><b class="ok">11</b><b class="ok">12</b><b class="">13</b><b class=" aqui">14</b><b class="">15</b><b class="">16</b><b class="">17</b><b class="">18</b><b class="">19</b><b class="">20</b><b class="">21</b><b class="">22</b><b class="">23</b><b class="">24</b><b class="">25</b><b class="">26</b></div>
+    <div class="mapa-leg"><span style="color:var(--ok)">acertou · 10</span>
+      <span style="color:var(--err)">errou · 2</span><span>a responder · 14</span></div>
+  </div></div>
 </div>
 </div>
 </body>

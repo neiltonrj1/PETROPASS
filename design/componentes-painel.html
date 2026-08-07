@@ -1,10 +1,10 @@
-<!-- @dsCard group="Componentes" name="Leitor de lição" subtitle="Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima." width="900" height="760" -->
+<!-- @dsCard group="Componentes" name="Painel de estudo" subtitle="Meta diária com cronômetro, revisão espaçada, desempenho por semana, onde você mais erra e cobertura por bloco contra o peso na prova." width="900" height="900" -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leitor de lição · PETROPASS</title>
+<title>Painel de estudo · PETROPASS</title>
 <style>
 /* =========================================================
    PETROPASS — sistema visual
@@ -527,50 +527,114 @@ html,body{background:#DAD8D2;}
 </head>
 <body>
 <div class="kit">
-  <h1>Leitor de lição</h1>
-  <p class="leg">Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima.</p>
+  <h1>Painel de estudo</h1>
+  <p class="leg">Meta diária com cronômetro, revisão espaçada, desempenho por semana, onde você mais erra e cobertura por bloco contra o peso na prova.</p>
   <div class="amostra" data-tema="claro">
   <div class="amostra-rot">tema claro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
-  </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
+  <div class="amostra-tela"><div class="painel">
+    <div class="pcard" style="align-items:center;justify-content:center">
+      <div class="anel">
+        <svg width="132" height="132" viewBox="0 0 132 132">
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--sf2)" stroke-width="13"></circle>
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--acid)" stroke-width="13"
+            stroke-linecap="round" stroke-dasharray="240 352" transform="rotate(-90 66 66)"></circle></svg>
+        <div class="txt"><span class="n">41</span><span class="u">DE 60 MIN</span></div></div>
+      <div style="font-weight:600;font-size:.83rem;margin-top:14px">Meta de hoje</div>
+      <div class="legenda" style="text-align:center">19 min para fechar</div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Revisão de hoje</span><span style="font:700 .82rem/1 var(--mono)">7</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Estratégia de operações, competitividade</span><span class="n">+9d</span></button>
+        <button class="pitem"><span class="bola" style="background:#E8A317"></span><span class="t">Custos, custeio e ponto de equilíbrio</span><span class="n">+3d</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--ok)"></span><span class="t">Ergonomia e organização do trabalho</span><span class="n">hoje</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Revisar agora</button>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Desempenho</span></div>
+      <div style="display:flex;align-items:baseline;gap:4px">
+        <span class="grande">70</span><span class="unid">%</span>
+        <span class="delta sobe">▲ 3 pts</span></div>
+      <div class="legenda">acerto em 214 questões respondidas</div>
+      <div class="spark"><i class="on" style="height:38%"></i><i class="on" style="height:42%"></i><i class="on" style="height:45%"></i><i class="on" style="height:44%"></i><i class="on" style="height:51%"></i><i class="on" style="height:55%"></i><i class="on" style="height:58%"></i><i class="on" style="height:57%"></i><i class="on" style="height:62%"></i><i class="on" style="height:64%"></i><i class="on" style="height:67%"></i><i class="on" style="height:70%"></i></div>
+      <div class="spark-eixo"><span>12 SEMANAS ATRÁS</span><span>AGORA</span></div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Onde você mais erra</span><span style="font:700 .82rem/1 var(--mono)">12</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Planejamento e controle da produção</span><span class="n">4×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.7"></span><span class="t">Estoques, curva ABC e lote econômico</span><span class="n">3×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.5"></span><span class="t">Pesquisa operacional e estatística</span><span class="n">2×</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Refazer as erradas</button>
+    </div>
+    <div class="pcard largo">
+      <div class="topo"><span class="rotulo">Cobertura por bloco · peso na prova</span></div>
+      <div class="cob">
+        <div class="cob-l"><span class="t">Gestão da Produção e Operações</span><span class="v">4/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:80%"></span><span class="cob-peso" style="left:53%"></span></span></div>
+        <div class="cob-l"><span class="t">Qualidade, Logística, Custos e Pessoas</span><span class="v">2/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:40%"></span><span class="cob-peso" style="left:47%"></span></span></div>
+        <div class="cob-l"><span class="t">Português e Inglês</span><span class="v">1/8</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:13%"></span></span></div>
+      </div>
+      <p class="legenda">A barra é o quanto você já cobriu; o risco vertical marca o peso daquele bloco nas provas anteriores.</p>
+    </div>
+  </div></div>
 </div><div class="amostra" data-tema="escuro">
   <div class="amostra-rot">tema escuro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
-  </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
+  <div class="amostra-tela"><div class="painel">
+    <div class="pcard" style="align-items:center;justify-content:center">
+      <div class="anel">
+        <svg width="132" height="132" viewBox="0 0 132 132">
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--sf2)" stroke-width="13"></circle>
+          <circle cx="66" cy="66" r="56" fill="none" stroke="var(--acid)" stroke-width="13"
+            stroke-linecap="round" stroke-dasharray="240 352" transform="rotate(-90 66 66)"></circle></svg>
+        <div class="txt"><span class="n">41</span><span class="u">DE 60 MIN</span></div></div>
+      <div style="font-weight:600;font-size:.83rem;margin-top:14px">Meta de hoje</div>
+      <div class="legenda" style="text-align:center">19 min para fechar</div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Revisão de hoje</span><span style="font:700 .82rem/1 var(--mono)">7</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Estratégia de operações, competitividade</span><span class="n">+9d</span></button>
+        <button class="pitem"><span class="bola" style="background:#E8A317"></span><span class="t">Custos, custeio e ponto de equilíbrio</span><span class="n">+3d</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--ok)"></span><span class="t">Ergonomia e organização do trabalho</span><span class="n">hoje</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Revisar agora</button>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Desempenho</span></div>
+      <div style="display:flex;align-items:baseline;gap:4px">
+        <span class="grande">70</span><span class="unid">%</span>
+        <span class="delta sobe">▲ 3 pts</span></div>
+      <div class="legenda">acerto em 214 questões respondidas</div>
+      <div class="spark"><i class="on" style="height:38%"></i><i class="on" style="height:42%"></i><i class="on" style="height:45%"></i><i class="on" style="height:44%"></i><i class="on" style="height:51%"></i><i class="on" style="height:55%"></i><i class="on" style="height:58%"></i><i class="on" style="height:57%"></i><i class="on" style="height:62%"></i><i class="on" style="height:64%"></i><i class="on" style="height:67%"></i><i class="on" style="height:70%"></i></div>
+      <div class="spark-eixo"><span>12 SEMANAS ATRÁS</span><span>AGORA</span></div>
+    </div>
+    <div class="pcard">
+      <div class="topo"><span class="rotulo">Onde você mais erra</span><span style="font:700 .82rem/1 var(--mono)">12</span></div>
+      <div class="plista">
+        <button class="pitem"><span class="bola" style="background:var(--err)"></span><span class="t">Planejamento e controle da produção</span><span class="n">4×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.7"></span><span class="t">Estoques, curva ABC e lote econômico</span><span class="n">3×</span></button>
+        <button class="pitem"><span class="bola" style="background:var(--err);opacity:.5"></span><span class="t">Pesquisa operacional e estatística</span><span class="n">2×</span></button>
+      </div>
+      <button class="btn btn-s" style="margin-top:12px">Refazer as erradas</button>
+    </div>
+    <div class="pcard largo">
+      <div class="topo"><span class="rotulo">Cobertura por bloco · peso na prova</span></div>
+      <div class="cob">
+        <div class="cob-l"><span class="t">Gestão da Produção e Operações</span><span class="v">4/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:80%"></span><span class="cob-peso" style="left:53%"></span></span></div>
+        <div class="cob-l"><span class="t">Qualidade, Logística, Custos e Pessoas</span><span class="v">2/5</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:40%"></span><span class="cob-peso" style="left:47%"></span></span></div>
+        <div class="cob-l"><span class="t">Português e Inglês</span><span class="v">1/8</span>
+          <span class="cob-tr"><span class="cob-fl" style="width:13%"></span></span></div>
+      </div>
+      <p class="legenda">A barra é o quanto você já cobriu; o risco vertical marca o peso daquele bloco nas provas anteriores.</p>
+    </div>
+  </div></div>
 </div>
 </div>
 </body>

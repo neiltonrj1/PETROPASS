@@ -3,8 +3,9 @@ const DIAS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 /* trilha = a prova escolhida (inspecao, producao, eletrica, projetos).
    curWeek e chk passam a ser por trilha, porque cada prova tem o seu
    cronograma; o que já estava salvo é migrado em migraEstado().        */
-const DEF = {v:4, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
-             trilha:null, cfg:{tema:'claro', fs:16, dataProva:''}, ult:null};
+const DEF = {v:5, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
+             trilha:null, tempo:{}, rev:{}, hist:{},
+             cfg:{tema:'claro', fs:16, dataProva:'', metaMin:60}, ult:null};
 
 let sb=null, USER=null, S=JSON.parse(JSON.stringify(DEF)), CFG=null, OFFLINE=false, SUJO=false;
 let VIEW='home', LEITOR=null, QZ=null, SIM=null;
@@ -36,16 +37,25 @@ function provasTrilha(){ return DATA.provas.filter(p=>p.trilha===S.trilha); }
 function kBloco(w,d,turno){ return S.trilha+':w'+w+'d'+d+turno; }
 function kSemana(i){ return S.trilha+':'+i; }
 
-/* Estado salvo antes da versão 4 só conhecia a trilha de Inspeção. */
+/* Estado salvo antes da versão 4 só conhecia a trilha de Inspeção;
+   a versão 5 acrescentou tempo de estudo, revisão espaçada e histórico. */
 function migraEstado(){
-  if(S.v>=4){ if(!S.trilha) S.trilha=null; return; }
-  const chk={}, wkdone={};
-  for(const k in S.chk) chk['inspecao:'+k]=S.chk[k];
-  for(const k in S.wkdone) wkdone['inspecao:'+k]=S.wkdone[k];
-  S.chk=chk; S.wkdone=wkdone;
-  S.curWeek = {inspecao: S.curWeek||0};
-  if(Object.keys(S.notas||{}).length || Object.keys(S.quiz||{}).length) S.trilha='inspecao';
-  S.v=4;
+  if(S.v<4){
+    const chk={}, wkdone={};
+    for(const k in S.chk) chk['inspecao:'+k]=S.chk[k];
+    for(const k in S.wkdone) wkdone['inspecao:'+k]=S.wkdone[k];
+    S.chk=chk; S.wkdone=wkdone;
+    S.curWeek = {inspecao: S.curWeek||0};
+    if(Object.keys(S.notas||{}).length || Object.keys(S.quiz||{}).length) S.trilha='inspecao';
+  }
+  /* campos que podem faltar em qualquer backup mais antigo */
+  if(!S.tempo || typeof S.tempo!=='object') S.tempo={};
+  if(!S.rev   || typeof S.rev  !=='object') S.rev={};
+  if(!S.hist  || typeof S.hist !=='object') S.hist={};
+  if(!S.cfg) S.cfg={};
+  if(!S.cfg.metaMin) S.cfg.metaMin=60;
+  if(!S.trilha) S.trilha=null;
+  S.v=5;
 }
 function semanaAtual(){
   if(typeof S.curWeek==='number') S.curWeek={};             // formato antigo
@@ -388,7 +398,7 @@ async function iniciaApp(){
   else S = JSON.parse(JSON.stringify(DEF));
   if(local && nuvem){ lsSet(chaveLocal(), S); }
   migraEstado();
-  aplicaCfg(); SUJO=false; marcaSync();
+  aplicaCfg(); SUJO=false; marcaSync(); iniciaRelogio();
   VIEW='home'; LEITOR=null; QZ=null; SIM=null;
   document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='home'));
   if(!S.trilha) return telaTrilha(true);      // primeira vez: escolhe a prova
@@ -563,19 +573,17 @@ function vHome(){
   let cont='';
   if(S.ult){ const m = findMod(S.ult.vol, S.ult.mod);
     if(m) cont = `<button class="btn btn-p" style="width:100%;margin-bottom:9px" onclick="abrir('${S.ult.vol}','${S.ult.mod}','${S.ult.aba||'licao'}')">▶ Continuar: ${esc(m.n)} — ${esc(m.t.slice(0,42))}</button>`; }
-  main.innerHTML = cardProva() + `
-  <div class="card">
-    <h2>Olá, ${esc((USER.nome||'').split(' ')[0]||'estudante')} · Semana ${sem[0]} · Fase ${sem[1]}</h2>
-    <div class="tiles">
-      <div class="tile"><div class="n">${st.streak}</div><div class="l">dias seguidos</div></div>
-      <div class="tile"><div class="n">${st.pctPlano}%</div><div class="l">do plano</div></div>
-      <div class="tile"><div class="n">${st.resp}/${totalQ()}</div><div class="l">questões feitas</div></div>
-      <div class="tile"><div class="n">${st.pctQuiz}%</div><div class="l">de acerto</div></div>
-    </div>
-    <div class="pbar"><div class="pfill" style="width:${st.pctPlano}%"></div></div>
+  main.innerHTML = capaHoje() + `
+  <div class="painel">
+    ${cardMeta()}
+    ${cardRevisao()}
+    ${cardDesempenho()}
+    ${cardErros()}
+    ${cardCobertura()}
   </div>
+  ${cardProva()}
   <div class="card">
-    <h2>Hoje — ${DIAS[hoje]}</h2>
+    <h2>Hoje — ${DIAS[hoje]} · Semana ${sem[0]} · Fase ${sem[1]}</h2>
     <p style="font-size:.82rem;color:var(--ink2);margin-bottom:4px"><b>Manhã:</b> ${esc(sem[2])}</p>
     <p style="font-size:.82rem;color:var(--ink2);margin-bottom:11px"><b>Noite:</b> ${esc(sem[3])}</p>
     ${cont}
@@ -586,6 +594,10 @@ function vHome(){
     <div class="row" style="margin-top:9px">
       <button class="btn btn-s" onclick="abrirModulo('${sem[4]}')">📖 Lição da semana</button>
       <button class="btn btn-s" onclick="go('treinar')">✍ Treinar questões</button>
+    </div>
+    <div class="tiles" style="margin-top:13px">
+      <div class="tile"><div class="n">${st.pctPlano}%</div><div class="l">do plano</div></div>
+      <div class="tile"><div class="n">${st.resp}/${totalQ()}</div><div class="l">questões feitas</div></div>
     </div>
   </div>
   ${cardIncidencia()}`;
@@ -652,7 +664,8 @@ function marcaBloco(k){ S.chk[k]=!S.chk[k]; save(); render(); }
 function vEstudar(){
   if(LEITOR) return renderLeitor();
   const busca = (S._busca||'').toLowerCase();
-  let html = `<div class="card"><h2>Apostilas · ${esc(trilha().curto)}</h2>
+  let html = (busca ? '' : capaEstudar()) +
+    `<div class="card" id="listaMods"><h2>Apostilas · ${esc(trilha().curto)}</h2>
     <p class="hint" style="margin:-6px 0 10px">${esc(trilha().sub)}</p>
     <input type="text" id="busca" placeholder="🔍 buscar assunto (ex.: escorregamento, crase, VPL)" value="${esc(S._busca||'')}" style="margin-bottom:0"></div>`;
   let achou = 0;
@@ -691,7 +704,12 @@ function abrirModulo(mid, aba){
 }
 function abrir(vid,mid,aba){
   LEITOR = {vol:vid, mod:mid, aba:aba||'licao'};
-  S.ult = {vol:vid, mod:mid, aba:LEITOR.aba}; save();
+  S.ult = {vol:vid, mod:mid, aba:LEITOR.aba};
+  /* estudar um módulo o coloca na fila de revisão espaçada; revê-lo
+     depois de vencido empurra para o degrau seguinte.              */
+  if(!S.rev[mid]) agendaRevisao(mid, false);
+  else if(diasEntre(S.rev[mid].prox, hojeISO()) >= 0 && S.rev[mid].visto !== hojeISO()) agendaRevisao(mid, true);
+  save();
   if(VIEW!=='estudar'){ VIEW='estudar'; document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='estudar')); }
   window.scrollTo(0,0); render();
 }
@@ -1027,12 +1045,15 @@ function renderSimulado(){
       <button class="btn btn-p" onclick="SIM.i++;window.scrollTo(0,0);render()">${SIM.i===total-1?'Ver resultado':'Próxima →'}</button></div>`;
   }
   html += `</div>`;
+  html += mapaSessao(p.questoes.map((_,i)=>i), R, p.questoes, SIM.i, 'vaiParaSimulado');
   main.innerHTML = html;
 }
 function respondeSim(L){
   const p = DATA.provas.find(p=>p.id===SIM.id);
   const q = p.questoes[SIM.i];
   S.quiz[p.id][SIM.i] = L;
+  registraResposta(L===q.correta);
+  if(q.mod) agendaRevisao(q.mod, L===q.correta);
   if(L!==q.correta){
     if(!S.erros.some(e=>e.vol===p.id && e.qi===SIM.i))
       S.erros.push({vol:p.id, qi:SIM.i, origem:q.origem, marcou:L, correta:q.correta,
@@ -1095,11 +1116,13 @@ function renderQuiz(){
       <button class="btn btn-p" onclick="QZ.i++;window.scrollTo(0,0);render()">${QZ.i===QZ.fila.length-1?'Ver resultado':'Próxima →'}</button></div>`;
   }
   html += `</div>`;
+  html += mapaSessao(QZ.fila, R, qs, QZ.i, 'vaiParaQuestao');
   main.innerHTML = html;
 }
 function responde(qi,L){
   const q = DATA.quizzes[QZ.vol][qi];
   S.quiz[QZ.vol][qi] = L;
+  registraResposta(L===q.correta);
   if(L!==q.correta){
     if(!S.erros.some(e=>e.vol===QZ.vol && e.qi===qi))
       S.erros.push({vol:QZ.vol, qi:qi, origem:q.origem, marcou:L, correta:q.correta,

@@ -1,10 +1,10 @@
-<!-- @dsCard group="Componentes" name="Leitor de lição" subtitle="Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima." width="900" height="760" -->
+<!-- @dsCard group="Componentes" name="Capa imersiva" subtitle="O bloco escuro que abre a tela inicial e a de estudo, com a barra de progresso à esquerda e a inicial da trilha em contorno. Veio do protótipo do Claude Design." width="900" height="480" -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leitor de lição · PETROPASS</title>
+<title>Capa imersiva · PETROPASS</title>
 <style>
 /* =========================================================
    PETROPASS — sistema visual
@@ -527,50 +527,37 @@ html,body{background:#DAD8D2;}
 </head>
 <body>
 <div class="kit">
-  <h1>Leitor de lição</h1>
-  <p class="leg">Cabeçalho, abas e a página de conteúdo — onde o aluno passa a maior parte do tempo, e onde a caneta escreve por cima.</p>
+  <h1>Capa imersiva</h1>
+  <p class="leg">O bloco escuro que abre a tela inicial e a de estudo, com a barra de progresso à esquerda e a inicial da trilha em contorno. Veio do protótipo do Claude Design.</p>
   <div class="amostra" data-tema="claro">
   <div class="amostra-rot">tema claro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
+  <div class="amostra-tela"><div class="capa">
+    <span class="spine"><i style="height:68%"></i></span>
+    <span class="marca">PROD</span>
+    <div class="conteudo">
+      <div style="flex:1"></div>
+      <div class="olho frio">SEX, 7 DE AGO · 63 DIAS PARA A PROVA</div>
+      <h2>Faltam 19 minutos para fechar o dia.</h2>
+      <div class="acoes">
+        <button class="pill">Voltar ao estudo</button>
+        <span class="nota">7 DIAS SEGUIDOS · 7 A REVISAR</span>
+      </div>
+    </div>
   </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
-</div><div class="amostra" data-tema="escuro">
-  <div class="amostra-rot">tema escuro</div>
-  <div class="amostra-tela"><div id="leitorHead">
-    <button class="btn btn-s" style="padding:8px 11px">←</button>
-    <div class="tt">Módulo 1 — Circuitos em corrente alternada: fasores, impedância e potência</div>
-  </div>
-  <div class="abas">
-    <button class="on">Lição</button><button>Figuras 1</button><button>De prova 6</button><button>Gabarito</button>
-  </div>
-  <div id="pagewrap"><div id="page">
-    <p><strong>2. As três potências.</strong> A potência complexa <strong>S = P + jQ</strong> reúne as três grandezas:</p>
-    <div class="tw"><table>
-      <thead><tr><th>Grandeza</th><th>Símbolo</th><th>Unidade</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Ativa</strong></td><td>P = V·I·cos φ</td><td>W</td></tr>
-        <tr><td><strong>Reativa</strong></td><td>Q = V·I·sen φ</td><td>var</td></tr>
-        <tr><td><strong>Aparente</strong></td><td>S = V·I</td><td>VA</td></tr>
-      </tbody></table></div>
-    <p><strong>Pegadinha frequente:</strong> potência aparente é soma vetorial, não aritmética — 3 kW com 4 kvar
-      dão 5 kVA, não 7.</p>
-  </div></div></div>
+  <div class="capa">
+    <span class="spine"><i style="height:40%"></i></span>
+    <span class="marca">PR1</span>
+    <div class="conteudo">
+      <div style="flex:1"></div>
+      <div class="olho">BLOCO 1 · 2 DE 5 MÓDULOS</div>
+      <h2>Gestão da Produção e Operações</h2>
+      <p>44% da prova. Você já passou por 2 módulos — o próximo é planejamento e controle da produção.</p>
+      <div class="acoes">
+        <button class="pill">Continuar módulo 3</button>
+        <button class="pill vazia">Ver os 18 módulos</button>
+      </div>
+    </div>
+  </div></div>
 </div>
 </div>
 </body>

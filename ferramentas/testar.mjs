@@ -123,6 +123,65 @@ for (const t of DATA.trilhas) {
   ok(`${t.id}/marcar semana`, () => window.toggleWk(0));
 }
 
+/* ---- painel de estudo (v5) ---- */
+process.stdout.write('\npainel      ');
+ok('meta e cronômetro', () => {
+  window.escolheTrilha('producao');
+  window.eval('S.cfg.metaMin = 60; S.tempo[S.trilha+":"+hojeISO()] = 25;');
+  window.go('home');
+  const min = window.eval('minutosHoje()');
+  if (min !== 25) throw new Error(`minutosHoje() devolveu ${min}, esperava 25`);
+  if (!window.document.querySelector('.anel')) throw new Error('o anel da meta não apareceu');
+});
+ok('revisão espaçada avança de degrau', () => {
+  const r = window.eval(`(function(){
+    var m = modsTrilha()[0].id;
+    delete S.rev[m];
+    agendaRevisao(m, false);           var n0 = S.rev[m].nivel, p0 = S.rev[m].prox;
+    agendaRevisao(m, true);            var n1 = S.rev[m].nivel, p1 = S.rev[m].prox;
+    agendaRevisao(m, false);           var n2 = S.rev[m].nivel;
+    return {n0:n0, n1:n1, n2:n2, cresceu: diasEntre(p0,p1) > 0};
+  })()`);
+  if (r.n0 !== 0) throw new Error('a primeira revisão devia nascer no degrau 0');
+  if (r.n1 !== 1) throw new Error('acertar devia subir um degrau');
+  if (r.n2 !== 0) throw new Error('errar devia voltar ao degrau 0');
+  if (!r.cresceu) throw new Error('o intervalo não aumentou ao subir de degrau');
+});
+ok('revisão vencida entra na fila', () => {
+  const n = window.eval(`(function(){
+    var m = modsTrilha()[1].id;
+    S.rev[m] = {nivel:1, prox: somaDias(hojeISO(), -3), visto: somaDias(hojeISO(), -10)};
+    return revisoesVencidas().filter(function(r){ return r.mod.id === m; }).length;
+  })()`);
+  if (n !== 1) throw new Error('o módulo vencido não apareceu em revisoesVencidas()');
+});
+ok('histórico de desempenho por semana', () => {
+  window.eval('S.hist = {}; registraResposta(true); registraResposta(false); registraResposta(true);');
+  const s = window.eval('serieDesempenho()');
+  const ultimo = s[s.length - 1];
+  if (ultimo !== 67) throw new Error(`a última semana deu ${ultimo}%, esperava 67%`);
+});
+ok('cobertura por bloco', () => {
+  const c = window.eval('cobertura()');
+  if (!c.length) throw new Error('cobertura() veio vazia');
+  if (c.some(x => x.pct < 0 || x.pct > 100)) throw new Error('percentual de cobertura fora de 0–100');
+});
+ok('mapa da sessão no simulado', () => {
+  const pid = window.eval('provasTrilha()[0] && provasTrilha()[0].id');
+  if (!pid) return;
+  window.iniciaSimulado(pid);
+  window.respondeSim('A');
+  if (!window.document.querySelector('.mapa b')) throw new Error('o mapa da sessão não apareceu');
+  window.go('provas');
+});
+ok('painel não vaza entre trilhas', () => {
+  window.escolheTrilha('projetos');
+  const m = window.eval('minutosHoje()');
+  if (m !== 0) throw new Error('o tempo de Produção apareceu em Projetos');
+  window.escolheTrilha('producao');
+  if (window.eval('minutosHoje()') !== 25) throw new Error('o tempo de Produção se perdeu');
+});
+
 /* dados de uma trilha não podem vazar para outra */
 ok('progresso separado por prova', () => {
   window.escolheTrilha('inspecao');

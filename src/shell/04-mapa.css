@@ -1,0 +1,47 @@
+/* ================================================================
+   MAPA MENTAL E MNEMÔNICOS — abrem a lição
+   ================================================================ */
+
+.mapa-m{border:1.5px solid var(--line-forte);border-radius:var(--r-m);
+  background:var(--card-2);margin:0 0 18px;overflow:hidden;}
+.mapa-cab{display:flex;align-items:center;gap:10px;width:100%;text-align:left;cursor:pointer;
+  background:transparent;border:none;padding:13px 15px;font-family:var(--ui);color:var(--ink);}
+.mapa-cab:hover{background:var(--ovl);}
+.mapa-ic{font-size:1.1rem;flex:none;}
+.mapa-tt{flex:1;font-weight:700;font-size:.92rem;}
+.mapa-tt em{font-style:normal;font-weight:500;color:var(--ink2);font-size:.8rem;}
+.mapa-seta{color:var(--muted);font-size:.8rem;}
+.mapa-corpo{padding:4px 15px 16px;}
+
+/* --- a árvore --- */
+.mapa-arv{display:flex;flex-direction:column;gap:12px;}
+.mapa-centro{align-self:flex-start;background:var(--verde);color:var(--onv);
+  font-family:var(--dsp);font-weight:800;font-size:1.02rem;letter-spacing:-.01em;
+  padding:9px 16px;border-radius:999px;}
+.mapa-ramos{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;}
+.mapa-ramo{position:relative;background:var(--card);border:1px solid var(--line);
+  border-left:4px solid var(--rc);border-radius:var(--r-s);padding:11px 13px;min-width:0;}
+.mapa-rt{font-weight:700;font-size:.84rem;color:var(--ink);margin-bottom:6px;}
+.mapa-ramo ul{margin:0;padding-left:17px;}
+.mapa-ramo li{font-size:.82rem;line-height:1.55;color:var(--ink2);margin-bottom:4px;}
+.mapa-ramo li b{color:var(--ink);}
+.mapa-ramo .pt{font-style:normal;color:var(--muted);padding:0 1px;}
+
+/* --- mnemônicos --- */
+.mnem{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;}
+.mnem-tt{font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink2);margin-bottom:10px;}
+.mnem-c{background:var(--warnbg);border:1px solid var(--warnln);border-radius:var(--r-s);
+  padding:11px 13px;margin-bottom:8px;}
+.mnem-t{font-weight:700;font-size:.83rem;color:var(--ink);margin-bottom:4px;}
+.mnem-x{font-size:.83rem;line-height:1.6;color:var(--ink2);}
+.mnem-x b{color:var(--ink);}
+.mnem-x .pt{font-style:normal;color:var(--muted);}
+
+@media(min-width:760px){
+  .mapa-ramos{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .mapa-arv{position:relative;}
+}
+@media(min-width:1200px){
+  body:not(.deslogado) .mapa-ramos{grid-template-columns:repeat(2,minmax(0,1fr));}
+}

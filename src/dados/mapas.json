@@ -1,0 +1,562 @@
+{
+ "_leia": "Mapa mental e mnemônicos de cada módulo, mostrados no topo da lição. Escritos primeiro para os assuntos de maior incidência nas provas anteriores. Em `itens` e `c`, **texto** vira negrito e ·  separa colunas visualmente.",
+
+ "v1m1": {
+  "centro": "Estrutura cristalina",
+  "nota": "7,3% da prova de Inspeção",
+  "ramos": [
+   { "t": "As três estruturas", "cor": "acento", "itens": [
+     "**CCC** · 2 átomos · coord. **8** · FEA **0,68** · Fe-α, Cr, Mo, W",
+     "**CFC** · 4 átomos · coord. **12** · FEA **0,74** · Fe-γ, Al, Cu, Ni",
+     "**HC** · 6 átomos · coord. **12** · FEA **0,74** · Zn, Mg, Ti-α" ] },
+   { "t": "Densidade teórica", "cor": "ok", "itens": [
+     "ρ = **n·A / (V_C·N_A)**",
+     "n = átomos por célula · A = massa atômica",
+     "V_C = a³ nas cúbicas · N_A ≈ 6,0×10²³",
+     "Cuidado com a unidade: 1 nm = 10⁻⁹ m" ] },
+   { "t": "Deformação e recuperação", "cor": "err", "itens": [
+     "**Encruar** = multiplicar discordâncias ⇒ mais dureza, menos ductilidade",
+     "**Recuperação** → **Recristalização** → **Crescimento de grão**",
+     "T_recrist ≈ **0,4 · T_fusão** (em kelvin)",
+     "Mais deformação ⇒ **mais núcleos** ⇒ grão final **menor**" ] },
+   { "t": "Hall-Petch", "cor": "info", "itens": [
+     "σ_e = σ₀ + k·d^(−1/2)",
+     "Grão **menor** ⇒ material **mais resistente**",
+     "Vale à temperatura ambiente; a quente se inverte (fluência)" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Os fatores de empacotamento", "c": "**68 · 74 · 74** na ordem CCC · CFC · HC. Só a CCC é a folgada; CFC e HC empatam no máximo possível para esferas iguais — o que muda é o empilhamento (**ABC** na CFC, **ABAB** na HC)." },
+   { "t": "Quem é quem no aço", "c": "**FerrIta é CCC** (as duas têm o traço reto do I); **austenita é CFC** (as duas têm a curva do A/C). Ferrita = Fe-α = baixa temperatura; austenita = Fe-γ = alta." },
+   { "t": "Deformar aquece, recozer amolece", "c": "Encruamento **sobe** dureza e limite de escoamento e **desce** alongamento. Recristalização faz o contrário — e só acontece acima de 0,4·T_f." }
+  ]
+ },
+
+ "v1m2": {
+  "centro": "Diagrama Fe-C",
+  "nota": "18,7% da prova de Inspeção — o assunto mais pesado",
+  "ramos": [
+   { "t": "As três reações invariantes", "cor": "err", "itens": [
+     "**Peritética** · 1495 °C · L + δ → γ · 0,17 %C",
+     "**Eutética** · 1147 °C · L → γ + Fe₃C (**ledeburita**) · 4,3 %C",
+     "**Eutetoide** · 727 °C · γ → α + Fe₃C (**perlita**) · 0,77 %C" ] },
+   { "t": "Classificação pelo carbono", "cor": "acento", "itens": [
+     "**Hipoeutetoide** < 0,77 %C ⇒ ferrita pró-eutetoide + perlita",
+     "**Eutetoide** = 0,77 %C ⇒ só perlita",
+     "**Hipereutetoide** > 0,77 %C ⇒ cementita pró-eutetoide + perlita",
+     "Aço vai até **2,11 %C**; acima disso é **ferro fundido**" ] },
+   { "t": "Regra da alavanca", "cor": "ok", "itens": [
+     "Fração de uma fase = **braço OPOSTO ÷ braço total**",
+     "%perlita = (C₀ − C_α) ÷ (C_eut − C_α)",
+     "C_α ≈ 0,022 %C a 727 °C · C_eut = 0,77 %C",
+     "A soma das frações é sempre 100%" ] },
+   { "t": "As fases", "cor": "info", "itens": [
+     "**Ferrita α** · CCC · macia · até 0,022 %C",
+     "**Austenita γ** · CFC · só acima de 727 °C no Fe-C",
+     "**Cementita Fe₃C** · 6,67 %C · duríssima e frágil",
+     "**Perlita** · agregado lamelar α + Fe₃C (não é fase!)" ] }
+  ],
+  "mnemonicos": [
+   { "t": "As três invariantes, de cima para baixo", "c": "**Pe · Eu · Eu** — **Pe**ritética (1495), **Eu**tética (1147), **Eu**tetoide (727). Os três números só descem, e o único que você precisa cravar é o **727**." },
+   { "t": "A alavanca não erra se você lembrar disto", "c": "A fração de uma fase usa o braço que vai **até o outro lado**. Se der 68,5% quando a resposta era 31,5%, você pegou o braço da fase errada — é o distrator favorito da banca." },
+   { "t": "Ledeburita × perlita", "c": "**Le**deburita vem do **L**íquido (eutética, 1147). Perlita vem da austenita sólida (eutetoide, 727). Se a questão fala em líquido se transformando, **nunca** é perlita." },
+   { "t": "0,022 · 0,77 · 2,11 · 4,3 · 6,67", "c": "Os cinco carbonos que a Cesgranrio cobra: máximo na ferrita · eutetoide · máximo do aço · eutético · cementita pura." }
+  ]
+ },
+
+ "v1m3": {
+  "centro": "TTT, CCT e temperabilidade",
+  "nota": "junto com tratamentos, 18,7% da prova",
+  "ramos": [
+   { "t": "O que sai de cada velocidade", "cor": "acento", "itens": [
+     "Muito lenta (forno) ⇒ **perlita grossa** — recozimento",
+     "Média (ar) ⇒ **perlita fina** — normalização",
+     "Rápida, mas antes do nariz ⇒ **bainita** — austêmpera",
+     "Acima da crítica ⇒ **martensita** — têmpera" ] },
+   { "t": "Martensita", "cor": "err", "itens": [
+     "**TCC supersaturada** em carbono — não é fase de equilíbrio",
+     "**Não aparece no diagrama Fe-C**",
+     "Transformação **adifusional** e quase instantânea",
+     "Começa em **Mi (Ms)** e termina em **Mf**, só por temperatura",
+     "Dureza depende **só do carbono**, não da liga" ] },
+   { "t": "Temperabilidade × dureza", "cor": "ok", "itens": [
+     "**Dureza máxima** ⇒ teor de **carbono**",
+     "**Temperabilidade** (profundidade) ⇒ **elementos de liga**",
+     "Ensaio **Jominy**: barra temperada só na ponta",
+     "Liga desloca as curvas para a **direita** ⇒ tempera mais fácil" ] },
+   { "t": "Meios de resfriamento", "cor": "info", "itens": [
+     "Salmoura > água > óleo > ar > forno",
+     "Mais severo ⇒ mais martensita, mais risco de **trinca**",
+     "Peça grande resfria devagar no núcleo ⇒ **efeito de massa**" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Carbono dá dureza, liga dá profundidade", "c": "É a frase que resolve metade das questões de tratamento térmico. Dois aços com 0,4 %C temperam com a **mesma dureza na superfície**; o que tem liga mantém essa dureza **mais fundo**." },
+   { "t": "Martensita não está no diagrama", "c": "Se a questão desenha um resfriamento e pede uma fase de **equilíbrio**, martensita está automaticamente fora. Ela só existe fora do equilíbrio." },
+   { "t": "O nariz da curva", "c": "Passar **à esquerda do nariz** = têmpera. Tocar o nariz = perlita. Descer e segurar abaixo dele = bainita (austêmpera). O nariz é o ponto de decisão do tratamento inteiro." }
+  ]
+ },
+
+ "v1m5": {
+  "centro": "Aços e ligas",
+  "nota": "12% da prova de Inspeção",
+  "ramos": [
+   { "t": "Inoxidáveis", "cor": "acento", "itens": [
+     "**Austenítico** (304, 316) · CFC · **não magnético** · não temperável · melhor soldabilidade",
+     "**Ferrítico** (430) · CCC · magnético · não temperável",
+     "**Martensítico** (410, 420) · temperável · magnético · o mais duro",
+     "**Duplex** (2205) · α + γ · resiste a corrosão sob tensão por cloreto" ] },
+   { "t": "Elementos de liga", "cor": "ok", "itens": [
+     "**Cr** ≥ 10,5% ⇒ passivação · forma carboneto",
+     "**Ni** ⇒ estabiliza austenita · tenacidade a frio",
+     "**Mo** ⇒ resistência ao **pite** (o 316 tem)",
+     "**Ti / Nb** ⇒ **estabilizam** contra sensitização",
+     "**S e P** ⇒ impurezas: S dá fragilidade a quente, P a frio" ] },
+   { "t": "Não ferrosos", "cor": "info", "itens": [
+     "**Latão** = Cu + **Zn** · **Bronze** = Cu + **Sn**",
+     "**Monel** = Ni-Cu · água do mar",
+     "**Inconel / Hastelloy** = base Ni · alta temperatura e corrosão",
+     "**Al** · leve, CFC, não tem limite de fadiga definido",
+     "**Ti** · alta relação resistência/peso, caro" ] },
+   { "t": "Polímeros", "cor": "err", "itens": [
+     "**Termoplástico** · cadeias lineares · funde e ressolidifica · PE, PP, PVC, **PTFE**, náilon, PET",
+     "**Termofixo** · rede de ligações cruzadas · **não** volta a fundir · **epóxi**, fenólica, poliéster insaturado, borracha vulcanizada" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Latão × bronze", "c": "La**t**ão tem **Z**inco, bron**Z**e… não: inverta pelo som — bron**ze** parece zinco mas é **estanho (Sn)**; **latão** é o do **zinco**. Grave pela dupla: **LZ / BS**." },
+   { "t": "O 316 e o mar", "c": "**3-1-6**: o **6** lembra o **Mo**libdênio que ele tem a mais que o 304 — e é o Mo que segura o **pite** em meio com cloreto. Plataforma pede 316." },
+   { "t": "Teflon é termoplástico", "c": "A pegadinha é achar que, por aguentar alta temperatura, o PTFE seria termofixo. Ele **amolece** — é termoplástico de alto desempenho. O termofixo favorito da banca é o **epóxi**." },
+   { "t": "Austenítico não gruda no ímã", "c": "Se a questão diz que o inox **não é magnético**, é **austenítico** (304/316) — e portanto **não temperável** e com **maior** coeficiente de dilatação." }
+  ]
+ },
+
+ "v2m2": {
+  "centro": "Corrosão eletroquímica",
+  "nota": "com formas e proteção, 12,7% da prova",
+  "ramos": [
+   { "t": "A pilha", "cor": "err", "itens": [
+     "**Ânodo** = oxida = perde elétron = **corrói**",
+     "**Cátodo** = reduz = ganha elétron = protegido",
+     "Precisa de: ânodo, cátodo, **eletrólito** e ligação elétrica",
+     "Tira um dos quatro e a corrosão para" ] },
+   { "t": "Pourbaix (Fe)", "cor": "acento", "itens": [
+     "**Imunidade** · potencial baixo · metal estável",
+     "**Corrosão** · dissolve como Fe²⁺ / Fe³⁺",
+     "**Passivação** · filme de óxido protetor",
+     "Eixo x = **pH** · eixo y = **potencial**" ] },
+   { "t": "Série galvânica", "cor": "info", "itens": [
+     "Mais **nobre** (catódico): Pt, Au, grafite, aço inox passivo",
+     "Mais **ativo** (anódico): **Mg**, **Zn**, **Al**, aço-carbono",
+     "Contato entre metais distintos ⇒ o **ativo** corrói",
+     "Relação de área: ânodo **pequeno** com cátodo grande = corrosão rápida" ] },
+   { "t": "Proteção catódica", "cor": "ok", "itens": [
+     "**Anodo de sacrifício** · Zn, Mg, Al · sem fonte externa · limitado",
+     "**Corrente impressa** · retificador · controla o potencial · dutos longos",
+     "Objetivo: levar o metal para a região de **imunidade**",
+     "Excesso ⇒ **fragilização por hidrogênio** e descolamento do revestimento" ] }
+  ],
+  "mnemonicos": [
+   { "t": "AN-OX / CAT-RED", "c": "**Â**nodo **OX**ida, **CÁT**odo **RED**uz. E quem oxida é quem **corrói** — o ânodo é sempre o que se perde. Vale em pilha, em eletrólise e na prova." },
+   { "t": "Ânodo pequeno é desastre", "c": "Parafuso de aço (ativo, área pequena) em chapa de inox (nobre, área grande) fura em meses. O contrário — parafuso de inox em chapa de aço — dura. **Área anódica pequena concentra toda a corrente.**" },
+   { "t": "As três regiões de Pourbaix", "c": "De baixo para cima: **I-C-P** — **I**munidade, **C**orrosão, **P**assivação. Proteção catódica **empurra o potencial para baixo**, para a imunidade." }
+  ]
+ },
+
+ "v2m4": {
+  "centro": "Mecanismos de dano",
+  "nota": "7,3% da prova, e caem sempre juntos",
+  "ramos": [
+   { "t": "Sensitização", "cor": "err", "itens": [
+     "Faixa **425–815 °C** · precipita **Cr₂₃C₆** no contorno",
+     "Empobrece o contorno em **Cr** ⇒ corrosão **intergranular**",
+     "Ataca a **ZTA** de solda de inox austenítico",
+     "Evita: baixo carbono (**304L/316L**), **estabilizado** (Ti/Nb), solubilização" ] },
+   { "t": "Fragilizações", "cor": "acento", "itens": [
+     "**Fase sigma** · 600–950 °C · inox ferrítico e duplex · dura e frágil",
+     "**475 °C** · ferríticos e duplex · perda de tenacidade",
+     "**Revenido** · 375–575 °C · impurezas (P, Sn, Sb) no contorno",
+     "**Hidrogênio** · H atômico difunde e trinca · aços de alta dureza" ] },
+   { "t": "Fratura", "cor": "info", "itens": [
+     "**Dúctil** · com deformação · dimples · absorve energia",
+     "**Frágil** · sem aviso · clivagem · rápida",
+     "**Fadiga** · marcas de praia + estrias · tensão cíclica",
+     "**Fluência** · alta T e carga constante · ao longo do tempo" ] }
+  ],
+  "mnemonicos": [
+   { "t": "As temperaturas do dano", "c": "**475 · 600-950 · 425-815** — a de dois dígitos (475) é a do inox ferrítico; sigma vive na faixa alta; sensitização na faixa larga do meio. Se a questão fala em **solda de inox**, é sensitização." },
+   { "t": "O L do 304L", "c": "**L de Low carbon** — menos carbono, menos carboneto de cromo, menos sensitização. É a solução mais barata e a mais cobrada." },
+   { "t": "Fadiga se lê na superfície", "c": "**Marcas de praia** (macro, a olho nu) e **estrias** (micro, no MEV) são de fadiga. Se a peça quebrou sem deformar e havia carga cíclica, é fadiga até prova em contrário." }
+  ]
+ },
+
+ "v3m3": {
+  "centro": "Ensaios não destrutivos",
+  "nota": "12% da prova de Inspeção",
+  "ramos": [
+   { "t": "Superficiais", "cor": "acento", "itens": [
+     "**LP** (líquido penetrante) · só descontinuidade **aberta à superfície** · qualquer material não poroso",
+     "**PM** (partículas magnéticas) · superficial e **subsuperficial rasa** · só **ferromagnético**" ] },
+   { "t": "Volumétricos", "cor": "ok", "itens": [
+     "**US** (ultrassom) · descontinuidade **interna** · dá **profundidade** · ótimo para **planares** (falta de fusão, trinca)",
+     "**RX / gama** · interna · registro permanente · melhor para **volumétricas** (porosidade, inclusão) · **não dá profundidade**" ] },
+   { "t": "Outros", "cor": "info", "itens": [
+     "**Visual** · o primeiro e mais barato de todos",
+     "**Correntes parasitas** · condutores · tubos de trocador",
+     "**Estanqueidade** · vazamento · bolha, hélio",
+     "**Emissão acústica** · monitora crescimento de defeito em serviço" ] }
+  ],
+  "mnemonicos": [
+   { "t": "A regra que decide o ensaio", "c": "Pergunte duas coisas: **onde está** (superfície ou dentro) e **qual o formato** (planar ou volumétrica). Superfície aberta → LP. Superfície em material magnético → PM. Dentro e planar → **US**. Dentro e volumétrica → **RX**." },
+   { "t": "PM não funciona em inox austenítico", "c": "Austenítico **não é ferromagnético** — sem magnetismo, sem partícula magnética. Nesse caso, **líquido penetrante**. É uma das pegadinhas mais repetidas da Cesgranrio." },
+   { "t": "Só o ultrassom dá profundidade", "c": "A radiografia mostra que existe, o ultrassom mostra **onde**. Quando o enunciado pede **dimensionar em profundidade**, a resposta é US." }
+  ]
+ },
+
+ "v3m2": {
+  "centro": "Metalurgia da soldagem",
+  "nota": "com processos, 14% da prova",
+  "ramos": [
+   { "t": "Regiões da junta", "cor": "acento", "itens": [
+     "**ZF** (zona fundida) · metal que fundiu e solidificou",
+     "**ZTA/ZAC** · não fundiu, mas mudou de microestrutura",
+     "**Metal de base** · intacto",
+     "A **ZTA** é onde estão quase todos os problemas" ] },
+   { "t": "Carbono equivalente", "cor": "err", "itens": [
+     "CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15",
+     "**CE > 0,40** ⇒ exige **pré-aquecimento**",
+     "Combate a trinca a frio (por hidrogênio)",
+     "Trinca a frio precisa de: **H + tensão + microestrutura frágil**" ] },
+   { "t": "Schaeffler", "cor": "ok", "itens": [
+     "Eixo x = **Cr equivalente** · eixo y = **Ni equivalente**",
+     "Prevê ferrita/austenita/martensita na solda de inox",
+     "**Diluição** desloca o ponto na reta entre base e adição",
+     "5 a 10% de **ferrita delta** evita trinca a quente" ] },
+   { "t": "Descontinuidades", "cor": "info", "itens": [
+     "**Mordedura** · entalhe na margem · concentra tensão",
+     "**Porosidade** · gás preso · umidade, corrente de ar",
+     "**Falta de fusão / penetração** · planar, a mais grave",
+     "**Inclusão de escória** · limpeza entre passes" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Trinca a frio × a quente", "c": "**Frio = Hidrogênio**, na ZTA, depois de resfriar, em aço de alta dureza — combate com **pré-aquecimento** e eletrodo **baixo hidrogênio**. **Quente = Solidificação**, na ZF, com enxofre/fósforo — combate com **ferrita delta** no inox." },
+   { "t": "0,40 é o número", "c": "Carbono equivalente acima de **0,40** acende a luz do pré-aquecimento. Abaixo disso, solda sem cerimônia." },
+   { "t": "Reforço não reforça", "c": "Reforço de solda é o metal depositado **além do necessário** para preencher a junta. Não aumenta resistência — em excesso, **concentra tensão** na margem e piora a fadiga." }
+  ]
+ },
+
+ "pr1m3": {
+  "centro": "Planejamento e controle da produção",
+  "nota": "12,2% da prova de Produção",
+  "ramos": [
+   { "t": "A hierarquia", "cor": "acento", "itens": [
+     "**S&OP / agregado** · 6-18 meses · **famílias** · força de trabalho, hora extra",
+     "**MPS** · semanas/meses · **produto final**",
+     "**MRP** · semanas · **componentes** · quanto e quando",
+     "**CRP** · semanas · **centro de trabalho** · a fábrica aguenta?",
+     "**Sequenciamento** · dias/horas · em que ordem" ] },
+   { "t": "MRP", "cor": "ok", "itens": [
+     "Entra: **MPS + BOM + estoque**",
+     "Nec. líquida = bruta − disponível − recebimentos + segurança",
+     "Puxa para trás pelo **lead time** (offsetting)",
+     "Supõe **capacidade infinita** — quem confere é o CRP" ] },
+   { "t": "Teoria das Restrições", "cor": "err", "itens": [
+     "Identificar → Explorar → **Subordinar** → Elevar → Repetir",
+     "Hora perdida no **gargalo** = hora perdida na fábrica",
+     "**Tambor-pulmão-corda**",
+     "Mix ótimo = maior **margem ÷ hora de gargalo**" ] },
+   { "t": "Empurrado × puxado", "cor": "info", "itens": [
+     "**Empurrado (MRP)** · previsão · estoque maior",
+     "**Puxado (kanban)** · consumo real · exige processo estável",
+     "Demanda **independente** se prevê · **dependente** se calcula" ] }
+  ],
+  "mnemonicos": [
+   { "t": "A escada do PCP", "c": "**A-M-M-C-S**: **A**gregado → **M**PS → **M**RP → **C**RP → **S**equenciamento. Vai do ano para a hora, e da família para a peça." },
+   { "t": "Ordem é saída, cadastro é entrada", "c": "Tudo que é **ordem** (de compra ou fabricação) é **resultado** do MRP. Tudo que é **cadastro** (BOM, roteiro, centro de trabalho, estoque) é **entrada**. Resolve a questão sem pensar." },
+   { "t": "BOM × roteiro", "c": "**BOM = do que é feito** (composição e quantidades). **Roteiro = por onde passa** (operações e tempos). A banca troca os dois." }
+  ]
+ },
+
+ "pr1m5": {
+  "centro": "Arranjo físico e capacidade",
+  "nota": "17,6% da prova de Produção — o mais pesado",
+  "ramos": [
+   { "t": "Os quatro arranjos", "cor": "acento", "itens": [
+     "**Posicional** · produto parado · volume mínimo · navio, plataforma",
+     "**Funcional** · agrupa recursos iguais · flexível, fluxo confuso",
+     "**Celular** · agrupa por **família** de peças · meio-termo",
+     "**Por produto** · na sequência · alto volume, **rígido**" ] },
+   { "t": "Balanceamento", "cor": "ok", "itens": [
+     "**Ciclo** = tempo disponível ÷ demanda",
+     "**Nº mínimo de postos** = conteúdo total ÷ ciclo (arredonda **para cima**)",
+     "**Eficiência** = conteúdo ÷ (postos × ciclo)",
+     "Quem dita a capacidade é o **posto mais lento**" ] },
+   { "t": "Capacidade", "cor": "err", "itens": [
+     "**Projeto** → menos perdas planejadas → **Efetiva** → menos perdas não planejadas → **Real**",
+     "**Utilização** = real ÷ **projeto**",
+     "**Eficiência** = real ÷ **efetiva**",
+     "**OEE** = disponibilidade × desempenho × qualidade" ] },
+   { "t": "Sequenciamento", "cor": "info", "itens": [
+     "**SPT** (menor tempo) ⇒ minimiza **fluxo médio**",
+     "**EDD** (menor prazo) ⇒ minimiza **atraso máximo**",
+     "**Johnson** ⇒ duas máquinas em série, minimiza makespan" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Utilização usa projeto, eficiência usa efetiva", "c": "**U-P / E-E**. As duas letras iguais andam juntas: **E**ficiência com **E**fetiva. É a troca mais cobrada do assunto." },
+   { "t": "SPT encurta a fila, EDD salva o prazo", "c": "**S**PT = **S**hortest = fila menor, todo mundo espera menos em média. **E**DD = **E**arliest **D**ue **D**ate = ninguém atrasa muito. Escolha pela pergunta do enunciado." },
+   { "t": "Arredonde sempre para cima", "c": "Número de postos é gente e máquina: 4,2 postos significa **5**. A banca deixa a alternativa 4 lá esperando." }
+  ]
+ },
+
+ "pr2m1": {
+  "centro": "Qualidade",
+  "nota": "6,8% da prova de Produção",
+  "ramos": [
+   { "t": "Custos da qualidade", "cor": "acento", "itens": [
+     "**Controle**: **Prevenção** (treinar, projetar) + **Avaliação** (inspecionar, ensaiar)",
+     "**Falhas**: **Interna** (refugo, retrabalho — na fábrica) + **Externa** (garantia, recall — no cliente)",
+     "Investir em prevenção **derruba** as falhas e o custo total",
+     "Regra 1-10-100: projeto, fábrica, cliente" ] },
+   { "t": "CEP", "cor": "err", "itens": [
+     "**Causa comum** · do sistema · resolve a **direção**",
+     "**Causa especial** · evento identificável · resolve o **operador**",
+     "Limites de **controle** vêm do **processo** (±3σ)",
+     "Limites de **especificação** vêm do **cliente**",
+     "**C_p** só dispersão · **C_pk** também centralização · C_pk ≤ C_p" ] },
+   { "t": "Seis Sigma", "cor": "ok", "itens": [
+     "**3,4 defeitos por milhão** de oportunidades",
+     "**DMAIC**: Definir, Medir, Analisar, Melhorar, Controlar",
+     "DMADV para processo novo",
+     "Papéis: champion, master black, black, green belt" ] },
+   { "t": "Ferramentas", "cor": "info", "itens": [
+     "**Pareto** · frequência ordenada · 80/20",
+     "**Ishikawa** · causa e efeito · 6M",
+     "**Histograma** · distribuição · **Dispersão** · relação",
+     "**Carta de controle** · estabilidade no tempo",
+     "**Fluxograma** · origem, processamento e destino" ] }
+  ],
+  "mnemonicos": [
+   { "t": "A porta da fábrica", "c": "A fronteira entre falha **interna** e **externa** é a porta: quem descobriu, **você** ou o **cliente**? Refugo e retrabalho ficam dentro; garantia e recall, fora." },
+   { "t": "Controle vem do processo, especificação vem do cliente", "c": "**C-P / E-C**. Confundir os dois é o erro clássico do CEP — e o processo pode estar sob controle e ainda assim fora de especificação." },
+   { "t": "C_pk nunca supera C_p", "c": "Os dois só são iguais com o processo **perfeitamente centrado**. Se a questão der C_pk maior que C_p, a alternativa está errada por construção." }
+  ]
+ },
+
+ "pr2m3": {
+  "centro": "Custos e ponto de equilíbrio",
+  "nota": "6,8% da prova de Produção",
+  "ramos": [
+   { "t": "Classificação", "cor": "acento", "itens": [
+     "**Fixo × variável** · pelo volume",
+     "**Direto × indireto** · pela apropriação",
+     "Fixo **total** não muda, mas fixo **unitário cai** com o volume",
+     "Variável **unitário** não muda, mas o **total sobe**" ] },
+   { "t": "Custeio", "cor": "ok", "itens": [
+     "**Absorção** · fixo vai ao **estoque** · aceito pela lei",
+     "**Variável** · fixo é **despesa do período** · gerencial",
+     "Produção > venda ⇒ **absorção dá lucro maior**",
+     "Produção = venda ⇒ os dois dão o mesmo" ] },
+   { "t": "Ponto de equilíbrio", "cor": "err", "itens": [
+     "**MC** = preço − custo variável unitário",
+     "**PE** = custo fixo ÷ MC",
+     "Em valor: CF ÷ razão de contribuição",
+     "Justificar capacidade nova: **ΔCF ÷ MC**" ] },
+   { "t": "Alavancagem operacional", "cor": "info", "itens": [
+     "**GAO** = Δ%lucro operacional ÷ Δ%vendas",
+     "Também: **MC total ÷ lucro operacional**",
+     "GAO alto = muito custo fixo = **risco operacional**" ] }
+  ],
+  "mnemonicos": [
+   { "t": "O fixo troca de lugar", "c": "Fixo **total** é reto; fixo **unitário** é curva que cai. Variável é o contrário. Metade das pegadinhas de custo vive nessa troca." },
+   { "t": "Absorção estoca o fixo", "c": "Produziu mais do que vendeu? Parte do custo fixo ficou **dentro do estoque** e não virou despesa — por isso a absorção mostra **lucro maior**. No custeio variável, todo o fixo do período vira despesa." },
+   { "t": "Margem por hora de gargalo", "c": "Com recurso escasso, o produto certo **não** é o de maior margem unitária, e sim o de maior **margem por hora do recurso restritivo**." }
+  ]
+ },
+
+ "el1m1": {
+  "centro": "Circuitos em corrente alternada",
+  "nota": "14% da prova de Elétrica",
+  "ramos": [
+   { "t": "Impedâncias", "cor": "acento", "itens": [
+     "**R** · em fase",
+     "**L** · Z = jωL · corrente **atrasa** 90°",
+     "**C** · Z = 1/(jωC) · corrente **adianta** 90°",
+     "ω = 2πf · a 60 Hz, ω ≈ **377** rad/s" ] },
+   { "t": "As três potências", "cor": "ok", "itens": [
+     "**P** = V·I·cos φ · watt · faz trabalho",
+     "**Q** = V·I·sen φ · var · circula sem consumir",
+     "**S** = V·I = **√(P² + Q²)** · VA · dimensiona o equipamento",
+     "**FP** = cos φ = P/S · referência **0,92**" ] },
+   { "t": "Correção do FP", "cor": "err", "itens": [
+     "**Q_cap = P·(tg φ₁ − tg φ₂)**",
+     "Reduz a **corrente** ⇒ perdas caem com o **quadrado**",
+     "Melhora a queda de tensão e libera capacidade",
+     "**Não** reduz a energia ativa do processo" ] },
+   { "t": "Trifásico", "cor": "info", "itens": [
+     "**Estrela**: V_linha = √3·V_fase · I igual",
+     "**Triângulo**: V igual · I_linha = √3·I_fase",
+     "P = **√3·V_L·I_L·cos φ**",
+     "Z_Δ = 3·Z_Y" ] }
+  ],
+  "mnemonicos": [
+   { "t": "ELI the ICE man", "c": "No indutor (**L**), a tensão (**E**) vem **antes** da corrente (**I**) → **E-L-I**. No capacitor (**C**), a corrente vem antes → **I-C-E**. É o mnemônico universal e nunca falha." },
+   { "t": "Potência aparente é vetorial", "c": "3 kW com 4 kvar dão **5 kVA**, não 7. Se a soma bateu certinho na sua conta, você somou aritmeticamente — e errou." },
+   { "t": "Estrela sobe tensão, triângulo sobe corrente", "c": "Na **estrela** o √3 está na **tensão** de linha; no **triângulo**, na **corrente** de linha. Uma frase resolve todas as conversões." }
+  ]
+ },
+
+ "el2m2": {
+  "centro": "Componentes simétricas e curto-circuito",
+  "nota": "caem juntas em toda prova de Elétrica",
+  "ramos": [
+   { "t": "As três sequências", "cor": "acento", "itens": [
+     "**Positiva** · 120° · **mesma** sequência de fases",
+     "**Negativa** · 120° · sequência **invertida**",
+     "**Zero** · defasagem **nula** · os três em fase",
+     "Sistema equilibrado ⇒ **só positiva**" ] },
+   { "t": "Impedâncias de linha", "cor": "ok", "itens": [
+     "**Z₁ = Z₂ = z_própria − z_mútua**",
+     "**Z₀ = z_própria + 2·z_mútua**",
+     "Z₀ costuma ser **2,5 a 3,5 vezes** Z₁" ] },
+   { "t": "Os tipos de falta", "cor": "err", "itens": [
+     "**Trifásica** · só a rede positiva · a mais rara e severa",
+     "**Fase-terra** · três redes em **série** · **I = 3·I₁** · a mais comum (~70-80%)",
+     "**Fase-fase** · positiva e negativa em **paralelo**",
+     "**Fase-fase-terra** · positiva em série com o paralelo das outras" ] },
+   { "t": "Transformador na sequência zero", "cor": "info", "itens": [
+     "**Yat–Yat** · passa (série)",
+     "**Yat–Δ** · circula no delta, não atravessa (paralelo)",
+     "**Yat–Y isolado** · **aberto**",
+     "**Δ–Δ** · aberto dos dois lados" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Zero está em fase", "c": "**Zero = zero de defasagem**. Positiva e negativa têm os mesmos 120°; o que muda entre elas é só a **ordem**. Se a alternativa diz 'em fase', é sequência zero — sempre." },
+   { "t": "Fase-terra multiplica por três", "c": "As três redes em **série** obrigam I₁ = I₂ = I₀, e a corrente da fase é a **soma das três** = **3·I₁**. É o resultado mais cobrado do assunto inteiro." },
+   { "t": "O delta é uma armadilha", "c": "Sequência zero **entra** no delta e **fica lá dentro**. Por isso Yat–Δ não transfere corrente de terra — e por isso o delta também segura a 3ª harmônica." }
+  ]
+ },
+
+ "el2m6": {
+  "centro": "Setor elétrico e tarifas",
+  "nota": "18,6% da prova de Elétrica",
+  "ramos": [
+   { "t": "Quem faz o quê", "cor": "acento", "itens": [
+     "**ANEEL** · **regula** e fiscaliza",
+     "**ONS** · **opera** o sistema",
+     "**CCEE** · **contabiliza e liquida**",
+     "**EPE** · **planeja** a expansão",
+     "**MME** · política · **CNPE** · conselho" ] },
+   { "t": "Tarifas", "cor": "ok", "itens": [
+     "**Grupo B** (BT) · **monômia** · só consumo (kWh)",
+     "**Grupo A** (AT) · **binômia** · demanda (kW) + consumo",
+     "**Azul** · demanda e consumo por posto · **Verde** · demanda única",
+     "Conta = TUSD + TE + encargos + tributos + bandeiras" ] },
+   { "t": "Fator de carga", "cor": "err", "itens": [
+     "**FC = demanda média ÷ demanda máxima**",
+     "FC **alto** ⇒ consumo distribuído ⇒ **kWh mais barato**",
+     "Melhorar FC = tirar carga da **ponta**",
+     "Não confundir com fator de **demanda** nem de **capacidade**" ] },
+   { "t": "Geração", "cor": "info", "itens": [
+     "**Ciclo simples** ≈ 35% · **combinado** ≈ 55-60%",
+     "Renovável = não vem de reserva mineral finita",
+     "Eólica e solar são **intermitentes**",
+     "**Cogeração** = elétrica + térmica útil, 70-85%" ] }
+  ],
+  "mnemonicos": [
+   { "t": "R-O-L-P", "c": "**R**egula (ANEEL) · **O**pera (ONS) · **L**iquida (CCEE) · **P**laneja (EPE). Quatro siglas, quatro verbos — a banca vive trocando um pelo outro." },
+   { "t": "Fator de carga alto é bom", "c": "FC perto de 1 significa que você usa a demanda contratada o tempo todo — o custo se dilui. FC baixo é pagar caro por picos de poucas horas." },
+   { "t": "Ciclo combinado combina duas turbinas", "c": "Gás **+** vapor: o escape quente da turbina a gás vira vapor. Por isso o salto de ~35% para ~60% de rendimento." }
+  ]
+ },
+
+ "pj1m2": {
+  "centro": "Análise de investimentos",
+  "nota": "o coração da prova de Projetos",
+  "ramos": [
+   { "t": "VPL", "cor": "acento", "itens": [
+     "VPL = **Σ FC/(1+i)^t − I₀**",
+     "**VPL > 0** aceita · **< 0** rejeita",
+     "VPL = 0 significa que rendeu **exatamente a TMA**",
+     "Entre excludentes: o de **maior VPL**" ] },
+   { "t": "TIR", "cor": "ok", "itens": [
+     "É a taxa que **zera o VPL**",
+     "Aceita se **TIR > TMA**",
+     "**VPL < 0 à TMA ⇒ TIR < TMA** (mas pode ser positiva!)",
+     "Fluxo com várias trocas de sinal ⇒ **múltiplas TIR**" ] },
+   { "t": "Payback", "cor": "err", "itens": [
+     "**Simples** · ignora o valor do dinheiro no tempo",
+     "**Descontado** · com fluxos a valor presente · sempre **maior**",
+     "Os dois **ignoram o que vem depois** do prazo",
+     "Medem **risco e liquidez**, não rentabilidade" ] },
+   { "t": "Relações de prova", "cor": "info", "itens": [
+     "**Excludentes** = aceitar um **exclui** o outro",
+     "Multiplicar o fluxo todo: **VPL ×k, TIR igual**",
+     "Vidas diferentes ⇒ comparar por **VAUE**",
+     "**Sunk cost** nunca entra na decisão" ] }
+  ],
+  "mnemonicos": [
+   { "t": "VPL responde quanto, payback responde quando", "c": "Uma frase separa os dois para sempre. E o **índice de lucratividade** responde 'quanto por real investido' — é o critério do racionamento de capital." },
+   { "t": "TIR menor que TMA não é TIR negativa", "c": "A pegadinha mais frequente da trilha. VPL negativo à TMA de 12% pode significar uma TIR de **6%** — positiva, mas insuficiente." },
+   { "t": "Escalar o fluxo não move a raiz", "c": "Multiplique tudo por 1,4: o VPL fica 1,4 vezes maior, mas o ponto onde a curva **corta o eixo** é o mesmo. Logo, **TIR e payback não mudam**." }
+  ]
+ },
+
+ "pj1m1": {
+  "centro": "Matemática financeira",
+  "nota": "base de toda a prova de Projetos",
+  "ramos": [
+   { "t": "Regimes", "cor": "acento", "itens": [
+     "**Simples** · M = C(1 + i·n)",
+     "**Composto** · M = C(1 + i)ⁿ",
+     "n < 1 período: **simples rende mais** · n > 1: **composto**",
+     "Descontar = **dividir** por (1+i)ⁿ" ] },
+   { "t": "Taxas", "cor": "ok", "itens": [
+     "**Proporcionais** · divide (regime simples)",
+     "**Equivalentes** · (1+i_a) = (1+i_m)¹²",
+     "**Nominal < efetiva** · 12% a.a. cap. mensal = 12,68% efetivos",
+     "**Real** · (1+i) = (1+r)(1+π) — não é subtração" ] },
+   { "t": "Séries", "cor": "err", "itens": [
+     "VP = PMT·[1 − (1+i)⁻ⁿ] ÷ i",
+     "VF = PMT·[(1+i)ⁿ − 1] ÷ i",
+     "Antecipada = postecipada × (1+i)",
+     "Perpetuidade = PMT ÷ i (e ÷ (i−g) com crescimento)" ] },
+   { "t": "Amortização", "cor": "info", "itens": [
+     "**SAC** · amortização constante · prestação **decrescente** · paga **menos juros**",
+     "**Price** · prestação **constante** · amortização crescente",
+     "**Americano** · só juros, principal no fim" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Descontar é dividir", "c": "Se o resultado ficou **maior** que o valor futuro, você multiplicou quando devia dividir. Valor presente é sempre menor, com taxa positiva." },
+   { "t": "SAC paga menos juros", "c": "**S**AC = **S**ai caro no começo, sai barato no fim. Prestação começa alta e cai; o total de juros é **menor** que no Price." },
+   { "t": "Juro real não é subtração", "c": "10% de juros com 5% de inflação **não** dá 5% reais, e sim **4,76%**. A fórmula é a de Fisher, e a banca cobra exatamente essa diferença." }
+  ]
+ },
+
+ "pj2m2": {
+  "centro": "Macroeconomia",
+  "nota": "cai todo ano na prova de Projetos",
+  "ramos": [
+   { "t": "PIB", "cor": "acento", "itens": [
+     "Bens e serviços **finais**, **produzidos**, **dentro das fronteiras**, no **período**",
+     "Despesa: **C + I + G + X − M**",
+     "**PIB** = território · **PNB** = nacionalidade",
+     "É **fluxo**, não estoque" ] },
+   { "t": "Moeda", "cor": "ok", "itens": [
+     "**M1** = papel-moeda + depósitos à vista",
+     "**M1 = m × base monetária**",
+     "Compulsório **maior** ⇒ multiplicador **menor**",
+     "Instrumentos: mercado aberto, compulsório, redesconto" ] },
+   { "t": "IS-LM", "cor": "err", "itens": [
+     "**IS** = mercado de bens · decrescente",
+     "**LM** = mercado monetário · crescente",
+     "**Fiscal** expansionista ⇒ Y↑ e **juro ↑** (crowding out)",
+     "**Monetária** expansionista ⇒ Y↑ e **juro ↓**" ] },
+   { "t": "Armadilha da liquidez", "cor": "info", "itens": [
+     "**LM horizontal** · juro no piso",
+     "Política **monetária perde eficácia**",
+     "Política **fiscal é plenamente eficaz**, sem crowding out" ] }
+  ],
+  "mnemonicos": [
+   { "t": "As quatro palavras do PIB", "c": "**FINAIS · PRODUZIDOS · DENTRO · NO PERÍODO**. Cada uma elimina um distrator: intermediários, bens usados, nacionalidade, estoque de riqueza." },
+   { "t": "Na armadilha, o dinheiro não funciona", "c": "Juro no chão: imprimir moeda não derruba mais nada. Sobra o **gasto público** — e ele fica ainda mais potente porque **não expulsa** investimento privado." },
+   { "t": "Fiscal sobe juro, monetária desce", "c": "É o par que resolve quase toda questão de IS-LM. Guarde pelo efeito colateral: quem gasta (fiscal) **disputa** poupança e encarece o juro." }
+  ]
+ }
+}

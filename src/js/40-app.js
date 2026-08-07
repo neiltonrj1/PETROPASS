@@ -847,6 +847,8 @@ function conteudoAba(m){
       </div>` +
       qs.map((q,i) => questaoHTML(q.prova.id, q, m, i, qs.length)).join('');
   }
+  /* a lição abre com o mapa do assunto, quando ele existe */
+  if(LEITOR.aba==='licao') return mapaHTML(m) + (m.licao || '<p>—</p>');
   return m[LEITOR.aba] || '<p>—</p>';
 }
 function montaFiguras(m){

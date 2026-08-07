@@ -154,8 +154,15 @@ function montaDados() {
     t.baseEstats = total;
   }
 
+  const arqMapas = path.join(DADOS, 'mapas.json');
+  const mapas = existe(arqMapas) ? leJson(arqMapas) : {};
+  delete mapas._leia;
+  const semMapa = [];
+  for (const v of conteudo) for (const m of v.mods) if (!mapas[m.id]) semMapa.push(m.id);
+  if (semMapa.length) avisos.push(`${Object.keys(mapas).length} módulos com mapa mental; ainda sem mapa: ${semMapa.length}`);
+
   const versao = leJson(path.join(RAIZ, 'package.json')).version;
-  return { versao, trilhas, conteudo, quizzes, provas };
+  return { versao, trilhas, conteudo, quizzes, provas, mapas };
 }
 
 /* Acha o módulo cujas palavras-chave mais aparecem na questão. */

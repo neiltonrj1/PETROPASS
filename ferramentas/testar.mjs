@@ -257,6 +257,45 @@ ok('questões de prova herdaram explicação', () => {
   if (n < 100) throw new Error(`só ${n} questões de prova têm explicação`);
 });
 
+/* ---- mapas mentais e mnemônicos ---- */
+process.stdout.write('\nmapas       ');
+ok('os mapas cobrem os assuntos mais pesados', () => {
+  const n = window.eval('Object.keys(DATA.mapas||{}).length');
+  if (n < 15) throw new Error(`só ${n} módulos têm mapa`);
+});
+ok('todas as trilhas têm mapa', () => {
+  const faltam = window.eval(`(function(){
+    var fora = [];
+    DATA.trilhas.forEach(function(t){
+      var antes = S.trilha; S.trilha = t.id;
+      if(modulosComMapa() === 0) fora.push(t.id);
+      S.trilha = antes;
+    });
+    return fora.join(',');
+  })()`);
+  if (faltam) throw new Error('trilha sem nenhum mapa: ' + faltam);
+});
+ok('o mapa aparece no topo da lição', () => {
+  window.escolheTrilha('inspecao');
+  window.abrirModulo('v1m2', 'licao');
+  if (!window.document.querySelector('.mapa-m')) throw new Error('o mapa não renderizou');
+  if (!window.document.querySelector('.mapa-ramo')) throw new Error('os ramos não apareceram');
+  if (!window.document.querySelector('.mnem-c')) throw new Error('os mnemônicos não apareceram');
+});
+ok('o mapa recolhe e volta', () => {
+  window.alternaMapa();
+  const fechado = !window.document.querySelector('.mapa-corpo');
+  window.alternaMapa();
+  const aberto = !!window.document.querySelector('.mapa-corpo');
+  if (!fechado || !aberto) throw new Error('o botão de recolher não funciona');
+});
+ok('módulo sem mapa não quebra a lição', () => {
+  const semMapa = window.eval(`modsTrilha().filter(function(m){ return !mapaDoModulo(m.id); })[0]`);
+  if (!semMapa) return;
+  window.abrirModulo(semMapa.id, 'licao');
+  if (!window.document.getElementById('page').innerHTML.trim()) throw new Error('a lição ficou vazia');
+});
+
 /* ---- painel de estudo (v5) ---- */
 process.stdout.write('\npainel      ');
 ok('meta e cronômetro', () => {

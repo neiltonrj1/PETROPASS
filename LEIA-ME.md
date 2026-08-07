@@ -19,6 +19,34 @@ prova.
 As quatro compartilham os 8 módulos de **Português e Inglês**, que são
 eliminatórios para todo mundo.
 
+## Mapa mental e mnemônicos
+
+Cada lição abre com o **mapa do assunto**: a estrutura do tema em ramos
+coloridos ligados ao conceito central, seguida dos **mnemônicos e regras de
+bolso** — as frases curtas que resolvem a questão na hora da prova.
+
+Os mapas ficam em `src/dados/mapas.json`, num formato declarativo:
+
+```json
+"v1m2": {
+  "centro": "Diagrama Fe-C",
+  "nota": "18,7% da prova de Inspeção",
+  "ramos": [
+    { "t": "As três reações", "cor": "err", "itens": ["**Eutetoide** · 727 °C · γ → α + Fe₃C"] }
+  ],
+  "mnemonicos": [
+    { "t": "Pe · Eu · Eu", "c": "**Pe**ritética 1495, **Eu**tética 1147, **Eu**tetoide 727." }
+  ]
+}
+```
+
+`**texto**` vira negrito e ` · ` vira separador visual. As cores possíveis são
+`acento`, `ok`, `err` e `info`. O desenho é HTML, não imagem: acompanha o tema
+claro/escuro, escala com o tamanho da letra e não pesa no arquivo.
+
+Foram escritos primeiro para os módulos de **maior incidência** nas provas
+anteriores. O build avisa quantos módulos ainda não têm mapa.
+
 ## Painel de estudo
 
 A tela inicial traz, para a trilha escolhida:

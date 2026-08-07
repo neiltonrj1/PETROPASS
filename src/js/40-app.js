@@ -853,7 +853,7 @@ function conteudoAba(m){
   }
   /* a lição abre com o mapa do assunto, quando ele existe */
   /* o mapa fecha o módulo: vem depois da lição, como revisão */
-  if(LEITOR.aba==='licao') return (m.licao || '<p>—</p>') + mapaHTML(m);
+  if(LEITOR.aba==='licao') return chamadaDoMapa(m) + (m.licao || '<p>—</p>') + mapaHTML(m);
   return m[LEITOR.aba] || '<p>—</p>';
 }
 function montaFiguras(m){

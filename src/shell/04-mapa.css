@@ -45,3 +45,13 @@
 @media(min-width:1200px){
   body:not(.deslogado) .mapa-ramos{grid-template-columns:repeat(2,minmax(0,1fr));}
 }
+
+/* chamada no alto da licao, apontando para o mapa que fecha o modulo */
+.mapa-chamada{display:flex;align-items:center;gap:11px;width:100%;text-align:left;cursor:pointer;
+  background:var(--card-2);border:1.5px solid var(--line-forte);border-left:4px solid var(--amarelo);
+  border-radius:var(--r-s);padding:11px 14px;margin:0 0 16px;font-family:var(--ui);color:var(--ink);}
+.mapa-chamada:hover{border-color:var(--ink2);}
+.mapa-ch-tx{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0;}
+.mapa-ch-tx b{font-size:.85rem;}
+.mapa-ch-tx span{font-size:.75rem;color:var(--ink2);}
+.mapa-ch-seta{color:var(--muted);font-size:1rem;}

@@ -18,6 +18,28 @@ function mdCurto(s){
 
 function mapaDoModulo(mid){ return (DATA.mapas || {})[mid] || null; }
 
+/* Atalho no alto da lição. O mapa fecha o módulo, lá embaixo — mas sem
+   este aviso ninguém sabe que ele existe numa lição de 800 palavras. */
+function chamadaDoMapa(mod){
+  const m = mapaDoModulo(mod.id);
+  if(!m) return '';
+  const n = (m.ramos||[]).length, k = (m.mnemonicos||[]).length;
+  return `<button class="mapa-chamada" onclick="vaiParaMapa()">
+    <span class="mapa-ic">🧠</span>
+    <span class="mapa-ch-tx">
+      <b>Mapa do assunto no fim da lição</b>
+      <span>${n} blocos e ${k} ${k===1?'mnemônico':'mnemônicos'} para fechar o módulo</span>
+    </span>
+    <span class="mapa-ch-seta">↓</span>
+  </button>`;
+}
+function vaiParaMapa(){
+  const el = document.querySelector('.mapa-m');
+  if(!el) return;
+  if(S.mapaAberto === false){ S.mapaAberto = true; save(); render(); }
+  setTimeout(()=>{ const x = document.querySelector('.mapa-m'); if(x) x.scrollIntoView({behavior:'smooth', block:'start'}); }, 40);
+}
+
 function mapaHTML(mod){
   const m = mapaDoModulo(mod.id);
   if(!m) return '';

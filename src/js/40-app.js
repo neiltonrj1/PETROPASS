@@ -909,6 +909,11 @@ function ajustaTouch(){
 }
 function podeDesenhar(e){
   if(TOOL.modo==='ler') return false;
+  /* Sobre um controle, o toque é para acionar — nunca para riscar.
+     Sem isto, a caneta escreveria por cima da alternativa em vez de
+     marcá-la, e no computador o mouse não conseguiria clicar em nada. */
+  const alvo = e.target;
+  if(alvo && alvo.closest && alvo.closest('button,a,input,textarea,select,label,.qz-ferramentas,.qz-rascunho')) return false;
   return e.pointerType==='pen' || e.pointerType==='mouse' || TOOL.dedo;
 }
 function setupInk(){
@@ -916,14 +921,22 @@ function setupInk(){
   ctx = cv.getContext('2d');
   sizeCanvas(); redraw();
   setTimeout(()=>{ sizeCanvas(); redraw(); }, 150);
-  cv.addEventListener('pointerdown', pDown);
-  cv.addEventListener('pointermove', pMove);
-  cv.addEventListener('pointerup', pUp);
-  cv.addEventListener('pointercancel', pUp);
-  cv.addEventListener('pointerleave', pUp);
+  /* O canvas cobre a página inteira. Enquanto a página era só texto isso
+     não incomodava; agora que há alternativas, dicas e rascunho dentro
+     dela, o canvas engolia todo clique. A tinta passa a ser capturada no
+     contêiner: quando é para desenhar, pDown() chama preventDefault() e o
+     clique não acontece; quando não é, o evento segue para o botão.   */
+  cv.style.pointerEvents = 'none';
+  const alvo = document.getElementById('pagewrap') || cv;
+  alvo.addEventListener('pointerdown', pDown);
+  alvo.addEventListener('pointermove', pMove);
+  alvo.addEventListener('pointerup', pUp);
+  alvo.addEventListener('pointercancel', pUp);
+  alvo.addEventListener('pointerleave', pUp);
+  cv = document.getElementById('ink');
   // a caneta é reconhecida sozinha: ao aproximar, o dedo para de rolar sob ela
-  cv.addEventListener('pointerover', e=>{ if(e.pointerType==='pen'){ penPerto=true; ajustaTouch(); mostraPenHint(); } });
-  cv.addEventListener('pointerout',  e=>{ if(e.pointerType==='pen'){ penPerto=false; ajustaTouch(); } });
+  alvo.addEventListener('pointerover', e=>{ if(e.pointerType==='pen'){ penPerto=true; ajustaTouch(); mostraPenHint(); } });
+  alvo.addEventListener('pointerout',  e=>{ if(e.pointerType==='pen'){ penPerto=false; ajustaTouch(); } });
   ajustaTouch();
 }
 let phT=null;

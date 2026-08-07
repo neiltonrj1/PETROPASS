@@ -44,6 +44,11 @@ jobs:
       - name: Conferir se o app abre sem erro
         run: node ferramentas/testar.mjs
 
+      - name: Conferir se os botões respondem ao clique
+        run: node ferramentas/testar-clique.mjs
+        env:
+          TEMP: /tmp
+
       - name: Separar o que vai ao ar
         run: |
           mkdir -p _site

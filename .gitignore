@@ -11,3 +11,6 @@ provas-pdf/
 # lixo de sistema
 .DS_Store
 Thumbs.db
+
+# material de terceiros usado apenas como fonte de consulta
+ferramentas/referencia/

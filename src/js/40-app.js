@@ -4,7 +4,8 @@ const DIAS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
    curWeek e chk passam a ser por trilha, porque cada prova tem o seu
    cronograma; o que já estava salvo é migrado em migraEstado().        */
 const DEF = {v:6, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
-             trilha:null, tempo:{}, rev:{}, hist:{}, dicas:{}, rascunho:{}, risca:{},
+             trilha:null, tempo:{}, rev:{}, hist:{}, dicas:{}, dicasFechadas:{}, rascunho:{}, risca:{},
+             tentativas:{}, rodada:{},
              cfg:{tema:'claro', fs:16, dataProva:'', metaMin:60}, ult:null};
 
 let sb=null, USER=null, S=JSON.parse(JSON.stringify(DEF)), CFG=null, OFFLINE=false, SUJO=false;
@@ -76,7 +77,10 @@ function migraEstado(){
     }
   }
   /* campos que podem faltar em qualquer backup mais antigo */
-  if(!S.risca    || typeof S.risca   !=='object') S.risca={};
+  if(!S.risca         || typeof S.risca        !=='object') S.risca={};
+  if(!S.dicasFechadas || typeof S.dicasFechadas!=='object') S.dicasFechadas={};
+  if(!S.tentativas    || typeof S.tentativas   !=='object') S.tentativas={};
+  if(!S.rodada        || typeof S.rodada       !=='object') S.rodada={};
   if(!S.tempo    || typeof S.tempo   !=='object') S.tempo={};
   if(!S.rev      || typeof S.rev     !=='object') S.rev={};
   if(!S.hist     || typeof S.hist    !=='object') S.hist={};
@@ -848,7 +852,8 @@ function conteudoAba(m){
       qs.map((q,i) => questaoHTML(q.prova.id, q, m, i, qs.length)).join('');
   }
   /* a lição abre com o mapa do assunto, quando ele existe */
-  if(LEITOR.aba==='licao') return mapaHTML(m) + (m.licao || '<p>—</p>');
+  /* o mapa fecha o módulo: vem depois da lição, como revisão */
+  if(LEITOR.aba==='licao') return (m.licao || '<p>—</p>') + mapaHTML(m);
   return m[LEITOR.aba] || '<p>—</p>';
 }
 function montaFiguras(m){

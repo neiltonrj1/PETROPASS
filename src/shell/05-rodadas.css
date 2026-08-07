@@ -1,0 +1,43 @@
+/* ================================================================
+   RODADAS, HISTÓRICO DE TENTATIVAS E DICAS RECOLHÍVEIS
+   ================================================================ */
+
+/* recolher as dicas */
+.qz-dfecha{display:block;width:100%;text-align:left;background:transparent;border:none;cursor:pointer;
+  font:600 .74rem/1 var(--ui);color:var(--ink2);padding:0 0 8px;font-family:var(--ui);}
+.qz-dfecha:hover{color:var(--ink);}
+.qz-dicas.recolhida{padding-bottom:8px;}
+.qz-dicas.recolhida .qz-dfecha{padding-bottom:0;}
+
+/* etiqueta de quantas vezes já errou a questão */
+.qz-hist{font:600 10.5px/1 var(--mono);color:var(--err);background:var(--errbg);
+  padding:4px 8px;border-radius:999px;}
+
+/* linha do tempo das tentativas, dentro da correção */
+.qz-linha{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:10px;
+  padding-top:9px;border-top:1px solid var(--line);}
+.qz-lt{font:600 10px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);}
+.qz-bola{width:20px;height:20px;border-radius:50%;font:700 10px/20px var(--mono);text-align:center;
+  border:1.5px solid;}
+.qz-bola.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok);}
+.qz-bola.nao{background:var(--errbg);border-color:var(--err);color:var(--err);}
+
+/* placar das rodadas anteriores */
+.qz-rod{font:600 10px/1 var(--mono);background:var(--chip);color:var(--ink2);
+  padding:3px 8px;border-radius:999px;margin-left:6px;}
+.qz-rodadas{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px;}
+.qz-rbadge{font:500 11px/1 var(--mono);color:var(--ink2);background:var(--chip);
+  border:1px solid var(--line);border-radius:999px;padding:5px 10px;}
+.qz-rbadge b{color:var(--ink);}
+.qz-rbadge.atual{border-color:var(--ink2);}
+
+/* fechamento do módulo */
+.qz-fim{border:1.5px dashed var(--line-forte);border-radius:var(--r-m);
+  padding:15px 16px;margin-top:6px;background:var(--card-2);}
+.qz-fim.completo{border-style:solid;border-color:var(--ok);background:var(--okbg);}
+.qz-fim-t{font-weight:700;font-size:.92rem;color:var(--ink);}
+.qz-fim.completo .qz-fim-t{color:var(--ok);}
+.qz-fim-sub{font:600 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink2);margin:14px 0 8px;}
+.qz-piores{display:flex;flex-direction:column;gap:7px;}
+.qz-piores .pitem{background:var(--card);}

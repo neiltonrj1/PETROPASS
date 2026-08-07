@@ -1,0 +1,1446 @@
+
+
+===== página 1 =====
+Aula 04
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+05 de Janeiro de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+ENSAIOS MECÂNICOS NÃO DESTRUTIVOS ...................................................................................................... 3
+Ensaio visual .................................................................................................................................................... 4
+Ensaios radiográficos .................................................................................................................................... 11
+Ensaios eletromagnéticos – partículas magnéticas ........................................................................................ 13
+Ensaios elétricos ............................................................................................................................................ 15
+Ensaio sônico ................................................................................................................................................. 17
+Ensaio mecânico ............................................................................................................................................ 19
+Considerações finais ......................................................................................................................................... 21
+Questões com comentários ................................................................................................................................ 22
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+APRESENTAÇÃO DA AULA
+Estrategista, nesta parte da nossa aula de Ciência dos Materiais, veremos os grandes tópicos sobre
+Ensaios Mecânicos. Essa é uma aula bem curta, pois esse tema não costuma ser tão explorado em provas,
+Coruja!
+Nessa seara, entrarei nos ensaios mecânicos não destrutivos. Tivemos um introdução sobre o
+assunto na nossa primeira aula quando falamos de algumas propriedades mecânicas como dureza,
+resistência à tração e compressão, tenacidade, resiliência e ductilidade.
+Todavia, nessa aula, veremos mais ensaios e maiores detalhes sobre de natureza não destrutiva,
+como: visuais, líquido penetrante, partícula magnética, radiográfico, ultrassom e correntes parasitas.
+Como de praxe, não deixe de seguir minhas redes sociais a fim de ter acesso a conteúdo exclusivo
+sobre questões comentadas e dicas pertinentes:
+profcanelas t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+ENSAIOS MECÂNICOS NÃO DESTRUTIVOS
+Coruja, os ensaios não destrutivos (END) são aqueles que “não estragam” a peça submetida ao
+ensaio. Dessa forma, não corre o dano que pode impossibilitar seu uso no futuro. Conforme aponta a
+literatura especializa1, pode-se inferir que são aqueles ensaios que permitem determinar as características
+dos materiais, sem prejudicar sua utilização futura.
+No âmbito dos concursos públicos, Estrategista, esses tipos de ensaios não são tão cobrados quanto
+os de natureza destrutiva que vimos anteriormente. Assim, não há necessidade de passarmos pelas normas
+específicas que regem cada ensaio, já que não fazem parte do seu edital (seria perder seu tempo que
+regrinhas de procedimentos que não caem). Veremos os principais conceitos abordados pela literatura
+dominante para cada tipo de END.
+Nessa seara de estudo, o que você precisa logo de cara saber é que temos um total de 6 principais
+tipos de ensaios de natureza não destrutiva:
+Estrategista, antes de vermos cada tipo de ensaio não destrutivo, eu quero que você
+memorize a sequência de etapas dos ENDs que já foi alvo de cobrança:
+1
+a
+Aplicação 2
+a
+Modificação 3
+a
+Detecção 4
+a
+Conversão 5
+a
+Interpretação
+1 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Ensaios não destrutivos
+Visual Radiográfico Magnético Elétrico Sônico Mecânico
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+Ensaio visual
+Os métodos que pertencem aos tipos de ensaios visuais, Coruja, como o próprio nome dessa
+categoria já sugere, consiste na inspeção e verificação visual, seja a olho nu, seja pela utilização de
+instrumentos óticos ou microscópios.
+Assim, ensaios visuais são aqueles nos quais podemos encontrar as descontinuidades por meio da
+avaliação visual ou por meio de medidas. Nesse sentido, trincas superficiais são defeitos que podem ser
+evidenciados pelo ensaio não destrutivo visual, seja a olho nu, seja com auxílio de algum instrumento, como
+um microscópio.
+Outro defeito muito comum que também pode ser evidenciado por esses tipos de ensaios são as
+mordeduras de solda. Também chamadas de undercut (do inglês), é um defeito superficial da solda que
+ocorre quando o chanfro entre as peças de trabalho e o cordão de solda possuem um desnível no metal de
+base, por conta de o metal de base fundir próximo ao pé da solda, fazendo com que essa área fique mais
+fraca.
+Outros dois defeitos que geram dúvidas nos alunos são: ranhuras profundas e falta de penetração
+de solda. Todavia, saiba que são defeitos superficiais e também facilmente evidenciados pelos ensaios
+visuais. As ranhuras existem quando se usina uma peça e a falta de penetração de solda ocorre quando a
+solda não é prolongada em sua totalidade da junta.
+Normalmente, Coruja, se aplica o ensaio visual em soldas, justamente pare se verificar defeitos como:
+fissuras, porosidade, crateras que não preenchidas por material. Além disso, podemos citar como exemplos
+de métodos visuais, dois tipos principais que são comumente explorados em provas:
+O ensaio de líquido penetrante (é comum a doutrina e a banca chamar de “ensaio” além de
+“método”), consiste na aplicação de um líquido específico (com propriedades determinadas que veremos a
+seguir) que permite detectar por um critério visual as descontinuidades que vão se estender até a superfície
+do material da peça.
+Principais
+métodos de
+ensaios visuais
+Líquido penetrante
+Pressão e vazamento
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+Nesse tipo de método de ensaio visual de natureza não destrutiva, a superfície do material tem que
+ser preparada e limpa antes da sua execução. Dessa forma, depois de preparada, a superfície recebe o líquido
+penetrante por determinado tempo.
+Em um segundo momento, Coruja, temos a remoção do líquido penetrante e a aplicação de um
+revelador. De acordo com a doutrina
+2
+, esse revelador pode, inclusive, ser um fluido sólido. Dessa forma, esse
+revelador drena o líquido penetrante nas descontinuidades que ele penetrou e delineia todas elas,
+evidenciando sua natureza, dimensão e localização.
+Se liga, Coruja: o tipo mais comum de líquido penetrante é o querosene! Além disso,
+como revelador mais utilizado é formado por calcário friável, seja na forma de pó seco,
+seja misturado com álcool!
+Uma particularidade de que você deve levar para sua prova é que o ensaio de líquido penetrante
+somente é aplicado em materiais sólidos e não porosos!
+Além disso, de acordo com a norma N-1596 da Petrobrás3, não devem ser utilizados para a
+preparação da superfície jato de areia, granalha, pistola de agulhas e qualquer outro meio que possa
+obstruir as descontinuidades superficiais, pois invalidaria totalmente o ensaio, “tchierto”?
+Dessa forma, Coruja, a limpeza consiste em uma tapa fundamental e seu objetivo é retirar resíduos
+contaminantes, como tintas, camadas protetoras, areia, graxas, óleos, verniz, terra, óxidos (ferrugem), por
+exemplo.
+Conforme a limpeza é finalizada, aplica-se o líquido penetrante com um pincel, ou imersão da peça.
+Depois disso, de acordo com a citada norma, o líquido deve ficar entre 10 e 60 minutos na faixa de
+temperatura de 10 a 52
+o
+C. Depois dessa etapa, se remove o excesso e se aplica a revelação que comentei.
+A finalização do ensaio consiste na inspeção e limpeza final. Na inspeção, tem-se a utilização de luz
+branca natural ou artificial. Já para líquidos penetrantes de natureza fluorescentes, essa inspeção é
+executada com luz negra. Assim, a limpeza final tem sua importância para evitar que fique resíduos que
+possam comprometer um posterior ensaio.
+2 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+3 Adaptado da norma N-1596 da Petrobrás. <http://ftp.demec.ufpr.br/disciplinas/TM177/Prof.Okimoto/N-1596%5B1%5D.pdf> Acesso em:24/07/2020.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+Antes de vermos as principais vantagens e desvantagens do ensaio, vejamos algumas
+propriedades/princípios que um bom líquido penetrante deve ter, normalmente descrita no mercado
+específico:
+• Viscosidade: relacionada a velocidade com que o penetrante adentra as descontinuidades;
+• Tensão superficial: uma baixa tensão superficial garante maior viabilidade de penetração;
+• Molhabilidade: permite que não se forme gotas ou porções, melhorando seu espalhamento;
+• Volatilidade: não deve ter alta volatilidade a fim do ensaio ser executado em tempo certo;
+• Ponto de fulgor: deve ter alto ponto de fulgor para se evitar a formação de gases que possa
+inflamá-lo na presença de ignição;
+• Facilidade de dissolução: o bom penetrante deve ser capaz de dissolver o corante ou produto
+fluorescente;
+• Penetrabilidade: capacidade de ele entrar nas descontinuidades finas;
+• Capilaridade: relacionada a tensão superficial entre fluído e material da peça ensaiada. Por esse
+princípio, a penetração do fluído nas trincas do material da peça ensaiada ocorre mesmo contra
+a gravidade, sendo possível pela forças intermoleculares existentes entre as moléculas do fluído
+com as do material da peça, sendo maior conforme maior for a tensão superficial. Assim, tem
+relação com a melhor penetrabilidade e molhabilidade;
+• Sensibilidade: capacidade de determinar as descontinuidades. Envolve sua facilidade de ser
+absorvido pelo revelador, de ser removido da superfície e não do defeito, por exemplo.
+Como mencionei antes, as vantagens do ensaio de líquido penetrante são:
+• Simplicidade de método;
+• Utilização de fotografia do defeito com facilidade de avaliação;
+• Sem limitação de tamanho e forma da peça;
+• Capaz de revelar descontinuidades muito finas na ordem de 0,001 mm.
+Todavia, algumas desvantagens (limitações) podem ser evidenciadas:
+• Somente é possível detectar descontinuidade abertas na superfície da peça;
+• Não é aplicável em peças porosas ou materiais de natureza absorvente;
+• A temperatura recomendada é entre 10 e 50
+o
+C;
+• A depender do material da peça (se passou por solda ou utilizado no transporte de alimentos) a
+limpeza da peça deve ser mais rigorosa, bem como se for de geometria complexa inviabilizar a
+execução.
+Além desses pontos é bom você saber, Estrategista, algumas classificações dos líquidos penetrantes.
+Teremos dois tipos: quanto a sua visibilidade e seu processo de remoção do excesso.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+Os fluorescentes são aqueles que mostraram as descontinuidades na presença de luz negra, ao passo
+que os visíveis serão aqueles que possuem, normalmente, cor avermelhada e contrastam bem com o fundo
+de cor branca do revelador.
+Os removíveis por solvente, Coruja, são os líquidos penetrantes que podem ser removidos por pano
+seco, papel-toalha ou outro material absorvente. A sobra de líquido penetrante é removida com um solvente
+específico.
+Os pós-emulsificáveis são os insolúveis em água. Dessa forma, necessita de um emulsificador
+aplicado em separado para remover o excesso que se combina com o líquido e passa a ser removida pela
+água (como se fosse um detergente que retira a gordura daquela costela de porco no bafo que fazemos nos
+feriados, Coruja... hummmm, rsrs).
+Os laváveis em água são os líquidos penetrantes que podem ser removidas somente pela adição de
+água (sem ser em jatos para não remover das descontinuidades).
+Por fim, quanto aos reveladores, temos alguns tipos. Esses tipos devem combinar as características
+típicas, Estrategista, que eles devem ter, como: deve ser absorventes, promover o contraste, ter granulação
+fina, aplicação fácil, deve ser umedecido facilmente pelo penetrante, deve aderir à superfície, não ser
+tóxico e nem atacar a superfície de exame. Os principais tipos são:
+• Pó seco: normalmente, constituídos de talco e sílica, muito usados em sistemas estacionários
+e automáticos;
+• Revelador aquoso: misturado com água;
+• Revelador úmido não aquoso: talco misturado com solventes de nafta, álcool ou a base de
+cloro;
+Visibilidade
+Fluorescentes
+Visíveis coloridos
+Remoção do
+execesso
+Removíveis por solvente
+Pós-emulsificáveis
+Laváveis em água
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+• Revelador em película: é formado por uma película adesiva plástica contendo um revelador
+que faz o líquido penetrante emergir para a superfície. Conforme a película seca, são formadas
+as descontinuidades.
+Coruja, quanto ao método de pressão e vazamento, não há mistério: o defeito (descontinuidade) são
+evidenciados pelo vazamento de um gás ou de um líquido por ele.
+Por fim, Coruja, é válido conhecermos alguns materiais contaminantes e soluções respectivas para
+sua eliminação! Perceba que a grande maioria usa solução alcalina! Assim, se você for chutar por não
+lembrar, atenção que a “alcalina” é a palavra “mágica”! ;).
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+4
+4 Adaptado de essel (SENAI).
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+(CEBRASPE/Mecânica)
+Ensaios destrutivos e não-destrutivos são extremamente importantes para a compreensão do
+comportamento mecânico e da condição dos materiais utilizados em engenharia. Acerca desse assunto,
+julgue o seguinte item.
+O ensaio de líquido penetrante para detecção de trincas superficiais é aplicável a qualquer tipo de material.
+( ) Certo. ( ) Errado.
+Comentário:
+Os Ensaios Não Destrutivos (END) que utilizam líquido penetrante, visam identificar certos tipos de poros,
+trincas ou fissuras e até mesmo outras descontinuidades no material, como imperfeições de diferentes tipos
+e tamanhos.
+Todavia, a depender do material, o ensaio pode ser inviável, como, por exemplo, em materiais porosos,
+pois ocorrerá, nesse tipo de material, a absorção do líquido colocado sobre a superfícies a fim de delinear as
+imperfeições a serem examinadas. Dessa forma, todo o resultado a ser analisado quanto às imperfeições,
+trincas ou fissuras será comprometido.
+Por conta disso, a assertiva está errada.
+Gabarito: errado.
+(Marinha/Mecânica)
+Para que a imagem da descontinuidade fique visível deve-se contrastar o líquido penetrante com:
+a) líquido incolor.
+b) líquido penetrante mais forte.
+c) água com soda cáustica.
+d) revelador.
+e) óleo.
+Comentário:
+Tranquilo, hein, Estrategista? Perceba pelo enunciado exige nosso conhecimento sobre o ensaio de natureza
+não destrutiva (END) denominado ensaio por Líquido Penetrante. Nesse ensaio, vimos que para revelar a
+descontinuidade por meio do contraste com o líquido penetrante que está nessa descontinuidade (que pode
+ser um defeito da região da peça) precisamos colocar o revelador!
+Gabarito: "d".
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+Ensaios radiográficos
+Nesses tipos de ensaios não destrutivos, Coruja, são usadas as radiações emitidas de ondas
+eletromagnéticas curtas. Podemos incluir os raios X, beta e gama (γ).
+De acordo com a literatura específica, é possível encontrar diferentes densidades no material, sendo
+viável encontrar áreas de porosidade elevada, bem como as fissuras não facilmente detectáveis.
+Estrategista, assim como em um exame de raio X é possível verificar se você quebrou ou trincou
+alguma parte do seu osso, por meio desse tipo de ensaio é possível verificar as descontinuidades internas do
+material.
+Por conta dessa lógica, também é utilizado um filme que fica atrás da peça a ser analisada. Essa peça,
+que por sua vez é posicionada entre o filme e os raios emitidos, absorve, nas regiões sem defeitos, boa parte
+dos raios que a atravessa. Por outro lado, as descontinuidades absorvem menos, revelando uma região
+escura no filme, ao passo que as áreas sem defeitos revelam regiões mais claras.
+Normalmente, Coruja, em peças cujas espessuras são maiores, são utilizados os raios gama por conta
+do seu menor comprimento de onda que os raios X.
+Estrategista, saiba que os ensaios radiográficos são amplamente utilizados em soldas e
+peças fundidas! Por isso, se vier alguma pergunta questionando quais são as maiores
+aplicações, saiba que são essas duas!
+De acordo com a doutrina5, os principais defeitos encontrados nos processos de soldagem por esse
+tipo de ensaio de natureza não destrutiva são:
+• Cavidades de gás e bolhas de gás normalmente evidenciadas por áreas de caráter circular e bem
+definidas;
+• Porosidades por conta de contração do material são evidenciadas por regiões escuras, irregulares
+e fibrosas, sem uma delineação clara;
+• Fissuras de largura variável evidenciadas em regiões escurecidas;
+5 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+• Inclusões de areia que são evidenciadas por manchas cinzentas e pretas, com textura granular
+de caráter não uniforme e não delineadas;
+• Inclusões em peças de aço fundido são evidenciadas por áreas escuras também, porém com
+limites definidos.
+Nessa mesma linha de pensamento, Coruja, em soldas de aço os defeitos mais comuns são: inclusões
+de escória, porosidades, fissuras e fusão incompleta. Como é possível perceber, pela menor densidade da
+região, esses defeitos são revelados em regiões mais escuras no filme radiográfico.
+Outro ponto interessante que você deve conhecer, Estrategista, é sobre o instrumento chamado de
+penetrômetro. Ele nada mais é que um instrumento utilizado nos ensaios radiográficos cuja função é
+medir/controlar a sensibilidade radiográfica e indicar a qualidade da imagem que será evidenciada no filme.
+Nesse sentido, podem ser de diversos fios de diferentes diâmetros que ficam sobre a peça a fim de
+medir essa sensibilidade, como também podem ser utilizadas lâminas de filmes com espessuras
+especificadas. Outra denominação para o penetrômetro e que pode aparecer na sua prova é Indicador de
+Qualidade de Imagem (IQI).
+Os IQI ou penetrômetros mais comuns são constituídos de uma placa fina de metal (cerca de 2% da
+espessura mínima – menor espessura - da peça a ser ensaiada) com três furos com diâmetros específicos.
+Assim, para avaliar a qualidade do ensaio, o critério mais rigoroso, considera a imagem do menor furo desse
+instrumento no filme radiográfico.
+Outro tipo que pode também ser empregado é aquele relacionado com fios, correspondente a 5 fios
+de material parecido ao da peça com diferentes diâmetros. O procedimento é muito parecido com o outro,
+sendo colocado ao lado da peça, voltado para a fonte emissora dos raios. (Maiores detalhes, Coruja, foge ao
+nosso objetivo. Para usa prova, é o suficiente!) ;).
+Dessa forma, é possível, através desse equipamento medir a qualidade da radiação que está
+associada ao quanto de energia o feixe de raios X possui. Assim, quando se tem um aumento da voltagem
+do aparelho, tem-se um aumento do feixe de radiação e, consequentemente, um aumento da qualidade
+dessa radiação.
+Além desse aspecto energético, temos alguns outros parâmetros radiográficos e geométricos que
+estão relacionados a qualidade das imagens e influenciam na sua melhor definição. De acordo com a
+literatura
+6
+, temos:
+• Diâmetro da fonte emissora de radiação deve ser o menor possível;
+6 Adaptado de Andreucci, R. A Radiologia Industrial. Abende. 2003.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+• Fonte emissora deve estar posicionada o mais afastado possível do material da peça;
+• Filme radiográfico deve estar mais próximo do material;
+• Feixe de radiação deve estar perpendicular em relação ao filme;
+• Plano do material e o plano do filme devem ser paralelos.
+Se liga, Coruja! O penetrômetro mede/controla a sensibilidade radiográfica do material
+da peça submetida ao ensaio e não do filme que terá as imagens formadas!
+Ensaios eletromagnéticos – partículas magnéticas
+A natureza desse tipo de ensaio não destrutivo, Estrategista, está na distorção que certas
+descontinuidades (como bolhas de gás, fissuras e inclusões) fazem no campo magnético induzido nesse
+ensaio. O ensaio mais famoso recebe uma subdenominação de partículas magnéticas. Dessa forma,
+partículas magnéticas são aplicadas (seja em forma de pó seco, seja na forma em suspensão em um líquido
+específico) sobre o material da peça que fora magnetizado. Assim, as partículas magnéticas serão atraídas e
+serão aglomeradas na região do defeitos que por sua vez atua como um polo magnético, revelando a região
+que contém a descontinuidade.
+Quando se utiliza pó seco, Coruja, as partículas são ferromagnéticas divididas de forma a ficarem
+bem finas, com alta permeabilidade. Normalmente, são coloridas para evidenciar o maior contraste na peça
+e são comumente aplicas em superfícies mais grosseiras, pois em superfícies lisas, há menor tendência de
+serem mantidas. No caso líquido, partículas vermelhas e pretas de óxido de ferro, são mantidas em
+suspensão em água ou em algum tipo de destilado leve de petróleo. Dessa forma, ou se coloca por aspersão
+sobre a superfície da peça ou a peça é submergida para que o ensaio seja realizado.
+Além disso, temos alguns métodos de magnetização da peça a ser ensaiada para atrair as partículas.
+Apesar de eu achar bem fora do comum esse tipo de cobrança em concurso, uma questão da Cebraspe
+chegou a explorar esse conceito de Eletromagnetismo. Assim, quero que você saiba que temos três principais
+métodos que dependem da geometria e dimensões da amostra para serem escolhidos:
+• Magnetização longitudinal: para esse tipo, a peça a ser ensaiada é envolvida por bobinas,
+eletroímas ou solenóides. Assim, conforme uma corrente elétrica é produzida e passa pela
+bobina, surge um campo magnético induzido longitudinalmente a ela e paralela ao longo do
+elemento a ser inspecionado. Assim, o sentido de fluxo do campo magnético ocorrerá em função
+do sentido da corrente na bobina e a intensidade do campo é dependente das dimensões do
+comprimento e diâmetro da peça ensaiada. Por fim, a capacidade de detecção desta técnica é
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+limitada a descontinuidades perpendiculares ou angulares em referência ao maior eixo da peça.
+Veja a figura a seguir que pode ser explorada em prova:
+7
+• Magnetização circular: consiste no efeito que é gerado pela corrente elétrica que atravessa
+qualquer condutor linear e cria um campo magnético circular em torno do condutor. Ela pode
+ser produzida através de indução ou passagem da corrente elétrica através do elemento.
+Normalmente, as linhas de força que geram o campo magnético ficam em torno da peça. Esse
+tipo de magnetização é usado quando as descontinuidades são paralelas a direção de fluxo da
+corrente, logo, usado para descontinuidades longitudinais. Veja na figura acima que a trinca
+longitudinal é vista na magnetização circular e não na magnetização longitudinal;
+• Magnetização multidirecional: também chamada de combinada, é o tipo que vai juntar as duas
+vantagens com mais de um campo magnético gerado, verificando descontinuidades orientadas
+transversalmente e longitudinalmente na peça. É também chamada de vetorial essa técnica e o
+ganho de tempo e de produtividade é expressivo, com menos inspeções necessárias.
+Como vantagens8 desse tipo de ensaio, Coruja, podemos mencionar:
+7 Adaptado de GARCIA, A; DOS SANTOS, C.A; SPIM, J.A. Ensaios dos Materiais. LTC, 2ª Edição. Rio de Janeiro, 2012.
+8 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+Como principais desvantagens, podemos citar:
+Ensaios elétricos
+Coruja, os ensaios não destrutivos elétricos consistem em métodos aplicados em materiais que são
+capazes de conduzir corrente elétrica, independentemente de serem magnéticos ou não. Um dos ensaios é
+que pode ser enquadrado dentro desse tipo é o denominado correntes parasitas.
+Normalmente, são aplicados para detectar defeitos em tubos e trilhos. A execução desse tipo de
+ensaio é simples, Coruja: dois tubos (um de referência e sem defeito, idêntico ao segundo tubo no qual se
+quer verificar qualquer defeito) são circundados com duas bobinas energizadas por corrente alternada (uma
+para cada tubo, também idênticas).
+Além disso, outras duas bobinas idênticas de ensaio também vão envolver os tubos, caso não haja
+defeitos no tubo a ser analisado, o equilíbrio elétrico é atingido. Caso contrário, o indicador irá revelar que
+o circuito do ensaio foi rompido pelo defeito. A figura9 a seguir ilustra esse ensaio:
+9 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Vantagens dos
+ensaios
+eletromagnéticos
+Eficiência em encontrar descontinuidades e subsuperficiais na superfície
+da peça
+Técnica flexível e alta portabilidade dos equipamentos
+Custo (mão-de-obra e equipamentos) baixo em relação a outros ENDs
+Desvantagens dos
+ensaios
+eletromagnéticos
+Necessidade de peça ser ferromagnética
+Necessidade de desmagnetizar a peça (em alguns casos)
+Peças complexas impactam na amperagem e intensidade do campo
+magnético
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+Conforme aponta a doutrina, Coruja, quando usado esse ensaio em tubos, ele pode detectar defeitos
+de 3 mm de comprimento que se estendam até a metade da parede do tubo de aço (baixo carbono), com
+diâmetros de 15 mm e espessura de parede de 1,0 mm, por exemplo.
+Já em trilhos, o aparelho do tipo Sperry pode ser colocado em um carro que irá se locomover por
+cima dos trilhos. A velocidade do carro é cerda de 10 km/h. Por conta de uma corrente elétrica de baixa
+voltagem e milhares de ampères produzida por um gerador de corrente contínua que é alimentada por meio
+de escovas, montadas entre as rodas do carro, a detecção pode ser feita.
+Dessa forma, surge um campo magnético em torno do trilho, o qual é determinado por bobinas
+detectoras acopladas no carro entre as escovas mencionadas e logo acima do trilho. Essas correntes que são
+induzidas nas bobinas são opostas e ficam em equilíbrio. Novamente, se aparecer algum defeito no trilho,
+esse equilíbrio é rompido, alterando a corrente gerada. Dessa forma, são evidenciados os defeitos nessas
+peças.
+(FCC/Mecânica)
+Tubos instalados em condensadores deverão ser inspecionados. Para essa inspeção recomenda-se o método
+de ensaio:
+a) radiográfico.
+b) ultrassônico.
+c) com líquidos penetrantes.
+d) por termografia.
+e) por correntes parasitas.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+Comentário:
+Moleza! Como acabamos de ver, o ensaio mais adequado para verificar falhas em tubos e trilhos é o ensaio
+por correntes parasitas, tipo de ensaio elétrico. Outro ensaio também poderia ser usado, como o
+ultrassônico, caso a questão especificasse o não funcionamento do condensador. Todavia, o ensaios mais
+recomendado é o da letra “e”.
+Gabarito: "e".
+Ensaio sônico
+Coruja, a primeira informação a se guardar aqui é que esses tipos de ENDs são capazes de detectar
+defeitos muito pequenos (minúsculos) em uma gama enorme e de diferentes tipos de materiais (metálicos
+ferrosos e não ferrosos, plásticos, cerâmicos, entre outros).
+Estrategista, no âmbito dos tipos de ENDs sônicos se encontra o ensaio de ultrassom (comum na
+cobrança de concursos públicos). Dessa forma, conforme nos aponta a literatura específica
+10
+, é por meio das
+ondas ou vibrações ultrassônicas que os defeitos são evidenciados. Nesse sentido, a reflexão dessas ondas
+é determinada por meio eletrônico que medirá os tempos relativos para que elas voltem a origem.
+Esses tempos serão diferentes para diferentes configurações o material. A produção dessas ondas,
+Coruja, é feita pelo o efeito “piezoelétrico” que consiste na deformação mecânica de certos cristais (como o
+quartzo) quando colocados em um campo elétrico. Observe a figura esquema a seguir:
+Coruja, os cristais piezelétricos podem ser considerados como sensores eletromecânicos
+por conta do fenômeno da piezoeletricidade (piezo, tem origem grega e significa
+pressão). Dessa forma, consiste em materiais que a partir da aplicação de uma energia
+mecânica (pressão exercida) a transforma em eletricidade (ou vice e versa). Com a
+modificação da polarização de certos materiais cristalinos baseado na movimentação
+dentro da célula unitária formada pelos átomos, gera mudança no campo elétrico do
+material, ocasionando diferença de potencial e a leitura do sensor. Pegou o “bizu”?
+10 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+11
+O funcionamento é bem simples: o cristal de quartzo colocado sobre a peça a ser ensaiada, recebe
+uma corrente alternada que produz oscilações mecânicas no cristal e que são transmitidas à peça que, por
+sua vez, resulta em ondas ultrassônicas.
+Essas ondas ultrassônicas vão atravessar o material da peça. Normalmente, se emprega um óleo
+específico entre a peça e o instrumento para melhorar a transmissão delas. Quando as ondas retornam ao
+cristal, elas fazem com que ele vibre e essas vibrações vão resultar em impulsos elétricos detectados e
+registados por um osciloscópio. Por conta disso, é necessário que o fluido acoplante fique acoplado de forma
+eficiente, pois barreiras podem interferir na leitura do aparelho, bolhas de ar, por exemplo.
+Além disso, Coruja, saiba que esse tipo de ensaio é comumente utilizado em peças forjadas de grande
+dimensão a fim de se encontrar descontinuidades internas antes de serem usinadas. Além disso, Coruja, o
+ensaio de ultrassom é aplicado, também, em eixos de locomotivas, trilhos, chapas e tubos. Uma grande
+vantagem do ensaio é sua facilidade em encontrar descontinuidades muito pequena e internas, como
+trincas, sendo essa uma característica que em outros ensaios (como os radiográficos) é de difícil detecção
+(grave isso, pois já foi cobrado em prova).
+Por fim, o tamanho do defeito está intimamente relacionado com o comprimento de onda emitido.
+Lembre-se do colegial que a velocidade de uma onda é igual ao produto do seu comprimento e sua
+frequência. Assim:
+11 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+V = λ.f;
+• λ = comprimento, em “m”;
+• V = velocidade da onda, m/s;
+• F = frequência, em Hz;
+Logo, temos que, para uma dada velocidade que é dependente do modo de vibração e do material, a
+frequência é que está vinculado a fonte emissora e, assim, conforme se aumenta o comprimento, para
+manter a igualdade, a frequência diminui, e vice-versa. Assim, o que eu quero que você tenha em mente é
+que quanto MENOR for o comprimento de onda, MAIOR será a frequência e MENOR o tamanho da
+descontinuidade a ser detectada.
+Ensaio mecânico
+Estrategista, nesse tipo de ensaio, temos uma divergência doutrinaria. Apesar de eu acreditar que a
+banca não entraria nesse tipo de discussão é válido termos mente que para certos autores, como Chiaverini12
+o ensaio de dureza tem natureza não destrutiva, sendo classificado com um tipo de ensaio mecânico.
+Todavia, para outros autores, como Souza
+13
+, o ensaio de dureza é classificado como um ensaio de
+dureza destrutivo, conforme vimos anteriormente quando o estudamos.
+Por conta desse cenário, aconselho você a levar as duas possibilidades para sua prova. De fato, a
+depender do tipo de ensaio de dureza, a gente viu que ele pode não estragar a peça, sendo feito no produto
+acabado. Todavia, em outras situações, ele pode danificar a peça submetida ao ensaio.
+Assim, tenha atenção para essas possibilidades. Nesse sentido, seguindo a linha doutrinária
+dominante, temos a possibilidade de que os ensaios de dureza podem ser classificados como ENDs.
+(Marinha/Mecânica)
+12 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+13 Adaptado SOUZA, S. A.; Ensaios Mecânicos de Materiais Metálicos: fundamentos teóricos e práticos. Editora: Edgard Blücher Ltda, 5a edição. São Paulo, 1982.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 21 =====
+20
+Analise a figura abaixo:
+Qual o tipo de ensaio utilizado no material representado acima está sob exame?
+a) Raio X.
+b) Ultra sônicas.
+c) Partículas magnéticas.
+d) Líquidos penetrantes.
+e) Dureza.
+Comentário:
+Coruja, questão fácil que nos cobra como funciona o mecanismo do ensaio de natureza não destrutiva
+denominado ensaio de Ultrassom (ou, como o(a) examinador(a) preferiu chamar, ultra sônicas). Perceba que
+ele até utilizou uma figura característica utilizada na literatura específica que mostra o comportamento das
+ondas enviadas que evidenciam a descontinuidade (defeito, nesse caso) pelo seu retorno ao cristal de
+quartzo que envia e recebe as ondas.
+Gabarito: "b".
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+CONSIDERAÇÕES FINAIS
+Estrategista, a nossa aula chegou ao fim. Vamos fazer algumas questões, agora, a fim de fixarmos o
+conteúdo da aula de hoje! Bora lá! Foco no sucesso e na aprovação, hein!? Lembre-se, dica de mestre:
+resolva as questões comentadas amanhã! Foco na sua revisão de 24 horas. :)
+Trouxe exercícios das últimas provas para diversos cargos, além da banca do seu concurso! Com
+isso, seu preparo será de acordo com o que já fora explorado por bancas renomadas, como CEBRASPE,
+Instituto AOCP e IBFC, Cesgranrio, Marinha, etc! Assim, você arrebentará na sua prova!
+Aproveito para deixar, novamente, minhas redes sociais! Possuo uma conta no Instagram® na qual
+compartilho questões comentadas sobre diferentes assuntos e temas de Engenharia Mecânica de tempos
+em tempos.
+Além disso, possuo um canal no Telegram®! Por meio desse canal, eu compartilho outros tipos de
+informações pertinentes para você como dicas de estudos, esquemas e mapas mentais de matérias e
+oportunidades de concurso em Engenharia Mecânica.
+Depois, dê uma olhada! ;)
+prof.canelas; t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+QUESTÕES COM COMENTÁRIOS
+FUMARC
+1. (FUMARC/CEMIG – Engenharia Mecânica – 2018)
+Os seguintes métodos de ensaios não destrutivos destacam-se na inspeção de peças semiacabadas ou
+acabadas:
+a) ultrassom; capilaridade; eletromagnéticos; térmicos; tensão superficial.
+b) visual; magnéticos; radiografia com raios γ (gama); elétricos e térmicos.
+c) visual; sonoro; radiografia com raios γ (gama); eletrolítico e térmicos.
+d) visual; tensão superficial; piezoelétrico; elétricos e térmicos.
+Comentário:
+Questão tranquila que procura gerar certa confusão ao incluir alguns termos que pertencem ao conceitos
+de alguns Ensaios de Natureza Não Destrutiva (END), mas que no fundo quer saber a nomenclatura
+correta dos principais ensaios END. Vejamos:
+Letra “a”: errada. Oras, veja que “capilaridade” não é um ensaios e, sim, uma propriedade do liquido
+penetrante do ensaio de Líquidos Penetrantes (tipo de ensaio visual);
+Letra “b”: correta. Todos os ensaios elencados pela alternativa são ensaios de natureza não destrutiva;
+Letra “c”: errada. Veja que eletrolítico não é uma denominação usual de um ensaio de natureza não
+destrutiva;
+Letra “d”: errada. Novamente, “piezoelétrico” não é uma denominação de ensaio de natureza não
+destrutiva e, sim, uma propriedade dos cristais piezelétricos do ensaio de ultrassom.
+Gabarito: "b".
+FCC
+2. (FCC/SABESP – Oficial - Mecânica – 2018)
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+A equipe de manutenção de uma indústria metalúrgica está desconfiada que um compressor de ar, em
+manutenção do motor e bomba, apresenta risco de ruptura no tanque reservatório de pressurização,
+devido a possível corrosão interna. Por este motivo, deverá passar por ensaio, de modo que se detecte a
+possível avaria. Qual dos ensaios abaixo é o mais indicado para validar o risco de ruptura em questão?
+a) Inspeção visual meticulosa.
+b) Tração
+c) Compressão
+d) Ultrassom
+e) Líquido penetrante.
+Comentário:
+Opa! Questão tranquila, Coruja! Vejamos: temos uma situação em que o risco de ruptura do tanque é
+devido a uma possível corrosão interna. Oras, para termos acesso a esse tipo de falha, não adiante uma
+inspeção visual externa e nem utilizar líquido penetrante (mesmo ele adentrando o material, não chega a
+profundidades muito grandes e a falha precisa ser vista pela superfície). Ensaios de compressão e de
+tração não fazem o menor sentido, primeiro por conta da sua execução e segundo, pelo óbvio – são de
+natureza destrutiva.
+Por conta disso, a resposta correta é o ensaio de ultrassom, no qual, com vimos em aula, a reflexão das
+ondas é determinada por meio eletrônico que medirá os tempos relativos para que elas voltem a origem,
+evidenciando os defeitos (a ruptura) internos.
+Gabarito: "d".
+CEBRASPE
+3. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+Entre os ensaios não destrutivos, que permitem a caracterização de materiais, detecção de
+descontinuidades e avaliação da integridade de peças, além do controle de qualidade, sem que haja
+alteração permanente de suas propriedades físicas, químicas, mecânicas ou dimensionais, ou seja, sem
+interferir nem prejudicar seu uso futuro ou processamento posterior, estão incluídos os ensaios visuais e
+dimensionais, a radiografia com raios gama (gamagrafia) e os ensaios por correntes parasitas.
+( ) Certo ( ) Errado.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+Opa! Questão perfeita, Coruja! Conforme vimos, o enunciado define o que são os ensaios de natureza
+não destrutiva, bem como traz exemplos corretos de alguns ensaios. Lembre-se:
+Essa é uma questão interessante para você incluir no seu ciclo de revisão (apesar de fácil e óbvia), pois
+detona o entendimento recente da banca Cebraspe sobre a definição dessa categoria de ensaios.
+Gabarito: correta.
+4. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+Os ensaios por inspeção visual são técnicas relativamente simples que consistem na observação visual do
+produto ou peça sem a utilização de qualquer equipamento e são usados para detectar não somente
+falhas na superfície ou distorções na estrutura, mas também o grau de acabamento de uma peça.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Aí, não! Veja que a assertiva possui um erro bem sutil! Ela começa certa afirmando que consiste na
+observação visual do produto ou peça. Todavia, erra ao afirmar que não há utilização de qualquer
+instrumento. Primeiro, pelo fato de termos o emprego de diferentes equipamentos e produtos (no líquido
+penetrantes, temos o próprio líquido e o revelador). Além disso, logo na definição geral desses tipos de
+ensaios não destrutivos (visuais), há a possibilidade de ser feito a olho nu ou pelo uso de microscópios.
+Logo, assertiva errada. As demais considerações estão em linha com a literatura.
+Gabarito: errada.
+5. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+Ensaios não destrutivos
+Visual Radiográfico Magnético Elétrico Sônico Mecânico
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+Para a obtenção de imagens bem definidas em um ensaio radiográfico por raios X, é necessário que o
+diâmetro da fonte emissora de radiação seja o menor possível e que a fonte emissora e o filme
+radiográfico estejam posicionados o mais próximo possível do material objeto do ensaio.
+( ) Certo ( ) Errado.
+Comentário:
+Não necessariamente! Na realidade, as imagens bem definidas de um ensaios radiográfico por raios X
+estão associadas com a qualidade da radiação emitida. Essa qualidade aumenta, conforme se aumenta a
+voltagem da fonte de energia que irá aumentar a energia do feixe de elétrons emitidos. Dessa forma, a
+qualidade da imagem será superior. Além desse principal aspecto, temos alguns outros parâmetros
+radiográficos e geométricos que estão relacionadas a qualidade das imagens e influenciam na sua
+definição. De acordo com a literatura, temos:
+• Diâmetro da fonte emissora de radiação deve ser o menor possível;
+• Fonte emissora deve estar posicionada o mais afastado possível do material a ensaiar;
+• Filme radiográfico deve estar mais próximo do material;
+• Feixe de radiação deve se aproximar o mais possível, da perpendicularidade em relação ao filme;
+• Plano do material e o plano do filme devem ser paralelos.
+Veja que a fonte emissora deve estar mais afastada possível e não mais próximas como o filme
+radiográfico.
+Gabarito: errada.
+6. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+O ensaio por líquido penetrante com a utilização de penetrante fluorescente é indicado para a detecção
+de trincas superficiais ou descontinuidades internas em materiais sólidos de alta porosidade.
+( ) Certo ( ) Errado.
+Comentário:
+Mais uma assertiva errada! Veja que não há o que se falar, independentemente do tipo de líquido
+penetrante (seja fluorescente, seja não fluorescente) – LP não é indicado para materiais de alta
+porosidade. Lembre-se sempre que esse ensaio não é recomendado para esses tipos de materiais.
+Gabarito: errada.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 27 =====
+26
+7. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+Em se tratando de ensaios por partículas magnéticas, a magnetização circular pode ser realizada
+colocando-se a peça a ser ensaiada dentro de uma bobina do tipo solenoide, enquanto a magnetização
+longitudinal pode ser obtida pela passagem de uma corrente elétrica através da peça.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Os conceitos estão certos! Todavia, a assertiva trocou os conceitos. Na realidade, a magnetização
+circular é realizada pela passagem de uma corrente elétrica através da peça que será ensaiada, ao passo
+que a magnetização longitudinal é aquela na qual se coloca a peça a ser ensaiada dentro de uma bobina
+solenoide.
+Gabarito: errada.
+8. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+A respeito dos ensaios não destrutivos, julgue os itens que se seguem.
+Nos métodos de ensaio por ultrassom — método de transparência e método de reflexão —, quanto maior
+a frequência de vibração, menor será o tamanho do defeito possível de ser detectado.
+( ) Certo ( ) Errado.
+Comentário:
+Até que enfim, uma correta! De fato, para uma mesma velocidade de propagação da onda, Coruja, temos
+que se a frequência aumenta (número de oscilações que temos), o comprimento de onda é menor.
+Lembre-se que a equação que rege o fenômeno é dado por:
+V = λ.f;
+Logo, maiores frequências estão associadas com menores ondas e, por conseguinte, menor será o defeito
+a ser detectado por essa onda que atravessa o material.
+Gabarito: correta.
+9. (CEBRASPE/PC-PE Adaptada – 2016)
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+A respeito dos ensaios não destrutivos, julgue o item que segue.
+Ensaios não destrutivos que utilizem a técnica de raios X são comumente empregados para a
+determinação da composição química dos constituintes do material.
+( ) Certo ( ) Errado.
+Comentário:
+Errada, Coruja! Aqui, o(a) examinador(a) está querendo te ferra, Coruja! Ele tende a te iludir com a palavra
+“raio-x”. Nada a ver, pois esse ensaio de natureza não destrutiva é utilizado para avaliar as
+descontinuidades do material e não composição química do material que chega a nível molecular e
+atômico;
+Gabarito: errada.
+10. (CEBRASPE/PC-PE - Adaptada – 2016)
+A respeito dos ensaios não destrutivos, julgue o item que segue.
+Líquidos penetrantes é um tipo de ensaio que identifica trincas e rachaduras internas no material testado.
+( ) Certo ( ) Errado.
+Comentário:
+Incorreta, também! O ensaio de líquidos penetrantes é utilizado para averiguar as descontinuidades
+(trincas) na superfície e não internas. Elas podem até ter certa profundidade, mas com conexão com a
+superfície. É um ensaio de natureza não destrutiva, como vimos, inclusive.
+Gabarito: errada.
+11. (CEBRASPE/FUB – Técnico Industrial - Mecânica – 2016)
+A respeito dos métodos de ensaios não destrutivos aplicados a materiais metálicos, julgue o item seguinte.
+Nos testes de ultrassom, é necessário inserir líquido acoplante entre o cristal e a superfície da peça; sem
+esse líquido, há possibilidade de o ar existente entre o cristal e a superfície da peça impedir a transmissão
+da vibração ultrassônica.
+( ) Certo ( ) Errado.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+Nos testes de ultrassom, é necessário ter o fluído acoplante que fica acoplado no aparelho, podendo ser
+óleos de diferentes especificações (como SAE 15W40, a depender do ensaio). Esse fluído fica acoplado
+entre a superfície e o cabeçote, possibilitando que a leitura seja efetuada de forma eficiente e sem
+interferências (como do ar). Assim, as descontinuidades presente na superfície do material reflete parte
+da energia sônica e, assim, muda o sinal a ser recebido pelo receptor.
+Gabarito: correta.
+12. (CEBRASPE/IEMA-ES – Agente Técnico – 2007)
+Ensaios não-destrutivos são comumente utilizados para verificar a condição de peças. Acerca desse tipo
+de ensaio, julgue o seguinte item.
+Nos ensaios de detecção de trincas com líquido penetrante, não há limitações quanto ao tamanho é a
+forma das peças a serem ensaiadas nem quanto ao tipo de material, desde que as trincas sejam
+superficiais.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Apesar de eu achar estranho a expressão “não há limitações”, pois é muito totalizante, o tipo de
+material não pode ser qualquer um. Oras, vimos que a literatura específica deixa claro que materiais
+porosos não são adequados para serem inspecionados por essa técnica, já que absorver o líquido
+penetrante e dificultam o processo de leitura. Isso é pacífico na doutrina dominante. Todavia, a CEBRASPE
+considerou a assertiva correta o que, na minha opinião, não ter o menor sentido. Inclusive porque em
+outra ocasião, a mesma banca considerou o raciocínio contrário. Digo isso, porque de fato temos parte
+da doutrina que coloca que “pode ser usado em qualquer tipo de material, porém a superfície do material
+não pode ser porosa”. Logo, é incoerente, pois materiais porosos, não serviriam para a técnica. Por conta
+disso, acho difícil a CEBRASPE/CEBRASPE entrar nessa discussão novamente.
+Gabarito: correta, com ressalvas.
+13. (CEBRASPE/IEMA-ES – Agente Técnico – 2007)
+Ensaios não-destrutivos são comumente utilizados para verificar a condição de peças. Acerca desse tipo
+de ensaio, julgue o seguinte item.
+O ensaio de líquido penetrante para detecção de trincas superficiais é aplicável a qualquer tipo de
+material.
+( ) Certo ( ) Errado.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+Comentário:
+Veja que aqui, temos o gabarito considerado “errado”. Oras, completa incoerência. Todavia, memorize,
+Coruja: falou em material poroso na assertiva, ela está errada. Disso, a gente não tem dúvidas, pois é
+expresso na doutrina.
+Gabarito: errada.
+14. (CEBRASPE/IEMA-ES – Agente Técnico – 2007)
+Ensaios não-destrutivos são comumente utilizados para verificar a condição de peças. Acerca desse tipo
+de ensaio, julgue o seguinte item.
+Os ensaios com ultrassom são bastante utilizados para detectar descontinuidades em todo o volume da
+peça, porém só são aplicáveis a materiais metálicos.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Errada! Vimos que os ensaios de ultrassom não são aplicados somente para materiais metálicos!
+Essa é uma limitação que não existe nesse tipo de ensaio. A única ressalva que é comumente apresentada
+na doutrina é quanto ao fato dos ensaios de ultrassom, de maneira geral, quando aplicados em materiais
+não ferrosos são de difícil exame/detecção e requerem procedimentos especiais.
+Gabarito: errada.
+15. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos – 2004)
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+.
+A chapa de aço soldada, mostrada na figura I, deve ser ensaiada por raios X para verificar a existência de
+trincas no cordão. Tem-se disponível um equipamento com capacidade de 100 kV e 15 mA, cujas curvas
+de exposição estão mostradas na figura II. A solda é de topo e o cordão possui um reforço de 2,5 mm.
+Julgue o item a seguir, acerca das condições em que deve ser realizado esse ensaio.
+O ensaio deve ser feito com voltagem de 100 kV.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Questão tranquila que é mais de interpretação de texto/figura do que sobre o ensaio de raios-X
+propriamente dito. Veja que pela figura II (que está uma bos**, eu sei, mas foi o máximo de resolução
+que consegui colocar rsrs), temos que para a faixa de espessura do metal de base considerado nessa
+junta, (10 mm) que é possível ver na figura I, inclusive, como um reforço de solda (excesso) de 2,5 mm,
+deve ser aplicada uma voltagem de 100 kV. Desse modo, a assertiva está correta.
+Gabarito: correta.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+Cesgranrio
+16. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Dois ensaios que permitem observar trincas situadas no interior de peças metálicas são:
+a) ensaio visual e ensaio de líquidos penetrantes.
+b) ensaio de líquidos penetrantes e ensaio de partículas magnéticas.
+c) ensaio de partículas magnéticas e ensaio radiográfico (raios X).
+d) ensaio radiográfico (raios X) e ensaio de ultrassom.
+e) ensaio de ultrassom e ensaio de líquidos penetrantes.
+Comentário:
+Conforme vimos, Coruja, os ensaios de natureza não destrutiva (ENDs) são aqueles nos quais não há
+dano no material da peça a ser ensaiada.
+Quando estudamos os principais tipos de ensaios, vimos que no ensaio radiográfico (que pode utilizar
+ondas de raio X, por exemplo) é possível verificar descontinuidades internas, justamente pela mudança
+de tonalidade (mais escuras) nas regiões nas quais estão os defeitos internos no filme bombardeado pelos
+raios. Dessa forma, a peça a ser ensaiada fica entre o equipamento emissor dos raios X e o filme que
+revelará as regiões conformes e defeituosas.
+Além disso, nos ensaios de ultrassom, também é possível verificar as descontinuidades internas do
+material, pelo princípio de funcionamento das ondas ultrassônicas que são interrompidas e registradas
+suas oscilações no instrumento com o cristal de quartzo (comumente utilizado).
+Os demais ensaios (líquido penetrante, visuais – o próprio ensaio de líquido penetrante é considerado,
+pela doutrina majoritária, como um ensaio visual, inclusive – e partículas magnéticas são normalmente
+empregados para fissuras, defeitos ou descontinuidades superficiais nos materiais e não internas.
+Gabarito: "d".
+17. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Considerando as mesmas dimensões para as peças metálicas, para qual material deve ser utilizado o
+menor valor de frequência mínima na inspeção por ultrassons?
+a) Alumínio trefilado.
+b) Bronze.
+c) Cobre.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+d) Ferro fundido.
+e) Prata.
+Comentário:
+Conforme estudamos, Coruja, temos que os intervalos de frequência do ensaio de ultrassom irá depender
+de alguns fatores da peça a ser ensaiada. Dentre os fatores, temos: as dimensões da peça (como a
+espessura) e o material dela.
+Nessa seara, de acordo com a literatura especializada, é comum se utilizar a frequência de 4 mega-hertz
+(MHz) de frequência em ângulos de 60 a 70
+o
+quando a espessura do material de uma solda for de 15 mm
+e de 45 a 60
+o
+para espessuras acima de 15 mm, por exemplo.
+No que tange ao material, temos que levar em conta o comprimento de onda (λ) e a velocidade de
+propagação (v) das ondas mecânicas (ondas de ultrassom) em cada tipo de material. Assim, saberemos
+identificar a frequência mínima (f) considerando apenas o material (sem a sua espessura):
+v = λ.f;
+Assim, sabemos que o comprimento de onda pode ser calculado pela relação entre a velocidade de
+propagação e frequência da fonte emissora de onda. O que você precisa saber para matar a questão,
+Coruja, é que a velocidade de propagação só depende do meio (sendo uma constante). De acordo com a
+tabela abaixo para alguns materiais, temos:
+Material Velocidade de propagação de ondas longitudinais (m/s)
+Ar 330
+Cobre 4700
+Ferro fundido 3500 a 5600
+Prata 3600
+Alumínio 6300
+Perceba, Coruja, que dentre os materiais citados, perceba que a menor velocidade mínima é do Ferro
+Fundido! Portanto, como enunciado nos diz para desconsiderar a espessura, temos que nesse meio,
+teremos o menor valor de velocidade e menor frequência.
+Além disso, é defendido na literatura específica que para ensaios ultrassônicos em peças fundidas se
+utilize frequências baixas, de 0,5 a 2 Mhz.
+Gabarito: "d".
+18. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+Qual a função de um penetrômetro numa inspeção radiográfica?
+a) Indicar a qualidade da imagem radiográfica.
+b) Indicar o nível de profundidade de penetração dos raios X.
+c) Indicar a espessura da peça inspecionada.
+d) Indicar o grau de penetração dos raios X.
+e) Indicar o grau de sensibilidade do filme radiográfico.
+Comentário:
+De acordo com o que estudamos, Coruja, o penetrômetro é um instrumento utilizado nos ensaios de
+natureza não destrutiva dos tipos radiográficos cuja função é medir/controlar a sensibilidade radiográfica
+e indicar a qualidade da imagem que será evidenciada no filme. Nesse sentido, correspondem a diversos
+fios de diferentes diâmetros que ficam sobre a peça a fim de medir essa sensibilidade, como também
+podem ser utilizadas lâminas de filmes com espessuras especificadas, a depender da norma (ASME ou
+DIN, por exemplo). Outra denominação para o penetrômetro é Indicador de Qualidade de Imagem (IQI).
+Letra “a”: Bingo! Conforme vimos, é o utilizado para medir/controlar o grau de sensibilidade radiográfica
+e indicar a qualidade da imagem!
+Letra “b”: O nível de profundidade de penetração dos raios X depende da intensidade de radiação
+transmitida e incidente, bem como dos tipos de raio (x, gama, etc) utilizados pelo equipamento.
+Alternativa certa;
+Letra “c”: essa não é a função do penetrômetro. Normalmente, eles são acoplados junto a peça a ser
+ensaiada e eles possuem uma espessura de 2% da espessura mínima da peça. A alternativa tenta
+confundir esse aspecto com a função real do penetrômetro. Alternativa errada;
+Letra “d”: O nível de profundidade de penetração dos raios X depende da intensidade de radiação
+transmitida e incidente, fatores de correção. Alternativa errada;
+Letra “e”: Coruja, aqui poderia surgir uma dúvida na sua cabeça! Mas, atenção, na realidade, o grau de
+sensibilidade do filme não se confunde com o grau de sensibilidade que a peça terá no decorrer do
+ensaio. O grau de sensibilidade do filme está de acordo com seus processos de fabricação. O grau de
+sensibilidade da peça no ensaio é o que o penetrômetro pode medir/controlar.
+Gabarito: "a".
+19. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+O ensaio por líquidos penetrantes baseia-se em qual princípio físico?
+a) Empuxo.
+b) Princípio de Huygens.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+c) Efeito Doppler.
+d) Capilaridade.
+e) Hidrodinâmica.
+Comentário:
+De todos os princípios elencados em cada alternativa, vimos em aula que o único que tem relação com o
+ensaio de líquido penetrante (tipo de ensaio visual não destrutivo) é o da capilaridade. Vamos relembrar
+do seu conceito? A capilaridade, Coruja, nada mais é que o princípio que determinada a penetração do
+fluído nas trincas do material da peça ensaiada, mesmo contra a gravidade, sendo estabelecido pela
+forças intermoleculares existentes entre as moléculas do fluído com as do material da peça. Quanto maior
+a tensão superficial gerada pelas forças intermoleculares, maior capilaridade do fluído.
+Gabarito: "d".
+20. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+O ensaio visual permite observar alguns tipos de defeitos de fabricação de materiais metálicos, porém
+não permite detectar
+a) trincas superficiais.
+b) mordeduras de solda.
+c) dupla laminação.
+d) ranhuras profundas de usinagem.
+e) falta de penetração na solda.
+Comentário:
+Coruja, conforme vimos em aula, os ensaios visuais são aqueles nos quais podemos encontrar as
+descontinuidades por meio da avaliação visual ou por meio de medidas. Nessa seara, vejamos cada
+alternativa para identificarmos qual é a incorreta:
+Letra “a”: perfeito! As trincas superficiais são defeitos que podem ser evidenciados pelo ensaio não
+destrutivo visual, seja a olho nu, seja com auxílio de algum instrumento, como um microscópio.
+Alternativa correta.
+Letra “b”: também chamadas de undercut (do inglês), as mordeduras de solda é um defeito superficial da
+solda que ocorre quando o chanfro entre as peças de trabalho e o cordão de solda possuem um desnível
+no metal de base, por conta de o metal de base fundir próximo ao pé da solda, fazendo com que essa área
+fique mais fraca. Esse defeito pode ocorrer por corrente e velocidade de soldagem elevadas, ângulo
+incorreto de soldagem, entre outros. Por ser superficial, também é possível ser detectado pelo ensaio.
+Alternativa correta;
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+Letra “c”: durante a laminação, uma descontinuidade que pode ocorrer é a descontinuidade
+bidimensional paralela à superfície da chapa, devido a porosidade ou rechupe do lingote que não se
+caldearam durante a laminação, conforme aponta a norma N-1738 da Petrobrás. Em outras palavras, é
+uma descontinuidade que pode ocorrer pela conformação do material na laminação à frio devido a
+carência de plasticidade do material. Coruja, a dupla laminação fica dentro do material, às vezes, no meio
+da espessura da peça. Por isso, eis o nosso gabarito! Não é possível detectar pelo ensaio visual e, sim, por
+ultrassom! Alternativa errada;
+Letra “d”: Estrategista, por conta da palavra “profundas” você pode ter se confundido, certo? Na
+realidade, as ranhuras profundas por usinagem não, necessariamente, são defeitos e ocorrem em
+processos de fresamento. Além disso, podem ser detectadas por ensaios visuais, pois podem ir da
+superfície com certo grau de profundidade. Por exemplo, por líquido penetrante (tipo de ensaio visual,
+por parte da doutrina) e partícula magnética, elas podem ser evidenciadas. Alternativa correta;
+Letra “e”: a falta de penetração é também uma descontinuidade superficial, Coruja! Na realidade, ela
+ocorre quando a solda não é prolongada em sua totalidade da junta. Dessa forma, pode ser evidenciada
+pelo ensaio visual. Alternativa correta.
+Gabarito: "c".
+21. (Cesgranrio/Petrobrás Distribuidora – Profissional Júnior – 2015)
+Que tipo de Ensaio Não Destrutivo busca detectar descontinuidades superficiais e que sejam abertas na
+superfície, tais como trincas, poros, dobras e pode ser aplicado a todos os materiais sólidos e que não
+sejam porosos ou com superfície muito grosseira?
+a) Raio-X.
+b) Ultrassom.
+c) Gamagrafia.
+d) Líquidos penetrantes.
+e) Partículas magnéticas.
+Comentário:
+Estrategista, o gabarito dado pela banca para essa questão foi a letra “e”. Todavia, eu não concordo com
+esse gabarito, pois o correto deveria ser a letra “d”. O ensaio de líquido penetrante é que atende às
+características descritas no enunciado, principalmente por não poder ser utilizado em materiais sólidos
+porosos ou com superfície muito grosseira. Dessa forma, de acordo com a literatura específica, a condição
+imposta pelo enunciado se refere ao ensaio de líquido penetrante (LP).
+Inclusive, o ensaio de partículas magnéticas, como vimos em aula, pode ser aplicado pela via seca (pó
+seco) o que implica em uma condição possível para materiais porosos.
+Gabarito: "e" – professor: “d”.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====
+36
+22. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior - Mecânica – 2014)
+Ensaios não destrutivos são técnicas aplicadas a materiais, equipamentos e estruturas com o objetivo de
+avaliar propriedades, desempenho e integridade sem comprometer suas futuras aplicações. A sequência
+das etapas associadas com ensaios não destrutivos inicia-se com aplicação e prossegue com
+a) modificação, detecção, conversão e interpretação.
+b) modificação, detecção, interpretação e conversão.
+c) detecção, modificação, conversão e interpretação.
+d) detecção, modificação, interpretação e conversão.
+e) detecção, interpretação, modificação e conversão.
+Comentário:
+Estrategista, conforme eu te alertei, memorize a sequência de etapas dos ENDs:
+1-) Aplicação 2-) Modificação 3-) Detecção 4-) Conversão 5-) Interpretação
+Gabarito: "a".
+23. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior - Mecânica – 2014)
+Apesar de todos os modernos métodos de ensaios não destrutivos, o ensaio visual continua sendo muito
+utilizado, devido à sua simplicidade.
+No ensaio visual, destaca-se que a(o)
+a) lupa é recomendada para a inspeção interna de tubos de pequeno diâmetro.
+b) qualificação do inspetor não influencia no processo da inspeção.
+c) precisão do paquímetro não influencia na determinação exata da espessura de chapas.
+d) sucesso da inspeção depende da posição do defeito.
+e) acabamento da superfície não influencia na inspeção.
+Comentário:
+Coruja, essa é uma questão que pelo “bom senso” é possível “matar” e correr para o “abraço”. Vejamos:
+Letra “a”: de fato, para grande maioria de ensaios visuais, a lupa facilita muito a inspeção. Todavia, dizer
+que a lupa é recomendada para uma inspeção interna de tubos com diâmetros pequenos é um exagero e
+definitivamente não é a melhor opção de resposta, já que a “pequeno” é um critério muito subjetivo e
+impreciso (ou seja, o quão pequeno é?). Além disso, a literatura específica menciona a utilização de tubos-
+cópios para a inspeção em tubos de diâmetros muito pequeno. Alternativa errada;
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 38 =====
+37
+Letra “b”: pelo contrário! É claro que o inspetor tem de ser qualificado para saber identificar as
+descontinuidades no material a depender do produto, sendo uma característica defendida pela literatura
+específica ter um treinamento adequado que faça com que eles sejam especializados para cada tipo de
+produto. Alternativa errada;
+Letra “c”: novamente, errada. O paquímetro é um instrumento de medição e que precisa estar
+devidamente calibrado para que sua precisão não seja comprometida e as medidas sejam o mais
+verossímil com a realidade. Alternativa errada;
+Letra “d”: bingo! De fato, o sucessão da inspeção terá impacto direto pela posição do defeito,
+influenciando como a medida pode ser feita. Dessa forma, defeitos em tubos, por exemplo, necessitam
+de equipamentos específicos (como mencionei na alternativa “a”). Alternativa correta;
+Letra “e”: errada. O acabamento da superfície tem influência direta na inspeção. Por exemplo,
+acabamentos derivados de processos de fabricação (retifica, laminação, fundição, forjamento, etc)
+podem, inclusive, mascarar e esconder descontinuidades, necessitando a peça sofrer preparo antes de
+serem examinadas, além de terem suas superfícies limpas para remover resíduos (graxa, óleo, poeira,
+oxidação, etc). Alternativa errada.
+Gabarito: "d".
+24. (Cesgranrio/CIA Petroquímica de Pernambuco – Engenheiro de Equipamentos Pleno – 2010)
+O ensaio por líquidos penetrantes impõe ao penetrante algumas características no sentido de poder
+cumprir da melhor forma possível sua função de penetrar por trincas, poros, dobras, etc. Sobre as
+propriedades desses líquidos, pode-se afirmar que
+I - um líquido penetrante, como regra geral, não deve ser volátil, porém, considerando que, para os
+derivados de petróleo, quanto maior a volatibilidade, maior a viscosidade, os líquidos penetrantes são
+mediamente voláteis;
+II - a viscosidade é importante na velocidade com que o penetrante entra num defeito, sendo que
+penetrantes mais viscosos demoram mais a penetrar nas descontinuidades e penetrantes pouco viscosos
+têm a tendência de não permanecerem muito tempo sobre a superfície de uma peça, o que pode
+ocasionar tempo insuficiente para penetração;
+III - a molhabilidade é a propriedade que um líquido tem de se espalhar por toda a superfície, não se
+juntando em porções ou gotas, sendo que quanto melhor a molhabilidade, pior o penetrante.
+Está correto o que se afirma em
+a) I, apenas.
+b) I e II, apenas.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 39 =====
+38
+c) I e III, apenas.
+d) II, III, apenas.
+e) I, II e III.
+Comentário:
+Questão tranquila, que nos traz o posicionamento majoritário da doutrina sobre o ensaio de líquidos
+penetrantes (LP) – ensaio de natureza não destrutiva que estudamos. Vejamos:
+I: sabemos que o líquido penetrante possui média volatidade, apesar de, em regra, não deveriam ser
+voláteis. Alternativa correta;
+II: assertiva define, conforme vimos, uma das propriedades do líquido penetrante de maneira acertada
+com a literatura – definição perfeita de viscosidade e seus efeitos no LP do ensaio. Alternativa correta;
+III: a assertiva começa certo e define corretamente a propriedade da molhabilidade. Todavia, erra ao
+dizer que quanto melhor a molhabilidade, pior será o líquido penetrante, pois é justamente o contrário.
+Assertiva errada.
+Gabarito: "b".
+25. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Pleno – Mecânica - 2005)
+Avaliações do tipo não destrutivas são ensaios que, uma vez realizados sobre produtos, equipamentos,
+componentes e estruturas não provocam alterações físicas, químicas ou microestruturais nos mesmos
+e, portanto, não interferem na continuidade de operações ou futuras aplicações. Qual é a principal
+característica do ensaio de ultrassom?
+a) Está baseado no fenômeno de reflexão da energia sonora pelas descontinuidades existentes no
+material.
+b) Detecta descontinuidades associadas com perda de espessura do material.
+c) É indicado somente para detecção de defeitos volumétricos.
+d) Não se aplica a materiais não metálicos.
+e) Não é influenciado pela orientação da descontinuidade.
+Comentário:
+Questão direta ao ponto, certo, Coruja? Sem nenhuma dificuldade! De fato, conforme exposto pela letra
+“a”, é o ensaio de natureza não destrutiva (END) baseado na reflexão dessas ondas que é determinada
+por meio eletrônico responsável pela medição dos tempos relativos para que elas voltem a origem.
+Esses tempos serão diferentes para diferentes configurações do material. A produção dessas ondas,
+Coruja, é feita pelo o efeito “piezoelétrico” que consiste na deformação mecânica de certos cristais (como
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 40 =====
+39
+o quartzo) quando colocados em um campo elétrico. Assim, tempos diferentes serão “lidos” para as
+descontinuidades, torando-as evidentes.
+Gabarito: "a".
+26. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Pleno – Mecânica - 2005)
+Ensaios não destrutivos são adotados com o objetivo de se assegurar confiabilidade ao produto,
+equipamento, componente ou estrutura. Podem ser utilizados em diferentes etapas do projeto, desde a
+qualificação de soldadores até o controle de qualidade do produto, bem como monitorar sua vida em
+serviço. Qual afirmação representa vantagem do ensaio de partículas magnéticas sobre líquidos
+penetrantes?
+a) É mais rápido.
+b) Pode detectar descontinuidades superficiais.
+c) É mais indicado para detecção de defeitos volumétricos.
+d) É mais indicado para detecção de trincas de fadiga em juntas soldadas.
+e) Pode detectar descontinuidades associadas com diferentes fases no seu interior.
+Comentário:
+Questão que compara os ensaios de partículas magnéticas e líquidos penetrantes, ambos de natureza não
+destrutivas. Apesar do ensaio de partículas magnéticas ser um ensaio rápido, não podemos dizer que um
+é mais rápido que o outro, pois isso vai depender de outros fatores (formato da peça, preparação da
+superfície, etc - letra “a”, errada). Ambos podem detectar descontinuidades superficiais (letra b, errada).
+Defeitos volumétricos são defeitos macroscópicos tridimensionais (fissuras, fendas, inclusões) que, ao
+meu ver, podem ser examinados por ambos ensaios (letra “c”, errada).
+Além disso, não necessariamente é mais indicado para detectar trincas de fadiga em juntas soldadas, já
+que elas podem ser detectadas pelo ensaio de LP (letra “d”, errada). Todavia, de fato, o ensaio de
+partículas magnéticas tem como vantagens detectar descontinuidades internas, independente das fases
+do material, já que a leitura da fuga do campo magnético irá ocorrer da mesma forma, sendo uma
+vantagem clara e evidente em relação ao LP.
+Gabarito: "e".
+Marinha
+27. (Marinha - Técnico de Praças da Armada - Mecânica - 2020)
+Em relação aos ensaios não destrutivos, coloque V (verdadeiro) ou F (falso) nas afirmativas a seguir e
+assinale a opção que apresenta a sequência correta.
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 41 =====
+40
+( ) No ensaio por líquido penetrante, tanto as descontinuidades abertas a superfície quanto as
+preenchidas, cobertas ou obstruídas por material estranho podem ser detectadas com a aplicação desse
+método.
+( ) O ensaio por partículas magnéticas é utilizado na localização de descontinuidades superficiais e
+subsuperficiais em materiais ferromagnéticos.
+( ) Uma das vantagens do ensaio por ultrassom é que esse método possui alta sensibilidade na detecção
+de pequenas descontinuidades internas especialmente trincas, muitas vezes de difícil detecção por
+radiografia.
+( ) A radiologia industrial desempenha um papel importante e de certa forma insuperável na
+documentação da qualidade do produto inspecionado, pois a imagem projetada do filme radiográfico
+representa a “fotografia” externa da peça, o que nenhum outro ensaio não destrutivo é capaz de mostrar
+na área industrial.
+( ) O ensaio por partículas magnéticas apresenta a vantagem de poder ser aplicado a alta e baixa
+temperatura.
+a) (V) (F) (V) (F) (V).
+b) (F) (V) (F) (V) (V).
+c) (V) (V) (V) (F) (F).
+d) (F) (F) (F) (V) (V).
+e) (F) (V) (V) (F) (V).
+Comentário:
+Olha aí, Coruja! Questãozinha “tranquila” sobre os detalhes dos Ensaios de Natureza Não Destrutiva
+(END)! Excelente questão de revisão! Vejamos cada assertiva, de cima para baixo:
+F – errada! Oras, vimos que no ensaio de Líquido Penetrantes a descontinuidade tem que ser aberta até
+a superfície da peça e sem obstruções ou sujeiras;
+V – certo! De fato, como vimos, o ensaio de Partículas Magnéticas é eficiente tanto para descontinuidade
+superficiais quanto subsuperficiais (claro, até certo nível de profundidade);
+V – correto! Como vimos, de fato, o Ultrassom é uma técnica mais aguçada para trincas internas menores
+que são de difícil detecção por meio de outros ensaios, como o Radiográfico;
+F – errada! Assertiva absurda! Quer dizer, então, que o ensaio é insuperável? (rs). Cuidado com palavras
+generalizantes como essa. Claro que não é insuperável. Além disso, vimos que o Ensaio Radiográfico é
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 42 =====
+41
+justamente utilizado para defeitos internos no material que são representados por regiões mais escuras
+no filme, justamente pela falta de material;
+V – certa! Apesar de achar uma assertiva complicada, pois a temperatura pode intervir no campo
+magnético e não é comum na literatura termos essa generalização (alto e baixo é muito subjetivo. O que
+é alta temperatura? 3000
+o
+C ou 75
+o
+C? Entende?). Apesar disso, a assertiva foi considerada correta é uma
+fonte de informação sobre o perfil de banca sobre esse ensaio.
+Gabarito: “e”.
+28. (AOCP/CASAN-SC - Engenheiro Mecânico – 2015)
+Sobre o ensaio de líquidos penetrantes, assinale a alternativa correta.
+a) Líquidos com baixa molhabilidade são altamente recomendados para o ensaio.
+b) Um líquido penetrante, para ser utilizado em vasos de pressão, deve possuir um baixo ponto de fulgor
+(menor que 20ºC).
+c) Líquidos menos viscosos são sempre melhores penetrantes que aqueles mais viscosos.
+d) O método pode ser aplicado, sem limitações, em peças de diversas formas, tamanhos e materiais,
+dede que sejam susceptíveis à limpeza e não possuam superfícies porosas ou rugosas.
+e) O ensaio é amplamente utilizado na verificação de defeitos em juntas soldadas, por ser capaz de
+identificar trincas superficiais, mordeduras, falta de fusão entre os passes de solda e porosidades
+vermiformes.
+Comentário:
+Questão “tranquila”, Coruja, que nos cobra as características e propriedades do ensaio de líquidos
+penetrantes (ensaio de natureza não destrutiva). Vejamos cada alternativa:
+Letra “a”: errada! Vimos que dentre as propriedades que o líquidos penetrante deve possuir é a
+molhabilidade. Ter baixa molhabilidade não é recomendado, pois é justamente essa propriedade dele
+que não deixa formar gotas ou porções, melhorando seu espalhamento (que é o que interessa) pela
+descontinuidade a ser evidenciada;
+Letra “b”: errada! Por uma questão de segurança, Coruja, o líquido penetrante não deve possuir baixo
+ponto de fulgor! O ponto de fulgor tem relação direta com a facilidade de combustão do fluído, sendo ele
+o ponto de temperatura na qual começa a liberação de vapor capaz de ser inflamável com alguma fonte
+externa de calor. 20
+o
+C é baixo ponto (menor que a média de temperatura ambiente), sendo perigosa tal
+característica;
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 43 =====
+42
+Letra “c”: errada! A viscosidade é um propriedade relacionada ao escoamento do líquido em dada
+superfície e a velocidade com que ele adentra as descontinuidades do material. Menos viscoso, implica
+em uma velocidade maior, claro. Todavia, a viscosidade não é um atributo isolado para a escolha do
+líquido penetrante, existem outras que precisam ser consideradas. Além disso, não necessariamente
+fluídos menos viscosos são sempre melhores, pois a depender da configuração do defeito, um líquido com
+baixa viscosidade pode não aderir pelo tempo necessário e não evidenciar um detalhe necessário,
+escorrendo antes do tempo;
+Letra “d”: correta! Apesar de eu achar que “sem limitações” é ser um tanto quanto exagerado (oras, dizer
+que algo não possui qualquer limitação é quase pensar em uma situação ideal, inexistente), de fato,
+considerando a limpeza da peça, pois vimos que elas precisam ser bem trabalhadas e limpas antes do
+ensaio e o material não ser poroso (pois, a porosidade absorve o líquido penetrante e compromete o
+resultado do ensaio), temos que o método pode ser aplicado sim e diferentes formas, tamanhos e
+materiais;
+Letra “e”: errada! O método é realmente utilizado em juntas soldadas para evidenciar trincas superficiais
+e mordeduras, por exemplo. Todavia, falta de fusão não é evidenciada pelo método, pois é extremamente
+interno o defeito. A porosidade vermiforme da peça, caso seja superficial, também podem ser alvo de
+análise pelo ensaio de líquido penetrante.
+Gabarito: “d”.
+Marinha
+29. (Marinha - Técnico de Praças da Armada - Mecânica - 2013)
+Em relação aos ensaios de materiais, é INCORRETO afirmar que:
+a) Na aplicação da técnica de inspeção por líquidos penetrantes em uma superfície contaminada com
+óleo, o procedimento mais indicado para limpeza desta superfície é o aquecimento e a lavagem com
+solução ácida.
+b) O ensaio por partículas magnéticas é utilizado para detectar descontinuidades superficiais e
+subsuperficiais, até aproximadamente 3 mm de profundidade, em materiais ferromagnéticos.
+c) No ensaio de ultrassom, os transdutores são necessários para converter energia elétrica em energia
+mecânica de vibração e vice-versa.
+d) No ensaio de impacto, o corpo de prova tipo Charpy é apoiado e o corpo de prova tipo Izod é
+engastado na máquina de ensaio.
+e) O ensaio de dobramento fornece uma indicação qualitativa da ductilidade do material.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 44 =====
+43
+Questão que nos cobra vários conhecimentos da matéria, Coruja, tanto de ensaios destrutivos quanto
+não destrutivos. Perceba que a única errada é a letra “a”! Lembre-se da nossa tabela de contaminantes e
+solução para inspeção no ensaio de líquidos penetrantes! Para óleo e graxa temos o aquecimento com
+solução alcalina e não ácida! Alternativa errada e nosso gabarito!
+Gabarito: "a".
+30. (Marinha - Técnico de Praças da Armada - Mecânica - 2012)
+Na aplicação da técnica de inspeção por líquidos penetrantes em uma superfície com resíduos de carbono,
+qual é o procedimento mais indicado para a limpeza e correção desta superfície de exame?
+a) Vapor desengraxante e usinagem.
+b) Jateamento e queima.
+c) Aquecimento e estufa.
+d) Solução alcalina e vapor.
+e) Solução ácida e neutralizadores.
+Comentário:
+Questão que parece super difícil, mas com o conhecimento básico do ensaio de natureza não destrutiva
+(END) de líquidos penetrantes e o bom senso, você seria capaz de “matar”! Veja que cada alternativa tem
+uma condição absurda que não chega nem perto do que vimos para a limpeza da superfície (etapa
+essencial para a inspeção). Oras, usinagem? Meu Deus! Usinar a peça para depois inspecionar? Não! (letra
+“a”, errada). Queima? Meu Deus 2 (letra “b”, errada). Aquecimento? Estufa? Qual a relação? (Letra “c”,
+errada). As únicas possíveis seriam as letras “d” e “e”, todavia veja que falamos na aula que a palavra
+mágica é ”alcalina”, certo? Corre para o abraço! (atenção para aquela tabela final, hein?).
+Gabarito: "d".
+Felipe Canella, Juliano de Pelegrin
+Aula 04
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 45 =====

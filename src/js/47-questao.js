@@ -97,10 +97,12 @@ function questaoHTML(fonte, q, mod, pos, total){
   const rascunho = S.rascunho[id] || '';
   const p = partesDaExplicacao(q.explica);
 
+  const errosAntes = errosDaQuestao(fonte, q);
   let h = `<article class="qz" id="q_${id.replace(/[^\w]/g,'_')}">
     <header class="qz-cab">
       ${q.origem ? `<span class="origem">${esc(q.origem)}</span>` : ''}
       <span class="qz-pos">Q${q.n}${total?` · ${pos+1} de ${total}`:''}</span>
+      ${errosAntes ? `<span class="qz-hist" title="quantas vezes você já errou esta questão">✘ ${errosAntes}× antes</span>` : ''}
       ${respondida ? `<span class="qz-sel ${acertou?'ok':'nao'}">${acertou?'✔ acertou':'✘ errou'}</span>` : ''}
     </header>
     <div class="enun">${esc(q.q)}</div>`;
@@ -125,10 +127,15 @@ function questaoHTML(fonte, q, mod, pos, total){
   }
 
   if(nivel > 0){
-    h += `<div class="qz-dicas">
-      ${dicas.slice(0, nivel).map((d,i) => `<div class="qz-dica">
-        <span class="qz-dnum">${i+1}</span><div><b>${esc(d.t)}</b>${d.c}</div></div>`).join('')}
-      ${nivel < dicas.length && !respondida ? `<button class="qz-fbt" onclick="pedeDica('${id}',${dicas.length})">Ainda travado — mais uma dica</button>` : ''}
+    const fechadas = !!S.dicasFechadas[id];
+    h += `<div class="qz-dicas${fechadas?' recolhida':''}">
+      <button class="qz-dfecha" onclick="fechaDicas('${id}')">
+        ${fechadas ? `▸ ${nivel} ${nivel===1?'dica aberta':'dicas abertas'} — mostrar de novo` : '▾ esconder as dicas'}
+      </button>
+      ${fechadas ? '' : `
+        ${dicas.slice(0, nivel).map((d,i) => `<div class="qz-dica">
+          <span class="qz-dnum">${i+1}</span><div><b>${esc(d.t)}</b>${d.c}</div></div>`).join('')}
+        ${nivel < dicas.length && !respondida ? `<button class="qz-fbt" onclick="pedeDica('${id}',${dicas.length})">Ainda travado — mais uma dica</button>` : ''}`}
     </div>`;
   }
 
@@ -153,6 +160,7 @@ function questaoHTML(fonte, q, mod, pos, total){
       <div class="qz-bloco ${acertou?'bom':'ruim'}">
         <h4>${acertou ? '✔ Acertou — gabarito: letra '+q.correta : '✘ Você marcou '+resp+'. O gabarito é a letra '+q.correta}</h4>
         <div>${p.certa || `<b>${q.correta})</b> ${esc(q.alts[q.correta]||'')}`}</div>
+        ${historicoHTML(fonte, q)}
       </div>`;
     if(p.erradas) h += `<div class="qz-bloco atencao"><h4>⚠ Onde a banca derruba</h4><div>${p.erradas}</div></div>`;
     /* questão de prova ainda sem comentário escrito: manda para a lição certa */
@@ -171,11 +179,20 @@ function questaoHTML(fonte, q, mod, pos, total){
     if(calc) h += blocoResolucao(calc);
     if(rascunho) h += `<div class="qz-bloco"><h4>✏️ O que você escreveu</h4><div class="qz-rasctxt">${esc(rascunho)}</div></div>`;
     h += `<div class="row" style="margin-top:11px">
-      <button class="btn btn-s" onclick="refazQuestao('${fonte}',${q.n})">↺ Refazer esta</button>
-      ${q.mod ? `<button class="btn btn-s" onclick="abrirModulo('${q.mod}')">📖 Rever a lição</button>` : ''}
+      ${q.mod || (mod&&mod.id) ? `<button class="btn btn-s" onclick="abrirModulo('${q.mod||mod.id}')">📖 Rever a lição</button>` : ''}
     </div></div>`;
   }
   return h + `</article>`;
+}
+
+/* Linha do tempo das tentativas — uma bolinha por rodada. */
+function historicoHTML(fonte, q){
+  const t = S.tentativas[qid(fonte,q)] || [];
+  if(t.length < 2) return '';
+  return `<div class="qz-linha">
+    <span class="qz-lt">suas tentativas</span>
+    ${t.map(x => `<span class="qz-bola ${x.ok?'ok':'nao'}" title="rodada ${x.r}: marcou ${x.m}">${x.r}</span>`).join('')}
+  </div>`;
 }
 
 function blocoResolucao(c){
@@ -211,6 +228,7 @@ function respondeQuestao(fonte, n, L){
   S.quiz[fonte] = S.quiz[fonte] || {};
   S.quiz[fonte][n] = L;
   const certo = L === q.correta;
+  registraTentativa(fonte, q, L);
   registraResposta(certo, comApoio);
   const alvo = q.mod || (mod && mod.id);
   /* acertar com dica não estica o intervalo de revisão */
@@ -231,6 +249,62 @@ function refazQuestao(fonte, n){
 function pedeDica(id, total){
   S.dicas[id] = Math.min(total, (S.dicas[id]||0) + 1);
   save(); render();
+}
+/* Fechar as dicas depois de abrir: às vezes a pessoa quer só dar uma
+   olhada e voltar a tentar com a tela limpa. O nível fica guardado,
+   então reabrir mostra tudo o que já tinha sido revelado.          */
+function fechaDicas(id){
+  S.dicasFechadas[id] = !S.dicasFechadas[id];
+  save(); render();
+}
+
+/* ---------------- rodadas ----------------
+   Cada passagem completa pelas questões de um módulo é uma rodada.
+   O histórico de tentativas fica guardado por questão, então dá para
+   ver em qual rodada você acertou e o que continua caindo.        */
+function rodadaAtual(fonte){ return S.rodada[fonte] || 1; }
+function registraTentativa(fonte, q, marcou){
+  const id = qid(fonte, q);
+  const lista = S.tentativas[id] || [];
+  lista.push({ r: rodadaAtual(fonte), m: marcou, ok: marcou === q.correta, d: hojeISO() });
+  S.tentativas[id] = lista;
+}
+function errosDaQuestao(fonte, q){
+  return (S.tentativas[qid(fonte,q)] || []).filter(t => !t.ok).length;
+}
+/* Situação da lista inteira: quantas faltam, e o placar de cada rodada. */
+function situacao(fonte, qs){
+  const R = S.quiz[fonte] || {};
+  const feitas = qs.filter(q => R[q.n] !== undefined).length;
+  const certas = qs.filter(q => R[q.n] === q.correta).length;
+  const rodada = rodadaAtual(fonte);
+  const placares = [];
+  for(let r=1; r<rodada; r++){
+    let n=0, ok=0;
+    qs.forEach(q => (S.tentativas[qid(fonte,q)]||[]).forEach(t => { if(t.r===r){ n++; if(t.ok) ok++; } }));
+    if(n) placares.push({r, n, ok, pct: Math.round(ok/n*100)});
+  }
+  return {feitas, certas, total:qs.length, completo: feitas===qs.length, rodada, placares};
+}
+/* Só libera quando todas as questões do módulo foram respondidas. */
+function novaRodada(fonte){
+  const qs = questoesDaFonte(fonte);
+  const s = situacao(fonte, qs);
+  if(!s.completo){ toast(`Faltam ${s.total - s.feitas} para fechar o módulo`); return; }
+  S.rodada[fonte] = s.rodada + 1;
+  qs.forEach(q => { delete S.quiz[fonte][q.n]; delete S.dicas[qid(fonte,q)]; delete S.risca[qid(fonte,q)]; });
+  S.erros = S.erros.filter(e => e.vol !== fonte);
+  save(true); window.scrollTo(0,0); render();
+  toast('Rodada ' + S.rodada[fonte] + ' — as questões voltaram em branco');
+}
+function questoesDaFonte(fonte){
+  if(fonte.startsWith('licao:')){
+    const mid = fonte.slice(6);
+    for(const v of DATA.conteudo){ const m = v.mods.find(m=>m.id===mid); if(m) return m.qs||[]; }
+    return [];
+  }
+  const p = DATA.provas.find(p=>p.id===fonte);
+  return p ? p.questoes : [];
 }
 function alternaRascunho(id){
   S._rasc = (S._rasc===id) ? null : id;
@@ -265,13 +339,55 @@ function questoesDoModuloHTML(mod){
   const qs = mod.qs || [];
   if(!qs.length) return mod.questoes || '<p class="hint">Este módulo ainda não tem questões.</p>';
   const fonte = 'licao:' + mod.id;
-  const R = S.quiz[fonte] || {};
-  const feitas = qs.filter(q => R[q.n] !== undefined).length;
-  const certas = qs.filter(q => R[q.n] === q.correta).length;
+  const s = situacao(fonte, qs);
+  return painelDaRodada(fonte, s, mod) +
+    qs.map((q,i) => questaoHTML(fonte, q, mod, i, qs.length)).join('') +
+    rodapeDaRodada(fonte, s, mod);
+}
+
+/* Cabeçalho com a rodada, o placar e o histórico das anteriores. */
+function painelDaRodada(fonte, s, mod){
   return `<div class="qz-topo">
-      <div><b>${qs.length} questões</b> de provas anteriores sobre este módulo</div>
-      <div class="qz-placar">${feitas ? `${certas} de ${feitas} · ${Math.round(certas/feitas*100)}%` : 'nenhuma respondida'}</div>
+      <div><b>${s.total} questões</b> deste módulo${s.rodada>1?` <span class="qz-rod">rodada ${s.rodada}</span>`:''}</div>
+      <div class="qz-placar">${s.feitas ? `${s.certas} de ${s.feitas} · ${Math.round(s.certas/s.feitas*100)}%` : 'nenhuma respondida'}</div>
     </div>
-    ${feitas ? `<div class="pbar" style="margin-bottom:14px"><div class="pfill" style="width:${feitas/qs.length*100}%"></div></div>` : ''}
-    ${qs.map((q,i) => questaoHTML(fonte, q, mod, i, qs.length)).join('')}`;
+    <div class="pbar" style="margin-bottom:${s.placares.length?'10':'14'}px"><div class="pfill" style="width:${s.feitas/s.total*100}%"></div></div>
+    ${s.placares.length ? `<div class="qz-rodadas">
+      ${s.placares.map(p => `<span class="qz-rbadge"><b>R${p.r}</b> ${p.pct}%</span>`).join('')}
+      <span class="qz-rbadge atual"><b>R${s.rodada}</b> ${s.feitas?Math.round(s.certas/Math.max(1,s.feitas)*100)+'%':'—'}</span>
+    </div>` : ''}`;
+}
+
+/* Rodapé: fecha o módulo, mostra onde estão os erros e libera a próxima rodada. */
+function rodapeDaRodada(fonte, s, mod){
+  if(!s.feitas) return '';
+  const qs = questoesDaFonte(fonte);
+  const piores = qs.map(q => ({q, e: errosDaQuestao(fonte, q)}))
+    .filter(x => x.e > 0).sort((a,b) => b.e - a.e).slice(0,5);
+
+  if(!s.completo){
+    return `<div class="qz-fim">
+      <div class="qz-fim-t">Faltam ${s.total - s.feitas} para fechar o módulo</div>
+      <p class="hint" style="margin:4px 0 0">Só dá para começar a rodada 2 depois de responder todas —
+        refazer só o que é fácil não mede nada.</p>
+    </div>`;
+  }
+  return `<div class="qz-fim completo">
+    <div class="qz-fim-t">✔ Módulo fechado — ${s.certas} de ${s.total} na rodada ${s.rodada}</div>
+    ${piores.length ? `
+      <div class="qz-fim-sub">Onde você mais tropeça neste módulo</div>
+      <div class="qz-piores">${piores.map(x => `<button class="pitem" onclick="vaiPara('q_${qid(fonte,x.q).replace(/[^\\w]/g,'_')}')">
+        <span class="bola" style="background:var(--err);opacity:${(0.4+0.6*x.e/piores[0].e).toFixed(2)}"></span>
+        <span class="t">Q${x.q.n} · ${esc((x.q.q||'').slice(0,62))}…</span>
+        <span class="n">${x.e}×</span></button>`).join('')}</div>` : `
+      <p class="hint" style="margin:4px 0 0">Sem erros nesta rodada. Se foi limpo, o assunto está no ponto.</p>`}
+    <button class="btn btn-p" style="width:100%;margin-top:12px" onclick="novaRodada('${fonte}')">
+      ↺ Começar a rodada ${s.rodada + 1}</button>
+    ${mod && mapaDoModulo(mod.id) ? `<button class="btn btn-s" style="width:100%;margin-top:8px"
+      onclick="abrirModulo('${mod.id}','licao')">🧠 Fechar com o mapa do assunto</button>` : ''}
+  </div>`;
+}
+function vaiPara(id){
+  const el = document.getElementById(id);
+  if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
 }

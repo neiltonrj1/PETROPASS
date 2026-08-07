@@ -257,6 +257,56 @@ ok('questões de prova herdaram explicação', () => {
   if (n < 100) throw new Error(`só ${n} questões de prova têm explicação`);
 });
 
+/* ---- rodadas e histórico de tentativas ---- */
+process.stdout.write('\nrodadas     ');
+ok('a rodada 2 só libera com o módulo fechado', () => {
+  const r = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var f='licao:v1m2';
+    S.quiz[f]={}; S.rodada={}; S.tentativas={};
+    respondeQuestao(f, mod.qs[0].n, mod.qs[0].correta);   // só uma
+    novaRodada(f);
+    var bloqueou = rodadaAtual(f) === 1;
+    mod.qs.forEach(function(q){ respondeQuestao(f, q.n, q.correta); });
+    novaRodada(f);
+    return {bloqueou: bloqueou, agora: rodadaAtual(f), limpou: Object.keys(S.quiz[f]).length};
+  })()`);
+  if (!r.bloqueou) throw new Error('deixou virar a rodada sem responder tudo');
+  if (r.agora !== 2) throw new Error('não virou a rodada com o módulo fechado');
+  if (r.limpou !== 0) throw new Error('a rodada nova não zerou as respostas');
+});
+ok('o histórico de tentativas sobrevive à nova rodada', () => {
+  const n = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var q = mod.qs[0];
+    return (S.tentativas['licao:v1m2:'+q.n]||[]).length;
+  })()`);
+  if (n < 2) throw new Error(`só ${n} tentativa(s) guardada(s) — o histórico se perdeu`);
+});
+ok('conta quantas vezes errou cada questão', () => {
+  const e = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var f='licao:v1m2', q=mod.qs[0];
+    S.tentativas['licao:v1m2:'+q.n] = [{r:1,m:'A',ok:false},{r:2,m:'B',ok:false},{r:3,m:q.correta,ok:true}];
+    return errosDaQuestao(f, q);
+  })()`);
+  if (e !== 2) throw new Error(`contou ${e} erros, esperava 2`);
+});
+ok('dá para esconder e reabrir as dicas', () => {
+  window.eval(`S.dicasFechadas={}; fechaDicas('licao:v1m2:11');`);
+  if (!window.eval(`S.dicasFechadas['licao:v1m2:11']`)) throw new Error('não fechou');
+  window.eval(`fechaDicas('licao:v1m2:11')`);
+  if (window.eval(`S.dicasFechadas['licao:v1m2:11']`)) throw new Error('não reabriu');
+});
+ok('o mapa fecha o módulo (vem depois da lição)', () => {
+  window.abrirModulo('v1m2', 'licao');
+  const page = window.document.getElementById('page').innerHTML;
+  const iMapa = page.indexOf('mapa-m');
+  const iTexto = page.indexOf('<p>');
+  if (iMapa < 0) throw new Error('o mapa sumiu da lição');
+  if (iTexto >= 0 && iMapa < iTexto) throw new Error('o mapa ficou antes do texto da lição');
+});
+
 /* ---- mapas mentais e mnemônicos ---- */
 process.stdout.write('\nmapas       ');
 ok('os mapas cobrem os assuntos mais pesados', () => {

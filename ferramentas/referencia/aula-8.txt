@@ -1,0 +1,2742 @@
+
+
+===== página 1 =====
+Aula 08
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+05 de Janeiro de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+PROCESSOS DE FABRICAÇÃO – SOLDAGEM .................................................................................................... 2
+METALURGIA DA SOLDAGEM ............................................................................................................................ 3
+Zona Termicamente Afetada (ZTA) ................................................................................................................. 3
+Regiões da ZTA ........................................................................................................................................... 4
+Soldagem de aços inoxidáveis – Diagrama de Schaeffler ............................................................................ 6
+Velocidade da resfriamento, teores e elementos de liga ............................................................................. 11
+Fluxo de Calor e Ciclo Térmico ..................................................................................................................... 12
+Descontinuidades e fissuração (trincas) em soldas ........................................................................................ 18
+Descontinuidades dimensionais .................................................................................................................. 20
+Descontinuidades estruturais...................................................................................................................... 20
+Fissuração (trincas) .................................................................................................................................... 24
+Decoesão lamelar ..................................................................................................................................... 26
+Tipos de juntas e simbologia ......................................................................................................................... 26
+Simbologia e símbolos de soldagem ......................................................................................................... 31
+Questões Comentadas ...................................................................................................................................... 42
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+PROCESSOS DE FABRICAÇÃO – SOLDAGEM
+Fala, Coruja! Como você está? Tudo certo? Você não faz ideia de como é bom estar aqui novamente!
+Hoje, falaremos sobre os processos de soldagem!
+Nessa primeira parte do nosso bloco de soldagem, introduzirei o tema explicando sobre a metalurgia
+da soldagem e suas transformações, bem como os problemas e defeitos que podem surgir. Além disso,
+nessa aula veremos os principais símbolos de soldagem que são cobrados nas provas.
+Ao término do nosso estudo, compilei as principais questões de bancas renomadas para praticarmos,
+com comentários pertinentes sobre os principais pontos, além, é claro, de questões da banca do seu
+concurso (termos o perfil específico dela é essencial para sua aprovação).
+Pois bem. Sem mais delongas. Vamos ao que interessa! Antes, não deixe de me seguir nas minhas
+redes sociais para ter acesso a dicas e questões comentadas em vídeos sobre diferentes temas da
+Engenharia Mecânica!
+profcanelas t.me/profcanelas
+Boa aula!
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+METALURGIA DA SOLDAGEM
+Sobre a metalurgia da soldagem, Coruja, as questões tendem a cobrar os efeitos da temperatura nas
+diferentes regiões nas quais a solda é executada e seus efeitos na microestrutura do metal de base, de
+maneira conceitual. Além disso, os principais defeitos também costumam ser cobrados e veremos na
+sequência. A metalurgia da solda e as propriedades das juntas quanto aos processos de fusão e seu impacto
+na microestrutura da região é de extrema relevância para o tipo de serviço no qual a peça será submetida.
+Nessa seara do conhecimento, convém falarmos sobre o ciclo térmico de soldagem que corresponde
+ao estudo da variação da temperatura durante o processo de soldagem determinado, impactando e
+influenciando na microestrutura do metal de base (e, consequentemente nas propriedades mecânicas do
+material) e nas regiões adjacentes ao ponto estudado. Por conta disso, Estrategista, a soldagem é
+comumente associada a um tratamento térmico (objeto de estudo da disciplina de Ciência dos Materiais)
+resultando em diferentes impactos na propriedade mecânica da região da solda!
+Zona Termicamente Afetada (ZTA)
+Dessa forma, entender a definição da Zona Termicamente Afetada (ZTA) é extremamente
+importante! Uma característica dessa zona é saber as influencias que o metal de base sofre nessa região. A
+ZTA não é a zona da microrregião fundida do metal de base e, sim, a zona próxima a ela e que é afetada
+termicamente (tem sua microestrutura e propriedades mecânicas alteradas do metal de base, sendo
+influenciadas pelo ciclo térmico). Veja a figura a seguir.
+1
+1 Adaptado de Fundação Brasileira de Tecnologia de Soldagem, 2007.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+Perceba, Estrategista, que a Zona Fundida ou Metal de Solda é a parte correspondente ao centro da
+solda executada. As regiões pontilhadas na figura correspondem as Zonas de Fusão, local onde ocorreu a
+fundição dos metais de base.
+Entre as Zonas de Fusão e as Zonas Termicamente Afetadas (ZTA), temos a Zona de Ligação. As ZTA’s
+são as zonas que não sofreram fundição, mas pela temperatura elevada do processo, tiveram sua estrutura
+afetada termicamente, principalmente no cristalino do material. Por conta da temperatura elevada do
+processo de soldagem, temos a região da ZTA com sua microestruturas também alteradas
+Essa alteração está relacionada com a proximidade e, consequentemente, com a temperatura,
+gerando quatro regiões na ZTA: região de grão grosseiro (região mais próxima da zona de fusão e tem seu
+grão grande pela fase austenítica atingida); região de grão fino (possui granulação mais fina, pois está mais
+longe da zona de fusão, tendo microestrutura como se o material tivesse sido normalizado); região
+intercrítica (tem sua microestrutura parcialmente alterada pelas temperaturas entre a linha A3 e A1 - lembra
+do diagrama Fe-C? São elas!) e região subcrítica (região que sofre temperaturas abaixo de A1).
+Regiões da ZTA
+Conforme mencionei, a ZTA possui quatro faixas conforme a região se afasta da temperatura de pico
+do ponto da solda na ZF (falarei dela a seguir). Memorize, Coruja:
+Para que você relembre, Coruja, veja a seguir, lá da aula de Ciência dos Materiais, o nosso bom e
+velho diagrama Fe-C. Percebas as linhas mencionadas em cada região da ZTA que comentei. Nessa figura
+Faixas da ZTA
+Região de Granulação Grosseira (com crescimento de grão)
+Região de Granulação Fina (refino de grão)
+Região Intercrítica (temperaturas entre A3 e A1)
+Região Subcrítica (temperaturas inferiores à linha A1)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+proveniente da literatura específca
+2
+, temos que a letra "A" representa a região de granulação grosseira
+(crescimento dos grãos); a letra "B" a região de granulação fina (refino de grão); a letra "C", a região
+intercrítica (cujas temperaturas estão entre A3 e A1).
+Além dela, temos também a Zona Fundida (ZF) que é a região na qual o metal de base será fundido
+durante a soldagem e pertence ao ciclo térmico com a temperatura de pico maior que a sua temperatura
+de fusão.
+A partir da ZF, Coruja, teremos as diferentes regiões que elenquei para você, com as seguintes
+características:
+• Região de Granulação Grosseira (com crescimento de grão): região com temperaturas entre
+1200
+o
+C e a temperatura de fusão da liga. Nessa fase, temos a austenita sofrendo o crescimento
+do grão dependendo do aço (com teores diferentes) e energia fornecida. Basicamente, a
+microestrutura final dependerá tanto da velocidade de resfriamento e elementos de liga
+(falaremos deles na sequência), quanto do teor de carbono (oras, vimos que no diagrama de fase
+acima, teremos diferentes zonas a depender dele, certo?). Esses fatores vão influenciar essa
+região na formação da martensita (microestrutura metaestável de alta dureza e resistência,
+caracterizada pela alta temperabilidade da liga). Por conta disso, Coruja, tende a ser uma região
+problemática, pela sua baixa tenacidade e propício a formação de trincas (ainda falaremos dela
+nessa aula). Somada a isso, a alta temperatura e energia dessa região impacta em um grão
+2 Adaptado de Marques, P.V.; Modenesi, P.J.; Bracarense, A.Q. Soldagem: Fundamentos e Tecnologia. 3a Edição. Editora: UFMG, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+austenítico mais grosseiro que, somado aos demais fatores acima, dificultam sua transformação
+em outras microestruturas como perlita e bainita nas curvas TTT do material. Dessa forma, há um
+aumento na temperabilidade que é a capacidade da liga em atingir a microestrutura martensítica
+com certa profundida de endurecimento;
+• Região de Granulação Fina (refino de grão): nessa região, temos a faixa de temperaturas indo de
+800 a 1200
+o
+C e, dessa forma, se assemelha a resultados obtidos por tratamentos térmicos (como
+o da normalização). Por conta dessas transformações de temperatura, é comum encontrarmos
+uma microestrutura de ferrita e perlita finas. Não é caracterizada como uma região problemática;
+• Região Intercrítica (temperaturas entre A3 e A1): nessa região, temos a variação entre 727
+o
+C até
+a linha A3 (a depender do teor de carbono da liga). Aqui temos uma região com transformação
+parcial da estrutura original do metal de base. Assim, parte do material é alterado (parte entra
+no campo austenítico);
+Além dessas características, Coruja, saiba que o Metal de Base (MB) é a o próprio material da peça
+que irá sofrer a soldagem no ponto da solda e que terá suas propriedades alteradas pela fusão da
+microrregião. Todavia, o Metal de Base adjacente à ZTA que compõe a peça não será afetado pelo ciclo
+térmico da soldagem, pois temos suas temperaturas de pico muito inferiores a sua Tc (Temperatura crítica).
+Soldagem de aços inoxidáveis – Diagrama de Schaeffler
+Estrategista, vimos todos esses processos metalúrgicos nas áreas da ZTA e ZF acima. Oras, por conta
+desses fenômenos, a soldagem de aço inoxidável não é uma soldagem trivial (bastando aquecer a junta da
+região a ser solda e atingir a coalescência). Existem inúmeras questões que temos que ter em mente para
+esse tipo de soldagem, justamente para se evitar o principal problema que pode surgir nessa liga metálica,
+quando temos temperaturas elevadas: a sensitização. A sensitização, como já pudemos comentar em aulas
+passadas, ocorre quando esse aço é aquecido e atinge temperaturas entre 450 e 850 oC, por um tempo
+determinado. O problema é que por conta de processos difusionais, o carbono migra para a região de
+contorno de grão e forma com o cromo o composto denominado de carbeto ou carboneto de cromo (Cr3C2
+ou Cr23C6 ) que é considerado virtualmente insolúvel e precipita da solução sólida. Por isso, o fenômeno,
+inclusive, tende a acontecer mais agressivamente quando temos teores de carbono acima dos 0,02% ou
+0,03%, a depender da literatura.
+Por conta dessa precipitação, temos a retirada do principal elemento de resistência à corrosão (o
+cromo que foi formar o carboneto acima) da região do contorno do grão que fica empobrecida e tem teor
+menor que 10%, o que prejudica a passivação (lembre-se da formação da camada fina de óxido de cromo
+que protege da posterior corrosão). Esse cenário pode gerar a corrosão intergranular por conta da formação
+de uma região anódica em relação ao resto do grão.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+Nesse sentido, como na soldagem temos temperaturas elevadas sendo atingidas na região, a
+soldagem de aços inoxidáveis é complicada. Por isso, diversas variáveis fazem parte do planejamento de sua
+execução, tais como: quais equipamentos, tipos de junta, geometria da peça, qual nível de voltagem e
+amperagem, velocidade, limpeza, purga dos gases e o nosso bom e velho diagrama de Schaeffler (veremos
+na sequência).
+Todas essas características, Estrategista, estão associadas a possíveis mudanças na microestrutura do
+aço inoxidável, devido aos elementos de liga que o compõem. Oras, no aço inoxidável não temos somente
+carbono, ferro e cromo. Temos os elementos, tais como molibdênio (Mo), manganês (Mn), Nióbio (Nb),
+entre outros. Por conta disso, a depender da microestrutura que, por sua vez, tem relação com os teores e
+presença de elementos de liga, além dos tratamentos térmicos, podemos ter os ferríticos, martensíticos,
+austeníticos e os duplex.
+Basicamente, temos algumas propriedades gerais dos aços inoxidáveis que o diferenciam dos aços
+carbono comuns (muito por conta dos elementos de liga que vimos). Assim, de acordo com a literatura
+3
+,
+temos, de maneira geral, para os aços inoxidáveis comparados aos aços comuns:
+• Menor temperatura de fusão;
+• Menor condutividade térmica;
+• Maior coeficiente de expansão térmica;
+• Maior resistência elétrica;
+Nessa seara, Coruja, é comum o emprego de maior velocidade no processo de soldagem, a depender
+da composição química do material. Além disso, por conta da menor temperatura de fusão e menor
+condução de calor, a corrente de soldagem é, normalmente, menor que a mesma usada em aços carbono
+comum. Outra característica, é a maior tendência à deformação na soldagem, por conta do maior
+coeficiente de expansão térmica.
+Todas essas características inerentes aos tipos de aços inoxidáveis (que possuem relação com os
+teores de elementos de liga) são impactadas pela temperatura em cada zona da região da solda. Por conta
+disso, surge a necessidade de previsão das microestruturas formadas, a depender dos teores de elementos
+de liga tanto do metal de base do aço inoxidável, quanto do metal de adição proveniente do eletrodo, em
+processos que utilizem esses tipos de eletrodos. Uma das ferramentas que auxilia nessa previsão é o tal de
+Diagrama de Schaeffler, que tem como um dos objetivos prever os fenômenos e as características
+metalúrgicas que podem ocorrer na soldagem dos aços inoxidáveis.
+Bom, vejamos o "dito cujo" rs...
+3 Paredes, R. S. C. Soldagem de Aços Inoxidáveis. UFPR, 2013.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+4
+Esse diagrama, Coruja, mostra pra gente, principalmente, as áreas relacionadas à microestruturas
+que podem ocorrer na região da solda e os problemas relacionados. Dessa forma, há uma previsão das
+propriedades que estarão inerentes as essas microestrutura, mostrando riscos de trincas, fases e situações
+indesejáveis. Além disso, ele permite a seleção e avaliação de diferentes tipos de eletrodos que possam ser
+aplicados na soldagem. Logo, para sua prova, memorize, Coruja:
+4 Adaptado de Paredes, R. S. C. Soldagem de Aços Inoxidáveis. UFPR, 2013.
+Vantagens do uso do
+Diagrama de Schaeffler
+Identificação das áreas problemáticas quanto a
+microestrutura nas regiões da solda
+Previsão de quais microestruturas e propriedades das
+regiões
+Previsão de riscos, fases e situações indesejáveis
+Seleção e avaliação de tipos de eletrodos
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+"Tá, professor, mas... como eu uso essa po*** de diagrama?" Calma, Coruja. Calma. Rs. O uso do
+diagrama, como você pode perceber, depende dos teores de certos elementos de liga que estarão presentes
+no tipo do aço inoxidável e no tipo de eletrodo utilizado. Veja que no eixo das ordenadas, temos uma
+equação que calcula o teor de níquel equivalente para uma certa liga com teores de níquel, carbono e
+manganês. Além disso, no eixo das abscissas, temos os teores de outros elementos de liga que devemos
+colocar na equação para encontrarmos o teor de cromo equivalente, que são os teores de cromo, silício e
+nióbio (este pode aparecer na sua nomenclatura antiga, pois o diagrama de Schaeffler foi desenvolvido na
+década de 40 do século passado e o nióbio era chamado de columbio - Cb, por isso, se aparecer Cb na sua
+prova, relaxe, pois é o nióbio). Assim, em cada eixo, temos:
+• Ordenadas:
+o Níquel Equivalente: %Ni + (30x%C) + (0,5x%Mn);
+• Abscissas:
+o Cromo Equivalente: %Cromo + (1,5x%Si) + (0,5xNb);
+Pronto, Coruja! Assim, para uma dada liga metálica específica de aço inoxidável, com os teores desses
+elementos, você substitui na equações acima para achar qual a região do diagrama você cairá, ou seja, qual
+a previsão de microestrutura teremos naquela solda.
+Funciona, assim: pegamos o tipo de aço inoxidável (que é a nossa liga metálica, óbvio) e o teor de
+cada elemento de liga. Assim, calculamos o níquel equivalente e o cromo equivalente, para esse aço
+inoxidável que é o metal de base da nossa solda. Depois, fazemos os mesmos cálculos para o eletrodo
+utilizado (já que, a depender do processo de soldagem, temos eletrodos com teores de elementos
+diferentes). Além disso, temos o fator de diluição que vai mostrar o quanto, em porcentagem, temos de
+diluição entre os elementos do eletrodo e o metal de base, evidenciando o quanto de metal de base temos
+na constituição da ZF.
+Em posse dos teores de níquel equivalente, cromo equivalente do eletrodo (que representa o metal
+de adição) na soldagem com eletrodo consumível, do metal de base (que tem relação com o tipo de aço
+inoxidável) e da diluição respectiva, temos qual região a Zona de Fusão da solda caiu. Esses cálculos, hoje em
+dia, são simplificados e existem aplicativos para isso.
+Por fim, Coruja, é importante você conhecer para sua prova essas regiões características desse
+diagrama e os possíveis problemas gerais que podem acontecer caso a microestrutura predominantemente
+esteja dentro dessas regiões. Assim, veja novamente o diagrama e as regiões características:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+Perceba, Estrategista, que temos, basicamente, 4 regiões que você precisa enxergar e levar para sua
+prova. Claro, pelas curvas que estão desenhadas, não temos uma delimitação de quando uma região termina
+e outra começa, pois temos vários teores de elementos e condições que impactam na microestrutura. Assim,
+veja que, pelas cores das linhas, temos a intersecção de regiões. Todavia, vejamos as principais
+características, de acordo com a literatura específica
+5
+:
+• 1: Fragilização de trincas de solidificação ou queda de ductilidade quando em temperaturas
+acima dos 1250
+o
+C;
+• 2: Fragilização por conta da formação de fases intermetálicas (precipitação) após o
+aquecimento de 450 a 900
+o
+C;
+• 3: Fragilização por crescimento de grão;
+• 4: Fragilização e fissuração por formação de martensita, com baixa tenacidade e possíveis
+trincas a frio;
+Devido a essas características básicas que podem acontecer em cada região, quando plotados os
+pontos de cromo e níquel equivalentes do metal de base e do metal de adição do eletrodo, considerando a
+diluição que tem relação com o tipo de eletrodo e processo de soldagem, temos que tentar cair em uma
+5 Adaptado de Paredes, R. S. C. Soldagem de Aços Inoxidáveis. UFPR, 2013.
+4
+1
+2
+3
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+região que não oferece esses riscos. Essa região está marcada por aquela geometria "linda" no centro do
+diagrama na cor marrom co**. rs.
+Assim, Estrategista, no planejamento da soldagem de aços inoxidáveis, o soldador precisa procurar
+entender onde os pontos mencionados estarão plotados e, tentar, com a combinação de metal de base e
+eletrodo, cair em um região que a ZF fique pelo menos dentro da região central que comentei.
+Velocidade da resfriamento, teores e elementos de liga
+Estrategista, aqui precisamos relembrar alguns conceitos de transformações de fases das ligas
+(principalmente, do aço). Vimos que no caso do aço (Fe-C), quando a velocidade da reação é muito alta (ou
+seja, a queda de temperatura é muito elevada), não damos tempo para a dissolução do carbono (que estava
+muito dissolvido na microestrutura da austenita) da microestrutura ferrítica, ficando ele intersticial e
+gerando a martensita (que já vimos).
+Além disso, conforme se aumenta os teores de elementos de liga nesse aço, também dificulta, assim
+como na velocidade elevada do resfriamento, a formação da perlita (lembre-se que a perlita não é uma fase
+e sim uma associação de fases - lamelas alternadas de ferrita e cementita). Quando temos a presença de
+mais elementos de liga, passamos a ter a mesma dificuldade de dissolução do carbono, porém com esses
+elementos e, assim, maior dificuldade de atingimento dessa microestrutura perlítica.
+Assim, temos que ter em mente que a depender dos teores de elementos de liga e velocidade de
+transformação (que implica em tempo no qual certos valores de temperaturas são atingidos e mantidos),
+teremos diferentes microestruturas na soldagem (como vimos lá nos tratamentos térmicos, em Ciência dos
+Materias - o conceito é o mesmo).
+Outra microestrutura que também pode aparecer é a bainita. Ela surge em transformações com
+velocidade de resfriamento não tão elevadas, mas também não tão baixas. Temperaturas abaixo de 500
+o
+C a
+perlita deixa de ser formada na transformação (Curva TTT da nossa aula de Ciência dos Materiais), passando
+a microestrutura a ser formada por grãos mais alongados de ferrita com fina dispersão de carbonetos que
+outrora daria luz a cementita (carbeto ou carboneto de ferro). A bainita concilia certo grau de resistência
+mecânica e dureza, mas com nível considerado de boa tenacidade.
+Além disso, parâmetros, tais como o coeficiente de diluição também é necessário para se identificar
+essa microestrutura final. Esse parâmetro nos diz o quanto (em percentual) de metal de base irá entrar na
+composição do metal de solda em processos de soldagem por fusão. Assim, imagine que o metal de base
+(um material ou liga) irá compor, tendo seus elementos se diluindo junto ao metal da solda (composto na
+poça por metal de base, mais metal de adição e elementos de um eletrodo consumível, por exemplo).
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+Fluxo de Calor e Ciclo Térmico
+Quando estudamos o fluxo de calor de um processo de soldagem, Estrategista, temos que conhecer
+duas etapas comumente descritas pela literatura específica: fornecimento de calor à junta e dissipação
+deste calor pela peça.
+Independente dos tipos de processos de soldagem a arco (veremos em outra aula cada um deles), a
+energia (P), em watts, utilizada para a soldagem provém da voltagem U, em volts e a corrente elétrica I, em
+amperes, em processos a arco elétrico. Assim, temos a nossa primeira fórmula da aula; a famosa fórmula da
+potência (energia) “PIU”:
+P = I.U
+Todavia, além da relação lógica entre as unidades da fórmula “PIU”, alguns fatores externos
+impactam no balanço energético durante a soldagem. Um desses fatores é o f1 que representa a perda de
+energia pela convecção, radiação e respingos que são formados.
+A convecção, forma de troca de calor por fluídos (no caso, tanto o líquido formado, quanto o ar
+atmosférico – sim! O ar atmosférico é um fluído), faz perder calor, bem como a radiação pela luz emitida e
+os matérias que compõem os respingos que podem se formar (lembra das partículas/impurezas que
+mencionei antes?). O que impacta o fator f1 é o tipo de soldagem e a capacidade de converter a energia
+elétrica da fonte geradora em calor. Nesse sentido, Coruja, os tipos de soldagem a arco são mais eficientes
+do que os tipos de soldagem a oxicombustível (como veremos posteriormente).
+Já o fator f2 está relacionado às propriedades térmicas do metal, configuração da junta e espessura
+da peça de trabalho. Dessa forma, o tipo de material da peça de trabalho (por exemplo, cobre) influencia no
+processo de soldagem e é representado pelo fator f2. O esquema abaixo é normalmente utilizado na
+literatura para certos valores típicos de f1. Coloquei esse esquema a título de curiosidade. Normalmente,
+quando se cobra os fatores - tanto de f1, quanto de f2 - a questão de prova irá fornecer esses dados. Fique
+tranquilo(a), Estrategista! .
+f1 = 0,9
+• Soldagem a arco com
+eletrodos revestidos;
+• Soldagem a arco com
+proteção gasosa;
+• Soldagem a arco com
+arame tubular;
+f1 = 0,95
+• Soldagem a arco
+subemerso
+f1 = 0,70
+• Soldagem a arco com
+eletrodo de tungstênio
+e proteção gasosa;
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+A partir do exposto, chegamos a nossa segunda equação da aula que representa o balanço energético
+da energia utilizada na soldagem e a velocidade que a solda é efetuada. Por essa relação, podemos expressar
+a equação em taxa de equilíbrio:
+Qs = f1.f2.I.U = Uf.As.v
+Na qual,
+• Qs = taxa de energia de calor liberada para soldagem (em J/s ou em W, são iguais);
+• I = corrente (em ampères, A);
+• U = voltagem (em volts, V);
+• Uf = unidade requerida de energia para fundir o metal da peça (em J/mm
+3
+);
+• As = área da seção transversal da solda (em mm
+2
+);
+• v = velocidade de soldagem (em mm/s).
+Dessa forma, Estrategista, temos o cálculo do equilíbrio energético relacionando o quanto de energia
+temos disponível para efetuar a soldagem (Qs), que depende dos fatores f1 e f2 que vão “roubar” parte dessa
+energia (os valores desses fatores vão de 0 a 1) provenientes da potência (energia fornecida pela fonte
+geradora) que provém da relação “PIU”.
+Olhe na fórmula que acabei de esquematizar: a multiplicação de f1.f2.I.U demonstra essa relação.
+Toda esse cálculo, essa multiplicação, é igual (por isso é uma equação) ao Uf que é a mesma
+quantidade de energia que provém da fonte geradora necessária para fundir o metal de determinado volume
+de material.
+Dessa forma, é multiplicado pelo volume (quantidade de material) dependente da área da seção
+transversal da solda (As) e da velocidade (v) do processo de soldagem.
+Oras, quanto mais velocidade e maior for a área de seção transversal, que implica em mais material
+para soldar, mais energia é necessária. Por isso que é uma multiplicação.
+Veja o exemplo abaixo que eu criei! (Ah, e fique tranquilo, normalmente, as questões de provas são
+mais superficiais e exigem menos detalhes que o exposto) .
+(Questão inédita)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+Uma operação de soldagem a arco submerso e proteção gasosa é realizada com corrente de 400 A e
+voltagem de 15 V. O fator de fusão é f2 = 0,5 e a unidade de energia de fusão Uf = 12J/mm
+3
+. Determine
+o fluxo em volume do metal soldado.
+Comentário:
+Em um primeiro momento, Coruja, precisamos calcular a quantidade de energia fornecida para essa
+operação. Utilizaremos a fórmula da potência (P=I.U):
+P = I.U = 400 (A).15 (V) = 6000 W (ou J/s);
+Utilizando o valor da tabela 1 (lembre-se, os exercícios irão lhe fornecer esses dados), temos o
+fator f1 = 0,95 para o arco submerso. Assim, temos a taxa de calor consumida nessa operação, retirando
+os fatores (f1 e f2) da potência fornecida pela fonte geradora:
+Qs = f1.f2.I.U = 0,5.0,95.6000 = 2850 W (ou J/s);
+Calculado o quanto de calor foi consumido na operação, podemos determinar, agora, o volume de
+metal fundido com essa quantidade de calor utilizada:
+Fluxo de volume = Qs / Uf = 2850 (J/s) / 12 (J/mm
+3
+) = 237,5 mm
+3
+/s.
+Viu como ficou fácil? Perceba que eu coloquei as unidades no desenvolvimento das fórmulas a fim
+de relembrar você das relações de unidades (J/s = Watt, por exemplo).
+E se quiséssemos calcular a velocidade dessa operação, dado uma área de seção transversal de,
+digamos, 10 mm
+2
+? Simples, vamos para a fórmula e sua relação:
+v = 237,5 mm
+3
+/s / 10 mm
+2
+= 23,75 mm/s.
+Outra expressão que pode vir a aparecer na sua prova, é a aquela que sintetiza esse conhecimento
+de fluxo de calor (energia) que vimos acima:
+𝑯 =
+𝜼. 𝑽. 𝑰
+𝒗
+;
+Na qual:
+• H = a própria energia de soldagem, agora expressa em (J/mm);
+• 𝜼 = eficiência do processo (os fatores que mencionei);
+• 𝑽 = tensão imposta (nosso U), em volts;
+• 𝒗 = velocidade do processo de soldagem (mm/s);
+• 𝑰 = corrente (A);
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+Veja uma imagem6 a seguir que ilustra as partes dessa fórmula que estão relacionadas com a prática
+da soldagem:
+Já na segunda etapa, Estrategista, temos a dissipação de calor ocorrendo por condução para as
+regiões adjacentes do restante do material. Assim, temos aquela curva característica que vimos com as
+alterações das microestruturas dessas regiões. O gráfico isolado da variação de temperatura pode ser
+mostrado pela seguinte curva7:
+Nesse gráfico, Coruja, que corresponde ao Ciclo Térmico da soldagem, temos a Temperatura de Pico
+(Tp) correspondente à temperatura máxima de uma dada microrregião da solda, sendo responsável pelas
+transformações maiores na microestrutura desse ponto da solda. Essa temperatura é influenciada pela
+geometria da peça, condições da soldagem, propriedades térmicas da peça, sua temperatura inicial e a
+distância do ponto e da fonte de calor.
+6 Adaptado de Marques, P.V.; Modenesi, P.J.; Bracarense, A.Q. Soldagem: Fundamentos e Tecnologia. 3a Edição. Editora: UFMG, 2011.
+7 Adaptado de Marques, P.V.; Modenesi, P.J.; Bracarense, A.Q. Soldagem: Fundamentos e Tecnologia. 3a Edição. Editora: UFMG, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+Assim, conforme se distancia da região, a Tp também diminui, sendo possível seu cálculo, Coruja, pela
+seguinte expressão para soldas de um passe com penetração total:
+𝟏
+(𝑻𝒑 − 𝑻𝒐)
+= 𝟒, 𝟏𝟑𝟑.
+𝝆. 𝒄. 𝒉. 𝒚
+𝑯
++
+𝟏
+𝑻𝒇 − 𝑻𝒐
+;
+Na qual, em unidades específica da questão de prova:
+• 𝑻𝒐 = temperatura inicial (por exemplo, no pré-aquecimento);
+• ρ = densidade do material;
+• c = calor específico do material;
+• h = é a espessura da peça;
+• y = a distância do ponto considerado à linha de fusão (onde Tp = Tf);
+• Tf = temperatura de fusão do material;
+• H = energia de soldagem.
+Estrategista, sinceramente, não se preocupe com essas fórmula (ainda não vi, para seu cargo,
+nenhuma questão que a cobrasse). No âmbito da soldagem, as questão são demasiadamente qualitativas.
+"Tchierto"?
+Além da Tp, você precisa saber sobre outra temperatura que pode vir a aparecer que é a Temperatura
+Crítica (Tc) e sua relação com o tempo. Ou seja, quanto maior o tempo em temperaturas acima da Tc,
+maiores mudanças na microestrutura da região.
+Nesse ponto, também surge a importância da velocidade de resfriamento (φ) (inclinação da curva,
+indicada na figura acima, Coruja). Ela é estimada pela derivada de qualquer temperatura determinada na
+curva de resfriamento que vimos.
+Estrategista, além dessas características, existem algumas variáveis importantes que aparecem no
+Ciclo Térmico, sendo seus conceitos passíveis de serem alvo de prova. São eles:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+• Tipo de metal de base: o metal de base (MB) impacta diretamente na condutividade térmica (já
+que cada material tem a sua). Assim, metais como cobre e alumínio, como possuem alta
+condutividade térmica dissipam calor da região da solda mais facilmente para toda a peça,
+tornando elevada a dificuldade de formação da poça de fusão. Já materiais não tão condutores,
+a energia na região da solda é melhor aproveitada (claro, fica mais concentrada) e costumam
+apresentar velocidade de resfriamento menor o que impacta na microestrutura final, como já
+vimos. Veja a imagem
+8
+a seguir de distribuição teórica de temperatura do cobre (a) e do aço
+inoxidável austenítico (b) da brilhante obra de Modenesi, Marques e Santos (2012) para uma
+espessura de 10 mm e energia de soldagem de 0,6 kJ/mm:
+• Geometria da junta: também impacta na soldagem, Coruja, pois a depender da posição e
+considerando MB e demais fatores idênticos, uma junta em "T" (veremos as juntas na parte final
+8 Adaptado de Modenesi, P.J; Marques, P.V; Santos, D.B; Introdução à Metalurgia da Soldagem. UFMG – Departamento de Engenharia Metalúrgica e de Materiais, 2012.
+Variáveis do Ciclo Térmico
+Tipo de metal de base
+Geometria da junta
+Espessura da junta
+Energia de soldagem e temperatua inicial
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+dessa aula), por exemplo, possui três possíveis direções de fluxo de calor. Situação diferente
+ocorre para a junta de topo que possui somente duas direções. E qual a conclusão sobre isso,
+Estrategista? Oras, juntas como ângulos (como na "T"), tendem a esfriar mais rapidamente!
+9
+• Espessura da junta: em condições idênticas de soldagem, uma peça com maior espessura
+viabiliza melhor escoamento de calor da região da solda, pois com espessuras maiores, maiores
+quantidade de material existe para entrar em equilíbrio térmico e "roubar" energia na forma de
+calor da região. Consequentemente, mais rapidamente a junta tende a se resfriar durante o
+processo. Claro que existe uma espessura limite (a depender do tipo de material) na qual a
+velocidade de resfriamento não aumenta mais, sendo independente dos valores de espessuras
+maiores;
+• Energia de soldagem e temperatura inicial: oras, Estrategista, os dois parâmetros vão impactar
+na velocidade de resfriamento e, consequentemente, na microestrutura final das regiões e
+consequentemente, nas propriedades mecânicas. Isso porque a temperatura inicial está
+associada com a prática do pré-aquecimento que por sua vez diminui a velocidade de
+resfriamento do processo (já que peça está pré-aquecida, diminuindo a variação de temperatura)
+e diminuindo a possibilidade de martensita (que pode gerar trincas, pela baixa ductilidade e
+tenacidade na região da solda a depender do serviço);
+Descontinuidades e fissuração (trincas) em soldas
+Estrategista, para nossa última seção dessa aula, falarei sobre as principais descontinuidades e
+defeitos (como fissuração/trincas) em processos de soldagem. Esse tema costuma ser objetivo de cobrança,
+por isso, atenção!
+Para nosso estudo, além da doutrina específica, passarei por algumas definições importantes da
+norma N-1738 da própria Petrobrás. "Vamo que vamo"? Avante!
+9 Adaptado de Modenesi, P.J; Marques, P.V; Santos, D.B; Introdução à Metalurgia da Soldagem. UFMG – Departamento de Engenharia Metalúrgica e de Materiais, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+... (tosco esse "avante" que eu uso, né? Mas, é meu charminho, rsrs). Bora, vai. Foco!
+Começando pela definição de descontinuidade segunda a norma citada ipsis litteris:
+"Descontinuidade é a interrupção das estruturas típicas de uma peça, no que se refere à
+homogeneidade de características físicas, mecânicas ou metalúrgicas. Não é necessariamente um
+defeito. A descontinuidade só deve ser considerada defeito, quando, por sua natureza, dimensões
+ou efeito acumulado, tornar a peça inaceitável, por não satisfazer os requisitos mínimos da norma
+técnica aplicável. - N-1738 (adaptado).
+Logo, Coruja, saiba de antemão que descontinuidade não caracteriza, por si só, como um defeito.
+Ao meu ver, situação diferente podemos dizer sobre as fissurações (trincas) que veremos adiante. Dessa
+forma, começaremos com as descontinuidades elencadas pela literatura específica
+10
+. Assim, temos dois
+grandes grupos:
+10 Adaptado de Marques, P.V.; Modenesi, P.J.; Bracarense, A.Q. Soldagem: Fundamentos e Tecnologia. 3a Edição. Editora: UFMG, 2011.
+Descontinuidades
+Dimensionais
+Distorção
+Dimensões incorretas de solda
+Perfil incorreto de solda
+Formato incorreto da junta
+Estruturais
+Porosidades
+Inclusões de escória (tungstênio)
+Falta de fusão
+Falta de penetração
+Mordeduras
+Trincas
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 21 =====
+20
+Descontinuidades dimensionais
+São aquelas relacionadas a erros de dimensões ou forma de cordões de solda. Basicamente, a
+gravidade da descontinuidade varia com a magnitude de sua aplicação. Vejamos cada uma:
+• Distorção: tem como origem as deformações plásticas provenientes do aquecimento não
+uniforme e localizado durante o processo. Como possíveis causas temos a soldagem em excesso;
+soldagem de juntas livres (peças que possam se mover durante o processo); chanfro selecionado
+incorreto, entre outras. Como possível solução, a diminuição de energia (calor) e metal
+depositado, além de fixadores e martelamento entre passes, além da escolha certa de chanfro,
+podem evitar o problema;
+• Dimensões incorretas de solda: as dimensões da solda na prática da engenharia tem relação
+direta com o tipo de serviço no qual a estrutura ou peça serão submetidos. Oras, a escolha errada
+da dimensão dessa solda pode gerar uma falha por conta da falta, por exemplo, de resistência
+mecânica dada uma tensão imposta;
+• Perfil incorreto de solda: está relacionado a origem de diversos defeitos de solda. Isso porque a
+geometria incorreta da solda pode ser ponto de concentração de tensão, impulsionando a criação
+e propagação de trincas (defeito que veremos). Além disso, alta convexidade de cordões nas
+soldas multipasses podem gerar falta de fusão e inclusões de escória.
+• Formato incorreto da junta: está vinculado ao posicionamento errado das peças no momento da
+soldagem, resultando em um desalinhamento da solda;
+Descontinuidades estruturais
+Essas descontinuidades podem ser geradas tanto na microestrutura quanto na macroestrutura da
+região de solda, sendo originadas pela falta de material ou pela presença de material estranho (quando em
+excesso). A gravidade dessas descontinuidades vão depender muito de cada tipo, extensão e geometria.
+• Porosidades: costumam ser originadas pela presença de gases durante a solidificação na solda.
+A falta de desprendimento de gases podem gerar bolhas dentro da solda por gases que podem
+ser formados na fusão do material (como o CO e o CO2) por conta do carbono da liga e do gás O2
+do ar atmosférico. Além disso, umidades excessivas e contaminação com óleo, graxa, ou fluxo e
+gás de proteção (úmidos) podem gerar esse defeito. Como consequência das bolhas, as
+propriedades mecânicas podem ser alteradas. Para eliminar esse problema, é imprescindível, uso
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+de gás de proteção adequado, eletrodos com revestimento específico e material limpo. A
+porosidades podem ser de vários tipos, como a figura11 a seguir nos mostra:
+• Inclusões de escória (tungstênio): diferentes processos de soldagem (vistos em outra aula) forma
+escória (camada de proteção da soldagem) que se separa do metal líquido na poça de fusão. Esses
+materiais podem gerar inclusões entre a escória que fica retida entre os passes de solda e o metal
+de base. Costumam ter origem pela erro de manipulação de eletrodo, fazendo com que a escória
+fique à frente da poça de fusão, sendo agravado o problema em passes com convexidade
+excessiva ou chanfro muito estreito. Essas inclusões podem gerar concentração de tensão e
+gerar trincas. Na soldagem TIG (falaremos dela na aula que vem), o eletrodo é feito em tungstênio
+e quando ele encosta no metal de base ou poça, podem ocorrer transferência de tungstênio para
+a região. Veja a figura
+12
+de uma das origens:
+11 Adaptado da norma N-1738 – Petrobrás.
+12 Adaptado da norma N-1738 – Petrobrás.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+• Falta de fusão: nesse tipo, temos o problema da ausência de continuidade na junta soldada entre
+o metal de deposição (proveniente de varetas, por exemplo) e o metal de base. Tem como origem
+a falta de energia (calor) suficiente que acaba não aquecendo adequadamente o metal presente
+na junta. Outra possível causa é a presença de camada de óxido muito espessa formada que
+dificulta a fusão do metal de base. Essa descontinuidade pode ser gerada por manipulação
+incorreta do eletrodo, presença de sujeira na junta e energia insuficiente (seja por corrente muito
+baixa, seja por velocidade de soldagem elevada). Como consequência principal temos, para
+variar, o surgimento e propagação de trincas pela concentração de tensão no ponto de falta de
+fusão. A única correção é a ressoldagem. Veja a figura
+13
+abaixo com três possíveis localizações da
+falta de fusão.
+• Falta de penetração: como nome sugere, o defeito é gerado por uma falta de metal em alguma
+região da junta (normalmente, na raiz da solda). Tem como causa, novamente, a manipulação
+errada do eletrodo ou junta mal projetada, ângulo de chanfro pequeno, correntes baixas e
+velocidade de soldagem muito alta e diâmetro da alma do eletrodo muito grande. Como
+consequência direta, temos uma redução útil da solda e concentração de tensão. Para corrigir o
+13 Adaptado da norma N-1738 – Petrobrás.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+problema, é justo a correta dimensão da junta e procedimento adequado de soldagem. Veja a
+figura14 a seguir, Estrategista.
+• Mordeduras: consiste em uma depressão na forma de entalhe no metal de base que acompanha
+a margem da solda. Dessa forma, a fusão do metal de base nessa margem não é o suficiente para
+encher a área. Assim, surge uma reentrância na região, pois material do metal de base sofreu
+fusão e foi "absorvido" para a solda. Tem como causa uma manipulação incorreta do eletrodo e
+comprimento excessivo do arco elétrico (veremos esse tipo de processo na aula que vem), além
+da corrente muito alta. Consequência direta é a redução da área útil e, de novo, concentração de
+tensões (perceba a recorrência desse tipo de resultado nos defeitos). Para correção, além do
+processo adequado, pode ser usado um esmeril para sua eliminação. Veja a figura15 a seguir que
+ilustra esse defeito.
+14 Adaptado da norma N-1738 – Petrobrás.
+15 Adaptado da norma N-1738 – Petrobrás.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+Saiba, Coruja, que o "reforço de solda" é uma nomenclatura comumente empregada nos
+processos de soldagem. Nada mais é que uma técnica usada para preencher a junta com
+material acima do necessário. Todavia, saiba que a nomenclatura foi infeliz e tende a
+enviesar seu pensamento, pois você pensa que vai "reforçar a solda" e torná-la mais
+resistente. Errado! Na verdade, é somente um excesso na solda a fim de completar a
+junta. (Essa é, inclusive, a definição da American Welding Society (AWS).
+Fissuração (trincas)
+Estrategista, vimos que as trincas (ou fissuração) compõem o grupo de descontinuidades do tipo
+estrutural. Veremos, agora, os principais tipos com maior atenção.
+À princípio, Coruja, as trincas são consideradas descontinuidades mais graves que as demais. Isso
+porque elas são consideradas como pontos de elevada concentração de tensão, sendo precursoras de
+fraturas do tipo frágil perigosas.
+Por conta da aplicação localizada de energia (calor) durante o processo, temos expansões e
+contrações (no resfriamento) também localizadas, fazendo com que as tensões surjam em diferentes
+dimensões na região da solda. Esse cenário somado a diferentes microestruturas atingidas no material e a
+presença de elementos (como o hidrogênio) na solda, pode gerar a trinca na região.
+De maneira geral, temos as trincas internas e externas (estas, podendo ser identificadas por ensaios
+visuais). Além disso, elas podem surgir na ZF, na ZTA (ou ZAC - Zonas Afetadas pelo Calor) e no MB.
+Basicamente, temos dois mecanismos causadores de trincas podem surgir: fissuração a quente
+(fissuração na solidificação) e fissuração a frio (fissuração pelo hidrogênio). Vejamos cada tipo.
+• Fissuração na solidificação: está relacionada com a segregação de elementos que compõem a
+liga metálica do material e que possuem diferentes solubilidades que vão formar filmes de metal
+líquido no contorno dos grãos do material. Esse fenômeno ocorre por conta da fusão na poça que
+atinge a fase líquida e elementos como o enxofre e o fósforo, por exemplo, possuem maior
+solubilidade no estado líquido. Assim, eles vão se concentrando em uma dada região
+(segregando-se do restante da liga) conforme a solidificação ocorre e alterando as propriedades
+mecânicas dessa região específica.
+O formato do cordão é um fator importante na formação dessas trincas, pois determina a maior
+ou menor facilidade de alimentação com o metal líquido de certas regiões do cordão ao término
+da solidificação;
+• Fissuração por hidrogênio: primeira característica que você precisa memorizar, Coruja, é que esse
+é o principal mecanismo e mais comum em aços carbono de baixa e média liga (principalmente,
+os temperáveis - com microestrutura martensítica produzida na soldagem). A trinca ocorre na ZTA
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+e na ZF. O grande problema é que a trinca ocorre depois da soldagem (podendo surgir a partir de
+algumas horas posteriores). Além disso, ela cresce lentamente, chegando até dois dias para seu
+crescimento completo. Por conta disso, as inspeções são trabalhosas e necessita de tempo para
+serem efetivas (efetuando logo após a soldagem, podem não evidenciar o problema).
+Além desses pontos, saiba que existem quatro fatores que geram esse defeito: presença do
+hidrogênio (seja pelo material de revestimento do eletrodo ou vareta, seja pela umidade da
+atmosfera local); microestrutura sensível (a presença da martensita em condições de soldagem
+com alta velocidade de resfriamento potencializa o surgimento dessas trincas com baixa
+tenacidade e ductilidade na região); elevado esforço (tensões elevadas, como de natureza trativa
+podem ocasionar a trinca) e temperatura (a fissuração de hidrogênio pode ocorrer de -100 a
+200
+o
+C, por isso manter a solda por um tempo posterior ao processo pode fazer com que o
+hidrogênio seja difundido para fora da junta. Esse técnica se chama pós-aquecimento, Coruja!).
+Perceba que tanto o pré-aquecimento (que reduz a velocidade de resfriamento, pois diminui a
+variação de temperatura) quanto o pós-aquecimento são cruciais para evitar esse tipo de defeito.
+Estrategista, as trincas são um problema em processos de soldagem, inclusive, antes de começar e
+finalizar o processo, a depender do material. É o caso dos ferros fundidos. De acordo com a prática
+industrial, por conta de o ferro fundido ser uma liga com teor de carbono elevado (acima de 2%) e conter
+diferentes teores de outros elementos de liga, além de tratamentos térmicos prévios que podem ser
+desenvolvidos, tem-se um cenário de soldabilidade variável (claro, com diferentes elementos envolvidos,
+o resultado durante o processo muda). Dessa forma, temos algumas técnicas que a doutrina elenca para
+se fazer a soldagem: a quente e a frio.
+• Soldagem a quente: é empregada quando as propriedades mecânicas são importantes e o
+aspecto visual deve ser quase igual ao material que será soldado. Assim, os consumíveis utilizados
+são de composição química similar ao metal de base. Além disso, memorize que temos duas
+barreiras que a doutrina elenca que dificultam o processo: necessidade de pré-aquecimento (a
+cerca de 350
+o
+C) e resfriamento lento depois da soldagem;
+• Soldagem a frio: primeira coisa a se memorizar é que essa técnica é mais comum que a primeira.
+Normalmente, se utilizam ligas à base de níquel para depositar na solda. Além disso, necessita de
+baixo aporte de calor (o processo comumente utilizado é o de eletrodos revestidos). Todavia, é
+importante conhecer os procedimentos (passos) sugeridos na prática por empresas do ramo,
+como a ESAB:
+o 1º passo: fazer furos redondos nas extremidades da trinca, a fim de evitar a sua
+propagação;
+o 2º passo: fazer chanfros em toda a trinca com eletrodos específicos;
+o 3º passo: fazer pequenos cordões de solda (estreitos e curtos com no máximo 3 cm de
+comprimento), alternadamente, do centro para as bordas e com eletrodos específicos;
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 27 =====
+26
+o 4º passo: martelar cada cordão depois da solda para aliviar as tensões;
+Decoesão lamelar
+Coruja, a decoesão lamelar (também chamada de trinca lamelar) também consiste em um defeito de
+fissuração de estrutura que ocorre no metal de base. Ele pode ocorrer na ZTA, também, e são constituídas
+por planos paralelos à superfície da solda. Esse tipo de trinca surge, normalmente, em soldas com vários
+passes e em juntas em "T" feitas em chapas de 12 a 60 mm de espessura.
+Quando analisada (macrografica, por exemplo) ela tem aparência de vários degraus. Essa aparência
+deriva do seu mecanismo de formação que está associado a fissuração de inclusões alongadas quando o
+metal é submetido a tensões de tração no sentido da espessura da chapa. Pela união dos vazios formados
+plasticamente, surge sua morfologia característica. Veja a figura
+16
+a seguir.
+Para se evitar esse defeito, Coruja, é comum a utilização de camadas de materiais (no metal de base)
+com elevada ductilidade, a fim de absorver a energia no campo plástico sem se romper com facilidade.
+Tipos de juntas e simbologia
+Coruja, para fecharmos a aula de hoje, convém falarmos um pouco dos tipos de juntas e retomar
+algumas simbologias tratadas em desenho técnico. Vamos ver as principais juntas e, depois, as principais
+simbologias já vistas em desenho técnico.
+Os tipos de juntas são:
+16 Adaptado de Modenesi, P.J; Marques, P.V; Santos, D.B; Introdução à Metalurgia da Soldagem. UFMG – Departamento de Engenharia Metalúrgica e de Materiais, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+a-) De topo: peças a serem soldadas estão no mesmo plano e unidas pelas suas extremidades;
+b-) De canto: as peças a serem soldadas formam um canto de ângulo de 90
+o
+e são unidas nele;
+c-) Sobreposta: as peças a serem soldadas estão sobrepostas;
+d-) Em “Tê”: as peças a serem soldadas formam um “T”, perpendiculares entre si;
+e-) Aresta: as peças a serem soldadas são colocadas paralelamente com cada aresta em comum
+e nesta aresta será feita a solda;
+A figura a seguir mostra os tipos de juntas supramencionados:
+17
+Também não podemos deixar de citar os tipos de solda (são diferentes do tipo de processo de
+soldagem como já expliquei até o momento):
+Os tipos de solda são: filete, chanfro, tampão e fenda, ponto e costura:
+• A solda do tipo filete são usadas para preencher arestas nas juntas de cantos, tê e sobrepostas.
+São os tipos de solda mais usados em processos a arco e oxicombustível. A figura a seguir mostra
+as soldas aplicas em filete por visão frontal dos tipos de juntas:
+17 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+18
+• A solda do tipo chanfro necessita de arestas moldadas em chanfro para facilitar a penetração da
+solda. Esses chanfros possuem diferentes configurações, como: reto, bisel, em “V”, em “U” e em
+“J”, sejam eles de um só lado, sejam eles dos dois lados (duplo) das peças a serem unidas pela
+solda. Também podem ser usados em processos a arco elétrico e a oxicombustível e em todos
+os tipos de juntas, exceto as juntas sobrepostas. Grave isso!
+A figura a seguir, Coruja, ilustra os tipos de chanfros para os tipos de juntas – a-) reto; b-) bisel;
+c-) em “V”; d-) em “U”; e-) em “J”; f-) em “V” dupla. Perceba os pontilhados entre as peças a serem
+unidas pelo processo de soldagem, evidenciando cada configuração.
+19
+• A solda do tipo tampão e a solda de fenda são utilizadas para placas planas com furos entre elas
+e é usado metal de adição para unir as duas peças. A solda do tipo fenda consiste também em um
+furo, porém mais alongado. A figura abaixo ilustra um exemplo do tipo tampão.
+18 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+19 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+20
+• A solda do tipo ponto e a solda do tipo costura guardam relações entre si pelo fato da costura ter
+várias soldas de pontos juntas em uma sequência contínua. A de ponto, como o próprio nome já
+deixa claro, é uma solda feita em um ou vários pontos, porém não são contínuos. A figura abaixo
+mostra esses dois tipos.
+21
+Além dessas informações, Corujas, veja algumas denominações de juntas e chanfros que podem
+aparecer proveniente da literatura22:
+20 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+21 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+22 Adaptado de Silveira, Julio. Soldagem. IFSC. 2021.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+Nessas figuras, Coruja, temos a abertura da raiz da solda, indicada pela letra "f", bem como o nariz
+da solda indicado pela letra "s". Além disso, temos o ângulo de abertura do chanfro α e do Bisel ẞ.
+Dentro dessa seara, temos a garganta da solda que é definida como sendo a altura do triângulo
+maior inscrito na seção transversal do cordão da solda. Veja:
+Aqui, saiba que, de acordo com a norma ABNT NBR 8800, norma da própria Petrobrás, para soldas de
+penetração total e parcial, temos as seguintes disposições (parte delas que acho pertinente você conhecer,
+as demais acho muito "lero, lero", cheio de decoreba com baixa probabilidade de aparecer):
+• A área efetiva das soldas de penetração total e parcial deve ser calculada como o produto do
+comprimento efetivo da solda pela espessura da garganta efetiva;
+• O comprimento efetivo de uma solda de penetração total e parcial é igual ao seu comprimento
+real, o qual deve ser igual à largura da parte ligada;
+• A espessura da garganta efetiva de uma solda de penetração total deve ser tomada igual à menor
+espessuras das partes soldadas;
+(Marinha/Mecânica)
+Observe as figuras abaixo:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+As figuras acima apresentam tipos de juntas soldadas. Assinale a opção que apresenta, respectivamente, a
+nomenclatura correta de cada uma.
+a) 1. de flange, 2. de topo reta, 3. de topo em V.
+b) 1. de topo em duplo V, 2. de topo em U, 3. de topo em duplo U.
+c) 1. sobreposta, 2. de canto, 3. de canto.
+d) 1. em T, 2. sobreposta, 3. de canto.
+e) 1. de canto, 2. sobreposta, 3. de topo em V.
+Comentário:
+Estrategista, questão que nos cobra os tipos de juntas soldadas com os tipos de soldas.
+Perceba que temos: em 1 - sobreposta; 2 - de canto e em 3 - de canto (você poderia ter se confundido com
+o tipo de solda e formato do chanfro, pois é diferente da segunda, estando em "V", mas está correta!).
+Gabarito: “c”.
+Simbologia e símbolos de soldagem
+Coruja, nessa parte da aula veremos alguns símbolos básicos utilizados em desenhos técnicos sobre
+soldas e soldagem. Apesar do tópicos soldagem ser assunto de outra aula, veremos somente alguns símbolos
+que são cobrados de maneira direta no âmbito da disciplina de desenho. Normalmente, as questões sobre
+esse assunto são raras e quando aparecem, nos cobram o conhecimento da norma ANSI-AWS A2.4-98 e
+Adaptado da norma AWS A2.4-2020 que relacionam os padrões desses símbolos. Além disso, esse tipo de
+conhecimento costuma ser mais explorado nas provas para técnico.
+Primeiramente, Estrategista, temos que ter em mente a diferença (tem "cheiro" de prova esse tipo
+de cobrança) entre a simbologia de solda e a simbologia de soldagem. Dessa forma, como cita a mencionada
+norma, símbolos de solda são aqueles que indicam o tipo de solda que, quando utilizado, constitui em uma
+parte do símbolo de soldagem (logo, a simbologia de soldagem é mais abrangente). Veja a figura abaixo:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+23
+Coruja, para sua prova, temos que ter em mente os seguintes símbolos de solda que são comuns.
+Coloquei a linha de referência que vimos acima tracejada para fins didáticos e destaque do símbolo.
+23 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+24
+Além desses símbolos básicos, temos mais três, Coruja (ilustrei eles em separado, para não ficar muito
+poluído nossa primeira figura acima, rs). Veja abaixo esses dois símbolos.
+25
+24 Adaptado da norma ANSI-AWS A2.4-98.
+25 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+Conforme expliquei, esses símbolos que vimos são os de solda e eles sempre estarão contidos dentro
+do comprimento da linha de referência.
+Por outro lado, Coruja, os símbolos de soldagem podem ter diversos elementos, sendo obrigatórios
+somente a linha de referência e a seta. Dessa forma, teremos várias possibilidade de informações específicas
+e adicionais. A figura
+26
+abaixo exemplifica o posicionamento dessas diferentes informações no símbolo de
+soldagem.
+Estrategista, essa representação está em linha com a norma AWS A2.4-98 (norma mais antiga, que
+costuma ainda aparecer em concursos, por isso mantenho esse esquema também). Todavia, temos a mais
+nova AWS A2.4-202027 que trouxe mais luz quanto a certos posicionamentos da seta e linha de referência.
+26 Adaptado da norma NBR 7165.
+27 Adaptado da norma AWS A2.4-2020.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+Esses posicionamentos quanto ao ângulo, símbolo de acabamento e contorno, não eram claros se deveriam
+ficar em cima da seta sempre, independente do lado da soldagem ou variar conforme o lado da soldagem.
+Agora, esses pontos ficaram mais claros, além de terem incluído o número de pontos, pinos, plugs e
+slots, por exemplo. Por isso, trago o quadro a seguir, em inglês (pode aparecer termos em inglês e é bom
+você ter esse conhecimento) para você comparar e verificar as inclusões e modificações que tivemos.
+Perceba que é a mesma imagem, porém invertida (não muda nada) e com mais instruções. Veja que os
+lugares dos ângulos, símbolos do chanfro e acabamento, por exemplo, está explícito que pode ser escritos
+acima e abaixo da linha de referência. Marquei em vermelho na figura.
+Coruja, outra informação que julgo importante, é inerente aos códigos que podem aparecer para
+designações de eletrodos. Esse código, como mostra a figura acima, são escritos na região da letra "T" na
+linha de referência. De acordo com a norma AWS A5.1-81, temos as codificações mais gerais propostas da
+seguinte forma:
+Para aços carbono comuns:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====
+36
+EXXXYZ
+Onde:
+• E : tipo de eletrodo (que é o eletrodo revestido);
+• XXX: resistência mínima à tração do metal de solda em 1000 psi;
+• Y: posição da soldagem, sendo 1 - todas as posições; 2 - plana e filetes horizontais; 3 - plana; 4 -
+vertical descendente e outras posições;
+• Z: tipo de corrente e o tipo de revestimento;
+Para aços liga:
+EXXXYZ - N
+Onde:
+• Todos os termos tem as mesmas indicações, mas a inclusão do termo "N" que representa o grupo
+de composição química do material;
+Estrategista, além dessas informações, temos alguns símbolos suplementares que podem vir a ser
+cobrados. Normalmente, eles são usados em conjunto com os símbolos de soldagem que vimos acima. Veja
+a figura
+28
+a seguir elencado e sua denominação.
+28 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 38 =====
+37
+Além disso, veja a simbologia para a solda com penetração total:
+Temos, também, três símbolos importantes que dizem respeito ao perfil do cordão da solda. Veja
+29
+:
+Estrategista, agora, veremos alguns exemplos de aplicação elencados pela norma supracitada. Já foi
+questão de cobra um desses exemplos e acho importante você ter os principais casos em mente. Os
+primeiros exemplos dizem respeito ao lado da seta do símbolo de soldagem, a informação deve vir abaixo
+da linha de referência que vimos. Se for o lado oposto da seta, aí a informação virá em cima da linha de
+referência. Veja a figura com os exemplos "a", "b" e "c" a seguir.
+Coruja, algumas regrinhas são importantes para certos tipos de solda. Saiba que para as soldas Filete,
+de Chanfro e de Aresta, temos que a seta deve conectar a linha de referência do símbolo da soldagem a
+29 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 39 =====
+38
+um lado da junta e que esse lado deve ser o lado da seta da junta. Veja alguns exemplos30 paras as soldas
+em relação ao lado da seta e do lado oposto nas soldagem Em V e Em V Duplo:
+Além desses exemplos, é relevante sabermos alguns casos combinados (nada mais são que símbolos
+de solda combinados, envolvendo mais de um tipo de solda). Casos combinados já foram alvo de cobrança,
+por isso, há chance de aparecer de novo nas provas. Veja os exemplos31 a seguir.
+30 Adaptado da norma ANSI-AWS A2.4-98.
+31 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 40 =====
+39
+Perceba, Estrategista, que a simbologia da solda tem muita relação com o formato da
+seção da solda. É importante esse "bizu", pois muita questão de prova você consegue
+"matar" só imaginando como seria o símbolo pela seção do desenho do exercício. ;)
+Outra simbologia desenvolvida pela escola Senai e que já foi alvo de prova é a do quadro a seguir. Na
+verdade, é a mesma simbologia com nomenclatura diferente que quer dizer exatamente a mesma junta
+especificada pela norma anterior. Veja:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 41 =====
+40
+Perceba que temos algumas setas meio "tortas" no quadro acima, certo, Coruja? Esse tipo de seta é
+chamada de "zigue-zague". "Tá, professor, e daí? Qual a diferença?" Lindo, Estrategista! A diferença é
+simples: quando a seta é reta e não em zigue-zague, temos que o chanfro pode ser usinado em ambos os
+lados da junta! Quando for em zigue-zague a usinagem do chanfro só pode ser feita do lado junto que ele
+está indicando, perfeito?
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 42 =====
+41
+CONSIDERAÇÕES FINAIS
+Estrategista, chegamos ao término de mais uma aula! Agora, é fazer os exercícios e seu ciclo de
+revisão - principal pilar para ser aprovado em qualquer concurso!
+Trouxe questões das últimas provas de engenharia mecânica! Assim, sua preparação ficará completa
+sobre o tema de aula com diferentes bancas renomadas, além da banca do seu concurso! (FCC, CEBRASPE,
+CESGRANRIO, etc)! Dessa forma, você arrebentará na sua prova!
+Aproveito para deixar, novamente, minhas redes sociais! Possuo uma conta no Instagram® na qual
+compartilho questões comentadas, dicas de estudos e esquemas sobre diferentes assuntos e temas de
+Engenharia Mecânica, de tempos em tempos.
+Além disso, possuo também um canal no Telegram®! Por meio desse canal, eu compartilho outros
+tipos de informações pertinentes para você como questões do tipo CEBRASPE/CEBRASPE (certo ou errado)
+inéditas sobre Engenharia Mecânica.
+Depois, dê uma olhada! ;)
+prof.canelas; t.me/profcanelas.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 43 =====
+42
+QUESTÕES COMENTADAS
+CEBRASPE
+1. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+A formação de porosidade, um dos defeitos mais comuns em muitos processos de soldagem, decorre
+da evolução e aprisionamento de gases pelo metal durante a solidificação da solda e uma maneira de
+evitar que isso ocorra consiste em manter a umidade na região de junta entre cada passe de soldagem.
+( ) Certo ( ) Errado
+Comentário:
+Veja que a questão começa muito bem, definindo um dos problemas que é muito comum e que gera o
+defeito denominado de porosidade! Lembre-se que esse defeito surge pela evolução dos gases no
+processo de solidificação, sendo fruto do aprisionamento de bolhas de gás que ficaram aprisionadas.
+Todavia, a questão erra ao final: não é mantendo umidade na região que se evita esse problema (pelo
+contrário!). A umidade é maior aliada para a formação de bolhas, uma vez que a elevada temperatura faz
+com que o H2O na forma de vapor presente no ar atmosférico (ou mesmo na forma líquida na região)
+também é fonte de oxigênio que pode ficar aprisionado na região.
+Gabarito: errado.
+2. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+Em um processo de soldagem por fusão, existe umacorrelação direta entre a energia de soldagem e o
+resultado da solda, visto que, no cálculo de energia de soldagem, são considerados os seguintes
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 44 =====
+43
+parâmetros: corrente, tensão e velocidade de soldagem; ou seja, sempre que forem utilizados o
+mesmo processo e energia de soldagem, as soldas obtidas terão os mesmos formatos e características..
+( ) Certo ( ) Errado
+Comentário:
+Uma blá, blá, blá danado para uma questão tão óbvia! De fato, Coruja, os parâmetros citados fazem parte
+do cálculo do quanto de energia em forma de calor é relacionado a soldagem. Vimos ao longo da aula de
+processos (e dessa) que corrente, tensão e velocidade de soldagem tem relação direta com a energia na
+região da solda. Todavia, não podemos dizer que se aplicar os mesmo valores desses parâmetros em um
+dado processo, as soldas obtidas terão os mesmos formatos e características. Aqui está o erro dessa
+questão. Oras, existentes outros fatores que irão impactar o formato e a característica da solda. Um deles
+é o material do metal de base, por exemplo. Vimos na aula de processos que a soldagem TIG, por exemplo,
+é utilizada para diferentes ligas metálicas (claro que o comportamento de cada material irá impactar de
+forma diferente no formato e nas características da solda)
+Além disso, podemos citar as condições da atmosfera local e a proteção da região da solda. Vimos no
+decorrer da aula de hoje inúmeros problemas e defeitos que podem surgir, sendo que uma contaminação
+por gases ou umidade excessiva já são suficientes para deixar a solda com formatos e características
+diferentes, mesmo sendo aplicado os mesmo parâmetros em um dado processo.
+Gabarito: errado.
+3. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+As tensões residuais resultantes de um processo de soldagem por fusão de peças de aço podem
+contribuir para o aparecimento de diversos problemas nas juntas soldadas, mas a introdução
+gradativa de um carregamento na estrutura de modo a gerar deformações plásticas localizadas
+pode aliviar essas tensões.
+( ) Certo ( ) Errado
+Comentário:
+De fato, tensões podem surgir por conta das temperaturas elevadas e o resfriamento da região da solda.
+Lembre-se que a depender da região da solda, temperatura e velocidade de resfriamento, até
+microestruturas como a martensítica podem ser formadas. Um método de aliviar essas tensões é
+aplicando cargas (não só gradativas como a questão coloca), mas que faça uma leve deformação plástica
+na região para aliviar as tensões. Esse alívio de tensões de natureza mecânica é muito comum em
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 45 =====
+44
+processos de soldagem, sendo aplicado um nível de tensões de várias formas, como tensionamento da
+estrutura soldada, vibração, tratamentos superficiais, martelamento, por exemplo.
+Gabarito: correto.
+4. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+Em um processo de soldagem por fusão, existe uma correlação direta entre a energia de soldagem e o
+resultado da solda, visto que, no cálculo de energia de soldagem, são considerados os seguintes
+parâmetros: corrente, tensão e velocidade de soldagem; ou seja, sempre que forem utilizados o
+mesmo processo e energia de soldagem, as soldas obtidas terão os mesmos formatos e características..
+( ) Certo ( ) Errado
+Comentário:
+Uma blá, blá, blá danado para uma questão tão óbvia! De fato, Coruja, os parâmetros citados fazem parte
+do cálculo do quanto de energia em forma de calor é relacionado a soldagem. Vimos ao longo da aula de
+processos (e dessa) que corrente, tensão e velocidade de soldagem tem relação direta com a energia na
+região da solda. Todavia, não podemos dizer que se aplicar os mesmo valores desses parâmetros em um
+dado processo, as soldas obtidas terão os mesmos formatos e características. Aqui está o erro dessa
+questão. Oras, existentes outros fatores que irão impactar o formato e a característica da solda. Um deles
+é o material do metal de base, por exemplo. Vimos na aula de processos que a soldagem TIG, por exemplo,
+é utilizada para diferentes ligas metálicas (claro que o comportamento de cada material irá impactar de
+forma diferente no formato e nas características da solda)
+Além disso, podemos citar as condições da atmosfera local e a proteção da região da solda. Vimos no
+decorrer da aula de hoje inúmeros problemas e defeitos que podem surgir, sendo que uma contaminação
+por gases ou umidade excessiva já são suficientes para deixar a solda com formatos e características
+diferentes, mesmo sendo aplicado os mesmo parâmetros em um dado processo.
+Gabarito: errado.
+5. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+No processo de soldagem a arco por eletrodo consumível, o coeficiente de diluição é um parâmetro
+indicativo da quantidade de metal de adição que penetra na rede cristalina do metal base.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 46 =====
+45
+( ) Certo ( ) Errado
+Comentário:
+Opa! Pegadinha da banca! Na verdade, o coeficiente de diluição vai nos dizer o quanto (em percentual)
+de metal de base irá entrar na composição do metal de solda em processos de soldagem por fusão,
+principalmente, com metal de adição. Em soldagem autógena, sem metal de adição, esse coeficiente é
+100% (por motivos óbvios). Assim, a questão erra ao afirmar que é a quantidade de metal de adição que
+penetra na rede cristalina do metal de base. Além disso, não é somente em processos de soldagem a arco
+por eletrodo consumível que esse parâmetro existe (apesar da questão não restringir somente a esse
+processo).
+Gabarito: errado.
+6. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+A inclusão de escória é um defeito que pode facilitar a formação de trincas em peças soldadas,
+entretanto a formação de escória é desejável em alguns processos de soldagem para proteger
+da atmosfera o metal de solda.
+( ) Certo ( ) Errado
+Comentário:
+Questão perfeita! Oras, como vimos, essa é definição do defeito de inclusão de escória. Lembre-se que
+diferentes processos de soldagem (vistos em outra aula) forma escória (camada de proteção da soldagem
+- por isso ela é desejável em vários processos de soldagem) que se separa do metal líquido na poça de
+fusão. Esses materiais podem gerar inclusões entre a escória que fica retida entre os passes de solda e o
+metal de base.
+Gabarito: correto.
+7. (CEBRASPE / Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens a seguir, que tratam de metalurgia e defeitos de soldagem.
+Os diagramas de Schaeffler são bastante úteis nos processos de soldagem de aços inoxidáveis,
+pois permitem prever a microestrutura da zona de fusão com base na sua composição química
+e, em sua utilização para o cálculo do teor de cromo equivalente, é necessário que se considere
+a presença de outros elementos alfagênicos, a exemplo do molibdênio.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 47 =====
+46
+( ) Certo ( ) Errado
+Comentário:
+Questão perfeita que conceitua uma das principais utilidades dos Diagramas de Schaeffler - previsão da
+microestrutur da zona de fusão com base na composição química da liga, sendo muito utilizado em
+soldagem de aços inoxidáveis. Lembre-se:
+O uso do diagrama depende dos teores de certos elementos de liga que estarão presentes no tipo do aço
+inoxidável e no tipo de eletrodo utilizado. No eixo das ordenadas, temos uma equação que calcula o teor
+de níquel equivalente para uma certa liga com teores de níquel, carbono e manganês. Além disso, no
+eixo das abscissas, temos os teores de outros elementos de liga que devemos colocar na equação para
+encontrarmos o teor de cromo equivalente, que são os teores de cromo, silício e nióbio (este pode
+aparecer na sua nomenclatura antiga, pois o diagrama de Schaeffler foi desenvolvido na década de 40 do
+século passado e o nióbio era chamado de columbio - Cb, por isso, se aparecer Cb na sua prova, relaxe,
+pois é o nióbio). Assim, em cada eixo, temos:
+• Ordenadas:
+o Níquel Equivalente: %Ni + (30x%C) + (0,5x%Mn);
+• Abscissas:
+o Cromo Equivalente: %Cromo + (1,5x%Si) + (0,5xNb);
+Pronto, Coruja! Assim, para uma dada liga metálica específica de aço inoxidável, com os teores desses
+elementos, você substitui na equações acima para achar qual a região do diagrama você cairá, ou seja,
+qual a previsão de microestrutura teremos naquela solda. Veja as regiões:
+Vantagens do uso do
+Diagrama de Schaeffler
+Identificação das áreas problemáticas quanto a
+microestrutura nas regiões da solda
+Previsão de quais microestruturas e propriedades das
+regiões
+Previsão de riscos, fases e situações indesejáveis
+Seleção e avaliação de tipos de eletrodos
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 48 =====
+47
+Gabarito: correto.
+8. (CEBRASPE / PCIE-PE – Perito Criminal - Engenharia Mecânica – 2016)
+No que se refere à figura precedente, que mostra as transformações sofridas em metais após processo
+de soldagem, assinale a opção correta.
+a) A zona B indica uma região de refino de grãos, não ocorrendo redução significativa na resistência do
+material.
+b) A zona ZF representa a região de fundição, que se caracteriza por ser a região mais suscetível a
+falhas, mesmo em adequados processos de soldagem.
+c) A zona A mostra uma transformação austenítica, que produz aumento de dureza, alta resistência
+mecânica e baixa temperabilidade.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 49 =====
+48
+d) A figura mostra uma transformação em metais como alumínio ou cobre.
+e) A zona C indica uma região crítica no processo de soldagem devido ao intenso aumento de grãos.
+Comentário:
+Questão interessante que cobra o seu conhecimento sobre as diferentes zonas da ZTA (Zona
+Termicamente Afetada) e da ZF (Zona Fundida). Como vimos, Coruja, na ZTA temos diferentes regiões
+que, por conta da temperatura, acaba sofrendo mudanças em suas microestruturas. Vejamos cada
+alternativa
+Letra "a": perfeita! De fato, Coruja, a zona B da figura (inclusive retirada da literatura específica) é a região
+de refino de grãos que fica cerca de 900 a 1200
+o
+C. Essa região não há grandes mudanças na resistência
+do material e, em ligas ferro-carbono como no aço, temos uma microestrutura caracterizada por finas
+lamelas de perlita e ferrita;
+Letra "b": errada! De fato, a ZF é a zona da região de fundição com pico de temperaturas atingido o ferro
+delta. Todavia, não é a região mais suscetível a falhas, como é a região de crescimento de grão (região A).
+Esta que, por sua vez, possui grande crescimento de grãos na fase austenítica e, a depender do
+resfriamento, teor de carbono e elementos de liga, pode resultar em uma microestrutura grosseira,
+suscetível a falhas pelo surgimento de tricas;
+Letra "c": errada! De fato, temos uma transformação austenítica nessa região, com grande crescimento
+de grão nessa região do diagrama ferro-carbono. Todavia, o aumento da resistência mecânica e dureza,
+vai depender do resfriamento e condições da liga (elementos de liga) a fim de atingir a microestrutura
+martensítica. Somada a isso, a alta temperatura e energia dessa região impacta em um grão austenítico
+mais grosseiro que, somado aos demais fatores acima, dificultam sua transformação em outras
+microestruturas como perlita e bainita nas curvas TTT do material. Dessa forma, há um aumento na
+temperabilidade que é a capacidade da liga em atingir a microestrutura martensítica com certa
+profundida de endurecimento;
+Letra "d": errada! Basta verificar na figura que temos as faixas de temperaturas do diagrama ferro-
+carbono. Logo, não são diagramas de ligas de alumínio ou cobre. Além disso, é pacífico na doutrina que
+essas ligas não são transformáveis em estados recozidos, sendo marcadas pelo fenômenos do
+crescimento de grão;
+Letra "e": errada! Primeiro porque essa região não denominada de crítica e, sim, intercrítica na lavra da
+doutrina. Além disso, essa região situa-se na faixa de temperatura eutetóide (cerca de 727
+o
+C) e a linha A3
+do diagrama ferro-carbono. Dessa forma, a transformação em austenita é parcial e não total,
+evidenciando um aumento de grão "não intenso" como afirma a alternativa.
+Gabarito: “a”.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 50 =====
+49
+9. (CEBRASPE / IEMA - Mecânica – 2007)
+Há vários modos de se controlar a microestrutura no procedimento de soldagem. Entre os métodos
+mais comuns, estão os tratamentos térmicos aplicados nos procedimentos de soldagem. Acerca desse
+assunto, julgue o próximo item.
+A soldagem de peças de aços temperáveis pode produzir uma junção com elevada fragilidade. Nesses
+casos, o revenimento pode ser aplicado para reduzir a fragilidade produzida.
+( ) Certo ( ) Errado
+Comentário:
+Opa! Exatamente, Coruja! Conforme vimos, existe o tratamento de revenido (também chamado de
+revenimento), cuja função é justamente diminuir a dureza e a fragilidade do material, elevando sua
+tenacidade. Ele é aplicado depois da têmpera e atua fazendo com o carbono gerador de tensões internas
+que ficou retido na microestrutura, se libere e alivie as tensões geradas. Dessa forma, diminui a dureza e
+a fragilidade da liga em temperaturas específicas e controladas.
+Gabarito: correto.
+10. (CEBRASPE / CENSIPAM - Analista – 2006)
+O desenho acima refere-se a uma soldagem que será feita em chapas cujo material é o ASTM A36. O
+eletrodo selecionado é consumível e o gás de proteção da poça de fusão escolhido foi o CO₂. No
+contexto dessa soldagem, julgue o item subsequente.
+O eletrodo consumível que vai ser usado tem um limite de resistência à tração de 70.000 psi.
+( ) Certo ( ) Errado
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 51 =====
+50
+Oras, perfeita, Coruja! Veja a denominação lá na cauda da linha de referência: temos a denominação
+ER70S-6. Vamos relembrar:
+Para aços carbono comuns:
+EXXXYZ
+Onde:
+• E : tipo de eletrodo (que é o eletrodo revestido);
+• XXX: resistência mínima à tração do metal de solda em 1000 psi;
+• Y: posição da soldagem, sendo 1 - todas as posições; 2 - plana e filetes horizontais; 3 - plana; 4 -
+vertical descendente e outras posições;
+• Z: tipo de corrente e o tipo de revestimento;
+Para aços liga:
+EXXXYZ - N
+Onde:
+• Todos os termos tem as mesmas indicações, mas a inclusão do termo "N" que representa o grupo
+de composição química do material;
+Veja que a designação ER 70S-F tem como limite de resistência à tração 70000 psi. Por isso, a questão é
+correta. Esse eletrodo, a título de curiosidade, é um eletrodo para soldagem MIG/MAG, cobreado, com
+manganês e silício, presente na norma AWS A5.18. Novamente, tranquilidade, porque esse tipo de
+cobrança é para provas de técnico, específica para cargos que essa exigência em edital. Aqui, eu coloquei
+essa questão pra você treinar a aplicação geral da nomenclatura. A chance disso aqui cair é baixa.
+Gabarito: correto.
+11. (CEBRASPE / FUB - Técnico em Mecânica – 2015)
+Julgue o item a seguir, relativos ao processo de soldagem.
+Os eletrodos para aços-carbono são classificados de acordo com a AWS (American Welding Society).
+No eletrodo E-XXYZ, XX indica resistência à tração de 1.000 vezes PSI; Y informa as posições de
+soldagem; e Z indica o tipo de corrente e de revestimento.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 52 =====
+51
+( ) Certo ( ) Errado
+Comentário:
+Eita! Para fixar, hein, Coruja? Vamos lá:
+Para aços carbono comuns:
+EXXXYZ
+Onde:
+• E : tipo de eletrodo (que é o eletrodo revestido);
+• XXX: resistência mínima à tração do metal de solda em 1000 psi;
+• Y: posição da soldagem, sendo 1 - todas as posições; 2 - plana e filetes horizontais; 3 - plana; 4 -
+vertical descendente e outras posições;
+• Z: tipo de corrente e o tipo de revestimento;
+Para aços liga:
+EXXXYZ - N
+Onde:
+• Todos os termos tem as mesmas indicações, mas a inclusão do termo "N" que representa o grupo
+de composição química do material;
+Gabarito: correto.
+12. (CEBRASPE / INPI - Pesquisador em Propriedade Industrial – 2007)
+Os eletrodos usados na soldagem de aços-carbono com eletrodos revestidos são designados pela AWS
+(American Welding Society) por um código no formato AWS E XXYZ.
+A designação AWS E 6013 corresponde a um eletrodo com um limite de resistência a tração de 60.000
+psi.
+( ) Certo ( ) Errado
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 53 =====
+52
+Mais uma para você não esquecer jamais, rs! Let's go:
+Para aços carbono comuns:
+EXXXYZ
+Onde:
+• E : tipo de eletrodo (que é o eletrodo revestido);
+• XXX: resistência mínima à tração do metal de solda em 1000 psi;
+• Y: posição da soldagem, sendo 1 - todas as posições; 2 - plana e filetes horizontais; 3 - plana; 4 -
+vertical descendente e outras posições;
+• Z: tipo de corrente e o tipo de revestimento;
+Para aços liga:
+EXXXYZ - N
+Onde:
+• Todos os termos tem as mesmas indicações, mas a inclusão do termo "N" que representa o grupo
+de composição química do material;
+Gabarito: correto.
+13. (CEBRASPE / CENSIPAM - Analista – 2006)
+O desenho acima refere-se a uma soldagem que será feita em chapas cujo material é o ASTM A36. O
+eletrodo selecionado é consumível e o gás de proteção da poça de fusão escolhido foi o CO₂. No
+contexto dessa soldagem, julgue o item subsequente.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 54 =====
+53
+Essa soldagem vai ser feita com penetração total.
+( ) Certo ( ) Errado
+Comentário:
+Opa! Veja que temos várias informações na simbologia, Estrategista! Temos um chanfro em "V", com
+ângulo de chanfro de 65
+0
+e abertura da raiz da solda de 3 mm. Todavia, veja que não temos o símbolo da
+penetração total:
+Gabarito: errado.
+14. (CEBRASPE / CENSIPAM - Analista – 2006)
+O desenho acima refere-se a uma soldagem que será feita em chapas cujo material é o ASTM A36. O
+eletrodo selecionado é consumível e o gás de proteção da poça de fusão escolhido foi o CO₂. No
+contexto dessa soldagem, julgue o item subsequente.
+A geometria do chanfro é composta de um ângulo de 65
+o
+e o número 3 na simbologia de solda indica
+que o nariz da solda é de 3 mm.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 55 =====
+54
+( ) Certo ( ) Errado
+Comentário:
+Opa! Negativo, Coruja! Conforme vimos na questão anterior, o número 3 significa a abertura da raiz da
+solda entre as duas peças do metal de base que é de 3 mm. O nariz da raiz, também chamado de face da
+raiz, é uma parte reta acima do raiz da junta. Lembre-se:
+Nessas figuras, Coruja, temos a abertura da raiz da solda, indicada pela letra "f", bem como o nariz da
+solda indicado pela letra "s". Além disso, temos o ângulo de abertura do chanfro α e do Bisel ẞ.
+Gabarito: errado.
+15. (CEBRASPE / TRE-MA - Analista Judiciário - Engenharia – 2005)
+No caso de ligação de componentes de uma estrutura metálica por solda de entalhe de penetração total,
+a garganta efetiva da solda deve ser tomada como igual
+a) a 50% do comprimento efetivo da solda.
+b) a 75% do comprimento efetivo da solda.
+c) à média das espessuras das partes soldadas.
+d) à maior das espessura das partes soldadas.
+e) à menor das espessuras das partes soldadas.
+Comentário:
+Opa! Conforme vimos, na norma ABNT NBR 8800 temos algumas disposições pertinentes sobre
+penetração total e parcial. Veja que, segundo a norma, temos: "A espessura da garganta efetiva de uma
+solda de penetração total deve ser tomada igual à menor espessuras das partes soldadas;
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 56 =====
+55
+Gabarito: e.
+FCC
+16. (FCC/ TRT-RS – Engenharia Mecânica – 2022)
+No processo de soldagem, os chanfros devem ser realizados nas peças para garantir uma melhor
+penetração da solda, aumentando a resistência mecânica da junta. Com relação aos principais
+elementos do chanfro, corresponde à parte não chanfrada de uma junta metálica, que possui um corte
+reto:
+a) folga.
+b) raiz.
+c) fresta.
+d) ângulo de abertura da junta.
+e) ângulo de chanfro.
+Comentário:
+Estrategista, questão bem interessante da FCC, pois o enunciado já nos revela uma possível questão de
+prova futura: há uma definição na visão da banca do objetivo de se utilizar os chanfros (na minha opinião,
+memorize essa definição para provas futuras da Fundação Carlos Chagas, pois também está em linha com
+boa parte da literatura).
+Além desse ponto, a questão nos cobra qual é a região e sua denominação que não é chanfrada e possui
+um corte reto lá no local da solda. Oras, a questão quer saber de você se você lembra do esquema a
+seguir:
+Lembre-se que temos a abertura da raiz da solda, indicada pela letra "f", bem como o nariz da solda
+indicado pela letra "s". Além disso, temos o ângulo de abertura do chanfro α e do Bisel ẞ.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 57 =====
+56
+Veja que a alternativa correta é a letra "b". Na realidade, para ser mais exato, a questão deveria ter
+cobrado o "nariz" da solda que é a região "s" do nosso esquema acima. Todavia, a abertura de raiz da
+solda (ou, somente "raiz", como alternativa menciona) não está errado (de fato, ela é a parte não
+chanfrada e que sofreu um corte reto).
+Gabarito: “b”.
+17. (FCC/ SANASA – Agente Técnico - Soldador – 2019)
+Na inspeção realizada após a execução de uma junta soldada, foi identificada uma descontinuidade
+caracterizada pela fusão da superfície da chapa do metal de base próxima à margem do cordão de
+solda. O responsável pela avaliação concluiu tratar-se da patologia:
+a) distorção.
+b) falta de penetração.
+c) inclusão de escória.
+d) falta de fusão.
+e) mordedura.
+Comentário:
+Estrategista, apesar dessa prova ser para o cargo de soldador (o que implica conhecimento específico de
+ordem técnica que são raros em provas para engenheiro mecânico), temos algumas questões pertinentes
+para nós, como essa. Veja que ela nos cobra o conhecimento de alguns defeitos de soldagens (patologias,
+na lavra da banca). Bom, veja que o diagnóstico é em relação a "fusão da superfície da chapa do metal de
+base próxima à margem do cordão de solda". Oras, veja que essa descrição tem relação com o defeito de
+mordedura.
+Lembre-se que a mordedura é caracterizada por uma depressão que se forma no metal de base e que
+acompanha a margem da solda. Essa depressão provém da fusão de parte do metal de base nessa região,
+gerando essa depressão, pois material do metal de base foi "abosrvido" pela região da solda. Veja a
+imagem abaixo que esquematiza a mordedura
+32
+:
+32 Adaptado da norma N-1738 – Petrobrás.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 58 =====
+57
+Gabarito: “e”.
+18. (FCC/ SANASA – Agente Técnico - Soldador – 2019)
+Considere a figura abaixo.
+Em uma folha de processo de uma peça a ser produzida por processo de soldagem, foi incluído o
+símbolo ilustrado na figura. De acordo com a Norma AWS, o símbolo representa
+a) solda de filete, ambos os lados.
+b) solda de filete, lado oposto.
+c) solda em J, mesmo lado.
+d) solda de filete, intermitente.
+e) solda em V, mesmo lado.
+Comentário:
+Coruja, questão tranquila que nos cobra o conhecimento sobre simbologia da soldagem. Para isso, temos
+que ter a noção (introdução) sobre as normas da AWS, mais especificamente a norma A2.4-2020. Por isso,
+nosso esquema geral nos ajuda a resolver essa questão. Para a engenharia mecânica, conhecer esse
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 59 =====
+58
+quadro é importante, pois sintetiza um conhecimento suficiente para responder a maioria das questões
+desse tipo33:
+Perceba que, pela simbologia, temos a solda do tipo filete, ocorrendo em ambos os lados da junta. Já
+temos o gabarito da questão. A fim de revisarmos o assunto, tenha em mente o quadro com as posições
+e tipos de especificações quanto a simbologia:
+33 Adaptado da norma ANSI-AWS A2.4-98.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 60 =====
+59
+Gabarito: “a”.
+FGV
+19. (FGV / AL-RO - Analista Legislativo - Engenharia Mecânica – 2018)
+Durante a soldagem de peças metálicas podem ocorrer defeitos que comprometem a qualidade da
+ligação executada e a durabilidade da peça. Assinale a opção que apresenta uma possível causa para o
+aparecimento de respingos na soldagem por arco elétrico.
+a) Amperagem muito baixa.
+b) Arco com sopro magnético.
+c) Eletrodo com revestimento excêntrico.
+d) Ângulo incorreto do eletrodo.
+e) Chanfro irregular.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 61 =====
+60
+Comentário:
+Estrategista, nesse tipo de questão você precisa se concentrar e respirar fundo, pois muitas coisas podem
+gerar o efeito de respingos no processo de soldagem em questão.
+As principais são: amperagem muito alta, peça de trabalho com impurezas, baixa qualidade do eletrodo,
+arco elétrico comprido entre eletrodo e peça de trabalho. Além delas, algumas situações no processo de
+solda a arco elétrico podem gerar o efeito do sopro magnético.
+Esse efeito aparece pela atuação da força magnética que surge por intermédio do campo magnético
+induzido proveniente da corrente em torno do arco. Dentre as causas apresentadas pela questão, a mais
+impactante na geração de respingos é o sopro magnético.
+Quando essa corrente oscila, seja pelo gerador, seja por interferências externas, a força magnética altera
+o sentido e empurra lateralmente o arco elétrico – por isso a denominação sopro magnético, pois se
+assemelha muito quando assopramos levemente uma chama acesa de uma vela. Com esse efeito, o arco
+elétrico oscila de posição e acaba gerando descontinuidade de material fundido (os respingos) pela região
+da solda.
+Gabarito: “b”.
+20. (FGV / COMPESA-PE - Analista de Saneamento - Engenheiro Mecânico – 2016)
+Ao verificar a soldagem de duas chapas metálicas, realizada pelo método TIG, um engenheiro percebeu
+que o cordão de solda se encontrava bastante largo.
+Esse tipo de defeito pode ter sido causado por.
+a) velocidade de soldagem muito baixa para a corrente utilizada.
+b) impurezas na linha de gás.
+c) mangueiras de água e gás trocadas.
+d) eletrodo contaminado.
+e) vazão do gás inadequada.
+Comentário:
+Opa! Tranquilidade, hein, Coruja? Veja que a alternativa correta é letra "a". Perceba que o defeito em
+questão está relacionado com o tempo e/ou com a potência utilizada no processo (que tem relação com
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 62 =====
+61
+o valor de corrente utilizada). Dessa forma, com velocidades muito baixas e/ou corrente muito elevadas,
+o tamanho do cordão de solda é impactado diretamente (ficando mais largo que o devido).
+Gabarito: “a”.
+21. (FGV / COMPESA-PE - Analista de Saneamento - Engenheiro Mecânico – 2016)
+A figura a seguir apresenta uma trinca em uma peça de ferro fundido.
+Sabendo que a peça será recuperada por meio de soldagem, assinale a opção que apresenta uma
+medida necessária para a realização desse reparo.
+a) Realizar dois furos com broca, um em cada extremidade pontiaguda da trinca.
+b) Realizar apenas um furo com broca em uma das extremidades pontiagudas da trinca.
+c) Martelar as extremidades da trinca.
+d) Esmerilhar a trinca preferencialmente com discos que contenham aglomerantes plásticos.
+e) Evitar a chanfragem da trinca com eletrodos de corte.
+Comentário:
+Vimos isso na parte teórica! Veja que temos alguns tipos de soldagem para o caso do ferro fundido. Vamos
+relembrar:
+• Soldagem a quente: é empregada quando as propriedades mecânicas e o aspecto visual é
+importante e deve ser quase igual ao material que será soldado. Assim, os consumíveis utilizados
+são de composição química similar ao metal de base. Além disso, memorize que temos duas
+barreiras que a doutrina elenca que dificultam o processo: necessidade de preaquecimento (a
+cerca de 350
+o
+C) e resfriamento lento depois da soldagem;
+• Soldagem a frio: primeira coisa a se memorizar é que essa técnica é mais comum que a primeira.
+Normalmente, se utilizam ligas à base de níquel para depositar na solda. Além disso, necessita de
+baixo aporte de calor (o processo comumente utilizado é o de eletrodos revestidos). Todavia, é
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 63 =====
+62
+importante conhecer os procedimentos (passos) sugeridos na prática por empresas do ramo,
+como a ESAB:
+o 1º passo: fazer furos redondos nas extremidades da trinca, a fim de evitar a sua
+propagação;
+o 2º passo: fazer chanfros em toda a trinca com eletrodos específicos;
+o 3º passo: fazer pequenos cordões de solda (estreitos e curtos com no máximo 3 cm de
+comprimento), alternadamente, do centro para as bordas e com eletrodos específicos;
+o 4º passo: martelar cada cordão depois da solda para aliviar as tensões;
+Perceba que a questão nos cobra exatamente o primeiro passo.
+Gabarito: “a”.
+22. (FGV / SEE-PE - Professor de Controle e Processos Industriais – 2015)
+Na soldagem pelo processo TIG, apesar dos cuidados durante sua execução, alguns defeitos podem
+ocorrer.
+A ocorrência, por exemplo, de oxidação do cordão de solda pode estar associada à
+a) troca entre as mangueiras de água e gás.
+b) vazão do gás inadequada.
+c) velocidade de soldagem muito baixa para a corrente usada.
+d) proteção insuficiente do gás.
+e) soldagem em polaridade inversa.
+Comentário:
+Estrategista, questão tranquila! Apesar da soldagem TIG ser vista na próxima aula, a proteção contra a
+oxidação da solda (proteção contra a ação do oxigênio atmosférico interagindo com os elementos os
+metais de base) é feita pela inserção dos gases de proteção (argônio e/ou hélio) nesse tipo (soldagem que
+tem proteção gasosa). É claro que este tipo de defeito está relacionado a uma insuficiência do gás de
+proteção que irá proteger a região da zona de fusão. Lembre-se que o oxigênio é muito reativo e,
+justamente se faz a proteção gasosa par se evitar que ele forme compostos prejudiciais na região.
+Gabarito: “d”.
+23. (AOCP / UFPB – Técnico em Mecânica - 2019)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 64 =====
+63
+Considerando a seguinte figura, assinale a alternativa que apresenta a interpretação da simbologia de
+soldagem, seguindo a AWS.
+a) Soldar em todo o contorno, solda de triângulo com altura de 5 mm.
+b) Soldar em todo o contorno, solda de filete com tamanho de perna de 5 mm.
+c) Soldar em campo, solda de triângulo com altura de 5 mm.
+d) Solda de triângulo com tamanho de perna de 5 mm.
+e) Solda de triângulo com altura de 5 mm.
+Comentário:
+Questãozinha que envolve o conhecimento básico sobre simbologia da soldagem. Esse assunto não é
+comumente explorado em provas, muito devido ao alto nível de memorização de toda as normas da
+AWS (American Welding Society). Por conta disso, costuma aparecer mais em cargos de nível técnico.
+Todavia, Coruja, é interessante você conhecer algumas simbologias básicas, independente da banca e
+do cargo. Vamos relembrar? Veja os esquemas que vimos em aula:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 65 =====
+64
+Esse é o primeiro. Veja que quando temos uma solda em todo o contorno, temos o círculo
+característico na linha de referência. Assim, ficamos entre as letras "a" e "b". Além disso, perceba que
+o valor "S" ao lado esquerdo do símbolo da solda filete mostra a dimensão da solda que seria, no
+exercício, o valor de 5 mm.
+Agora, os símbolos básicos dos chanfros você precisa saber. Vamos relembrar, novamente:
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 66 =====
+65
+Veja que temos uma solda filete. Por isso, nosso gabarito é a letra "b".
+Gabarito: “b”.
+FCC
+Instituto Acesso
+24. (Instituto Acesso / SEDUC-AM - Engenheiro Mecânico – 2018)
+Observando a junta soldada apresentada no croqui a seguir, identifique as diferentes regiões e zonas
+existentes
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 67 =====
+66
+a) 1- Zona de Fusão; 2- Metal Base; 3- ZTA; 4- Zona de Ligação; 5- Zona Fundida.
+b) 1- Metal Base; 2- ZTA; 3- Zona Fundida; 4- Zona de Fusão; 5- Zona de Ligação.
+c) 1- Metal Base; 2- ZTA; 3- Zona de Ligação; 4- Zona Fundida; 5- Zona de Fusão.
+d) 1-Metal Base; 2- ZTA; 3- Zona de Fusão; 4- Zona Fundida; 5- Zona de Ligação.
+e) 1- Metal Base; 2- Zona Fundida; 3- Zona de Ligação; 4- ZTA; 5- Zona de Fusão.
+Comentário:
+Coloquei essa questão para treinarmos e memorizarmos as denominações das zonas.
+Em 1, temos o Metal Base; em 2, as ZTAs conforme explicamos que sofrem influência das altas
+temperaturas e que por isso se tornam Zonas Termicamente Afetadas. Em 3, temos a Zona Fundida;
+em 4, a Zona de Fusão e em 5, a Zona de Ligação, unindo as ZTAs com a Zona Fundidas.
+Aqui, Coruja, você PRECISA memorizar as posições das Zona de Fusão e Zona Fundida, pois são as que
+você pode confundir na hora da prova. Esse tipo de questão cai com desenhos e as demais zonas são
+fáceis de evidenciar nas figuras.
+Gabarito: “b”.
+PROAD
+25. (PROAD / UFOP – Engenheiro – Engenharia Mecânica – 2017)
+São causas dos problemas de soldagem:
+I. Material de base inadequado à química, a propriedades mecânicas, a processo de elaboração, bem
+como determinação errada de seções formas e comportamentos às diversas solicitações a que o
+material será submetido. Há risco de ruína por ruptura, deformação ou arrancamento lamelar.
+II. Material de adição incompatível com o metal base, com aplicação ou manuseio possível, meio
+corrosivo, ou propriedades mecânicas desejadas. Há perigo de ruína por ruptura frágil ou corrosão.
+III. Escolha inadequada do processo de soldagem e seus parâmetros. Há risco de ruína por ruptura frágil
+ou por defeitos de soldagem de difícil remoção.
+IV. Capacidade, treinamento e qualificação do pessoal inadequada ou insuficiente, gerando soldagem
+com defeitos e altos refugos.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 68 =====
+67
+V. Não execução ou execução inadequada e não controlada dos tratamentos pré e pós-aquecimento,
+bem como da temperatura de interpasses e do tratamento pós-soldagem, levando a problemas de
+trinca a frio ou a reaquecimento.
+Marque a alternativa correta.
+a) Apenas as afirmativas I, II e III são verdadeiras.
+b) Apenas as afirmativas I, II e IV são verdadeiras.
+c) Apenas as afirmativas II e V são verdadeiras.
+d) Todas as afirmativas são verdadeiras.
+Comentário:
+Estrategista, coloquei essa questão justamente para que você perceba como existem questões que nos
+cobram mais o bom senso do que qualquer conhecimento aprofundado. Conforme vimos na parte
+teórica, perceba que todas as assertivas estão corretas! Cada assertiva, elenca de forma generalizada
+problemas que podem acontecer, de fato, caso suas condições sejam satisfeitas.
+Apesar de alguns pontos que não fazem parte do escopo dos processos de soldagem específicos, é
+possível “matar” a questão com o conhecimento adquirido e o bom senso que nós engenheiros
+desenvolvemos durante nosso curso (na matéria, principalmente, de Ciência dos Materiais).
+Gabarito: “d”.
+Cesgranrio
+26. (Cesgranrio/Unirio - Engenheiro - Área: Mecânica - 2016)
+As figuras abaixo representam uma solda.
+A simbologia correta para a solda acima apresentada é:
+a)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 69 =====
+68
+b)
+c)
+d)
+e)
+Comentário:
+Questão tranquila, Coruja, com nosso quadro resumo e genérico de simbologia, matamos a questão.
+Veja:
+Oras, o símbolo quando do "lado da seta", deve ser embaixo (letras "a", "c" e "e", erradas). Além disso,
+o ângulo fica acima da linha de referência. Esse é o entendimento plausível pela norma AWS A2.4-1998.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 70 =====
+69
+Veja que a banca também entendeu que o ângulo deveria ser acima, optando pelo gabarito sendo a letra
+"d", apesar de não conter a cauda (que deve existir). Todavia, a norma AWS A2.4-2020 trouxe maior
+lucidez quanto ao posicionamento, já que a região quanto ao quadrado segmentado não era clara. Dessa
+forma, temos:
+Assim, poderíamos ter como gabarito a letra "b", também, se considerássemos somente o ângulo, apesar
+da simbologia da letra "d" estar mais completa com a cauda e em linha com ambas as normas.
+Gabarito: "d".
+27. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Inspeção - 2018)
+Chama-se reforço de solda ao metal de solda depositado em excesso,
+a) com o objetivo de garantir melhor resistência mecânica
+b) com o objetivo de garantir melhor tenacidade
+c) além do necessário para preencher a junta
+d) por erro do soldador
+e) por motivos de segurança.
+Comentário:
+O reforço de solda, Coruja, nada mais é que uma técnica usada para preencher a junta com material acima
+do necessário. Todavia, lembre-se do que comentei em aula: a nomenclatura foi infeliz e tende a enviesar
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 71 =====
+70
+seu pensamento, pois você pensa que vai reforçar a solda e torná-la mais resistente. Errado! Na verdade,
+é somente um excesso na solda a fim de completar a junta. (Essa é, inclusive, a definição da American
+Welding Society (AWS).
+Gabarito: "c".
+28. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Inspeção - 2018)
+Que tipo de transformações de fase acontece na ZTA (zona termicamente afetada) durante a soldagem
+de uma liga alumínio-magnésio-silício?
+a) Dissolução e crescimento de precipitados
+b) Transformação martensítica
+c) Transformação bainítica
+d) Refino de grão
+e) Maclagem.
+Comentário:
+Coruja, questãozinha super decoreba que cobra um ponto extremamente específico da soldagem de uma
+liga (também específica). Saiba que em ligas de alumínio com magnésio e silício, uma transformação
+característica é a dissolução e crescimento de precipitados por conta das diferenças físico-químicas de
+cada elemento, já que cada elemento terá ponto de fusão e recristalização diferenciados. Sem "stress"
+nesse ponto e só associe que para essas ligas são essas transformações que ocorrem.
+Gabarito: "a".
+29. (Cesgranrio/Liquigás - Engenheiro Júnior - Mecânica - 2014)
+No processo de soldagem de aços médio carbono, recomenda- se baixa taxa de resfriamento da junta
+para evitar fragilidade. Uma alternativa que minimiza o efeito da fragilidade é o uso de
+a) metal de base de espessura fina em vez de metal de base espesso
+b) temperatura baixa de preaquecimento do metal de base
+c) energia de soldagem elevada em vez de baixa energia
+d) junta de topo em vez de junta cruciforme
+e) corrente de soldagem baixa em vez de corrente elevada.
+Comentário:
+Estrategista, a única alternativa que tem sentido é a letra "e", corrente de soldagem baixa! Claro, que
+pode ocasionar outros defeitos, como por exemplo, a falta de fusão que vimos. Porém, tem que ser
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 72 =====
+71
+analisado o quão baixo se pode chegar, pois, de fato, com menor corrente, temos menos energia (calor)
+e menor temperatura atingida. Dessa forma, a variação de energia (gradiente) tende a ser menor, pois
+saiu de uma temperatura ambiente e foi até uma temperatura menor possível. Esse cenário reduz a
+formação de trincas que surgem, principalmente, pela expansão e contração do material.
+Gabarito: "e".
+30. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Inspeção - 2014)
+A microestrutura da região de uma solda a arco de duas placas laminadas de aço de baixa liga, na
+condição normalizada, contendo 0,3% de carbono, apresenta regiões com morfologias e propriedades
+bem distintas.
+A zona termicamente afetada é caracterizada por
+a) composição distinta do metal de base.
+b) microestrutura com grãos colunares e dentritas
+c) microestrutura de ferrita, bainita e martensita
+d) microestrutura de ferrita pura
+e) microestrutura de perlita pura.
+Comentário:
+Tranquilo, Coruja! Questão que nos cobra as microestruturas possíveis de serem presentes na ZTA.
+Vimos que ela possui diferentes regiões que vão depender da temperatura, velocidade de resfriamento
+e elementos de liga para transformação na Curva TTT (Transformação, Temperatura e Tempo) a fim de
+se atingir cada microestrutura. Dessa forma, podemos ter, a depender da transformação da curva, tanto
+a presença de ferrita (que fará parte da perlita, pois esta é composta de lamelas alternadas de ferrita
+e cementita), bainita quanto martensita.
+Gabarito: "c".
+31. (Cesgranrio/Transpetro - Engenheiro Júnior - Mecânica - 2012)
+Trincas são defeitos considerados graves na soldagem, pois são fortes concentradores de tensão.
+Com relação às características da formação da decoesão lamelar, deve-se considerar que a decoesão
+lamelar
+a) é minimizada pelo aumento do teor de enxofre do metal de base.
+b) é minimizada com o uso de juntas em T ao invés do uso de juntas de topo.
+c) é minimizada pela deposição de uma camada de material dúctil no metal base antes da solda.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 73 =====
+72
+d) é minimizada pela seleção de um material de base com ductilidade medida pela redução de área
+de 10% pelo menos no sentido da espessura.
+e) se localiza preferencialmente no centro da zona fundida.
+Comentário:
+Questão sobre a decoesão lamelar! Vamos relembrar? Coruja, a decoesão lamelar (também chamada de
+trinca lamelar) também consiste em um defeito de fissuração de estrutura que ocorre no metal de base.
+Ele pode ocorrer na ZTA, também, e são constituídas por planos paralelos à superfície da solda. Esse
+tipo de trinca surge, normalmente, em soldas com vários passes e em juntas em "T" feitas em chapas de
+12 a 60 mm de espessura.
+Quando analisada (macrografica, por exemplo) ela tem aparência de vários degraus. Essa aparência
+deriva do seu mecanismo de formação que está associado a fissuração de inclusões alongadas quando o
+metal é submetido a tensões de tração no sentido da espessura da chapa. Pela união dos vazios formados
+plasticamente, surge sua morfologia característica. Veja a figura
+34
+a seguir.
+Para se evitar esse defeito, Coruja, é comum a utilização de camadas de materiais (no metal de base)
+com elevada ductilidade, a fim de absorver a energia no campo plástico sem se romper com facilidade.
+Gabarito: "c".
+32. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Inspeção - 2012)
+34 Adaptado de Modenesi, P.J; Marques, P.V; Santos, D.B; Introdução à Metalurgia da Soldagem. UFMG – Departamento de Engenharia Metalúrgica e de Materiais, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 74 =====
+73
+Trincas a frio induzidas por hidrogênio são de extrema preocupação para os profissionais de soldagem,
+pois necessitam de um tempo de incubação e, muitas vezes, ocorrem em dimensões inferiores ao limite
+de detecção do equipamento adotado na inspeção.
+São fatores que favorecem o aparecimento de trincas a frio em juntas soldadas:
+a) umidade no revestimento do eletrodo, alta tenacidade da zona termicamente afetada e tensões
+de solidificação da junta soldada
+b) umidade no revestimento do eletrodo, baixa tenacidade da zona termicamente afetada e tensões
+residuais trativas
+c) limpeza prévia da região soldada, baixa tenacidade da zona termicamente afetada e tensões
+residuais compressivas
+d) limpeza prévia da região soldada, baixa tenacidade da zona termicamente afetada e baixa dureza
+do metal de base
+e) alta tenacidade da zona termicamente afetada, maior aporte térmico na soldagem e tratamentos
+térmicos de alívio de tensão.
+Comentário:
+Coruja, conforme vimos, são quatro fatores principais que geram esse defeito: presença do hidrogênio
+(seja pelo material de revestimento do eletrodo ou vareta, seja pela umidade da atmosfera local);
+microestrutura sensível (a presença da martensita em condições de soldagem com alta velocidade de
+resfriamento potencializa o surgimento dessas trincas com baixa tenacidade e ductilidade na região);
+elevado esforço (tensões elevadas como de natureza trativa podem ocasionar a trinca) e temperatura
+(a fissuração de hidrogênio pode ocorrer de -100 a 200
+o
+C, por isso manter a solda por um tempo
+posterior ao processo pode fazer com que o hidrogênio seja difundido para fora da junta. Esse técnica se
+chama pós-aquecimento, Coruja!). Perceba que tanto o pré-aquecimento (que reduz a velocidade de
+resfriamento, pois diminui a variação de temperatura) quanto o pós-aquecimento são cruciais para evitar
+esse tipo de defeito.
+Gabarito: "b".
+33. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Inspeção - 2012)
+Considere que componentes estruturais foram soldados por processo que envolve fusão, e parte do
+material de base sofreu ciclo térmico de aquecimento e resfriamento, resultando no aparecimento de
+uma zona termicamente afetada (ZTA).
+A respeito da ZTA, considere as afirmativas abaixo.
+I - Nos aços-carbono, a susceptibilidade ao trincamento não é influenciada pela quantidade de carbono
+do material.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 75 =====
+74
+II - Nos aços inoxidáveis, não há uma região preferencial para surgimento de corrosão intergranular.
+III - As transformações de fase ocorridas são em função das temperaturas alcançadas e da velocidade de
+resfriamento.
+IV - Nos aços de baixo carbono, adotando-se a direção do fluxo de calor, serão encontradas, em
+sequência, região de granulação grosseira, granulação fina e parcialmente transformada.
+Está correto APENAS o que se afirma em:
+a) I e II
+b) I e III
+c) II e III
+d) II e IV
+e) III e IV.
+Comentário:
+Questão que nos cobra o conhecimento sobre as ZTA (Zona Termicamente Afetada). Oras, vimos que a
+depender da região, a temperatura irá alterar a microestrutura do material, certo, Coruja? Assim, vejamos
+cada assertiva:
+I: errada, pois os teores de carbono tem total relação com a microestrutura que será formada depois do
+atingimento de certo nível de temperatura. Como a microestrutura está relacionada com o problema de
+trincas (vide a martensítica formada que potencializa seu efeito pela falta de ductilidade), a assertiva está
+incorreta;
+II: errada, também! Os aços inoxidáveis possuem alto teor de cromo em sua liga. Por conta disso, a
+precipitação de carbonetos de cromo nos contorno do grão fazem com que aquele região tenha
+propriedades mecânicas diferentes, sendo um ponto de fragilidade da microestrutura. Assim, começa a
+ocorrer um tipo de corrosão intergranular (entre os grãos). Coruja, essa situação surge porque em faixas
+de temperaturas elevadas (como as que são atingidas na solda), o carbono que compõe a liga
+(principalmente, quando seu teor é acima de 0,02%) costuma-se formar o tal carboneto de cromo. O
+problema é que esse composto precipita e deixa a região empobrecida do principal elemento contra a
+corrosão (o cromo). Logo, nessas áreas em torno dos contornos dos grãos fica suscetível à corrosão;
+III: correta! É exatamente isso que ocorre. Um exemplo que podemos citar é a formação da martensita
+(elevada temperatura até a fase austenítica e velocidade de resfriamento elevada);
+IV: correta! Perfeito! Essa é a sequência das regiões da ZTA;
+Gabarito: "e".
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 76 =====
+75
+34. (Cesgranrio/Petrobrás - Profissional Júnior - Inspeção - 2011)
+Que tipo de defeito de soldagem é causado por uma corrente muito baixa ou por uma velocidade
+inadequada?
+a) Inclusões
+b) Crateras
+c) Porosidades
+d) Falta de fusão
+e) Trincas.
+Comentário:
+Oras, Coruja! Perceba que dentre todas as alternativas, aquela que está associada com corrente muito
+baixa (que gera uma energia - calor - insuficiente) é a falta de fusão! Essa descontinuidade estrutural, de
+fato, é um defeito que tem relação com o enunciado. Como vimos, tem como origem a falta de energia
+(calor) suficiente que acaba não aquecendo adequadamente o metal presente na junta. Outra possível
+causa é a presença de camada de óxido muito espessa formada que dificulta a fusão do metal de base.
+Essa descontinuidade pode ser gerada por manipulação incorreta do eletrodo, presença de sujeira na
+junta e energia insuficiente (seja por corrente muito baixa, seja por velocidade de soldagem elevada)
+Gabarito: "d".
+35. (Cesgranrio/Petrobrás - Engenheiro de Equipamentos Júnior - Mecânica - 2010)
+As trincas são consideradas as descontinuidades mais graves em soldagem e são fortes concentradoras
+de tensão, podendo favorecer o início de fratura frágil na estrutura soldada. Em relação às trincas, é
+INCORRETO afirmar que
+a) uma trinca pode ser considerada, simplificadamente, como o resultado da incapacidade do
+material em responder às solicitações impostas localmente pelas tensões decorrentes do processo
+de soldagem.
+b) a aplicação localizada de calor, acarretando expansões e contrações, causa o aparecimento de
+tensões na região da solda que, juntamente com a fragilização associada às mudanças
+microestruturais, pode resultar na formação de trincas.
+c) a fissuração na solidificação é um mecanismo deformação de trincas comum e está associada à
+formação de filmes de material líquido segregado entre os contornos de grão, nos estágios finais
+da solidificação, e à incapacidade de a estrutura resistir aos esforços decorrentes da contração do
+material.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 77 =====
+76
+d) a fissuração pelo hidrogênio ou trinca retardada é considerada um mecanismo comum de
+formação de trincas em aços temperáveis, aparecendo sempre durante a soldagem ainda em altas
+temperaturas e crescendo rapidamente, o que leva à perda da peça.
+e) o formato do cordão é um fator importante na formação de trincas na solidificação, pois determina
+maior ou menor facilidade de alimentação do metal líquido em certas regiões do cordão no final
+da solidificação, e influencia as tensões que agem nessas regiões.
+Comentário:
+Letra "a": perfeita! De fato, segue o princípio básico da resistência do material a se deformar ou não se
+deformar, atingindo o regime plástico (deformação permanente). Assim, gera-se a fratura por conta das
+oscilações de expansão e contração do material proveniente das temperatura;
+Letra "b": perfeito! Conforme vimos, exatamente isso que ocorre, Coruja! Caso a microestrutura atingida
+seja a martensítica, por meio de velocidade de resfriamento elevadas, temos baixíssima ductilidade e por
+conta da expansão e contração, gera-se a trinca;
+Letra "c": extamente! Como vimos, a fissuração na solidificação está relacionada com a segregação de
+elementos que compõem a liga metálica do material e que possuem diferentes solubilidades que vão
+formar filmes de metal líquido no contorno dos grãos do material. Esse fenômeno ocorre por conta da
+fusão na poça que atinge a fase líquida e elementos como o enxofre e o fósforo, por exemplo, possuem
+maior solubilidade no estado líquido. Assim, eles vão se concentrando em uma dada região (segregando-
+se do restante da liga) conforme a solidificação ocorre e alterando as propriedades mecânicas dessa
+região específica;
+Letra "d": errada! Apesar de ser comum a fissuração de hidrogênio em aços temperáveis (com
+microestrutura martensítica), segundo a doutrina, o problema é que a trinca ocorre depois da soldagem
+(podendo surgir a partir de algumas horas posteriores). Além disso, ela cresce lentamente, chegando
+até dois dias para seu crescimento completo. Por conta disso, as inspeções são trabalhosas e necessita
+de tempo para serem efetivas (efetuando logo após a soldagem, podem não evidenciar o problema). Não
+é rapidamente como diz a alternativa;
+Letra "e": perfeita, Coruja! Exatamente a explicação da influência do cordão de solda! Com vimos o
+formato do cordão é um fator importante na formação dessas trincas, pois determina a maior ou menor
+facilidade de alimentação com o metal líquido de certas regiões do cordão ao término da solidificação.
+Alternativa em linha com a literatura específica sobre o tema.
+Gabarito: "d".
+36. (Cesgranrio/Petroquímica - Engenheiro de Equipamentos Pleno - Mecânica - 2010)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 78 =====
+77
+Em relação aos defeitos em solda, as trincas a frio?
+a) são governadas pelo tempo de resfriamento na faixa de 1800 °C a 1300 °C.
+b) ocorrem geralmente na região de estrutura bainítica na ZAC das estruturas soldadas de aço.
+c) são preponderantemente causadas pelo hidrogênio proveniente do metal depositado, que se
+difunde na ZAC.
+d) são causadas possivelmente, por tensões residuais de compressão que agem na zona de solda.
+e) são causadas pelas tensões de contração que ocorrem durante a solidificação da zona de solda.
+Comentário:
+Conforme vimos em aula, Estrategista, temos a cobrança da fissuração a frio, que é uma
+descontinuidade estrutural. Vamos ver seus principais detalhes:
+Temos dois mecanismos causadores de trincas podem surgir: fissuração a quente (fissuração na
+solidificação) e fissuração a frio (fissuração pelo hidrogênio). Vejamos cada tipo.
+• Fissuração por hidrogênio: primeira característica que você precisa memorizar, Coruja, é que esse
+é o principal mecanismos e mais comum em aços carbono de baixa e média liga (principalmente,
+os temperáveis - com microestrutura martensítica produzida na soldagem). A trinca ocorre na
+ZTA e na ZF. O grande problema é que a trinca ocorre depois da soldagem (podendo surgir a
+partir de algumas horas posteriores). Além disso, ela cresce lentamente, chegando até dois dias
+para seu crescimento completo. Por conta disso, as inspeções são trabalhosas e necessita de
+tempo para serem efetivas (efetuando logo após a soldagem, podem não evidenciar o problema).
+Além desses pontos, saiba que existem quatro fatores que geram esse defeito: presença do
+hidrogênio (seja pelo material de revestimento do eletrodo ou vareta, seja pela umidade da
+atmosfera local); microestrutura sensível (a presença da martensita em condições de soldagem
+com alta velocidade de resfriamento potencializa o surgimento dessas trincas); elevado esforço
+(tensões elevadas podem ocasionar a trinca) e temperatura (a fissuração de hidrogênio pode
+ocorrer de -100 a 200
+o
+C, por isso manter a solda por um tempo posterior ao processo pode fazer
+com que o hidrogênio seja difundido para fora da junta. Esse técnica se chama pós-aquecimento,
+Coruja!). Perceba que tanto o pré-aquecimento (que reduz a velocidade de resfriamento, pois
+diminui a variação de temperatura) quanto o pós-aquecimento são cruciais para evitar esse tipo
+de defeito.
+Gabarito: "c".
+37. (Cesgranrio/Petroquímica - Engenheiro de Equipamentos Pleno - Mecânica - 2010)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 79 =====
+78
+No processo de soldagem a arco elétrico com eletrodos revestidos, o ângulo do chanfro pequeno, o
+diâmetro da alma do eletrodo muito grande, a intensidade de corrente muito baixa e a velocidade de
+avanço do eletrodo muito alta são algumas das possíveis causas para o defeito de soldagem
+denominado?
+a) excesso de respingos.
+b) falta de penetração.
+c) inclusão de tungstênio.
+d) mordeduras.
+e) porosidades.
+Comentário:
+Olha aí, Coruja! Questão tranquila que nos traz o problema de fissuração (trinca) que é um
+descontinuidade estrutural de falta de penetração. Vamos relembrar?
+• Falta de penetração: como nome sugere, o defeito é gerado por uma falta de metal em alguma
+região da junta (normalmente, na raiz da solda). Tem como causa, novamente, a manipulação
+errada do eletrodo ou junta mal projetada, ângulo de chanfro pequeno, correntes baixas e
+velocidade de soldagem muito alta e diâmetro da alma do eletrodo muito grande. Como
+consequência direta, temos uma redução útil da solda e concentração de tensão. Para corrigir o
+problema, é justo a correta dimensão da junta e procedimento adequado de soldagem. Veja a
+figura35 a seguir, Estrategista.
+Gabarito: "b".
+35 Adaptado da norma N-1738 – Petrobrás.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 80 =====
+79
+38. (Cesgranrio / Petrobrás - Engenheiro de Equipamentos Júnior - Mecânica – 2010)
+As macro e microestruturas das soldas por fusão influenciam as propriedades das juntas soldadas, o que
+conduz a afirmar que o(a)
+a) ciclo térmico de soldagem não influencia as reações e alterações microestruturais que
+ocorrem nas vizinhanças da junta soldada.
+b) Metal de Base (MB) é uma região próxima do cordão de solda e que foi afetada pelo
+processo de soldagem.
+c) temperatura de pico, na região de refino de grão, varia entre 727 °C e a linha A3, sendo
+caracterizada pela transformação parcial da estrutura original do metal de base.
+d) Zona Termicamente Afetada (ZTA) é a região fundida do metal de base que teve sua
+microestrutura e/ou propriedades alteradas pelo ciclo térmico de soldagem.
+e) estrutura da Zona Termicamente Afetada (ZTA) de um aço de baixo carbono inclui a região
+de crescimento de grão, outra de refino de grão e a região intercrítica.
+Comentário:
+Veja, Coruja, uma questão que envolve o conhecimento sobre a metalurgia da solda e as
+propriedades das juntas quanto aos processos de fusão e seu impacto na microestrutura da região.
+Vejamos cada alternativa:
+Letra "a": conforme vimos, o ciclo térmico de soldagem corresponde ao estudo da variação da
+temperatura durante o processo de soldagem em determinado, impactando e influenciando na
+microestrutura do metal e base e nas regiões adjacentes ao ponto estudado. Alternativa errada;
+Letra "b": errada, Estrategista! Essa é a definição da Zona Termicamente Afetada (ZTA), conforme
+vimos em aula. Metal de Base (MB) é a o próprio material da peça que irá sofrer a soldagem no ponto
+da solda e que terá suas propriedades alteradas pela fusão da microrregião. Todavia, o Metal de Base
+adjacente à ZTA que compõe a peça não será afetado pelo ciclo térmico da soldagem, temo suas
+temperaturas de pico muito inferiores a sua Tc (Temperatura crítica). Alternativa errada;
+Letra "c": conforme vimos, a Temperatura de Pico (Tp) corresponde à temperatura máxima de uma
+dada microrregião da solda, sendo responsável pelas transformações maiores na microestrutura
+desse ponto da solda, sendo influenciada pela geometria da peça, condições da soldagem,
+propriedades térmicas da peça, sua temperatura inicial e a distância do ponto e da fonte de calor.
+Essa temperatura, região de refino do grão (região da ZTA mais próxima da zona fundida) possuirá
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 81 =====
+80
+temperatura na faixa de 1200
+o
+C até a linha A3 do diagrama Fe-C, de acordo com a literatura
+específica36 . Alternativa errada;
+Letra "d": negativo! A ZTA não é a zona da microrregião fundida do metal de base e, sim, a zona
+próxima a ela e que é afetada termicamente (tem sua microestrutura e propriedades mecânicas
+alteradas do metal de base, sendo influenciadas pelo ciclo térmico). A alternativa descreve a Zona
+Fundida (ZF) que é a região na qual o metal de base será fundido durante a soldagem e pertence ao
+ciclo térmico com a temperatura de pico maior que a sua temperatura de fusão. Alternativa errada;
+Letra "e": exatamente! Conforme vimos, a ZTA possui quatro faixas conforme a região se afasta da
+temperatura de pico do ponto da solda na ZF: Região de Granulação Grosseira (com crescimento do
+grão); Região de Granulação Fina (refino do grão); Região Intercrítica (temperaturas entre A3 e A1)
+e Região Subcrítica (temperaturas inferiores à linha A1). Alternativa correta.
+Gabarito: “e”.
+39. (Cesgranrio/Innova - Engenheiro de Equipamentos Júnior - Mecânica - 2012)
+Na soldagem sobre-cabeça com eletrodo revestido, numa aplicação de grande responsabilidade
+mecânica, o tipo de revestimento recomendado para minimizar o risco de fissuração a frio é o
+a) ácido
+b) básico
+c) celulósico
+d) rutílico
+e) pó de ferro.
+Comentário:
+Questão interessante, Coruja, que nos cobra os detalhes inerentes aos tipos de materiais e substâncias
+que compõem os revestimentos dos eletrodos revestidos. Veremos maiores detalhes na parte 2 da nossa
+aula, mas saiba que esses compostos vão interferir na soldagem por conta da sua participação no
+processo (claro, está tudo sendo consumido em alta temperatura).
+Assim, como o enunciado nos deixa claro que a solda é de grande responsabilidade (ou seja, temos que
+evitar qualquer chance de ocorrer a fissuração a frio), temos que utilizar uma eletrodo que não libera
+hidrogênio em grandes quantidades para a solda. Lembre-se que um dos defeitos de soldagem é a
+fissuração a frio que surge pela presença do hidrogênio. Dessa forma, de todas as alternativas, sabemos
+36 MODENESI, P.J.; MARQUES, P.V.; SANTOS, D. B. Introdução à Metalurgia da Soldagem, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 82 =====
+81
+que o eletrodo revestido deve ter revestimento de caráter básico, pois, se armazenado e manuseado
+corretamente, tem baixíssimos teores de hidrogênio. Diferente dos demais revestimentos que geram
+grandes quantidades.
+Gabarito: "b".
+40. (CESGRANRIO / Transpetro - Engenheiro Júnior - Mecânica – 2018)
+Na soldagem TIG, a corrente máxima, em amperes, que pode ser utilizada com uma tocha de grande
+porte é da ordem de
+a) 100.
+b) 200.
+c) 300.
+d) 400.
+e) 500.
+Comentário:
+Ao meu ver, essa questão não mede muito o nível de conhecimento do candidato, já que valores de
+correntes vão depender dos equipamentos e das especificações do projeto para a solda a ser feita, seja
+pela TIG, seja por qualquer outro tipo de solda com eletrodos não consumíveis.
+Apesar disso, memorize que o valor máximo de corrente para a TIG é de 500 amperes.
+Gabarito: “e”.
+41. (CESGRANRIO / Transpetro - Engenheiro Júnior - Mecânica – 2018)
+Em um determinado processo de soldagem, a eficiência de transmissão de calor é de
+aproximadamente 80%, a potência dispendida pela fonte de calor na soldagem é 1000 W (watts), e a
+velocidade de avanço é de 0,6 m/min (metros/minutos).
+Então, o valor do aporte térmico nessas condições, em kJ/mm, é
+a) 48.
+b) 56.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 83 =====
+82
+c) 64.
+d) 72.
+e) 80.
+Comentário:
+Coruja, coloquei essa questão para você saber que as bancas também erram e que você deve ficar em
+paz quanto a isso na hora da prova – você deve confiar no seu conhecimento. Veja que utilizando a
+fórmula que estudamos, a resposta é em outra unidade e o examinador “comeu bola” com a unidade
+no comando da questão. Vamos resolvê-la:
+Utilizando nossa fórmula:
+Qs = f1.f2.I.U;
+Na qual, temos que o Qs é o aporte térmico que o examinador deseja saber (o quanto de energia na
+forma de calor foi utilizada); “I.U” é a potência disponibilizada (lembre-se da “P=I.U”) e a eficiência o
+fator de perda energética. Na questão, ele considera a eficiência o único fator. Além disso, temos o
+avanço que é a velocidade pela qual o soldador executa o processo de soldagem. É claro que a
+velocidade influencia na quantidade de aporte térmico designado à solda, já que a potência está
+relacionada com o tempo (W = J/s). Assim, temos:
+Qs = 𝐸𝑓𝑖𝑐𝑖ê𝑛𝑐𝑖𝑎.
+𝑃
+𝑉
+;
+Todavia, precisamos trabalhar a velocidade para as mesmas unidades da potência, pois watts = Kj/s
+(nessa questão). A velocidade está em metro/min. Assim, devemos dividir a velocidade por 60 para
+termos em segundos e multiplicá-la por 1000, já que o examinador quer o aporte térmico em Kj/mm.
+Assim, temos:
+V = 0,6 (m/min) – transformando para (mm/s) multiplicamos por 1000 e dividimos por 60;
+V = 10 (mm/s);
+Qs = 0,8 (eficiência). 1000 (J/s) / 10 (mm/s) = 80 (J/mm);
+Dessa forma, o gabarito seria a resposta “e”. Porém, como ele pediu em (Kj/mm), teria que ter alguma
+resposta com “0,08”. Por isso, essa questão deveria ter sido anulada.
+Em uma situação dessas, acalme-se! Marque a alternativa que estaria de acordo caso o examinador
+não exigisse outra ordem de grandeza da unidade e espere o recurso. Você estudou, Estrategista! Sabe
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 84 =====
+83
+que o seu raciocínio está coerente e, dessa forma, se mantenha confiante para fazer uma excelente
+prova.
+Gabarito: “e”.
+42. (CESGRANRIO / Petrobrás - Engenheiro Júnior - Mecânica – 2018)
+Na soldagem do cobre comercialmente puro pelo processo TIG, qual é o elemento desoxidante que
+causa menor prejuízo à sua condutividade elétrica?
+a) Alumínio.
+b) Boro.
+c) Manganês.
+d) Silício.
+e) Titânio.
+Comentário:
+Questão “decoreba” que entra em um grau de especificação que não abrange o conteúdo da matéria.
+Por hora, cabe a nós saber e aceitar que o boro é o elemento desoxidante, devido a sua menor
+interferência na condutividade elétrica com o cobre, já que a condutividade entre o metal de base da
+peça de trabalho e o eletrodo são relevantes para o processo de soldagem.
+Gabarito: “b”.
+43. (CESGRANRIO/Petrobrás - Técnico(a) de Inspeção de Equipamentos e Instalações Júnior – 2018)
+Na soldagem dos aços inoxidáveis, para reduzir a possibilidade de ocorrência de corrosão do tipo
+sensitização, que elementos de liga devem estar presentes no metal de adição?
+a) Cobre e titânio.
+b) Cobre e tungstênio.
+c) Nióbio e titânio.
+d) Nióbio e tungstênio.
+e) Titânio e tungstênio.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 85 =====
+84
+Comentário:
+Tranquilo, Coruja! Conforme vimos, a sensitização é um tipo de corrosão que tem origem no movimento
+que os átomos de cromo fazem associados ao carbono (gerando carboneto de cromo) que ficam
+precipitados nos contornos dos grãos, impactando negativamente na proteção da liga metálica (já que a
+proteção do aço inoxidável é justamente feita pela formação de óxidos de cromo com o oxigênio
+atmosférico que dá origem a uma fina camada de proteção).
+Assim, surge a necessidade de se utilizar certos estabilizadores (elementos que irão "sofrer" a ação da
+temperatura e formarão carbonetos). Esses elementos, como o Nióbio e o Titânio possuem maior
+afinidade para formação de carbonetos e, assim, quando utilizados, evitam o efeito da sensitização na
+soldagem do aço inoxidável, Coruja!
+Gabarito: “c”.
+44. (CESGRANRIO/Petrobrás - Técnico(a) de Inspeção de Equipamentos e Instalações Júnior – 2017)
+Que tipo de material pode ser soldado com eletrodo revestido, independente da espessura do metal de
+base?
+a) Alumínio e suas ligas.
+b) Cobre e suas ligas.
+c) Titânio e suas ligas.
+d) Aço Inoxidável.
+e) Ferro Fundido.
+Comentário:
+Questão que nos cobra uma das características do processo a arco elétrico de eletrodos revestidos (tipo
+de processo cujo eletrodo é consumível). Lembre-se, Coruja, que uma das características da soldagem a
+arco com eletrodo revestido, quando utilizada para soldagem o aço inoxidável, é qualquer espessura!
+Gabarito: “d”.
+45. (CESGRANRIO/Petrobrás - Técnico(a) de Inspeção de Equipamentos e Instalações Júnior – 2014)
+Que variável elétrica e operacional possibilita altas taxas de deposição, simultaneamente com
+microestruturas refinadas, tanto na ZTA como na zona fundida?
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 86 =====
+85
+a) Corrente de soldagem.
+b) Velocidade de avanço.
+c) Oscilação do eletrodo.
+d) Dimensões do eletrodo.
+e) Ângulo do eletrodo em relação à peça.
+Comentário:
+Coruja, perceba que a única varável de natureza elétrica e operacional geradora de alta taxa de
+deposição e microestruturas refinadas tanto na ZTA quanto na zona fundida é a velocidade de avanço!
+Por isso, nosso gabarito é a letra "b". Vejamos as demais:
+Letra "a": errada! A corrente elétrica influência na soldagem e na microestrutura da ZTA e da zona
+fundida, bem como na taxa de posição, é claro, muito por conta da sua relação com a temperatura
+atingida. Todavia, é uma variável de natureza elétrica;
+Letra "c": errada! A oscilação do eletrodo é uma variável operacional que também impacta no processo
+de soldagem a depender da posição e do tipo de cordão a ser desenvolvido na solda;
+Letra "d": errada! A dimensão do eletrodo não é uma variável de natureza elétrica, mas tem relação
+direta com a corrente e o tamanho do arco elétrico. Oras, um eletrodo com maior diâmetro, por exemplo,
+exige uma corrente mais elevada, gerando maior energia (calor) fornecido ao metal de base o que pode,
+a depender da sua espessura, ser prejudicial a solda. ;
+Letra "e": errada! É uma variável operacional que pode gerar defeitos (se for um ângulo equivocado)
+como respingos, por exemplo.
+Gabarito: “b”.
+46. (CESGRANRIO/Petrobrás - Técnico(a) de Inspeção de Equipamentos e Instalações Júnior – 2014)
+Uma Zona Termicamente Afetada (ZTA) é a região que
+a) sofre só refino de grão.
+b) sofre fusão durante a soldagem.
+c) sofre grande alteração na composição química.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 87 =====
+86
+d) não sofre fusão durante a soldagem e não sofre alterações.
+e) não sofre fusão, mas a microestrutura é alterada.
+Comentário:
+Conforme vimos em aula, Estrategista, a ZTA (Zona Termicamente Afetada) corresponde a zona da
+região da solda do metal de base na qual não sofreu fusão. Todavia, por conta da proximidade com a
+zona de fusão, a microestrutura do material na ZTA foi afetada e, assim, apesar de não sofrer fusão, ela
+é alterada. Essa alteração está relacionada com a proximidade e, consequentemente, com a
+temperatura, gerando quatro regiões: região de grão grosseiro, região de grão fino, região intercrítica
+e região subcrítica. Lembra dos tratamento térmicos que vimos e seus diferentes impactos na
+microestrutura dos material? Pois é! É a mesma lógica! Por conta da temperatura elevada do processo
+de soldagem, temos a região da ZTA com sua microestruturas também alteradas.
+Gabarito: “e”.
+EAOEAR
+47. (EAOEAR/Engenharia Mecânica – 2018)
+Com as condições e técnicas de soldagem corretas e com os materiais também corretos, o processo MIG/
+MAG resultará num depósito de solda de alta qualidade. Entretanto, assim como em qualquer outro
+processo de soldagem, os defeitos de solda podem ocorrer.
+Associe as colunas relacionando os defeitos de solda à sua correta descrição.
+A sequência correta dessa associação é?
+a) (1); (2); (3); (4).
+b) (2); (4); (1); (3).
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 88 =====
+87
+c) (3); (1); (4); (2).
+d) (4); (3); (2); (1).
+Comentário:
+Questão tranquila, Coruja! Ela nos cobra o conhecimento sobre as descontinuidades estruturais que
+podem surgir em processos de soldagem. Vejamos cada assertiva de cima para baixo:
+2 - oras, estamos falando da falta de fusão que se caracteriza pela ausência de continuidade na junta
+soldada entre o metal de deposição e o metal de base. Tem como origem a falta de energia (calor)
+suficiente que acaba não aquecendo adequadamente o metal presente na junta. Outra possível causa é
+a presença de camada de óxido muito espessa formada que dificulta a fusão do metal de base. Essa
+descontinuidade pode ser gerada por manipulação incorreta do eletrodo, presença de sujeira na junta e
+energia insuficiente (seja por corrente muito baixa, seja por velocidade de soldagem elevada). Como
+consequência principal temos, para variar, o surgimento e propagação de trincas pela concentração de
+tensão no ponto de falta de fusão. A única correção é a ressoldagem;
+4 - temos a porosidade que originadas pela presença de gases durante a solidificação na solda. A falta
+de desprendimento de gases podem gerar bolhas dentro da solda por gases que podem ser formados na
+fusão do material (como o CO e o CO2) por conta do carbono da liga e do gás O2 do ar atmosférico, por
+exemplo;
+1 - como nome sugere, o defeito é gerado por uma falta de metal em alguma região da junta
+(normalmente, na raiz da solda). Tem como causa, novamente, a manipulação errada do eletrodo ou
+junta mal projetada, ângulo de chanfro pequeno, correntes baixas e velocidade de soldagem muito
+alta e diâmetro da alma do eletrodo muito grande. Como consequência direta, temos uma redução útil
+da solda e concentração de tensão;
+3 - temos a mordedura descrita! Consiste em uma depressão na forma de entalhe no metal de base que
+acompanha a margem da solda. Dessa forma, a fusão do metal de base nessa margem não é o suficiente
+para encher a área. Assim, surge uma reentrância na região;
+Gabarito: "b”.
+Idecan
+48. (Idecan/CBM – 2016)
+A soldagem geralmente é realizada com a aplicação localizada de calor ou através da deformação plástica
+dos materiais, resultando em alterações das propriedades na região da junta, nem sempre desejáveis.
+Sobre os aspectos metalúrgicos envolvidos nos processos de soldagens, assinale a afirmativa correta.
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 89 =====
+88
+a) Metais e ligas de elevada condutividade térmica dissipam rapidamente o calor da região da solda
+para o restante da peça, facilitando a formação da poça de fusão.
+b) Metais não transformáveis, como alumínio e cobre, no estado recozido, o efeito do ciclo térmico
+mais marcante é a diminuição do grão na zona termicamente afetada.
+c) Quanto menos espessa a junta, mais rapidamente esta tenderá a se resfriar durante a soldagem até
+uma espessura limite acima da qual a velocidade de resfriamento independente da espessura.
+d) A porosidade da solda, uma descontinuidade estrutural, advém da evolução de gases durante a
+solidificação da solda e pode ser causada pela umidade ou contaminação de óleo e por corrente ou
+tensão de soldagem excessiva.
+Comentário:
+Questão tranquila, Coruja! Ela nos cobra diferentes aspectos sobre a metalurgia da soldagem e o
+comportamento dos materiais e suas ligas durante os processos de soldagem. Vejamos cada alternativa:
+Letra "a": errada! De fato, metais e ligas com alta condutividade térmica dissipam mais rapidamente
+calor da região da solda (claro, com maior condutividade, maior dissipação de calor, pois facilita sua
+transferência pelo mecanismo da condução). Todavia, a alternativa erra ao afirmar que esse fator
+(elevada condutividade e elevada dissipação) faz com que seja mais fácil a formação da poça de fusão,
+pois o efeito é justamente o contrário - dificulta a formação da poça, pois mais calor sai da região e acaba
+sendo transferido para outras partes do material, perdendo energia deveria ser designada para fundir o
+material na região da poça de fusão;
+Letra "b": errada! Conforme vimos, para a maioria das ligas e, também, para os metais não
+transformáveis como o alumínio e o cobre, o tamanho do grão quando se começa a atingir o recozimento
+é maior ocorrendo seu crescimento na ZTA (Zona Termicamente Afetada) a depender da região. Lembre-
+se que temos diferentes regiões/faixas dentro da ZTA:
+Faixas da ZTA
+Região de Granulação Grosseira (com crescimento de grão)
+Região de Granulação Fina (refino de grão)
+Região Intercrítica (temperaturas entre A3 e A1)
+Região Subcrítica (temperaturas inferiores à linha A1)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 90 =====
+89
+Letra "c": errada! A lógica, Coruja, é justamente inversa: quanto maior e mais espessa a junta aí, sim,
+mais rapidamente ela irá se resfriar! Isso porque temos mais material na junta (por isso, maior
+espessura) para "roubar" energia na forma de calor da região e fazer com que seu resfriamento seja mais
+elevado. Quando atingir certo nível de espessura (espessura limite) a depender do material, a velocidade
+de resfriamento mantém-se a mesma, sendo independente da espessura atingida;
+Letra "d": perfeita! De fato, conforme vimos, esse tipo de descontinuidade (caracterizada com
+estrutural) pode ter origem pela formação de bolhas pelo desprendimento de gases que acabaram
+ficando presos no material fundido, seja proveniente de excessos de umidade, seja por "sujeiras"
+(contaminação com óleo, graxa, ou fluxo e gás de proteção (úmidos) podem gerar esse defeito);
+Gabarito: "d”.
+49. (Idecan/CBM – 2016)
+O símbolo de soldagem que representa uma junta em meio V é:
+a) .
+b) .
+c) .
+d) .
+e) .
+Comentário:
+Opa! Questão interessante que nos cobra alguns aspectos sobre simbologia da soldagem! Vimos que a
+junta do tipo meio V, possui como característica o símbolo da letra "e", como se fosse a metade do
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 91 =====
+90
+símbolo da junta em V (que corresponde à letra "a"). Na letra "b", temos a junta em X (ou também
+chamada de duplo V ou em V em ambos os lados) e em "c", temos a junta em J e em "d", a junta em U!
+Gabarito: "e”.
+Marinha
+50. (Marinha - Técnico de Praças da Armada- Mecânica - 2013)
+Observe a figura a seguir.
+Assinale a opção que corresponde ao símbolo da junta soldada acima.
+a)
+b)
+c)
+d)
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 92 =====
+91
+e)
+Comentário:
+Olha só que raro, Coruja! Uma questãozinha sobre simbologia de soldagem (não é muito o perfil da
+Marinha cobrar esse conhecimento nos últimos anos desde 2012). Veja que temos um desenho de uma
+junta soldada e ele quer a representação em símbolo de acordo com a solda que fora feita. Oras, temos
+uma junta de topo na qual teremos solda dos dois lados da junta no formato quadrado do chanfro
+(também chamada de sem chanfro). Por isso, a simbologia correta é a letra "d". Vejamos as demais para
+relembrar:
+Letra "a": errada! Essa solda indica que o chanfro é do tipo "V" e que teremos solda com esse chanfro
+dos dois lados da junta;
+Letra "b": errada! Essa solda indica que o chanfro é do tipo "Bisel" e que teremos solda com esse chanfro
+dos dois lados da junta;
+Letra "c": errada, também! Mesma lógica que as demais alternativas acima, porém com o tipo "U";
+Letra "e": errada! Esse símbolo é do chanfro tipo "V curvo/curvado";
+Gabarito: "d".
+Felipe Canella, Juliano de Pelegrin
+Aula 08
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 93 =====

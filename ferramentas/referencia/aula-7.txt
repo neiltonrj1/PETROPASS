@@ -1,0 +1,1665 @@
+
+
+===== página 1 =====
+Aula 07
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+05 de Janeiro de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+PROCESSOS DE FABRICAÇÃO –CONFORMAÇÃO ............................................................................................ 2
+PROCESSOS DE FABRICAÇÃO - COMFORMAÇÃO E USINAGEM..................................................................... 3
+Conformação .................................................................................................................................................. 4
+Laminação ................................................................................................................................................... 7
+Forjamento ................................................................................................................................................ 10
+Extrusão..................................................................................................................................................... 14
+Trefilação .................................................................................................................................................. 15
+Estampagem .............................................................................................................................................. 20
+Calandragem ............................................................................................................................................ 21
+Questões Comentadas ...................................................................................................................................... 23
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+PROCESSOS DE FABRICAÇÃO –CONFORMAÇÃO
+Fala, Estrategista! Tudo bem com você? É com um enorme prazer que estou aqui novamente com
+você, contribuindo com sua preparação! Na aula de hoje, falaremos sobre alguns processos de fabricação.
+Como de praxe, eu utilizarei figuras (sempre que possível) a fim de ilustrar os principais processos
+de fabricação, sejam inerentes a à fundição, sejam inerentes à conformação. Alguns processos ficam mais
+elucidativos e a aprendizagem se torna mais eficaz quando se utiliza tais ilustrações.
+Pois bem. Sem mais delongas. Vamos ao que interessa! Antes, não deixe de me seguir nas minhas
+redes sociais para ter acesso a dicas e questões comentadas em vídeos sobre diferentes temas da
+Engenharia Mecânica!
+profcanelas t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+PROCESSOS DE FABRICAÇÃO - COMFORMAÇÃO E
+USINAGEM
+Conforme você já deve ter percebido, Coruja, processo de fabricação pode ser entendido como um
+procedimento realizado com o intuito de realizar transformações de caráter físico E/OU químico em
+materiais, a fim de agregar valor a este material.
+Dessa forma, os produtos que conhecemos e consumimos, desde um shampoo a um automóvel, são
+desenvolvidos por um conjunto de transformações. As operações de processamento vão transformando
+esses materiais a cada estágio e, consequentemente, o produto vai se aproximando cada vez mais do seu
+formato final e acabado, designado em seu projeto.
+Dentro da seara dos diversos processos de fabricação, Coruja, o nosso foco, nesta parte da aula,
+serão os processos de mudança de forma.
+Sob o prisma dos processos de mudança de forma, temos sua divisão em quatro tipos, sendo o foco
+dessa parte da aula os processos de conformação e de remoção de material:
+No campo de incidência dos processos de conformação, vamos tratar de maneira geral dos processos
+de laminação, forjamento, extrusão, estampagem, trefilação e calandragem.
+Em relação aos processos de remoção de material, temos os processos de usinagem (nome técnico
+para os processos de remoção de material que não será objeto de estudo da aula de hoje) como o
+fresamento, torneamento, furação, aplainamento, brochamento, serramento, mandrilhamento,
+retificação, brunimento e polimento e espelhamento.
+Processos de mudança de forma
+Processos de
+Solidificação
+Processos de
+Particulados
+Processos de
+Conformação
+Processos de Remoção
+de Material
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+Todos esses assuntos serão abordados de maneira teórica, conforme as questões em relação ao
+tema, foco das questões de concurso. Nesse sentido, é interessante termos o esquema a seguir em mente:
+Nessa parte da aula de hoje, falaremos dos processos de conformação. Em outro aula, por conta da
+extensão desses assuntos, veremos os processos de unsinagem.
+Conformação
+Os processos de conformação são aqueles que fazem o material mudar de forma pela aplicação de
+um conjunto de forças externas superiores ao limite de escoamento do material. "Tá, professor, legal. Mas
+o que você quis dizer?"
+Limite de escoamento é o limite que o material suporta até ele atingir a deformação plástica,
+estando ainda dentro do campo da deformação elástica. Aqui, novamente, faz-se necessário entender o que
+são essas deformações.
+De maneira simples e sem adentrar no detalhe, pois é campo de estudo de outra aula, a deformação
+elástica é aquela pela qual o material pode voltar ao seu estado anterior, original, depois de sofrida
+determinada força. É como um elástico, Estrategista: se a gente puxar até o limite de escoamento ele
+retorna a sua forma original.
+Processos de conformação
+Laminação
+Forjamento
+Extrusão
+Trefilação
+Estampagem
+Calandragem
+Processos de Usinagem (remoção de material)
+Fresamento
+Torneamento
+Furação
+Aplainamento
+Brochamento
+Serramento
+Mandrilamento
+Retificação
+Brunimento
+Polimento e espelhamento
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+Todavia, se puxarmos esse mesmo elástico do exemplo e ultrapassarmos esse limite de escoamento,
+a deformação passa a ser plástica – não é mais possível atingir a forma anterior, original. Logo, quando
+puxamos um elástico demais, ou ele arrebenta ou ele se deforma de uma maneira que ele não volta ao seu
+estado anterior naturalmente, quando cessados os esforços que geram a tensão.
+Deformação plástica, não volta a forma original.
+Deformação elástica, volta a forma original.
+Pois bem. Compreendido esses pontos auxiliares da matéria, vamos continuar a conformação...
+Depois de atingido o limite de escoamento, a conformação passa a fazer efeito e, dessa forma, o
+formato é atingido. Nesse sentido, as máquinas atuam no material exercendo essas forças externas e, para
+cada tipo de conformação, temos máquinas diferentes, relacionadas a cada processo. Veremos agora cada
+um deles.
+Dentro dos processos de conformação, temos dois principais tipos de natureza:
+• Compressão Direta (a conformação no material ocorre por forças diretas e perpendiculares,
+como na laminação e no forjamento);
+• Compressão Indireta (a força que faz a deformação permanente deriva de uma força de
+tração indireta, como na trefilação - veremos adiante - e, assim, a força que deforma a peça
+é contrária em sentido a força indireta). Além da trefilação, extrusão e estampagem, também
+podem se enquadrar nesse tipo de compressão.
+Outra característica que devemos conhecer, Coruja, inerente aos processos de conformação é em
+relação a temperatura na qual o processo é feito. Nesse sentido, teremos os processos sendo desenvolvidos
+em três categorias: trabalhos a frio, trabalho a morno e trabalhos a quente!
+No trabalho a frio, por conta da menor temperatura que peça se encontra durante o processo (feito
+entre 0 a 0,3.TF - Temperatura de Fusão da liga metálica), temos um maior emprego de tensão (gerada pelo
+esforço mecânico), pois toda a microestrutura do retículo cristalino está compactada, mais rígida e sem
+vibração térmica (como no trabalho a quente que veremos na sequência) permitindo menores movimentos
+entre os planos cristalográficos e suas células unitárias.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+Dessa forma, o trabalho a frio acontece junto com o encruamento do material que é gerado pela
+interação das discordâncias e contornos de grãos, por exemplo, prejudicando o movimento entre eles no
+retículo cristalino.
+Por outro lado, o trabalho a quente eleva a temperatura antes da deformação em certa de 0,5.TF (a
+famosa, a depender da liga e da doutrina, temperatura de recristalização). Isso gera menor gasto energético
+na etapa seguinte para se atingir a deformação por conta da recuperação e recristalização dos grãos durante
+a deformação gerando uma vibração térmica em uma microestrutura menos rígida. Por conta disso, temos
+uma diminuição da tensão de escoamento, facilitando os trabalhos. Todavia, também temos algumas
+desvantagens.
+Dessa forma, quero que você memorize as vantagens e desvantagens em relação ao trabalho a frio,
+pois costumam ser alvo de cobrança, Estrategista. Veja a seguir de acordo com a doutrina
+1
+:
+Vantagens:
+• Energia para deformar o metal é menor, pois a tensão de escoamento diminui com aumento da
+temperatura;
+• Aumento da ductilidade do material;
+• Homogeneização química das estruturas brutas de fusão, diminuindo segregações pela melhora
+na difusão atômica;
+• Eliminação das bolhas e gases;
+• Proporciona grãos menores, recristalizados e equiaxiais, refinando a granulação grosseira;
+Desvantagens:
+• Precisa de equipamentos especiais, como fornos para aumento da temperatura da peça;
+• Gasto de energia maior (pois precisa aquecer a peça antes da conformação, apesar do menor
+gasto energético durante a conformação em si);
+• Reação da liga metálica com a atmosfera local do forno, gerando óxidos e descarbonetação
+superficial em ligas como o aço (por conta do carbono);
+• Esses mesmo óxidos prejudicam o acabamento superficial da peça;
+• Maior desgastes das ferramentas;
+• Tolerâncias estreitas das dimensões da peças são impossíveis de serem atingidas pelos
+fenômenos de expansão e contração térmicas por conta da temperatura de recristalização e
+posterior resfriamento;
+1 BRESCIANI, E. F.; ZAVAGLIA, C. A. C.; BUTTON, S. T.; GOMES, E.; NERY, F. A. C. Conformação Plástica dos Metais. Editora da Unicamp, 6a edição. Campinas, 2011 e CIMM (Centro de Informações Metal Mecânica.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+• Diferença entre a microestrutura superficial e interna da peça, por conta do processo de
+resfriamento desigual (superfície fica recristalizada e mais fina e interior com o crescimento de
+grãos pelo resfriamento mais lento);
+Por outro lado, quando a conformação é feita com aumento da temperatura temos o trabalho a
+morno (normalmente, entende-se que as temperaturas do material estão entre 0,3 e 0,5 TF). Nesse
+processo, a única coisa que você entender, Coruja, é que ele tende a conciliar as vantagens do trabalho a
+frio e do trabalho a quente. Nesse sentido, teremos certa recuperação dos grãos no processo de deformação
+pela temperatura, gerando um nível de encruamento menor que no trabalho a frio.
+Além disso, quando comparado ao trabalho a quente, ele irá melhorar o acabamento superficial (que
+vimos ser um problema por conta dos óxidos). Basicamente, é um "meio-termo" mesmo entre os pois
+extremos. Um processo de conformação típico e característico que pode ser associado ao trabalho a morno
+é o Forjamento.
+Laminação
+No processo de laminação o principal objetivo é se atingir uma espessura menor na peça a ser
+trabalhada. O material é submetido a forças extremamente altas proporcionadas por dois cilindros.
+Esses cilindros exercem as forças de compressão no material, fazendo com que sua espessura
+diminua conforme o material se movimenta pelo trem de laminação.
+Normalmente, a laminação é feita a quente, ou seja, o material é submetido a altas temperaturas
+anteriormente, porém sem atingir o seu ponto de fusão e, dessa forma, menores esforços são exigidos. Nas
+figura a seguir temos o processo em si (bem simples de se visualizar).
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+2
+Um ponto interessante que pode aparecer na sua prova é sobre a mecânica da laminação. Nessa
+seara de conhecimento, temos um ponto denominado de Ponto Neutro (ou ponto N, conforme a literatura),
+no qual temos alguns detalhes quanto a velocidade e pressão no processo de fabricação de conformação da
+Laminação.
+Como sabemos, nesse processão de conformação, os cilindros exercerão uma compressão direta na
+chapa a fim de diminuir sua espessura. A velocidade periférica dos cilindros é constante e, por conta disso,
+tem uma região de contato efetivo para a conformação denominada de arco de contato. Nessa região, temos
+um ponto específico, no qual a pressão será máxima, a partir do qual ela passa a diminuir.
+Processo inverso ocorre com a velocidade, pois até o ponto neutro a velocidade periférica do cilindro
+é menor que a da peça. A partir do ponto neutro a velocidade da peça passa a ser maior que a periférica do
+cilindro.
+Nesse sentido, Coruja, temos que conhecer (na figura a seguir coloquei esses detalhes) o ângulo de
+laminação que é formado pelo arco de contato e tem seu vértice na projeção do eixo do cilindro. Esse ângulo
+de laminação tem um valor mínimo e abaixo desse valor os cilindro não conseguem mais arrastar a peça
+pela atuação das forças de atrito. Dessa forma, a tangente desse ângulo deve ser menor ou igual ao
+coeficiente de atrito entre peça e cilindro para ocorrer, de fato, a laminação!
+2 Elaboração pelo autor, 2019.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+Veja o ponto neutro na figura a seguir. Nela, temos a força de atrito (Fa) tangente ao arco de contato
+(AB), a pressão exercida contrária e proveniente da força normal do cilindro na peça (p) e as força normal
+(Fr) do cilindro na peça.
+3
+Outros nomes para o ângulo de laminação são: ângulo de contato e ângulo de ataque.
+Além disso, quando ele é mínimo, recebe o nome de ângulo de mordida! ;)
+3 Adaptado de BRESCIANI, E. F.; ZAVAGLIA, C. A. C.; BUTTON, S. T.; GOMES, E.; NERY, F. A. C. Conformação Plástica dos Metais. Editora da Unicamp, 6a edição. Campinas, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+Outro ponto de atenção, Coruja, está relacionado ao projeto de cilindros que vão compor os
+laminadores desse processo. De acordo com a literatura específica4, temos algumas recomendações para
+que o projeto dos cilindros seja eficiente. Dentre elas, podemos citar, na lavara da doutrina:
+• Redução do passe deve ser bem dimensionada com os diâmetros e à capacidade do
+tratamento térmico afim de reduzir fraturas de cilindro e potência do laminador;
+• Passagens com inclinação suficiente na lateral a fim que as partes se adaptem ao gabarito do
+perfil da peça que deve ser feito com estreitas tolerâncias e contração devido ao
+resfriamento);
+• Secções transversais ao longo da peça devem ser as mais uniformes possíveis;
+• A quantidade de material laminado por cilindro, pois quanto menor o número de passes
+necessários, menor será o custo de fabricação e menor o desgaste deles;
+• As deformações longitudinais e transversais da peça deem ser consideradas, pois cada
+material terá espalhamentos diferentes;
+• A velocidade da laminação se for elevada restringe o espalhamento lateral e a intensidade de
+redução de espessura da peça;
+• Temperatura de trabalho, pois se for maior, também será maior a intensidade de redução e
+menor será o desgaste dos cilindros (claro, aqui não seria o trabalho a quente com
+temperaturas muito elevadas, Coruja);
+• Diâmetro dos cilindros, pois com diâmetros maiores, tem-se maiores intensidade de redução
+e maior facilidade de entrada da peça pela área de contato com maior. Todavia, quanto maior
+o diâmetro do cilindro, maior será a potência motora para provocar maior espalhamento, ao
+passo que a deformação na direção da laminação será menor;
+Forjamento
+A primeira informação que você tem que guardar, Estrategista, é que ele é o mais antigo processo
+de conformação de metais, sendo os primeiros procedimentos feitos a mais de 5000 anos antes de Cristo. É
+usado hoje para componentes de alta resistência.
+Nesse tipo de processo de conformação, o trabalho pode ser realizado a quente ou a frio. Todavia, a
+forma mais utilizada é a quente. Nesse processo, pode ser necessário tanto no formato de impacto quanto
+no formato por pressão gradativa, a depender dos equipamentos utilizados, bem como de qual aplicação
+do material a ser trabalhado em seu uso real depois de acabado.
+Quando se utiliza o forjamento por impacto, o equipamento que realiza o trabalho recebe o nome
+de Martelo de Forjar, ao passo que o equipamento que realiza a conformação por pressão gradativa recebe
+4 Adaptado de BRESCIANI, E. F.; ZAVAGLIA, C. A. C.; BUTTON, S. T.; GOMES, E.; NERY, F. A. C. Conformação Plástica dos Metais. Editora da Unicamp, 6a edição. Campinas, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+o nome de Prensa de Forjar. Na prensa de forja, conforme a pressão é exercida, o material vai preenchendo
+o espaço geométrico entre os pratos das matrizes até formar a rebarba – sobra de material que garante o
+preenchimento de praticamente todos os espaços.
+Ainda relacionado aos tipos de forjamento, temos os de Matriz Aberta, Matriz Fechada e Sem
+Rebarba. A figura a seguir monstra cada tipo. Em “a”, temos o tipo aberta; em “b”, o tipo fechada, com
+rebarba de material e em “c”, a fechada sem rebarba de material.
+Normalmente nos processos de forjamento, o lingote é a denominação da massa de metal fundido
+que sofreu um processo de fundição e está à espera de algum processo de conformação mecânica. Esse
+lingote também pode sofrer a cunhagem que consiste em um tipo de conformação para “imprimir”
+gravuras, desenhos, escritas ou marcas específicas no material, muito utilizada na fabricação de moedas.
+Nela, temos, de acordo coma lavra da doutrina, um tipo de prensagem, comumente aplicada a frio, onde
+todas as superfícies da peça são restringidas ou limitadas pelas matrizes. Assim, o perfil e a impressão são
+reproduzidas perfeitamente. É comum aplicar etapas antes da cunhagem que consistem em operações
+preliminares de forjamento e extrusão, por conta da pequena redistribuição do metal que é obtida durante
+a própria cunhagem.
+Além da cunhagem, Coruja, temos outros processos derivados do forjamento. De acordo com a
+doutrina
+5
+, temos os seguintes:
+• Caldeamento: tipo de forjamento livre que visa produzir um tipo de soldagem depois de
+submetidas à compresso. Esse processo é muito empregado na produção de correntes
+(soldagem dos seus elos);
+• Estiramento e encalcamento: o estiramento nada mais é que um processo a fim de aumentar
+o comprimento da peça em relação a sua espessura. O estiramento também consiste em uma
+variedade de processo de conformação e, mais especificamente, do processo de estiramento.
+O encalcamento, tem como objetivo reduzir a seção de uma porção da peça que seja
+intermediária com uso de ferramenta específica.
+• Recalque: também chamado de forjamento por compressão ou recalcagem, consiste na
+compressão direta do material (normalmente, uma peça cilíndrica) com objetivo de reduzir
+seu comprimento (altura) e aumentar seu diâmetro (seção transversal). É muito utilizado para
+transformar barras cilíndricas pequenas em uma determinada peça (como parafusos, por
+exemplo) pela compressão axial exercida no material.
+5 Adaptado de Krelling, A. Instituto Federal de Santa Catarina, 2020 e Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+6
+Estrategista, um processo que é pouco explorado em provas, mas que faz parte desse
+grupo é a hidroformagem! Consiste em um tipo de conformação direta na qual a
+compressão é exercida pela pressão hidráulica que irá moldar a peça, comprimindo-a
+contra a matriz! ;)
+Um outro processo que deriva do forjamento, é o tixoforjamento (ou forjamento semissólido). Não
+costuma ser alvo das bancas (apareceu somente uma vez), mas acho pertinente você pelo saber sua definição
+e suas vantagens e desvantagens, Coruja!
+O tixoforjamento nada mais é que um processo que visa a diminuição de custo, conforme se tenta
+chegar na forma final da peça com o acabamento mais próximo possível do ideal de projeto. Para isso, a
+intenção é produzir a peça final com um só golpe que emprega pequenas forças no material ainda
+6 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+semissólido, diminuindo a geração de tensões residuais finais e trincas (além de defeitos como porosidades
+e aprisionamento de ar), o que constitui vantagem em relação ao projeto tradicional. Todavia, também há
+desvantagens do processo. De acordo com a literatura7, temos as seguinte vantagens e desvantagens:
+Vantagens Desvantagens
+Tempo de processo pequeno
+Restrito apenas a ligas de alumínio, ferro e certas
+ligas de cobre
+Atende peças com geometria complexas Janela de aplicação estreita
+Redução de defeitos (trincas a quente e baixo
+choque térmico durante o resfriamento)
+Custo elevado de tecnologia para manutenção e
+para manter a temperatura de operação
+Menos porosidades e segregação de impurezas (o
+estado semissólido melhora a difusão e
+solubilidade)
+Alta solicitação térmica da ferramenta
+Menor desgaste das ferramentas (certas ligas de
+alumínio, por exemplo, são processadas até 100
+oC abaixo da temperatura de fusa da liga).
+Dificuldade de controle da velocidade de agitação
+para homogeneizar o metal no processo.
+Por fim, é válido mencionarmos, não somente na seara do processo de forjamento, mas vários outros
+processos de conformação, o tal Ensaio do Anel. Questões são rara sobre esse ensaio, então ficaremos
+somente na sua definição e conceito.
+De acordo com a literatura específica, esse ensaio consiste em deformar uma seção transversal anular
+de um material em uma matriz com um punção. Assim, o material é comprimido axialmente e esticado
+radialmente, fazendo com que a espessura do anel seja reduzida. A medida da força e da deformação
+resultante permite calcular a resistência à deformação do material. Além disso, o atrito é um dado
+importante a fim de avaliar a vida útil da ferramenta (matriz), além dos impactos da superfície da peça a ser
+conformada.
+Assim, conforme se aplica uma força na amostra de metal, em um processo de conformação a quente,
+contra a matriz, forças de atrito surgem e tendem a impedir movimento entre as superfícies de contato.
+Assim, a partir das forças de conformação aplicada, é possível determinar a força de atrito. Esse ensaio tem
+relevância, inclusive, para se determinar a vida útil da ferramenta (no caso, a matriz) conforme seu desgaste
+no processo tende a ser maior com a maior força de atrito existente.
+7 Adaptado de Soares. C.L e Cavalcanti.W.M.; Tixoconformação e Hidroconformação: uma revisão de literatura sobre os processos não convencionais de conformação mecânica.
+ENEGEP, 2013.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+Extrusão
+Na extrusão, o material a ser conformado é comprimido a passar por um molde, no qual, ao término
+do processo, terá o formato desse molde. Esse é um processo que tem como vantagens o gasto menor com
+material, pois pouquíssima sobra de rebarba é gerada, além de ser possível atingir diferentes tipos de
+formato, bastando variar o molde.
+O processo de extrusão também pode ser a frio ou a quente, além de ter mais duas classificações: a
+extrusão direta e a indireta. Na primeira, o material é empurrado entre o êmbolo e o molde da matriz
+pertencente à câmara. Já na extrusão indireta (também chamada de extrusão a ré ou reversa), o material
+passa pela matriz da mesma forma como na direta, porém a matriz faz parte do êmbolo, fazendo, assim,
+com que o material escoe em direção contrária ao movimento do êmbolo. Nas figuras a seguir, temos em
+“a”, a extrusão indireta e em “b”, a direta de seção transversal vazada.
+8
+8 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+9
+Por conta da dinâmica da extrusão indireta (ou inversa, como é também chamada), as forças de atrito
+entre o material (tarugo por exemplo) e o container da matriz são menores que na direta. Isso se dá por
+conta de um movimento praticamente nulo entre o tarugo e a matriz, implicando forças de atrito muito
+menores que na direta. Dessa forma, duas vantagens da indireta que a literatura elenca são: melhor fluxo
+de escoamento do material e menores forças necessárias de trabalho.
+Trefilação
+No processo de conformação por trefilação (também chamado de estiramento, por alguns autores),
+o material a ser conformado é puxado através da matriz ao invés de ser empurrado como na extrusão. O
+processo de trefilação é muito parecido com o da extrusão e é utilizado para a conformação no processo de
+fabricação de arames, varas e barras. Observe a figura a seguir e repare na força de tração exercida na saída
+da matriz.
+9 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+10
+Assim como no processo de extrusão, a matriz pode ter diferentes moldes com medidas variáveis.
+No processo de trefilação para arames, normalmente, o projeto dos equipamentos é elaborado para grandes
+rolos de arame. Nesse processo, a trefilação ocorre de forma contínua, por isso também recebe o nome de
+trefilação contínua.
+Lembre-se sempre, Estrategista: trefilação contínua = arames;
+Além disso, memorize: trefilação é um processo puxado! Teremos uma questão na lista
+final que possui uma pegadinha nesse sentido! Será um excelente treino nesse quesito!
+Além disso, sabia que a matriz é chamada de fieira, Coruja! Sempre associe a Trefilação (ou
+Trefilamento, como parte da doutrina costuma chamar) como um processo que usa tensão de tração que
+irá "puxar" o material pela parte externa matriz e formar fios, arames, barras ou tubos finos.
+Alerto você porque existem autores, como o renomado Chiaverini que considera o Estiramento e a
+Trefilação como sinônimos. Se a questão não entrar no mérito, ótimo! Manda bala e marque a alternativa
+correta! Todavia, caso ela deixe claro que são diferentes (como as duas questões na sequência que faremos),
+10 Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+atente-se para o detalhe da matriz! Falou em fieira, falou na trefilação. Veja a figura abaixo que ilustra um
+processo de Estiramento para chapas por outra literatura específica11:
+Coruja, para fecharmos esse assunto, saiba que temos, tendo do processo de trefilação, dois tipos
+de máquina de trefilar que são comumente usadas (e já foram alvo de questões): a com deslizamento e a
+sem deslizamento. Na lavra doutrina específica12 (de onde provém, inclusive a questão), temos as seguintes
+características que julgo importante você conhecer (memorize, principalmente, as palavras-chave
+destacadas):
+• Máquina de trefilar sem deslizamento: contém um sistema de tração do fio, a fim de conduzi-lo
+por meio do furo da fieira, constituído por um anel tirante que, em um primeiro momento,
+acumula o fio trefilado e depois permite seu movimento em direção de uma segunda fieira. Essa
+lógica se mantém para múltiplos e contínuos sistemas de trefilação com diversas fieiras na
+mesma máquina;
+• Máquinas de trefilar com deslizamento: são indicadas para a trefilação de fios metálicos de
+pequenos diâmetros. Nessas máquinas, os fios partem de uma bobina e passam por uma roldana
+até a primeira fieira. Depois, na saída, temos um anel tirante no qual o fio dá certo número de
+voltas alinhando o fio com a primeira fieira e no fim da hélice formada com a segunda fieira.
+Veja a figura a seguir para você reconhecer em uma possível cobrança que peça a associação com o
+desenho e nome de cada máquina.
+11 Adaptado de REGO, R.; FARIA, A.R. Instituto Tecnológico de Aeronáutica - Divisão de Engenharia Mecânica – MT-717: Introdução a materiais e processos de fabricação, 2019.
+12 Adaptado de BRESCIANI, E. F.; ZAVAGLIA, C. A. C.; BUTTON, S. T.; GOMES, E.; NERY, F. A. C. Conformação Plástica dos Metais. Editora da Unicamp, 6a edição. Campinas, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+(FEPESE/Mecânica)
+O processo de fabricação que consiste em puxar uma peça metálica através de uma matriz que
+possui um orifício cônico, mediante a aplicação de uma força de tração no lado de saída do
+material, é chamado de:
+a) extrusão.
+b) alisamento.
+c) estiramento.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+d) trefilamento.
+e) tracionamento.
+Comentário:
+Falou em “puxar”, tem que vir à mente o processo de trefilação. Veja que a questão deixa claro
+isso. Além da tração ocorrer no lado de saída do material. Apesar de eu achar de uma
+sacanagem tremenda terem colocado “trefilamento” como opção, pois pela descrição,
+também poderia ser esse processo, a letra “c” é a correta para a banca. Cabível recurso, ao
+meu ver. Mas, de fato o Estiramento até pode ser considerado, mas como vimos, alguns
+autores citam esse processo para a tração de chapas.
+Gabarito: “c”.
+(FEPESE/Mecânica)
+O processo de fabricação chamado de estiramento consiste em:
+a) pressionar uma quantidade de material através de uma matriz metálica, cuja forma é o
+negativo da peça a ser produzida, afim de que a mesma absorva a forma desejada.
+b) comprimir uma peça metálica através de uma prensa que possui a forma positiva da peça
+desejada afim de que a mesma se molde conforme desejado.
+c) passar uma peça de metal entre 2 rolos que promovem uma redução na espessura que é
+resultante de tensões compressivas exercidas pelos rolos.
+d) puxar uma peça de metal através de uma matriz, que tem um furo cônico, por meio de
+uma força de tração que é aplicada no lado da saída.
+e) uma conformação plástica que se realiza pela operação de conduzir um fio (ou barra ou
+tubo) através de uma ferramenta (fieira), que contém um furo em seu centro, por onde passa
+o material.
+Comentário:
+Opa! Vimos que o processo de conformação chamado de Estiramento consiste no
+tracionamento (esforços que geram tensão de tração) da peça através da matriz para se
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 21 =====
+20
+modificar e atingir o formato final. Lembre-se que alguns renomados autores como Chiaverini,
+chama o estiramento e a trefilação (ou trefilamento) como sinônimos.
+Todavia, para outros autores há diferença. Minha sugestão? Se a questão, como essa, deixa
+claro, por meio das alternativas, que ambos são diferentes (como na letra "e", que menciona
+a fieira e está claro que é a trefilação o processo), considere como diferentes. A letra "a"
+descreve o processo de Extrusão (lembre-se que se falar em "empurrar" não estamos falando
+de trefilamento). A letra "b", por sua vez, pode ser o forjamento por prensa ou algum tipo de
+extrusão. A letra "c" é a Laminação e a letra "e" é a Trefilação (lembre-se da fabricação de fios
+e a matriz que recebe o nome de fieira).
+Gabarito: “d”.
+Estampagem
+Conforme define a literatura específica13, o processo de estampagem, Coruja, visa conformar chapas
+para serem usadas na produção de peças como copos, caixas e demais objetos côncavos e com formas
+curvas. Além disso, a estampagem é um processo que pode ser feito a frio como a quente. De acordo com a
+literatura específica
+14
+, comumente nas operações de corte e dobramento, temos a conformação realizada a
+frio, ao passo que na operação de estampagem profunda temos a conformação a quente. Nesse sentido,
+podemos perceber, Estrategista, que temos 3 grandes operações no processo de estampagem:
+Na operação de corte, Coruja, um punção (ferramenta que exerce o esforço de compressão sobre a
+peça) irá cortar a chapa metálica quando a comprimir contra a matriz. Veja a figura esquemática a seguir:
+13 Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+14 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Operações de
+estampagem
+Corte
+Dobramento
+Estampagem profunda
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+Na operação de dobramento (também denominada de encurvamento a depender do autor e
+característica da operação), a lógica do processo é a mesma. Todavia, é preciso considerar dois fatores: o
+raio de curvatura das matrizes e a elasticidade do material a fim de não ocorrer o corte do material. Veja a
+figura15 esquemática a seguir:
+Calandragem
+Nesse processo de fabricação de conformação, temos o objetivo de realizar um curvamento do
+material. É por meio desse processo que são obtidas peças com raios de curvamento específicos como:
+cilindros, cones, troncos de cones, entre outras peças com perfil de revolução. O principal esforço aplicado
+na calandragem é o de flexão.
+Normalmente, temos dois tipos de processos de calandragem: o manual e o mecânico.
+15 Adaptado de Groover, M.P. Introdução aos Processos de Fabricação. Editora: LTC. Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+No processo manual, o esforço de flexão é feito à mão, com auxílio de um martelo, grifa (para fixação
+e suporte) e gabaritos. Esse tipo é empregado para peças pequenas, suportes e flanges, Coruja.
+No processo mecânico, temos os esforços de flexão exercidos pelas calandras, muito empregadas na
+conformação de chapas e tubos. Ainda temos algumas divisões das calandras que acho pertinente você
+memorizar, pois tem cheiro de prova cobrar.
+Dessa forma, Coruja, temos dois tipos: calandras manuais e calandras mecânicas (dentro do grupo
+de calandragem mecânica). As manuais são usadas para chapas finas de até 2,0 mm e as mecânicas para
+chapas grossas de 2,5 a 60 mm. As calandras ainda podem ser divididas em relação a forma do material a ser
+conformado em de chapas e de perfis. Além disso, as de chapa podem ser divididas em relação a organização
+dos rolos em: de 3 rolos (tipo piramidal ou tipo de passo) e de 4 rolos. Veja o esquema a seguir para sua
+melhor compreensão ;)
+Sobre esse processo, acredito ser mais do que suficiente para sua prova, Coruja! Incidência de
+cobrança é bem baixa! "Bora" para próxima?
+Força, Estrategista! Falta mais um pouco! Vejamos os processos de usinagem, processos que
+implicam na remoção de material a ser trabalho.
+Tipos de
+calandragem
+Manual
+manual (chapas
+finas)
+Mecânica
+Tipos de
+calandras
+mecânica
+(chapas grossas)
+de chapas
+de 3 rolos
+(piramidal e de
+passo)
+de 4 rolos
+de perfis
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+QUESTÕES COMENTADAS
+CEBRASPE
+1. (CEBRASPE/Petrobrás - Engenheiro de Equipamentos - Inspeção - 2022)
+Julgue os itens seguintes, relativos aos processos de fabricação de produtos e peças metálicas.
+A determinação das forças de atrito existentes na interface matriz/material em processos de
+conformação de metais a quente é bastante importante, e um dos métodos utilizados para isso é o ensaio
+de anel, que consiste na compressão de uma amostra em formato de anel com as dimensões conhecidas
+entre duas superfícies planas, para posterior análise das alterações dimensionais ocorridas.
+( ) Certo ( ) Errado.
+Comentário:
+Questão bem específica que nos cobra o conhecimento sobre o tal Ensaio do Anel (ui!). Estrategista, esse
+ensaio realmente existe e é utilizado em processos de conformação a fim de se avaliar, entre outras
+propriedades, o coeficiente de atrito com base na conformação de anéis com dimensões padronizadas.
+Assim, conforme se aplica uma força na amostra de metal, em um processo de conformação a quente,
+contra a matriz, forças de atrito surgem e tendem a impedir movimento entre as superfícies de contato.
+Assim, a partir das forças de conformação aplicada, é possível determinar a força de atrito. Esse ensaio
+tem relevância, inclusive, para se determinar a vida útil da ferramenta (no caso, a matriz) conforme seu
+desgaste no processo tende a ser maior com a maior força de atrito existente.
+Gabarito: correto.
+2. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Julgue o item, a respeito de processos de conformação mecânica.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+Na trefilação, os esforços de compressão, preponderantes na deformação, são exercidos pelas paredes
+do furo da ferramenta (fieira) sobre o material, quando de sua passagem, por efeito de um esforço de
+tração aplicado na direção axial do fio e de origem externa.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Perfeita definição do processo de trefilação. Oras, vimos que ele é gerado pela compressão indireta
+da matriz (fieira) sobre o material, devido a força externa de tração que puxa o material pelo orifício.
+Gabarito: correto.
+3. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Julgue o item que se segue, a respeito de processos de conformação mecânica.
+Cunhagem é a operação de prensagem, geralmente realizada a frio, em que todas as superfícies da peça
+são restringidas ou limitadas pela utilização de matrizes, de modo que o perfil e a impressão da matriz se
+reproduzem perfeitamente.
+( ) Certo ( ) Errado.
+Comentário:
+Perfeita assertiva, Coruja! Conforme vimos em aula, essa é a definição retirada da lavra de Chiaverini.
+Lembre-se que esse processo é muito utilizado para a fabricação de moedas, medalhas e utensílios
+domésticos, como talheres.
+Gabarito: correto.
+4. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Julgue o item, a respeito de processos de conformação mecânica.
+No processo de conformação por dobramento de uma chapa metálica, o ângulo de dobramento tem de
+ser maior na operação de conformação que o determinado para a peça conformada, em virtude da
+recuperação da deformação elástica, que aumenta quando o limite de escoamento do material diminui.
+( ) Certo ( ) Errado.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+Opa! A questão começa muito bem e define, de maneira correta, a relação do ângulo de dobramento no
+processo de conformação em relação ao ângulo que é determinado para a peça final conformada. De fato,
+esse ângulo tem que ser maior, pois o material sofre uma recuperação da deformação no regime elástico
+depois do processo finalizar. Essa recuperação é tão maior quanto maior for o limite de escoamento do
+material (aí o erro da questão).
+Gabarito: errado.
+5. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Julgue o item, a respeito de processos de conformação mecânica.
+O laminador planetário Sendzimir, constituído de cilindros apoiados uns nos outros, foi desenvolvido
+para reduzir a quente, ou a frio, uma placa, ou uma chapa em bobina, em uma única passagem.
+( ) Certo ( ) Errado.
+Comentário:
+Olha aí! Mais uma questão retirada da literatura específica! Conforme vimos, temos vários tipos de
+laminadores para o processo de Laminação. Um deles, é o denominado Sendzimir que consiste em um
+laminador planetário, constituído por vários cilíndros apoiados uns aos outros. Ele pode, em uma única
+passagem reduzir a espessura das chapas tanto a quente ou a frio.
+Gabarito: correto.
+6. (CEBRASPE - IEMA - Mecânica - 2007)
+Na fabricação de vasos de pressão e caldeiras, é muito empregado o processo de curvamento. Esse
+processo consiste em operações que conferem à peça a forma de uma superfície de revolução em raios
+previamente especificados. Acerca desse assunto, julgue o seguinte item.
+O curvamento de tubos por compressão é obtido em uma prensa cuja punção exerce uma força que flete
+o tubo contra dois apoios móveis e ajustáveis.
+( ) Certo ( ) Errado.
+Comentário:
+De fato, Coruja, conforme vimos dentro do processo de conformação por Estampagem, temos a
+possibilidade de usar a matriz e o punção para fazer dobramentos e encurvamentos. A operação pode ser
+descrita da forma como o enunciado menciona, sendo o tubo fletido contra apoios móveis e ajustáveis.
+Também é comum o emprego por meio de calandras.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 27 =====
+26
+Gabarito: correto.
+7. (CEBRASPE - IEMA - Mecânica - 2007)
+Na fabricação de vasos de pressão e caldeiras, é muito empregado o processo de curvamento. Esse
+processo consiste em operações que conferem à peça a forma de uma superfície de revolução em raios
+previamente especificados. Acerca desse assunto, julgue o seguinte item.
+O curvamento de chapas para formar cilindros é feito em uma máquina de três rolos chamada de
+calandra.
+( ) Certo ( ) Errado.
+Comentário:
+Exatamente! Conforme vimos, esse para o processo de curvamento de chapas, a calandragem é
+amplamente utilizado e que consiste e um máquina denominada calandra que tem alguns formatos a
+depender do seu tipo. Lembre-se do seu tipo:
+Gabarito: correto.
+8. (CEBRASPE - IEMA - Mecânica - 2007)
+Na fabricação de vasos de pressão e caldeiras, é muito empregado o processo de curvamento. Esse
+processo consiste em operações que conferem à peça a forma de uma superfície de revolução em raios
+previamente especificados. Acerca desse assunto, julgue o seguinte item.
+O curvamento de chapas é feito dentro do regime elástico do material.
+( ) Certo ( ) Errado.
+Tipos de
+calandragem
+Manual
+manual
+(chapas finas)
+Mecânica
+Tipos de
+calandras
+mecânica
+(chapas
+grossas)
+de chapas
+de 3 rolos
+(piramidal e
+de passo)
+de 4 rolos
+de perfis
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+Comentário:
+Opa, Coruja! Aí, não, certo? Vimos inúmeras vezes que o processo de conformação termos as chapas
+adquirindo a forma final depois de atingido o regime plástico (deformação permanente do material).
+Questão erradassa.
+Gabarito: errado.
+9. (CEBRASPE - EMAP - Especialista - Engenharia Mecânica - 2018)
+A respeito dos processos de fabricação de materiais metálicos, julgue o item que segue.
+O tixoforjamento, ou forjamento semissólido, é um processo que permite fabricar peças com dimensões
+próximas à do produto final com um só golpe e que, por proporcionar ao material redução das tensões
+residuais e diminuição de trincas, é mais vantajoso que o processo de forjamento tradicional.
+( ) Certo ( ) Errado.
+Comentário:
+Essa é uma questão "copia e cola" da técnica e sua definição. Bora relembrar? Conforme vimos, o
+tixoforjamento (também conhecido como forjamento semissólido) consiste em um processo que visa a
+diminuição de custo, conforme se tenta chegar na forma final da peça com o acabamento mais próximo
+possível do ideal de projeto. Para isso, a intenção é produzir a peça final com um só golpe que emprega
+pequenas forças no material ainda semissólido, diminuindo a geração de tensões residuais finais e trincas
+(além de defeitos como porosidades e aprisionamento de ar), o que constitui vantagem em relação ao
+projeto tradicional. Todavia, também há desvantagens do processo. Vamos rever as vantagens e
+desvantagens a luz da literatura específica:
+Vantagens Desvantagens
+Tempo de processo pequeno
+Restrito apenas a ligas de alumínio, ferro e certas
+ligas de cobre
+Atende peças com geometria complexas Janela de aplicação estreita
+Redução de defeitos (trincas a quente e baixo
+choque térmico durante o resfriamento)
+Custo elevado de tecnologia para manutenção e
+para manter a temperatura de operação
+Menos porosidades e segregação de impurezas
+(o estado semissólido melhora a difusão e
+solubilidade)
+Alta solicitação térmica da ferramenta
+Menor desgaste das ferramentas (certas ligas
+de alumínio, por exemplo, são processadas até
+100
+o
+C abaixo da temperatura de fusa da liga).
+Dificuldade de controle da velocidade de agitação
+para homogeneizar o metal no processo.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+Gabarito: correto.
+10. (CEBRASPE - EMAP - Especialista - Engenharia Mecânica - 2018)
+A respeito dos processos de fabricação de materiais metálicos, julgue o item que segue.
+No processo de extrusão inversa, é empregada uma haste oca, que empurra a matriz contra o metal que
+será extrudado e sairá da matriz em sentido contrário ao movimento da haste. Nesse processo, as forças
+de atrito são consideravelmente maiores do que no processo de extrusão direta.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Questão tranquila que nos cobra o processo de extrusão inversa que ocorre dá vida a peça por meio
+de esforços de compressão indireta sobre o material. Dessa forma, como vimos, a extrusão indireta
+(também chamada de extrusão a ré ou reversa), o material passa pela matriz da mesma forma como na
+direta, porém a matriz faz parte do êmbolo, fazendo, assim, com que o material escoe em direção
+contrária ao movimento do êmbolo. Todavia, a questão erra ao final em afirmar que as forças de atrito
+são consideravelmente maiores doque no processo de extrusão direta, pois é justamente o contrário. Por
+conta o material ser extrudado pela haste oca, o movimento relativo entre tarugo (peça a ser extrudada)
+e o container da matriz é praticamente nulo, diminuindo as forças de atrito.
+Gabarito: errada.
+Instituto AOCP
+11. (AOCP - UEFS-BA - Analista - Engenheiro Mecânico - 2018)
+As operações de conformação mecânica são processos de trabalho dentro da fase plástica do metal.
+Relacione a representação esquemática dos processos com sua respectiva denominação e assinale a
+alternativa com a sequência correta.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+Denominação:
+1. Estampagem.
+2. Laminação.
+3. Extrusão.
+4. Trefilação.
+5. Forjamento.
+a) A4; B2; C3; D5; F1.
+b) A3; B2; C4; D5; F1.
+c) A4; B2; C3; D1; F5.
+d) A3; B4; C2; D1; F5.
+e) A2; B4; C3; D1; F5.
+Comentário:
+Tranquilidade, hein, Coruja! Questão que nos cobra a característica de cada processo de conformação.
+Vejamos:
+Processo A: perceba que o material é puxado pela matriz (fieira) por uma tensão de tração. Temos a
+Trefilação (4);
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+Processo B: fácil! Temos dois cilindros (rolos) exercendo a diminuição de espessura de uma chapa que
+atravessa entre eles. Temos a Laminação (2);
+Processo C: opa! Veja que temos o material sendo "empurrado" contra a matriz. Logo, temos a Extrusão
+(mais especificamente, a Extrusão Direta);
+Processo D: fácil! Perceba que temos um tipo de Forjamento que utiliza a prensa em vez do martelo de
+forjar a fim de atingir a conformação do material;
+Processo F: oras, temos a Estampagem, por conta do punção conformando a chapa contra a matriz,
+provavelmente fazendo alguma caixa ou copo (objetos côncavos);
+Gabarito: “a”.
+12. (AOCP - IFBA - Professor - Área Mecânica - 2016)
+O torneamento, o fresamento e a furação são processos de conformação mecânica por usinagem por
+gerarem cavacos e serem aplicados aos metais. O processo de conformação mecânica denominado
+conformação plástica acontece quando.
+a) tensões aplicadas são inferiores ao limite de resistência à ruptura do material.
+b) tensões aplicadas são superiores ao limite de resistência à ruptura do material.
+c) a temperatura adotada é superior ao ponto de solidificação do material.
+d) tensões residuais são superiores ao limite de resistência à ruptura da ferramenta.
+e) tensões absorvidas são inferiores ao limite de resistência ao escoamento do material.
+Comentário:
+Apesar de eu não gostar muito do enunciado (a doutrina dominante deixa bem claro a classificação de
+processos de usinagem separados dos processos de conformação), podemos assumir que teremos, pela
+lógica, uma "conformação" do material para ficar igual ao projeto teórico desenvolvido. Mas, vamos ao
+que interessa. Coruja, evidentemente, a conformação plástica que ocorre em todos os processos de
+conformação (Extrusão, Trefilação, Forjamento, etc) tem origem nas tensões impostas pelas forças
+atuantes externas e a resistência das matrizes.
+Por conta de as tensões passarem o limite de escoamento do material, adentram o campo plástico dele
+e, assim, ele assumi a configuração da matriz. Todavia, você tem que ter em mente que essas tensões
+devem ficar abaixo do limite de ruptura do material (imagine que na Trefilação a tensão de tração seja
+enorme que além de fazer o fio, arrebenta ele na saída da matriz-fieira?). Por conta disso, o limite de
+ruptura tem que ser respeitado. Assim, a letra "a", é o gabarito. As demais, são absurdas.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+Gabarito: “a”.
+13. (AOCP - CASAN-SC - Engenheiro Mecânico - 2009)
+Os principais processos de conformação podem ser classificados num pequeno número de categorias,
+com base em critérios tais como: o tipo de esforço que provoca a deformação do material, a variação
+relativa da espessura da peça, o regime da operação de conformação, o propósito da deformação.
+Basicamente, os processos de conformação mecânica podem ser classificados em.
+a) FORJAMENTO que é a conformação por esforços compressivos tendendo a fazer o material
+assumir o contorno da ferramenta conformadora, chamada matriz ou estampo; - LAMINAÇÃO que
+é o conjunto de processos em que se faz o material passar através da abertura entre cilindros que
+giram, modificando-lhe (em geral reduzindo) a seção transversal e os produtos podem ser placas,
+chapas, barras de diferentes seções, trilhos, perfis diversos, anéis e tubos; - TREFILAÇÃO que é a
+redução da seção transversal de uma barra, fio ou tubo, “puxando-se” a peça através de uma
+ferramenta (fieira, ou trefila) com forma de canal convergente e – EXTRUSÃO que é o processo em
+que a peça é “empurrada” contra a matriz conformadora, com redução da sua seção transversal.
+A parte ainda não extrudada fica contida num recipiente ou cilindro (container) e o produto pode
+ser uma barra, perfil ou tubo.
+b) FORJAMENTO que é o processo em que a peça é “empurrada” contra a matriz, com redução da
+sua seção transversal. A parte ainda não conformada fica contida num recipiente ou cilindro
+(container) e o produto pode ser uma barra, perfil ou tubo.; - LAMINAÇÃO que é o conjunto de
+processos em que se faz o material passar através da abertura entre cilindros que giram,
+modificando-lhe (em geral reduzindo) a seção transversal e os produtos podem ser placas, chapas,
+barras de diferentes seções, trilhos, perfis diversos, anéis e tubos; - TREFILAÇÃO que é a redução
+da seção transversal de uma barra, fio ou tubo, “puxando-se” a peça através de uma ferramenta
+(fieira, ou trefila) com forma de canal convergente e – EXTRUSÃO que é a conformação por
+esforços compressivos tendendo a fazer o material assumir o contorno da ferramenta
+conformadora.
+c) FORJAMENTO que é a formação por esforços de expansão tendendo a fazer o material assumir o
+contorno da ferramenta conformadora, chamada matriz ou estampo; - LAMINAÇÃO que é a
+redução da seção transversal de uma barra, fio ou tubo, “puxando-se” a peça através de uma
+ferramenta (fieira, ou trefila) com forma de canal convergente; - TREFILAÇÃO que é o conjunto de
+processos em que se faz o material passar através da abertura entre cilindros que giram,
+modificando-lhe (em geral reduzindo) a seção transversal e os produtos podem ser placas, chapas,
+barras de diferentes seções, trilhos, perfis diversos, anéis e tubos e – EXTRUSÃO que é o processo
+em que a peça é “empurrada” contra a matriz conformadora, com redução da sua seção
+transversal. A parte ainda não extrudada fica contida num recipiente ou cilindro (container) e o
+produto pode ser uma barra, perfil ou tubo.
+d) FORJAMENTO que é a formação por esforços de expansão tendendo a fazer o material assumir o
+contorno da ferramenta conformadora, chamada matriz ou estampo; - LAMINAÇÃO que é o
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+aumento da seção transversal de uma barra, fio ou tubo, “puxando-se” a peça através de uma
+ferramenta (fieira, ou trefila) com forma de canal convergente; - TREFILAÇÃO que é o conjunto de
+processos em que se faz o material passar através da abertura entre cilindros que giram,
+modificando-lhe (em geral reduzindo) a seção transversal e os produtos podem ser placas, chapas,
+barras de diferentes seções, trilhos, perfis diversos, anéis e tubos e – EXTRUSÃO que é o processo
+em que a peça é “empurrada” contra a matriz conformadora, com redução da sua seção
+transversal. A parte ainda não extrudada fica contida num recipiente ou cilindro (container) e o
+produto pode ser uma barra, perfil ou tubo.
+e) FORJAMENTO que é o conjunto de processos em que se faz o material passar através da abertura
+entre cilindros que giram, modificando-lhe (em geral reduzindo) a seção transversal e os produtos
+podem ser placas, chapas, barras de diferentes seções, trilhos, perfis diversos, anéis e tubos; -
+LAMINAÇÃO que é a redução da seção transversal de uma barra, fio ou tubo, “puxando-se” a peça
+através de uma ferramenta (fieira) com forma de canal convergente; - TREFILAÇÃO que é a
+conformação por esforços compressivos tendendo a fazer o material assumir o contorno da
+ferramenta conformadora, chamada matriz ou estampo e – EXTRUSÃO que é o processo em que
+a peça é “empurrada” contra a matriz conformadora, com redução da sua seção transversal. A
+parte ainda não extrudada fica contida num recipiente ou cilindro (container) e o produto pode
+ser uma barra, perfil ou tubo.
+Comentário:
+Cansativa, né? Questão fácil, mas que dá um trabalho ficar procurando o erro... Vamos lá.
+Letra "a": perfeita! Eis o gabarito!
+Letra "b": errada! O Forjamento não é o processo no qual a peça é "empurrada" contra a matriz e, sim, a
+Extrusão;
+Letra "c": errada, também! Laminação está equivoca, pois não há forças de tração que "puxam" o
+material pela matriz conformadora. Essa descrição é do processo de Trefilação (os Estiramento). Aliás, a
+Trefilação está com a descrição da Laminação;
+Letra "d": errada! Mesmo erro da letra "c;
+Letra "e": errada! O Forjamento está com a descrição da Laminação e esta com a descrição da Trefilação
+que, por sua vez, está com a descrição do Forjamento (ou seja, uma zona, rs).
+Gabarito: “a”.
+14. (Cesgranrio / Petrobrás Transportes S.A. - Técnico de Manutenção Júnior - Mecânica – 2018)
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+O tipo especializado de fabricação que usa uma alta pressão hidráulica para pressionar
+materiais em temperatura em um molde, obtendo peças que apresentam formas complexas e
+com concavidade, é o processo de
+a) cunhagem
+b) estampagem a frio
+c) forjamento
+d) hidroformagem
+e) trefilação.
+Comentário:
+Estrategista, dentre os tipos de processos de conformação que vimos, estudamos o processo de
+hidroformagem. Esse tipo de processo que corresponde ao grupo de Compressão Direta (a
+conformação no material ocorre por forças diretas e perpendiculares, como na laminação e no
+forjamento), temos a compressão exercida pela pressão hidráulica que irá moldar a peça
+comprimindo-a contra a matriz. É comumente utilizado na fabricação de juntas em "Y" e em "T", além
+de tubos. A "deixa" da questão tá na "alta pressão hidráulica".
+Gabarito: “d”.
+15. (Cesgranrio / Unirio - Engenheiro Mecânico – 2016)
+Uma peça a ser laminada possuirá uma velocidade maior do que a dos cilindros de laminação no seguinte
+momento:
+a) Ao atingir o meio da placa.
+b) Durante toda a laminação.
+c) Antes do ponto neutro.
+d) Após o ponto neutro.
+e) Somente no ponto neutro.
+Comentário:
+Coruja, conforme vimos em aula, temos um ponto denominado de Ponto Neutro (ou ponto N,
+conforme a literatura), no qual temos alguns detalhes quanto a velocidade e pressão no processo de
+fabricação de conformação de Laminação.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+Como sabemos, nesse processão de conformação, os cilindros exercerão uma compressão direta na
+chapa a fim de diminuir sua espessura. A velocidade periférica dos cilindros é constante e, por conta
+disso, tem uma região de contato efetivo para a conformação denominada de arco de contato. Nessa
+região, temos um ponto específico, no qual a pressão será máxima, a partir do qual ela passa a diminuir.
+Processo inverso ocorre com a velocidade, pois até o ponto neutro a velocidade periférica do cilindro é
+menor que a da peça. A partir do ponto neutro a velocidade da peça passa a ser maior que a periférica
+do cilindro.
+Gabarito: “d”.
+16. (Cesgranrio / Petrobrás Distribuidora - Profissional Júnior - Engenharia Mecânica – 2014)
+Em um projeto eficiente de um cilindro de laminação, é recomendado que se tenha:
+a) maior potência motora para diminuir o espalhamento.
+b) maior potência motora para aumentar a deformação na direção de laminação.
+c) menor número de passes para diminuir o custo de fabricação do cilindro.
+d) menor diâmetro dos cilindros para permitir maior intensidade de redução.
+e) menor temperatura de trabalho, diminuindo o desgaste dos cilindros.
+Comentário:
+De acordo com o que estudamos, Coruja, a literatura específica cita algumas recomendações para
+que o projeto dos cilindros seja eficiente. Dentre elas, podemos citar, na lavara da doutrina:
+• Redução do passe deve ser bem dimensionada com os diâmetros e à capacidade do
+tratamento térmico afim de reduzir fraturas de cilindro e potência do laminador;
+• Passagens com inclinação suficiente na lateral a fim que as partes se adaptem ao gabarito do
+perfil da peça que deve ser feito com estreitas tolerâncias e contração devido ao
+resfriamento);
+• Secções transversais ao longo da peça devem ser as mais uniformes possíveis;
+• A quantidade de material laminado por cilindro, pois quanto menor o número de passes
+necessários, menor será o custo de fabricação e menor o desgaste deles (letra "c", correta);
+• As deformações longitudinais e transversais da peça deem ser consideradas, pois cada
+material terá espalhamentos diferentes;
+• A velocidade da laminação se for elevada restringe o espalhamento lateral e a intensidade de
+redução de espessura da peça;
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+• Temperatura de trabalho, pois se for maior, também será maior a intensidade de redução e
+menor será o desgaste dos cilindros (letra "e", errada);
+• Diâmetro dos cilindros, pois com diâmetros maiores, tem-se maiores intensidade de redução
+(letra "d", errada) e maior facilidade de entrada da peça pela área de contato com maior.
+Todavia, quanto maior o diâmetro do cilindro, maior será a potência motora para provocar
+maior espalhamento (letra "a", errada), ao passo que a deformação na direção da laminação
+será menor (letra "b", errada);
+De acordo com o exposto, Coruja, percebemos que o gabarito é a letra "c".
+Gabarito: “c”.
+17. (Cesgranrio / INNOVA S.A. - Técnico de Segurança – 2012)
+A cunhagem (processo de fabricação de moedas) é uma derivação de qual processo de conformação
+mecânica?
+a) Laminação
+b) Forjamento
+c) Trefilação
+d) Extrusão
+e) Sinterização
+Comentário:
+Conforme vimos em aula, Coruja, a cunhagem é um processo de fabricação de moedas e é derivado
+do processo de forjamento.
+Gabarito: “b”.
+18. (Cesgranrio / INNOVA S.A. - Técnico de Inspeção de Equipamentos – 2012)
+A estampagem profunda constitui um processo mecânico de fabricação de peças metálicas realizadas a
+partir de
+a) chapas conformadas na forma de copo.
+b) chapas conformadas na forma plana.
+c) tarugos conformados na forma de copo.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====
+36
+d) tarugos conformados na forma plana.
+e) tubos conformados na forma de copo
+Comentário:
+Conforme vimos na parte teórica, Estrategista, o processo de fabricação de conformação
+denominado Estampagem consiste na operação que visa conformar chapas (letras "c", "d" e "e",
+erradas) para serem usadas para a produção de peças como copos (letra "b", errada), caixas e demais
+objetos côncavos e com formas curvas.
+Gabarito: “a”.
+19. (Cesgranrio / Casa da Moeda do Brasil - Analista - Engenharia Mecânica – 2012)
+As figuras mostram, esquematicamente, três processos de conformação mecânica utilizados na indústria.
+Os processos I, II e III estão relacionados, respectivamente, aos esforços predominantes de
+a) compressão direta, flexão e tração
+b) compressão indireta, cisalhamento e tração
+c) tração, flexão e cisalhamento
+d) tração, cisalhamento e flexão
+e) flexão, torção e tração.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 38 =====
+37
+Outra questão muito "tranquila", Coruja! Perceba que temos três figuraras nas quais alguns processos
+são desenvolvidos e o enunciado nos pede para identificar, para cada um, quais os esforços que
+predomina. Vejamos:
+I: perceba que temos o processo de fabricação denominado de Laminação esquematizado na figura.
+Conforme vimos em aula, nesse processo temos os esforços de compressão direta sendo empregados
+na chapa a fim de reduzir sua espessura final. Perceba que já chegamos ao gabarito da questão;
+II: o segundo processo vimos em aula e constitui o denominado Calandragem Mecânica. Nesse
+processo de fabricação de conformação, temos o objetivo de realizar um curvamento do material. É
+por meio desse processo que são obtidas peças com raios de curvamento específicos como: cilindros,
+cones, troncos de cones, entre outras peças com perfil de revolução. O principal esforço aplicado na
+calandragem é o de flexão.
+III: o terceiro processo, não é bem um processo, mas um corpo de prova de um ensaio de tração
+(tema de outra aula) no qual o esforço é o de tração.
+Gabarito: “a”.
+20. (Cesgranrio / Petrobrás - Técnico de Projetos - Mecânica – 2010)
+A operação de forjamento livre, que visa a produzir a soldagem de duas superfícies metálicas, postas em
+contato e submetidas à compressão, utilizada na produção de elos de correntes de aço, é conhecida como
+a) caldeamento.
+b) cunhagem.
+c) encalcamento.
+d) estiramento.
+e) recalque.
+Comentário:
+Conforme vimos em aula, Coruja, o enunciado descreve o processo de fabricação derivado do
+forjamento livre que visa produzir um tipo de soldagem depois de submetidas à compressão. Esse
+processo se chama caldeamento e é muito empregado na produção de correntes (soldagem dos seus
+elos).
+A cunhagem, conforme já vimos, consiste em uma variação do processo de conformação denominado
+forjamento para a produção de moedas.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 39 =====
+38
+O encalcamento também consiste em uma variedade de processo de conformação e, mais
+especificamente, do processo de estiramento (este que nada mais é que um processo a fim de
+aumentar o comprimento da peça em relação a sua espessura). Conforme vimos, tem como objetivo
+reduzir a seção de uma porção da peça que seja intermediária com uso de ferramenta específica.
+Por usa vez, o recalque (também chamado de forjamento por compressão), consiste na compressão
+direta do material (normalmente, uma peça cilíndrica) com objetivo de reduzir seu comprimento
+(altura) e aumentar seu diâmetro (seção transversal).
+Gabarito: “a”.
+21. (Cesgranrio / Petrobrás - Caldeireiro – 2006)
+O tipo de esforço solicitado de uma chapa quando submetida entre o punção e a matriz de um processo
+de estampagem é:
+a) tração
+b) flexão
+c) torção
+d) compressão
+e) cisalhamento
+Comentário:
+Questão ordinária, hein, Coruja? Questão que nos cobra o conhecimento sobre o processo de
+fabricação de conformação denominado Estampagem! Quando estudamos esse processo, vimos que
+o esforço solicitado de uma chapa submetida entre o punção e a matriz é o cisalhamento (quando a
+chapa irá se romper e ocorrer o corte).
+Você pode ter pensado no esforço de compressão, certo? Mas, na realidade, a compressão é o
+esforço que o punção e a matriz exercem na chapa. Todavia, essa tensão gera esforços de
+cisalhamento no material da chapa nas regiões que ocorrerão o corte. Ao meu ver, o enunciado foi
+infeliz, pois não deixou tão claro que erra sobre essa parte do processo que ele se referia, já que dizer
+"o tipo de esforço solicitado de um chapa..." é um tanto quanto dúbio.
+Gabarito: “e”.
+Corpo de Engenheiros da Marinha
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 40 =====
+39
+22. (Marinha - Corpo de Engenheiros da Marinha - Mecânica - 2018)
+No processo de laminação de chapas, há duas possibilidades para a realização dos diversos passes
+consecutivos: na primeira, o bloco passa por eles na mesma direção; na segunda, passa em direções
+diferentes. Sendo assim, explique as principais diferenças entre as propriedades de chapas resultantes de
+ambos os processos.
+Comentário:
+Coruja, tranquilidade! No primeiro processo, temos um alongamento por conta do encruamento
+(trabalho a frio) dos grãos, gerado pela deformação plástica imposta pela tensão dos laminadores, em
+uma direção afetando a isotropia do material. Lembre-se que a isotropia é a propriedade do material que
+garante suas certas propriedades (mecânicas e magnéticas, por exemplo) sejam iguais em todas as
+direções. Conforme a orientações dos grãos no retículo cristalino do material muda (como o alongamento
+no primeiro processo) essas propriedades mecânicas podem ser afetadas, como Módulo de Young e
+eletromagnéticas, como resistividade. No segundo processo, perceba que essas mesma propriedades
+serão impactadas de forma diferentes já que os passes não são em uma única direção, variando em menor
+grau essas propriedades citadas do que o primeiro processo.
+23. (Marinha - Corpo de Engenheiros da Marinha - Mecânica - 2018)
+Uma bobina de aço foi recebida numa indústria onde são feitas peças estampadas. Dessa bobina são
+retirados corpos de prova para a caracterização do material recebido. Explique como é possível determinar
+o módulo de Elasticidade, a tensão limite de resistência ao escoamento, a tenacidade e a tensão limite de
+ruptura.
+Comentário:
+Mais uma questão muito fácil, Estrategista! Oras, perceba que a resposta é justamente o ensaio de tração.
+Corpos de prova foram retirados desse material e serão colocados em testes para obtenção das
+propriedades listadas. Maravilha? Sugestão de resposta na hora da prova:
+Todas as propriedades citadas podem ser determinadas a partir de um ensaio de tração. Dessa forma,
+com a curva tensão x deformação desse material obtida, é possível conhecer os valores do módulo de
+Elasticidade (também chamado de módulo de Young e que mede a rigidez do material e tem relação com
+as forças de ligação entre os átomos, sendo determinado pela inclinação da reta OA do regime elástico
+do material), a tensão limite de resistência ao escoamento, a tenacidade (área abaixo da curva total do
+gráfico) e a tensão limite de ruptura, podem ser determinados na curva tensão x deformação simplificada
+e possível para essa situação a seguir:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 41 =====
+40
+Corpo de auxiliar de praças – mecânica
+24. (Marinha - Corpo de Auxiliar de Praças da Marinha - Mecânica - 2018)
+O forjamento é um processo de uma conformação mecânica e, em princípio, há dois tipos gerais de
+equipamentos para forjamento. Sendo assim, assinale a opção que apresenta esses dois tipos.
+a) Torno e Fresa.
+b) Martelo de forja e Prensa.
+c) Máquinas por CNC (Comando Numérico por Computador) e plaina limadora.
+d) Máquina de serra e de corte.
+e) Retificadora e plaina de mesa.
+Comentário:
+Mais uma questão bem fácil! Quando falamos do processo de forjamento (tipo de processo de
+conformação), vimos que ele pode ser feito tanto no formato de impacto quanto no formato por
+pressão gradativa! No primeiro caso, é utilizado o Martelo de Forjar e, no segundo, Prensa de Forjar!
+Em ambos, serão eles os responsáveis pela força que irá deformar permanentemente a peça de trabalho!
+Gabarito: “b”.
+25. (Marinha - Corpo de Auxiliar de Praças da Marinha - Mecânica - 2014)
+De acordo com os processos de fabricação, coloque V (verdadeiro) ou F (falso) nas afirmativas abaixo, e
+assinale a opção que apresenta a sequência correta.
+( ) Forjamento é o processo de conformação mecânica pelo martelamento ou pela prensagem;
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 42 =====
+41
+( ) A estampagem é um processo de usinagem mecânica que produz peças a partir de tarugos;
+( ) Soldagem é o processo de juntar peças metálicas, colocando-as em contato íntimo, e aquecer as
+superfícies de contato de modo a levá-las a um estado de fusão ou de plasticidade.
+a) (V) (F) (F).
+b) (F) (V) (V).
+c) (F) (V) (F).
+d) (V) (F) (V).
+e) (F) (F) (V).
+Comentário:
+Questão "molezinha", hein, Coruja? Oras, conforme vimos em aula, o forjamento é um processo de
+conformação que de fato pode ser feito tanto pela utilização do martelo de forjar (martelamento)
+quanto por uma prensa (prensagem).
+A estampagem é um processo de conformação! É um processo muito utilizado, como vimos, para a
+produção de copos, por exemplo. Além disso, o processo de soldagem, de maneira resumida, pode ser
+definido como um processo de "junção" (coalescimento) de peças metálicas por meio do aquecimento
+(fusão) da região soldada. Sem mistério!
+Sequência correta: (V) (F) e (V), de cima pra baixo.
+Gabarito: “d”.
+26. (Marinha - Corpo de Auxiliar de Praças da Marinha - Mecânica - 2014)
+Em relação aos processos de conformação mecânica, é correto afirmar que:
+a) As operações de conformação são aquelas em que a forma de uma peça metálica é alterada por
+deformação elástica.
+b) O trabalho a frio permite o emprego de menor esforço mecânico que o trabalho a quente para
+uma mesma deformação.
+c) O trabalho a frio produz um pior acabamento superficial se comparado com o trabalho a quente.
+d) No trabalho a frio, ocorre o encruamento do aço.
+e) O trabalho a quente permite a obtenção de dimensões dentro de estreitas tolerâncias.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 43 =====
+42
+Questão interessante, Coruja, pois nos cobra diferentes pontos da matéria, envolvendo, inclusive,
+conceitos lá da nossa aula de Ciência dos Materiais (também chamada por algumas bancas como
+Tecnologia dos Materiais). Vejamos cada alternativa:
+Letra "a": Ixi! "erradassa", não é, mesmo, Coruja? Vimos que nos processos de fabricação por
+conformação temos a forma final atingida da peça por deformação plástica (permanente)!
+Letra "b": justamente o contrário, Estrategista! No trabalho a frio, por conta da menor temperatura que
+peça se encontra durante o processo, temos um maior emprego de tensão (gerada pelo esforço
+mecânico), pois toda a microestrutura do retículo cristalino está compactada, mais rígida e sem vibração
+térmica (como no trabalho a quente), permitindo menores movimentos entre os planos cristalográficos
+e suas células unitárias. Dessa forma, o trabalho a frio acontece junto com o encruamento do material
+gerado pela interação das discordâncias e contornos de grãos, por exemplo, prejudicando o movimento
+entre eles no retículo cristalino.
+Letra "c": pelo contrário, Coruja! Conforme vimos na aula, o trabalho a frio gera melhores acabamentos
+superficiais da peça em relação ao trabalho a quente. Isso ocorre, pois a temperatura do trabalho a
+quente próxima da temperatura de recristalização tende a formar óxidos com a atmosfera local,
+prejudicando o acabamento superficial da peça!
+Letra "d": perfeito! Como vimos na letra "b", realmente, o encruamento se faz presente no trabalho a
+frio, ao passo que, no trabalho a quente ele é severamente amenizado pela recristalização e formação
+de novos grãos ao passo que a peça é deformada.
+Letra "e": errado, Coruja! Conforme se aumenta a temperatura, temos os fenômenos de expansão e
+contração térmicas posteriormente, exigindo que as tolerâncias sejam relativamente maiores que as
+dimensões da peça final produzida.
+Gabarito: “d”.
+27. (Marinha - Corpo de Auxiliar de Praças da Marinha - Mecânica - 2012)
+Coloque F (falso) ou V (verdadeiro) nas afirmativas abaixo em relação aos processos de fabricação,
+assinalando a seguir a opção correta:
+( ) O trabalho a quente produz um melhor acabamento superficial que o trabalho a frio.
+( ) O trabalho a quente não permite a obtenção de dimensões dentro de estreitas tolerâncias.
+( ) O trabalho a frio aumenta a dureza e diminui a ductibilidade.
+a) (F) (V) (V).
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 44 =====
+43
+b) (F) (V) (F).
+c) (V) (V) (F).
+d) (F) (F) (V).
+e) (V) (F) (V).
+Comentário:
+Olha aí, Coruja! Como eu falei para você, as comparações entre o trabalho a frio e o trabalho a quente
+são cobrados na sua prova, demasiadamente! Por isso, é importante você conhecer as diferenças entre
+esses dois subtipos de processos nos quais os processos de conformação podem ser executados.
+Veja que, conforme vimos, normalmente, o trabalho a quente gera um acabamento superficial da peça
+final pior que o trabalho a frio, por conta da formação de óxidos (temos O2 na atmosfera que vai reagir
+com a superfície da liga metálica, como no aço). Assim, é falsa a primeira assertiva, pois no trabalho a
+frio, por conta das temperaturas mais baixas (de 0 a 0,3TF - Temperatura de Fusão da liga), a formação
+de óxidos é extremamente minimizada.
+A segunda assertiva está correta. De fato, por conta da temperatura elevada, os fenômenos de expansão
+e contração térmica posterior se fazem presentes. Dessa forma, há um comprometimento de tolerância,
+pois exige-se maiores tolerâncias para as dimensões das peças finais (que sofrerá um processo de
+contração assim que ela se resfriar, além do fato que peças maiores, podem sofrer resfriamento desiguais
+em suas regiões).
+A terceira está correta, pois, como vimos uma consequência do trabalho a frio é o aumento da dureza e
+a queda da ductilidade. Isso ocorre pelo fenômeno do encruamento que irá gerar maiores tensões
+internas no retículo cristalino do material entre as discordâncias e contorno de grãos, tornando a
+microestrutura mais rígida e menos maleável.
+Gabarito: “a”.
+28. (Marinha - Corpo de Auxiliar de Praças da Marinha - Mecânica - 2012)
+Em relação ao processo de forjamento, assinale a opção correta.
+a) A recalcagem deforma uma barra cilíndrica para transformá-la em uma determinada peça.
+b) A prensagem produz deformação principalmente nas camadas superficiais dos metais.
+c) O martelamento atinge as camadas mais profundas dos metais.
+d) A deformação resultante do martelamento é mais regular do que a produzida pela prensagem.
+e) O forjamento é um processo de deformação a frio.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 45 =====
+44
+Comentário:
+Questão bem direta, Coruja, que nos cobra algumas características principais do processo de Forjamento
+e suas variações. Vejamos cada alternativa:
+Letra "a": exatamente, Estrategista! Eis nosso gabarito! De fato, conforme vimos, o subprocesso
+denominado de Recalcagem consiste em um Forjamento utilizado para transformar barras cilíndricas
+pequenas em uma determinada peça (como parafusos, por exemplo) pela compressão axial exercida no
+material. Alternativa correta;
+Letra "b": errado, Coruja! A prensagem é um subtipo de Forjamento que utiliza uma Prensa para executar
+a conformação do material. A deformação produzida, como vimos, é na peça inteira, assumindo o formato
+da matriz, com ou sem rebarba de formação. Alternativa errada;
+Letra "c": errada, também. É justamente o contrário da alternativa anterior! No Martelamento (subtipo
+de forjamento que utiliza o Martelo de Forjar ao invés da Prensa) temos a as camadas mais superficiais
+atingidas em relação a prensa;
+Letra "d": outra alternativa equivoca, já que, justamente por termos um matriz que irá fazer com que o
+material constitua o seu formato final é que a Prensa (Prensagem) atingirá uma deformação mais regular
+em comparação com a operação de Martelamento;
+Letra "e": depende! Conforme vimos, podemos ter o Forjamento a frio ou a quente. A questão erra ao
+classificar como se o forjamento fosse um processo feito somente a frio (quando, na verdade, a maioria
+dos processos são feitos a quente, inclusive).
+Gabarito: “a”.
+FGV
+29. (FGV - COMPESA/PE - Assistente de Saneamento - 2018)
+Assinale a opção que indica um processo mecânico para fabricação de uma peça por conformação.
+a) Laminação.
+b) Fresagem.
+c) Torneamento.
+d) Corte.
+e) Aplainamento.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 46 =====
+45
+Questão tranquila, Coruja! Dentro todos os processos listados, o único que constitui um processo
+exclusivamente de conformação (sem remoção de material) é a laminação.
+Gabarito: “a”.
+30. (FGV - COMPESA/PE - Assistente de Saneamento - 2018)
+Relacione os produtos metálicos listados a seguir, aos seus respectivos processos de fabricação
+1. Chapas metálicas.
+2. Fios elétricos de cobre ou alumínio.
+3. Tubos sem costura.
+( ) trefilação.
+( ) laminação.
+( ) extrusão.
+Assinale a opção que mostra a relação correta, segundo a ordem apresentada.
+a) 1, 2 e 3.
+b) 1, 3 e 2.
+c) 2, 1 e 3.
+d) 2, 3 e 1.
+e) 3, 2 e 1.
+Comentário:
+Tranquilidade, Coruja! Mais fácil que passar "manteiga na boca do bode" como diria um grande colega
+aqui do Estratégia! rs. Chapas metálicas são produzidas por laminação, Coruja, processo de conformação!
+Fios elétricos são obtidos pelos processos de trefilação! Lembre-se que na trefilação temos a obtenção
+de fios! E tubos podem ser produzidos por extrusão, processo este também de conformação. Assim, a
+sequência de 2,1 e 3.
+Gabarito: “c”.
+FEPESE
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 47 =====
+46
+31. (FEPESE - CINCATARINA - SC - Analista Técnico IV - Engenheiro Mecânico - 2020)
+Os processos de conformação podem ser divididos em dois grupos: processos mecânicos e processos
+metalúrgicos. Sobre os processos de conformação, é correto afirmar:
+a) tanto o processo mecânico como o metalúrgico são aqueles nos quais as modificações ocorrem
+por introdução de temperatura e tensões plásticas externas para mudança de forma e flexão.
+b) os processos mecânicos são aqueles nos quais as modificações de forma são provocadas pela
+aplicação de tensões externas, e às vezes em altas temperaturas, mas sem a liquefação do metal.
+c) os processos mecânicos são aqueles nos quais as modificações de forma são provocadas pela
+aplicação de tensões externas e com liquefação do metal.
+d) Os processos metalúrgicos são aqueles nos quais as modificações de forma são provocadas pela
+aplicação de tensões externas, e às vezes em altas temperaturas, mas sem a liquefação do metal.
+e) processos metalúrgicos são aqueles nos quais as modificações de forma podem estar relacionadas
+também às tensões externas, e às vezes em altas temperaturas, mas sem liquefação do metal.
+Comentário:
+Mais uma questão fácil. Oras, é claro que nos processos mecânicos (como os processos de conformação
+que vimos - Extrusão, Trefilamento, Laminação, etc) temos as modificações da forma do material por
+contam de tensões externas aplicadas que deformam o material plasticamente. Por outro lado, os
+processos metalúrgicos são aqueles processos que podem ocorrer a liquefação do material, ocorrendo
+mudanças na microestrutura do metal ou liga metálica (um exemplo, é o próprio processo de fundição).
+Nesse sentido, temos como correta a letra "b", já que os processos mecânicos podem ser feitos com alta
+temperatura (trabalho a quente), mas sem liquefação do metal (sem mudança de fase para a fase líquida).
+A letra "a" está errada, porque a introdução de temperatura pode ou não ocorrer nos mecânicos. A letra
+"c" está errada, porque processos mecânicos não implicam em ter liquefação do metal. A letra "d" está
+errada, pois nos processos metalúrgicos podem ocorrer liquefação do metal (como na fundição). Por fim,
+a letra "e" também está errada, pelo mesmo motivo que a letra "d".
+Gabarito: “b”.
+QUADRIX
+32. (QUADRIX - CREA-GO - Analista de Fiscalização - Engenheiro Mecânico - 2029)
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 48 =====
+47
+Acerca da peça mostrada acima, produzida, em uma prensa, a partir de uma única peça em chapa de
+aço plana, julgue o item a seguir.
+O principal processo envolvido na produção dessa peça, a partir da chapa metálica, é a calandragem:
+( ) Certo ( ) Errado.
+Comentário:
+Olha, Coruja, essa peça pode ser feita por um ou mais processos (eu diria, mais do que um). Mas,
+definitivamente, não é a Calandragem. Na Calandragem temos o objetivo de realizar um curvamento do
+material. É por meio desse processo que são obtidas peças com raios de curvamento específicos como:
+cilindros, cones, troncos de cones, entre outras peças com perfil de revolução. O principal esforço aplicado
+na calandragem é o de flexão.
+Essa peça está muito complexa para ser feita somente por meio de calandras. Provável que tenha sido
+utilizada alguma matriz específica no processo de Extrusão, com outros processos de usinagem
+posteriores.
+Gabarito: errado.
+EAOEAR
+33. (EAOEAR/Engenharia Mecânica - 2021)
+A figura ilustra 3 dos principais processo de conformação mecânica, em que as setas indicam a aplicação
+das forças envolvidas no processo e suas reações.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 49 =====
+48
+Os processos I, II e III, respectivamente, são corretamente identificados como
+a) trefilação / extrusão / laminação.
+b) laminação / trefilação / extrusão.
+c) extrusão / laminação / trefilação.
+d) extrusão / trefilação / laminação.
+Comentário:
+Questão tranquila, Coruja! Oras, temos 3 imagens que nos traz 3 diferentes processos de conformação.
+Para responder essa questão, basta identificarmos as setas que indicam os esforçam e os detalhes de cada
+matriz. Veja que em I, temos a compressão por dois cilindros (laminadores), diminuindo a espessura da
+chapa. Assim, temos o processo de laminação. Em II, temos a compressão da fieira (matriz do processo
+de trefilação ou trefilamento) pela tração exercida sob o fio na extremidade oposta. Em III, temos a
+extrusão (no caso, direta), no qual o êmbolo empurra o material contra a matriz que exerce os esforços
+de compressão.
+Gabarito: "b".
+34. (EAOEAR/Engenharia Mecânica - 2020)
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 50 =====
+49
+Considere a seguinte definição, dada por Chiaverini (1986, p.114): “é o processo de estampagem em que
+as chapas metálicas são conformadas na forma de copo, ou seja, um objeto oco. As aplicações mais
+comuns correspondem a cápsulas, carrocerias e pára-lamas de automóveis, estojos, tubos, etc.”
+A respeito da definição acima, é correto afirmar que se refere ao processo de fabricação denominado
+a) brasagem.
+b) laminação.
+c) fresamento.
+d) embutimento.
+Comentário:
+Questão tranquila, Coruja! Vimos que o tipo de processo de estampagem utilizado para produzir objetos
+ocos, como na forma de copo, cápsulas, carrocerias, tubos, estojos e até para-lamas de automóveis é o
+embutimento.
+Gabarito: "d".
+35. (EAOEAR/Engenharia Mecânica - 2018)
+A extrusão é um processo de transformação termomecânica no qual um tarugo de metal é reduzido em
+sua seção transversal quando forçado a fluir através do orifício de uma matriz (ferramenta), sob o efeito
+de altas pressões e temperatura.
+PORQUE
+Metais que possuem baixa resistência ao escoamento, como ligas não ferrosas (Al, Mg, Cu), podem
+passar pelo processo de extrusão em baixas temperaturas.
+Sobre essas duas assertivas, é correto afirmar que a(s)
+a) primeira é uma afirmativa falsa; e a segunda, verdadeira.
+b) primeira é uma afirmativa verdadeira; e a segunda, falsa.
+c) duas são verdadeiras mas não estabelecem relação entre si.
+d) duas são verdadeiras e a segunda é uma justificativa correta da primeira.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 51 =====
+50
+Coruja, as duas assertivas estão corretas. Todavia, a relação entre a segunda assertiva e a primeira não
+existe. De fato, as ligas não ferrosas citadas (como alumínio, magnésio e cobre) possuem limites de
+escoamento mais baixos e, normalmente, são mais dúcteis, também. Todavia, essas características não
+possuem qualquer justificativa para a primeira assertiva que nada mais faz do que caracterizar o processo
+de extrusão com influência da temperatura quando aplicada e mais elevada para o processo.
+Gabarito: "c".
+36. (EAOEAR/Engenharia Mecânica - 2018)
+A laminação é um processo de conformação mecânica que consiste em modificar a seção transversal de
+um metal na forma de barra, lingote, placa, fio, ou tira, pela passagem entre dois cilindros com geratriz
+retilínea ou contendo canais entalhados de forma mais ou menos complexa. Um tipo de cadeia de
+laminação é usado na laminação de barras de aços especiais e consiste em dois conjuntos duos, com
+sentidos de movimento opostos, colocados em planos verticais paralelos e montados numa cadeira de
+laminação única.
+Essa cadeia é conhecida como
+a) duplo duo.
+b) universal.
+c) duo reversível.
+d) duo com retomo por cima.
+Comentário:
+Questão tranquila, Coruja! Questão que nos cobra algumas denominações de laminadores para execução
+do processo de laminação. Oras, perceba que pela descrição de dois conjuntos duos e sentidos opostos,
+como um laminador do tipo duo. Além disso, o enunciado limita que o sentido de movimento é oposto
+(ou seja, não é reversível). Dessa forma, o enunciado caracteriza a cadeira de laminador duplo duo.
+Gabarito: "a".
+37. (EAOEAR/Engenharia Mecânica - 2018)
+Indique a opção que completa corretamente as lacunas da assertiva a seguir.
+A máquina de trefilar _____________ contém um sistema de tração do fio, para conduzi-lo através do
+furo da fieira, constituído de um anel tirante que primeiro acumula o fio trefilado para depois permitir o
+seu movimento em direção a uma segunda fieira. Já para a trefilação de fios metálicos de pequenos
+diâmetros, as máquinas ___________________ são as mais utilizadas.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 52 =====
+51
+a) lateral / tangenciais
+b) lateral / sem deslizamento
+c) com deslizamento / tangenciais
+d) sem deslizamento / com deslizamento.
+Comentário:
+Questão tranquila, Coruja! Ela cobra os conhecimentos específicos dos dois tipos de máquina de trefilar
+existentes e comumente usados: com deslizamento e sem deslizamento. Na lavra doutrina específica
+16
+(de onde provém, inclusive a questão), temos as seguintes características que julgo importante você
+conhecer (memorize, principalmente, as palavras-chave destacadas):
+• Máquina de trefilar sem deslizamento: contém um sistema de tração do fio, a fim de conduzi-lo
+por meio do furo da fieira, constituído por um anel tirante que, em um primeiro momento,
+acumula o fio trefilado e depois permite seu movimento em direção de uma segunda fieira. Essa
+lógica se mantém para múltiplos e contínuos sistemas de trefilação com diversas fieiras na
+mesma máquina;
+• Máquinas de trefilar com deslizamento: são indicadas para a trefilação de fios metálicos de
+pequenos diâmetros. Nessas máquinas, os fios partem de uma bobina e passam por uma roldana
+até a primeira fieira. Depois, na saída, temos um anel tirante no qual o fio dá certo número de
+voltas alinhando o fio com a primeira fieira e no fim da hélice formada com a segunda fieira.
+Gabarito: "d".
+16 Adaptado de BRESCIANI, E. F.; ZAVAGLIA, C. A. C.; BUTTON, S. T.; GOMES, E.; NERY, F. A. C. Conformação Plástica dos Metais. Editora da Unicamp, 6a edição. Campinas, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 07
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 53 =====

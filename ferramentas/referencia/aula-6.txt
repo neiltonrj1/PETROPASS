@@ -1,0 +1,1838 @@
+
+
+===== página 1 =====
+Aula 06
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+05 de Janeiro de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+PROCESSOS DE FABRICAÇÃO – FUNDIÇÃO ..................................................................................................... 3
+Processos de fabricação - Fundição ................................................................................................................... 4
+Fenômenos da etapa de solidificação ............................................................................................................ 5
+Cristalização ............................................................................................................................................... 5
+Contração de volume .................................................................................................................................. 9
+Segregação - impurezas ........................................................................................................................... 11
+Desprendimento de gases ......................................................................................................................... 12
+Etapas gerais dos processos de fundição ..................................................................................................... 13
+Moldagem – tipos de processos de fundição ............................................................................................... 15
+Moldes perecíveis – moldes de areia ....................................................................................................... 16
+Moldes perecíveis – fundição com poliestireno expandido ...................................................................... 20
+Moldes perecíveis - moldagem em Casca (shell-molding)......................................................................... 21
+Moldes perecíveis - fundição de precisão (de cera perdida)................................................................... 21
+Moldes perecíveis - fundição em molde de gesso .................................................................................... 24
+Moldes perecíveis – fundição em molde cerâmico .................................................................................... 26
+Molde perecíveis – processo CO2 ............................................................................................................. 27
+Processos de fundição com molde permanentes ........................................................................................... 27
+Moldes permanentes – por gravidade ..................................................................................................... 28
+Moldes permanentes – sob pressão ......................................................................................................... 29
+Moldes permanentes – por centrifugação ................................................................................................ 33
+Molde permanente - fundição contínua..................................................................................................... 34
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+Qualidade das peças fundidas .................................................................................................................... 35
+Considerações Finais ......................................................................................................................................... 38
+Questões Comentadas ...................................................................................................................................... 39
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+PROCESSOS DE FABRICAÇÃO – FUNDIÇÃO
+Fala, Estrategista! Tudo bem com você? É com um enorme prazer que estou aqui novamente com
+você, contribuindo com sua preparação! Na aula de hoje, falaremos sobre alguns processos de fabricação.
+Nesta aula, falaremos um pouco sobre fundição e seus respectivos processos que acabam ganhando
+o nome dos tipos de moldes que são usados. Além disso, iniciaremos com os fenômenos que ocorrem na
+etapa de solidificação (tema que junto ao tipos de moldes, caem com certa frequência, apesar de fundição
+não ser o principal processo de fabricação alvo das bancas de concursos para a Mecânica).
+Como de praxe, eu utilizarei figuras (sempre que possível) a fim de ilustrar os principais processos
+de fabricação inerentes à fundição. Alguns processos ficam mais elucidativos e a aprendizagem se torna mais
+eficaz quando se utiliza tais ilustrações.
+Pois bem. Sem mais delongas. Vamos ao que interessa! Antes, não deixe de me seguir nas minhas
+redes sociais para ter acesso a dicas e questões comentadas em vídeos sobre diferentes temas da
+Engenharia Mecânica!
+profcanelas t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+PROCESSOS DE FABRICAÇÃO - FUNDIÇÃO
+Estrategista, nesse começo veremos o processo de fabricação denominado Fundição! Exatamente
+como você deve imaginar, Coruja, a doutrina1 dominante define o processo como sendo o derramamento
+de metal ou liga metálica (seja pela força gravitacional, seja por ação de outras forças) no estado líquido em
+um molde com formato e medidas específicas.
+Esse formato específico que mencionei do molde pode ser tanto em caráter definitivo (forma final
+da peça a ser produzida) quanto não definitiva (consistindo em uma etapa intermediária, necessitando de
+posterior conformação ou usinagem - outros processos). Nesse sentido, Coruja, teremos, basicamente, 3
+grandes etapas nos processos de fundição (veremos adianta as particularidades de cada tipo):
+Além disso, saiba que o termo lingote se refere a um material fundido que possui forma simples que
+irá ser conformado posteriormente, por processos de conformação como a laminação e o forjamento, por
+exemplo!
+Estrategista, saiba que a Fundição faz parte uma classificação da doutrina
+2
+denominada
+de processos primários (junto com a laminação e o forjamento, por exemplo), por conta
+da alteração da matéria-prima em geometria e formas básicas! Além disso, saiba que a
+fundição pode ser empregada para diferentes materiais, como: ferrosos (ferro-fundido -
+FoFo e aços); não ferrosos (alumínio, bronze e latão) e outros materiais (vidros, polímeros
+e compósitos). ;)
+1 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014 e CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil
+Ltda, 2ª edição, vol: II. São Paulo, 1986
+2 Adaptado de Stoeterau, R.; Batalha, G.; Getschko, N.; Gomes, E. Processos de Fundição. PMR3203 – Escola Politécnica da Universidade de São Paulo. São Paulo, 2020.
+Mudança de estado do metal
+ou liga metálica para fase
+líquida
+Vazamento do metal ou liga
+metálica líquida nos moldes
+Solidificação e produção da
+peça nas geomerias e forma
+básica do molde
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+Fenômenos da etapa de solidificação
+Antes de adentrarmos nos tipos de processos de fundição, vamos estudar alguns fenômenos que
+ganham protagonismo durante a última etapa mostrei acima (solidificação). Esses fenômenos são
+comumente explorados pelas bancas! Atenção, Coruja!
+Coruja, de acordo com a literatura específica3, os fenômenos a seguir ocorrem na solidificação dentro
+do molde e que eu quero que você memorize para sua prova! São eles:
+Veremos, agora, cada um desses fenômenos de maneira objetiva para sua prova! Avante!
+Cristalização
+A cristalização dos metais (sejam metais puros, sejam ligas metálicas com mais de um elemento),
+consiste na formação dos primeiros arranjos das células unitárias. Elas serão os núcleos para o
+desenvolvimento posterior dos grãos definitivos que irão compor o retículo cristalino dos metais (maiores
+detalhes são estudados na aula de Ciência dos Materiais).
+Todavia, aqui, o que precisamos compreender é que por conta da diferença de resfriamento nas
+regiões do molde no processo de solidificação, teremos velocidades de crescimento de grão também
+diferentes. Por conta desses aspectos influenciados pela limitação das paredes dos moldes teremos uma
+microestrutura dendrítica formada.
+Essa formação dendrítica dos grãos (que consiste em grãos finos e aleatoriamente orientados nas
+camadas solidificadas) surgem pela o rápido resfriamento do metal que está em contato com as paredes dos
+moldes. Essas paredes irão extrair o calor (energia) do metal fundido nessas regiões e, assim, os grãos
+crescerão como agulhas com braços laterais (formando um aspecto de árvore com ramos).
+A medida que esses grãos com esses formatos vão crescendo da parede do molde em direção ao
+interior (centro) do metal ainda líquido durante a solidificação, eles vão se delimitando pelas paredes dos
+3 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Fênomenos na etapa de solidificação
+Cristalização
+Contração de volume
+Segregação - impurezas
+Desprendimento de gases
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+moldes e pelo encontro de outras dendritas vizinhas e, assim, começam a surgir os contornos desses grãos.
+Além disso, perceba que esses grãos dendríticos crescerão rapidamente na direção perpendicular às paredes
+do molde indo ao centro da massa de metal por conta dessas limitações descritas. A formação definitiva
+desses grãos dendríticos são chamados de colunares e grosseiros.
+"Tá, professor. Entendi esse processo de formação do fenômeno da cristalização, mas... Qual o
+impacto desse fenômeno?"
+Excelente pergunta, minha Coruja alada, rs. Um efeito indesejável apontado pela literatura específica
+é justamente inerente às diagonais que acabam sendo formadas e que resultam em uma maior fragilidade
+nos processos de conformação mecânica posterior (como na laminação, por exemplo). Nesse sentido,
+surgem as discordâncias.
+As discordâncias são defeitos que existem na constituição do cristalino dos materiais influenciando
+nas deformações plásticas. Elas surgem por um desalinhamento entre os átomos que vão compor o arranjo
+das células unitárias do retículo cristalino do material. Elas podem ser discordâncias de arestas, espirais ou
+mistas (as duas juntas). Veja a figura
+4
+a seguir mostra a característica dessa efeito do contorno gerado:
+Uma possível solução para essa fragilidade é justamente arredondar os cantos dos
+moldes! Dessa forma, os contornos diagonais são suavizados!
+4 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+Coruja, esse fenômeno da cristalização guarda relação direta com os estágio da nucleação e, como
+vimos, o crescimento dos grãos. A nucleação ocorre pelo aglomerado de átomos que começa a ser formado
+pelas colisões aleatórias dos átomos do estado líquido do metal.
+No estado líquido, não há a formação ordenada do retículo cristalino pelo arranjo periódico da célula
+unitária que será formada pelos átomos do metal ou liga metálica.
+Nesse sentido, Estrategista, dado um instante, começa a ocorrer um agrupamento de átomos
+formando um núcleo por conta dessas colisões influenciado pela temperatura que começa a cair na
+solidificação. Assim, começa a nucleação e a formação do arranjo de átomos da célula unitária (Cúbica de
+Corpo Centrado - CCC, por exemplo, entre outras geometrias). A temperatura de fusão será aquela na qual
+ocorre o equilíbrio entre os estados (líquido e sólido).
+Como aponta a literatura específica
+5
+, Coruja, em ligas metálicas (por conta do teor de outro elemento
+na liga) teremos um intervalo de temperatura para a solidificação e não uma temperatura específica. Dessa
+forma, no diagrama de uma liga como o aço, por exemplo, a solidificação começa nas temperaturas da linha
+liquidus para cada teor de carbono e termina na linha solidus de mesmo teor.
+Por conta disso, o processo de formação das dendritas na cristalização ocorre da mesma forma com
+o metal puro, porém teremos os dois estados (duas fases) presentes (líquida e sólida).
+Dessa forma, começa a surgir uma zona denominada de zona pastosa constituída da mistura da fase
+líquida presente nos "braços"/"ramos" do grão dendrítico com esses grãos que compõem a fase sólida. Veja
+a figura esquematizada de um grão dendrítico em três estágios de crescimento para você entender o porquê
+de ele ser chamado de "árvore com ramos":
+6
+5 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014
+6 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+De acordo com a literatura específica
+7
+, o uso de inoculantes na etapa de solidificação
+no molde (depois de derramado o metal líquido) é, justamente, tentar tornar a
+microestrutura mais uniforme por conta da inclusão de elementos que servem como
+núcleos de cristalização estáveis, promovendo o estabelecimento de grãos equiaxiais e
+focando na eliminação de crescimento de grãos colunares (não favorecendo o crescimento
+de grão descontrolado).
+Além desses pontos, Estrategista, é interessante você conhecer a Regra de Chvorinov. Essa regra
+consiste na relação entre o tamanho e forma do metal ou liga fundida e o tempo de solidificação, expressada
+pela equação empírica:
+𝑻𝒔 = 𝑪𝒎 𝒙 (
+𝑽
+𝑨
+)
+𝒏
+;
+Na qual:
+• Ts = tempo total de solidificação (min);
+• V = volume do metal ou liga fundida (cm3);
+• A = área superficial do metal ou liga fundida (cm
+2
+);
+• n = exponencial (normalmente, igual a 2);
+• Cm = constante do molde em relação ao seu material, temperaturas inicias do processo e de
+fusão do material e propriedades termodinâmicas do metal ou liga.
+Um conceito que tem "cheiro de prova" aparecer dentro do processo de solidificação,
+Coruja, é a rescalescência. Tranquilidade! Nada mais é que um pequeno e súbito
+7 ARANGO, D.A.P.; MARTONARIO, M. A. EFEITO DA ADIÇÃO DE INOCULANTE NA MACROESTRUTURA DE LIGAS Al-Si OBTIDAS PORSOLIDIFICAÇÃO UNIDIRECIONAL. 66º Congresso da Associação Brasileira de Metalurgia,
+2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+aumento de temperatura durante o resfriamento do metal ou liga metálica antes de
+entrar 100% na fase sólida!
+Contração de volume
+Esse fenômeno, Estrategista, está relacionado à contração que os metais ou ligas metálicas possuem
+quando se solidificam. Conforme menciona a doutrina
+8
+, pode-se verificar 3 tipos de contrações:
+Normalmente, as contrações são expressas em porcentagens de volume do material. Todavia, a
+contração sólida é uma exceção, pois é expressa em termos de contração linear. Além disso, esse tipo de
+contração varia bastante a depender da liga em questão (aço ou ferro fundido, por exemplo).
+Veja a tabela
+9
+abaixo de alguns exemplos de ligas (relaxa que você não precisa decorar esses valores,
+hein? rs):
+Valores de contração linear típicos para diferentes metais fundidos por conta da contração térmica no
+estado sólido
+Metal Contração linear
+Ligas de alumínio 1,3%
+Latão amarelo 1,3% a 1,6%
+Ferro fundido cinzento 0,8% a 1,3%
+Ferro fundido branco 2,1%
+Magnésio 2,1%
+Liga de magnésio 1,6%
+Níquel 2,1%
+8 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+9 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Tipos de contrações
+Líquida: quando abaixa a temperatura ainda na fase
+líquida
+Solidificação: variação de volume que ocorre
+durante a mudança de estado (líquido para sólido)
+Sólida: variação de volume que ocorre no estado
+sólido, entre as temperaturas finais e ambiente do
+material
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+Aço-carbono 1,6% a 2,1%
+Aço cromo 2,1%
+Estanho 2,1%
+Zinco 2,6%
+Um ponto que é de suma importância para sua prova, Estrategista, é que esse fenômeno vai gerar a
+uma heterogeneidade conhecida como vazio no material, seja ele um metal puro ou uma liga metálica.
+Essa heterogeneidade surge justamente pela diferença de temperatura e solidificação das partes do
+material (vimos que começa da periferia próxima às paredes do molde onde a taxa de extração de calor é
+maior). Por conta dessa diferença, são geradas diferentes velocidades de resfriamento e solidificação e cada
+parte solidificada terá massa específica maior que a fase líquida do metal ou liga. Nesse sentido, a
+transformação de fase durante a solidificação gera redução de volume por unidade de massa do material.
+Coruja, esse vazio que surge no material também recebe o nome de rechupe ou
+rechupagem! ;)
+Estrategista, a presença desses vazios internos na peça fundida pode gerar trincas e tensões internas
+no material. Por conta disso, é interessante tentar eliminar a presença desses vazios/rechupes.
+Uma das formas de se evitar que esse problema seja evidenciado é a utilização de uma peça
+denominada de "cabeça quente" ou "massalote". Conforme aponta a literatura específica
+10
+, a presença
+dessa peça de material refratário irá reter maior quantidade de calor (energia) em maior tempo que o
+restante do material da peça e, assim, solidificará por último. Dessa forma, o vazio formado no processo pela
+contração se concentrará nessa região. Ao término do processo, basta eliminar essa parte do "massalote" e
+se tem um lingote sem esse tipo de defeito.
+Por conta desse tipo de solidificação com a presença do "massalote" ou "cabeça quente" ser
+direcionada em relação aos vazios, é comum o termo solidificação direcional
+11
+ser empregado na descrição
+desses processos de fundição controlados.
+10 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+11 De acordo com GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+Os massalotes, Coruja, podem ser: massalotes laterais (colocados lateralmente à peça);
+massalotes de topo (colocados na parte superior do molde); massalotes abertos (exposto
+ao exterior acelerando a solidificação que é uma desvantagem) e massalotes cegos
+(contido inteiramente dentro do molde). ;)
+Segregação - impurezas
+Coruja, as ligas metálicas possuem diferentes elementos químicos além dos principais que
+constituirão a liga principal. Por exemplo, na liga Fe-C (ferro e carbono), nosso bom velho aço, os elementos
+principais são o ferro e o carbono (óbvio). Todavia, na realidade, é um erro chamar de liga binária, pois ela
+contém outros elementos que são considerados como impurezas da liga.
+Como exemplo de impurezas, Estrategista, podemos citar o fósforo, o enxofre o silício entre outros.
+A depender do teor de cada elementos, tem-se diferentes impactos nas propriedades mecânicas, térmicas,
+elétrica e resistências mecânicas e corrosivas que são objetivo de estudo de outra aula. Todavia, o que eu
+quero que você saiba, nesse momento, é que na fundição a depender do estado (líquido ou sólido) do
+processo, essas impurezas irão se comportar de diferentes maneiras.
+Nesse sentido, conforme a liga metálica fundida vai se solidificando, Coruja, impurezas como o
+fósforo e o silício (que são menos solúveis no estado sólido da liga) vão se concentrando na parte da liga que
+ainda está no estado líquido. Assim, quando toda a liga se solidifica há uma maior concentração de impurezas
+em uma determinada região do lingote gerando a famigerada segregação.
+O principal problema desse tipo de situação, Estrategista, é que conforme o teor (concentração) de
+impurezas (elementos químicos) em uma dada região da peça solidificada aumenta, as propriedades
+mecânicas da peça naquela região é sensivelmente alterada.
+Coruja, atenção: se uma questão afirmar que o aço (liga Fe - C) é uma liga binária sem
+entrar no mérito dos demais elementos, você pode assumir que está correta a questão!
+Só aprofunde no julgamento da alternativa ou da assertiva se caso o examinador cobrar
+esse tipo de detalhe, pois, como vimos, na realidade, existem outros elementos em
+menores teores na liga! ;)
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+Desprendimento de gases
+Esse tipo de fenômeno, Coruja, é responsável pelas famosas bolhas no metal solidificado. Sua origem
+tem relação com o oxigênio que outrora na fase (estado) líquida da liga metálica estava dissolvido no ferro,
+acaba se combinando com o carbono. Por conseguinte, ocorre a formação de moléculas de monóxido de
+carbono (CO) ou dióxido de carbono (CO2).
+De acordo com a doutrina12, conforme a viscosidade da massa líquida diminui com a queda da
+temperatura do processo, a liberação dessas moléculas de gases se torna mais difícil e aí são geradas as
+bolhas próximas às superfícies do material.
+Um detalhe importante quanto a esse fenômeno e que pode vir a ser cobrado é quanto ao diferente
+impacto da presença dessas bolhas em aços baixo e alto carbono. A literatura mencionada costuma
+evidenciar que para lingotes de baixo carbono que serão forjados ou laminados elas não são prejudiciais.
+Por outro lado, em ligas de alto carbono, as bolhas devem ser evitadas. Por isso, memorize:
+"Tá, professor. Peguei o ”bizu", mas... Como eliminar essas malditas bolhas?" Excelente pergunta,
+meu "xóvem padawan". Com o intuito de "eliminar" a formação de bolhas, normalmente são empregadas
+substâncias desoxidantes a base de ferro-ligas como ferro-silício e ferro-manganês. Como o silício e o
+manganês são elementos "preferidos" pelo oxigênio para formar óxidos (SiO2 e MnO, respectivamente), o
+oxigênio deixa de reagir com o carbono.
+Coruja, sobre os fenômenos é mais do que o suficiente para sua prova. Vamos, agora, ver os principais
+tipos de processos de fundição. Atenção, pois as bancas costumam gostar desse tema. Avante!
+12 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Bolhas em lingotes fundidos
+Aço baixo carbono: não são prejudiciais
+Aço alto carbono: são prejudiciais
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+Etapas gerais dos processos de fundição
+Estrategista, conforme você deve ter percebido, na maioria dos processos de fabricação de peças
+metálicas, a fundição consiste em um primeiro estágio, um processo inicial, permitindo que sejam produzidas
+peças de praticamente qualquer forma e complexidade.
+De acordo com a literatura específica13, todos os tipos de processos de fundição passam por certas
+etapas iguais, tendo como diferença principal entre eles a moldagem (tipo e confecção do molde que terá o
+negativo da peça a ser produzida). Essas etapas são as seguintes:
+Vejamos, de maneira sucinta, as primeiras duas etapas e o vazamento no molde, antes de entrarmos
+nos detalhes de cada tipo de processo na etapa de moldagem, bem como nas etapas de processos de fusão,
+limpeza e rebarbação e controle de qualidade. Conforme aponta a literatura específica14:
+• Desenho da peça: nessa etapa, Estrategista, além do formato da peça a ser produzida, são
+considerados os fenômenos que estudamos anteriormente, pois eles poderão afetar o forma
+final produzida. Assim, temos que considerar a microestrutura dendrítica, as tensões de
+resfriamento e a espessura das paredes. Para isso, a doutrina costuma citar algumas
+recomendações como proporcionar secções da peça sem cantos vivos e mudanças bruscas
+13 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+14 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Etapas dos processos de fundição
+Desenho da peça
+Projeto do modelo
+Confecção do modelo (modelagem)
+Confecção do molde (moldagem)
+Fusão do metal ou liga metálica
+Vazamento no molde
+Limpeza e rebarbação
+Controle de qualidade
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+por conta das tensões geradas no crescimento do grãos dendríticos que vimos; considerar
+espessuras mínimas, evitando-se paredes muito finas que não são preenchidas pelo metal
+líquido; prever certa conicidade para melhor confecção do molde;
+• Projeto do modelo: normalmente, Coruja, o modelo é feito em madeira (diferentes tipos,
+como cedro, peroba, pinho, etc). As recomendações são inerentes a contração do metal
+quando ele se solidifica, já que por conta dela o modelo deverá ser maior (existem margens
+para cada liga, mas é um desperdício você decorar todos os valores). Além disso, é
+recomendado deixar sobremetal a fim de que seja possível posterior usinagem, bem como
+deixar uma linha divisória reta no mesmo nível sempre que possível para indicar a divisão do
+modelo quando em placas separadas.
+Além disso, saber qual o volume de produção é significante, sendo utilizado modelos em
+alumínio em produção seriada (sendo feitos em placas divididas) ou modelos de peça única
+quando são peças volumosas. Por fim, também inerente ao projeto do modelo é importante
+saber a correta localização dos machos (partes que não recebem material nas suas cavidades
+e que irão representar um vazio na peça produzida), bem como a correta colocação dos canais
+de vazamento que irão conduzir o metal ou liga metálica no estado líquido dentro do modelo.
+Coruja, veja a figura a seguir para visualizar o que seria um exemplo de modelo para uma peça futura
+vazada e a marcação do macho no mesmo modelo, na qual não teremos metal fundido quando ocorrer o
+vazamento no molde produzido:
+15
+Estrategista, agora veremos, na etapa de moldagem (ou confecção do molde) os tipos, de fato, de
+processos de fundição, conforme mencionei antes.
+15 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+Moldagem – tipos de processos de fundição
+Coruja, basicamente temos os tipos de processos de fundição quanto ao tipo de molde divididos em
+duas categorias. De acordo com a doutrina
+16
+, temos os tipos que pertencem à categoria de moldes perecíveis
+e à categoria de molde permanentes. Assim, temos:
+Como você deve imaginar, Estrategista, os processos que utilizam moldes perecíveis são aqueles que
+terão a destruição do molde ao término do processo, ao passo que os processos com moldes permanentes
+(normalmente feitos em materiais metálicos) não são destruídos, sendo usados para fabricação de várias
+peças.
+Naturalmente, nos processos de moldes perecíveis, o tempo de fabricação será maior, já que para
+cada peça, exige-se a fabricação do molde. Esse cenário é diferente para os processos com moldes
+permanentes. Todavia, por conta do alto custo de produzir um molde de liga metálica resistente à elevadas
+temperaturas, o molde permanente, devido ao seu valor elevado (alto custo) é muito utilizado para peças
+de pequena dimensão.
+A depender dos autores, teremos algumas classificações e denominações diferentes em cada
+agrupamento. Todavia, de maneira geral, podemos agrupar os tipos de processos de fundição de cada
+categoria da seguinte forma
+17
+:
+16 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+17 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014 e CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do
+Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+2 categorias de processos
+Moldes perecíveis
+Moldes permanentes
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+Além desses processos de fundição, Coruja, veremos o processo de fundição contínua, depois dos
+principais detalhes de cada um desses processos descritos no esquema acima. "Simbora"? Avante!
+Moldes perecíveis – moldes de areia
+Na fundição com moldes de areia, Coruja, é um processo de fundição amplamente utilizado. Além
+disso, eu quero que você memorize que esse processo pode ser utilizado para quase todas as ligas metálicas
+indo desde as com menores ponto de fusão a ligas com maiores ponto de fusão. Nesse sentido, ligas de aços,
+níquel e titânio podem ser fundida por esse tipo de processo.
+Basicamente, conforme já mencionado, o processo consiste no vazamento do metal fundido dentro
+do molde (nesse caso, de areia) até sua completa solidificação e posterior destruição do molde e obtenção
+da peça. Dessa forma, teremos, conforme vimos um modelo (nada mais é que uma réplica da peça real com
+todos os detalhes que vimos anteriormente) que justificará a configuração do molde.
+Modelos em machos (tipo de modelo interno para regiões/cavidades nas quais o metal ou liga
+fundida não deve penetrar para formar a peça dada sua geometria) são presos por chapelins - suportes para
+manter os machos presos e produzidos em materiais com maior ponto de fusão que o metal ou liga fundidos.
+Estrategista, além desses pontos, é interessante você memorizar algumas propriedades e características
+básicas que o molde em areia deve possuir. Não é simplesmente "juntar" areia no formato e deixar a "magia"
+acontecer. rs.
+Moldes perecíveis
+Molde de areia (areia verde, areia seca e
+areia-cimento)
+Fundição com poliestireno expandido
+Fundição de precisão (em casca)
+Fundição de precisão (de cera perdida)
+Fundição em molde de gesso e em molde
+cerâmico
+Processo CO2
+Moldes permanentes
+Por gravidade
+Sob pressão
+Por centrifugação
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+Dessa forma, o tipo de areia é específico. Normalmente, se utiliza as areias de fundição com sílica
+(SO2), podendo ser misturada com outros minerais com o intuito de possuir boas propriedades refratárias,
+sendo capaz de suportar as elevadas temperaturas sem se fundir.
+Além disso, o tamanho do grão deve ser considerado, pois se forem muito finos dão melhor
+acabamento superficial à peça fundida, mas não permitem o escape dos gases durante o processo (como
+em grãos maiores).
+Todavia, podemos elencar, de acordo com a literatura específica18, alguns indicadores (requisitos)
+para um bom molde de areia:
+Normalmente, Coruja, a confecção do molde de areia, contém 90% de areia, 3% de água e 7% de
+argila. A argila atua como material aglomerante, fazendo com ocorra a união adequada para a produção do
+molde.
+Estrategista, memorize: os moldes de areia possuem menor taxa de extração que os
+moldes metálicos (normalmente, são os moldes permanentes que veremos adiante). Esse
+fato se dá justamente pela composição do molde de areia que vimos. ;)
+18 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014 e CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do
+Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Indicadores (requisitos)
+dos moldes de areia
+Resistência mecânica: deve suportar a erosão causa pelo fundido, bem como
+o peso do metal líquido, mantendo sua forma;
+Permeabilidade: deve permitir que os gases gerados na operação saem pelos
+vazios entre os graõs de areia evitando a contaminação da peça fundida;
+Estabilidade térmica: deve ter a superfície do molde resistente ao
+trincamento e empenamento após contato com o material fundido;
+Colapsibilidade: deve ter a habilidade de ser removido da peça durante sua
+destruição e permitir que fundido se contraia sem trincar na solidificação;
+Reutilização: em alguns casos, a areia do molde destruído, pode vir a ser
+reutilizada;
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+Além disso, com o intuito de formar o molde, esse material é "socado" (muitas vezes, manualmente)
+em outro recipiente de material metálico, denominado de caixa de moldagem. Essa caixa nada mais é que
+um contêiner constituído por duas partes: caixa superior e caixa inferior. Veja a figura abaixo, Coruja:
+19
+Além da argila, Coruja, outros aglomerantes podem ser usados como os de resinas
+fenólicas (orgânicas) e os de silicato e fosfato de sódio (inorgânicos).
+Além desses detalhes que a corujinha nos trouxe, resumidamente, a doutrina nos mostra outros
+componentes que costumam fazer parte da areia de fundição e que podem vir aparecer em uma questão
+conceitual direta:
+• Carvão moído: tendem a melhorar o acabamento das peças fundidas;
+• Dextrina: tipo de aglomerante orgânico que confere maior resistência mecânica quando
+secada/estufada (veremos a seguir);
+• Farinha de milho gelatinizada (Mogul): visa melhorar a trabalhabilidade da areia;
+• Breu em pó: atua como aglomerante e aumenta a resistência mecânica na areia seca;
+• Serragem: visa a atenuação dos efeitos de expansão;
+19 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Pinos
+Orelhas
+Caixa superior
+ou de cima
+Placa do
+modelo
+Caixa inferior
+ou de baixo
+Modelo
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+Outros tipos de moldes de areia podem ser usados. Vejamos as características e detalhes de cada um,
+bem como suas denominações que podem vir a surgir na sua prova:
+• Moldes em areia "verde": também são moldes confeccionados em areia, argila e água,
+todavia, a palavra "verde" está relacionada ao fato de o molde conter certo nível de umidade
+maior no momento do vazamento. Essa umidade pode causar alguns defeitos no fundido a
+depender do metal e da sua geometria. Todavia, memorize que esses moldes possuem bons
+níveis de resistência mecânica, colapsibilidade, permeabilidade, reutilização e são mais
+baratos;
+• Moldes em areia seca: diferentemente dos moldes em areia "verde", o molde em areia seca
+passa por um processo de estufa (ficando em fornos de grande porte em temperaturas em
+torno de 150 a 300
+o
+C). Além disso, normalmente são confeccionados com aglomerantes
+orgânicos, preferencialmente, em argila. Por conta de serem estufados, eles possuem algumas
+vantagens em relação ao areia "verde": maiores resistências à pressão do fundido,
+estabilidade dimensional, dureza e permeabilidade, além de melhor acabamento das peças
+fundidas. Todavia, por conta do processo de estufa (secagem) ele tem a desvantagem de ser
+um processo de moldagem mais caro e de baixa produtividade pelo tempo gasto no forno;
+• Moldes em areia-cimento: basicamente, é muito semelhante ao molde em areia seca. A
+diferença, Coruja, está relacionada a sua composição da areia do molde que terá a inclusão
+de cimento portland. Assim, sua composição típica é de 90% de areia silicosa, 10% de cimento
+portland e 8% de água (esses percentuais estranhos estão na obra de Chiaverini. Por isso, eu
+coloco, pois pode aparecer na sua prova, mesmo sendo de difícil cobrança). Todavia, já vi em
+materiais de outros autores
+20
+, percentuais mais coerentes, como 82% de areia silicosa, 10%
+de cimento portland e 8% de água, por isso, atenção para esse caso, pois concurso podem
+colocar esses percentuais. Além disso, são usados para peças tamanho médio a grande
+(apesar de isso ser subjetivo).
+Outro ponto que tem "cheiro de prova", Coruja, é quanto aos tipos de moldagem manual e mecânica.
+Sem mistério, Coruja: memorize que a manual pode ser feita por soquete manual ou pneumático. Por outro
+lado, a mecânica pode ser feita com máquinas de compressão, de impacto, de compressão vibratória, de
+sopragem e de projeção centrífuga. ;).
+20 Demarchi. Processos de fabricação mecânica – fundição. Departamento de Engenharia Mecânica da Universidade Santa Cecília, 2022.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 21 =====
+20
+Moldes perecíveis – fundição com poliestireno expandido
+Estrategista, sobre esse tipo de processo de fundição de molde perecível, o que eu quero que você
+saiba é que ele utiliza um molde de areia compactada ao redor de um modelo feito em espuma de
+poliestireno. Esse polímero é vaporizado enquanto o metal ou liga metálica é vazado(a) no molde.
+Assim, durante o processo, o modelo feito em poliestireno é recoberto com um tipo de composto
+refratário e esse modelo feito em espuma (relativamente rígida, pois espuma dá a entender que não há
+qualquer rigidez no modelo) é colocado dentro da caixa de moldagem. Junto com o modelo, é colocada areia
+compactada que fica posicionada entre o modelo e as paredes da caixa. Conforme o metal ou liga metálica
+no estado líquido desce pelo molde, temos a vaporização do poliestireno (por conta da alta temperatura do
+fundido), permitindo que a cavidade resultante do molde na areia da caixa seja preenchida pelo metal. Pegou
+o "bizu", Coruja?
+Outras denominações para esse processo de fundição que podem aparecer na sua prova,
+Coruja, são: Processo Espuma-Perdida; Processo Modelo-Perdido; Fundição com
+Espuma Evaporável e Molde Cheio. ;)
+A grande vantagem que eu quero que você memorize é que nesse processo o modelo não precisa
+ser removido do molde, tornando o processo mais rápido, já que a confecção do molde é quase que
+instantânea. Veja, em um processo convencional de areia "verde" (como vimos), a depender da geometria
+da peça, temos que ter às vezes duas partes de moldes, tolerâncias e ângulos de saída, machos para cavidade
+que não devem ser preenchidas e sistemas de canais e massalotes para o fenômeno da contração. Todas
+essas etapas no processo com poliestireno expandido são eliminadas, pois já estão contidas no próprio
+modelo.
+O processo de poliestireno expandido é muito aplicado na produção em massa de peças
+fundidas para motores à combustão de automóveis, Coruja! ;)
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+Moldes perecíveis - moldagem em Casca (shell-molding)
+Estrategista, nesse tipo de processo de fundição, o molde consiste em uma fina casca de cerca de 10
+mm de espessura na qual a areia é aglomerada pela presença de uma resina termofixa.
+De acordo com a literatura específica
+21
+, Coruja, esse processo possue como vantagens o melhor
+acabamento final da superfície da peça fundida, por conta da superfície da cavidade (do inglês, shell) do
+molde ser menos rugosa que a do molde de areia "verde" convencional. Além disso, a dimensão da peça
+produzida é quase 100% atingida pelo processo com esses moldes, já que tolerâncias na faixa de ± 0,25 mm
+são atingidas. Isso releva alta acuracidade entre molde e peças finais.
+Outro aspecto importante desse tipo de processo de fundição, Estrategista, está relacionado com a
+colapsibilidade do molde que também é suficiente, a fim de se evitar tensões internas e trincas nas peças
+fundidas finais.
+Processo de produção do molde não tem segredo, Coruja: o modelo é aquecido e posicionado sobre
+a caixa que contém a areia misturada com a resina termofixa. Essa caixa, então, é invertida e a areia com a
+resina adere ao modelo, ganhando a forma que será o molde (assim surge a casca - shell). Posteriormente, a
+caixa de despejo é reinvertida e o molde (casca formada a partir do modelo) é aquecida no forno para
+completar a cura da resina. Depois dessa etapa, essas cascas do molde formadas são colocadas na caixa de
+moldagem e o vazamento do metal ou liga metálica líquidos é feito.
+Moldes perecíveis - fundição de precisão (de cera perdida)
+Parecido com o processo anterior, Coruja, o modelo no processo de fundição de precisão em casca e
+cera perdida (nomes que designam ao mesmo processo) é consumível. Isso quer dizer que o molde é perdido
+durante o processo (daí a denominação de cera perdida, já que o molde é feito em cera).
+Outro aspecto interessante para sua prova é que o processo tem alta precisão (por isso, tem a
+denominação). Além disso, conforme aponta a literatura específica
+22
+, esses processos podem ser chamados
+de Investment Casting (do inglês), por conta da recobrimento total do material refratário (veremos a seguir)
+sobre o modelo de cera.
+De acordo com a doutrina23, Coruja, esse processo de alta precisão utiliza um molde que é obtido de
+um modelo feito em cera. Esse modelo feito em cera é envolvido (recoberto) por um material refratário (um
+tipo de pasta ou argamassa) que irá endurecer em temperatura ambiente ou com aquecimento controlado.
+21 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+22 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+23 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+Conforme o material refratário é aquecido, o modelo em cera (envolvido por essa pasta ou
+argamassa) é derretido, pois a cera se liquefaz com o aquecimento. Assim, o modelo também é perdido
+durante o processo (assim como no processo de poliestireno). Quando o modelo em cera se liquefaz, o molde
+de material refratário é produzido. Na etapa seguinte do processo, o metal ou liga metálica no estado líquido
+será vazado(a) no molde da pasta ou argamassa que tem sua forma de acordo com o modelo que outrora
+ela envolveu. Perceba que nesse estágio do processo esse molde também será consumido e a peça final
+fundida será produzida.
+Se liga, Coruja: na etapa na qual o modelo em cera é recoberto pelo material refratário,
+normalmente, por conta do modelo ser consumido (assim como o molde), é criada uma
+arvore-modelo que consiste em um canal de alimentação com várias "peças modelo"
+para que o processo se torne mais produtivo! Pegou o "bizu"?
+Essa árvore-modelo que nossa corujinha alada nos trouxe, Estrategista, conforme falei e repeti, é
+submersa em um material refratário e esse material pode ser uma lama de sílica com partículas muito finas
+ou outro refratário (comumente na forma de pó) misturado com gesso.
+Essas características darão, depois do encobrimento de cada modelo na árvore-modelo, forma ao
+molde. Veja a figura
+24
+a seguir que ilustra essas etapas descritas, começando em "A" e terminado em "F"
+com as peças fundidas de acordo com os modelos na árvore-modelo:
+24 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+Como vantagens e desvantagens desse processo, Coruja, podemos citar as seguintes de acordo com
+a literatura específica25:
+➢ Vantagens:
+• Grande possibilidade de produção em massa de peças de formas complexas que são difíceis ou
+impossíveis em outros processos convencionais como os de molde de areia "verde";
+• Possibilidade de reprodução de detalhes com maior precisão dimensional e superfícies mais
+macias;
+• Pode ser empregado em qualquer metal ou liga metálica;
+• Peças fundidas finais praticamente acabadas - baixa necessidade de usinagem posterior (por isso,
+a doutrina
+26
+costuma chamar de processo net shape, do inglês);
+• Permite o controle rigoroso do tamanho e contornos de grãos, além da solidificação direcional e
+orientação granular com maior controle das propriedades mecânicas;
+• Permite adotar a fusão sob atmosfera protetora ou sob vácuo, pode ser o processo mais indicado
+para ligas que necessitam de tal proteção;
+• Com certa frequência a cera pode ser recuperada para outros modelos de outros processos;
+25 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986 e GROOVER, M. P. Introdução aos Processos de Fabricação.
+Editora: LTC, Rio de Janeiro, 2014.
+26 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+➢ Desvantagens:
+• Alto custo, devido às várias etapas do processo;
+• Dimensões e peso são, normalmente, limitados. Recomenda-se em torno de 5 kg de massa das
+peças, apesar de serem possíveis peças até cerca de 30 kg com investimentos iniciais mais
+elevados;
+Além desses pontos, Coruja. Para usa prova, é bom você ter em mente alguns exemplos de peças
+reais que podem ser obtidas, sendo produzidas em aço inoxidável, ligas de alumínio, ligas de cobre-berílio,
+entre outras ligas a depender da peça e aplicação (sem preocupação em saber esses materiais). Veja o
+esquema a seguir para você ter uma noção de alguns tipos de peças:
+Moldes perecíveis - fundição em molde de gesso
+Estrategista, nesse tipo de processo de fundição com molde perecível, o molde será feito em gesso
+(nossa famosa gipsita - CaSO4-2H2O). De acordo com a doutrina, nesse processo, Coruja, temos uma mistura
+de gesso com água que irá envolver o modelo (normalmente em metal ou plástico) a fim de se confeccionar
+o molde.
+Aqui vale um ponto de atenção: nesse processo, os modelos em madeira (outrora usados nos
+processos de fundição de moldes perecíveis em molde de areia), não são utilizados, pois o contato com a
+água do gesso gera resultados insatisfatórios.
+Exemplos de peças obtidas no processo de fundição por precisão
+Peças estruturais para indústria aeronáutica;
+Peças para motores de avião;
+Sistemas de combustão de aviões;
+Instrumentos de controle de aviões;
+Equipamentos aeroespacial, equipamento de procesamento de dados, motores
+elétricos, equipamentos eletrônicos de comunicação;
+Armamentos de pequeno porte, máquinas operatrizes e acessórios, equipamentos
+médicos e odontológicos;
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+Uma vantagem evidente desse processo, Coruja, está relacionada à consistência fluida do gesso que,
+por conta da presença de água, consegue capturar os detalhes e acabamento do modelo de maneira mais
+eficiente.
+Todavia, uma desvantagem do processo está relacionada a desidratação do molde na etapa de cura
+do gesso. Primeiro, porque tem se esperar cerca de 20 minutos antes de extrair o modelo. Além disso, o
+molde deve ser estufado a fim de retirar a umidade. Todavia, a retirada da umidade gera um dilema que
+enseja a busca por um ponto de equilíbrio - por um lado, desidratar o gesso é necessário, já que evita defeitos
+na peça final fundida, mas por outro, o molde pode ficar menos resistente.
+Além dessa desvantagem clara desse processo, temos mais uma: o molde de gesso não é permeável
+aos gases gerados pelo fundido durante a solidificação, limitando a saída desses gases, podendo gerar as
+bolhas (aquelas que vimos anteriormente).
+Coruja, especificamente sobre esse problema de desprendimento de gases do molde de gesso,
+existem algumas técnicas que podem ser feitas a fim de limitar esse problema. Entre elas, podemos citar
+27
+:
+• Evacuar o ar da cavidade do moldes, antes do vazamento do fundido;
+• Aerar a lama de gesso antes da confecção do molde para que o gesso quando endurecido
+tenha pequenos vazios dispersos;
+• Usar composição e tratamento especiais do molde como o famoso processo Antioch -
+processo que envolve a mistura de 50% de areia com o gesso com posterior aquecimento e
+secagem, resultando em um permeabilidade maior que o molde só em gesso.
+Se liga, Estrategista: memorize que o processo de molde perecível com molde em gesso
+não podem ser expostos a altas temperaturas iguais ao moldes de areia! Por conta disso,
+eles só podem ser utilizados para fundição de ligas de baixo ponto de fusão (alumínio,
+magnésio e algumas ligas de cobre). ;)
+27 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 27 =====
+26
+Moldes perecíveis – fundição em molde cerâmico
+Coruja, a primeira grande informação que eu quero que você saiba é a seguinte: esse processo é um
+método de alta precisão muito utilizado para aço-ferramenta, ligas de cobalto, titânio, aço inoxidável e
+ligas não-ferrosas!
+Outra questão que pode vir na prova é quanto aos dois principais processos dentro desse tipo de
+fundição. Conforme aponta a doutrina28, temos:
+Em ambos os processos, Coruja, temos os moldes de pasta refratária a base de pó cerâmico e um
+ligador líquido catalítico (silicato alcalino) a partir de modelos de madeira, plástico ou metal. A diferença
+básica entre eles apontada pela literatura específica é em relação a preparação do molde:
+• Unicast: o molde é submetido à ação de banho químico, por aspersão ou imersão. Seu aspecto é
+de uma estrutura de aparência celular ou esponjosa (é isso que você precisa saber para sua
+prova);
+• Shaw: nesse processo, o molde é aquecido e o álcool da substância catalisadora que comentei
+evapora, deixando um tipo de malha de fissuras bem finas nele. Essa malha torna a cerâmica do
+molde impermeável ao fundido por ser muito fina, porém permite que os gases escapem durante
+o vazamento.
+Além disso, Estrategista, saiba que depois que esses moldes são estufados em temperaturas elevadas
+(cerca de 980
+o
+C pelo tempo de 1 hora), os molde cerâmicos são capazes de fundir peças de até cerca de 900
+kg!
+Normalmente, as peças fundidas possuem pesos de 4,5 a 90 kg, mas saiba que se uma questão
+perguntar qual o processo capaz de atingir esse valor máximo de peso da peça fundida, é o processo de
+fundição em molde cerâmico!
+28 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986
+2 processos de molde cerâmico
+Unicast
+Shaw
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+Molde perecíveis – processo CO2
+Coruja, chegamos ao último processo dentro da categoria de processos com moldes perecíveis, antes
+de entrarmos na categoria de moldes permanentes!
+Pois bem. O processo CO2 não há muito mistério e as informações que você precisa levar para a prova
+são poucas. Nele, são empregados moldes perecíveis em areia (molde convencional), normalmente
+aglomerada com silicato de sódio entre 2,5 a 6,0%.
+"Certo, Prof. Óbvio. E, qual novidade?" Coisa linda, Estrategista, excelente pergunta! Rs. O grande
+diferencial desse processo de fundição com molde perecível está no contato com uma corrente de CO2 na
+qual o molde é submetido depois de compactado. Esse contato com o CO2 promove uma reação entre esse
+gás e o silicato de sódio, formando alguns compostos: sílica-gel, carbonato de sódio e água.
+Esses compostos promovem o endurecimento do molde em um tempo curto em relação a outros
+processos, eliminando a necessidade da etapa de estufagem para adquirir a dureza e resistência devida pela
+secagem gerada.
+Bora para os processos com moldes permanentes? "Simbora"!
+Processos de fundição com molde permanentes
+Estrategista, veremos agora os principais processos a luz da doutrina majoritária dentro da categoria
+com moldes permanentes: por gravidade, sob pressão e por centrifugação.
+Normalmente, os moldes permanentes são de material metálicos em todos esses tipos e uma
+característica marcante que você logo de cara precisa guardar é que eles possuem alta taxa de extração de
+calor do metal ou liga metálica no decorrer do processo.
+Essa característica está relacionada com a condutividade térmica que é maior em materiais metálicos
+quando comparados, por exemplo, com a composição a base de areia de fundição do molde de areia da
+outra categoria que vimos.
+Feita a introdução, "simbora" ver os três tipos que comentei! Avante, Coruja!
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+Moldes permanentes – por gravidade
+Estrategista, dentro da fundição com molde permanente por gravidade, um processo muito
+importante é para a produção de lingotes. Essas peças fundidas possuem forma regular durante toda sua
+extensão, podendo ter seção cilíndrica ou prismática.
+Aqui, logo de cara, Coruja, você precisa saber que o molde permanente na produção de lingotes
+serão chamados de lingoteiras. As lingoteiras podem ser horizontais ou verticais. De acordo com a
+doutrina29, as do tipo horizontais são utilizadas para produção de lingotes de metais e ligas não-ferrosas, ao
+passo que as verticais são usadas para produção de lingotes de aço. Assim, memorize:
+Outro aspecto interessante, Coruja, é que o vazamento do metal ou liga no estado líquido podem
+ocorrer de duas formas: tanto pela parte superior da lingoteira, quanto pela parte inferior (fundo) por meio
+de canais de vazamento (pelo fundo, o enchimento é mais uniforme no interior da lingoteira). Sem "stress"
+aqui, Estrategista! Basta esses dois aspectos para sua prova!
+Outro ponto interessante é saber quais os principais materiais nos quais os moldes permanentes são
+produzidos: aço ou ferro fundido. Em alguns casos, podem ser feitos em ligas de cobre (bronze, por
+exemplo). Mas, se questionarem qual são os principais materiais, tem que estar "tatuado na mente" - aço
+ou ferro fundido.
+Além desses aspectos, Coruja, o processo de fundição com molde permanente e ação por gravidade
+também podem ser empregados para produzir peças fundidas de diferentes formatos. Aqui vale o que vimos
+anteriormente: os moldes podem ser bipartidos, ou com mais partes que se fecharam, podendo ter ou não
+a presença de machos para cavidades internas que não terá material.
+Nesse aspecto, o processo de fundição com molde permanente pode receber o nome de moldes
+semipermanentes30, Coruja, pois se o macho interno for de difícil remoção, pode vir a ser produzido em areia
+(molde perecível) para ser destruído quando se retirar a peça fundida. Outra denominação que pode
+aparecer na sua prova é a de moldes permanentes mistos, quando é utilizado moldes em areia junto ao
+29 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+30 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Lingoteiras
+(molde
+permanente)
+Horizontais - produção de lingotes de metais e ligas NÃO FERROSAS.
+Vertical - produção de lingotes de AÇO.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+molde metálico (nesse caso, chamado de "coquilha" e que será a região onde o metal solidificará mais
+rapidamente). Por isso, memorize:
+Nesse processo, podem ser feitas peças fundidas em ligas de alumínio, magnésio, cobre, zinco e ferro
+fundido cinzento. E, aqui, é válido você saber que, conforme aponta a doutrina31, quando comparadas com
+as peças produzidas em moldes de areia, elas possuem algumas vantagens:
+• Melhor acabamento superficial;
+• Tolerâncias dimensionais mais estreitas;
+• Maior uniformidade;
+• Melhores propriedades mecânicas.
+Todavia, existem também desvantagens, Coruja:
+• Produção limitadas a peças pequenas devido ao alto custo do molde;
+• Nem todas as ligas metálicas podem ser fundidas em moldes permanentes;
+• Formas de moldes muito complexas dificultam a extração da peça fundida final.
+Moldes permanentes – sob pressão
+Coruja, conforme você deve estar imaginando, nesse processo temos a injeção do metal ou liga
+metálica sob pressão no interior do molde permanente. Conforme aponta a literatura específica
+32
+, a primeira
+característica desse processo é que por conta da velocidade de vazamento (no caso, enchimento do molde)
+ser maior há a possibilidade de produção de peças com formas muito complexas e com paredes mais finas
+que os processos por gravidade.
+De maneira geral, temos as seguinte vantagens da fundição sob pressão: formais mais complexas
+que na fundição por gravidade; peças com paredes mais finas e tolerâncias mais estreitas; alta capacidade
+de produção; utilização da mesma matriz para milhares de peças sem variações grandes; peças fundidas
+sob pressão podem ser tratadas superficialmente; ligas de alumínio tem maiores resistências se fundidas
+em areia.
+Como desvantagens, quero que você memorize: dimensões e massas limitadas (entre 5kg e 25kg);
+pode haver ar retido que não escapou gerando porosidades; equipamentos e acessórios de alto custo sendo
+31 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+32 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Molde permanente metálico +
+molde perecíveis em areia
+Moldes semipermanentes e moldes permanentes mistos
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+inviável para pequenas quantidades de produção; normalmente o processo é utilizado para ligas com
+temperaturas de fusão menores que às das ligas de cobre.
+Coruja, nesse processo de fundição sob pressão, o molde permanente é comumente
+chamado, também, de matriz! Por conta disso, o processo também pode ser chamado na
+sua prova por Die Casting (die - matriz, do inglês). ;)
+Como se pode imaginar, Estrategista, a matriz (molde permanente) será feita em duas partes que
+serão fechadas hermeticamente assim que o fundido sob pressão é vazado (a pressão é mantida durante o
+processo de solidificação). Assim, o metal ou liga metálica líquida é bombeada para o interior da cavidade
+de um recipiente aquecido (forno). Em seguida, um pistão com duas aberturas (uma por onde entra o fundido
+e outra por onde ele sai no canal da matriz) pressiona o fundido na matriz. Por conta dessa complexidade,
+percebe-se que um projeto adequado da matriz é necessário para o correto processo de fundição sob
+pressão. Veja a figura a seguir para ilustras algumas partes do processo.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+33
+Além disso, é importante você saber que temos dois tipos de processo sob pressão em relação às
+máquinas e seu mecanismos de injeção: câmara-quente e câmara-fria. Basicamente, Coruja, para sua prova,
+você precisa saber que as do tipo de câmera-quente, possuem algumas peças do sistema de injeção imersas
+no metal ou liga metálica líquida, pois o metal ou liga metálica dessas peças (cilindro e pistão) não é atacado
+quimicamente pelo metal ou liga fundida. Normalmente, são usadas essa máquinas de câmara-quente para
+33 Adaptado de CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Peça
+Canal
+Pistão
+Bucha de
+injeção
+Toco de
+metal
+Molde
+Parte
+fixa
+Parte
+móvel
+Pinos
+Extrafortes
+Coluna
+Mesa fixa Mesa móvel
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+metais fundidos como zinco, estanho, chumbo e magnésio. A figura34 a seguir ilustra uma máquina de
+câmara quente (perceba no círculo em vermelho, as partes que ficam submersas no metal ou liga fundida):
+Por outro lado, as do tipo câmera-fria, possuem essas mesmas peças (cilindro e pistão) dos sistema
+de injeção suscetíveis ao ataque químico do material fundido. Por tanto, essas pelas não são inseridas no
+metal ou liga fundida e o contato do pistão com o fundido a ser vazado ocorre somente no momento do
+vazamento. Veja a figura
+35
+a seguir a fim de ilustra a máquina com câmara-fria:
+Coruja, além desses detalhes, é válido você saber que existem dois subprocessos (bem menos
+cobrados) associados ao processo sob pressão: o forjamento de metal-líquido (também chamado de
+34 Adaptado CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+35 Adaptado CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+Squeeze Casting, do inglês) e o fundição com metal semissólido. De acordo com a literatura específica,
+Coruja, vejamos os conceitos de cada um que está de bom tamanho para uma eventual cobrança:
+• Forjamento de metal-líquido (Squeeze Casting): como você deve ter percebido, nada mais é
+que a união entre uma operação de forjamento com uma de fundição. Basicamente, Coruja,
+a única diferença é que o vazamento ocorre na matriz inferior antes do fechamento da matriz
+superior que ocorrerá no começo da solidificação (aspecto de forjamento do processo);
+• Fundição com metal semissólido: esse processo de fundição com molde permanente,
+Estrategista, tem como característica principal ser executado com o fundido em temperaturas
+entre a linha liquidus e solidus do diagrama Fe-C. Ou seja, a liga, durante o processo, está no
+estado pastoso, sendo uma mistura do estado sólido e líquido.
+Moldes permanentes – por centrifugação
+Coruja, esse processo ocorre a partir do vazamento do metal líquido no interior de um molde
+(normalmente, reutilizável) que irá rotacionar (molde rotativo) em torno do seu eixo, deslocando o metal
+devido à ação da força centrífuga. Essa força é que dá vida à pressão que força a metal líquido a grudar nas
+paredes do molde onde ele irá se solidificar.
+Nesse sentido, Estrategista, a máquina terá um molde permanente de material metálico que estará
+suportado por roletes (para que seja possível o movimento rotacional do molde). O molde permanente
+pode ter um formato de cilindro (por isso, esse processo de fundição é muito empregado para a fabricação
+de tubos, canos, buchas e anéis
+36
+).
+Dessa forma, o cilindro será envolvido por uma camisa de água estacionária que tem relação com o
+processo de solidificação e extração de calor. Além disso, no começo do processo, o metal ou liga metálica
+fundida será vazada por meio de uma calha proveniente da panela de fundição, começando a aglomeração
+do fundido na outra extremidade do molde (oposta à alimentação da calha). Junto com a alimentação, inicia-
+se a rotação do molde e do movimento longitudinal de todo o sistema para que o fundido complete todo o
+molde cilíndrico. Veja a figura
+37
+a seguir para ilustrar um exemplo desse processo.
+36 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+37 Adaptado CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+Se liga, Coruja: falou em camisa de água estacionária, falou no processo de fundição de
+molde permanente por centrifugação, "tchierto"? ;)
+Estrategista, outro ponto sobre esse processo antes de irmos ao último tipo é que ele pode ser
+feito horizontalmente (muito utilizado na produção de tubos, como vimos) e verticalmente (muito
+utilizado na produção de buchas e anéis).
+Molde permanente - fundição contínua
+Em nosso último processo que veremos, Estrategista, temos o processo de fundição contínua que
+também pode ser introduzido na categoria de molde permanente. Nesse processo, as peças fundidas de
+grande extensão (característica marcante do processo).
+Dessa forma, como aponta a doutrina
+38
+, teremos peças muito longas com diferentes perfis em seções
+de formas quadradas, retangulares, hexagonais, entre outros.
+38 CHIAVERINI, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: II. São Paulo, 1986.
+Machos
+em areia
+Molde
+permanente
+Camisa de água
+estacionária
+Movimento longitudinal do
+sistemaFundido sofrendo ação
+da força centrífuga
+Calha
+Material
+fundido
+Roletes
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+Basicamente, o processo começa com o vazamento do metal ou liga em estado líquido em um
+cadinho aquecido (recipiente feito em material refratário que suporta altas temperaturas) que dosar a
+passagem desse metal ou liga fundida pelas matrizes (normalmente produzidas em grafita ou cobre). Essa
+matrizes possuem como fonte de resfriamento um sistema de fluxo de água.
+No decorrer do processo, a barra formada com perfil específico atinge a solidificação e é conduzida
+por cilindros de laminador com velocidade parecida às velocidades de resfriamento e solidificação do metal
+ou liga da peça fundida. Por fim, a peça é cortada por serras para as dimensões específicas.
+Qualidade das peças fundidas
+Estrategista, nessa parte trouxe alguns defeitos apontados na literatura específica
+39
+que podem surgir
+durante os processos de fundição. Basicamente, temos dois grandes grupos de defeitos: o primeiro, são
+aqueles que podem ocorrer em todo e qualquer tipo de processo, seja em moldes perecíveis, seja em moldes
+permanentes; o segundo, são os defeitos que pode ocorrer somente em moldes perecíveis e, especialmente,
+em moldes de areia. Assim, temos:
+• Falha de preenchimento: surge quando o fundido se solidifica antes da cavidade do molde ser
+totalmente preenchida. Pode ter origem por alguns motivos, como baixa fluidez do metal ou
+liga fundidos, temperatura de vazamento muito baixa, velocidade de vazamento muito lenta
+e/ou seção transversal da cavidade muito fina;
+• Delaminação: surge quando duas porções do fundido fluem juntas, mas ocorre a falta de fusão
+das duas frentes (normalmente, opostas no decorrer do preenchimento do molde, devido a sua
+geometria) devido a solidificação prematura. A delaminação pode ter origem pelos mesmos
+motivos do defeito anterior;
+39 GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Defeitos que podem surgir em
+TODOS os processos
+Falha de preenchimento
+Delaminação
+Gotas frias
+Cavidade de contração
+Microporosidade
+Ruptura a quente
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====
+36
+• Gotas frias: surgem do respingo durante o vazamento, gerando grânulos do material em estado
+sólido aprisionados no fundido;
+• Cavidade de contração: derivado do fenômeno de contração que vimos na primeira parte do
+assunto, gerando regiões com vazios do material;
+• Microporosidade: surge como uma rede de micro vazios por conta da microestrutura dendrítica,
+ocorrendo no final da solidificação nos espaços entre os grãos dendríticos;
+• Ruptura a quente: também denominada de trinca a quente, pode surgir devido à contração
+final que ocorre ao término da solidificação ou no começo do resfriamento do fundido que
+encontra restrição nas paredes da cavidade quando o molde é pouco deformável. Por isso que,
+em moldes perecíveis, a capacidade de colapsibilidade adequada pode evitar tal defeito. Em
+moldes permanentes, evita-se o defeito retirando rapidamente a peça do molde tão logo
+ocorre o fim da solidificação;
+Coruja, os defeitos que fazem parte do segundo grupo (relacionados somente ao processos que usam
+molde perecíveis) são:
+• Bolhas: surgem pela presença gás causada pela liberação desse gás do molde durante o
+vazamento. As principais causas, Coruja, estão relacionadas a: baixa permeabilidade, baixa
+ventilação e elevada umidade na areia constituindo do molde;
+• Microporosidade: surge também pela liberação de gases no decorrer do vazamento do fundido,
+podendo ter origem dos mesmo motivos;
+Defeitos que podem SOMENTE
+em MOLDES PERECÍVEIS
+Bolhas
+Microporosidade
+Erosão por lavagem
+Crosta de erosão
+Penetração
+Deslocamentos de molde e/ou de macho
+Trinca no molde
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 38 =====
+37
+• Erosão por lavagem: surge por conta da erosão do próprio molde de areia durante o vazamento
+e que pode gerar irregularidades na peça fundida pelos contornos imprimidos no fundido pela
+superfície do molde erodido;
+• Crosta de erosão: surge também por conta da erosão do próprio molde de areia, mas aqui
+pedaços do molde acabam se descamando e fazendo parte da peça gerando incrustações;
+• Penetração: surge também pela presença de grãos de areia e pedaços do molde no fundido, mas
+por conta da alta fluidez do metal ou liga metálica. Assim, o fundido penetra no molde ou no
+macho e acaba retirando esses grão e gerando o defeito;
+• Deslocamento do molde e/ou de macho: bem intuitivo, né, Estrategista? Quando há o
+deslocamento do molde ou do macho interno, gera o defeito chamado de degrau na peça fundida
+por conta dessa movimentação;
+• Trinca no molde: surge quando o molde possui baixa resistência mecânica, gerando uma trinca
+no processo que pode fazer com que o fundido adentre essa cavidade gerando um "apêndice" na
+peça final.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 39 =====
+38
+CONSIDERAÇÕES FINAIS
+Estrategista, chegamos ao término de mais uma aula! Agora, é fazer os exercícios e seu ciclo de
+revisão - principal pilar para ser aprovado em qualquer concurso! Lembre-se: “meta bala” nas questões no
+dia seguinte! Assim, você fará o primeiro mapeamento e o primeiro ciclo de revisão – a de “24 horas”.
+Essa aula não há muitas questões para treinarmos, infelizmente. Todavia, trouxe aquilo que mais
+caiu e de forma atualizada para que seu preparo esteja em alto nível e pelas mais renomadas bancas do
+Brasil!
+Aproveito para deixar, novamente, minhas redes sociais! Possuo uma conta no Instagram® na qual
+compartilho questões comentadas, dicas de estudos e esquemas sobre diferentes assuntos e temas de
+Engenharia Mecânica, de tempos em tempos.
+Além disso, possuo também um canal no Telegram®! Por meio desse canal, eu compartilho outros
+tipos de informações pertinentes para você como questões do tipo CEBRASPE/CEBRASPE (certo ou errado)
+inéditas sobre Engenharia Mecânica.
+Depois, dê uma olhada! ;)
+prof.canelas; t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 40 =====
+39
+QUESTÕES COMENTADAS
+CEBRASPE
+1. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Com relação aos processos de fundição, julgue o item a seguir.
+O processo de fundição em molde de areia verde é assim denominado porque, após o processo de
+secagem, a cor verde predomina no molde.
+( ) Certo ( ) Errado.
+Comentário:
+Opa! Pegadinha da banca, Coruja! Tem nada a ver a denominação do molde com a cor rs. O nome areia
+verde tem relação com o fato do molde, nesse processo de fundição com molde de areia, contém certo
+nível de umidade no momento do vazamento (associe a palavra "verde" com a "umidade" que você não
+esquece mais). Vamos relembrar alguns tipos de molde de areia?
+• Moldes em areia "verde": também são moldes confeccionados em areia, argila e água,
+todavia, a palavra "verde" está relacionada ao fato de o molde conter certo nível de umidade
+maior no momento do vazamento. Essa umidade pode causar alguns defeitos no fundido a
+depender do metal e da sua geometria. Todavia, memorize que esses moldes possuem bons
+níveis de resistência mecânica, colapsibilidade, permeabilidade, reutilização e são mais
+baratos;
+• Moldes em areia seca: diferentemente dos moldes em areia "verde", o molde em areia seca
+passa por um processo de estufa (ficando em fornos de grande porte em temperaturas em
+torno de 150 a 300
+o
+C). Além disso, normalmente são confeccionados com aglomerantes
+orgânicos, preferencialmente, em argila. Por conta de serem estufados, eles possuem algumas
+vantagens em relação ao areia "verde": maiores resistências à pressão do fundido,
+estabilidade dimensional, dureza e permeabilidade, além de melhor acabamento das peças
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 41 =====
+40
+fundidas. Todavia, por conta do processo de estufa (secagem) ele tem a desvantagem de ser
+um processo de moldagem mais caro e de baixa produtividade pelo tempo gasto no forno;
+• Moldes em areia-cimento: basicamente, é muito semelhante ao molde em areia seca. A
+diferença, Coruja, está relacionada a sua composição da areia do molde que terá a inclusão
+de cimento portland. Assim, sua composição típica é de 90% de areia silicosa, 10% de cimento
+portland e 8% de água (esses percentuais, estranhos estão na obra de Chiaverini. Por isso, eu
+coloco, pois pode aparecer na sua prova, mesmo sendo de difícil cobrança). Todavia, já vi em
+materiais de outros autores
+40
+, percentuais mais coerentes, como 82% de areia silicosa, 10%
+de cimento portland e 8% de água, por isso, atenção para esse caso, pois concurso podem
+colocar esses percentuais. Além disso, são usados para peças tamanho médio a grande
+(apesar de isso ser subjetivo).
+Gabarito: errado.
+2. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Com relação aos processos de fundição, julgue o item a seguir.
+No processo de solidificação, o gradiente de soluto na interface sólido-líquido pode gerar
+microssegregação (também denominada zoneamento ou segregação de curto alcance).
+( ) Certo ( ) Errado.
+Comentário:
+Isso aí! Como vimos, um dos fenômenos que ocorre durante a solidificação na fundição é a segregação
+de impurezas (elementos pertencentes a liga metálica que ficam agrupados por conta da solubilização
+diferente no estado sólido e líquido da liga). Vamos relembrar? Conforme a liga metálica fundida vai se
+solidificando, Coruja, impurezas como o fósforo e o silício (que são menos solúveis no estado sólido da
+liga) vão se concentrando na parte da liga que ainda está no estado líquido. Assim, quando toda a liga se
+solidifica há uma maior concentração de impurezas em uma determinada região do lingote gerando a
+famigerada segregação. Isso é um problema, como vimos, pois a região da peça final com essa elevação
+de concentração de elementos químicos terá suas propriedades mecânicas modificadas.
+Gabarito: correto.
+40 Demarchi. Processos de fabricação mecânica – fundição. Departamento de Engenharia Mecânica da Universidade Santa Cecília, 2022.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 42 =====
+41
+3. (CEBRASPE - FUB - Técnico de Laboratório - Industrial - 2018)
+Com relação aos processos de fundição, julgue o item a seguir.
+A areia de moldagem deve apresentar boa resistência mecânica, permeabilidade adequada, plasticidade
+(moldabilidade) e boa colapsibilidade.
+( ) Certo ( ) Errado.
+Comentário:
+Essa é uma questão infeliz, que ao meu ver, deveria ser anulada. Oras, como vimos, existem certas
+propriedades/requisitos (como os elencados pela questão) que devem fazer parte dos indicadores do
+molde de areia. Ou seja, como vimos, a literatura específica deixa claro quais as propriedades. Vamos
+relembrar:
+Todavia, a questão foi considerada errada e ela é problemática porque tem um qualificador "porco", já
+que o que é "boa" resistência e colapsibilidade. Ou seja, é muito subjetivo. A colapsibilidade, por exemplo,
+ela tem que ser adequada (não "boa"), já que o molde tem que ter certa resistência pra aguentar o metal
+líquido e, também, ter certa colapsibilidade pra evitar trincas na peça e o molde se desmoronar com certa
+facilidade.
+Outro ponto problemático é que ele diz "areia de moldagem" e não "molde de areia". Nas características
+que parte da doutrina (Chiaverini) elenca para a areia estão: resistência suficiente para suportar o peso
+e ações erosivas, ter permeabilidade para saída de gases, plasticidade, moldabilidade e refratariedade.
+Veja que não há menção de colapsibilidade. Todavia, Groover elenca para o molde de areia. Dessa forma,
+Indicadores
+(requisitos) dos
+moldes de areia
+Resistência mecânica: deve suportar a erosão causa pelo fundido, bem como
+o peso do metal líquido, mantendo sua forma;
+Permeabilidade: deve permitir que os gases gerados na operação saem pelos
+vazios entre os graõs de areia evitando a contaminação da peça fundida;
+Estabilidade térmica: deve ter a superfície do molde resistente ao
+trincamento e empenamento após contato com o material fundido;
+Colapsibilidade: deve ter a habilidade de ser removido da peça durante sua
+destruição e permitir que fundido se contraia sem trincar na solidificação;
+Reutilização: em alguns casos, a areia do molde destruído, pode vir a ser
+reutilizada;
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 43 =====
+42
+também pode ser uma pegadinha da banca. Ou seja, questão horrível, mas que serve para alertar você
+sobre essa possibilidade quanto às características do molde de areia e sobre a areia.
+Gabarito: errado.
+4. (CEBRASPE - BASA - Engenharia Metalúrgica - 2007)
+Os processos de fundição são utilizados quando o seu emprego apresenta vantagens em relação aos
+métodos tradicionais de conformação. As técnicas de fundição são preferencialmente usadas para peças
+de grandes dimensões e geometrias extremamente complexas, materiais com baixa ductilidade e que
+não permitem o uso das técnicas usuais de conformação. Elas também são usadas quando se objetiva
+redução de custos. Considerando-se as metodologias usuais de fundição de ligas ferrosas, julgue o item
+a seguir.
+O processo de fundição denominado cera perdida é usado para peças em que se exijam elevada precisão
+dimensional, reprodução de pequenos detalhes e excelente acabamento.
+( ) Certo ( ) Errado.
+Comentário:
+Perfeita definição do processo de fundição de cera perdida que pertence ao grupo de processos de
+precisão! Vimos que esse tipo de processo gera excelente acabamento, elevada precisão dimensional e
+detalhes. Todavia, tem como desvantagens o alto custo de confecção do molde e a limitação de peso da
+peça.
+Gabarito: correto.
+5. (CEBRASPE - BASA - Engenharia Metalúrgica - 2007)
+Os processos de fundição são utilizados quando o seu emprego apresenta vantagens em relação aos
+métodos tradicionais de conformação. As técnicas de fundição são preferencialmente usadas para peças
+de grandes dimensões e geometrias extremamente complexas, materiais com baixa ductilidade e que
+não permitem o uso das técnicas usuais de conformação. Elas também são usadas quando se objetiva
+redução de custos. Considerando-se as metodologias usuais de fundição de ligas ferrosas, julgue o item
+a seguir.
+Os machos, regularmente utilizados em fundição em areia, são fundamentais como partes dos moldes
+para confecção das partes ocas dos fundidos.
+( ) Certo ( ) Errado.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 44 =====
+43
+Comentário:
+Perfeito! Vimos que os machos possuem exatamente essa função, Coruja: corresponde, na etapa de
+confecção do molde, aos lugares nos quais o material fundido (metal ou liga metálica) não adentra,
+representando as partes ocas no desenho da peça final produzida.
+Gabarito: certo.
+Selecon
+6. (Selecon/EMGEPRON - Mecânica - 2021)
+Uma das vantagens da fundição utilizando-se Areia Verde é:
+a) quanto maior a peça menor a erosão
+b) não precisar de um controle crítico dos seus elementos
+c) quanto maior a peça melhor o seu acabamento superficial
+d) é mais barata quando comparada a outros métodos de produção de moldes.
+Comentário:
+Questão que nos cobra sobre as características dos moldes de Areia Verde, tipo de molde perecível a base
+de areia. Lembre-se que a principal característica é o fato desse molde não sofrer o processo de estufa,
+recebendo o nome de “verde”, por conta da umidade maior em relação ao molde de areia seca (e não
+porque a cor do molde é verde – aspecto que é comum de cobrança pelas bancas). Além disso, uma
+característica marcante de tipo de processo de fundição é o custo – os moldes de areia verde são mais
+baratos, justamente porque um dos motivos é não precisar passar pela etapa de estufa a fim de tirar a
+umidade do molde (como no molde de areia seca). As demais alternativas não possuem relação com
+“vantagens” desse tipo de processo de fundição e molde.
+Gabarito: "d".
+7. (Selecon/EMGEPRON - Mecânica - 2021)
+O elemento que NÃO faz parte da composição da área verde do processo de fundição em moldes de
+areia é:
+a) a sílica
+b) a argila
+c) a água
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 45 =====
+44
+d) o mercúrio.
+Comentário:
+Pelo amor, né? Conforme vimos, Estrategista, o único elemento que não faz parte da composição, não
+somente dos moldes de areia verde, mas dos outros tipos que vimos, também, é o mercúrio.
+Gabarito: "d".
+Cesgranrio
+8. (Cesgranrio / Liquigás Distribuidora S.A. - Técnico de Instalações – 2018)
+Tubos de ferro fundido sem costura são produzidos em um processo que consiste em vazar
+metal líquido no interior de um molde reutilizável, que é posto em rotação em torno de seu
+eixo longitudinal, forçando o deslocamento do metal, devido a uma pressão resultante de uma
+força que excede a da gravidade, de encontro às paredes internas do molde, onde se solidifica.
+Tal processo de fabricação é denominado fundição:
+a) de precisão.
+b) por centrifugação.
+c) por gravidade.
+d) por velocidade.
+e) sob pressão.
+Comentário:
+Conforme vimos na parte teórica, Coruja, existem diferentes tipos de processos no campo da
+fundição. Um deles é o denominado Fundição por Centrifugação. De acordo com a doutrina
+majoritária, esse processo ocorre a partir do vazamento do metal líquido no interior de um molde
+(normalmente, reutilizável) que irá rotacionar (molde rotativo) em torno do seu eixo, deslocando o
+metal devido à ação da força centrífuga. Essa força é que dá vida à pressão que força a metal líquido
+a grudar nas paredes do molde onde ele irá se solidificar.
+Gabarito: “b”.
+Cesgranrio
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 46 =====
+45
+9. (Cesgranrio / Petrobrás - Técnico de Manutenção Júnior - Mecânica – 2017)
+Entre os processos de fundição relacionados a seguir, aquele que acarreta a menor taxa de extração de
+calor durante a solidificação é o de fundição
+a) por centrifugação
+b) sob pressão
+c) em coquilha de grafite
+d) em coquilha metálica
+e) em areia.
+Comentário:
+Conforme vimos, Estrategista, temos diferentes tipos de processos de fundição: sob pressão, por
+centrifugação, por gravidade, de precisão, quanto ao molde em molde permanente e perecíveis,
+em areia, etc. Várias classificações.
+Entre eles, vimos que o que acarreta menor taxa de extração de calor durante a solidificação é no
+processo de fundição em areia, pois os moldes são constituídos (normalmente) com 90% de areia de
+sílica (SO2) ou sílica misturada com vários minerais. Nesse sentido, é comum que a areia tenha
+propriedades refratárias, suportando altas temperaturas, além de ter taxa de extração de calor
+menor.
+O processo de fundição sob pressão e por centrifugação utilizam moldes metálicos com alta taxa de
+extração de calor, pois o metal possui alta condutividade térmica.
+Os moldes de grafite (coquilha em grafite), normalmente, são metálicos com revestimento em grafite,
+ou produzidos somente em grafite, e este material está relacionado a uma microestrutura mais
+refinada no metal que solidifica próximo a superfície do molde. Não possui a menor taxa de extração
+de calor.
+Gabarito: “e”.
+10. (Cesgranrio / Petrobrás Distribuidora - Profissional Júnior - Engenharia Mecânica – 2014)
+A concentração de impurezas constitui um defeito de fundição, cujas consequências são a
+heterogeneidade na composição do material e alterações nas suas propriedades mecânicas.
+Como é conhecido esse tipo de defeito?
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 47 =====
+46
+a) Discordância
+b) Dendrita
+c) Massalote
+d) Segregação
+e) Vazio.
+Comentário:
+Conforme vimos em aula, Coruja, a literatura específica nos mostra que as impurezas geram defeitos
+no processo de fabricação denominado fundição. Essas impurezas podem gerar certa
+heterogeneidade no material e, por conta disso, impactar diretamente as propriedades mecânicas
+dele. Vejamos cada alternativa e os defeitos elencados por elas:
+Letra "a": as discordâncias são defeitos que existem na constituição do cristalino dos materiais,
+influenciando nas deformações plásticas. Elas surgem por um desalinhamento entre os átomos que
+vão compor o arranjo das células unitárias do retículo cristalino do material. Elas podem ser
+discordâncias de arestas, espirais ou mistas (as duas juntas). Alternativa errada;
+Letra "b": a dentrita é a microestrutura formada a partir do fenômeno da cristalização na etapa de
+solidificação do material fundido. Por conta da parede dos moldes e pela temperatura não uniforme
+de resfriamento, temos que essa microestrutura será, também, não uniforme e esses cristais
+formaram microestrutura dendrítica (também chamadas de "árvore com ramos"). Elas são
+indesejáveis, pois aumenta a fragilidade do material em processos de fabricação como na laminação.
+Esse defeito não está vinculado diretamente a presença de impurezas. Alternativa errada;
+Letras "c" e "e": massalote não é um defeito e sim uma peça utilizada para concentrar e reter o calor
+por um tempo mais longo (pois é de material refratário) sendo solidificado por último e concentrando
+o vazio ou chupagem (esse sim, é o defeito) que surge pela contração quando os metais se
+solidificam. O fenômeno da contração de volume surge pela diferença de velocidade de solidificação
+do metal que começa na periferia para o centro que solidifica por último, gerando, os vazios pela
+contração. Esses vazios podem ser internos e são responsáveis, muitas vezes, por trincas e tensões
+residuais no material da peça fundida. Aí que surge o massalote (também chamado de "cabeça
+quente", pela literatura específica). Por isso, letra "c" e "e", estão erradas;
+Letra "d": de fato, segregação é o nome dado pelo defeito descrito no enunciado. De acordo com a
+doutrina, o fenômeno da concentração de impurezas gera diferentes comportamentos no material,
+pois certas impurezas (fósforo, enxofre, manganês, silício) possuem diferentes impactos no estado
+líquido e sólido. Alguns desses elementos formam compósitos homogêneos no estado líquido do
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 48 =====
+47
+metal. Todavia, quando o metal começa a se solidificar, algumas impurezas (como o fósforo e o
+enxofre) que são menos solúveis no estado sólido, conforme a solidificação acontece, esses
+elementos vão migrando para a parte líquida (vimos que a solidificação começa na periferia da peça).
+Essa região com maior concentração de impurezas que solidificou por último é chamada de
+segregação. Alternativa correta.
+Gabarito: “d”.
+11. (Cesgranrio / Petrobrás - Engenheiro de Equipamentos Júnior - Mecânica – 2012)
+As propriedades mecânicas de componentes fundidos são influenciadas pelo tamanho dos seus grãos
+cristalinos. No que se refere aos aços fundidos de baixa resistência mecânica, considere as afirmativas
+abaixo.
+I - O uso de inoculantes durante a solidificação do material favorece o crescimento de grão do material.
+II - A técnica de inoculação na solidificação caracteriza um tipo de nucleação conhecida como homogênea.
+III - Menor tamanho de grão diminui a temperatura de transição dúctil-frágil do material.
+IV - Maior tamanho de grão aumenta o limite de resistência do material.
+Está correto APENAS o que se afirma em
+a) I
+b) III
+c) I e II
+d) I e IV
+e) II e III.
+Comentário:
+Estrategista, essa é uma questão que envolve conhecimento diversos inerentes ao processo de
+fundição. Nessa seara, vejamos cada assertiva:
+I: pelo contrário, Coruja! Conforme vimos na parte teórica, o uso de inoculantes na etapa de
+solidificação no molde (depois de derramado o metal líquido) é, justamente, tornar a microestrutura
+uniforme por conta da inclusão de elementos que servem como núcleos de cristalização estáveis,
+promovendo o estabelecimento de grãos equiaxiais e focando na eliminação de crescimento de grãos
+colunares (não favorecendo o crescimento de grão descontrolado). Assertiva errada;
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 49 =====
+48
+II: por conta da inclusão de elementos que irão servir como núcleos estabilizadores na cristalização,
+temos que o tipo de nucleação é heterogênea e não homogênea. Alternativa errada;
+III: perfeita! De fato, como sabemos do estudo da Ciência dos Materiais e, mais especificamente, dos
+ensaios de impacto (Charpy e Izod), temos que conforme se diminui o tamanho do grão, temos uma
+redução na temperatura de transição dúctil-frágil, já que temos a temperatura de mudança em um
+intervalo, de uma fratura dúctil para frágil. Pois, bem. Com a redução do tamanho do grãos, se
+aumenta a área de contato dos contornos entre eles e temos menor possibilidade de movimento das
+discordância, elevando sua dureza e resistência ao limite de escoamento e deixando o material mais
+frágil. Dessa forma, há uma diminuição da temperatura de transição, pois ela vai depender tanto da
+composição da liga, quanto da sua microestrutura, sendo maior pela absorção maior de energia e
+menor, pela menor absorção de energia. Alternativa correta.
+IV: pelo contrário, o maior tamanho de grão diminui o limite de resistência, pois a área dos contornos
+entre os grãos fica menor e facilita o movimento das discordâncias entre os planos cristalográficos.
+Justamente com a diminuição do tamanho do grãos, teremos maior área de contorno pelo maior
+número de grãos e maior obstáculo para o movimento das discordâncias e, assim, aumentando o
+limite de resistência ao escoamento do material. Assertiva errada;
+Gabarito: “b”.
+AOCP
+12. (AOCP - UEFS-BA - Analista - Engenheiro Mecânico - 2018)
+Ao projetar-se uma peça que será obtida através do processo de fundição, devem ser levados em conta
+os fenômenos que ocorrem na solidificação do metal líquido no interior do molde, de modo a atenuá-
+los. Assinale a alternativa que apresente três princípios para o projeto de fabricação de peças fundidas.
+a) Tensões de resfriamento; Espessura de parede; Recozimento.
+b) Tensões de resfriamento; Recozimento; Cristalização.
+c) Estrutura dendrítica; Tensões de resfriamento; Espessura de parede.
+d) Recozimento; Espessura de parede; Cristalização.
+e) Estrutura dendrítica; Tensões de aquecimento; Espessura de parede.
+Comentário:
+Tranquilidade, Coruja! Vamos relembrar os principais fenômenos que vimos e que ocorrem no processo
+de fundição (na etapa de solidificação, principalmente) dos metais e ligas metálicas:
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 50 =====
+49
+Oras, a microestrutura dendrítica é o resultado do fenômeno da Cristalização irregular do fundido, por
+conta, basicamente, do formato do molde. As Tensões de Resfriamento tem relação direta com a
+Contração de Volume no momento que o material diminui de volume. Além disso, a geração de vazio
+(principal problema desse fenômeno) também se faz presente. Por fim, a peça deve possuir certa
+resistência mecânica quando for retirada do molde (seja ele perecível, seja ele permanente) e, por conta
+disso, o projeto, deve-se considerar uma espessura de parede para que a peça não frature ou seja
+danificada.
+Erradas as letras "a", "b" e "d", pois recozimento é um tratamento térmico. A letra "e" menciona tensões
+de aquecimento (nada a ver com nada).
+Gabarito: “c”.
+FUNDEP
+13. FUNDEP / SAAE-MG - Engenherio Mecânico - 2018)
+No processo de fundição de precisão em “cachos”, como no exemplo ilustrado a seguir, há um molde
+de cera, desfeito depois da desmoldagem.
+Fênomenos na etapa de solidificação
+Cristalização
+Contração de volume
+Segregação - impurezas
+Desprendimento de gases
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 51 =====
+50
+Para o processo representado na imagem, é correto afirmar que:
+a) letra “B”, somente, representa a peça a ser fundida.
+b) letras “A” e “B” representam as peças.
+c) letra “C” representa o sistema de enchimento.
+d) letra “A” representa o sistema de alimentação.
+Comentário:
+Questão interessante sobre o processo de cera perdida (molde perecível, Coruja!). Vejamos:
+Letra "a": errada. A letra "B" na figura em questão não representa a peça que será fundida, e sim,
+representa o modelo desenvolvido em cera que foi injetado. Dessa forma, esses moldes serão
+mergulhados para a formação da casca para formar a peça fundida posteriormente;
+Letra "b": errada. A letra A representa a alimentação do molde de cera desenvolvido na etapa
+de vazamento do metal líquido. A letra B, por sua vez, representa os modelos (ou moldes) feitos em
+cera que geraram as cascas do formato das peças.
+Letra "c": errada. Essa parte representada pela Letra C consiste no modelo (ou molde) que irá compor
+os cachos formados para a formação da casca. A questão erra ao afirmar que é o sistema de enchimento
+de metal líquido, pois esse é representado pela letra A.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 52 =====
+51
+Letra "d": correta! O sistema de alimentação, também denominado de sistema de enchimento é por
+onde o vazamento ocorre, fazendo com o metal líquido preencha e alimente todos os moldes que
+representam os cachos da árvore de fundição.
+Gabarito: “d".
+IESES
+14. (IESES - BAHIAGÁS - Analista - Engenharia Mecânica - 2015)
+Dentre as características do processo de fundição destaca-se:
+a) O fato de trabalhar somente com ligas de ferro e aço carbono.
+b) Ficar restrito somente a ligas de ferro.
+c) Produzir somente peças que sofrerão grande desbaste por usinagem para finalização.
+d) Ficar restrito somente a ferro fundido.
+e) Possibilidade de trabalhar com amplas faixas de espessura de parede reduzindo o custo.
+Comentário:
+Nossa, essa questão é tão "fraquinha" que até minha "vó" responderia, hein, Coruja? rs. As letras "a", "b",
+"c" e "d" são absurdas! Vimo que o processo de fundição não se restringe a essa ou aquela liga metálica.
+Além disso, existem processos de alta precisão (como o de cera perdida) que gera um produto final muito
+bem acabado, precisando do mínimo de desbaste por usinagem posterior (errada a letra "c"). A letra "e"
+é o gabarito, pois a depender da peça final e do processo, pode-se trabalhar com paredes com amplas
+faixas de espessura.
+Gabarito: “e”.
+ACAFE
+15. (ACAFE - SED-SC - Professor - Mecânica - 2013)
+No processo de fundição, a moldagem em areia verde consiste em compactar manualmente, ou
+empregando máquinas de moldar, uma mistura refratária plástica chamada de fundição, composta
+essencialmente de:
+a) areia, resinas de cura térmica e pó de grafite colocado sobre o modelo ou montado na caixa de
+moldar.
+b) areia betuminosa, argila e água colocada sobre o modelo ou montado na caixa de moldar.
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 53 =====
+52
+c) areia betuminosa, areia de zinco e água colocada sobre o modelo ou montado na caixa de moldar.
+d) carbonato de sílica, bentonita sódica e água colocada sobre o modelo ou montado na caixa de
+moldar.
+e) areia silicosa, argila e água colocada sobre o modelo ou montado na caixa de moldar.
+Comentário:
+Tranquilidade, Coruja! Vimos que nos moldes de areia (tipo de fundição que usa molde perecível), temos
+sua confecção feita, normalmente, por 90% de areia (areia silicosa), 3% de água e 7% de argila. Essa
+composição também se aplica ao subtipo chamado modelo de areia verde que tem alta umidade relativa
+durante o vazamento.
+Gabarito: “e”.
+16. (ACAFE - SED-SC - Professor - Mecânica - 2013)
+O defeito ou fenômeno de fundição que geralmente ocorre no processo de solidificação gerando
+diferença entre os volumes no estado líquido e no estado sólido e eventualmente podem ficar localizados
+na parte interna das peças ou próximos das superfícies, é chamado de:
+a) bolhas.
+b) câmeras falsas.
+c) vazio ou chupagem.
+d) conversão.
+e) retração.
+Comentário:
+Opa! Questãozinha tranquila sobre os fenômenos da solidificação no processo de fundição e seus
+resultados. Vamos relembrar?
+Fênomenos na etapa de solidificação
+Cristalização
+Contração de volume
+Segregação - impurezas
+Desprendimento de gases
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 54 =====
+53
+Dentro da contração de volume, temos a geração do vazio (chupagem ou rechupagem) no interior da
+peça. Por conta disso, é comum o uso do massalote (ou "cabeça quente") a fim de minimizar esse defeito,
+pois solidificará por último, concentrando o vazio nele!
+Gabarito: “c”.
+EAOEAR
+17. (EAOEAR/Engenharia Mecânica - 2015)
+Quantos aos processos de fundição, assinale a alternativa correta.
+a) Na fundição de precisão, o modelo é usado uma única vez, mas o molde pode ser reaproveitado.
+b) A moldagem em areia seca ou em molde estufado pode ser empregada com peças de qualquer
+dimensão ou peso, sempre que se exige um melhor acabamento.
+c) O emprego de moldes permanentes metálicos oferece vantagens econômicas em relação aos
+moldes de areia, quando usado para peças maiores, pela facilidade de fabricação.
+d) A fundição sob pressão é o método ideal para peças pesadas, com mais de 100 kg, pois o fluxo de
+material fundido tem maior velocidade e penetração do que nos outros processos.
+Comentário:
+Olha aí, Estrategista! Questão que nos cobra detalhes específicos sobre os processos de fundição!
+Vejamos cada alternativa!
+Letra "a": errada! Oras, no processo de fundição de precisão temos o processo de cera perdida que é um
+tipo de processo de molde perecível! Nesse processo, tanto o modelo quanto o molde serão consumidos!
+Lembre-se que conforme o material refratário é aquecido, o modelo em cera (envolvido pela pasta ou
+argamassa) é derretido, pois a cera se liquefaz com o aquecimento. Assim, o modelo também é perdido
+no processo. Quando o modelo em cera se liquefaz, o molde de material refratário é produzido. Na etapa
+seguinte do processo, o metal ou liga metálica no estado líquido será vazado(a) no molde da pasta ou
+argamassa que tem sua forma de acordo com o modelo que outrora ela envolveu. Perceba que nesse
+estágio do processo, esse molde também será consumido e a peça final fundida será produzida;
+Letra "b": esse foi o gabarito dado pela banca. Todavia, eu discordo. Não podemos dizer que todo é
+qualquer peso e toda e qualquer dimensão podem ser admitidos nesse dois processos de fundição que
+utilizam moldes perecíveis. De fato, no caso do molde de areia seca, a doutrina cita que ele é mais
+resistentes à pressões de fundo e que permitem maior acabamento das peças. Mas, é um exagero a
+generalização da alternativa;
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 55 =====
+54
+Letra "c": errada! Justamente o contrário, Coruja! Por conta do alto custo de produzir um molde de liga
+metálica resistente à elevadas temperaturas, o seu valor é mais alto (alto custo) e, por isso, é muito
+utilizado para peças de pequena dimensão. Além disso, aproveitas os moldes permanentes para a
+fabricação de várias peças;
+Letra "d": errada! Justamente uma limitação do processo de fundição por pressão é a dimensão das peças
+que são limitadas e o seu peso inferior a uma massa de 5kg, raramente ultrapassando 25kg. 100 kg é um
+absurdo!
+Gabarito: "b".
+Idecan
+18. (Idecan/CBM - 2016)
+Fundição é o processo realizado para obtenção de peças com formas simples ou complexas por meio da
+fusão da matéria-prima. A peça adquire sua forma definitiva quando o metal fundido (matéria-prima
+liquefeita) é despejado no molde e, em seguida, resfriado, solidificando-se. Durante a solidificação do
+material líquido, ocorrem os seguintes tipos de contrações, EXCETO:
+a) Contração líquida: devido à diminuição da temperatura até o início da solidificação.
+b) Contração líquida: devido à nucleação homogênea que se dá por acúmulo de átomos.
+c) Contração de solidificação: variação de volume durante a mudança do estado líquido para o sólido.
+d) Contração sólida: variação de volume já no estado sólido (da temperatura de fim de solidificação
+até a ambiente).
+Comentário:
+Olha aí, Coruja! Questão bem tranquila que nos cobra os aspectos sobre as contrações que existem
+durante o processo de fundição a partir do momento que temos o vazamento do metal ou liga metálica
+líquidos no molde. Oras, lembre-se que temos 3 tipos de contrações:
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 56 =====
+55
+Perceba que na contração líquida temos a queda da temperatura ainda na fase líquida e quando há o
+início da solidificação. A letra "a" está correta e a letra "b", errada. Na letra "b", ele descreve outro
+fenômeno da fundição que é nucleação dos átomos que tem relação com o arranjo dos átomos quando
+eles começando a se aglomerar pelas colisões aleatórias ainda na fase líquida (apesar da nucleação estar
+relacionada com a contração líquida, não é definição de contração líquida).
+As demais letras estão corretas.
+Gabarito: "b".
+Tipos de contrações
+Líquida: quando abaixa a temperatura ainda na fase
+líquida
+Solidificação: variação de volume que ocorre
+durante a mudança de estado (líquido para sólido)
+Sólida: variação de volume que ocorre no estado
+sólido, entre as temperaturas finais e ambiente do
+material
+Felipe Canella, Juliano de Pelegrin
+Aula 06
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 57 =====

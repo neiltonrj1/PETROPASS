@@ -1,0 +1,3379 @@
+
+
+===== página 1 =====
+Aula 01
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+05 de Janeiro de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+TRATAMENTOS TÉRMICOS ................................................................................................................................. 4
+Fatores que afetam os tratamentos térmicos .................................................................................................. 6
+Tratamentos térmicos calóricos: recozimento ................................................................................................... 9
+Recozimento total ou pleno ....................................................................................................................... 10
+Recozimento em Caixa .............................................................................................................................. 12
+Recozimento para alívio de tensões (ou subcrítico) ................................................................................... 13
+Esferoidização ou coalescimento ............................................................................................................... 14
+Tratamentos térmicos calóricos: normalização .............................................................................................. 16
+Tratamentos térmicos calóricos: têmpera ...................................................................................................... 16
+Tratamentos térmicos calóricos: revenido ...................................................................................................... 24
+Tratamentos térmicos calóricos: tratamentos isotérmicos ............................................................................... 29
+Austêmpera ............................................................................................................................................... 30
+Martêmpera .............................................................................................................................................. 31
+Tratamentos termoquímicos ........................................................................................................................... 32
+Cementação .............................................................................................................................................. 33
+Nitretação ................................................................................................................................................. 34
+Cianetação ................................................................................................................................................ 35
+Carbonitretação ........................................................................................................................................ 36
+Boretação .................................................................................................................................................. 36
+Mecanismos para aumento da resistência mecânica ........................................................................................ 37
+Encruamento .............................................................................................................................................. 37
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+Redução do tamanho dos grãos ............................................................................................................... 38
+Endurecimento por precipitação ............................................................................................................... 39
+Considerações finais ......................................................................................................................................... 41
+Questões com comentários ................................................................................................................................ 42
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+TRATAMENTOS TÉRMICOS
+Estrategista, é com enorme prazer que estou aqui com vocês para falarmos sobre Ciência dos
+Materiais. Nesta aula veremos os principais tópicos inerentes a esse "mundo" e sua grande importância para
+a Engenharia e todas as suas ênfases.
+Nesta aula, conduzirei nosso foco aos Tratamentos Térmicos, principal etapa nos processos de
+fabricação de produtos, peças e materiais e de SUMA IMPORTÂNCIA para sua prova!
+Ao término da aula, compilei as últimas questões dos últimos anos provenientes das principais bancas
+que são referências no país, além da CESBRASPE (banca do seu concurso), tais como (CESGRANRIO, AOCP,
+IBFC, FGV, etc)! Dessa forma, seu preparo será de alto nível para sua prova!
+Como de praxe, não deixe de seguir minhas redes sociais a fim de ter acesso a conteúdo exclusivo
+sobre questões comentadas em vídeo, dicas, esquemas e questões inéditas "tipo CESBRASPE":
+profcanelas t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+TRATAMENTOS TÉRMICOS
+Estrategista, os tratamentos térmicos nada mais são do que um conjunto de operações pelas quais
+os materiais passam a fim de alterar suas propriedades. Essas operações de aquecimento e de resfriamento
+são efetuadas com controle de tempo, temperatura, atmosfera e velocidade (de resfriamento).
+Todas essas variáveis são importantes, já que, conforme o objetivo a ser atingido, variar uma ou outra,
+diferentes pontos da Curva TTT são atingidos. Nesse sentido, Coruja, conforme as peças de trabalho são
+produzidas (lembra dos processos de usinagem, conformação e soldagem da aula passada?), podem gerar
+diversas distorções e empenamentos nas peças finais.
+A depender da atividade a qual essa peça (por exemplo, uma ferramenta metálica) será submetida,
+essas tensões (distorções e empenamentos) podem gerar desde uma avaria a uma quebra prematura da
+ferramenta, afetando de maneira pejorativa as propriedades mecânicas desse material.
+Por esses motivos, os tratamentos térmicos surgem para eliminar ou suavizar essas tensões e
+deformações geradas. Basicamente, podemos elencar os benefícios dos tratamentos térmicos no esquema
+a seguir.
+Todavia, Estrategista, não é somente submeter o material de qualquer forma e a qualquer
+temperatura. Existem fatores que vão influenciar diretamente nos tratamentos térmicos ou termoquímicos
+(vamos falar dessas duas classificações adiante.) e como esses fatores são aplicados e controlados.
+Benefícios dos Tratamentos
+Térmicos
+Remoção de
+tensões
+internas
+Alteração da
+dureza
+Aumento da
+resistência
+mecânica,
+resistência à
+corrosão e ao
+calor
+Melhoria na
+ductilidade e
+usinabilidade.
+Melhoria na
+resistência ao
+desgaste e nas
+propriedades
+de corte
+Alteração das
+propriedas
+elétricas e
+magnéticas
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+Dessa forma, depois do trabalho a frio em determinada peça e seu encruamento realizado que gera
+tensões residuais, os tratamentos que veremos passam por três etapas básicas a depender do tratamento e
+da temperatura atingida. Nesse sentido, temos, no decorrer do tratamento, um primeiro momento de
+recuperação do grão no qual há o movimento das discordâncias que foram geradas pela deformação plástica
+no encruamento e sua energia liberada. Além disso, já na recuperação, algumas propriedades físicas
+(elétricas e térmicas) voltam ao estado original do material.
+Depois, temos a recristalização (a depender do tratamento) na qual a principal característica é a
+formação de novo conjunto de grãos livres de deformação e equiaxiais (dimensões quase iguais em todas
+as direções), como define a literatura específica1. Muitas das propriedades mecânicas da liga acabam
+retornando a valores anteriores ao trabalho a frio. É claro, Coruja, que a temperatura de recristalização vai
+depender do material e, de acordo com a doutrina citada, costuma ser aquela na qual a recristalização dos
+grãos terminam em 1 hora de exposição.
+Conforme a temperatura se eleva, a terceira etapa se faz presente que é a do crescimento do grão.
+Essa etapa não depende das outras e ocorre em todos os materiais policristalinos. Esse crescimento está
+associado ao movimento dos átomos que fazem com que os contornos dos grãos sejam alterados. Ao passo
+que alguns grãos crescem, outros diminuem. Dessa forma, as direções desse movimento do contorno e do
+movimento dos átomos são opostas entre si, com cita a doutrina menciona. Assim, grave para sua prova:
+1º Recuperação / 2º Recristalização / 3º Crescimento do grão;
+Além dessas etapas, Estrategista, acho pertinente você conhecer as consagradas Leis da Recristalização.
+Essas leis derivam de interpretações generalizadas de diferentes autores consagrados, como Burke e
+Turnbull. Para sua prova, é pertinente você conhecer essas relações provenientes da literatura específica
+2
+,
+apesar de serem pouco exploradas:
+• A recristalização ocorre somente se existir uma deformação mínima";
+• Quanto menor o grau de deformação, mais alta é a temperatura para começar a recristalização;
+• Quanto mais longo o tempo de recozimento, menor é a temperatura para começar a recristalização,
+• O tamanho de grão final depende muito do grau de deformação e pouco da temperatura de
+recozimento. Quanto maior o grau de deformação e/ou menor a temperatura de recozimento,
+menor será o tamanho do grão final;
+• Quanto maior o tamanho de grão inicial, maior será a deformação necessária para que a
+recristalização finalize no mesmo intervalo de tempo e temperatura de recozimento;
+• O grau de redução para se obter um mesmo endurecimento por deformação (encruamento) aumenta
+com o aumento da temperatura de deformação. Para um dado grau de redução, quanto maior for a
+1 Callister, W.D. Jr; Rethwish, D.G. Materials Science and Engineering: An Introduction. Editora: LTC, 8ª edição, Rio de Janeiro, 2012.
+2 Adaptado de Low, M. Determinação do Estágio Inicial da Recristalização em Ligas de Alumínio por Difração de Raio-X. Dissertação de Mestrado. IPEN, 2000.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+temperatura de deformação, maior será a temperatura de recristalização e maior será o tamanho
+de grão final;
+• O aquecimento continuado após o término da recristalização causa crescimento de grão.
+Fatores que afetam os tratamentos térmicos
+Considerando os principais fatores, primeiramente, podemos agrupá-los no seguinte esquema. São 5
+fatores consagrados na literatura. (Grave-os, pois, a banca pode querer nos surpreender colocando ou
+tirando algum fator em uma pergunta direta!).
+Abaixo, trouxe as características de cada fator:
+• Aquecimento: está relacionado a como a temperatura da peça será atingida. Normalmente,
+a temperatura atingida está relacionada a composição do material a fim de se atingir a
+temperatura de recristalização dele, como nos aços, a temperatura crítica (aquele do
+Diagrama TTT que já expliquei). A forma como o aquecimento é feito é importante, pois como
+temos diferentes elementos químicos na liga, imagine que diferentes comportamentos são
+esperados. Assim, aquecer um material lentamente, pode aumentar o crescimento de grãos.
+No contrário, aquecer rapidamente, pode ocasionar diferentes comportamentos físico-
+químicos desses grãos e aparecer fissuras ou empenamentos por conta das tensões que esse
+material pode ter;
+Fatores
+Aquecimento
+Temperatura
+Tempo
+Ambiente
+Resfriamento
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+• Temperatura: corresponde a temperatura ideal, baseada na análise do digrama de equilíbrio
+da liga metálica e composição dos elementos dela a fim de se atingir temperaturas acima das
+de recristalização. Essa variação da temperatura de aquecimento fica entre baixas
+temperaturas (próxima a do ambiente), como altas (próxima da temperatura de fusão do
+material). Perceba, Estrategista, não queremos no tratamento térmico que aja mudança de
+fase! Por isso, não se ultrapassa a temperatura de fusão!
+• Tempo: também é um fator crucial, desde o fato de proporcionar uma homogeneização da
+temperatura por toda a peça (precisa de um tempo específico para que toda a peça atinja a
+temperatura específica do tratamento), até a influência no crescimento dos grãos.
+Normalmente, maiores tempos implicam em maiores tamanhos de grãos, nesse caso.
+• Ambiente: consiste no controle dos elementos que fazem parte da atmosfera local. Lembra
+quando falamos nos processos de soldagem sobre a proteção gasosa? É o mesmo raciocínio,
+Estrategista! Temos em nossa atmosfera muito oxigênio e gás-carbônico, por exemplo. Dessa
+forma, a oxidação e a descarbonetação são reações químicas que podem prejudicar a
+superfície do material. Surge, assim como nos processos de soldagem, a necessidade de
+proteger esse material. No caso, os ambientes dos fornos podem ser protegidos pela
+combustão de carvão, óleo, hidrogênio, nitrogênio, amônia dissociada e/ou vácuo (ausência
+de matéria) a depender do material e do processo. (Mais detalhes além desses foge do escopo
+das bancas de concurso.)
+• Resfriamento: principal fator que vai interferir diretamente na microestrutura do material.
+Assim, variando a velocidade do resfriamento (atingimento de temperaturas baixas de
+maneira rápida ou lenta), diferentes propriedades mecânicas podem ser atingidas (maior
+ductilidade ou maior dureza, por exemplo) a depender da microestrutura atingida. Lembra de
+quando estudamos os diagramas Fe-C e os diagramas TTT? Conforme variávamos temperatura
+e tempo, diferentes transformações eram atingidas (martensita, bainita, perlita, etc). A
+depender do material e do objetivo de microestrutura e propriedade a serem atingidos,
+temos diferentes meios para o resfriamento (indo do mais severo e mais rápido, para o mais
+ameno e lento):
+o solução aquosa de 10% de NaCl ou Na2CO3;
+o água;
+o óleos de diferentes viscosidades;
+o ar;
+o vácuo.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+Conforme dito anteriormente, temos 2 classificações de tratamentos térmicos: calóricos e
+termoquímicos.
+A principal diferença entre eles é que nos calóricos o tratamento é baseado somente em processos
+que envolvam aquecimento pelo calor, sem adição de elementos químicos.
+Nos termoquímicos, além de ser fornecido calor, também se tem a inclusão de elementos químicos
+específicos na superfície do aço. Esses tratamentos térmicos são estudados com grande ênfase em aços
+(foco da banca).
+Dentro do escopo dos tratamentos térmicos, Estrategista, há 6 tipos de tratamentos que são do
+grupo calórico (como vimos acima) e muito disseminados na literatura. São eles: Recozimento,
+Normalização, Têmpera, Revenido, Isotérmicos e Endurecimento por Precipitação.
+Já dentro do grupo de tratamentos térmicos termoquímicos, existem 5 grandes grupos de
+tratamentos na literatura. São eles: Cementação, Nitretação, Cianetação, Carbonitretação e Boretação.
+Todavia, é possível termos outras denominações dentro de cada tipo de tratamento térmico. Antes
+de adentrarmos nas especificações de cada um, veja o esquema a seguir para que você memorize cada
+denominação para cada grupo:
+Tratamentos Térmicos
+Calóricos = somente calor
+Termoquímicos = calor + elementos químicos na superfície
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+Estrategista, cada tratamento térmico possui especificidades e detalhes que veremos a seguir. Grave
+esse esquema a fim de “esbarrar” por uma eventual pergunta direta, que cobre somente denominações,
+após uma descrição do tipo.
+Começaremos com os tratamentos térmicos calóricos, com o primeiro tipo MUITO explorado pelas
+bancas: Recozimento! Vamos, lá! “Sangue nos zóio”, essa vaga é sua!
+Tratamentos térmicos calóricos: recozimento
+O tratamento de recozimento possui como principais objetivos: eliminação de tensões provenientes,
+por exemplo, da conformação do material ou algum tratamento térmico anterior que gerou algum tipo de
+efeito indesejável à peça.
+Nesse sentido, também faz parte dos objetivos do recozimento a diminuição da dureza do material,
+aumento da ductilidade, bem como procurar ajustar o tamanho dos grãos que já sofreram com alguma
+deformação (processos de fabricação, como a laminação, por exemplo, tensões internas que ficam depois
+do processo precisam ser eliminadas, se não, a depender do serviço, aquela peça pode apresentar uma
+fratura e um risco posterior).
+Tratamentos Calóricos
+Recozimento
+Normalização
+Têmpera
+Revenido
+Isotérmicos
+Endurecimento por
+Precipitação
+Tratamentos Termoquímicos
+Cementação
+Nitretação
+Cianetação
+Carbonitetação
+Boretação
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+Dentro dos tratamentos térmicos calóricos por recozimento, temos ainda 4 subdivisões mais
+específicas (Total ou Pleno, em Caixa, Alívio de Tensões e Esferoidização ou Coaslecimento) e que vão
+depender do tipo de aplicação do material em serviço. Vamos, lá, Estrategista! Foco!
+Recozimento total ou pleno
+Nesse tipo, a temperatura de aquecimento fica acima da temperatura de recristalização daquela liga
+específica (seria a zona crítica dos aços, liga Fe-C, conforme vimos na primeira parte da aula). Outra
+característica desse tipo é o resfriamento lento que ocorre dentro de um forno, gerando propriedades
+mecânicas uniformes em toda a peça.
+Além disso, ele é muito utilizado em outras ligas com base de cobre, alumínio, magnésio, níquel,
+titânio, dentre outras.
+Nas ligas Fe-C, as estruturas finais são:
+o ferrita mais perlita grosseira, se for uma liga hipoeutetoide;
+o perlita grosseira mais cementita, se for uma liga hipereutetoide;
+o somente perlita, se for uma liga eutetoide.
+Veja o esquema do nosso diagrama que recortei. Nele, teremos uma temperatura de recozimento
+pleno para ligas hipoeutetoides cerca de 50
+o
+C acima do limite superior da zona crítica (A3), ao passo que
+para ligas hipereutetoides acima do limite inferior da zona crítica (A1). Relembre na ilustração:
+3
+3 Adaptado de Callister, W.D. Jr; Rethwish, D.G. Materials Science and Engineering: An Introduction. Editora: LTC, 8ª edição, Rio de Janeiro, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+Aqui, ainda cabe mencionar, Coruja, duas designações, uma para a ferrita e outra para a cementita
+que não fazem parte da perlita. Oras, a ferrita que começa a se formar no resfriamento entre os grãos
+austeníticos e antes da temperatura eutetoide recebe o nome de ferrita proeutetoide nos aços
+hipoeuteoides e a cementita que começa a se formar nos aços hipereutetoides no resfriamento antes da
+temperatura eutetoide recebe o nome de cementita proeutetoide. Já as ferrita e cementita da perlita
+recebem o nome de ferrita e cementita eutetoide. Só denominação, Coruja, sem “stress” nisso aí. Rs.
+Ainda podemos ter dentro do escopo do recozimento pleno, a classificação isotérmico ou cíclico,
+que nada mais é que do que uma classificação para designar um resfriamento em duas etapas: uma rápida
+até uma temperatura na parte superior do diagrama de transformação isotérmica (na mesma temperatura
+até a austenita se transformar em produtos normais de sua transformação) e a outra até a temperatura
+ambiente. Veja uma curva de resfriamento desse processo.
+(CESBRASPE/Mecânica)
+Com relação às propriedades e às características dos aços estruturais, é correto afirmar que
+o processo de recozimento de uma chapa de aço estrutural, que reduz a dureza do aço e aumenta sua
+ductilidade, pode ser realizado após a conformação mecânica por laminação, com o intuito de aliviar as
+tensões internas da referida chapa.
+( ) Certo ( ) Errado.
+Comentário:
+Oras, Estrategista, conforme vimos, o processo de recozimento visa justamente aliviar as tensões geradas
+pelo encruamento do material, reduzindo a dureza e aumentando a ductilidade. Correta!.
+Gabarito: correto.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+4
+Recozimento em Caixa
+Nesse tipo, associe sempre o termo caixa com atmosfera protetora (novamente, lembre-se dela da
+aula de Soldagem. É o mesmo princípio). Nesse tipo de recozimento, a “caixa” tem como objetivo proteger
+4 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Recozimento pleno (2 classificações)
+Isotérmico
+Cíclico
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+a superfície do material da oxidação proveniente das reações com a atmosfera dentro do forno.
+Normalmente, as temperaturas variam entre 600
+o
+C e 700
+o
+C.
+Recozimento para alívio de tensões (ou subcrítico)
+Esse é um tipo de recozimento mais brando no qual não se atinge a temperatura de recristalização
+do material (da liga, especificamente). Justamente depois das operações de conformação e usinagem
+(conforme vimos em outras aulas), surgem tensões que podem vir a gerar problemas desde de desgastes
+acentuados até a fraturas quando em serviço. Desse modo, surge esse tipo de recozimento a fim de eliminá-
+las.
+Saiba também, Estrategista, que esse tipo é amplamente usado em várias ligas; cobre, alumínio,
+ferro, níquel, magnésio, dentre outras.
+Uma característica importante é que nesse tipo não ocorre mudança de fase, sendo o material
+aquecido até a zona crítica “A1” do diagrama de fases da liga. Dessa forma, a liga metálica não chega ao
+campo austenítico.
+Lembra do nosso diagrama Fe-C? Veja que marquei nele a linha A1 e a temperatura pela qual não pode
+ser superada no Recozimento para Alívio de Tensões ou Subcrítico (justamente recebe essa outra
+denominação por conta de a temperatura ser abaixo da crítica).
+Outras duas características que você precisa levar para sua prova é que nesse tipo o tempo na
+temperatura é longo e que não se formam novos grãos.
+Recozimento
+para alívio de
+tensões
+(subcrítico)
+Mais brando
+Muito empregado depois de conformação
+Usado em vários tipos de ligas (cobre, alumínio, ferro, níquel, etc)
+Sem mudança de fase
+Tempo na temperatura longo
+Não forma novos grãos
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+5
+Esferoidização ou coalescimento
+Nesse tipo de recozimento, Estrategista, o principal objetivo é reduzir a dureza do material e, assim,
+aumentar a usinabilidade dele. Esse objetivo é justamente alcançável por conta do desenvolvimento da
+microestrutura “esferoidita” que dá uma das denominações do processo. Dessa forma, esse tipo de
+recozimento é muito utilizado em aços alto carbono (vimos que uma das característica da liga com alto teor
+de carbono é a elevada dureza, certo?).
+Basicamente, quanto maior a temperatura no campo austenítico, Coruja, maior a chance dos seus
+grãos se tornearem homogêneos (ou seja, na nucleação, os grãos austeníticos têm menos carbonetos
+residuais, pois os carbonetos se dissolveram). Assim, a estrutura perlítica tende a ser mais lamelar (formada
+pelas lamelas de ferrita e cementita no final do resfriamento). Todavia, caso a austenita seja heterogênea
+(com carbonetos residuais em áreas ricas em carbono na microestrutura), esses núcleos de carbonetos não
+dissolvidos impactam na formação da perlita, fazendo com que a transformação seja acelerada e tendendo
+a ter uma forma "globulizada" (esferoidal) em detrimento a forma lamelar.
+O aço é submetido, por meio desse tipo de tratamento térmico por recozimento, a uma temperatura
+também abaixo da linha A1, por um tempo longo ou, normalmente, se faz com que a temperatura oscile
+em torno da mesma linha (hora acima, hora abaixo).
+Vamos resolver uma questão que cobrou esse assunto!
+5 Adaptado de Callister, W.D. Jr; Rethwish, D.G. Materials Science and Engineering: An Introduction. Editora: LTC, 8ª edição, Rio de Janeiro, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+(FCC/ Mecânica)
+Um tratamento térmico de coalescimento aplicado ao aço visa
+a) aumentar a dureza superficial.
+b) diminuir a capacidade de alongamento do material.
+c) reduzir a dureza.
+d) dificultar a estampabilidade ou deformabilidade do material.
+e) aumentar a resistência mecânica do material.
+Comentário:
+Letra “a”: essa alternativa vai de encontro com o que estudamos. É justamente o contrário. O objetivo
+principal desse tratamento é reduzir a dureza do aço. Alternativa errada.
+Letra “b”: conforme mencionado na explicação da alternativa “a”, não é esse um dos objetivo do tratamento.
+Letra “c”: de acordo com o que vimos, um dos principais objetivos do tratamento de coalescimento é
+diminuir a dureza do material pela formação de uma microestrutura “esferoidita” e, assim, melhorar a
+usinabilidade de aços alto carbono, por exemplo. Alternativa correta.
+Letra “d”: pelo contrário, Estrategista, se o objetivo é atingir menor dureza no aço, teremos uma melhora
+na estampabilidade e deformabilidade, facilitando processos de usinabilidade desse material. Alternativa
+errada.
+Letra “e”: conforme vimos em aula, resistência mecânica é um conceito amplo e complexo. Ao meu ver, a
+alternativa é infeliz em definir como errado “aumentar a resistência mecânica”, já que reduzir a dureza, não
+necessariamente implica em baixa “resistência mecânica” – o material pode ter sua ductilidade aumentada
+e para certos objetivos e atividades, ser mais resistente que um aço mais duro. Porém, como vimos, esse
+aço duro pode ser mais frágil (dureza e fragilidade são conceitos diferentes). Todavia, segundo o gabarito da
+questão, a alternativa está errada.
+Gabarito: “c”.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+Alguns autores colocam o Coalescimento/Esferoidização como um tratamento térmico
+calórico a parte do recozimento. Outros, dentro do grupo de recozimento. O que fazer?
+Considere ambos! Infelizmente, temos essas discrepâncias na literatura. Para sua prova,
+não ache que está errada uma questão caso ela trate como um tratamento a parte ou
+como um tipo de recozimento. Ok? Bora pra frente!
+Tratamentos térmicos calóricos: normalização
+Os objetivos da normalização são justamente parecidos com do recozimento (remover tensões,
+reduzir dureza, aumentar a ductilidade, entre outros já mencionados). Todavia, na normalização há a busca
+por tornar os grãos mais finos depois do resfriamento.
+Por conta disso, o resfriamento no tratamento calórico de normalização, necessariamente, será mais
+rápido e, por conta disso, atinge-se uma microestrutura mais fina. Isso ocorre, Estrategista, porque o grão
+não teve tempo de crescer em alta temperatura quando aquecido. As temperaturas na normalização são
+atingidas logo acima da linha Acm para os aços hiperteutetoides e logo acima da linha A3 para os aços
+hipoeutetoides.
+Nesse sentido, o tipo de microestrutura é a mesma que nos tratamentos de recozimento, porém são
+finas, como a perlita fina (lembra da perlita da seção anterior? É constituída por uma mistura eutetoide de
+duas fases, ferrita e cementita a 723
+o
+C/727
+o
+C e composição de 0,77%/0,8%, em valores aproximados.
+Sempre bom lembrar, né, Corujinha?).
+Esse tratamento é muito aplicado em aços (ligas Fe-C com até 2% de carbono – mas um detalhe para
+recordar, rs). Pode ser utilizada a normalização como um tratamento anterior à têmpera e o revenido, já
+que sua microestrutura é mais homogênea e reduz a probabilidade de empenamento.
+Além disso, na normalização plena, dependendo da geometria da peça, o resfriamento não é
+uniforme, o que resulta em propriedades mecânicas diferentes em toda a peça, já que, diferente do
+recozimento pleno, ela não é feita em uma ambiente controlado do forno.
+Tratamentos térmicos calóricos: têmpera
+Na têmpera, Estrategista, a velocidade de resfriamento é muito rápida (mais rápida do que na
+normalização). Essa é a primeira característica que você precisa levar para sua prova. Para esse resfriamento
+brusco, normalmente se utiliza um meio contendo desde água, salmoura, ar e óleo a alguma composição
+específica de sais.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+Normalmente, o resfriamento de aço que contém somente carbono e sem outros
+elementos de liga, utiliza-se água ou óleo. Todavia, se contiver outro elemento na liga,
+utiliza-se banho de sais (salmoura) ou até mesmo ar.
+Outras características importantes que você precisa guardar é que além de serem atingidas
+temperaturas semelhantes às temperaturas de recozimento e normalização, a têmpera confere uma
+elevada dureza pelas modificações muito agressivas que o aço sofre em sua microestrutura.
+Por conta dessas modificações radicais, além da dureza extremamente elevada, também teremos
+alta resistência à tração, ao passo que, a ductilidade será extremamente reduzida.
+Dessa forma, por conta dessas modificações nas propriedades mecânicas do material, depois do
+tratamento de têmpera, é empregado o tratamento de revenido (falaremos dele a seguir), cujo objetivo é
+justamente diminuir as tensões internas elevadas da têmpera, por conta da velocidade de resfriamento
+extremamente alta.
+Falou em têmpera, falou em resfriamento muito rápido, elevada dureza, elevada
+resistência à tração e baixíssima ductilidade. Além disso, Coruja, saiba que em aços com
+elevado teor de carbono, por conta desse resfriamento brusco, há a possibilidade de
+ocorreram trincas e empenamentos!
+Quando falamos mais especificamente em ligas Fe-C (grande protagonista das provas), no tratamento
+de têmpera, o principal objetivo é atingir a microestrutura martensítica (microestrutura monofásica e
+metaestável).
+É justamente por essa microestrutura que o aço vai apresentar a tal da elevada dureza e resistência
+à tração. Por conta disso, esse aço é muito utilizado na construção mecânica. São os famosos aços
+temperados, que tenho certeza que você já ouviu falar!
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+Por conta da elevada dureza e baixíssima ductilidade, esse aço depois da têmpera
+apresenta alta fragilidade!
+Falando em termos mais práticos, Coruja, teremos algumas peculiaridades na têmpera de aços
+hipoeutetoides (aços com concentrações entre 0,22% a 0,77% de C) e hipereutetoides (aços com
+concentrações entre 0,77% a 2,14% de C). Normalmente, aquece-se o aço a uma temperatura de 50
+o
+C acima
+da zona crítica de cada tipo de aço. Por exemplo, nos hipoeutetoides, aquece-se 50
+o
+C acima da linha A1.
+Veja abaixo, Estrategista, mesmo com a figura sendo de difícil visualização, conseguimos ter uma ideia do
+“jeitão” de cada microestrutura para cada concentração de carbono e temperatura.
+Coruja, lembra quando eu disse que teremos um resfriamento brusco no tratamento de
+têmpera? Saiba que temos diferentes meios nos quais o material pode ser resfriado. Dessa
+forma, como aponta a literatura específica, memorize a composição do meio do grau
+menos severo (resfriamento lento) para o meio com grau mais severo (ou seja,
+resfriamento mais rápido):
+Vácuo;
+Ar;
+Óleos de várias viscosidades;
+Água;
+Solução aquosa a 10% de NaCl, NaOH ou Na2CO3
+Grau de
+severidade no
+resfriamento
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+6
+6 Adaptado de Buchert, C.O.F.T. Introdução a Ciências do Materiais. Universidade de São Paulo. Escola de Engenharia de Lorena, Departamento de Engenharia de Materiais.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 21 =====
+20
+Já para os aços hipereutetoides, não há necessidade de serem aquecidos acima da linha Acm
+(mostrada no gráfico para concentrações de C acima de 0,76%). Isso se dá ao fato de que depois do rápido
+resfriamento, a microestrutura martensítica resultante terá carbonetos secundário que não foram
+dissolvidos. A presença dos carbonetos influencia positivamente na dureza (a presença de carbono, como
+vimos na primeira seção da aula é que confere essa característica ao material).
+Assim, as partículas de carbonetos secundários só vão facilitar o objetivo da têmpera conforme se
+atinja a microestrutura martensítica. Essa dureza elevada que já mencionei se dá justamente pela
+configuração do reticulo cristalino em cúbico de corpo centrado do ferro α (lembra dele?) que não permite
+a solubilidade do carbono.
+Esse carbono fica alojado fazendo parte da microestrutura da martensita, já que o resfriamento
+rápido não permitiu que o carbono se separasse totalmente, ficando entre os espaços do cubo de corpo
+centrado (CCC) do ferro α.
+“Tá, e daí? O que você quis dizer, Professor?” O que eu quero dizer é que esse carbono que é
+proveniente do ferro γ (este possui outra configuração, Cúbica de Face Centrada – CFC -, lembra?) e que
+outrora permitia que o mesmo carbono ficasse dissolvido, sofreu a transformação alotrópica para o ferro α.
+Porém, como eu disse, o carbono em excesso não é solúvel no ferro α por conta do retículo cristalino CCC
+dele.
+É justamente esse carbono que vai constituir essa microestrutura martensítica (metaestável)
+responsável pela elevada dureza e, também, por ocasionar todas as tensões internas que precisam ser
+aliviadas. É assim que surge, Estrategista, o tratamento de revenido a fim de reduzi-las, após a têmpera
+descrita acima. Antes, você sabe o porquê da martensita ter essas características? Por causa da fase
+metaestável e monofásica (TCC – Tetragonal de Corpo Centrado) que surge entre os arranjos das células
+unitárias CFC da austenita. Veja a figura7 a seguir para você visualizar:
+7 Adaptado de CANALE, L.; Transofrmações de Fases em Metais e Microestruturas. Engenharia e Ciências dos Materiais I, 2017.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+Assim, essa microestrutura martensítica, monofásica e fora de equilíbrio, compete com as
+microestruturas perlita e bainita, sendo metaestável e, a depender da difusão do carbono retido da figura,
+ocorrerá a formação da fase ferrita ou cementita (que já vimos). A fim de reduzir essas tensões, se aplica,
+como mencionei, o revenido.
+Antes de vermos esse novo processo (revenido), saiba, Coruja, que também temos um tipo de
+têmpera denominada de têmpera superficial. Esse tratamento consiste na obtenção de uma têmpera
+localizada, de forma que fique apenas na superfície da peça. A têmpera superficial pode ser feita por
+diferentes processos, tais como: têmpera por chama; por indução; por raios laser; por raios eletrônicos e
+por resistência elétrica de alta frequência.
+Antes de vermos o revenido (próximo tratamento), convém a gente mencionar alguns detalhes sobre
+a temperabilidade dos aços, Coruja. Tranquilo! Temperabilidade nada mais é que a capacidade do aço em
+atingir a microestrutura martensítica. Ou seja, pode ser entendida como o quão fácil é, no resfriamento a
+partir do campo austenítico (fase gama ou ferro γ, que vimos) ele ter início na transformação martensítica e
+terminar sem cruzar o “C” da curva TTT (e, assim, não formar microestrutura perlítica).
+Além desses conceitos, a temperabilidade também tem relação com o atingimento da máxima
+tenacidade do aço para dada microestrutura.
+Aqui, atenção, Coruja! A temperabilidade é a capacidade do aço de endurecer até uma
+certa profundidade e não de atingir um máximo valor de dureza (máxima dureza tem
+relação com o teor de carbono do aço)! Além disso, saiba que a temperabilidade pode
+ser medida pelo método de Grossman e pelo método Jominy!
+CFC
+CFC
+TCC
+Carbono
+intersticial -
+gera tensões
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+Indo adiante, Coruja, temos que saber alguns fatores que influenciam a temperabilidade do aços
+durante tratamentos térmicos (principalmente, na têmpera). De acordo com a doutrina
+8
+, temos fatores que
+irão diminuir a temperabilidade e fatores que irão aumentá-la. Veja o esquema a seguir:
+Coruja, em relação aos elementos de liga (como níquel, alumínio e silício, por exemplo) impactam e
+aumentam a temperabilidade, pois deslocam a curva TTT que vimos para a direita pelo fato de alguns
+elementos continuarão dissolvidos na ferrita e outros na forma de carbonetos.
+Todavia, para ambas situações as reações demandam tempo e atrasam o início e o fim da
+transformação austenítica. Assim, temos uma temperabilidade maior, pois a martensita não precisa ser
+atingida com uma velocidade de resfriamento muito elevada (esses elementos diminuem essa velocidade).
+A única exceção é o cobalto (grave isso!).
+O tamanho do grão da austenita também influencia, Coruja, deslocando a curva TTT para direita e
+atrasando a transformação dessa fase em perlita (e, assim, facilitando a formação da martensita).
+Isso ocorre, pois a perlita começa a se formar nos contornos do grão austenítico e, quanto maior esse
+grão, mais tempo para a transformação. Nesse sentido, Consequentemente, os aços cujo tamanhos de grãos
+austeníticos são grandes, tendem a apresentar uma microestrutura final martensítica (que possui elevada
+tensão e menor tenacidade, por conta do carbono intersticial que não se desprendeu e deixou a
+microestrutura mais dura e mais frágil). Coruja, sinto que é pertinente colocar, novamente uma curva TTT
+abaixo para você não ficar rodando o pdf e perder tempo. Veja de novo:
+8 CHIAVERINI, V. Aços e Ferros Fundidos. 7a edição. São Paulo, 2005.
+Fatores que AUMENTAM a
+temperabilidade
+Elementos de liga dissolvidos na austenita
+(com execeção do cobalto)
+Granulação grosseira da austenita (grão
+maiores)
+Homogeneidade da austenita
+Fatores que DIMINUEM a
+temperabilidade
+Granulação fina da austenita
+Inclusões não dissolvidas (como
+carbonetos, nitretos e inclusões não-
+metálicas)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+9
+Lembra dessa figura que vimos em outra seção? Pois bem. "Deslocar ela para a direita" é pegar o "C"
+da curva e suas respectivas transformações de microestruturas que temos (perlita, bainita, etc) e jogar à
+direita (de quem lê esse pdf) desse gráfico. Ou seja, atrasando qualquer começo de transformação dessas
+estruturas conforme o resfriamento do aço é feito a partir do campo austenítico. Pegou o "bizu"? Por isso,
+que facilita a formação da martensita e, consequentemente, aumenta a temperabilidade do aço, com
+tendência de perda de tenacidade.
+Por fim, quando falamos em homogeneidade do grão austenítico quer dizer que quanto menos tiver
+carbonetos residuais, mais demorada é a formação da perlita (o que, novamente, facilita a formação da
+9 Adaptado de Callister, W.D. Jr; Rethwish, D.G. Materials Science and Engineering: An Introduction. Editora: LTC, 8ª edição, Rio de Janeiro, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+martensita). Isso ocorre porque esses carbonetos residuais e áreas ricas em carbono servem de núcleos de
+formação da perlita (lembre-se que ela é constituída por cementita e ferrita, certo?).
+Coruja, para fecharmos e irmos para o revenido ("nossa, até que enfim, professor" rs) convém você
+conhecer o quadro
+10
+a seguir que mostra algumas tendências nos aços temperados em relação ao grão
+(grosseiro ou fino) austenítico. Já foi objeto de prova essas propriedades. Veja:
+Propriedade
+Tendências nos aços temperados
+Aços de Austenita Grosseira Aços de Austenita Fina
+Endurecibilidade Endurecimento mais profundo Endurecimento menos profundo
+Tenacidade à mesma dureza Menos tenazes Mais tenazes
+Empenamento Maior Menor
+Fissuras de têmpera Mais frequentes Geralmente ausentes
+Fissuras de retificação Mais susceptíveis Menos susceptíveis
+Tensões residuais Maiores Menores
+Austenita retida Mais Menos
+Para aços que foram recozidos e normalizados:
+Usinabilidade (Desbaste) melhor (Desbaste) inferior
+Usinabilidade (casos especiais) Acabamento fino inferior Acabamento fino superior
+Trabalhabilidade (casos especiais) Superior Inferior
+Tratamentos térmicos calóricos: revenido
+Conforme dito anteriormente, Estrategista, o revenido consiste no tratamento feito depois da
+têmpera. Nesse tratamento térmico do tipo calórico, o aço temperado é submetido a temperaturas abaixo
+da zona crítica. Dessa forma, como consequência desse tratamento posterior à tempera, ocorre um
+10 CHIAVERINI, V. Aços e Ferros Fundidos. 7a edição. São Paulo, 2005.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+aumento na ductilidade tão reduzida na têmpera anterior e há redução da dureza e resistência a tração.
+Além disso, o principal objetivo é reduzir as tensões internas provenientes da têmpera.
+Se liga nesse “bizu”, Estrategista: os tratamentos de têmpera e revenido estão
+associados, SEMPRE!
+Normalmente, o revenido é realizado imediatamente após ao tratamento de têmpera, e as
+temperaturas utilizadas não ficam até a proximidade da linha A1.
+Todavia, o que você precisa ter em mente é o seguinte: a depender do objetivo do projeto, a escolha
+da temperatura para o revenido será crucial, já que para cada faixa de temperatura, teremos específicas
+mudanças na microestrutura e, consequentemente, mudanças nas propriedades.
+Dessa forma, acho interessante pontuarmos essas mudanças para cada faixa:
+• de 100
+o
+C até 250
+o
+C (ou Primeiro Estágio): nessa faixa ocorre a precipitação de um carboneto de
+ferro (falamos dele na têmpera) de reticulado hexagonal, fazendo que a dureza caia e fique em
+torno de 60 Rockwell C (lembra dessa escala de dureza que já comentamos?);
+• de 200
+o
+C até 300
+o
+C (ou Segundo Estágio): nessa faixa também continua a cair a dureza e, para
+aços médio e alto carbono começa a surgir a microestrutura bainita proveniente de alguma
+austenita retida no tratamento de têmpera;
+• de 250
+o
+C até 350
+o
+C (ou Terceiro Estágio): nessa faixa a dureza continua a cair e em aços alto
+carbono percebe-se a formação de uma microestrutura cujo nome já não se utiliza mais (troostila,
+vai que a banca queira te pegar, né?);
+• de 400
+o
+C até 600
+o
+C: nessa faixa temos o começo da “esferoidização” do carbonetos na estrutura
+da ferrita fina e acicular, além de uma dureza Rockwell C entre 25 e 45. Essas estruturas recebem
+o nome de “sorbíticas”;
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 27 =====
+26
+• de 600
+o
+C até 700
+o
+C: nessa faixa começa a recristalização e o crescimento de grão de formato
+esferoidal (da cementita proveniente dos carbonetos precipitados) que nos aços carbono vão dar
+origem a um outro processo denominado “Coalescimento ou Esferoidização” (um tipo de
+recozimento já tratado na seção anterior). A dureza na escala Rockwell C fica na faixa de 5 a 20.
+Além desses pontos, é importante você entender como é a curva do tratamento de têmpera seguido
+do revenido, Coruja. Veja na figura11 a seguir o revenido sendo aplicado posterior à têmpera a fim de atingir
+a microestrutura mertensítica revenida.
+Por conta dessa característica do revenido, Coruja, saiba que ele é o tratamento térmico
+que não sofre influência da curva TTT e suas transformações de microestrutura! Veja na
+figura que ele é feito posteriormente a martensita já formada!
+11 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Martensita
+revenida
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+Quero que você perceba, Estrategista, como é importante termos em mente o impacto que causa
+tanto a presença de certos elementos de liga na microestrutura, quanto a temperatura associada ao tempo.
+Saiba que conforme aumentamos a temperatura, vamos tendo uma redução na dureza.
+Consequentemente, temos um aumento na ductilidade do material e uma redução na fragilidade (temos
+um material mais resistência ao choque!).
+Coruja, antes de passarmos para a próxima seção e estudarmos sobre os tratamentos isotérmicos, é
+válido termos em mente algumas temperaturas de recristalização de alguns materiais. Esse tipo de
+cobrança, apesar de não ser muito comum, já apareceu em prova como na questão que veremos a seguir.
+Dê uma olhada, Estrategista:
+12
+Normalmente, a temperatura de recristalização de um material costuma ser determinada dentro do
+intervalo de 0,3.Tf e 0,5.Tf (na qual, Tf é a temperatura de fusão desse material a ser analisado),
+considerando o tempo de 1 hora nessas temperaturas.
+12 Adaptado de Centro de Informações Metal Mecânica, em: <https://www.cimm.com.br/portal/material_didatico/6473-processos-de-recuperacao-e-recristalizacao#.XmvA9qhKiUl>.
+Acesso em: 20/02/2020.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+De acordo com Callister e Rethwisch (2012), alguns valores são apresentados em sua obra um pouco
+diferentes da tabela cima da CIMM (2020). Isso demonstra justamente a diferença de abordagem da
+literatura.
+Minha sugestão: considere a tabela do CIMM, pois já foi alvo de prova, mas saiba a fórmula
+supracitada (intervalo de 30 a 50% da temperatura de fusão do material) caso o examinador vá por esse
+caminho, certo?
+Nesse sentido, apesar da literatura aceitar as regras da temperatura de fusão, Coruja, ela não é exata
+(portanto, sugiro ter mente a tabela que mencionei acima). Vamos ver como esse assunto já foi cobrado em
+prova.
+(Cesgranrio/Mecânica)
+Em uma fábrica, um engenheiro precisa que uma chapa de níquel comercialmente puro seja laminada na
+temperatura mais alta possível, sem que ocorra recristalização, porém, em uma temperatura na qual a
+plasticidade seja adequada. Considerando que o níquel funde a 1455°C, a temperatura mais adequada, em
+°C, para esse processo é de
+a) 250.
+b) 350.
+c) 450.
+d) 550.
+e) 650.
+Comentário:
+Estrategista, conforme mencionei na parte teórica da aula, essa é uma questão que utilizou a tabela da
+CIMM! Perceba que ele quer a temperatura que seja até o limite (mais alta possível) sem que ocorra a
+recristalização do material.
+Percebemos que, pela tabela mencionada, temos, para o níquel puro (99,99%), a temperatura de 571
+o
+C.
+Portanto, a temperatura máxima fornecida pelas alternativas é de 550
+o
+C.
+Gabarito: d.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+Estrategista, um ponto que devemos ter atenção e que já foi objeto de prova dentro do estudo do
+tratamento de revenido é a fragilização ao revenido!
+Sem mistério! Esse fenômeno costuma ocorrer, de acordo com a doutrina, em aços-liga (objeto de
+estudo de outra aula) de baixo teor em liga. Eles costumam adquirir certa fragilidade quando são aquecidos
+na faixa de 375 a 575
+o
+C (ou de 300 a 600
+o
+C, a depender do autor) ou quando são resfriados, lentamente,
+nessa faixa.
+Acerca desse fenômenos, é importante você conhecer alguns pontos que tem “cheiro” de prova
+proveniente da lavra do grande mestre Chiaverini (atenção a esses pontos):
+• A fragilidade ao revenido ocorre de maneira mais rápida na faixa de 450 a 475
+o
+C;
+• Os aços-carbono comuns, com teores de manganês (Mn) inferiores a 0,30% não apresentam
+esse fenômeno. Todavia, aços com teores maiores de manganês e com níquel, cromo e uma
+ou mais impurezas (como antimônio, fósforo, estanho ou arsênio) são suscetíveis a
+apresentar fragilidade ao revenido;
+• Os aços cromo-níquel (Cr-Ni) costumam ser mais suscetíveis ao fenômeno, caso não se utilize
+matérias-primas muito puras na sua produção;
+• A fragilidade ao revenido é somente revelada no ensaios de resistência ao choque (impacto),
+pois as demais propriedades mecânicas e microestruturas não costumam ser afetadas;
+• O molibdênio em teores de 0,5 a 1,0% costuma retardar o fenômeno;
+• A fim de reduzir a severidade da fragilidade ao revenido em casos específicos, pode-se manter
+o aço por um longo período de tempo na faixa de temperaturas entre Ac1 e Ac3 (zona
+intercrítica);
+Por fim, é possível restaurar as condições do aço, caso o fenômeno se manifeste, Coruja! Para isso, é
+comum aquecer o aço até 600
+o
+C ou mais e executar uma resfriamento rápido, inferior a 300
+o
+C.
+Sigamos em frente! Agora, vamos ver os Tratamentos Isotérmicos!
+Tratamentos térmicos calóricos: tratamentos isotérmicos
+Estrategista, a primeira coisa que eu quero você memorize para sua prova, antes de adentrarmos
+nos detalhes do Tratamento Isotérmico é: ele NÃO ocorre, SOMENTE, na mesma temperatura! Desse
+modo, em um determinado momento e por um tempo específico, o aço ficará em uma determinada
+temperatura.
+Nesse sentido, vamos adentrar nas especificidades desse tipo de tratamento. Nesses tratamentos, o
+conhecimento das curvas em C ou TTT (já comentamos sobre elas anteriormente), será importante. Por
+conta disso, Estrategista, foco no bizu!
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+Tratamento Isotérmico faz uso da curva C ou TTT e NÃO ocorre SOMENTE na mesma
+temperatura!
+Retomando, existem dois tipos de Tratamento Isotérmicos amplamente utilizados: a Austêmpera e
+Martêmpera!
+Austêmpera
+Na Austêmpera, Estrategista, o principal objetivo é a produção de uma microestrutura chamada
+bainita. Essa microestrutura tem menos chance de empenar que a martensita revenida, pois gera menos
+tensões internas. Por conta disso, ela é indicada para aços com elevada temperabilidade (temperabilidade
+é a capacidade do aço em atingir a microestrutura martensítica depois do tratamento de Têmpera, Coruja!).
+O processo de obtenção dessa microestrutura (bainita) consiste em aquecer o aço até a temperaturas
+acima da zona crítica e, em seguida, resfriá-lo rapidamente, com o intuito de evitar a transformação da
+austenita (em martensita, por exemplo), até a temperatura de produção da bainita.
+Quando se atinge a temperatura da bainita, se mantém nessa temperatura por um tempo
+determinado (aqui é a parte isotérmica de tratamento, percebeu? Rs).
+“Ah, Professor, mas como se mantém esse aço nessa temperatura?” Justamente surge o papel do
+banho de sal fundido ou chumbo fundido. Esse banho é mantido em temperaturas entre 250
+o
+C e 440
+o
+C e,
+em seguida, resfriado ao ar. Perceba na figura a seguir a queda brusca de temperatura, e o tempo mantida
+a mesma temperatura antes de iniciar em Mi a formação da martensita.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+13
+Uma vantagem desse tratamento são as menores tensões internas quando comparado a outros
+tratamentos e isso se deve a temperatura de formação da bainita (relativamente alta, bem acima da
+martensita, em torno de 400 a 560
+o
+C – lembre-se que o início da martensita é a temperatura aproximada de
+225 a 230
+o
+C).
+Todavia, um ponto de desvantagem que cabe mencionar é que, por conta do resfriamento rápido,
+estruturas de aço relativamente grandes acabam não tem uma homogeneidade na microestrutura em toda
+a peça, já que algumas partes podem atingir a temperatura final que ficará em isometria de temperatura e
+outras partes não.
+Martêmpera
+Nesse nosso último tratamento térmico calórico que veremos antes de adentrarmos nos tratamentos
+termoquímicos, também tem o objetivo de atingir a microestrutura final da martensita.
+Todavia, quando se atinge a temperatura de início da transformação em martensita (Mi), o
+resfriamento que até esse ponto estava rápido, passa a ser lento (diferença principal para a têmpera
+convencional seguida do revenido). Dessa forma, teremos a formação da martensita lenta. Veja na figura14
+13 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+14 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+a seguir a curva característica desse tratamento isotérmico com o resfriamento lento na transformação
+(círculo em vermelho), Coruja.
+“Entendi, Professor. Mas, como isso é feito?”. Caro Estrategista, esse resfriamento lento é
+proporcionado pelo meio no qual a peça é colocada, contendo óleo quente ou sal fundido em torno da
+temperatura de Mi.
+Assim, uma vantagem é que esse material fica imerso nesses materiais nessa temperatura durante
+todo o tempo suficiente para que a peça como um todo atinja essa temperatura. Nesse sentido, é possível
+obter uma peça toda uniforme, com a microestrutura martensítica com menor quantidade de tensões
+internas.
+Uma desvantagem é, novamente, a possiblidade de falta de homogeneidade da microestrutura em
+peças de grande extensão, principalmente, entre o centro e a superfície.
+Basicamente, é isso que você precisa entender sobre os processos de tratamento térmicos calóricos
+para sua prova. As bancas não entram em detalhes mais específicos e colocar todos os detalhes foge do
+nosso objetivo – a sua aprovação. Sem mais delongas. Partiu tratamentos termoquímicos!
+Tratamentos termoquímicos
+Estrategistas, esse assunto é muito pouco explorado em provas e por isso não perderemos tempo
+precioso de estudo com muitos detalhes. Todavia, é bom para que você saiba que eles existem e algumas
+características para diferenciá-los. Vamos, lá?
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+A primeira noção que você precisa ter em mente é que os Tratamentos Termoquímicos são assim
+denominados, pois não dependem somente da temperatura – necessariamente teremos a adição superficial
+de outro elemento químico.
+Todavia, nesse tipo de tratamento, a composição química será alterada superficialmente, não
+adentrando ao interior das peças, a fim de mantê-lo com as características originais. Normalmente, Coruja,
+o objetivo é elevar a dureza e a resistência ao desgaste da superfície dessa peça ao passo que seu núcleo
+continue tenaz.
+Logo, memorize que sempre teremos uma profundidade controlada para a mudança dessa
+composição química, sendo sempre superficial.
+Vamos ver os principais tipos de tratamentos termoquímicos? Todos eles possuem em sua
+denominação a dica do elemento químico que será introduzido na composição química.
+Avante!
+Perceba, Estrategista, os Tratamentos Termoquímicos NÃO dispensam a temperatura –
+ela continua como o principal fator para a alteração da microestrutura e das
+propriedades do material!
+Cementação
+Nesse tipo de tratamento termoquímico, teremos a adição de carbono em peças de ligas de baixo
+carbono, justamente com o objetivo de aumentar a dureza e a resistência mecânica nessa região.
+Na Cementação, a peça será aquecida até à temperatura crítica, ficando um pouco acima da zona
+crítica (entre 900 e 950
+o
+C) a fim de se atingir a microestrutura austenítica e melhorar a absorção do carbono.
+Esse carbono provém do meio rico em carbonetos. Esse meio pode ser:
+• gasoso: será utilizado atmosfera rica em CO (monóxido de carbono);
+• sólido: será utilizado carvão para compor o meio;
+• líquido: serão utilizados banhos de sal à base de cianetos.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+Normalmente, depois do processo de cementação, costuma-se submeter a peça ao processo de
+têmpera a fim de produzir a microestrutura martensítica na superfície da peça, local no qual ocorreu a
+adição do carbono. Pelo processo de têmpera posterior, teremos duas seções distintas: a superfície dura e
+de alta temperabilidade com alto teor de carbono pela cementação e outra central de baixo carbono e dúctil
+(consequentemente mais tenaz).
+Além desses detalhes, os aços devem ter granulação fina antes da cementação, pois essa
+característica confere melhor tenacidade na superfície que será endurecida e no núcleo da peça. Por isso, é
+comum a Normalização da peça (lembre-se que esse tratamento tem o objetivo de deixar o grão mais fino)
+antes da Cementação para garantir processos de Usinagem. Como cita a literatura específica, somente a
+Retificação pode ser empregada após a Cementação para melhorar dimensões e tolerâncias finais.
+Nessa seara, Coruja, a profundidade da superfície da peça terá aumento da dureza a depender tanto
+da temperatura do processo, quanto do tempo e da concentração de carbono do meio.
+Saiba, Estrategista, que a cementação é um dos processos mais antigos, tendo registros
+de que ele era desenvolvido desde a Roma Antiga.
+Nitretação
+Nesse tipo de Tratamento Termoquímico, ocorre a adição de nitrogênio na superfície da peça. A
+grande vantagem da nitretação é não precisar da posterior têmpera a fim de atingir a microestrutura
+martensítica, pois ela já está suficientemente dura.
+Dessa forma, os objetivos desse tratamento também é elevar a dureza e a resistência ao desgaste
+da peça, além de melhorar tanto a resistência à fadiga, quanto à corrosão e ao calor.
+Além disso, conforme aponta a doutrina
+15
+, a temperatura para o processo é abaixo da zona crítica
+(grave isso, pois o examinador pode querer comparar com a cementação em alguma eventual perguntar
+maliciosa!), ficando em torno de 500 a 560
+o
+C – menor que na Cementação.
+15 Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+Normalmente, o tratamento de nitretação é desenvolvido em uma atmosfera gasosa rica em
+nitrogênio. Todavia, temos também a Nitretação Líquida que possui como técnica principal o banho de sais
+de sódio e potássio (como NaCN). Dessa forma, há a formação de compostos nitretos que elevam a dureza
+e a resistência ao desgaste da liga.
+(CESBRASPE/Mecânica)
+Engrenagens e cames de aço requerem altas durezas superficiais para resistirem a desgastes, devendo, para
+isso, passar por diferentes tipos de tratamentos térmicos. Acerca desses tratamentos, julgue os itens a
+seguir.
+Na nitretação, a superfície da peça é enriquecida com nitrogênio, que, ao se combinar com componentes
+dos aços, forma nitretos de alta dureza, aumentando-se, assim, a resistência da peça ao desgaste
+( ) Certo ( ) Errado.
+Comentário:
+Oras, Coruja, conforme vimos acima, a questão está perfeita! De fato, a nitretação gera alta dureza pela
+difusão de nitrogênio que formará os nitretos na superfície da peça. Esses compostos geram elevada dureza
+e resistência ao desgaste!
+Gabarito: correto.
+Cianetação
+Na cianetação, teremos a adição na superfície da peça tanto de nitrogênio quanto de carbono,
+simultaneamente. Para isso, o banho de cianeto fundido é necessário para essa inclusão.
+Cementação
+Pode existir posterior têmpera
+Temperatura ATÉ a zona crítica
+Nitretação
+Não se faz posterior têmpera
+Temperatura sempre abaixo da zona crítica
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====
+36
+Nesse tratamento, também teremos a necessidade da têmpera posteriormente, assim como na
+cementação e ele também é aplicado a aços de baixo carbono, justamente para se elevar a dureza do
+material em sua superfície, com resistência ao desgaste.
+Normalmente, a faixa de temperatura é de 760
+o
+C a 870
+o
+C e o tempo no banho de sal fundido variando
+de 30 a 60 minutos. A espessura da camada pode ficar em torno de 0,10 a 0,30 milímetros.
+Carbonitretação
+Esse tratamento é bem simples de entendermos, pois ele é muito parecido com a cianetação. Na
+carbonitretação, como o nome sugere, o aço será aquecido em uma atmosfera rica em carbono e nitrogênio
+(com o mesmo foco que na cianetação – adicionar esses elementos simultaneamente na superfície da peça).
+Alguns gases podem ser utilizados como o gás amônia e o gás natural e a temperatura terá um
+intervalo maior que o da cianetação, variando entre 700
+o
+C e 900
+o
+C. Todavia, a espessura da camada tende
+a ser menor que da cianetação, podendo atingir 0,07, mas chegando, também a 0,7 milímetros.
+Boretação
+Na mesma linha de raciocínio dos demais Tratamentos Termoquímicos, na boretação teremos a
+adição, por difusão, do elemento boro. Assim, é gerado o composto boreto de ferro que gera elevada dureza
+na superfície da peça (chegando a 2000 Vickers no Ensaio Vickers de dureza que é tratado na aula de Ensaios
+Mecânicos).
+Duas características sobre esse tratamento que seriam interessantes você memorizar. A primeira é
+sobre a alta dureza atingida depois do tratamento (cerca de 2000 Vickers. Lembra dessa escala que vimos
+na segunda seção da aula?).
+A segunda é quanto ao processo: ele é desenvolvido em meio sólido, no qual um composto de
+carboneto de boro (B4C) e de um ativador (fluoreto duplo de boro e potássio).
+Por hoje é só, Coruja! Bora fazer questões!
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 38 =====
+37
+MECANISMOS PARA AUMENTO DA RESISTÊNCIA MECÂNICA
+Coruja, quando falamos em mecanismos para aumentar da resistência mecânica queremos
+compreender alguns processos específicos que a liga metálica irá passar a fim de aumentar sua resistência
+(como a dureza, por exemplo).
+Na realidade, temos algumas técnicas que irão impactar no movimento das discordâncias da
+microestrutura do material (lembre-se que a discordância está associada com a deformação plástica, pois
+pelo seus movimentos é que o metal terá maior facilidade de se deformar!). Assim, se um mecanismo
+específico consegue reduzir a mobilidade das discordâncias que existem nos arranjos organizados dos
+átomos que compõem as células unitárias e os grãos da microestrutura, temos, por exemplo, um material
+com maior resistência mecânica (como, por exemplo, um maior limite de escoamento, por exemplo, além
+da dureza).
+Por isso, memorize, Coruja: para a doutrina dominante, todas as técnicas que veremos
+aumenta a resistência mecânica por conta da restrição ou impedimento de movimento
+de discordâncias! ;)
+Agora, veremos as principais técnicas cobradas pela sua banca e que dizem respeito a metais
+monofásicos (metais multifásicos vimos que temos outras técnicas, como o tratamento de têmpera que visa
+aumentar a dureza da liga metálica, por exemplo).
+Essas técnicas são: encruamento (também chamado de trabalho a frio); redução do tamanho do
+grão; endurecimento por precipitação e endurecimento por solução sólida.
+Encruamento
+O encruamento (também chamado de trabalho a frio por muitos autores), consiste no aumento da
+dureza (resistência mecânica dos metais) por meio da deformação plástica na qual ele é submetido em
+temperaturas abaixo da temperatura de recristalização do material.
+Ele surge justamente pela interação que vai existir entre as discordâncias dos grãos que constituem
+a microestrutura do material. Ele tem como consequência a elevação da dureza do material deformado
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 39 =====
+38
+plasticamente (quando feito em temperaturas bem abaixo da temperatura de recristalização desse
+material), pois surgem tensões internas geradas no material por essa deformação plástica.
+Essas tensões aumentam as discordâncias em sua microestrutura e, assim, essas novas discordâncias
+irão dificultar o movimento das demais discordâncias existentes, alteram o movimento natural dos planos
+cristalográficos formados. Dessa forma, o escorregamento desses planos se torna mais difícil de ocorrer.
+Uma consequência que existe, Coruja, além do aumento da resistência mecânica (como os limites de
+escoamento e tração, bem como a dureza) é a perda da ductilidade do material. Além disso, não há aumento
+da tenacidade do material, conforme o encruamento é executado.
+Redução do tamanho dos grãos
+Estrategista, outra técnica muito utilizada é o refino dos grãos (redução do seu tamanho). "Ok, prófi,
+mas por que esse refino/redução de tamanho aumentaria a dureza e resistência mecânica do material?
+Excelente, questão, minha corujinha alada! Quando o tamanho do grão fica fino, temos um aumento
+na dureza e na resistência mecânica, pois como os grãos são menores, temos maior área de contorno (com
+mais grãos por unidade de área) e essa área maior impede os movimentos das discordâncias entre eles. Por
+isso, se eleva a dureza.
+Esse obstáculo formado pelo contorno do grão existe, Coruja, porque conforme uma discordância
+passe entre uma grão pra outro adjacente no retículo, temos diferentes orientações entre eles. Assim, uma
+discordância precisaria mudar sua direção a fim de continuar seu movimento, permitindo assim a
+deformação. Por isso, quanto maior área de contorno (por conta do maior número de grãos que estão
+menores pelo refino) temos maior número de direções e dificuldade para a discordância se movimentar.
+Veja a figura
+16
+a seguir que ilustra essa fenômeno, Coruja.
+16 Adaptado de Callister, W.D. Jr; Rethwish, D.G. Materials Science and Engineering: An Introduction. Editora: LTC, 8ª edição, Rio de Janeiro, 2012.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 40 =====
+39
+Existe uma equação que pode vir a ser cobrada, Coruja, que apesar de simples, é importante você
+saber qual o seu objetivo. Essa equação é denominada Equação de Hall-Petch e ela é utilizada para relacionar
+o tamanho do grão com o limite de escoamento do material. Veja:
+𝝈𝟏 = 𝝈𝟎 = 𝒌𝟏. 𝒅
+−𝟏/𝟐
+;
+Na qual,
+• 𝝈𝟏: tensão limite de escoamento;
+• 𝝈𝟎: tensão necessária para mover discordâncias livres do material;
+• 𝒌𝟏: constante do material;
+• 𝒅: diâmetro médio do grão;
+Além disso, é estabelecido na doutrina dominante que o refino dos grãos (diminuição do seu
+tamanho) melhora, também, a tenacidade de grande número de ligas. Oras, vimos que a tenacidade não
+está somente relacionada com a deformação plástica do material e seu grau de ductilidade, mas também ao
+quanto esse material devolve energia que é absorvida.
+Endurecimento por precipitação
+Coruja, o endurecimento por precipitação nada mais é que um tipo de tratamento (aplicado
+normalmente em ligas não-ferrosas, como alumínio, cobre, magnésio, níquel e titânio) que utiliza da
+precipitação em fases distintas de elementos de liga para gerar dureza.
+Assim, o material da liga é aquecido até uma temperatura específica para ocorrer a dissolução de
+certos elementos e, depois, como na têmpera, ele é resfriado para que esses elementos fiquem
+precipitados em uma solução sólida. Esses precipitados serão um obstáculo no movimento dos planos
+cristalográficos e discordâncias do retículo cristalino e, logicamente, com vimos, como efeito temos o
+aumento da dureza e resistência mecânica do material.
+Plano de
+escorregamento
+Contorno de grão
+Grão 1
+Grão 2
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 41 =====
+40
+Esse obstáculo que mencionei acontece por conta da deformação no retículo cristalino que os átomos
+do elemento de liga gera, podendo ser de característica substitucional ou intersticial, caracterizando um
+outro mecanismo parecido que é o endurecimento por solução sólida. Se a inserção de átomos do soluto
+na solução (rede de solvente) substituir outro átomo do solvente, temos a substitucional. Se o átomo for
+menor e ocupar posições intersticiais, temos o tipo intersticial. É pacífico na doutrina a utilização de átomos
+de silício (Si), manganês (Mn) e fósforo (P), devido ao grande aumento dos limites de escoamento em aços
+com baixos teores de carbono.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 42 =====
+41
+CONSIDERAÇÕES FINAIS
+Estrategista, chegamos ao término de mais uma aula! Agora, é fazer os exercícios e seu ciclo de
+revisão - principal pilar para ser aprovado em qualquer concurso!
+Trouxe questões das últimas provas de engenharia mecânica! Assim, sua preparação ficará completa
+sobre o tema de aula com diferentes bancas renomadas, além da CESBRASPE/CEBRASPE que é banca do seu
+concurso, quanto da CESGRANRIO que sempre organizou anteriormente. Assim, teremos FCC, FGV, FEPSE,
+EAOEAR, etc)! Dessa forma, você arrebentará na sua prova!
+Aproveito para deixar, novamente, minhas redes sociais! Possuo uma conta no Instagram® na qual
+compartilho questões comentadas, dicas de estudos e esquemas sobre diferentes assuntos e temas de
+Engenharia Mecânica, de tempos em tempos.
+Além disso, possuo também um canal no Telegram®! Por meio desse canal, eu compartilho outros
+tipos de informações pertinentes para você como questões do tipo CESBRASPE/CEBRASPE (certo ou errado)
+inéditas sobre Engenharia Mecânica.
+Depois, dê uma olhada! ;)
+prof.canelas; t.me/profcanelas.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 43 =====
+42
+QUESTÕES COM COMENTÁRIOS
+CEBRASPE
+1. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Com relação aos mecanismos de transformação dos materiais, julgue os itens que se seguem.
+Como a recristalização tende a formar cristais mais duros, os valores de dureza são excelentes índices de
+recristalização.
+( ) Certo ( ) Errado
+Comentário:
+Questão tranquila, Estrategista! Cobra de você o conhecimento básico sobre a recristalização! Lembre-se
+que na recristalização há formação de novo conjunto de grãos livres de deformação e equiaxiais
+(dimensões quase iguais em todas as direções), como define a literatura, na lavra de Callister. Muitas das
+propriedades mecânicas da liga acabam retornando a valores anteriores ao trabalho a frio, por exemplo.
+É claro, Coruja, que a temperatura de recristalização vai depender do material e, de acordo com a doutrina
+citada, costuma ser aquela na qual a recristalização dos grãos terminam em 1 hora de exposição. Assim,
+não tem o menor sentido falar em "cristais mais duros" depois da recristalização do material e, muito
+menos, valores de dureza como "excelentes" índices de recristalização.
+Gabarito: errada.
+2. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Com relação aos mecanismos de transformação dos materiais, julgue os itens que se seguem.
+A martêmpera consiste no resfriamento rápido do aço a uma temperatura abaixo da formação da
+martensita e, depois, um aquecimento lento até a temperatura eutética, o que confere ao aço a dureza
+adequada por meio do processo de recozimento.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 44 =====
+43
+( ) Certo ( ) Errado
+Comentário:
+Opa! Questão bem grotesca, certo? Veja que a martêmpera não consistem em um tratamento de
+resfriamento rápido! Lembre-se que o resfriamento é lento, desde o início da transformação martensítica
+até o seu final. Relembre a sua curva característica:
+Assim, a partir do início da temperatura em que começa a martensita, temos um resfriamento lento. Além
+disso, o posterior aquecimento do material não é até o ponto eutético (completamente fora da realidade,
+lembre-se que o ponto eutético no diagrama ferro-carbono padrão é lá em cima, a cerca de 4,3% de teor
+de carbono a cerca de 1148 oC). A tempera do revenido posterior é variável e condiz com a dureza
+desejada final, mas é muito abaixo dos valores de temperatura do ponto eutético.
+Gabarito: errada.
+3. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Com relação aos mecanismos de transformação dos materiais, julgue os itens que se seguem.
+O encruamento é o processo no qual há formação de cristais por meio do aumento de temperatura e
+subsequente crescimento de grãos.
+( ) Certo ( ) Errado
+Comentário:
+Questão bem direto ao ponto, certo, Coruja? Oras, basta relembrarmos o conceito de encruamento!
+Também chamado de trabalho a frio! Perceba que não é por “meio do aumento de temperatura e
+crescimento de grãos”. Matamos a questão!.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 45 =====
+44
+Relembre-se que o encruamento é o processo que consiste no aumento da dureza (resistência mecânica
+dos metais) por meio da deformação plástica na qual ele é submetido em temperaturas abaixo da
+temperatura de recristalização do material.
+Ele surge justamente pela interação que vai existir entre as discordâncias dos grãos que constituem a
+microestrutura do material. Ele tem como consequência a elevação da dureza do material deformado
+plasticamente (quando feito em temperaturas bem abaixo da temperatura de recristalização desse
+material), pois surgem tensões internas geradas no material por essa deformação plástica.
+Essas tensões aumentam as discordâncias em sua microestrutura e, assim, essas novas discordâncias irão
+dificultar o movimento das demais discordâncias existentes, alteram o movimento natural dos planos
+cristalográficos formados. Dessa forma, o escorregamento desses planos se torna mais difícil de ocorrer.
+Gabarito: errada.
+4. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Em relação aos diagramas de fases e às curvas de transformação dos materiais, julgue os itens
+subsequentes.
+O diagrama de fases indica as fases presentes em função da temperatura e da composição.
+( ) Certo ( ) Errado
+Comentário:
+Essa foi para ninguém zerar (rs). Exatamente a definição do que é um diagrama de fases como vimos em
+todas as nossas aulas sobre Ciência dos Materiais. Deveria mencionar a pressão, pois ela também
+interfere, mas como a pressão tende a ser fixada para a variação somente das temperaturas e teores de
+elementos dos liga, essa definição pode ser considerada correta.
+Gabarito: correta
+5. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+No que se refere aos tratamentos térmicos, à influência dos elementos de liga e aos ensaios de materiais,
+julgue os itens seguintes.
+Temperabilidade do aço é a capacidade de se transformar parcialmente ou completamente de austenita
+para uma forma com certa porcentagem de martensita, a uma dada profundidade, quando resfriado sob
+uma condição específica.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 46 =====
+45
+( ) Certo ( ) Errado
+Comentário:
+Mais uma definição perfeita da banca! Lembre-se que, em outras palavras, a temperabilidade é a
+capacidade do aço de endurecer até uma certa profundidade e dita o quão fácil o material atinge a
+transformação martensítica a dada porcentagem; e não de atingir um máximo valor de dureza (máxima
+dureza tem relação com o teor de carbono do aço)! Além disso, saiba que a temperabilidade pode ser
+medida pelo método de Grossman e pelo método Jominy.
+Gabarito: correta
+6. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Mecânica – 2022)
+Em relação às propriedades dos materiais, julgue os itens subsequentes.
+A dureza do aço depende da estrutura que substitui a perlita quando o recozimento completo não é
+realizado, significando, portanto, uma taxa de esfriamento mais rápida; essa taxa de resfriamento é
+denominada têmpera.
+( ) Certo ( ) Errado
+Comentário:
+Estrategista, essa questão foi anulada pela banca. Oras, claro! Ela quer erra na definição de têmpera.
+Têmpera, conforme vimos, é um tratamento térmico e não uma denominação “mucha loca” da
+CESBRASPE/CEBRASPE para “taxa de resfriamento”. A primeira parte da assertiva até está correta a luz da
+literatura específica, pois pelo resfriamento muito rápido da têmpera, temos a martensita sendo formada,
+implicando elevada dureza!
+Gabarito: anulada.
+7. (CESBRASPE/EMAP – Especialista Portuário – Engenharia Mecânica – 2018)
+Com relação aos aços inoxidáveis, julgue o item a seguir.
+O aumento da dureza e da resistência mecânica dos aços inoxidáveis austeníticos não pode ser obtido por
+encruamento, uma vez que a temperatura de recristalização desses materiais é menor do que a
+temperatura ambiente.
+( ) Certo ( ) Errado
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 47 =====
+46
+Estrategista, apesar de ainda não termos visto maiores detalhes sobre os aços inoxidáveis austeníticos
+(objeto de estudo de próximas aulas), podemos resolver essa questão com muita tranquilidade, devido
+ao erro grotesco dela (rs). Coruja, pelo o amor de Deus, né? Temperatura de recristalização do material
+menor que a temperatura ambiente (que é considerada em torno de 25
+o
+C)? É um absurdo! Claro que
+não. Vimos que os aços comuns possuem temperatura de recristalização que começa na faixa de 0,3 a
+0,5 (30 a 50%) da temperatura de fusão da liga. No caso dos austeníticos que ainda veremos, pode beirar
+a faixa superior aos 1000
+o
+C. Erradassa!
+Gabarito: errado.
+8. (CESBRASPE/PC-PE – Perito Criminal – Engenharia Mecânica – 2016 - Adaptada)
+Em relação aos tratamentos térmicos em ligas de ferro-carbono, assinale a opção correta.
+Os aços hipoeutetoides, quando resfriados lentamente de uma região austenítica para a temperatura
+ambiente, apresentam duas fases sólidas distintas: ferrita primária ou proeutetoide e perlita.
+( ) Certo ( ) Errado
+Comentário:
+Estrategista, conforme vimos em aula, a ferrita de um aço hipoeutetoide (aço com teor de carbono abaixo
+de 0,76% ou 0,77% ou 0,8% - a depender do autor - de carbono!) pode ser chamada de primária ou
+proeutetoide (seria a fase ferrita que não faz parte da perlita – esta que é uma composição de cementita
+e ferrita – e que começou a se formar, no resfriamento do campo austenítico, antes da temperatura
+eutetoide de 727
+o
+C ser atingida). Já a ferrita eutetoide é a ferrita que faz parte da perlita, em lamelas
+alternadas com cementita. Dessa forma, o raciocínio é mesmo para a cementita – a cementita
+proeutetoide foi formada a partir do campo austenítico, no resfrimaneto, e não faz parte da perlita nas
+ligas hipereutetoides (cujo teor de carbono é acima de 0,76%, 0,77% ou 0,8% a depender do autor).
+Até aí, nossa revisão mostra que a questão tende a estar correta, quanto ao raciocínio apresentada.
+Todavia, tem um erro conceitual nessa questão, pois, de acordo com a doutrina majoritária, a perlita não
+é uma fase e, sim, uma composição das fases ferrita e cementita. Dessa forma, o gabarito foi considerado
+correto e, possivelmente, uma falta de atenção da banca quando na elaboração da questão (deu esse
+delize). Por isso, trouxe essa questão para que você tenha em mente esse detalhe sobre a perlita. A rigor,
+a questão deveria ter sido considerada errada.
+Gabarito: correto, professor: errado.
+9. (CESBRASPE/PF – Perito Criminal Federal – 2004)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 48 =====
+47
+As microestruturas das ligas metálicas podem ser controladas e modificadas por processos
+termo/químico/mecânicos, resultando em alteração substancial das propriedades mecânicas da liga.
+Considerando o diagrama Fe-C mostrado acima, julgue o item que se segue.
+O máximo de ductilidade nos aços pode ser alcançado com o tratamento térmico de recozimento
+denominado coalescimento ou esferoidização. Nesse tratamento, que é essencialmente um recozimento
+subcrítico estendido, o material permanece um longo período de tempo a uma temperatura logo abaixo
+da temperatura eutetoide e depois é resfriado lentamente para permitir a formação de carbetos sob
+forma esferoidal.
+( ) Certo ( ) Errado
+Comentário:
+Conforme vimos em aula, Coruja, essa é a definição perfeita do tratamento térmico denominado
+coalescimento ou esferoidização (nome dado por conta de micorestrutura esferoidita) que é um tipo de
+recozimento. Esses grãos provenientes dos carbetos na forma esferoidal influenciam na ductilidade da
+liga, tornando-a mais dúctil (grau de deformação no campo plástico maior). Por conta disso, grave que
+esse tipo de recozimento tem como objetivo reduzir a dureza da liga e aumentar sua usinabilidade.
+Gabarito: correto.
+10. (CESBRASPE/PF – Perito Criminal Federal – 2004)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 49 =====
+48
+As microestruturas das ligas metálicas podem ser controladas e modificadas por processos
+termo/químico/mecânicos, resultando em alteração substancial das propriedades mecânicas da liga.
+Considerando o diagrama Fe-C mostrado acima, julgue o item que se segue.
+A nitretação é um tratamento termoquímico em que se promove enriquecimento superficial com
+nitrogênio. É o tratamento utilizado para peças que necessitam de alta resistência à fadiga superficial,
+como no caso de engrenagens.
+( ) Certo ( ) Errado
+Comentário:
+Conforme vimos na parte téorica, temos outra questão correta que nos traz a definição acertada do
+tratamento termoquímico denominado nitretação. Além disso, lembre-se, Coruja, que esse aumento do
+teor de nitrogênio na superfície da peça provém de uma atmosfera gasosa rica em gás nitrogênio ou de
+um meio líquido como a Nitretação Líquida que é feita em um banho de sais de sódio e potássio (NaCN).
+Além disso, na nitretação não há necessidade de posterior têmpera, pois a dureza atingida já é elevada.
+Lembre-se da diferença existente entre esse tratamento e a cementação! Veja nosso esquema de aula
+novamente:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 50 =====
+49
+Gabarito: correto.
+11. (CESBRASPE/Universidade Federal do Pampa – Mecânica – 2013)
+As propriedades estruturais de um produto metalúrgico são obtidas utilizando-se análises laboratoriais.
+Com relação a essas análises, julgue o item a seguir.
+O tratamento térmico de austêmpera gera uma microestrutura bainítica.
+( ) Certo ( ) Errado
+Comentário:
+Conforme vimos em aula, de fato, na austêmpera, tratamento isotérmico, temos coo microestrutura
+final a bainita. Questão direta e objetiva.
+Gabarito: correto.
+12. (CESBRASPE/FUB – Técnico de Laboratório Industrial – 2018)
+Engrenagens e cames de aço requerem altas durezas superficiais para resistirem a desgastes, devendo,
+para isso, passar por diferentes tipos de tratamentos térmicos. Acerca desses tratamentos, julgue os itens
+a seguir.
+Cementação e têmpera superficial são designações para um mesmo tratamento térmico em aços, do qual
+resulta aumento da dureza superficial da peça.
+( ) Certo ( ) Errado
+Comentário:
+Opa! Tratamento iguais? De jeito nenhum, Estrategista! Conforme vimos em aula, a têmpera é um
+tratamento térmico distinto da cementação que, por sua vez, é um tratamento termoquímico, cujo o
+Cementação
+Pode existir posterior têmpera
+Temperatura ATÉ a zona crítica
+Nitretação
+Não se faz posterior têmpera
+Temperatura sempre abaixo da zona crítica
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 51 =====
+50
+objetivo é aumentar a concentração de carbono na superfície da peça. Apesar de ambas aumentar a
+dureza do produto final, não são tratamento iguais.
+Gabarito: errado.
+13. (CESBRASPE/FUB – Técnico de Laboratório Industrial – 2018)
+A respeito de tratamentos térmicos em metais, julgue o item seguinte.
+O objetivo da têmpera em aços é aumentar a resistência à tração por meio do resfriamento brusco do
+campo martensítico para o austenítico.
+( ) Certo ( ) Errado
+Comentário:
+Mais uma errada! Conforme vimos em aula, de fato, um dos objetivos da têmpera é aumentar a
+resistência à tração. Todavia, a alternativa tem uma pegadinha clássica de provas de concursos, pois
+inverte os produtos finais e iniciais do tratamento. Depois do resfriamento muito rápido (brusco) –
+lembre-se que mais rápido que do tratamento de normalização - do campo austenítico, tem-se a
+transformação da microestrutura em 100% martensítica (fase metaestável de grandes tensões internas
+devido ao carbono intersticial que ficou retido).
+Gabarito: errado.
+14. (CESBRASPE/FUB – Técnico de Laboratório Industrial – 2018)
+A respeito de tratamentos térmicos em metais, julgue o item seguinte.
+O processo de aquecimento de uma solução supersaturada de carbono em ferro para se transformar em
+ferrita e cementita é denominado austêmpera.
+( ) Certo ( ) Errado
+Comentário:
+De fato, Estrategista, no tratamento térmico de austêmpera, obtém-se uma estrutura estável de ferrita
++ cementita, denominada bainita, como vimos em aula. Todavia, a questão erra ao definir essa parte do
+processo – não é aquecimento e, sim, resfriamento! É no método de resfriamento, com passo
+isotérmico, que irá formar, em um tempo específico, a microestrutura descrita.
+Gabarito: errado.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 52 =====
+51
+15. (CESBRASPE/FUB – Técnico de Laboratório Industrial – 2018)
+A respeito de tratamentos térmicos em metais, julgue o item seguinte.
+As finalidades da normalização de aços englobam a homogeneização e o alívio de tensões.
+( ) Certo ( ) Errado
+Comentário:
+Questão perfeita! Como vimos em aula, realmente, no tratamento térmico de normalização de aços, um
+dos objetivo é homogeneização da microestrutura e o alívio de tensões internas provenientes, por
+exemplo, de um processo de fabricação precedente.
+Gabarito: correto.
+16. (CESBRASPE/FUB – Técnico de Laboratório Industrial – 2018)
+A respeito de tratamentos térmicos em metais, julgue o item seguinte.
+No recozimento, o metal é aquecido até o ponto de deformação.
+( ) Certo ( ) Errado
+Comentário:
+De maneira alguma! Estrategista, nos tratamentos térmicos o objetivo não é a “deformação” (termo
+estranho para esse contexto) do material, porque isso geraria outras tensões nos arranjos do cristalino.
+Além disso, o principal motivo por ela estar errada é que no recozimento o material é aquecido a
+diferentes temperaturas, a depender do tipo de recozimento.
+Ou seja, se for Recozimento para Alívio de Tensões é uma temperatura sem mudança de fase.
+Diferentemente do Recozimento Pleno.
+Estrategista, conforme vimos em aula, essa questão não define qual tipo de recozimento dentre os quais
+estudamos. Por conta disso, essa alternativa está errada. Lembre-se que dentro do tratamento de
+recozimento, temos: Pleno ou Total, Recristalização, Alívio de Tensões, Isotérmico ou Cíclico. Para cada
+um, temos temperaturas diferentes, podendo ou não ocorrer mudança de fase (no Pleno, se a liga for
+hipoeutetoide, atinge-se até 50
+o
+C acima da linha A3 e para Alívio de Tensões não deve ocorrer nenhuma
+mudança de fase e deformação).
+Gabarito: errado.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 53 =====
+52
+Cesgranrio
+17. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – Inspeção - 2018)
+O tratamento térmico de um aço com carbono médio, 0,3% massa, que consiste em aquecer dentro do
+campo austenítico seguido de resfriamento rápido (em água com sal, ou água gelada) resulta numa
+microestrura constituída de
+a) martensita
+b) ferrita
+c) cemetita
+d) austenita
+e) perlita.
+Comentário:
+Oras, perceba, Estrategista, que o enunciado deixa claro duas informações importantes. A primeira é que
+o resfriamento é rápido (ok, até aí podemos ter Normalização ou Têmpera). Porém, na segunda
+informação, a banca deixa claro que foi em água com sal, ou com água gelada, dando a entender que a
+velocidade de resfriamento é muito alta. Lembre-se da severidade dos meios. Oras, como temos a nossa
+boa e velha martensita dentre as respostas, é claro que é dela que estamos falando, como resultado da
+têmpera executada.
+Gabarito: “a”.
+18. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – Inspeção - 2018)
+O aço AISI 1030 é um aço ao carbono que pode ser endurecido por um tratamento térmico
+a) intercrítico no campo bifásico cementita-austenita, seguido de têmpera em água.
+b) intercrítico no campo bifásico ferrita-perlita, seguido de resfriamento lento.
+c) no campo monofásico austenítico, seguido de resfriamento rápido.
+d) no campo monofásico austenítico, seguido de resfriamento lento.
+e) numa temperatura abaixo do eutetoide, seguido de resfriamento rápido.
+Comentário:
+Oras, o tratamento que conhecemos que nos traz o endurecimento é a têmpera. Nesse tratamento, vimos
+que a microestrutura martensítica é atingida e que proporciona elevada dureza ao material, em certas
+profundidades específicas. Vimos isso na taxa elevada de resfriamento (resfriamento brusco) no qual o
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 54 =====
+53
+carbono não teve tempo de se desprender, ficando intersticial na microestrutura da martensita, gerando
+tensões e elevando a dureza do material. Dessa forma, as etapas do tratamento de têmpera consiste em
+elevar a temperatura até a zona austenítica do aço 1030 (que tem 0,3% de carbono, sendo hipoeuteoide)
+e seguir com um resfriamento rápido (eu diria, muito rápido, ainda, Coruja rs).
+Gabarito: “c”.
+19. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – Inspeção - 2018)
+A recristalização de um material deformado depende do tamanho de grão inicial, da intensidade de
+deformação, da temperatura de deformação e da temperatura de recristalização. Nesse processo de
+recristalização, ao se
+a) reduzir a intensidade de deformação, reduz-se a temperatura de recristalização para um mesmo
+tempo de tratamento.
+b) reduzir a intensidade de deformação, diminui-se o tamanho do grão recristalizado para uma mesma
+temperatura e tempo de tratamento.
+c) aumentar a intensidade de deformação, diminui-se o tamanho do grão recristalizado para uma mesma
+temperatura e tempo de tratamento.
+d) aumentar a intensidade de deformação, aumenta-se a temperatura de recristalização para um mesmo
+tempo de tratamento.
+e) aumentar a intensidade de deformação, aumenta-se o tamanho do grão recristalizado para uma
+mesma temperatura e tempo de tratamento.
+Comentário:
+Olha aí, Coruja! Uma questão que cobrou as Leis da Recristalização que vimos logo no começa da aula.
+De acordo com a literatura específica, temos a seguinte lei no processo de recristalização:
+• O tamanho de grão final depende muito do grau de deformação e pouco da temperatura de
+recozimento. Assim, quanto maior o grau de deformação e/ou menor a temperatura de
+recozimento, menor será o tamanho do grão final.
+Perceba que pouco influencia, nesse caso, a temperatura e o tempo, sendo que se a intensidade de
+deformação foi elevada, o grau final depois da recristalização diminui para uma mesma temperatura e
+tempo de tratamento. Como está descrito na letra "c". A letra "e" e a letra "b", vão de encontro ao que
+foi dito, por isso, estão erradas.
+As letras "d" e "a" estão equivocadas, pois contradizem uma das leis que nos diz "quanto menor o grau
+de deformação, mais alta é a temperatura para início da recristalização."
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 55 =====
+54
+Gabarito: “c”.
+20. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Uma empresa possui em seu estoque de cilindros de ferro quatro ligas de ferro carbono com as seguintes
+composições em massa de carbono: material A(%C < 0,01); material B(%C = 0,30); material C(%C= 1,00);
+material D(%C =0,75). No entanto, um funcionário novo embaralhou as etiquetas dos materiais. O
+engenheiro responsável pelo setor resolveu aproveitar o forno da empresa para identificar os materiais.
+Conhecedor do diagrama de fases Fe-C (Figura acima), cortou um pedaço pequeno de cada material e
+colocou no forno a 750°C por uma hora e resfriou ao ar. A observação microscópica revelou a
+microestrutura, e o engenheiro pôde identificar os materiais. Relacione cada material com sua
+composição.
+Estão corretas as relações
+a) I – P, II – Q, III – R, IV – S
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 56 =====
+55
+b) I – P, II – Q, III – S, IV – R
+c) I – P, II – S, III – T, IV – Q
+d) I – Q, II – S, III – T, IV – R
+e) I – Q, II – T, III – R, IV – S.
+Comentário:
+Oras, que questão tranquila, não é, mesmo, Coruja? Veja que o material "A" é um aço (liga ferro-carbono)
+com teores abaixo de 0,01%. Lembre-se que abaixo essa valor, temos o ferro alfa ou ferrita pura.
+O material "B" contém 0,3% de carbono, sendo um aço hipoeutetoide (teor abaixo de, aproxidamente,
+0,77% de carbono), sendo que nessa faixa, temos perlita em uma matriz ferrítica. Essa matriz ferrítica
+que não faz parte da perlita (esta que é uma mistura em lamelas alternadas de ferrita e cementita) é
+denominada de ferrita pró-eutetoide.
+O material "C" é um aço hipereutetoide, pois possui cerca de1,0% de carbono, possuindo cementita pró-
+eutetoide e perlita.
+O material "D" é um aço eutetoide (para essa questão), pois possui cerca de 0,75% (valor que fica próximo
+da doutrina para esse tipo de aço). Assim, temos uma microestrutura 100% formada por perlita, no caso,
+perlita pura.
+Gabarito: “b”.
+21. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 57 =====
+56
+A curva TTT ilustrada acima corresponde ao resfriamento de um tratamento térmico denominado
+a) recozimento.
+b) recozimento isotérmico.
+c) normalização.
+d) martêmpera.
+e) austêmpera.
+Comentário:
+Questão "tranquila", Coruja! Ela nos cobra o seu conhecimento sobre os tratamentos isotérmicos e suas
+principais transformações nas curvas TTT. Perceba que pelo resfriamento abrupto da liga antes da
+formação da martensita, temo a fase isotérmica do tratamento (mesma temperatura) até a produção de
+100% de bainita. Além disso, perceba que não temos posterior revenido aplicado, já que não há
+necessidade por conta das menores tensões internas atingidas sem a formação da microestrutura
+metaestável martensítica. Essas características estão presentes no tratamento isotérmico denominado
+austêmpera, Coruja! Lembre-se da nossa figura.
+Gabarito: “e”.
+22. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2018)
+Qual mecanismo de aumento da resistência mecânica dos metais é o único que garante aumento de
+resistência mecânica e de tenacidade, simultaneamente?
+a) Encruamento.
+b) Refino de grão.
+c) Transformação martensítica.
+d) Endurecimento por precipitação.
+e) Endurecimento por solução sólida.
+Comentário:
+Questão tranquila, Estrategista! Ela nos cobra o conhecimento sobre alguns mecanismos para aumento
+de resistência mecânica (como, por exemplo, dureza) do metais. Vejamos cada alternativa:
+Letra "a": conforme vimos, o encruamento consiste no aumento da dureza (resistência mecânica dos
+metais) por meio da deformação plástica na qual ele é submetido em temperaturas abaixo da
+temperatura de recristalização do material. Ele surge justamente pela interação que vai existir entre as
+discordâncias dos grãos que constituem a microestrutura do material. Ele também é chamado de trabalho
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 58 =====
+57
+a frio e tem como consequência a elevação da dureza do material deformado plasticamente (quando feito
+em temperaturas bem abaixo da temperatura de recristalização desse material). Essa dureza é
+proveniente das tensões internas geradas no material pela deformação plástica que aumenta as
+discordâncias em sua microestrutura, e ela justamente existe pela dificuldade de ocorrer o
+escorregamento dos planos cristalográficos. Todavia, não há aumento da tenacidade do material
+simultaneamente;
+Letra "b": perfeita! Quando o tamanho do grão fica fino, temos um aumento na dureza e na resistência
+mecânica, pois como os grãos são menores, temos maior área de contorno (com mais grãos por unidade
+de área) e que impedem movimentos das discordâncias entre eles. Por isso, se eleva a dureza. Além disso,
+é estabelecido na doutrina dominante que o refino dos grãos (diminuição do seu tamanho) melhora,
+também, a tenacidade de grande número de ligas. Oras, vimos que a tenacidade não está somente
+relacionada com a deformação plástica do material e seu grau de ductilidade, mas também ao quanto
+esse material devolve energia que é absorvida.;
+Letra "c": equivocada! Lembre-se que na transformação martensítica temos de fato aumento na dureza,
+porém por causa do resfriamento abrupto da zona austenítica (como vimos no tratamento de têmpera)
+que não permite o carbono se dissolva. Esse carbono fica retido na matriz ferrítica (CCC), aumentando a
+dureza e gerando tensões (a estrutura fica toda rígida com esse carbono intersticial). Todavia, não houve
+um refinamento de grãos e diminuição dele. Dessa forma, não há aumento da tenacidade além da dureza
+nessa transformação proveniente do tratamento de têmpera);
+Letra "d": errada. O endurecimento por precipitação, como vimos, é um tipo de tratamento (aplicado
+normalmente em ligas não-ferrosas, como alumínio, cobre, magnésio, níquel e titânio) que utiliza da
+precipitação em fases distintas de elementos de liga para gerar dureza. Assim, o material da liga é
+aquecido até uma temperatura específica para ocorrer a dissolução de certos elementos e, depois, como
+na têmpera, ele é resfriado para que esses elementos fiquem precipitados em uma solução sólida. Esses
+precipitados serão um obstáculo no movimento dos planos cristalográficos e discordâncias do retículo
+cristalino. Também não é característica ter o aumento da tenacidade da liga;
+Letra "e": errada. Seguindo a mesma linda de pensamento, os diversos tratamentos termoquímicos que
+vimos fazem parte da classificação do mecanismos de endurecimento por solução sólida. Consiste, na
+inclusão de elementos de liga que irão compor a microestrutura do retículo cristalino do metal de base
+criando uma solução substitucional ou intersticial que deforma esse retículo e dificultam o movimento
+das discordâncias. Por isso, aumenta a resistência mecânica e a dureza do material. Todavia, a tenacidade
+não é aumentada, pois ainda há presença de tensões residuais não eliminadas.
+Gabarito: “b”.
+23. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2014)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 59 =====
+58
+Dentre os mecanismos para o aumento da resistência mecânica dos metais e de suas ligas, tem-se o
+encruamento. O endurecimento do material, nesse mecanismo, é causado por
+a) deformação a frio.
+b) deformação a quente.
+c) recristalização.
+d) recuperação.
+e) solução sólida.
+Comentário:
+Conforme vimos em aula, Coruja, o encruamento do material ocorre pela deformação a frio, por conta
+da mudança da microestrutura dos grãos (ficando alongados e para diferentes direções, a depender do
+trabalho a frio) e interações entre a discordâncias entre eles gerando tensões internas. Dessa forma, uma
+característica é a elevação da dureza.
+Todavia, o encruamento é percebido somente em temperaturas abaixo da temperatura de recristalização
+do material, já que nessa temperatura os grãos ganham novas formas, se recristalizando (por isso o nome)
+e promovendo a eliminação das tensões internas decorrentes da própria deformação. Em outras palavras,
+a temperatura de recristalização vai "facilitar" os novos posicionamentos do grãos pela deformação
+imposta.
+Gabarito: “a”.
+24. (Cesgranrio/Liquigás Distribuidora – Engenheiro Júnior - Mecânica – 2013)
+O eixo vertical de um grande misturador de líquidos falhou, assim que foi posto em funcionamento, ainda
+nos testes de recebimento. Esse eixo deveria ter sido feito de aço SAE 1045 temperado e revenido (30
+HRC). O eixo não sofreu sobrecarga e estava corretamente instalado e com os mancais devidamente
+lubrificados. Foi feito um ensaio de dureza no eixo falhado, onde se verificou uma dureza muito abaixo
+da esperada. A microestrutura foi então analisada em um microscópio metalúrgico, à temperatura
+ambiente, e mostrou microestrutura de ferrita e perlita.
+A conclusão a que se chega, na análise, é a de que a
+a) dureza baixa e a microestrutura de ferrita e perlita comprovam o sucesso do tratamento térmico.
+b) dureza baixa é uma característica esperada em um tratamento de têmpera e revenido bem executado.
+c) dureza baixa e a microestrutura de ferrita e perlita mostram que o eixo não passou por têmpera e
+revenimento.
+d) ferrita e perlita são microestruturas típicas de tratamento térmico.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 60 =====
+59
+e) microestrutura deveria ser austenita, comprovando que o aço foi temperado e revenido.
+Comentário:
+Olha aí, Coruja! Questãozinha sobre tratamentos térmicos! O enunciado nos pede informações sobre o
+tratamento térmico de têmpera e posterior revenido!
+Conforme vimos em aula, o tratamento de têmpera visa atingir a microestrutura martensítica
+(microestrutura de elevada dureza) por meio de um resfriamento brusco do campo austenítico do
+material. Esse cenário ocorre, por quê? Por conta do carbono secundário que não são dissolvidos por
+conta do rápido resfriamento (não teve tempo para tal) em um aço hipoeutetoide, por exemplo. Esse
+carbono não se separa totalmente e fica lá entre os espaços da célula unitária CCC da ferrita. Essa situação
+gera elevadas tensões internas que podem ser prejudiciais para o serviço desse aço e, apesar da dureza
+atingida pela formação da microestrutura martensítica, é preciso fazer o revenido a fim de aliviar essas
+tensões geradas.
+Veja que é a situação do nosso aço da questão: temperado e revenido em tese. Isso, porque a dureza se
+mostrou baixa! Ou seja, não ocorreu o tratamento de têmpera do material!
+Além disso, a depender da temperatura e do tempo do tratamento de revenido, teremos diferentes
+microestruturas formadas (bainita, troostila – denominação em desuso, sorbíticas, etc). Assim, não
+teremos, necessariamente de ferrita + perlita (lamelas entre ferrita e cementita – Fe3C). Alternativas “d”
+e “e” erradas.
+Dessa forma, temos que o gabarito da questão é a letra “c”, pois a dureza baixa e a presença majoritária
+de ferrita e perlita demonstra que o aço não passou pela têmpera e pelo revenido, mostrando o fracasso
+do tratamento (“a” e “b” erradas).
+Gabarito: "c".
+25. (Cesgranrio/Innova S.A. – Engenheiro de Equipamentos Júnior – 2012)
+A microestrutura responsável pelo endurecimento dos aços carbono resultantes do tratamento térmico
+de têmpera é a
+a) martensita.
+b) perlita.
+c) ferrita.
+d) austenita.
+e) cementita.
+Comentário:
+Mais uma bem fácil, "tchierto", Coruja? Veja que ela cobra o nosso conhecimento sobre tratamentos
+térmicos e, mais especificamente, o tratamento de têmpera. Oras, como vimos, quando falamos mais
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 61 =====
+60
+especificamente em ligas Fe-C, no tratamento de têmpera, o principal objetivo é atingir a microestrutura
+martensítica.
+É justamente por essa microestrutura que o aço vai apresentar a tal da elevada dureza e resistência à
+tração. Por conta disso, esse aço é muito utilizado na construção mecânica. São os famosos aços
+temperados! Vimos que por conta do resfriamento rápido da zona austenítica (microestrutura em célula
+unitária CFC) o carbono que antes estava solúvel nessa microestrutura passa a fazer parte da
+microestrutura ferrítica (célula unitária CCC) que não admite grande solubilidade do carbono, pois não há
+tempo de ele se desprender. Assim, esse carbono fica intersticial, constituindo a microestrutura
+martensítica (metaestável) responsável por alta dureza e tensões internas.
+Gabarito: “a”.
+26. (Cesgranrio/Innova S.A. – Engenheiro de Equipamentos Júnior – 2012)
+Um dos principais parâmetros dos tratamentos térmicos é a velocidade de resfriamento. Sua variação é
+capaz de alterar a microestrutura e as propriedades mecânicas resultantes nos aços carbono.
+O grau de severidade do resfriamento dos diversos meios pode ser classificado, em ordem crescente, para
+uma mesma temperatura, como
+a) água, ar, vácuo, óleo e solução aquosa a 10% NaCl.
+b) ar, óleo, água, solução aquosa a 10% NaCl e vácuo.
+c) ar, vácuo, óleo, solução aquosa a 10% NaCl e água.
+d) vácuo, ar, óleo, água e solução aquosa a 10% NaCl.
+e) vácuo, água, solução aquosa a 10% NaCl, óleo e ar.
+Comentário:
+Estrategista, questão bem interessante que, por meio do nosso conhecimento básico de engenharia,
+poderíamos "matar" sem dificuldades. Oras, dê um "look" nas alternativas. Veja que ele quer a ordem
+crescente de severidade no resfriamento. Ou seja, ela quer do menos severo para o mais severo. Logo,
+temos que entender quais meios são os que fazem com que o resfriamento ocorra de maneira menos
+abrupta e agressiva, para a mais amena.
+Coruja, no vácuo temos ausência de matéria. Logo, a troca de calor entre "corpos" é muito baixa
+(insignificante). Dessa forma, o vácuo é o meio no qual teremos o menor graus de severidade no
+resfriamento. Assim, eliminamos as letras "a", "b" e "c". Além disso, entre ar e água, é claro que o grau
+de severidade menor é o do ar! Justamente pelo seu coeficiente de condutividade térmica ser muito baixo
+(considerado, inclusive como um dos melhores isolantes da natureza). Assim, temos que a letra "d" é o
+nosso gabarito.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 62 =====
+61
+Todavia, caso a questão não desse essa "colher" de chá para você (querendo, por exemplo, cobrar qual o
+mais severo entre óleo e água - aí complicaria, pois temos vários tipos de óleos que podem ser
+empregados), saiba a hierarquia do menos severo para o mais severo de acordo com a doutrina:
+VÁCUO < AR < ÓLEOS DE VÁRIAS VISCOSIDADES < ÁGUA < SOLUÇÃO AQUOSA A 10% DE NaCL ou NaOH ou Na2CO3
+Gabarito: “d”.
+27. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2010)
+As figuras (a) e (b) acima representam tratamentos térmicos que podem ser utilizados em aços de
+média/alta resistência para melhor equilíbrio de suas propriedades mecânicas. Eles são conhecidos,
+respectivamente, como
+a) martêmpera e normalização.
+b) têmpera e revenido.
+c) austêmpera e martêmpera.
+d) têmpera/revenido e martêmpera.
+e) martêmpera e austêmpera.
+Comentário:
+Coruja, a princípio o gabarito dessa questão foi dado como a letra “d”. Mas, eu não concordo. O correto
+deveria ser a letra “e”.
+Veja, Coruja, a questão nos cobra conhecimentos das curvas TTT (Transformação, Temperatura e Tempo)
+dos tratamento térmicos específicos. Veja que em “a”, temos o tratamento de martêmpera (resfriamento
+abrupto da zona austenítica com início e término da transformação martensítica antes de cruzar a curva
+e resfriamento entre o início da formação martensítica e seu final lento) e seguido do revenido para alívio
+de tensão.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 63 =====
+62
+Em “b”, temos o tratamento térmico de austêmpera, Coruja! Perceba que temos a fase isotérmica do
+tratamento antes do início da transformação martensítica e ao final temos 100% bainita! (Lembre-se
+sempre de estudar as curvas características desses dois tratamentos!).
+Além disso, você poderia se perguntar se a curva “a” poderia ser o tratamento de têmpera, seguido de
+revenido. De fato, poderia, já que não há muita indicação que o resfriamento entre o início da
+martensítica e seu final é rápido ou lento (lembre-se que na têmpera, o resfriamento continua rápido
+mesmo quando começa a transformação martensítica). Todavia, em “b”, temos a austêmpera e não
+martêmpera, já que temos a formação de bainita (100%) e não da martensita revenida (típica do
+tratamento de martêmpera).
+Gabarito: “d”.
+28. (Cesgranrio/Petrobrás – Engenheiro de Equipamentos Júnior – 2006)
+Em relação ao tamanho do grão austenítico, observe as afirmações a seguir.
+I - Os aços com tamanho grande de grão austenítico tendem a apresentar mais facilmente, no
+esfriamento, uma estrutura martensítica.
+II - Deve-se preferir um aço com granulação grosseira, devido à menor suscetibilidade à presença de
+fissuras de têmpera.
+III - Quanto maior o tamanho do grão, mais para a esquerda são deslocadas as curvas de início e fim de
+transformação da austenita.
+Está(ão) correta(s) a(s) afirmativa(s):
+a) I, apenas.
+b) I e II, apenas.
+c) I e III, apenas.
+d) II e III, apenas.
+e) I, II e III.
+Comentário:
+Estrategista, questão interessante que nos cobra alguns fatores que influenciam na temperabilidade
+(capacidade de formação da microestrutura martensítica) nos aços durante os tratamentos térmicos
+como, por exemplo, na têmpera.
+Dessa forma, temos alguns fatores que vão influenciar no deslocamento da curva TTT, temos:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 64 =====
+63
+Analisando cada assertiva, temos:
+I: correta! De fato, grãos maiores (mais grosseiros) austeníticos facilitam a formação da martensítica
+durante o resfriamento;
+II: errada! Na realidade, conforme vimos em aula, temos que as fissuras de têmpera tendem a ocorrer
+mais facilmente em grãos austeníticos grosseiros;
+III: errada, também, Coruja! Como vimos em aula, quanto maior o grão da austenita, mais para a direita
+é o deslocamento do “C” da curva TTT, facilitando, assim, a obtenção da microestrutura martensítica pelo
+início da sua transformação e atraso na formação da perlita.
+Gabarito: “a”.
+29. (Cesgranrio/CIA Petroquímica de Pernambuco – Técnico de Inspeção Sênior – 2010)
+O tratamento térmico de têmpera é aplicado aos aços para construção mecânica quando se deseja obter
+aumento de dureza e resistência mecânica. O microconstituinte que garante o aumento dessas
+propriedades mecânicas é a martensita que, no entanto, confere ao aço baixa tenacidade.
+Por esse motivo, deve-se aplicar, após a têmpera, o tratamento térmico de
+a) recozimento.
+b) normalização.
+c) revenimento.
+d) cementação.
+e) envelhecimento.
+Fatores que AUMENTAM a
+temperabilidade
+Elementos de liga dissolvidos na austenita
+(com execeção do cobalto)
+Granulação grosseira da austenita (grão
+maiores)
+Homogeneidade da austenita
+Fatores que DIMINUEM a
+temperabilidade
+Granulação fina da austenita
+Inclusões não dissolvidas (como
+carbonetos, nitretos e inclusões não-
+metálicas)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 65 =====
+64
+Comentário:
+Tranquilo, Coruja! Lembre-se que depois do tratamento de têmpera (que tem como objetivo atingir a
+estrutura martensítica - fase metaestável que possui um carbono intersticial que não consegui se
+dissolver por conta do resfriamento brusca da fase austenítica) preciso aplicar o revenido! Esse
+tratamento posterior visa justamente permitir que o carbono seja dissolvido e diminua as tensões
+internas geradas outrora por ele na microestrutura de célula unitária CCC da ferrita (que permite baixa
+solubilidade do carbono).
+Gabarito: “c”.
+30. (Cesgranrio/Transpetro – Técnico de Inspeção de Equipamentos e Instalações Júnior – 2011)
+O tratamento térmico que, após solubilização, permite precipitar, de forma controlada, partículas de
+segunda fase em aços e ligas especiais é denominado
+a) têmpera.
+b) martêmpera.
+c) austêmpera.
+d) envelhecimento.
+e) revenido.
+Comentário:
+Estrategista, dentre todas as opções de tratamentos térmicos, o único que permite a precipitação de
+forma controlada de elementos de liga durante o resfriamento é o envelhecimento (também chamado
+de recozimento isotérmico).
+Gabarito: “d”.
+31. (Cesgranrio/Transpetro – Engenheiro Júnior - Mecânica – 2018)
+O principal mecanismo para o aumento simultâneo da resistência mecânica e da tenacidade de um aço ao
+carbono AISI 1010 é
+a) a segregação de enxofre nos contornos dos grãos austeníticos.
+b) a segregação de fósforo nos contornos dos grãos austeníticos.
+c) o aumento do tamanho do grão austenítico.
+d) a redução do tamanho do grão austenítico.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 66 =====
+65
+e) o aumento do tamanho do grão ferrítico.
+Comentário:
+Olha aí, Coruja! Mais um questão que nos cobra alguns dos mecanismos de aumento de resistência
+mecânica! Lembre-se que o mecanismos de refino de grão austenítico (no campo austenítico) gera, além
+do aumento da resistência mecânica um ganho elevado de tenacidade! Dessa forma, temos como
+resposta correta a letra "d".
+Gabarito: “d”.
+32. (Cesgranrio/Petrobrás - Profissional Júnior - Engenharia Mecânica – 2014)
+A martensita pode apresentar-se dura e frágil, quando temperada, o que pode vir a inviabilizar o seu
+emprego prático.
+O que melhora na martensita, por meio do tratamento de revenido, a fim de se atingirem valores
+adequados para a sua utilização?
+a) Resiliência e tenacidade
+b) Resiliência e ductilidade
+c) Tenacidade e resistência mecânica
+d) Tenacidade e ductilidade
+e) Ductilidade e resistência mecânica.
+Comentário:
+Estrategista, apesar do gabarito estar correto dessa questão, eu acredito que ela deveria ter sido anulada,
+ou ter considerado, também, como gabarito, as respostas "d" e "e". Tanto a letra "c", "d" e "e", na lavra
+da doutrina majoritária, como Chiaverini e Callister, por exemplo, podem ser consideradas corretas. O
+revenido, como vimos, alivia as tensões internas pela dissociação do carbono retido intersticial que gera
+as tensões e elevada dureza na fase metaestável denominada martensítica. Essa fase, como vimos, surge
+por conta dessa carbono que acaba rearranjo a célula unitária da ferrita (CCC) em um arranjo TCC
+(Tetragonal de Corpo Centrado). Por conta disso, toda a microestrutura fica com essas tensões internas o
+que confere ao aço martensítica, apesar da lata dureza, elevada fragilidade. Com o tratamento de
+revenimento temos uma melhora significativa na tenacidade, conciliando boa resistência mecânica (por
+isso, torna-se viável sua utilização em serviço de engenharia). Todavia, a ductilidade também é
+sensivelmente aumentada. Por isso, a letra "d" também, ao meu ver, poderia ser considerada correta,
+bem como a letra "e".
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 67 =====
+66
+Gabarito: “c”; “d” e “e”, professor.
+33. (Cesgranrio/Petrobrás - Profissional Júnior - Engenharia Mecânica – 2014)
+Que tipo de tratamento térmico é recomendado quando se deseja obter um produto final com alta
+ductilidade e resistência ao impacto, sem perda expressiva da dureza?
+a) Recozimento
+b) Normalização
+c) Têmpera
+d) Martêmpera
+e) Austêmpera.
+Comentário:
+Oras, Estrategista, perceba que o produto final deve conciliar alta ductilidade e resistência ao impacto,
+sem perda que seja expressiva de dureza. Perceba que são as características da austêmpera! Nesse
+tratamento, temos a transformação da microestrutura em bainita. Ele sofre um resfriamento brusco, mas
+sem iniciar a transformação martensítica (por conta da estabilização de um temperatura superior) e,
+assim, é mantido nessa temperatura (parte isotérmica do tratamento) até a transformação abaixo do
+"joelho" da curva TTT, atingindo a bainita. As propriedades atingidas são: alta ductilidade, conciliada com
+resistência ao impacto e pequena perda de dureza. No recozimento e na normalização, temos uma queda
+mais acentuada na dureza (apesar da melhora nas propriedades mecânicas na normalização pela
+estrutura mais fina), por isso as letras "a" e "b" estão erradas. A têmpera não tem perda de dureza, muito
+pelo contrário! Pela estrutura martensítica final, temos elevada dureza (letra "c", errada). Na
+martêmpera, temos as mesmas propriedades que na têmpera seguida de revenido, mas, por conta de a
+transformação ser lenta, a microestrutura martensítica é mais uniforme na martêmpera (letra "d",
+errada).
+Gabarito: “e”, professor.
+EAOEAR
+34. (EAOEAR/Engenheiro Mecânico – 2020)
+Avalie as seguintes asserções acerca de tratamentos térmicos dos aços e a relação proposta entre elas.
+I. Quanto mais acima da zona crítica estiver a temperatura de aquecimento do tratamento, maior
+segurança se terá da completa dissolução das fases no ferro gama,
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 68 =====
+67
+PORQUE
+II. o excessivo aumento do tamanho do grão austenítico carrega consigo desvantagens, como menor
+tenacidade e maiores tensões residuais.
+Sobre essas asserções, é correto afirmar que
+a) a primeira é verdadeira e a segunda, falsa.
+b) ambas são verdadeiras e não possuem qualquer relação.
+c) ambas são verdadeiras e a primeira é uma causa da segunda.
+d) a primeira é verdadeira e a negação da segunda torna-a verdadeira.
+Comentário:
+Olha aí, Coruja, questão sobre a influência do grão austenítico nas propriedades dos materiais! Oras,
+vimos que quanto maior a temperatura (acima da zona crítica) maior será o tamanho do grão austenítico
+(claro, estamos dentro dessa fase e o crescimento do grão vai acompanhar a temperatura). Dessa forma,
+no resfriamento, por conta de o tamanho do grão ser maior, maior dificuldade terá a perlita de ser
+formada (pois ela começa a se formar nos contornos dos grãos, exigindo mais tempo para seu começo e
+término de transformação). Assim, a curva TTT se desloca para a direita, demorando para ter início a
+formação da perlita. Consequentemente, os aços cujo tamanhos de grãos austeníticos são grandes,
+tendem a apresentar uma microestrutura final martensítica (que possui elevada tensão e menor
+tenacidade, por conta do carbono intersticial que não se desprendeu e deixou a microestrutura mais dura
+e mais frágil).
+Gabarito: “c”.
+35. (EAOEAR/Engenheiro Mecânico – 2020)
+Avalie as afirmações sobre o tratamento térmico de coalescimento.
+I. Uma das suas operações é promover a oscilação de temperatura do aço logo acima e abaixo da linha
+inferior da zona crítica (A1).
+II. Trata-se de qualquer tratamento capaz de produzir esferoidita.
+III. Uma das suas operações é o aquecimento prolongado de aços laminados ou normalizados a uma
+temperatura logo acima da linha inferior da zona crítica (A1)
+Está correto apenas o que se afirma em que
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 69 =====
+68
+a) II.
+b) I e II.
+c) I e III.
+d) II e III.
+Comentário:
+Opa! Questão que nos cobra os detalhes mais gerais dos tratamentos. Vejamos:
+I - certo! Exatamente, no coalescimento (esferoidização) durante o processo, temos a oscilação da
+temperatura acima e/ou abaixo como uma opção do tratamento;
+II - sim! De fato, o objetivo é obter a microestrutura esferoidita, proveniente dos carbonetos não
+dissolvidos;
+III - errada! O aço é submetido, por meio desse tipo de tratamento térmico por recozimento, a uma
+temperatura também abaixo da linha A1, por um tempo longo ou, normalmente, se faz com que a
+temperatura oscile em torno da mesma linha (hora acima, hora abaixo). Mas, não se pode afirmar que é
+sempre acima. Aí o erro da questão;
+Gabarito: “b”.
+36. (EAOEAR/Engenheiro Mecânico – 2019)
+As seguintes afirmativas referem-se ao tratamento térmico de recozimento de aços.
+I. O recozimento pleno, ou simplesmente recozimento, consiste em austenitizar o aço, resfriando-o
+lentamente em seguida.
+II. O recozimento subcrítico é aquele em que o aquecimento se dá a uma temperatura abaixo da linha A1
+(727
+o
+C).
+III. Na esferoidização, a austenita homogênea tende a formar perlita, enquanto a austenita heterogênea
+tende a formar carbonetos esferoidizados.
+Está correto o que se afirma em
+a) I e II, apenas.
+b) II e III, apenas.
+c) I e III, apenas.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 70 =====
+69
+d) I, II e III.
+Comentário:
+Questão tranquila, Coruja! Ela nos cobra as particularidades do tratamento de recozimento pleno!
+Vejamos cada assertiva.
+I - perfeita! Exatamente! lembre-se que a temperatura de aquecimento fica acima da temperatura de
+recristalização daquela liga específica (seria a zona crítica dos aços, liga Fe-C – cerca de 50
+o
+C acima da
+linha A3 para aços hipoeutetoides e acima da linha A1 para hiperteuteóides. Outra característica desse
+tipo é o resfriamento lento que ocorre dentro de um forno, gerando propriedades mecânicas uniformes
+em toda a peça;
+II - perfeita! Exatamente! Também chamado de recozimento para alívio de tensões é aquele
+caracterizado por não fazer a mudança de fase da liga (indo até 727
+o
+C - linha A1);
+III - correta, também! Basicamente, quanto maior a temperatura no campo austenítico, Coruja, maior a
+chance dos seus grãos se tornearem homogêneos (ou seja, na nucleação, os grãos austeníticos têm menos
+carbonetos residuais, pois os carbonetos se dissolveram). Assim, a estrutura perlítica tende a ser mais
+lamelar (formada pelas lamelas de ferrita e cementita no final do resfriamento). Todavia, caso a austenita
+seja heterogênea (com carbonetos residuais em áreas ricas em carbono na microestrutura), esses núcleos
+de carbonetos não dissolvidos impactam na formação da perlita fazendo com que a transformação seja
+acelerada e tendendo a ter uma forma "globulizada" (esferoidal) em detrimento a forma lamelar;
+Gabarito: “d”.
+37. (EAOEAR/Engenheiro Mecânico – 2017)
+A têmpera é um tratamento térmico de extrema importância para aços, principalmente quando se deseja
+utilizar em aplicações estruturais. Esse tipo de tratamento consiste em um resfriamento muito rápido,
+geralmente utilizando meios líquidos, onde as peças são submergidas após o aquecimento em um forno.
+Posteriormente à realização da têmpera, é comumente feito um revenimento, através do aquecimento de
+um aço até uma temperatura definida durante um período de tempo específico. Sobre esses tratamentos
+térmicos, é correto afirmar que
+a) devido ao rápido resfriamento do material na têmpera, a difusão do carbono é impedida de ocorrer,
+formando uma microestrutura monofásica em equilíbrio denominada martensita.
+b) a têmpera é um tratamento térmico que eleva consideravelmente a resistência à tração, a dureza e a
+resistência ao desgaste, mantendo uma ductilidade adequada apesar de originar tensões internas em
+grande intensidade no material.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 71 =====
+70
+c) o revenido de alguns aços pode acarretar em uma fragilização, que reduz a tenacidade do aço. Essa
+fragilização pode ocorrer quando os aços contêm concentrações apreciáveis dos elementos de liga
+manganês, níquel ou cromo, além de conter impurezas.
+d) A temperabilidade é uma medida de profundidade de endurecimento do material, que é uma função
+quase que exclusivamente do seu teor de carbono. Um dos métodos de medir a temperabilidade de
+um aço é o “método de Grossmann”, que consiste na obtenção de um perfil de dureza após o
+resfriamento sob condições controladas.
+Comentário:
+Olha aí, Coruja! Questão boa para revisarmos um tratamento que é o queridinho da banca: têmpera!
+Além, é claro, do revenido que é comumente empregado posteriormente! Vejamos cada alternativa:
+Letra "a": errada! Começou bem, mas o erro está no final: a martensita é uma microestrutura monofásica
+que não está em equilíbrio (é metaestável com célula unitária TCC - Tetragonal de Corpo Centrado);
+Letra "b": errada! A ductilidade não é adequada! Ela é extremamente frágil! Por conta disso, se faz o
+revenido a fim de que o carbono intersticial que não foi dissolvido saia e, assim, a microestrutura ganha
+certo grau de ductilidade e leve perda de resistência mecânica;
+Letra "c": exatamente! Coruja, veremos com maiores detalhes os efeitos de elementos de ligas e impureza
+nas ligas metálicas, mas, desde já, saiba que a depender da sua concentração, pode-se gerar uma
+fragilização excessiva do aço (o que gera em uma queda considerável na sua tenacidade), apesar do
+aumento de outras propriedades, como a dureza;
+Letra "d": errada! De fato, o método de Grossmann, como vimos, é um método para se obter um perfil
+de dureza associada a profundidade atingida no material. Todavia, a definição de temperabilidade a um
+valor máximo de dureza! A temperabilidade, de fato, tem a ver com a profundidade de dureza atingível
+por um aço, mas isso não se dá, exclusivamente, pelo teor de carbono. O teor de carbono tem relação
+direta com o valor máximo de dureza atingido pela liga. Mas, esse valor pode ser somente superficial. Ou
+seja, a temperabilidade de um aço é que vai ditar sua característica tenaz em se ter certos níveis de dureza
+em regiões mais profundas do material.
+Gabarito: “c”.
+38. (EAOEAR/Engenheiro Mecânico – 2017)
+Em diversas aplicações na engenharia, frequentemente são necessárias ligas metálicas com uma alta
+resistência e que apresentem alguma ductilidade e tenacidade, o que representa um desafio para os
+engenheiros metalúrgicos e de materiais. Por exemplo, nas aplicações estruturais, é necessário que as ligas
+apresentem uma alta resistência para sustentar cargas diversas e que a ductilidade e tenacidade do
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 72 =====
+71
+material sejam adequadas para evitar uma ruptura abrupta, o que confere confiabilidade e segurança ao
+projeto. Em relação aos mecanismos de aumento de resistência, pode-se afirmar que
+a) os contornos de grão são responsáveis por restringir a movimentação das discordâncias, pois um dos
+fatores que restringem esse movimento são as orientações diferentes entre os grãos que faz com que
+esse movimento tenha que mudar de direção.
+b) o aumento da resistência por solução sólida confere uma maior resistência aos materiais pela
+diminuição do tamanho de grãos na rede atômica, dificultando o movimento das discordâncias.
+c) o encruamento confere uma multiplicação e formação de novas discordâncias no material, facilitando
+o movimento das mesmas pelo o aumento de densidade de discordâncias na rede atômica.
+d) a introdução de impurezas substitucionais ou intersticiais no material introduzem uma deformação
+na rede atômica, que é responsável pelo aumento de ductilidade e tenacidade.
+Comentário:
+Olha aí, Coruja! Uma questão que nos cobra o conhecimento sobre os mecanismos de aumento de
+resistência mecânica. Vejamos:
+Letra "a": exatamente! Eis o gabarito. De fato, os contornos dos grãos que compõem o retículo cristalino
+dos materiais constituem barreiras para a propagação de uma discordância e seu arranjo com diversas
+direções é um dos fatores que limitam os deslocamentos e, consequentemente, aumentam a resistência
+mecânica do material;
+Letra "b": errada! De fato, esse é um mecanismos de aumento de resistência, mas o aumento por solução
+sólida não faz com que tamanho dos grãos seja diminuído;
+Letra "c": errada! Novamente, a alternativa começa correta, mas peca no final. O encruamento (trabalho
+a frio) gera novas discordâncias que serão barreiras ao movimento das originais. Todavia, o movimento
+não é facilitado como a alternativa diz e, sim, dificultado;
+Letra "d": errada! Pela inclusão de impureza substitucionais como átomos que ficam intersticiais nas
+redes dos cristalinos geram uma tensão pela deformação da rede do cristalino do material. Porém, esse
+fato aumenta a dureza e a resistência mecânica e não a ductilidade. Quanto a tenacidade, dependerá de
+outros fatores a fim de avaliar o comportamento da liga no regime elástico, mas, também pode ser
+diminuída a depender da situação.
+Gabarito: “a”.
+39. (EAOEAR/Engenheiro Mecânico – 2016)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 73 =====
+72
+Dentre as características que credenciam os metais como os materiais mais utilizados no mundo, a
+capacidade de alterar as propriedades mecânicas em função do tempo, temperatura e deformação é
+considerada como uma das mais importantes. Indique a alternativa que apresenta apenas mecanismos de
+aumento da resistência mecânica em metais.
+a) Encruamento, refino de grão, recuperação e recristalização.
+b) Refino de grão, envelhecimento, precipitação e recuperação.
+c) Refino de grão, envelhecimento, precipitação e encruamento.
+d) Envelhecimento, crescimento de grão, precipitação e encruamento.
+Comentário:
+Moleza! Vimos que os principais mecanismos de aumento de resistência mecânica são: refino de grão
+(claro, grãos menores e mais juntos, maior dificuldade para se moverem e gerar deslocamentos dos
+planos cristalográficos); envelhecimento (vimos que é um tipo de tratamento muito empregado em ligas
+de alumínio); precipitação (com elementos precipitados há maior tensão em alguns casos e maiores
+obstáculos para o movimento) e encruamento (trabalho a frio que pelas deformações e geração de novas
+discordâncias, também aumento os obstáculos para o movimentos das discordâncias antigas e dos
+planos).
+Gabarito: “c”.
+40. (EAOEAR/Engenheiro Mecânico – 2016)
+Antes de ser conformada, uma barra de aço SAE 1045 passa por um processo de esferoidização para que
+suas propriedades sejam melhoradas no processo posterior de estampagem a frio. É considerada a
+principal alteração microestrutural do aço SAE 1045 após o processo de esferoidização
+a) o encruamento da ferrita pró-eutetoide.
+b) a recristalização completa da austenita.
+c) a transformação da austenita em bainita.
+d) a alteração do formato lamelar da cementita no constituinte perlita.
+Comentário:
+Oras, questão tranquila também, Coruja! Na esferoidização (considerada como um subtipo do
+tratamento de recozimento) temos uma alteração no formato lamelar da cementita no constituinte da
+perlita (lembre-se que a perlita não é uma fase e, sim, um conjunto de fases, sendo formada por ferrita e
+cementita em lamelas alternadas). Assim, como vimos, esse formato lamelar tende a sofrer uma leve
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 74 =====
+73
+esferoidização (nome do tratamento), gerando uma microestrutura esferoidita. As demais alternativas é
+viagem da banca!
+Gabarito: “d”.
+41. (EAOEAR/Engenheiro Mecânico – 2016)
+Uma peça metálica fabricada a partir de um aço SAE 1035 normalizado é submetida ao seguinte ciclo
+térmico.
+Quais as fases e constituintes presentes no material nos pontos 1, 2, 3, 4 e 5?
+a) Ferrita + Perlita / Austenita / Martensita / Austenita / Martensita.
+b) Ferrita + Perlita / Austenita / Martensita / Ferrita / Ferrita + Perlita.
+c) Ferrita + Perlita / Austenita / Martensita / Austenita / Ferrita + Perlita.
+d) Ferrita + Perlita / Austenita / Ferrita + Perlita / Austenita / Martensita.
+Comentário:
+Questão excelente para treinarmos vários pontos da matéria. Perceba, Coruja, que temos um aço SAE
+1035 (ou seja, hipoeuteóide por conta do teor de carbono - 0,35%). Apesar de não termos visto
+classificação de aço (será objeto de estudo de outra aula), essa é uma classificação básica. Vejamos em
+cada ponto a microestrutura:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 75 =====
+74
+1 - tranquilo! Veja que estamos na temperatura ambiente, logo, para o aço hipoeutetoide, temos ferrita
++ perlita!;
+2 - tranquilo, também! O aço foi aquecido acima da zona crítica! Temos a microestrutura austenítica!;
+3 - opa! Aqui vem o tema da aula de hoje! Resfriamento rápido para a atingir o ponto 3. Logo, qual a
+microestrutura que possui alta tensão (elevada dureza, inclusive) por conta do carbono que ficou
+intersticial e não teve tempo de se desprender da microestrutura ferrítica no resfriamento? É a
+martensita! Falou em resfriamento brusco, abaixo de 200
+o
+C, Coruja, teremos martensita!;
+4 - aqui está o pega! Você pode ter pensando: "Ah, aqueceu de novo, depois da martensita ser atingida!
+É revenido!". Não, caro "padawan". Veja a temperatura atingida! 1000
+o
+C! Entrou de novo no campo
+austenítico! Lembre-se que o revenido feito após à tempera fica próxima a temperatura na faixa da linha
+A1 (cerca de 700
+o
+C). Logo, como passou consideravelmente, temos austenita de novo;
+5 - apesar de, na minha opinião, a banca poderia deixar mais clara essa transformação, colocando o joelho
+da Curva TTT, pois somente pela inclinação (não há métrica para tal) e o meio de resfriamento (ar, apesar
+de menos severo que água, também pode ser utilizado na tempera), subentende-se que a microestrutura
+não é martensita e, sim, perlita + ferrita. Mas, novamente, friso: a questão deveria ter dado mais
+informações do que simplesmente mudar o meio e inclinar um pouco a curva de resfriamento;
+Gabarito: “c”.
+42. (EAOEAR/Engenheiro Mecânico – 2015)
+Quanto aos tratamentos térmicos dos aços, que recebem denominações diferentes de acordo com a
+velocidade de esfriamento ou com o produto obtido, assinale a alternativa correta.
+a) Na normalização, o resfriamento do campo austenítico é rápido, obtendo-se perlita fina esferoidizada.
+b) No recozimento, o resfriamento do campo austenítico é lento, obtendo-se ferrita mais perlita se o aço
+for hipoeutetoide.
+c) No recozimento, o resfriamento do campo austenítico é rápido, obtendo-se ferrita mais perlita se o
+aço for hipereutetoide.
+d) Na normalização, o resfriamento do campo austenítico é lento e ocorre a globulização da cementita,
+que faz parte da perlita.
+Comentário:
+Tranquila questão que nos cobra as diferenças entre os tratamentos térmicos denominados
+Normalização e Recozimento! Vamos ver cada assertiva, Coruja:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 76 =====
+75
+Letra "a": errada! Apesar do fato de que na normalização o resfriamento é rápido e a microestrutura
+final é a perlita fina, ela não é esferoidizada! Lembre-se que, por conta do resfriamento rápido, os grãos
+ficam mais finos (não teve tempo de crescer);
+Letra "b": certa! Apesar de termos diferentes subtipos de recozimento, admitindo-se o pleno, de fato,
+seu resfriamento é lento (lembre-se que seu objetivo é remover tensões e ajustar o tamanho do grão,
+precisando de tempo para isso). Além disso, conforme vimos, se o aço for hipoeutetoide, temos a
+microestrutura final composta por ferrita e perlita grosseira;
+Letra "c": errada! Dois erros: o resfriamento é lento e não rápido, além da microestrutura final ser perlita
+grosseira e cementita para o aço hipereutetoide;
+Letra "d": errada! Vimos que o resfriamento é rápido na normalização e não ocorre a globulização da
+cementita.
+Gabarito: “b”.
+FGV
+43. (FGV/PC-RJ – Perito Criminal - Engenharia Mecânica – 2021)
+O tratamento térmico realizado no aço que consiste no seu aquecimento a uma temperatura acima da
+zona crítica, seguido de esfriamento ao ar, é conhecido como:
+a) normalização;
+b) têmpera;
+c) revenido;
+d) recozimento isotérmico;
+e) recozimento total.
+Comentário:
+Questão muito boa que nos cobra os tipos de tratamentos térmicos e suas diferenças! Vejamos cada
+alternativa, Coruja!
+Letra “a”: perfeita! De cara, temos o gabarito da questão. Lembre-se que a normalização é um tratamento
+com objetivo similar ao recozimento (aliviar tensões, reduzir dureza, aumentar a ductilidade, por
+exemplo). Todavia, na normalização há a busca por tornar os grãos mais finos depois do resfriamento.
+Para isso, ele tem que ser rápido (não tão rápido quanto a têmpera). Assim, o aço é colocada a
+temperaturas levemente acima da linha Acm (entre um pouco no campo austenítico) e o resfriamento
+rápido não permite crescimento de grãos, gerando a perlita fina;
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 77 =====
+76
+Letra “b”: errada! Essa poderia gerar dúvidas, mas, lembre-se que na têmpera o resfriamento é muito
+rápido (mais que na normalização). Por isso, usa-se, comumente, um meio contendo água, salmoura, ar
+e óleo com alguma composição de sais. Perceba que não é somente ar, utilizado. Detalhe sutil, mas que
+daria para matar, pois o enunciado deveria mais detalhes para ser a têmpera, indo além do meio e,
+também, de valores para temperatura na zona crítica (têmpera, de acordo com a doutrina, o aço é
+aquecido até cerca de 50
+o
+C acima da zona crítica, como a linha A1 para aços hipoetuteóides);
+Letra “c”: errada! O revenido consiste no tratamento feito depois da têmpera. Nesse tratamento térmico
+do tipo calórico, o aço temperado é submetido a temperaturas abaixo da zona crítica. Dessa forma, como
+consequência desse tratamento posterior à tempera, ocorre um aumento na ductilidade tão reduzida na
+têmpera anterior e redução da dureza e resistência a tração. Além disso, o principal objetivo é reduzir
+as tensões internas provenientes da têmpera;
+Letra “d”: errada! É um subtipo de recozimento pleno, Coruja, como cita a literatura específica. Nele,
+temos um resfriamento em duas etapas: uma rápida até uma temperatura na parte superior do diagrama
+de transformação isotérmica (na mesma temperatura até a austenita se transformar em produtos
+normais da sua transformação – como perlita e ferrita, por exemplo) e a outra até a temperatura
+ambiente;
+Letra “e”: errada! Nesse tipo, a temperatura de aquecimento fica acima da temperatura de
+recristalização daquela liga específica (seria a zona crítica dos aços, liga Fe-C, conforme vimos na primeira
+parte da aula). Outra característica desse tipo é o resfriamento lento que ocorre dentro de um forno,
+gerando propriedades mecânicas uniformes em toda a peça. Logo, o resfriamento não é rápido como na
+normalização via ar.
+Gabarito: “a”.
+44. (FGV/IMBEL – Engenharia Mecânica – 2021)
+Sobre os tratamentos térmicos no aço, listados a seguir, assinale (V) para a afirmativa verdadeira e (F)
+para a falsa.
+( ) A normalização elimina tensões internas em peças que sofreram deformações alcançando, assim, uma
+estrutura mais homogênea.
+( ) A têmpera aumenta a tenacidade e a elasticidade do aço.
+( ) No revenido, há aumento da ductilidade do aço.
+As afirmativas são, na ordem apresentada, respectivamente,
+a) V – V – V.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 78 =====
+77
+b) V – F – V.
+c) V – F – F.
+d) F – V – V.
+e) F – F – F.
+Comentário:
+Opa! Questão tranquila sobre os tratamentos térmicos denominados Normalização, Revenido e
+Têmpera! Vamos ver cada assertiva, de cima para baixo:
+V – perfeita! Oras, como vimos, no tratamento de Normalização, temos objetivos parecidos com o
+Recozimento que é remover tensões internas e tentar buscar uma estrutura mais homogênea com foco
+em propriedades mecânicas iguais em toda a peça. Além disso, temos um resfriamento mais rápido, com
+a meta de atingir grãos mais finos;
+F – errada! Vimos que a Têmpera não tem como foco aumentar a elasticidade do aço. Nesse tratamento,
+o objetivo é atingir a microestrutura Martensítica que possui elevada tensão interna pelo carbono
+intersticial por conta da altíssima velocidade de resfriamento. Essa microestrutura possui elevada dureza
+e elevada fragilidade (consequentemente, baixa ductilidade). Além disso, a Têmpera não aumenta a
+tenacidade (pelo contrário). Lembre-se que essa propriedade também está associada com a deformação
+plástica do material e, para aços que sofreram o tratamento de têmpera, costuma-se fazer o Revenido, a
+fim de aumentar a tenacidade e diminuir a fragilidade do aço;
+V – perfeita! Conforme comentei, de fato, no Revenido (tratamento comumente feito posterior à
+Têmpera) tem como foco aumentar a ductilidade e a tenacidade do material, bem como diminuir as
+tensões internas pela “liberação” do carbono intersticial, diminuindo, também, a dureza da liga.
+Gabarito: “b”.
+45. (FGV/TJ-AM – Analista Jurídico – Engenharia Mecânica – 2013)
+O tratamento térmico de recozimento visa regularizar a textura bruta de fusão, eliminar o efeito de
+quaisquer tratamentos térmicos e mecânicos a que o aço tenha sido submetido anteriormente, a
+estrutura resultante é a normal de acordo com os tipos de aço. Se o aço for hipereutetoide, a estrutura
+resultante do recozimento será?
+a) ferrita.
+b) perlita.
+c) cementita.
+d) ferrita mais perlita.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 79 =====
+78
+e) perlita mais cementita.
+Comentário:
+Estrategista, apesar da questão mencionar o tratamento térmico de recozimento, ela exige mais o seu
+conhecimento sobre qual a composição da liga hipereutóide. Vimos que esse tipo de aço possui teores
+maiores de carbono em sua composição o que enseja uma microestrutura formada por perlita (que não
+é uma fase, lembre-se) com mais cementita formada (por conta do teor maior de carbono). Dessa forma,
+a microestrutura resultante será composta por perlita (que são lamelas alternadas de ferrita e cementita)
+e uma fase de cementita mais evidente.
+Gabarito: “e”.
+FCC
+46. (FCC/EMAE-SP – Engenheiro – Mecânica – 2018)
+Um tratamento térmico de coalescimento aplicado ao aço visa
+a) aumentar a dureza superficial.
+b) diminuir a capacidade de alongamento do material.
+c) reduzir a dureza.
+d) dificultar a estampabilidade ou deformabilidade do material.
+e) aumentar a resistência mecânica do material.
+Comentário:
+Letra “a”: essa alternativa vai de encontro com o que estudamos. É justamente o contrário. O objetivo
+principal desse tratamento é reduzir a dureza do aço. Alternativa errada;
+Letra “b”: conforme mencionado na explicação da alternativa “a”, não é esse um dos objetivos do
+coalescimento. Alternativa errada;
+Letra “c”: de acordo com o que vimos, um dos principais objetivos do tratamento de coalescimento é
+diminuir a dureza do material pela formação de uma microestrutura “esferoidita” e, assim, melhorar a
+usinabilidade de aços alto carbono, por exemplo. Alternativa correta;
+Letra “d”: pelo contrário, Estrategista, se o objetivo é atingir menor dureza no aço, teremos uma melhora
+na estampabilidade e deformabilidade, facilitando processos de fabricação pela melhora na
+usinabilidade desse material. Alternativa errada.
+Letra “e”: conforme vimos em aula, resistência mecânica é um conceito amplo e complexo. Ao meu ver,
+a alternativa é infeliz em definir como errado “aumentar a resistência mecânica”, já que reduzir a dureza,
+não necessariamente implica em baixa “resistência mecânica” – o material pode ter sua ductilidade
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 80 =====
+79
+aumentada e para certos objetivos e atividades, ser mais resistente que um aço mais duro. Porém, como
+vimos, esse aço duro pode ser mais frágil (dureza e fragilidade são conceitos diferentes). Todavia, segundo
+o gabarito da questão, a alternativa está errada.
+Gabarito: “c”.
+47. (FCC/SABESP – Engenheiro – Mecânica – 2018)
+O tratamento térmico que NÃO sofre influência da curva TTT é:
+a) austêmpera
+b) têmpera
+c) normalização
+d) recozimento
+e) revenimento.
+Comentário
+Conforme vimos em aula, o revenido é o único tratamento que não sofre influência da cura TTT no sentido
+de atingir microestruturas específicas (perlita fina, grosseira, bainita, etc). Ele é feito posteriormente a
+martensita atingida!
+Gabarito: “e”
+FEPESE
+48. (FEPESE/DEINFRA-SC – Engenheiro – Engenharia Mecânica – 2019)
+Assinale a alternativa que indica corretamente o tratamento térmico usado com frequência em aços com
+baixos e médios teores de carbono e que irão experimentar uma extensa deformação plástica durante
+uma operação de conformação ou que serão submetidos à usinagem.
+a) recozimento pleno.
+b) recozimento parcial.
+c) recozimento subcrítico.
+d) normalização subcrítica.
+e) normalização plena.
+Comentário
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 81 =====
+80
+Letra “a”: no recozimento pleno, teremos, em aços médio e baixo carbono, formação de ferrita e perlita
+grosseira o que gera melhor usinabilidade, conforme vimos em aula. Alternativa correta;
+Letra “b”: mesmo raciocínio explicado em “c”, Estrategista – a deformação plástica será extensa,
+conforme nos diz o enunciado da questão, necessitando de alta usinabilidade e ductilidade atingida pelo
+recozimento pleno. Alternativa errada;
+Letra “c”: também denominado de recozimento para alívio de tensões, o recozimento subcrítico (tem
+esse nome, pois é aquecido, conforme vimos, até a temperatura abaixo da linha A1) melhora a
+usinabilidade, porém não como no recozimento pleno. O comando da questão deixa claro que o aço
+passará por um processo “extenso” de deformação plástica. Alternativa errada;
+Letra “d”: novamente, pelo mesmo raciocínio da “e” – a deformação será extensa, exigindo que o material
+tenha alta ductilidade e usinabilidade, atingidas com o recozimento ou normalização plenos. Alternativa
+errada;
+Letra “e”: aqui poderia surgir uma dúvida para você, Estrategista. Todavia, você deve lembrar que na
+normalização plena, dependendo da geometria da peça, o resfriamento não é uniforme, o que resulta
+em propriedades mecânicas diferentes em toda a peça. Isso não ocorre no recozimento pleno que é
+resfriado em um ambiente controlado do forno, fazendo com que todo o material tenha propriedades
+(como a ductilidade e usinabilidade) uniformes em toda a peça. Por isso, a letra “a” é o gabarito, já que a
+questão menciona que a peça inteira será conformada. Questão difícil.
+Gabarito: “a”.
+Ufersa
+49. (Ufersa/Ufersa – Engenheiro – Engenharia Mecânica – 2019)
+Durante a realização de um tratamento térmico de têmpera de uma peça fabricada de um determinado
+aço, utilizando-se fluido aquoso, é correto afirmar que:
+a) No resfriamento, ocorre à formação de vapor superaquecido e nucleação de bolhas de vapor sobre a
+peça, o que impede a troca de calor com o fluido.
+b) Ocorre formação de martensita.
+c) No contato com o referido fluido, ocorre à formação de um filme contínuo de vapor sobre a peça. Em
+seguida, esse filme de vapor colapsa, promovendo a nucleação de bolhas. Na continuação da redução
+de temperatura, as bolhas são desfeitas, promovendo um resfriamento por condução e convecção.
+d) Ocorrem a formação de martensita e a presença de austenita retida.
+Comentário
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 82 =====
+81
+Letra “a”: pelo contrário, Estrategista. A troca de calor ocorre por convecção por conta de o vapor d’água
+ser um fluído. Alternativa errada.
+Letra “b”: alternativa confusa, pois a depender do estágio da têmpera, também temos a formação da
+estrutura martensítica (final do processo, por exemplo). Ocorre que, na prática, aplica-se o revenido a fim
+de eliminar as tensões internas pela supersaturação do carbono por conta do resfriamento rápido e, a
+depender da temperatura no estágio do revenido, pode ocorrer transformação dos grãos e outra
+estrutura ser atingida que não seja a martensítica. Provavelmente, foi o equívoco que confundiu o
+examinador, ao meu ver. Apesar disso, grave: têmpera convencional também atinge, ao final do processo,
+estrutura martensítica, como na martêmpera (quando o resfriamento é lento). Alternativa errada, mas
+caberia recurso.
+Letra “c”: exatamente isso! A explicação parece ser complexa, mas na realidade é o processo físico que
+ocorre por conta do vapor d’água proveniente do fluido aquoso do resfriamento. Alternativa correta.
+Letra “d”: novamente, mesmo equívoco da letra “b”. Todavia, é errado dizer que a austenita retida será
+em todo em qualquer aço, pois ela pode não ocorrer. Normalmente, ela tende a ocorrer em aços médio
+e alto carbono, por isso, ao meu ver, o erro da alternativa está na generalização. Alternativa errada.
+Gabarito: “c”.
+Instituto AOCP
+50. (AOCP/ AGESC - Engenheiro Mecânico – 2008)
+O encruamento é o fenômeno pelo qual um metal dúctil se torna mais duro e mais resistente quando é
+submetido a:
+a) uma deformação elastoplástica devido à tração.
+b) uma deformação elástica a temperatura ambiente.
+c) um aumento de temperatura.
+d) uma deformação plástica.
+e) uma deformação plástica devido à compressão.
+Comentário:
+Conforme vimos, o encruamento (também chamado de trabalho a frio) ocorre quando a peça é
+submetida a deformação plástica, na qual há mudanças nas discordâncias originais do retículo cristalino
+e novas discordâncias são formadas, com tensões geradas que tornam o material mais duro (eleva a
+dureza da sua microestrutura). Lembre-se sempre que ele é executado em temperaturas muito abaixo da
+temperatura de recristalização do material (por isso, o nome "trabalho a frio" e as tensões não são
+eliminadas durante o processo pela falta de recristalização dos grãos).
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 83 =====
+82
+Gabarito: “d”.
+51. (AOCP/ ELETROSUL - Engenheiro Mecânico – 2008)
+A respeito dos tratamentos térmicos em ligas ferro-carbono, assinale a alternativa INCORRETA.
+a) O recozimento subcrítico consiste no aquecimento da liga até uma temperatura imediatamente
+abaixo da temperatura eutetoide.
+b) Em aços com alto teor de carbono, a têmpera em água, pode produzir trincas ou até mesmo o
+empenamento do material.
+c) Endurecibilidade é um termo de descreve a capacidade de determinada liga ser endurecida pela
+formação de martensita, quando submetida a um tratamento térmico.
+d) A cementação consiste no endurecimento da superfície externa de um componente de aço,
+melhorando assim a resistência ao desgaste por fadiga.
+e) Na normalização ocorre o aumento do tamanho médio dos grãos e uma distribuição mais uniforme
+dos mesmos.
+Comentário:
+Vejamos cada alternativa sobre as características dos Tratamentos Térmicos, Coruja!
+Letra "a": correta! O recozimento subcrítico (também chamado de recozimento para alívio de tensões)
+tem como uma das suas características importantes a não ocorrência de mudança de fase, sendo o
+material aquecido até a zona crítica “A1” do diagrama de fases da liga. Dessa forma, a liga metálica não
+chega ao campo austenítico;
+Letra "b": correta! De fato, com o resfriamento muito brusco, característico da têmpera, como vimos, há
+a possibilidade, em ligas com alto teor de carbono, de ocorrer o empenamento ou trincas. Um dos meios
+utilizados para esse resfriamento é aquele com água;
+Letra "c": correta! Essa é a descrição do termo endurecibilidade, também chamado pela doutrina como
+temperabilidade (a capacidade de atingir a têmpera/atingir a microestrutura martensítica que gera
+elevada dureza);
+Letra "d": correta! Conforme vimos, a cementação utiliza uma atmosfera rica em carbono (monóxido de
+carbono, carvão ou sal à base de cianetos) a fim de aumentar a dureza na superfície da peça. Dessa forma,
+melhora também a resistência ao desgaste por fadiga;
+Letra "e": errada! A busca da normalização é o refino do grão (e não o seu aumento de tamanho). Isso
+ocorre porque o resfriamento é rápido (não tão rápido quanto na têmpera, mas rápido) o suficiente para
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 84 =====
+83
+não dar tempo de o grão crescer na alta temperatura atingida. As temperaturas na normalização são
+atingidas logo acima da linha Acm para os aços hiperteutetoides e logo acima da linha A3 para os aços
+hipoeutetoides. Além disso, a depender da geometria da peça, o resfriamento pode não ser uniforme em
+toda a peça.
+Gabarito: “e”.
+CEV-UECE
+52. (CEV-UECE/Prefeitura Municipal de Sobral - Engenharia Mecânica – 2018)
+Atente às seguintes afirmações sobre os tratamentos térmicos aplicados aos aços:
+I. A têmpera tem como efeito a elevação da resistência de um aço, criando uma solução supersaturada de
+carbono em ferro chamada martensita.
+II. O revenimento é executado em temperaturas mais baixas do que as praticadas na têmpera, restaurando
+parte da ductilidade do aço perdida na têmpera.
+III. O recozimento tem como objetivo restaurar as propriedades originais do aço através da elevação da
+temperatura acima de um ponto crítico seguido por um resfriamento repentino.
+IV. O processo de têmpera é recomendado para engrenagens, uma vez que a elevação da dureza de todo
+esse componente favorece a absorção de energia de impactos.
+Está correto somente o que se afirma em.
+a) II e III.
+b) III e IV.
+c) I e II.
+d) I e IV.
+Comentário:
+Estrategista, questão tranquila que nos cobra os diferentes tratamentos térmicos! Vejamos cada
+assertiva.
+I: perfeita! De fato, a têmpera visa aumentar a dureza do aço pela formação da microestrutura
+martensítica. Essa microestrutura metaestável é proveniente do resfriamento muito rápido do campo
+austenítico o que não permite que o carbono se dissolva. Assim, ele fica intersticial no arranjo das células
+unitárias CCC da ferrita, gerando a célula unitária TCC da martensita o que, por sua vez, promove o
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 85 =====
+84
+aumento da dureza e tensões internas da microestrutura, além da super saturação do carbono que não
+conseguiu se desprender pela falta de tempo (resfriamento muito rápido), como vimos;
+II: certa! O revenido é o tratamento no qual temos o aquecimento novamente da liga que possui a
+microestrutura martensítica da têmpera (elevada dureza) a fim de fazer com que parte do carbono
+consiga se dissolver, diminuindo as tensões internas, um pouco da dureza e aumentando a ductilidade da
+do material:
+III: errada! Primeiro que temos vários tipos de recozimento, como vimos em aula. Considerando o
+recozimento total (pleno), de fato, temos que as temperaturas do tratamento são acima da temperatura
+de recristalização (zona crítica) e, pela recristalização do material, novos formatos de grãos são
+desenvolvidos, aliviando tensões e tornando as propriedades mais uniformes. Todavia, a assertiva erra ao
+dizer que o resfriamento é repentino, pois ele é lento nesse tratamento;
+IV: errada! De fato, as engrenagens deve ter as superfícies com alta dureza a fim de aguentar os esforços
+em serviço na transmissão de potência e movimento, por exemplo. Todavia, ela precisam ter o interior
+mais tenaz a fim de absorver a energia sem ocorrer alguma ruptura. A absorção de energia não tem
+relação com o fato de elevar a dureza (muito pelo contrário, já que materiais mais duros, possuem fratura
+do tipo frágil, caso não tenham uma compensação com seu núcleo mais tenaz). Por isso, materiais mais
+dúcteis (que possuem alto grau de deformação plástica antes de se romper) absorvem mais energia
+(lembre-se do gráfico no ensaio de tração) do que materiais frágeis que pouco se deformam antes de
+romper;
+Gabarito: “c”.
+IESES
+53. (IESES/GASBRASILIANO-SP - Engenheiro de Gás Natural Júnior – 2017)
+Após a leitura do enunciado apresentado a seguir, identifique a afirmação correta:
+O fenômeno pelo qual um metal dúctil se torna mais duro e mais resistente quando ele é submetido a uma
+deformação plástica, é chamado de:
+a) Encruamento.
+b) Austenitização.
+c) Têmpera.
+d) Revenido.
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 86 =====
+85
+Tranquilidade, Coruja! Oras, o material quando submetido a deformação plástica (aquela que é
+permanente, pois o material não volta a sua configuração original), temos uma alteração significativa na
+microestrutura dele. Dessa forma, novas discordâncias são formadas e acabam servindo de "obstáculos"
+e "barreiras" para os movimentos dos planos cristalográficos, muito por conta da tensão gerada com as
+discordâncias originais do material. Esse fenômeno recebe o nome de encruamento do material e faz com
+que ele fique mais resistente mecanicamente, bem como proporciona um aumento considerável de
+dureza. Lembre-se que esse encruamento ocorre quando temos essa deformação a frio (em temperatura
+abaixo da temperatura de recristalização do material). As demais alternativas estão erradas.
+Gabarito: “a”.
+54. (IESES/IGP-SC - Perito Criminal - Engenharia – 2017)
+Uma das etapas mais importantes do tratamento térmico dos aços é o resfriamento, onde normalmente
+é definido o tipo de microestrutura obtida no tratamento. Na figura a seguir é mostrado um diagrama TTT
+de um determinado aço e a respectiva curva de resfriamento (linha pontilhada) referente ao tratamento
+térmico aplicado. Assinale a alternativa que contenha o tratamento e microestrutura correspondente.
+a) Tratamento: Austêmpera – Microestrutura: Bainita.
+b) Tratamento: Revenimento – Microestrutura: Martensita.
+c) Tratamento: Têmpera direta – Microestrutura: Martensita.
+d) Tratamento: Martêmpera – Microestrutura: Bainita..
+Comentário:
+Questão muito boa para trabalharmos os tipos de tratamentos térmicos e características das curvas TTT.
+Perceba, Coruja, que temos a austêmpera retratada pelo gráfico. Veja que nesse tratamento, o material
+é submetido a um temperatura que entra no campo austenítico e sofre um resfriamento rápido até a faixa
+de 250 a 400
+o
+C (ou seja, não começa a formação da martensita). Depois, o material é submetido a
+isotermia (por isso, é um tratamento chamado de isotérmico) até completar sua transformação, cruzando
+a curva e atingindo a microestrutura bainítica final. Por fim, é resfriado a temperatura ambiente.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 87 =====
+86
+Gabarito: “a”.
+55. (IESES/IFC-SC - Fabricação Mecânica – 2015)
+Dentre os tratamentos térmicos empregados com o objetivo de alterar as propriedades físicas e mecânicas
+dos metais cita-se o Tratamento de Normalização. Sobre esse tratamento é correto afirmar que:
+a) A normalização do aço é feita quando se deseja aumentar a dureza do material pelo aumento do
+tamanho do grão.
+b) A normalização do aço é feita quando se deseja aumentar o tamanho do grão do material e,
+consequentemente, reduzir a sua fragilidade.
+c) A normalização do aço é feita quando se deseja aumentar o tamanho do grão do material tendo como
+efeito colateral o aumento da sua fragilidade.
+d) A normalização do aço é feita quando se deseja refinar o grão do material tendo como consequência
+a redução da sua fragilidade.
+Comentário:
+Opa! Questão interessante que nos cobra os detalhes de um tratamento térmico específico: a
+normalização. Vejamos cada alternativa:
+Letra "a": errada! Vimos que na normalização o objetivo é reduzir a dureza, além de atingir tamanhos de
+grãos mais finos (menores, pelo seu refino);
+Letra "b": errada! Como falei, os grãos são mais finos (menores);
+Letra "c": errada, novamente, pelo mesmo motivo (o tamanho do grão final é mais fino/menor e não
+maior);
+Letra "d": perfeita! Exatamente isso. O refino do grão é a característica da normalização que vai torná-lo
+mais fino e, consequentemente, uma leve redução na fragilidade do material, pois o torna levemente
+tenaz. Isso ocorre porque o seu resfriamento será muito rápido, impedindo o crescimento do grão (ele
+não tem tempo para crescer). Dessa forma, a perlita fina é obtida no final do processo, a depender do aço
+e seus teores, por exemplo.
+Gabarito: “d”.
+Idecan
+56. (Idecan/ HC-UFPE - Engenheiro Mecânico – 2014)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 88 =====
+87
+As propriedades e a estrutura do metal podem ser alteradas pelo trabalho a frio. Entretanto, as
+propriedades alteradas podem ser recuperadas ou devolvidas ao estado anterior ao encruamento
+mediante um tratamento térmico de recristalização ou recozimento.
+O processo de recristalização compreende três etapas. Assinale-as.
+a) Recuperação, aço e ferro fundido.
+b) Aumento de grão, recozimento e recuperação.
+c) Aumento de grão, recuperação e recristalização.
+d) Recuperação, recristalização e aumento do tamanho de grão.
+e) Fase arco-íris, recuperação e diminuição do tamanho de grão.
+Comentário:
+Tranquilidade, Coruja! Conforme vimos, o processo de recristalização, na verdade, como cita Callister em
+sua renomada obra, é uma etapa dos processos de tratamentos térmicos. Todavia, a banca considera
+como um tratamento que visa a recristalização do material, pois menciona o tratamento de recozimento.
+Por conta disso, vimos que, em um primeiro momento, ocorre a recuperação do grão, seguida da
+recristalização (etapa na qual as tensões residuais e discordâncias são eliminadas e as propriedades do
+material volta ao seu estado antes das deformações plástica de um trabalho a frio, por exemplo).
+Posteriormente, em temperaturas acima da temperatura de recristalização da liga, ocorre a etapa de
+crescimento de grãos. Veja que se o recozimento é o total ou pleno, a temperatura do tratamento fica
+acima da temperatura de recristalização, ocorrendo aumento do tamanho do grão. Em uma liga Fe-C (aço),
+por exemplo, chega a entrar no campo austenítico do material.
+Gabarito: “d”.
+57. (Idecan/HC-UFPE - Engenheiro Mecânico – 2014)
+Tratamentos térmicos são utilizados para modificar as propriedades de determinados materiais sem
+alterar a sua composição química, pela modificação da microestrutura de determinado metal. São vários
+os tratamentos térmicos e termoquímicos, e uma série de variáveis a serem consideradas. Sabe-se que um
+determinado tratamento térmico para alívio de tensões residuais realizou um resfriamento lento e
+permaneceu por algum tempo abaixo da temperatura crítica. Esse procedimento de tratamento térmico
+visa
+a) aumento da dureza.
+b) aumento da resistência à tração.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 89 =====
+88
+c) aumento de resistência à Fadiga.
+d) aumento do limite de escoamento.
+e) diminuição da condutividade térmica.
+Comentário:
+Oras, Coruja, tranquilidade total! Vimos que no tratamento térmico denominado de Recozimento e nas
+suas subdivisões, temos como grande contribuição, principalmente para aqueles cujo resfriamento é
+lento (como no Total ou Pleno e na Esferoidização ou Coalescimento), uma diminuição de dureza e
+aumento da ductilidade e usinabilidade, muito por conta da remoção de tensões internas e
+recristalização seguida de crescimento de grão (veja que a questão cita que o material foi resfriado e
+permanece um tempo elevado próximo da zona crítica, subentendendo-se que atingiu o campo
+austenítico). Dessa forma, as letra "a" e "b" estão equivocadas.
+Apesar de não ser assunto dessa aula, quando se estuda ensaio de fadiga, percebe-se que o material tem
+um limite de resistência no qual ele pode suportar inúmeros ciclos de tensão sem sofrer fratura. Todavia,
+um dos fatores que diminuem a resistência à fadiga é a concentração de tensões. Oras, a depender do
+tratamento (não podemos dizer todos, pois depende do tratamento), há grande alívio nas tensões do
+material (como no recozimento) ensejando aumento da resistência à fadiga pela diminuição de pontos
+concentradores de tensões nesse material. Portanto, a letra "c" está correta.
+A letra "d" está incorreta, pois com a redução das tensões internas e aumento do tamanho do grau por
+conta do tratamento, há uma diminuição do limite de escoamento. Lembre-se que esse limite está
+associado a fronteira entre o campo elástico e plástico, sendo caracterizado pelo movimento das
+discordâncias na deformação plástica, além de outros fatores. Oras, o material, antes do recozimento,
+tende a ter um limite de escoamento maior, por conta de tensões residuais e discordâncias que servem
+de obstáculo para o movimentos da discordâncias. Com o alívio de tensões e recristalização dos grãos
+com posterior crescimento, eles ficam maiores e com maior facilidade de movimento. Assim, tende a
+diminuir o limite e não aumentar.
+A letra "e" está equivocada, pois depois do tratamento a tendência é o retorno a propriedades originais
+do material. Como cita Callister, as propriedades térmicas e elétricas, por exemplo, voltam ao estado
+original ainda na etapa de recuperação do material.
+Gabarito: “c”.
+Marinha
+58. (Marinha – Técnico da Marinha – Mecânica – 2020)
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 90 =====
+89
+O tratamento térmico que tem como objetivos remover as tensões devidas a tratamentos mecânicos,
+diminuir a dureza, aumentar a ductilidade, regularizar a textura bruta de fusão e eliminar, finalmente, o
+efeito de quaisquer tratamentos térmicos ou mecânicos a que o aço tenha sido submetido anteriormente
+é conhecido como:
+a) recozimento.
+b) revenimento.
+c) normalização.
+d) têmpera.
+e) coalescimento.
+Comentário:
+Estrategista, tranquilidade! O único tratamento possível que diminui a dureza, aumenta a ductilidade,
+regulariza a textura bruta de fusão e elimina qualquer efeito de outros tratamentos, sejam térmicos,
+sejam mecânicos, é o Recozimento! Ainda sobre ele, temos diferentes tipos, como o Pleno (seria o caso),
+o em Caixa, para Alívio de Tensões (subcrítico) e a Esferoidização ou Coalescimento (que podem ser
+entendidos, a depender do autor, como subtipos de recozimento). Perceba que o Revenimento (ou
+Revenido) é posterior a Têmpera e tem como objetivo somente diminuir um pouco a dureza, ganhar
+ductilidade e aliviar tensões, mas não há eliminação de todos os efeitos (letra “b”, errada). Além disso,
+sabemos que a Têmpera tem como objetivo atingir a microestrutura martensítica de elevada dureza (letra
+“d”, errada). A Normalização tem efeitos parecidos ao recozimento, mas sua principal característica não
+é citada: os grãos são mais finos pelo resfriamento mais rápido (letra “c”, errada). Por fim, o
+coalescimento (a banca considera como um tratamento a parte) tem como objetivos, de fato, reduzir
+dureza e aumentar a ductilidade, mas por meio da microestrutura Esferoidita atingida. Além disso, não
+há total eliminação de todos os efeitos como no recozimento pleno, por exemplo (letra “e”, errada).
+Gabarito: “a”.
+59. (Marinha – Técnico da Marinha – Mecânica – 2020)
+Em relação aos tratamentos termoquímicos, coloque V (verdadeiro) ou F (falso) nas afirmativas a seguir
+e assinale a opção que apresenta a sequência correta.
+( ) A nitretação permite, além da obtenção de elevada dureza superficial e elevada resistência ao desgaste,
+melhorar a resistência à fadiga, à corrosão e ao calor.
+( ) Na cementação, a temperatura do tratamento não deve ultrapassar os 500
+o
+C, para que a estrutura
+austenítica esteja em condições de absorver e dissolver o carbono.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 91 =====
+90
+( ) Antes da cementação, os aços devem ser normalizados para permitir usinagem, pois após a cementação
+somente operações de retificação podem conferir as dimensões e tolerâncias definitivas.
+( ) A cianetação consiste no aquecimento de um aço a uma temperatura acima de A1, num banho de sal
+de cianeto fundido, acarretando enriquecimento superficial de carbono e tungstênio simultaneamente.
+( ) A boretação consiste na introdução, por difusão, do elemento boro, na superfície do material,
+originando boreto de ferro com dureza muito elevada.
+a) (V) (F) (V) (F) (V).
+b) (F) (V) (F) (V) (F).
+c) (V) (F) (V) (V) (V).
+d) (F) (V) (F) (F) (F).
+e) (V) (V) (V) (V) (F).
+Comentário:
+Opa! Questão interessante que nos cobra conhecimento sobre os tratamentos termoquímicos! Vamos
+lá? Analisando cada assertiva de cima para baixo, temos:
+V - Perfeito, Coruja! “Ipsis litteris” da literatura específica! Exatamente esses são os objetivos do
+tratamento denominado Nitretação;
+F – Errado! Oras, pelo contrário, na Cementação vimos que a peça é aquecida até a temperatura crítica,
+indo até um pouco acima dessa zona (ficando entre 900 a 950
+o
+C). Além disso, veja que a assertiva fala
+besteira sobre a região austenítica, certo? Zona austenítica em 500
+o
+C? Nada a ver, Coruja! Vimos que a
+depender do aço, essa zona começa a ser atingida a partir de 727
+o
+C, aproximadamente;
+V – “Correctomundo”! Os aços devem ter granulação fina antes da cementação, pois essa característica
+confere melhor tenacidade na superfície que será endurecida e no núcleo da peça. Por isso, é comum a
+Normalização da peça (lembre-se que esse tratamento tem o objetivo de deixar o grão mais fino) antes
+da Cementação para garantir processos de Usinagem. Como cita a literatura específica, somente a
+Retificação pode ser empregada após a Cementação para melhorar dimensões e tolerâncias finais;
+F – Errada! Não é tungstênio o elemento introduzido junto ao carbono, Coruja e, sim, o nitrogênio!
+Peguinha clássico de bancas de concurso! Atenção, Coruja!;
+V – Exatamente! Como vimos em aula, é exatamente esse o princípio de funcionamento e o porquê a
+Boretação gera a dureza elevada na superfície da peça.
+Gabarito: “a”.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 92 =====
+91
+60. (Marinha – Técnico da Marinha – Mecânica – 2019)
+Que processo de tratamento térmico introduz maiores quantidades de carbono e é indicado para aços-
+carbono ou aços-ligas cujo teor original de carbono seja inferior a 0,25%, assegurando que as peças
+apresentem superfícies duras e um núcleo tenaz?
+a) Niquelação.
+b) Nitretação.
+c) Normalização.
+d) Cementação.
+e) Têmpera.
+Comentário:
+Estrategista, tranquilidade, “tchierto”? Vimos na parte teórica que a Cementação é um tratamento
+termoquímico (errado o enunciado classificar somente como térmico) na qual teremos a adição de
+carbono na superfície da peça. Normalmente, a peça é de uma liga de baixo carbono (como menciona a
+questão – 0,25 % de teor de carbono) e objetivo de obter uma superfície dura e com o núcleo mais dúctil
+e tenaz, justamente pela adição de carbono proveniente do meio no qual a peça está submetida. Assim,
+ela será aquecida até a temperatura crítica (atingindo temperaturas até um pouco acima da zona crítica,
+de 900 a 950
+o
+C) a fim da microestrutura austenítica se desenvolver e, por conta dela, ter a absorção de
+carbono em profundidades de até 3 mm a depender da temperatura, tempo e concentração de carbono
+do meio.
+Gabarito: “d”.
+61. (Marinha – Técnico da Marinha – Mecânica – 2019)
+Suponha que em determinado tratamento térmico as peças sejam levadas ao forno com temperaturas
+acima da zona crítica, na faixa de 750
+o
+C a 950
+o
+C, tendo sua estrutura cristalina transformada para
+austenita. Suponha ainda que, depois de uma a três horas, o forno seja desligado e a peça retirada e
+colocada para se resfriar sem interferências. Nesse caso, a estrutura final do aço passam a apresentar
+grãos finos, distribuídos de forma homogênea. Essa descrição diz respeito a que tratamento térmico?
+a) Têmpera.
+b) Recozimento.
+c) Normalização.
+d) Martêmpera.
+e) Austenização.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 93 =====
+92
+Comentário:
+Olha aí, Coruja, novamente uma questão sobre tratamento térmicos! Você precisa tê-los em mente para
+sua prova! A “deixa” da questão está na “estrutura final” que o enunciado cita. A microestrutura final
+formada por grãos finos é típica da normalização, também! Ela é atingida porque seu resfriamento ao ar
+tende a ser relativamente rápido, não dando tempo para o grão crescer. Além disso, a depender do aço
+(hiper ou hipoeutetoides) as temperaturas máximas do tratamento serão diferentes – logo acima da linha
+Acm para hipereuteóides e logo acima da linha A3 para hipoeutetoides. Por isso, a faixa indo de 750 a 950oC.
+Gabarito: “c”.
+62. (Marinha – Técnico da Marinha – Mecânica – 2019)
+Qual tratamento térmico é utilizado para aumentar a dureza dos metais ferrosos?
+a) Revenimento.
+b) Recozimento.
+c) Têmpera.
+d) Niquelação.
+e) Alívio de tensões.
+Comentário:
+Estrategista, falou em tratamento térmico com o objetivo principal de aumentar a dureza da peça,
+lembre-se da Têmpera! Dentre todas as alternativas, vimos que ela é a única que tem esse objetivo! A
+dureza elevada se dá pela microestrutura martensítica atingida na liga de aço. Além da dureza, o material
+terá elevada dureza, elevada resistência à tração e baixíssima ductilidade. Essas mudanças nas
+propriedades são atingidas pela presença do carbono que não conseguiu se “desprender” da
+microestrutura austenítica por conta do resfriamento extremamente rápido (mais rápido que na
+normalização). Como o carbono é pouco solúvel na microestrutura da ferrita (ferro alfa), pois sua célula
+unitária é CCC, ele gera tensões pela sua presença nos espaços das células unitárias, gerando a
+microestrutura martensítica que comentei (que é metaestável, desenvolvendo-se em dado momento
+células unitárias TCC – Tetragonal de Corpo Centrado) que garante a elevada dureza.
+Gabarito: “c”.
+63. (Marinha – Técnico da Marinha – Mecânica – 2018)
+Analise as afirmativas abaixo a respeito dos tratamentos termoquímicos.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 94 =====
+93
+I-) A nitretação é um tratamento de endurecimento superficial em que se introduz nitrogênio
+superficialmente no aço, até uma certa profundidade, sob ação de uma ambiente nitrogenoso, a uma
+temperatura determinada.
+II-) A cementação é um tratamento muito antigo, que consiste na introdução de carbono na superfície do
+aço, de modo que, depois de convenientemente temperado, o aço apresente uma superfície muito mais
+dura.
+III-) A cianetação, também conhecida como nitrocarbonetação, consiste em submeter o aço a uma
+temperatura elevada.
+Assinale a opção correta.
+a) Apenas a afirmativa I é verdadeira.
+b) Apenas a afirmativa II é verdadeira.
+c) Apenas a afirmativa III é verdadeira.
+d) Apenas a afirmativa I e II são verdadeiras.
+e) Apenas a afirmativa I e III são verdadeiras.
+Comentário:
+Que “moleza”, hein, Coruja? Vejamos cada assertiva:
+I-) Perfeito! Definição sucinta e resumida do processo termoquímico denominado Nitretação. Lembre-se
+que outras duas características que a difere da Cementação, além do fato da presença de nitrogênio: a
+Nitretação não precisa de posterior têmpera e a temperatura sempre é abaixo da zona crítica;
+II-) Exatamente! Outra definição correta! Lembre-se que a Cementação é o tratamento termoquímico
+mais antigo (já feito pelos romanos) e que, comumente, se faz a Têmpera (tratamento térmico) posterior;
+III-) Errada! Capciosa, mas errada! A Cianetação é um tratamento diferente da Carbonitretação (nome
+também errado na assertiva que vai de encontro com a literatura específica). Além disso, a faixa de
+temperatura da Cianetação é menor que a da Carbonitretação.
+Gabarito: “d”.
+64. (Marinha – Técnico da Marinha – Mecânica – 2018)
+Assinale a opção que apresenta exemplos de tratamentos isotérmicos.
+a) Têmpera e revenido.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 95 =====
+94
+b) Recozimento e cementação gasosa.
+c) Normalização e cementação sólida.
+d) Nitretação e cementação sob vácuo.
+e) Austêmpera e martêmpera.
+Comentário:
+Nossa! Maravilha, hein? Que caia mais uma dessas na sua prova, Coruja! Rs. Conforme vimos em aula, os
+dois tratamentos isotérmicos (que não necessariamente tem a mesma temperatura durante todo o
+processo) são: austêmpera e martêmpera.
+Gabarito: “e”.
+65. (Marinha – Técnico da Marinha – Mecânica – 2014)
+Dentre os tratamentos térmicos comuns das ligas metálicas, como se denomina o tratamento que se
+caracteriza pelo resfriamento muito rápido, que emprega geralmente líquidos, onde as peças são
+mergulhadas depois de aquecidas convenientemente?
+a) Revenido.
+b) Têmpera.
+c) Normalização.
+d) Recozimento.
+e) Coalescimento.
+Comentário:
+Como já mencionei várias vezes, Coruja: falou em velocidade de resfriamento MUITO rápida, falou em
+Têmpera!
+Gabarito: “b”.
+66. (Marinha – Técnico da Marinha – Mecânica – 2013)
+Qual é o tratamento térmico utilizado para se obter uma granulação mais fina no aço?
+a) Normalização.
+b) Têmpera.
+c) Revenido.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 96 =====
+95
+d) Recozimento.
+e) Esferoidização.
+Comentário:
+Novamente, Coruja: mais uma de tratamento térmico ou termoquímico! Não adianta, vai cair na sua
+prova! Conforme vimos, a Normalização é o tratamento térmico que visa atingir uma microestrutura
+composta por grãos mais finos, devido ao resfriamento rápido (não tão rápido quanto na Têmpera), que
+não permite o crescimento dos grãos.
+Gabarito: “a”.
+67. (Marinha – Técnico da Marinha – Mecânica – 2013)
+Em relação aos tratamento térmicos e termoquímicos, assinale a opção correta.
+a) A cementação consiste na introdução de carbono na superfície de aços de baixo carbono. A
+profundidade de cementação depende apenas da temperatura.
+b) O objetivo fundamental da têmpera das ligas ferro-carbono é obter uma estrutura perlítica, o que
+exige um resfriamento rápido.
+c) O revenido, realizado após a têmpera, tem como objetivo aliviar as tensões e corrigir a excessiva
+ductilidade do aço temperado.
+d) Na martêmpera, a formação da martensita se dá de modo uniforme através de toda a seção da peça
+e evita-se o aparecimento de quantidade excessiva de tensões internas.
+e) Na austêmpera consiste no aquecimento do aço a temperaturas acima da crítica, seguido de
+resfriamento rápido de modo a evitar a transformação da bainita, até o nível de temperaturas
+correspondentes à formação da austenita. O aço é mantido nessa temperatura até que toda a bainita
+se transforme em austenita.
+Comentário:
+Olha aí, Estrategista! Mais uma! O tema Tratamentos Térmicos e Termoquímicos é quente! Eu diria,
+fervendo para sua prova! Rs. Vamos ver cada alternativa:
+Letra “a”: começa bem, definindo exatamente a Cementação, porém a alternativa ao afirmar que a
+profundidade só depende da temperatura: ela irá depender, também, do tempo e da concentração de
+carbono do meio no qual a peça está inserida e sofre o tratamento em questão;
+Letra “b”: errada! Conforme vimos, o objetivo é atingir a microestrutura martensítica;
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 97 =====
+96
+Letra “c”: errada! De fato, o Revenido é feito após a Têmpera (como eu costumo dizer: é um “casalzinho”
+– sempre andam juntos! Rs.), cujo o objetivo é reduzir as tensões internas gerada pelo carbono intersticial
+que ficou retido. Todavia, ele visa corrigir o excesso de dureza e não de ductilidade (que é baixa por conta
+da Têmpera);
+Letra “d”: perfeita! Eis o nosso gabarito! Martêmpera, conforme vimos, é um tratamento isotérmico, no
+qual parte do processo tem resfriamento lento a fim de se atingir a homogeneidade na peça, com a
+microestrutura martensítica uniforme na peça inteira;
+Letra “e”: errada! A questão tenta confundir você, Coruja, começando certo! Mas, o erro é na troca das
+microestruturas austenita e bainita. Na realidade, depois do resfriamento rápido (que tem o intuito de
+evitar a transformação da austenita (em martensita, por exemplo) até a temperaturas de formação da
+bainita. Assim, a peça é mantida nessa temperatura até a completa transformação da microestrutura em
+bainita.
+Gabarito: “d”.
+68. (Marinha – Técnico da Marinha – Mecânica – 2012)
+Em relação aos tratamento térmicos aplicados aos aços, é correto afirmar que:
+a) A austêmpera é aplicada em aços de baixa temperabilidade.
+b) A normalização produz uma estrutura mais fina.
+c) O revenimento é aplicado no material logo após a cementação.
+d) A têmpera aumenta a ductilidade e a tenacidade do aço.
+e) O coalescimento aplica-se aos aços de baixo carbono.
+Comentário:
+Vejamos cada alternativa, Estrategista!
+Letra “a”: errada! Na realidade, o objetivo da Austêmpera é atingir a microestrutura chamada bainita
+que, por sua vez, substitui a martensita revenida, pois gera menos tensões internas. Por conta disso, ela
+é indicada para aços com elevada temperabilidade (temperabilidade é a capacidade do aço em atingir a
+microestrutura martensítica depois do tratamento de Têmpera, Coruja!).
+Letra “b”: perfeita! Conforme já vimos, esse é um dos objetivos da Normalização.
+Letra “c”: errada, o Revenido é aplicado logo após a Têmpera, a fim de eliminar as tensões internas
+geradas neste tratamento térmico.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 98 =====
+97
+Letra “d”: errada, pois um dos efeitos negativos da Têmpera é a baixa ductilidade e tenacidade atingida.
+Em contrapartida, aumenta-se a dureza e resistência mecânica da peça.
+Letra “e”: errada! O principal objetivo é reduzir a dureza do material e, assim, aumentar a usinabilidade
+dele. Esse objetivo é justamente alcançável por conta do desenvolvimento da microestrutura
+“esferoidita” que dá uma das denominações do processo, além de coalescimento. Dessa forma, esse tipo
+de recozimento é muito utilizado em aços alto carbono e não baixo carbono.
+Gabarito: “b”.
+69. (Marinha – Técnico da Marinha – Mecânica – 2012)
+Dentre os processos de tratamentos termoquímicos, a nitretação é caracterizada por:
+a) Ter uma faixa de temperatura mais baixa que a cementação.
+b) Utilizar a ação do nióbio no endurecimento superficial.
+c) Introduzir níquel na superfície de aços de baixo carbono.
+d) Possuir apenas a técnica que utiliza o gás amônia.
+e) Somente melhorar a resistência à fadiga e ao calor.
+Comentário:
+Estrategista, conforme vimos, o tratamento termoquímico denominado de Nitretação irá utilizar a ação
+do nitrogênio no endurecimento superficial (letras “b” e “c”, erradas). Além disso, possui diferentes
+técnicas além da utilização de gás amônia, podendo ser utilizado o banho de sal, com sais de sódio e
+potássio, como NaCN (letra “d”, errada). De fato, na Nitretação líquida com banho de sais há uma
+melhora na resistência à fadiga e ao calor, mas não é somente esse tipo de melhora que existe no
+tratamento, pois seu foco, é elevar a dureza superficial. (letra “e”, errada). De fato, a faixa de temperatura
+da Nitretação é em torno de 500 a 560
+o
+C, bem menor que na Cementação (entre 900 e 950
+o
+C) – (letra
+“a”, correta).
+Gabarito: “a”.
+70. (Marinha – Técnico da Marinha – Mecânica – 2012)
+Analise as afirmativas a seguir em relação aos tratamentos térmicos dos aços.
+I – O recozimento em caixa pode ser utilizado para eliminar o efeito do encruamento, porém não é capaz
+de proteger a superfície da oxidação.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 99 =====
+98
+II- O resfriamento posterior na normalização é mais lento do que no recozimento, o que produz uma
+estrutura mais grossa.
+III- O coalescimento visa à produção da estrutura esferoidita que confere aos aços uma dureza muito
+baixa.
+a) As afirmativas I, II e III são verdadeiras.
+b) Apenas a afirmativa I é verdadeira.
+c) Apenas a afirmativa I e II são verdadeiras.
+d) Apenas a afirmativa II e III são verdadeiras.
+e) Apenas a afirmativa III é verdadeira.
+Comentário:
+Vejamos cada assertiva, Coruja!
+I-) errada! Pelo contrário, justamente o Recozimento em Caixa, por conta da “caixa” temos a atmosfera
+protetora que visa proteger a superfície do material contra a oxidação pelo oxigênio atmosférico;
+II-) errada! Como vimos, na Normalização temos um resfriamento relativamente rápido quando
+comparado ao Recozimento e seu objetivo é atingir uma granulação mais fina, devido a velocidade de
+resfriamento não permitir o crescimento dos grãos;
+III-) certa! Dizer que a dureza ficara MUITO baixa é um exagero, mas por conta do formato dos grãos, de
+fato, ocorre uma diminuição da dureza e aumento da usinabilidade do aço. Esse tratamento também é
+denominado de Coalescimento, sendo considerado um tipo de recozimento por parte da doutrina.
+Gabarito: “e”.
+Felipe Canella, Juliano de Pelegrin
+Aula 01
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 100 =====

@@ -1,0 +1,1041 @@
+
+
+===== página 1 =====
+Aula 10
+PETROBRAS (Engenheiro de
+Equipamentos - Inspeção)
+Conhecimentos Específicos
+Autor:
+Felipe Canella, Juliano de Pelegrin
+17 de Março de 2023
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 2 =====
+1
+Sumário
+SIDERURGIA: ALTO FORNO, CONVERSORES, FORNOS ELÉTRICOS E FORNO CUBILÔ ................................... 3
+Introdução e Alto forno ................................................................................................................................... 3
+Operação do alto-forno ............................................................................................................................. 8
+Conversores - transformação em aço .......................................................................................................... 14
+Conversor Bessemer .................................................................................................................................. 15
+Conversor Thomas ..................................................................................................................................... 16
+Conversor de sopro lateral ....................................................................................................................... 17
+Conversor de sopro pelo topo .................................................................................................................. 17
+Lingotamento contínuo ............................................................................................................................... 18
+Forno cubilô................................................................................................................................................... 20
+Forno a arco elétrico ..................................................................................................................................... 22
+Questões com comentários ................................................................................................................................ 25
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 3 =====
+2
+TECNOLOGIA DE MATERIAIS
+Estrategista, é com enorme prazer que estou aqui com vocês para falarmos sobre Tecnologia de
+Materiais (também conhecida como Ciência dos Materiais). Nesta aula veremos os principais tópicos
+inerentes a esse "mundo" e sua grande importância para a Engenharia e todas as suas ênfases.
+Como de praxe, não deixe de seguir minhas redes sociais a fim de ter acesso a conteúdo exclusivo
+sobre questões comentadas em vídeo, dicas, esquemas e questões inéditas "tipo CEBRASPE":
+profcanelas t.me/profcanelas
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 4 =====
+3
+SIDERURGIA: ALTO FORNO, CONVERSORES, FORNOS
+ELÉTRICOS E FORNO CUBILÔ
+Estrategista, nessa parte da aula, veremos os principais tópicos presente no seu edital sobre a
+siderurgia. Para sua prova, não precisamos adentrar em todas as especificidades sobre o vasto campo da
+siderurgia, mas somente naquilo que está explícito no seu edital. Para isso, falaremos especificamente sobre
+os principais detalhes do alto forno, dos conversores, dos fornos elétricos e dos fornos denominados cubilô.
+“Simbora”, Coruja??? Avante!
+Introdução e Alto forno
+Estrategista, de acordo com a doutrina1, a indústria siderúrgica é responsável por todas as etapas
+suficientes e necessárias para produzir ferro e aço a partir de matérias-primas específicas. Dentro desse
+contexto, o processo clássico é aquele que se utiliza o “alto forno” que tem como produto final uma liga
+ferro-carbono (já falamos dela anteriormente) com alto teor de carbono – estamos falando do ferro gusa.
+Dessa forma, o minério de ferro é fundido e esse ferro gusa em estado líquido segue para a aciaria na
+qual, por outros fornos adequados, é transformado em aço. Esse aço será vazado e formará os “lingotes”
+que, por sua vez, passarão por processos de conformação em laminadores a fim de se tornarem tarugos,
+blocos ou placas.
+É claro, Coruja, que temos muito detalhes inerente ao processo que descrevi, mas que, para nós,
+nesse momento, não é importante. Todavia, antes de vermos especificamente os detalhes do alto forno,
+acredito que algumas informações iniciais sejam relevantes.
+Uma dessas informações é inerente às matérias-primas que são consideradas básicas para a literatura
+específica já mencionada. Por isso, memorize:
+1 Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Matérias-primas básicas da indústria
+siderúrgica
+Minério de ferro
+Carvão
+Calcário
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 5 =====
+4
+Nesse sentido, temos algumas funções de cada uma dessas matérias-primas. Assim:
+• Minério de ferro: principal matéria-prima, pois é a fonte de ferro;
+• Carvão: é o combustível do alto forno, além de atuar como redutor do minério (que possui
+muitos óxidos de ferro) e fornecedor de carbono (elemento de liga principal de muitos produtos
+como o aço, por exemplo).
+• Calcário: é o “fundente” que reage com as substâncias estranhas (impurezas que podem ser
+chamadas de gangas do minério, diferente da canga que veremos adiante) contidas no minério e
+no carvão (as cinzas do carvão), formando a escória. Sua natureza é básica.
+Obviamente, existem outros minérios, mas o mais importante, é o de ferro. Nessa seara, saiba que
+os principais óxidos que possuem ferro são: magnetita (óxido ferroso-férrico) cuja fórmula é Fe3O4 contendo
+72,4% de Fe; hematita (óxido de ferro), cuja fórmula é Fe2O3, contendo 69,9% de Fe e a limonita (óxido
+hidratado de ferro), cuja fórmula é 2Fe2O3, contendo cerca de 48,3% de Fe. Outra denominação é a wustita
+que é o nosso FeO que veremos nas reações no decorrer da aula.
+Coruja, além desses minérios típicos, também temos outros que parte da doutrina aponta como
+importantes:
+• Itabirito: pode ser campacto (que tem Fe entre 56 e 66%) e possui hematitas lamelares, formado
+por grãos de quartzo e palhetas de hematita e o friável, denominado de jacutinga, é facilmente
+reduzível a pó;
+• Canga: possui teor de ferro entre 50 e 60% e é considerado um minério secundário. É o minério
+de mais baixo teor de Fe e alto teor de fósforo (grave isso). Todavia, ele é útil em Usinas que
+possuem altos fornos a carvão vegetal, devido à sua porosidade;
+Coruja, atenção: lembre-se que o carvão, além de ser o combustível e fornecedor de
+carbono, ele é o redutor (agente redutor) do minério de ferro! Dessa forma, por ser o
+redutor, ele (o carvão) oxida! Depois, é claro, veremos nas reações que é o monóxido de
+carbono (CO) é o componente que sofre oxidação e reduz o minério para gerar o ferro
+metálico (Fe
+o
+).
+Acerca do carvão, mais algumas informações são relevantes, além das três principais que eu irei
+repetir (não xingue minha mãe, mas é bom para você): fornecedor de calor para a combustão, fornecedor
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 6 =====
+5
+de carbono para o processo de redução do óxido de ferro e fornecedor de carbono para elemento de liga
+do ferro gusa. Lindo!
+“Tá, quais são essas informações, próf?” São aquelas relacionadas com a produção desse carvão (que
+pode ser chamado de coque) e do carvão vegetal ou de madeira. Vejamos:
+• Carvão coque: o coque é obtido pelo processo de “coqueificação” do carvão mineral que consiste
+no aquecimento deste a altas temperaturas e, geralmente, em câmaras fechadas
+hermeticamente (sem ar). Como resíduo resultante desse processo, temos o coque que é
+separado por destilação. Além disso, saiba que o carvão mineral betuminoso é o mais adequado
+para a produção de coque. Memorize que esse coque que estamos falando é uma substância
+porosa, celular e heterogênea, no que tange a sua natureza química e física. Saiba, também, que
+sua qualidade está associada ao teor de impurezas do carvão mineral que o originou. Dentre elas,
+enxofre, nitrogênio, fósforo, por exemplo;
+• Carvão vegetal: também chamado de carvão de madeira, é fabricado por um processo chamado
+de pirólise da madeira que é uma quebra das moléculas complexas que as constituem. O resíduo
+desse processo de aquecimento é o carvão vegetal ou de madeira.
+Coruja, feita essa breve introdução com algumas definições (que são as informações mais
+importantes), vejamos os detalhes específicos do alto-forno. Primeiramente, vamos começar pela
+construção do alto-forno.
+Ele é constituído de três partes fundamentais: o cadinho, a rampa e a cuba. Por isso, memorize para
+sua prova:
+• Cadinho: parte do alto-forno na qual se acumula tanto o metal fundido quanto a escória, por
+conta das reações que ocorrem internamente. Essa parte possui forma cilíndrica e é feito com
+chapa grossa de aço e com revestimento interno refratário (podendo ter tubos de água para
+resfriamento para suportar as elevadas temperaturas e pressões). Na sua parte inferior, temos o
+canal para escorrer o ferro gusa, bem como em cima o furo para correr a escória. Além disso,
+temos as ventaneiras para soprar ar pré-aquecido e sob pressão;
+• Rampa: tem formato troncocônico, sendo a zona na qual o ar é mais quente (tem necessidade
+da circulação de água a fim de obter o resfriamento adequado);
+Partes fundamentais de um alto-forno
+Cadinho
+Rampa
+Cuba
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 7 =====
+6
+• Cuba: é a região, também em formato troncocônico, com sua seção menor na goela ou topo
+(topo do forno). No total, um alto-forno pode chegar a 30 metros de altura;
+Lá no topo temos os sistema de carregamento. O tipo mais comum é o “copo e cone” e que tem o
+objetivo de realizar uma distribuição uniforme da carga e evitar a evasão de gases para a atmosfera.
+Outros acessórios importantes que podem aparecer na sua prova de maneira direta são: o coletor
+de poeiras, lavadores e regeneradores de calor. Vejamos cada uma de suas características:
+• Coletor de poeiras: tem como função fazer o recolhimento da poeira carregadas nos gases;
+• Lavadores: esse acessório atua retirando partículas pelo emprego de um campo elétrico que
+ioniza essas partículas, atraindo-as para as paredes do aparelho;
+• Regenerador de calor: é o acessório mais importante que serve de auxílio ao alto-forno. Também
+denominados de Estufas, os Regeneradores de Calor são utilizados para pré-aquecer o ar frio que
+servirá para o alto-forno. São equipamentos que armazenam calor pelo gás do alto-forno que
+entra na câmara de combustão deste aparelho. Esse gás, passa para uma segunda câmara do
+regenerador, chamada de câmara de empilhamento constituída de tijolos refratários. O objetivo,
+Coruja, é aquecer esses tijolos até 14oo
+o
+C a fim de que o ar frio que adentrar essa câmara seja
+aquecido antes de fazer o caminho de retorno até a câmara de combustão e ir par ao alto-forno.
+Veja uma figura
+2
+esquemática a fim de ilustra algumas partes do alto-forno.
+2 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 8 =====
+7
+Estrategista, o principal produto final produzido pelo alto-forno é o ferro gusa, como já comentei.
+Mas, o que é o ferro fusa? Nada mais é que uma liga de ferro-carbono com alto teor de carbono (de 3 a 4,5%)
+com teores variáveis de outros elementos como: silício (0,5 a 4,0%), manganês (0,5 a 2,5%), fósforo (0,05 a
+2,0%) e enxofre (0,2% no máximo).
+Além do ferro gusa, a escória (produto resultante da combinação do calcário, ganga do minério e
+cinzas do carvão) pode ser utilizada como lastro de ferrovias e material isolante, por exemplo. Uma aplicação
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 9 =====
+8
+típica e mais importante, Estrategista, é o tal cimento metalúrgico (tem “cheiro” de prova cobrar esse tipo
+de coisa, viu?).
+Outro produto final típico é o gás do alto-forno (com alto poder calorífico) e que, como vimos, é
+utilizado no regenerador no próprio processo siderúrgico.
+Portanto, memorize, pois tem chance de aparecer cobrança nesse sentido:
+Legal, Estrategista. Tivemos umas noção geral de como é feito um alto-forno. Agora, é interessante
+sabermos alguns detalhes de sua operação. Vejamos.
+Operação do alto-forno
+Sem adentrar todas as inúmeras reações químicas que acontecem no alto-forno, Coruja, por conta
+do custo benefício ser pífio, é interessante conhecermos as principais do começo do processo e os produtos
+finais de algumas reações que formarão a escória, a ganga e as impurezas que sobram.
+Basicamente, Coruja, quando temos o começo do processo no alto-forno, duas correntes de
+materiais serão responsáveis pelas reações que veremos. De acordo com a literatura, uma corrente é a sólida
+(carga que desce no alto-forno) e uma corrente gasosa (proveniente da reação do carbono do carvão com o
+oxigênio do ar que é soprado pelas ventaneiras).
+Na região próxima das ventaneiras (onde as temperaturas são mais elevadas), temos a primeira
+reação que eu quero que você guarde, Coruja: o dióxido de carbono (CO2) se tornando monóxido de carbono
+(CO que será o nosso agente redutor do minério, que já vimos).
+CO2 + C → 2CO;
+A partir desse momento, temos as reações de redução acontecendo no minério, tanto pelas reações
+com o monóxido de carbono (CO) que são as equações 1, 2 e 3, quanto pelo carbono do carvão que também
+atua reduzindo o minério de ferro, como na equação 4:
+(1) 3Fe2O3 + CO → 2Fe3O4 + CO2;
+Produtos finais produzidos no alto-forno
+Ferro gusa
+Escória
+Gás do alto-forno
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 10 =====
+9
+(2) Fe3O4 + CO → 3FeO + CO2;
+(3) FeO + CO → Fe+ CO2;
+(4) Fe2O3 + 3C → 2Fe+ 3CO;
+Além dessa reações, temos a decomposição de alguns carbonatos (de cálcio e magnésio, por
+exemplo) que fazem parte do calcário na temperatura de 800
+o
+C. As reações são as seguintes:
+CaCO3 → CaO + CO2;
+MgCO3 → MgO + CO2;
+Coruja, é importante ter em mente, é claro, que todas essas reações não são "exatas" na prática. O
+que eu quero dizer que nem todo o minério de ferro será reduzido, por exemplo. Parte dele que chega a
+zona de fusão não sofre redução e irá se incorporar à escória. Por conta disso, na região de topo da rampa
+(veja lá na figura), começa a se formar a escória pela combinação de CaO, a ganga (impurezas do minério) e
+uma parcela de óxido de ferro e manganês.
+Essa escória formada, junto com o ferro começa a gotejar e a depositar no cadinho. Além disso, temos
+outras reações entre os óxidos de diferentes elementos presente no minério com o carbono que julgo
+informação pouco provável de ser alvo da banca.
+Todavia, as últimas reações podem aparecer, pois ocorrem quando o ferro chega à zona de elevada
+temperatura da rampa, formando o nossa protagonista do "movie": o ferro gusa. Ainda se incorporarão
+nesse ferro gusa, manganês, silício, fósforo e enxofre (veja, conforme falamos em outras aulas, que sempre
+teremos certo teores de elementos na ligas de ferro e carbono, como no aço que será obtido na aciaria).
+Por fim, Coruja, é importante conhecer algumas regiões específicas dentro do alto forno. Temos 4
+grandes regiões
+3
+interessantes e exemplificadas na figura a seguir (sugiro memorizar essas regiões, apesar
+de os limites não serem tão bem definidos entre cada região, podendo cada uma "adentrar" um pouco a
+zona de outra):
+3 Adaptado do Departamento de Engenharia de Materiais e Metalurgia da Universidade de São Paulo, 2017.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 11 =====
+10
+1. Zona Granular: zona na qual o minério e o coque mantêm a sua configuração em camadas tais como
+foram carregados (camadas alternadas de coque e de minérios). Nesta região existem apenas duas
+fases (gases e sólidos), portanto a redução dos óxidos de ferro ocorre apenas no estado sólido;
+2. Zona Coesiva: constituída de camadas de coque e camadas coesivas alternadas. As camadas coesivas
+são formadas de massas semifundidas de partículas de minério de ferro, praticamente impermeáveis
+ao fluxo gasoso, que passa preferencialmente através das camadas de coque. Ela situa-se na faixa de
+temperatura compreendida entre o início do amolecimento e fusão da carga metálica. Veja a figura
+abaixo:
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 12 =====
+11
+3. Zona de gotejamento: contém coque na forma sólida, em cujos interstícios gotejam o gusa e a
+escória. Esta zona é dividida em duas subzonas: a região de coque ativo e o “homem morto”. Durante
+a descida das gotas de gusa para o cadinho acontecem importantes reações que incorporam os
+elementos de liga ao gusa;
+4. Zona de Combustão: região gasosa em frente as ventaneiras. À medida que as partículas de coque
+circulam, vão sendo queimadas, gerando o gás redutor e energia. Também o carvão pulverizado
+injetado deve queimar dentro desta zona.
+Diagrama de Ellingham
+Estrategista, esses diagramas consistem em um gráfico que relaciona a energia livre de Gibbs com a
+temperatura. Eles nos mostram algumas informações sobre os sistemas e reações que os compõem. Diversas
+informações podem se extraídas desses diagramas. Para nós, é interessante conheceremos as informações
+relativa a estabilidade dos óxidos e a capacidade redutora de alguns elementos metálicos. Vejamos:
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 13 =====
+12
+A primeira informação que nos interessa é saber sobre a estabilidade dos óxidos entre as reações
+apresentadas. Nessa seara, de acordo com a doutrina, você vai memorizar que quanto menor for o valor de
+∆G
+o
+, menor é pressão de O2 no sistema/reação. Dessa forma, mostra o quanto o metal em análise possui
+afinidade pelo oxigênio. Por exemplo, a 400
+o
+C, o abaixamento da pressão de O2 no sistema Si + O2 → SiO2 é
+maior que a do sistema 2Zn + O2 → 2ZnO. Logo, SiO2 é mais estável que o 2ZnO. Veja lá as duas curvas.
+Além disso, a capacidade redutora dos metais também é extraída. Aqui, memorize que para um
+temperatura escolhida, um elemento metálico será o agente redutor de qualquer óxido cuja linha se
+encontra acima dele. Por exemplo, a 800
+o
+C (veja lá no gráfico), o Alumínio metálico (Al) pode ser usado
+como agente redutor do MnO (óxido de magnésio) para atingir o Mn metálico (no óxido, o NOX do Mn é +2
+e reduz, ficando com NOX = 0, como Mn metálico, estabilizado).
+Vamos fazer alguns exercícios:
+(CEBRASPE/METALURGIA)
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 14 =====
+13
+O diagrama de Ellingham, mostrado na figura acima, é utilizado como referência para a obtenção de metais
+por oxidação. Considerando a figura e a redução de óxidos metálicos, julgue os itens a seguir
+O carbono é considerado um bom agente redutor devido à forma bastante estável de seus óxidos gasosos
+(CO e CO2).
+Certo ( ) Errado ( )
+Comentário:
+Exatamente! Apesar de outros elementos não serem reduzidos por eles a depender da temperatura, veja
+que eles são bons agentes redutores dos elementos acima da sua curva. Por isso, é muito usado para reduzir
+o ferro (repare na curva do óxido de ferro) nos processos siderúrgicos.
+Gabarito: correto.
+(CEBRASPE/METALURGIA)
+O óxido de chumbo é mais estável que o óxido de magnésio.
+Certo ( ) Errado ( )
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 15 =====
+14
+Errado! Conforme vimos na explicação, a linha de reação do óxido de chumbo está acima da linha do
+magnésio. Logo, o óxido de magnésio é mais estável que o óxido de chumbo!
+Gabarito: errado.
+Conversores - transformação em aço
+Coruja, conforme vimos, o ferro gusa é o produto final formado por uma liga ferro-carbono. Todavia,
+ele contém muitas impurezas (elementos químicos como Si, Mn, P e S) em teores elevados. Por conta disso,
+para a produção do aço (liga ferro-carbono, como vimos) que possui teores desses elementos (inclusive, do
+carbono – vimos que vai até cerca de 2,2%) se faz necessário o processo de oxidação do ferro gusa.
+Nesse sentido, temos os diferentes tipos de processos para a fabricação de aço que podem ser
+classificados no grande grupo de pneumáticos.
+Para esses processos pneumáticos, Coruja, teremos os chamados conversores (equipamentos tipo
+forno) que fazem parte da unidade de Aciaria (etapa de produção de aço na siderurgia).
+Conforme aponta a doutrina4, Estrategista, dentro dos processos pneumáticos, teremos cerca de 4
+tipos de conversores:
+4 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Processsos de
+produção de aço
+Processos pneumáticos - agente oxidante é o ar ou o oxigênio
+Tipos de conversores
+pneumáticos
+Conversor Bessemer
+Conversor Thomas
+Conversor sopro lateral
+Conversor sopro pelo topo
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 16 =====
+15
+De maneira sucinta (já que esse assunto foi quase inexistente em provas anteriores), veremos os
+aspectos principais sem perder seu tempo e encher sua cabeça com detalhes da operação de cada um
+(acredito que não serão o alvo principal).
+Dessa forma, vejamos os principais detalhes de cada conversor listado (atenção para os seus nomes
+e grupo que fazem parte), de acordo com a literatura mencionada:
+Conversor Bessemer
+A primeira informação a se guardar é que ele é o mais tradicional conversor utilizado no grupo dos
+pneumáticos. Além disso, saiba que ele tem um formato de uma “pera” (guarde essa informação, pois tem
+“cheiro” de prova!). Esse tipo de conversor (que nada mais é que um tipo de forno, Coruja) é revestido
+internamente com material refratário silicoso de natureza ácida.
+O forno é suspenso por dois munhões que permitem sua rotação em dois sentidos (um para o
+carregamento de ferro gusa e outro pro vazamento do produto final). No carregamento são utilizados sucata,
+casca de óxido e, se desejado, minério, além do “protagonista” da operação – o ferro gusa líquido. As
+ventaneiras localizadas no interior do conversor sopram o ar pelo fundo, fazendo com que seja formados os
+óxidos de cada elemento, sendo o silício, por exemplo, em primeiro lugar.
+Em um segundo momento, o carbono é oxidado e sua eliminação corresponde ao final da operação.
+Nessas etapas, temos a mudança de coloração da chama conforme acontece o sopro de ar – na etapa final
+a chama possui raias vermelhas e muda instantaneamente para amarelo-dourada. Assim, Coruja, temos o
+“fim do sopro” ou “ponto final”, como aponta a doutrina
+5
+. Por fim, o metal, agora, será agora desoxidado e
+dessulfurado com adição de manganês no forno.
+Estrategista, uma informação que tem “tudo” para cair é quanto ao tipo de aço obtido por esse
+conversor. Nesse sentido, temos dois tipos principais:
+• Aço com baixo teor de carbono: esse é o principal tipo obtido no processo, tendo menos 0,10%
+de carbono e menos de 0,50% de manganês. Além disso, memorize que silício fica em teores
+extremamente baixos (cerca de 0,005%), ao passo que fósforo fica em 0,08% e enxofre com
+0,25%;
+• Aços acalmados: esse tipo de aço é produzido quando são utilizados desoxidantes fortes, como
+Fe-Si, alumínio e o próprio carbono. Esses aços acalmados chegam a ter 0,10% ou mais de
+carbono, 0,35 a 1,25% de manganês, 0,10 a 0,30% de silício, 0,08% de fósforo e 0,025% de
+enxofre.
+5 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 17 =====
+16
+Perceba, Estrategista, como o teor de silício é bem superior nos aços acalmados do que
+no aços com baixo teor de carbono no conversor Bessemer!
+Conversor Thomas
+A primeira grande informação que você precisa guardar, Coruja, é que esse conversor se diferencia
+do conversor Bessemer pelo fato do seu revestimento ser de caráter básico, produzido em dolomita.
+De maneira geral, sua operação, como aponta a doutrina citada, é igual ao do Bessemer. Todavia, há
+algumas peculiaridades. As principais características sobre esse conversor que eu quero que você guarde
+inerente a sua operação são as seguintes:
+• Transporte do ferro gusa do alto-forno ao conversor pode sofrer dessulfuração prévia por conta
+da adição de “barrilha” ou carbonato de sódio o que forma uma escória que deve ser retirada
+cuidadosamente;
+• Antes de começar o sopro, adiciona-se cal junto com o ferro gusa;
+Agora, muita atenção! Foco no que vai ler, Coruja! Rs. A principal diferença (“cheiro” de prova) da
+operação entre o conversor Thomas e o conversor Bessemer é inerente as reações químicas que vão
+permitir, no conversor Thomas, a remoção do fósforo por conta da utilização do cal. Isso é possível, pois o
+forno é revestido com material refratário de natureza básica (como eu lhe disse). Essa mesma lógica se aplica
+a remoção do fósforo.
+Se liga, Coruja: A remoção de silício, carbono e manganês é igual ao do conversor
+Bessemer! ;)
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 18 =====
+17
+Conversor de sopro lateral
+Primeira característica, Estrategista, é a seguinte: são conversores de pequena capacidade! Além
+disso, seu revestimento é silicoso (como no Bessemer) e, portanto, tem natureza ácida!
+Nesse processo, temos o ar introduzido (adivinha?) lateralmente e de forma que fique acima da
+superfície do banho metálico. A reação inicial será produzido óxido de ferro, no qual oxidará o silício, o
+manganês e certa quantidade de carbono.
+Outra característica importante é que o processo acontece de forma isotérmica, por conta das
+reações de oxidação do silício e do manganês.
+Estrategista, atenção! Outro nome para esse conversor é o conversor Tropenas!
+Conversor de sopro pelo topo
+Nesse tipo de conversor, conforme aponta a literatura específica6, a primeira informação para sua
+prova é saber que a operação mais famoso se chama LD (Linz-Donawitz) ou processo BOP (do inglês, Basic
+Oxigen Process).
+“Pescou” a segunda denominação do processo, Coruja? Pois é! Isso porque nesse conversor do grupo
+dos pneumáticos, teremos o sopro efetuado com cerca de 95 a 99,5% de oxigênio! Por isso, as temperaturas
+são bem elevadas nesse conversor por conta dessa combustão com muito oxigênio.
+Além disso, esse conversor é, também, de revestimento básico (como o conversor Thomas), sendo
+produzido em dolomita ou magnesita. Assim, nele também teremos a redução de teor dos principais
+elementos do ferro gusa.
+Outra característica que você tem de levar para sua prova é que no conversor de sopro pelo topo (ou
+LD ou BOP), temos uma lança de oxigênio que irá soprar esse gás a uma proximidade do banho líquido bem
+6 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 19 =====
+18
+pequena (de 0,30 a 1,00 metro). Além disso, esse tipo não possui as ventaneiras de aberturas no fundo
+(como no Bessemer).
+Por fim, uma característica a ser pontuada é que o mecanismo de eliminação de carbono é feito pela
+oxidação na forma de monóxido de carbono (CO) e dióxido de carbono (CO2). Por conta disso, uma
+característica marcante do processo é a possibilidade de interromper-se a oxidação do carbono caso ela
+esteja em níveis elevados (já que algum teor de carbono é necessário no aço). Dessa forma, o processo pode
+ser controlado por computador para a precisão de cálculos, limitando a quantidade de oxigênio a ser
+soprado.
+Lingotamento contínuo
+Um dos processos siderúrgicos que as bancas gostam (e com a sua, não é diferente) é o lingotamento
+contínuo, Coruja. Normalmente, a cobrança sobre esse processo provém, inclusive do mercado, com
+questões retiradas explicitamente.
+Bom, o lingotamento contínuo, basicamente, pode ser considerado um processo no qual o metal
+líquido é despejado e começa a ser solidificado, gerando um produto semiacabado (tarugo, blocos, bleam
+blank ou placas).
+Assim, depois do refino na aciaria, o metal líquido segue para um guia (chamada também de calha)
+que é acoplada ao fundo de uma panela e revestida de material refratário. Todo esse sistema existe para
+fazer a condução do metal líquido para um distribuidor que, por sua vez, faz o encaminhamento para a
+solidificação. Sem mistério, Coruja, basicamente, temos um "caminho" que esse material faz fazer, um
+percurso, durante sua solidificação.
+Acerca dessa parte, Coruja, é necessário conhecer os fatores que impactam na solidificação da nossa
+liga metálica. São eles: a composição química do material, a velocidade de vazamento (que tem relação
+com o tempo) e a temperatura.
+Assim, o primeiro ponto que devemos ter em mente é que a extração de calor sempre ocorre de
+maneira mais elevada (e gera um resfriamento maior do material) nas paredes dos moldes (vimos isso na
+aula de fundição). Lembre-se que os efeitos sobre os grãos aqui são os mesmos, com zonas diferentes do
+material. Vamos relembrar. De maneira breve, de acordo com a literatura específica
+7
+:
+• Zona coquilhada: região de contato com as paredes do molde que gera uma fina camada que
+é super-resfriada, com nucleação intensa de pequenos grãos equiaxiais sem orientação
+cristalográfica (é aleatória). Por isso, também pode receber o nome de zona equiaxial fina de
+superfície;
+7 Adaptado de Luz, S.M. Método de Monte Carlo Aplicado ao Processo de Lingotamento Contínuo. UFRG. Porto Alegre, 2011.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 20 =====
+19
+• Zona colunar: formada por grãos alongados que vão crescendo paralelamente ao fluxo calor,
+desenvolvendo-se a partir dos grãos coquilhados e terminam com o surgimento da próxima
+zona equiaxial;
+• Zona equiaxial central: localizada no centro do lingote, é formada por grãos aleatórios e se
+forma quando a região do centro do lingote se torna super-resfriada.
+8
+Por isso, na etapa de solidificação, temos que ter temperatura e velocidade de vazamento
+controladas, pois se forem baixas, a crosta formada na superfície do material, se solidifica rapidamente e
+isso pode gerar defeitos no material. Todavia, quando a temperatura e a velocidade de vazamento são
+diminuídas, ocorre um aumento da espessura da camada solidificada (mais material e temperatura menor
+que favorece a solidificação) que implica uma camada não suscetível à fratura e menor oxidação.
+Outro ponto importante, Estrategista, é quanto ao refinamento do aço, onde os teores dos
+elementos químicos e impurezas são controlados e os teores de vários elementos reduzidos lá do ferro-gusa.
+Nessas etapas de refinamento, teremos vários processos para reduzir os teores de manganês,
+fósforo, carbono, óxidos, etc. Dessa forma, temos no refino primário teores de diferentes elementos sendo
+reduzidos, por diferentes processos, tais como desoxidação, desfosforação, dessulfuração e descarburação.
+Todavia, guarde que é no refino secundário do aço que esses processos serão mais controlados e teremos
+os ajustes de composição química e de temperatura.
+8
+Adaptado de Flemings, M.C. Solidification Processsing. New York: McGraw Hill Book Co., 1974.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 21 =====
+20
+(IESES/Instituto Federal Catarinense)
+Para se obter aço-carbono da usina siderúrgica é necessário se fazer o refino do ferro gusa. A fabricação do
+aço a partir do ferro gusa pode ser realizada de várias formas, com a utilização de conversores (ou
+convertedores), e fornos. Assinale a alternativa que corresponde aos tipos de conversores comumente
+usados nas aciarias.
+a) Processo Bessemer, Processo Thomas e Processo LD.
+b) Processo Thomas, Processo de Alto Forno e Forno elétrico.
+c) Processo de Alto Forno, Processo LD e Processo Bessemer.
+d) Processo LD, Processo Neutro e Processo Bessemar.
+Comentário:
+Veja, pessoal! Questão tranquila que deseja saber de você o seu conhecimento sobre os principais
+conversores que existem hoje, no mercado. Oras, vimos que os conversores mais utilizados nas aciarias
+(lugar de obtenção de aço), são: Bessemer, Thomas e LD (também chamado de Sopro Pelo Topo)!
+Gabarito: "a".
+Estrategista, veremos agora, as características principais dos fornos!
+Forno cubilô
+Estrategista, de acordo com a doutrina9, o forno cubilô é um tipo de forno utilizado apenas na
+produção de ferro fundido. Conforme já vimos no decorrer da aula, o ferro fundido é uma liga ferro-carbono
+que possui teor de carbono, comumente, entre 2,2 a 4,0% de carbono), podendo ter alguns tipos até 6,7%
+de carbono (mais raros).
+Esse tipo de forno consiste em uma grande forno de formato cilíndrico e vertical, adaptado com uma
+bica de vazamento em sua base. Uma característica típica desse tipo de forno, Coruja, é que o carregamento
+9 Adaptado de GROOVER, M. P. Introdução aos Processos de Fabricação. Editora: LTC, Rio de Janeiro, 2014.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 22 =====
+21
+(ferro, coque, fundente e outros elementos de liga) ocorre por uma porta localizada abaixo da metade da
+altura do forno. Veja a figura
+10
+a seguir que ilustra um forno cubilô:
+Durante a operação, Coruja, as portas de limpeza semicirculares são mantidas fechadas.
+Normalmente, o nível de carregamento ilustrado na figura é localizado em uma posição a mais alta possível.
+10 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 23 =====
+22
+A operação se inicia depois de limpado o forno e com fogo no fundo dele para queimar a madeira e
+o coque. No começo, as aberturas de escória e do vazamento de metal líquido ficam abertas. Assim, que a
+camada de coque atinge a altura das ventaneiras e o fogo atravessado toda a camada de coque, começa-se
+o carregamento com ferro gusa, sucata, coque e fundente (calcário) até o nível da porta de carga tenha sido
+atingido.
+Outro detalhe que eu quero que você leve para sua prova é em relação aos tipos de operação no
+cubilô. Memorize:
+Basicamente, a diferença entre elas é que na intermitente, a corrida de metal líquida acontece de
+forma periódica, sendo retirada a quantidade de metal líquido por meio do furo que em seguida é fechado.
+Por outro lado, Coruja, na contínua, como o nome sugere, existe um furo somente para a corrida e o
+metal fundido com a escória é conduzido para uma pequena bacia de vazamento. Assim, o ferro fundido
+líquido e a escória se acumulam no fundo do cubilô e a escória flutuando em cima (menor densidade) escorre
+lateralmente pelo bico de corrida de escória e o ferro fundido líquido pela calha de corrida até a panela.
+Um detalhe para sua prova é que o forno cubilô não é utilizado para produzir materiais com alto nível
+exigência quanto a uniformidade e qualidade. Por conta disso, para ferro fundido nos quais as
+especificações são mais rigorosas, é comum o uso do forno a arco elétrico. Veremos a seguir para fechar
+esse assunto! Avante!
+Forno a arco elétrico
+Coruja, o forno a arco elétrico também consiste em de uma carcaça (cilíndrica) em aço com material
+refratário com seu revestimento. Aqui temos um detalhe: esse revestimento pode ser de natureza ácida ou
+de natureza básica e recebe o nome de soleira! Logo, se a questão mencionar “soleira”, atenção, pois pode
+ser sobre esse tipo de forno!
+Além disso, a parte de cima do forno (também chamada de abóbada) também é revestida com tijolo
+refratários do tipo silicoso. Todavia, a grande diferença desse forno está na fonte de energia (calor) para o
+sistema – ela é proveniente de três eletrodos cada qual ligado a uma fonte de alimentação trifásica.
+Tipos de operações no cubilô
+Intermitente
+Contínua
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 24 =====
+23
+Esses eletrodos podem ser feitos em carbono ou em grafita. Todavia, conforme menciona a doutrina,
+normalmente, a grafita costuma ser a melhor escolha por conta da sua maior resistência e condutibilidade
+elétrica.
+Como você deve imaginar, Coruja, o aquecimento provém dos arcos elétricos formados entre os três
+eletrodos e tem como o principal controle de fusão a variação de voltagem pelo transformador ligado aos
+eletrodos por cabos de cobre. Veja a figura
+11
+a seguir que ilustra um exemplo de forno a arco elétrico.
+Um ponto interessante para sua prova, Coruja, é que o forno a arco elétrico pode fundir qualquer
+tipo de sucata! (Memorize essa informação, pois ... Você sabe... tem o quê? “Cheiro”... Exato. Rs).
+11 Adaptado de Chiaverini, V. Tecnologia Mecânica: processos de fabricação e tratamento. Editora: Makron Books do Brasil Ltda, 2ª edição, vol: I, II, III. São Paulo, 1986.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 25 =====
+24
+Quando o forno elétrico é empregado para fundir ferro fundido, a carga é constituída, normalmente,
+de sucata de ferro fundido e de aço, bem como o controle dos teores de carbono e silício é feito pela inclusão
+de carbono, só que na forma de coque e Fe-Si. (Informação decoreba que você só precisa saber isso para
+esse tipo de fundição).
+Por outro lado, na fundição de aço, eu quero que você saiba que temos duas técnicas:
+• Ácida: dessa técnica, Coruja, acredito ser importante você saber que a soleira é feita de areia
+silicosa e tijolos refratários. A carga do forno é de sucata de aço com baixos teores de fósforo e
+enxofre, porque na técnica ácida a eliminação desses elementos não ocorre. Durante a fusão,
+areia e calcário são adicionadas para formar a escória protetora;
+• Básica: nessa técnica memorize que o revestimento refratário é feito em magnesita ou dolomita
+(natureza básica). Além disso, a carga é constituída de sucata de fundição e sucata adquirida e
+durante a fundição é adicionado cal para formar a escória protetora e depois de adicionado o
+minério de ferro, o fósforo é retido no metal fundido;
+Após, temos a etapa chamada de refino, Estrategista, que consiste basicamente em reduzir a corrente
+elétrica pelos eletrodos e espalhar na superfície do banho coque pulverizado, carbono ou ferro-silício,
+podendo até ser uma combinação de todos esses materiais. Essa etapa de refino tem como objetivo atingir
+uma escória de carbureto de silício que irá retirar o enxofre do metal líquido.
+Por fim, a composição desse banho é controlada pelo ajuste nos teores de carbono, adicionando-se
+ferro gusa com baixo teor de fósforo, de ferro-silício e ferro-manganês atingindo o momento certo para o
+metal líquido ser vazado.
+Duas técnicas de fundição de
+aço no forno elétrico
+Técnica Ácida
+Técnica Básica
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 26 =====
+25
+QUESTÕES COM COMENTÁRIOS
+CEBRASPE
+1. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Julgue os itens seguintes, relativos aos processos de fabricação de produtos e peças metálicas.
+Na indústria siderúrgica, obtém-se ferro metálico por meio de reações de oxirredução de minérios de
+ferro como a hematita e, nesse processo, realizado em altos-fornos, o coque é utilizado para o
+fornecimento tanto de calor quanto de agentes redutores na forma gasosa.
+( ) Certo ( ) Errado
+Comentário:
+Questão tranquila, Coruja! Lembre-se quando falamos sobre o carvão (também chamado de coque no
+processo siderúrgico, quando esse carvão passa pela “coqueificação”) e suas funções sobre o minério de
+ferro. Vamos relembrar? Vamos trazer nossa corujinha marota:
+Coruja, atenção: lembre-se que o carvão, além de ser o combustível e fornecedor de
+carbono, ele é o redutor (agente redutor) do minério de ferro! Dessa forma, por ser o
+redutor, ele (o carvão) oxida! Depois, é claro, veremos nas reações que é o monóxido de
+carbono (CO) é o componente que sofre oxidação e reduz o minério para gerar o ferro
+metálico (Fe
+o
+).
+Além disso, lembre-se que o carvão é o principal fornecedores de carbono e de calor para a combustão
+durante todo o processo!
+Gabarito: correto.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+==dae2==
+
+===== página 27 =====
+26
+2. (CEBRASPE/Petrobrás – Engenheiro de Equipamentos - Inspeção – 2022)
+Julgue os itens seguintes, relativos aos processos de fabricação de produtos e peças metálicas.
+O cadinho, localizado logo abaixo da região de coque ativo de um alto-forno, funciona como reservatório
+de ferro-gusa e escória, sendo parte de seu volume ocupada pelo “homem morto”.
+( ) Certo ( ) Errado
+Comentário:
+Opa! Perfeita a questão! De fato, existem algumas regiões importantes dentro do alto forno quando se
+começa o processo siderúrgico de produção do ferro gusa. Entre essas regiões, temos o cadinho (como
+vimos, é o reservatório final que irá conter o ferro-gusa e a escória formada). Todavia, parte do cadinho,
+normalmente, é composta pela região do tal do “homem morto” (nada mais é que um apelido para um
+região específica da zona de gotejamento do alto forno, na qual é formada pelo coque na forma sólida,
+onde gotejam o ferro-gusa e a escória, dividida em região de coque ativo e a dita cuja região do “home
+morto”). Nessas regiões é que ocorrem as incorporações de elementos de liga ao ferro-gusa pelas reações
+apresentadas. Lembre-se da figura (importante conhecer essas “zonas” e “regiões” da imagem):
+12
+Gabarito: correto.
+12 Adaptado do Departamento de Engenharia dos Materiais e Metalurgia da Universidade de São Paulo, 2017.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 28 =====
+27
+3. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Com relação aos combustíveis metalúrgicos, julgue o item que se segue.
+A qualidade do combustível está vinculada ao seu teor de C, H e S.
+( ) Certo ( ) Errado
+Comentário:
+Opa! Alternativa correta, Estrategista! Conforme vimos em aula, o combustível (que é o nosso carvão)
+tem sua qualidade medida em função da quantidade de carbono, hidrogênio (é um hidrocarboneto) e
+enxofre. Lembre-se que o enxofre em teores mais elevados gera uma perda de qualidade do combustível,
+justamente porque menos carbono teremos para o ser fornecido ao processo.
+Gabarito: correto.
+4. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Com relação aos combustíveis metalúrgicos, julgue o item que se segue.
+A adição de comburente ao combustível origina a reação de combustão, fazendo que o combustível sofra
+redução.
+( ) Certo ( ) Errado
+Comentário:
+Errado! Lembre-se que o comburente (O2, por exemplo) de fato reage com o combustível, mas vimos que
+o combustível é o agente redutor (que reduz o minério, por meio do monóxido de carbono - CO). Dessa
+forma, o combustível não sofre redução e, sim, oxidação, gerando, ao término das reações o ferro
+metálico.
+Gabarito: errado.
+5. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Com relação aos combustíveis metalúrgicos, julgue o item que se segue.
+O carvão é um combustível metalúrgico típico, pois, além de produzir calor, é fonte de carbono.
+( ) Certo ( ) Errado
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 29 =====
+28
+Comentário:
+Exatamente, como vimos. De fato, o carvão (também pode ser chamado de coque metalúrgico) além de
+gerar calor nas reações de combustão, é fonte de carbono para o processo.
+Gabarito: correto.
+6. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Com relação ao processo siderúrgico, cujas fases de produção consistem, basicamente, em redução,
+refino e transformação, julgue o item a seguir.
+Ferro-gusa é o produto obtido em altos-fornos, resultante da redução do minério de ferro pelo coque e
+pelo calcário.
+( ) Certo ( ) Errado
+Comentário:
+Perfeito! Conforme vimos em aula, é exatamente assim o processo básico de produção. Temos o ferro-
+gusa que é o produto obtido em altos-fornos por meio da redução do minério de ferro pelo coque (carvão)
+e pelo calcário (fundente).
+Gabarito: correto.
+7. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+A metalurgia do ferro consiste na redução dos seus óxidos por meio de um redutor, em geral um
+combustível carbonoso. Os materiais carregados no alto-forno (minério, combustíveis e adições), durante
+o processo de redução, se transformam nos seguintes produtos: ferro gusa, escória, gás de alto forno e
+poeira. Com relação a esse assunto, julgue o próximo item.
+O alto-forno opera de forma ideal quando as trocas térmicas sólido-gás estão perfeitas; quando toda
+hematita é reduzida para wustita na zona granular e quando os gases da zona de fusão e amolecimento
+entram na zona de reserva térmica em equilíbrio termodinâmico com o Fe/FeO.
+( ) Certo ( ) Errado
+Comentário:
+Estrategista, tranquilidade! Conforme vimos, a wustita nada mais é que uma “apelido” para o nosso óxido
+de ferro (FeO). Oras, para uma situação ideal, temos que a hematita é totalmente reduzida a wustita e a
+troca térmica seja perfeita entre o sólido e o gás (coisa que na realidade não acontece). Além disso, é ideal
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 30 =====
+29
+que os gases da zona de fusão e amolecimento do alto-forno entrem na reserva térmica em equilíbrio
+com o Fe e o FeO. Esses pontos vimos que são elencados na lavra da doutrina.
+Gabarito: correto.
+8. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+A metalurgia do ferro consiste na redução dos seus óxidos por meio de um redutor, em geral um
+combustível carbonoso. Os materiais carregados no alto-forno (minério, combustíveis e adições), durante
+o processo de redução, se transformam nos seguintes produtos: ferro gusa, escória, gás de alto forno e
+poeira. Com relação a esse assunto, julgue o próximo item.
+Fundentes são substâncias que reagem com a ganga e formam compostos de ponto de fusão inferior ao
+dos reagentes que lhes deram origem, tornando a ganga do minério mais fusível em temperatura mais
+conveniente para a separação do metal.
+( ) Certo ( ) Errado
+Comentário:
+Exatamente! Os fundentes (como o calcário) são substâncias que interagem com as impurezas (ganga)
+para formar compostos com pontos de fusão menores que dos reagentes que lhe deram origem. Assim,
+as impurezas como a ganga se tornam mais fusíveis, tornando mais fácil para a separação do metal e
+facilitando a formação da escória.
+Gabarito: correto.
+9. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+A metalurgia do ferro consiste na redução dos seus óxidos por meio de um redutor, em geral um
+combustível carbonoso. Os materiais carregados no alto-forno (minério, combustíveis e adições), durante
+o processo de redução, se transformam nos seguintes produtos: ferro gusa, escória, gás de alto forno e
+poeira. Com relação a esse assunto, julgue o próximo item.
+Nos processos de redução, a redução do minério de ferro a ferro metálico é efetuada mediante a fusão
+da carga no reator.
+( ) Certo ( ) Errado
+Comentário:
+Negativo! A redução acontece, como vimos, mediante a redução do minério e seus óxidos conforme se
+tem o agente redutor (carvão que gera monóxido de carbono – CO) reagindo e descendo o alto-forno.
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 31 =====
+30
+Não é simplesmente pela fusão da carga no reator. Precisa de outros componentes para ocorrer a
+redução. Por isso, Estrategista, falou em redução, tem que lembrar do carvão (ou coque) que é nosso
+combustível e seu papel como agente redutor, além do monóxido de carbono que resulta dele.
+Gabarito: errado.
+10. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+A figura acima representa um esquema de predominância de ferro e de seus óxidos na presença de
+monóxido de carbono na mistura binária monóxido de carbono/dióxido de carbono em função da
+temperatura, sob pressão de 1 atm. A partir dessas informações, julgue o item a seguir.
+Há predominância de óxido ferroso quando há baixas temperaturas na presença de altas concentrações
+de dióxido de carbono.
+( ) Certo ( ) Errado
+Comentário:
+Questão tranquila, Estrategista! Veja que é uma questão de interpretação de gráfico, basicamente. Veja
+que há predominância de Fe metálico quando há baixas temperaturas com altas concentrações de dióxido
+de carbono. O óxido de ferro é nosso Fe3O4 (óxido ferroso).
+Gabarito: errado.
+11. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 32 =====
+31
+O lingotamento contínuo do aço, processo responsável pela produção de placa de aço diretamente do
+aço líquido em um único equipamento, representa o mais importante avanço tecnológico nos processos
+metalúrgicos desde os anos sessenta do século passado, pois, além de contribuir para a eliminação dos
+gastos com equipamentos, reduzindo tempo e custo de produção, melhora a qualidade do aço. Acerca
+desse processo e de aspectos a ele relacionados, julgue o item.
+A diminuição da temperatura e da velocidade de vazamento contribui para a diminuição da espessura da
+camada de aço solidificada, visto que impede a ocorrência de fratura e oxidação dessa camada.
+( ) Certo ( ) Errado
+Comentário:
+Questão errada. Conforme vimos, Coruja, conforme vimos, temos três importantes fatores que afetam
+no processo de lingotamento contínuo quanto ao seu vazamento: tempo (que está associado com a
+velocidade), temperatura e composição química.
+Quando temos uma diminuição de temperatura e de velocidade, temos um aumento da espessura da
+camada solidificada (claro, primeiro porque mais material está vazando, pois o tempo é maior com a
+velocidade mais baixa, além da temperatura que diminuiu e facilita a solidificação). Além disso, esse
+aumento gera maior resistência na camada e ela não atinge fratura e nem se oxida facilmente (apesar de
+a oxidação ser influenciada por outros fatores).
+Gabarito: errado.
+12. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+O lingotamento contínuo do aço, processo responsável pela produção de placa de aço diretamente do
+aço líquido em um único equipamento, representa o mais importante avanço tecnológico nos processos
+metalúrgicos desde os anos sessenta do século passado, pois, além de contribuir para a eliminação dos
+gastos com equipamentos, reduzindo tempo e custo de produção, melhora a qualidade do aço. Acerca
+desse processo e de aspectos a ele relacionados, julgue o item.
+A presença de óleo de beterraba como lubrificante provoca a emissão de gases, que se localizam entre a
+escória e o metal do molde, reduzindo a velocidade de solidificação e proporcionando bom aspecto
+superficial ao lingote solidificado.
+( ) Certo ( ) Errado
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 33 =====
+32
+Exatamente! Conforme vimos, muitas empresas do empregam citam que a presença do óleo de beterraba
+age como lubrificante e gera a emissão de gases. Estes, ficam entre a escória e o metal do molde,
+reduzindo a velocidade de solidificação e gerando aspecto superficial melhor.
+Gabarito: correto.
+13. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+O lingotamento contínuo do aço, processo responsável pela produção de placa de aço diretamente do
+aço líquido em um único equipamento, representa o mais importante avanço tecnológico nos processos
+metalúrgicos desde os anos sessenta do século passado, pois, além de contribuir para a eliminação dos
+gastos com equipamentos, reduzindo tempo e custo de produção, melhora a qualidade do aço. Acerca
+desse processo e de aspectos a ele relacionados, julgue o item.
+A temperatura, as tensões térmicas atuantes e a velocidade de vazamento são variáveis que, se não forem
+controladas de forma adequada, podem provocar o surgimento de trincas no aço em solidificação.
+( ) Certo ( ) Errado
+Comentário:
+Maravilha! Conforme vimos, questão em linha quanto aos fatores que influenciam na solidificação do
+material no lingotamento contínuo!
+Gabarito: correto.
+14. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+O lingotamento contínuo do aço, processo responsável pela produção de placa de aço diretamente do
+aço líquido em um único equipamento, representa o mais importante avanço tecnológico nos processos
+metalúrgicos desde os anos sessenta do século passado, pois, além de contribuir para a eliminação dos
+gastos com equipamentos, reduzindo tempo e custo de produção, melhora a qualidade do aço. Acerca
+desse processo e de aspectos a ele relacionados, julgue o item.
+Pode-se dividir a estrutura do lingote em três zonas ― equiaxial fina de superfície, colunar e equiaxial
+central ―, cujo tamanho varia de acordo com as condições de solidificação, a direção de extração de calor
+e o superaquecimento, além da composição do aço.
+( ) Certo ( ) Errado
+Comentário:
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 34 =====
+33
+Questão perfeita! Vimos esses fenômenos em nossa aula de Fundição. Oras, lembre-se que o molde
+influencia na solidificação do material. Isso porque nas regiões das paredes dos moldes, teremos uma taxa
+de extração de calor maior. Assim, temos uma região de formação de grãos com formatos diferentes,
+próxima à parede do molde. Essa região é a Zona Coquilhada. Além disso, conforme a geometria dos
+moldes, cada grão cresce de uma maneira em relação a cada parede que extrai calor do molde. Dessa
+forma, quando há o encontro desses grãos que são alongados e maiores, devido a extração menor de
+calor quando começa adentrar o material se solidificando dentro do molde. Essa região é a Zona Colunar.
+Por fim, temos a Zona Equiaxial, tanto a fina (pois está mais próxima a superfície do material, apesar de
+não ser uma nomenclatura clássica adotada na doutrina), quando a central (essa sim é comumente
+encontrada), tem pequenos grãos formados por resultado da nucleação de cristais ou migração de alguns
+fragmentos de grão granulares.
+Gabarito: correto.
+15. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+As usinas siderúrgicas podem ser integradas, semi-integradas e não integradas. Nas usinas integradas a
+coque, as áreas de transformações do minério de ferro e do aço encontram-se presentes em uma única
+unidade industrial. Partindo-se do minério de ferro (ou de seus produtos, sínter e pelota), coque e
+fundentes, chega-se ao ferro-gusa, que, posteriormente, é convertido em aço. Após transformação
+mecânica (laminação), o aço é comercializado no mercado sob a forma de produtos planos (chapas e
+bobinas) e longos (vergalhões, barras e perfis). Assim, uma usina integrada a coque é tipicamente
+composta de três etapas: redução (cujo objetivo é a fabricação do ferro-gusa), refino (produção e
+resfriamento do aço) e transformação mecânica (produtos siderúrgicos destinados à comercialização). A
+partir dessas informações, julgue o item a seguir.
+O material redutor mais utilizado como matéria-prima na obtenção do ferro-gusa é o coque metalúrgico,
+produto obtido pela destilação do carvão metalúrgico.
+( ) Certo ( ) Errado
+Comentário:
+Exatamente, Estrategista! Conforme vimos, o coque metalúrgico é um produto destilado do carvão
+metalúrgico e atua como agente redutor do processo. Perceba que as questões tendem a considerar como
+agente metalúrgico tanto o coque, o carvão e o monóxido de carbono. Atente-se.
+Gabarito: correto.
+16. (CEBRASPE/INPI – Pesquisador – Metalurgia – 2014)
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 35 =====
+34
+As usinas siderúrgicas podem ser integradas, semi-integradas e não integradas. Nas usinas integradas a
+coque, as áreas de transformações do minério de ferro e do aço encontram-se presentes em uma única
+unidade industrial. Partindo-se do minério de ferro (ou de seus produtos, sínter e pelota), coque e
+fundentes, chega-se ao ferro-gusa, que, posteriormente, é convertido em aço. Após transformação
+mecânica (laminação), o aço é comercializado no mercado sob a forma de produtos planos (chapas e
+bobinas) e longos (vergalhões, barras e perfis). Assim, uma usina integrada a coque é tipicamente
+composta de três etapas: redução (cujo objetivo é a fabricação do ferro-gusa), refino (produção e
+resfriamento do aço) e transformação mecânica (produtos siderúrgicos destinados à comercialização). A
+partir dessas informações, julgue o item a seguir.
+A desoxidação do aço, o ajuste de temperatura e da composição química, a adição de elementos especiais,
+a dessulfuração para teores abaixo de 0,005%, a desfosforação e a descarburação para teores abaixo de
+0,002% ocorrem na fase do refino primário.
+( ) Certo ( ) Errado
+Comentário:
+Alternativa errada! Na verdade, todas as etapas ocorrem na fase de refino secundário. Apesar de boa
+parte desses processos ocorrerem no refino primário, também, a dessulfuração em teores abaixo de
+0,005% e as desfosforação e descarburação em teores abaixo de 0,002%, são refino secundário. Lembre-
+se elas também podem ocorrer no refino primário, mas nesses níveis (0,005% e 0,002%), é explícito na
+prática da siderurgia como parte do refino secundário.
+Gabarito: errado.
+CENTEC
+17. (CENTEC/Instituto Centro de Ensino Tecnológico – Engenharia Mecânica – 2017)
+Qual deve ser o material (fundente) que ajuda o minério de ferro a se fundir?
+a) Cobre
+b) Areia
+c) Grafite
+d) Argila
+e) Calcário.
+Comentário:
+Questão moleza, hein, pessoal? Conforme vimos, o material fundente que ajuda o minério de ferro a se
+fundir é o calcário!
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 36 =====
+35
+Gabarito: "b".
+Felipe Canella, Juliano de Pelegrin
+Aula 10
+PETROBRAS (Engenheiro de Equipamentos - Inspeção) Conhecimentos Específicos
+www.estrategiaconcursos.com.br
+10116760796 - Marcus Vinicius Santana Jeremias
+
+===== página 37 =====

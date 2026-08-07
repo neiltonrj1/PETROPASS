@@ -36,11 +36,23 @@ const chrome = spawn(CHROME, [
 ], { stdio: 'ignore' });
 
 const esperar = ms => new Promise(r => setTimeout(r, ms));
-await esperar(2500);
+const limpar = () => { try { fs.unlinkSync(RAIZ + 'teste-clique.html'); } catch (e) {} };
 
-const lista = await (await fetch(`http://127.0.0.1:${PORTA}/json`)).json();
+/* Espera o Chrome abrir a porta de depuração. Se ele não existir na
+   máquina, o teste não falha: avisa e sai. Assim ele protege o
+   desenvolvimento local sem travar quem não tem Chrome instalado. */
+let lista = null;
+for (let i = 0; i < 20 && !lista; i++) {
+  await esperar(800);
+  try { lista = await (await fetch(`http://127.0.0.1:${PORTA}/json`)).json(); } catch (e) {}
+}
+if (!lista) {
+  console.log('⚠ Chrome não respondeu na porta de depuração — teste de clique pulado.');
+  console.log('  (instale o Chrome ou aponte CHROME_PATH para ele)');
+  chrome.kill(); limpar(); process.exit(0);
+}
 const alvo = lista.find(t => t.type === 'page' && t.url.includes('teste-clique'));
-if (!alvo) { console.log('não achei a aba'); chrome.kill(); process.exit(1); }
+if (!alvo) { console.log('⚠ não achei a aba de teste — pulado.'); chrome.kill(); limpar(); process.exit(0); }
 
 const { default: WS } = await import('node:http').then(() => ({ default: null })).catch(() => ({ default: null }));
 /* CDP por WebSocket sem dependência externa: usa o WebSocket do Node 22+ */

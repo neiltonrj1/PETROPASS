@@ -1,4 +1,4 @@
-﻿# PETROPASS
+# PETROPASS
 
 App de estudo para os concursos de engenharia da Petrobras e da Transpetro
 (banca Cesgranrio). Funciona no navegador, instala como aplicativo no celular

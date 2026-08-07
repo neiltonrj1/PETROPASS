@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 const DIAS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 /* trilha = a prova escolhida (inspecao, producao, eletrica, projetos).
    curWeek e chk passam a ser por trilha, porque cada prova tem o seu

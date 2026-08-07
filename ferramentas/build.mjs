@@ -19,7 +19,10 @@ import path from 'node:path';
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const SRC = path.join(RAIZ, 'src');
 const DADOS = path.join(SRC, 'dados');
-const le = p => fs.readFileSync(p, 'utf8');
+/* O BOM que alguns editores (e o PowerShell) deixam no começo do arquivo é
+   caractere inválido dentro de <style> e <script>: o parser de CSS descarta
+   a primeira regra por causa dele. Some com ele em toda leitura.          */
+const le = p => fs.readFileSync(p, 'utf8').replace(/^﻿/, '');
 const leJson = p => JSON.parse(le(p));
 const existe = p => fs.existsSync(p);
 

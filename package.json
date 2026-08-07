@@ -8,6 +8,8 @@
     "dev": "node ferramentas/dev.mjs",
     "build": "node ferramentas/build.mjs",
     "test": "node ferramentas/build.mjs && node ferramentas/testar.mjs",
+    "design": "node ferramentas/design.mjs",
+    "publicar": "node ferramentas/publicar.mjs",
     "provas": "node ferramentas/extrair-provas.mjs",
     "conferir": "node ferramentas/conferir.mjs",
     "gabarito": "node ferramentas/mapear-gabarito.mjs"

@@ -55,16 +55,29 @@ const DEGRAUS = [1, 3, 7, 16, 35, 75];
 
 /* resultado: 'limpa' (acertou sozinho) · 'apoio' (acertou com dica) ·
    'erro'. Acertar com dica NÃO estica o intervalo — se esticasse, o app
-   marcaria como aprendido o que só foi resolvido com ajuda.          */
+   marcaria como aprendido o que só foi resolvido com ajuda.
+
+   Sobe NO MÁXIMO UM DEGRAU POR DIA. O que faz a memória durar é o tempo
+   entre um encontro e o outro, não o número de acertos: responder seis
+   questões certas do mesmo módulo numa sentada só provava que o assunto
+   ainda estava na cabeça naquela hora. Sem esta trava, o módulo saltava
+   de 1 para 75 dias no mesmo dia em que foi lido pela primeira vez, e o
+   espaçamento deixava de existir na prática. Errar, porém, derruba na
+   hora — se o assunto falhou, ele volta para amanhã, sem esperar.   */
 function agendaRevisao(mid, resultado){
   if(!mid) return;
   if(resultado === true) resultado = 'limpa';
   if(resultado === false) resultado = 'erro';
+  const hoje = hojeISO();
   const r = S.rev[mid] || {nivel:0};
-  if(resultado === 'limpa') r.nivel = Math.min(DEGRAUS.length-1, r.nivel+1);
-  else if(resultado === 'erro') r.nivel = 0;
-  r.prox = somaDias(hojeISO(), DEGRAUS[r.nivel]);
-  r.visto = hojeISO();
+  if(resultado === 'limpa'){
+    if(r.subiuEm === hoje) return;                  // já subiu hoje: nada a fazer
+    r.nivel = Math.min(DEGRAUS.length-1, r.nivel+1);
+    r.subiuEm = hoje;
+  }
+  else if(resultado === 'erro'){ r.nivel = 0; r.subiuEm = null; }
+  r.prox = somaDias(hoje, DEGRAUS[r.nivel]);
+  r.visto = hoje;
   S.rev[mid] = r;
 }
 /* Módulos desta trilha cuja revisão já venceu (ou vence hoje). */
@@ -107,16 +120,32 @@ function moduloTocado(mid){
      cobertura mediria arquivo aberto em vez de assunto estudado.    */
   const r = S.quiz['licao:'+mid];
   if(r && Object.keys(r).length) return true;
+  /* questão do caderno comentado também conta: agora que elas têm módulo,
+     responder uma é o mesmo sinal de "passei por aqui" que as outras. */
+  for(const vid in (DATA.quizzes||{})){
+    const R = S.quiz[vid]; if(!R) continue;
+    if(DATA.quizzes[vid].some(q => q.mod===mid && R[q.n]!==undefined)) return true;
+  }
   return DATA.provas.some(p => (S.quiz[p.id]||{}) &&
     p.questoes.some(q => q.mod===mid && (S.quiz[p.id]||{})[q.n]!==undefined));
 }
+/* O peso sai da contagem real nas provas — menos onde o volume declara o
+   seu (campo `peso` no volume.json). Português e Inglês precisam declarar:
+   o extrator só lê a faixa técnica do caderno (Q21–Q70), então a contagem
+   automática dava ZERO para as 20 questões eliminatórias, e a barra dizia
+   ao aluno que a matéria capaz de reprová-lo sozinha não valia nada.
+   O que é contado divide o que sobra depois dos volumes declarados.   */
 function cobertura(){
   const t = trilha();
   const pesoDoMod = {};
   (t.estats||[]).forEach(([, pct, mid]) => { if(mid) pesoDoMod[mid] = pct; });
-  return volsTrilha().map(v => {
+  const vols = volsTrilha();
+  const declarado = vols.reduce((a,v) => a + (+v.peso || 0), 0);
+  const fator = Math.max(0, 100 - declarado) / 100;
+  return vols.map(v => {
     const tocados = v.mods.filter(m => moduloTocado(m.id)).length;
-    const peso = v.mods.reduce((a,m) => a + (pesoDoMod[m.id]||0), 0);
+    const peso = v.peso != null ? +v.peso
+               : v.mods.reduce((a,m) => a + (pesoDoMod[m.id]||0), 0) * fator;
     return {vol:v, pct: v.mods.length ? Math.round(tocados/v.mods.length*100) : 0,
             peso: Math.round(peso), tocados, total:v.mods.length};
   }).filter(c => c.total);

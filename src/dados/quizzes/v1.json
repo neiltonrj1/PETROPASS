@@ -93,7 +93,8 @@
    "Fórmula mental: martensita = austenita + resfriamento muito rápido (mais rápido que a taxa crítica).",
    "A transformação é adifusional e atérmica: progride com a queda de temperatura entre Ms e Mf, não com o tempo.",
    "Distratores clássicos trocam a fase de origem (ferrita/perlita) ou a velocidade (lento); as duas condições precisam estar certas."
-  ]
+  ],
+  "mod": "v1m3"
  },
  {
   "origem": "Cesgranrio 2018, Q29",

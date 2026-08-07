@@ -111,7 +111,7 @@ for (const t of DATA.trilhas) {
   /* responde a primeira questão de cada quiz e de cada prova */
   const quizzes = window.eval('volsTrilha().filter(v=>(DATA.quizzes[v.id]||[]).length).map(v=>v.id)');
   for (const vid of quizzes) {
-    ok(`${t.id}/quiz ${vid}`, () => { window.iniciaQuiz(vid); window.responde(0, 'A'); window.go('treinar'); });
+    ok(`${t.id}/quiz ${vid}`, () => { window.iniciaQuiz(vid); window.respondeQuestao(vid, 0, 'A'); window.go('treinar'); });
   }
   const provas = window.eval('provasTrilha().map(p=>p.id)');
   for (const pid of provas) {
@@ -255,6 +255,67 @@ ok('o tamanho do texto escala a página', () => {
 ok('questões de prova herdaram explicação', () => {
   const n = window.eval('DATA.provas.reduce(function(a,p){return a+p.questoes.filter(function(q){return !!q.explica}).length},0)');
   if (n < 100) throw new Error(`só ${n} questões de prova têm explicação`);
+});
+/* "Cesgranrio 2018, Q22" existe em três provas diferentes. Sem a trilha na
+   chave, a explicação de metalurgia ia parar numa questão de motor CC. */
+ok('a explicação herdada não vem de outra trilha', () => {
+  const ruins = window.eval(`(function(){
+    var volDoMod = {};
+    DATA.conteudo.forEach(function(v){ v.mods.forEach(function(m){ volDoMod[m.id]=v.id; }); });
+    var trilhasDoVol = {};
+    DATA.trilhas.forEach(function(t){ t.vols.forEach(function(vid){ (trilhasDoVol[vid]=trilhasDoVol[vid]||[]).push(t.id); }); });
+    var out = [];
+    DATA.provas.forEach(function(p){ p.questoes.forEach(function(q){
+      if(!q.modExplica) return;
+      if((trilhasDoVol[volDoMod[q.modExplica]]||[]).indexOf(p.trilha) < 0)
+        out.push(p.id+' '+q.origem+' <= '+q.modExplica);
+    }); });
+    return out;
+  })()`);
+  if (ruins.length) throw new Error(`${ruins.length} explicações vieram de outra trilha (ex.: ${ruins[0]})`);
+});
+ok('a revisão sobe no máximo um degrau por dia', () => {
+  const r = window.eval(`(function(){
+    S.rev['v1m4'] = {nivel:0};
+    for(var i=0;i<6;i++) agendaRevisao('v1m4','limpa');   // seis acertos numa sentada
+    var hoje = S.rev['v1m4'].nivel;
+    S.rev['v1m4'].subiuEm = somaDias(hojeISO(), -1);      // finge que virou o dia
+    agendaRevisao('v1m4','limpa');
+    return {hoje:hoje, depois:S.rev['v1m4'].nivel};
+  })()`);
+  if (r.hoje !== 1) throw new Error(`seis acertos no mesmo dia subiram ${r.hoje} degraus de uma vez`);
+  if (r.depois !== 2) throw new Error('no dia seguinte o degrau não subiu');
+});
+ok('o bloco eliminatório tem peso na cobertura', () => {
+  window.escolheTrilha('inspecao');
+  const c = window.eval('cobertura().map(function(x){return {id:x.vol.id, peso:x.peso}})');
+  const basicas = c.find(x => x.id === 'v4');
+  if (!basicas) throw new Error('Português e Inglês não aparece na cobertura');
+  if (basicas.peso < 15) throw new Error(`Português e Inglês com peso ${basicas.peso}% — são 20 das 70 questões`);
+  const soma = c.reduce((a, x) => a + x.peso, 0);
+  if (soma < 90 || soma > 110) throw new Error(`os pesos dos blocos somam ${soma}%`);
+});
+ok('toda questão comentada sabe o seu módulo', () => {
+  const orfas = window.eval(`(function(){
+    var n = 0;
+    for(var vid in DATA.quizzes) DATA.quizzes[vid].forEach(function(q){ if(!q.mod) n++; });
+    return n;
+  })()`);
+  if (orfas) throw new Error(`${orfas} questões comentadas sem módulo — não entram na revisão nem na cobertura`);
+});
+ok('o caderno comentado usa a mesma peça das outras questões', () => {
+  const r = window.eval(`(function(){
+    S.rev = {}; S.tentativas = {}; S.quiz['v1'] = {};
+    var q = DATA.quizzes['v1'][0];
+    iniciaQuiz('v1');
+    respondeQuestao('v1', q.n, q.correta);
+    return {rev: !!S.rev[q.mod], tent: (S.tentativas['v1:'+q.n]||[]).length};
+  })()`);
+  if (!r.rev) throw new Error('responder no caderno comentado não agendou a revisão do módulo');
+  if (r.tent !== 1) throw new Error('a tentativa não entrou no histórico de rodadas');
+  if (!window.document.querySelector('.qz-alts')) throw new Error('o caderno não renderizou pela peça nova');
+  if (!window.document.querySelector('.qz-bloco.atencao')) throw new Error('o motivo dos distratores não apareceu');
+  window.eval('QZ=null'); window.go('treinar');
 });
 
 /* ---- rodadas e histórico de tentativas ---- */

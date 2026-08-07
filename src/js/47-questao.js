@@ -95,13 +95,22 @@ function questaoHTML(fonte, q, mod, pos, total){
   const nivel = S.dicas[id] || 0;
   const calc = calculoDaQuestao(mod.id, q.origem);
   const rascunho = S.rascunho[id] || '';
-  const p = partesDaExplicacao(q.explica);
+  /* As questões comentadas trazem o motivo de CADA distrator separado em
+     `erradas`. As outras só têm um texto corrido, de onde a divisão é
+     inferida por regex. Onde existe o dado real, ele ganha do palpite. */
+  const temErradas = q.erradas && typeof q.erradas === 'object';
+  const p = temErradas ? {certa: esc(q.explica), erradas: ''} : partesDaExplicacao(q.explica);
 
-  const errosAntes = errosDaQuestao(fonte, q);
+  const errosAntes = errosDaQuestao(fonte, q, respondida);
+  /* No caderno comentado o `n` é só a posição no arquivo (0,1,2…), não o
+     número da questão na prova — esse já vem escrito na origem. Mostrar
+     "Q5" ao lado de "Cesgranrio 2018, Q30" só confundia.             */
+  const ehCaderno = !!(DATA.quizzes && DATA.quizzes[fonte]);
+  const rotulo = [ehCaderno ? '' : 'Q'+q.n, total ? `${pos+1} de ${total}` : ''].filter(Boolean).join(' · ');
   let h = `<article class="qz" id="q_${id.replace(/[^\w]/g,'_')}">
     <header class="qz-cab">
       ${q.origem ? `<span class="origem">${esc(q.origem)}</span>` : ''}
-      <span class="qz-pos">Q${q.n}${total?` · ${pos+1} de ${total}`:''}</span>
+      <span class="qz-pos">${rotulo}</span>
       ${errosAntes ? `<span class="qz-hist" title="quantas vezes você já errou esta questão">✘ ${errosAntes}× antes</span>` : ''}
       ${respondida ? `<span class="qz-sel ${acertou?'ok':'nao'}">${acertou?'✔ acertou':'✘ errou'}</span>` : ''}
     </header>
@@ -162,7 +171,16 @@ function questaoHTML(fonte, q, mod, pos, total){
         <div>${p.certa || `<b>${q.correta})</b> ${esc(q.alts[q.correta]||'')}`}</div>
         ${historicoHTML(fonte, q)}
       </div>`;
-    if(p.erradas) h += `<div class="qz-bloco atencao"><h4>⚠ Onde a banca derruba</h4><div>${p.erradas}</div></div>`;
+    if(temErradas){
+      /* Primeiro a alternativa que ELE marcou: é a única que ele já se
+         comprometeu a defender, e é onde a correção pega.             */
+      const minha = !acertou && q.erradas[resp];
+      if(minha) h += `<div class="qz-bloco atencao"><h4>⚠ Por que a letra ${resp} não serve</h4><div>${esc(minha)}</div></div>`;
+      const outras = LETRAS.filter(L => L !== q.correta && L !== resp && q.erradas[L]);
+      if(outras.length) h += `<div class="qz-bloco atencao"><h4>⚠ Onde a banca derruba nas outras</h4>
+        <ul>${outras.map(L => `<li><b>${L})</b> ${esc(q.erradas[L])}</li>`).join('')}</ul></div>`;
+    }
+    else if(p.erradas) h += `<div class="qz-bloco atencao"><h4>⚠ Onde a banca derruba</h4><div>${p.erradas}</div></div>`;
     /* questão de prova ainda sem comentário escrito: manda para a lição certa */
     if(!q.explica){
       const alvo = q.mod || q.modExplica;
@@ -269,8 +287,12 @@ function registraTentativa(fonte, q, marcou){
   lista.push({ r: rodadaAtual(fonte), m: marcou, ok: marcou === q.correta, d: hojeISO() });
   S.tentativas[id] = lista;
 }
-function errosDaQuestao(fonte, q){
-  return (S.tentativas[qid(fonte,q)] || []).filter(t => !t.ok).length;
+/* `excluiAtual` tira a tentativa que acabou de ser feita — senão o selo
+   "✘ 1× antes" aparecia na primeira vez que a pessoa errava, contando
+   como passado o erro que ela tinha acabado de cometer.              */
+function errosDaQuestao(fonte, q, excluiAtual){
+  const t = S.tentativas[qid(fonte,q)] || [];
+  return (excluiAtual ? t.slice(0, -1) : t).filter(x => !x.ok).length;
 }
 /* Situação da lista inteira: quantas faltam, e o placar de cada rodada. */
 function situacao(fonte, qs){
@@ -303,6 +325,7 @@ function questoesDaFonte(fonte){
     for(const v of DATA.conteudo){ const m = v.mods.find(m=>m.id===mid); if(m) return m.qs||[]; }
     return [];
   }
+  if(DATA.quizzes[fonte]) return DATA.quizzes[fonte];
   const p = DATA.provas.find(p=>p.id===fonte);
   return p ? p.questoes : [];
 }
@@ -315,7 +338,7 @@ function alternaRascunho(id){
 }
 function salvaRascunho(id, v){ S.rascunho[id] = v; save(); }
 
-/* Acha a questão pela chave da fonte — serve para lição e para prova. */
+/* Acha a questão pela chave da fonte — lição, caderno comentado ou prova. */
 function achaQuestao(fonte, n){
   if(fonte.startsWith('licao:')){
     const mid = fonte.slice(6);
@@ -324,6 +347,11 @@ function achaQuestao(fonte, n){
       if(mod) return {q:(mod.qs||[]).find(q => q.n === n), mod};
     }
     return null;
+  }
+  if(DATA.quizzes[fonte]){
+    const q = DATA.quizzes[fonte][n];
+    if(!q) return null;
+    return {q, mod: (q.mod && findModPorId(q.mod)) || {id:'', t:(findVol(fonte)||{t:''}).t}};
   }
   const p = DATA.provas.find(p => p.id === fonte);
   if(!p) return null;

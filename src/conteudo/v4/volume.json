@@ -2,6 +2,8 @@
  "id": "v4",
  "t": "Português e Inglês",
  "sub": "Básicas eliminatórias",
+ "peso": 28.6,
+ "pesoNota": "20 das 70 questões do caderno (Q1–Q20). Declarado à mão porque o extrator só lê a faixa técnica (Q21–Q70), então a contagem automática daria zero — e o app estaria dizendo que o bloco eliminatório não importa.",
  "mods": [
   {
    "id": "v4m1",

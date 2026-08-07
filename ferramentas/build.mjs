@@ -100,20 +100,35 @@ function montaDados() {
   /* Boa parte das questões que estão nas lições foi tirada das mesmas
      provas que o extrator leu. Quando ano e número batem, a explicação
      escrita para a lição passa a valer também na prova — assim o aluno
-     não fica com um "gabarito: letra E" seco no simulado.            */
+     não fica com um "gabarito: letra E" seco no simulado.
+
+     A trilha TEM de entrar na chave. "Cesgranrio 2018, Q22" existe na
+     prova de Inspeção, na de Elétrica e na de Produção, e são questões
+     completamente diferentes: sem a trilha, a explicação de metalurgia
+     ia parar numa questão de motor CC. Como a alternativa correta é
+     conferida no gabarito oficial de cada prova, o aluno via "gabarito:
+     letra C" e, logo abaixo, um texto defendendo a letra E de outro
+     assunto — e as dicas progressivas, que saem desse mesmo texto,
+     também apontavam para a questão errada.                          */
   const porOrigem = new Map();
   const chaveOrigem = s => {
     const m = String(s || '').match(/(\d{4})[^0-9]*Q\s*(\d{1,3})/i);
     return m ? m[1] + '/' + m[2] : null;
   };
+  const trilhasDoVol = {};
+  for (const t of trilhas) for (const vid of t.vols) (trilhasDoVol[vid] = trilhasDoVol[vid] || []).push(t.id);
   for (const v of conteudo) for (const m of v.mods) for (const q of (m.qs || [])) {
     const k = chaveOrigem(q.origem);
-    if (k && q.explica && !porOrigem.has(k)) porOrigem.set(k, { explica: q.explica, mod: m.id });
+    if (!k || !q.explica) continue;
+    for (const tid of (trilhasDoVol[v.id] || [])) {
+      const kt = tid + '|' + k;
+      if (!porOrigem.has(kt)) porOrigem.set(kt, { explica: q.explica, mod: m.id });
+    }
   }
   let herdadas = 0;
   for (const p of provas) for (const q of p.questoes) {
     const k = chaveOrigem(q.origem);
-    const achou = k && porOrigem.get(k);
+    const achou = k && porOrigem.get(p.trilha + '|' + k);
     if (achou) { q.explica = achou.explica; q.modExplica = achou.mod; herdadas++; }
   }
   if (herdadas) avisos.push(`${herdadas} questões de prova receberam a explicação escrita na lição`);
@@ -121,6 +136,27 @@ function montaDados() {
   /* Cada questão de prova ganha o módulo a que pertence, para aparecer
      dentro da lição certa e alimentar o gráfico de incidência.        */
   const temas = leJson(path.join(DADOS, 'temas.json'));
+
+  /* As questões comentadas são as mais ricas do acervo: têm explicação
+     da certa, motivo de CADA distrator (`erradas`) e pontos a memorizar.
+     Ganham aqui duas coisas que faltavam para rodarem no mesmo motor das
+     outras — um número estável (`n`, igual ao índice que S.quiz já usava,
+     por isso ninguém perde resposta) e o módulo a que pertencem, sem o
+     qual elas não alimentavam a revisão espaçada nem apareciam na conta
+     de cobertura.                                                      */
+  for (const [vid, qs] of Object.entries(quizzes)) {
+    const vol = conteudo.find(v => v.id === vid);
+    const permitidos = vol ? new Set(vol.mods.map(m => m.id)) : null;
+    qs.forEach((q, i) => {
+      q.n = i;
+      /* `mod` escrito à mão no JSON manda; a classificação por palavra-chave
+         só entra onde ninguém decidiu.                                   */
+      if (permitidos && !q.mod) q.mod = classifica(q, temas, permitidos);
+    });
+    const semMod = qs.filter(q => !q.mod).length;
+    if (semMod) avisos.push(`${vid}: ${semMod} de ${qs.length} questões comentadas sem módulo identificado`);
+  }
+
   const modsDaTrilha = {};
   for (const t of trilhas) {
     modsDaTrilha[t.id] = new Set();
@@ -165,14 +201,19 @@ function montaDados() {
   return { versao, trilhas, conteudo, quizzes, provas, mapas };
 }
 
+/* Comparação sem acento e sem caixa: a lista de palavras-chave é escrita
+   à mão e o enunciado vem da banca. Exigir que "concordância" batesse
+   letra a letra com "concordancia" fazia a busca falhar em silêncio. */
+const semAcento = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
 /* Acha o módulo cujas palavras-chave mais aparecem na questão. */
 function classifica(q, temas, permitidos) {
-  const texto = (q.q + ' ' + Object.values(q.alts || {}).join(' ')).toLowerCase();
+  const texto = semAcento(q.q + ' ' + Object.values(q.alts || {}).join(' '));
   let melhor = null, melhorNota = 0, empate = false;
   for (const [mid, palavras] of Object.entries(temas)) {
     if (mid.startsWith('_') || !permitidos || !permitidos.has(mid)) continue;
     let nota = 0;
-    for (const p of palavras) if (texto.includes(p)) nota += p.length;   // termo longo pesa mais
+    for (const p of palavras) if (texto.includes(semAcento(p))) nota += p.length;   // termo longo pesa mais
     if (nota > melhorNota) { melhorNota = nota; melhor = mid; empate = false; }
     else if (nota === melhorNota && nota > 0) empate = true;
   }

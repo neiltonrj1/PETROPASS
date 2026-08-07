@@ -1182,56 +1182,37 @@ function renderRevisao(){
       ? itens.map((x,i) => questaoHTML(x.fonte, x.q, x.mod || {id:'',t:''}, i, itens.length)).join('')
       : `<div class="card"><p class="hint" style="margin:0">Nenhuma questão para refazer.</p></div>`}`;
 }
+/* O caderno comentado usa a MESMA peça de questão da lição e das provas.
+   Antes tinha um renderizador próprio, mais pobre: sem rascunho, sem
+   dicas, sem riscar alternativa e — o que mais custava — sem chamar
+   agendaRevisao nem registraTentativa. Ou seja: as 116 questões mais
+   bem escritas do acervo eram justamente as que não contavam para a
+   revisão espaçada nem para o histórico de rodadas.
+
+   A chave de estado não mudou: no build cada questão recebeu `n` igual
+   ao índice que já era usado em S.quiz, então quem já respondeu antes
+   continua com as respostas no lugar.                                */
 function renderQuiz(){
   const qs = DATA.quizzes[QZ.vol]; const vol = findVol(QZ.vol);
-  S.quiz[QZ.vol] = S.quiz[QZ.vol]||{};
-  const R = S.quiz[QZ.vol];
+  const R = S.quiz[QZ.vol] = S.quiz[QZ.vol]||{};
   const feitas = QZ.fila.filter(i=>R[i]!==undefined).length;
   const certas = QZ.fila.filter(i=>R[i]===qs[i].correta).length;
   if(QZ.i >= QZ.fila.length) return renderFimQuiz(certas);
-  const qi = QZ.fila[QZ.i], q = qs[qi], resp = R[qi];
-  let html = `<div class="card">
+  const qi = QZ.fila[QZ.i], q = qs[qi];
+  const ctx = achaQuestao(QZ.vol, qi);
+  const respondida = R[qi] !== undefined;
+  main.innerHTML = `<div class="card">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
       <button class="btn btn-s" style="padding:7px 10px" onclick="QZ=null;render()">←</button>
       <div style="flex:1;font-size:.74rem;color:var(--ink2)">${esc(vol.t)} · ${QZ.i+1}/${QZ.fila.length}</div>
       <div style="font-size:.74rem;font-weight:700">✔ ${certas} · ✘ ${feitas-certas}</div>
     </div>
     <div class="pbar" style="margin-bottom:13px"><div class="pfill" style="width:${feitas/QZ.fila.length*100}%"></div></div>
-    <span class="origem">${esc(q.origem)}</span>
-    <div class="enun">${esc(q.q)}</div>`;
-  ['A','B','C','D','E'].forEach(L=>{
-    if(!(L in q.alts)) return;
-    let cls='alt';
-    if(resp!==undefined) cls += (L===q.correta)?' correta':(L===resp?' errada':' apagada');
-    html += `<button class="${cls}" ${resp===undefined?`onclick="responde(${qi},'${L}')"`:''}>
-      <span class="letra">${L}</span><span>${esc(q.alts[L])}</span></button>`;
-  });
-  if(resp!==undefined){
-    const ok = resp===q.correta;
-    html += `<div class="fb ${ok?'fb-ok':'fb-err'}">`;
-    if(ok) html += `<h4 style="color:var(--ok)">✔ Acertou! Gabarito: letra ${q.correta}</h4><div>${esc(q.explica)}</div>`;
-    else html += `<h4 style="color:var(--err)">✘ Você marcou ${resp} — está errada</h4><div>${esc(q.erradas[resp]||'')}</div>
-      <div class="sec"><h4 style="color:var(--ok)">✔ A correta é a letra ${q.correta}</h4><div>${esc(q.explica)}</div></div>`;
-    html += `</div><div class="pontos"><h4>⚠ PONTOS DE ATENÇÃO</h4><ul>${(q.pontos||[]).map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
-      <div class="row" style="margin-top:12px">
+    ${questaoHTML(QZ.vol, q, (ctx&&ctx.mod)||{id:'',t:vol.t}, QZ.i, QZ.fila.length)}
+    ${respondida ? `<div class="row" style="margin-top:12px">
       <button class="btn btn-s" onclick="QZ.i=Math.max(0,QZ.i-1);render()">← Anterior</button>
-      <button class="btn btn-p" onclick="QZ.i++;window.scrollTo(0,0);render()">${QZ.i===QZ.fila.length-1?'Ver resultado':'Próxima →'}</button></div>`;
-  }
-  html += `</div>`;
-  html += mapaSessao(QZ.fila, R, qs, QZ.i, 'vaiParaQuestao');
-  main.innerHTML = html;
-}
-function responde(qi,L){
-  const q = DATA.quizzes[QZ.vol][qi];
-  S.quiz[QZ.vol][qi] = L;
-  registraResposta(L===q.correta);
-  if(L!==q.correta){
-    if(!S.erros.some(e=>e.vol===QZ.vol && e.qi===qi))
-      S.erros.push({vol:QZ.vol, qi:qi, origem:q.origem, marcou:L, correta:q.correta,
-        ponto:(q.pontos||[''])[0], motivo:'', d:new Date().toISOString().slice(0,10)});
-  } else S.erros = S.erros.filter(e=>!(e.vol===QZ.vol && e.qi===qi));
-  save(); render();
-  setTimeout(()=>{ const fb=document.querySelector('.fb'); fb&&fb.scrollIntoView({behavior:'smooth',block:'center'}); },70);
+      <button class="btn btn-p" onclick="QZ.i++;window.scrollTo(0,0);render()">${QZ.i===QZ.fila.length-1?'Ver resultado':'Próxima →'}</button></div>` : ''}
+  </div>` + mapaSessao(QZ.fila, R, qs, QZ.i, 'vaiParaQuestao');
 }
 function renderFimQuiz(certas){
   const n=QZ.fila.length, pct=Math.round(certas/n*100);

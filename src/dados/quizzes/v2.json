@@ -93,7 +93,8 @@
    "Regra: Dúctil = Dimples = Discordâncias = muita energia (Demorada)",
    "Frágil = faces lisas por clivagem = pouca energia (Fácil)",
    "Fratura dúctil: nucleação e crescimento de vazios gera superfície rugosa/fibrosa no MEV"
-  ]
+  ],
+  "mod": "v2m4"
  },
  {
   "origem": "Cesgranrio 2018, Q48",

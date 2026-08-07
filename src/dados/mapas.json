@@ -95,6 +95,204 @@
   ]
  },
 
+ "v1m4": {
+  "centro": "Tratamentos térmicos",
+  "nota": "com TTT, 18,7% da prova de Inspeção",
+  "ramos": [
+   { "t": "Os quatro básicos", "cor": "acento", "itens": [
+     "**Recozimento pleno** · austenitiza e resfria **no forno** · perlita grossa · máxima ductilidade",
+     "**Normalização** · austenitiza e resfria **ao ar** · perlita fina · grão refinado e uniforme",
+     "**Têmpera** · resfria acima da velocidade crítica · **martensita** · dureza máxima",
+     "**Revenido** · sempre **depois** da têmpera · devolve tenacidade, tira tensão" ] },
+   { "t": "Recozimentos especiais", "cor": "ok", "itens": [
+     "**Alívio de tensões (subcrítico)** · abaixo de A1 · não muda a microestrutura",
+     "**Esferoidização / coalescimento** · carboneto vira esfera · melhora usinabilidade e conformação",
+     "**Solubilização** · dissolve precipitados · padrão no inox austenítico",
+     "**Recozimento em caixa** · atmosfera protegida, evita descarbonetação" ] },
+   { "t": "Isotérmicos", "cor": "err", "itens": [
+     "**Austêmpera** · segura acima de Mi até formar **bainita** · sem revenido depois",
+     "**Martêmpera** · resfria até pouco **acima de Mi**, uniformiza, e só então cruza · **reduz trinca e empeno**",
+     "Martêmpera **ainda exige revenido** — o produto final é martensita" ] },
+   { "t": "Faixas do revenido", "cor": "info", "itens": [
+     "Baixa T · alivia tensão, quase mantém a dureza",
+     "~400–600 °C · **sorbita** — carboneto começa a coalescer",
+     "Nome antigo que a banca ainda usa: **troostita** (faixa intermediária)",
+     "**Fragilidade do revenido**: 375–575 °C · evite parar aí em aço com P, Sn, Sb" ] },
+   { "t": "Termoquímicos (endurecem a superfície)", "cor": "acento", "itens": [
+     "**Cementação** · adiciona **carbono** · exige **têmpera depois** · núcleo tenaz, casca dura",
+     "**Nitretação** · adiciona **nitrogênio** · baixa temperatura · **não** precisa de têmpera · pouca distorção",
+     "**Carbonitretação** · os dois ao mesmo tempo",
+     "**Boretação** · boro · dureza altíssima, camada fina" ] }
+  ],
+  "mnemonicos": [
+   { "t": "A escada do resfriamento", "c": "**Forno → Ar → Óleo → Água → Salmoura**. Quanto mais rápido, mais dura a estrutura e maior o risco de **trinca e empeno**. Recozimento é o degrau mais lento; têmpera, o mais rápido." },
+   { "t": "Cementa e tempera; nitreta e pronto", "c": "**Cementação exige têmpera depois** (ela só põe carbono; quem endurece é a têmpera). **Nitretação já entrega a camada dura**, em temperatura mais baixa e com menos distorção. É a troca que a banca mais cobra." },
+   { "t": "Austêmpera dá bainita, martêmpera dá martensita", "c": "Os dois são isotérmicos e param no caminho, mas com propósitos opostos: a **austêmpera** fica lá até virar **bainita**; a **martêmpera** só **iguala a temperatura** da peça e depois desce para martensita — e por isso **ainda precisa de revenido**." },
+   { "t": "Revenido é obrigatório", "c": "Peça temperada e não revenida é uma peça com trinca esperando para acontecer. Se a alternativa diz que a têmpera é o último passo, desconfie." }
+  ]
+ },
+
+ "v2m1": {
+  "centro": "Ensaios mecânicos",
+  "nota": "7,3% da prova de Inspeção",
+  "ramos": [
+   { "t": "Tração", "cor": "acento", "itens": [
+     "**Limite de escoamento** · início da deformação permanente · medido a **0,2%**",
+     "**Limite de resistência** · o ponto mais alto da curva",
+     "**Estricção (empescoçamento)** · redução da seção, depois do máximo",
+     "**Módulo E** · inclinação da parte reta · propriedade do material",
+     "**Resiliência** = área até o escoamento · **Tenacidade** = área total" ] },
+   { "t": "Dureza", "cor": "ok", "itens": [
+     "**Brinell (HB)** · esfera · marca grande · materiais heterogêneos, fundidos",
+     "**Rockwell (HR)** · mede **profundidade** · leitura direta · o mais rápido",
+     "**Vickers (HV)** · pirâmide de diamante · escala única · serve de macro a micro",
+     "**Shore** · rebote · elastômeros e borracha",
+     "Dureza = resistência à **deformação plástica localizada**" ] },
+   { "t": "Impacto e fadiga", "cor": "err", "itens": [
+     "**Charpy** · corpo apoiado nas duas pontas · entalhe voltado para trás",
+     "**Izod** · corpo **engastado** de um lado",
+     "Dão a **temperatura de transição dúctil-frágil** — crítica em CCC",
+     "**Fadiga** · tensão cíclica · curva **S-N** · aço tem **limite de fadiga**, alumínio não" ] },
+   { "t": "Fluência e temperabilidade", "cor": "info", "itens": [
+     "**Fluência** · alta temperatura + carga constante + tempo",
+     "Três estágios: primário (desacelera), **secundário (taxa constante)**, terciário (acelera até romper)",
+     "**Jominy** · barra temperada só na ponta · dá a curva de temperabilidade",
+     "**Grossmann** · diâmetro crítico e severidade do meio" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Charpy apoia, Izod engasta", "c": "**CH**arpy = **CH**ão dos dois lados (biapoiado). **I**zod = **I**móvel de um lado só (engastado). Os dois medem energia absorvida no impacto." },
+   { "t": "Resiliência é elástica, tenacidade é total", "c": "**Re**siliência = área até o escoamento = energia que ele **devolve**. **Tenacidade** = área **inteira** até romper = energia que ele **absorve**. Uma é mola, a outra é para-choque." },
+   { "t": "Rockwell mede fundo, Brinell mede largura", "c": "**R**ockwell lê a **pRofundidade** da penetração, direto no mostrador. Brinell e Vickers medem o **diâmetro/diagonal** da marca — precisam de lupa e conta." },
+   { "t": "Aço tem patamar, alumínio não", "c": "Na curva S-N, o aço apresenta **limite de fadiga**: abaixo dele, vida infinita. O alumínio nunca chega a esse patamar — projeta-se por **vida finita**." }
+  ]
+ },
+
+ "v2m3": {
+  "centro": "Formas de corrosão e proteção",
+  "nota": "com eletroquímica, 12,7% da prova",
+  "ramos": [
+   { "t": "Formas localizadas", "cor": "err", "itens": [
+     "**Pite** · buraco profundo e estreito · **cloreto** · Mo ajuda (316)",
+     "**Frestas** · sob depósito, junta, arruela · falta de oxigênio na fresta",
+     "**Intergranular** · no contorno de grão · vem da **sensitização**",
+     "**Galvânica** · dois metais em contato · o mais **ativo** corrói",
+     "**Sob tensão (CST)** · tensão + meio específico · trinca sem perda de massa" ] },
+   { "t": "Formas generalizadas", "cor": "acento", "itens": [
+     "**Uniforme** · a mais comum e a **menos perigosa** (previsível)",
+     "**Erosão-corrosão** · fluido com velocidade/partícula",
+     "**Cavitação** · implosão de bolhas · bombas e hélices",
+     "**Corrosão-fadiga** · tensão cíclica + meio corrosivo" ] },
+   { "t": "Proteção", "cor": "ok", "itens": [
+     "**Catódica** · anodo de sacrifício ou corrente impressa",
+     "**Anódica** · só para metais **passiváveis**, exige controle fino",
+     "**Revestimento** · barreira (tinta), de sacrifício (**zinco**) ou nobre",
+     "**Inibidores** · anódico, catódico ou de adsorção",
+     "**Projeto**: evitar fresta, drenar, isolar metais diferentes" ] },
+   { "t": "Cuidados com a catódica", "cor": "info", "itens": [
+     "Excesso ⇒ **fragilização por hidrogênio**",
+     "Excesso ⇒ **descolamento do revestimento**",
+     "Precisa de eletrólito contínuo — não funciona no ar seco" ] }
+  ],
+  "mnemonicos": [
+   { "t": "A uniforme é a mansa", "c": "Corrosão **uniforme** perde material previsivelmente — dá para medir e prever a vida. As **localizadas** (pite, fresta, CST) furam ou trincam sem aviso, com perda de massa mínima. **Menos massa perdida, mais perigo.**" },
+   { "t": "Cloreto fura, e o Mo defende", "c": "Sempre que o enunciado citar **cloreto / água do mar / salmoura**, pense em **pite** — e a resposta costuma ser o **316** (que tem molibdênio) ou o **duplex**." },
+   { "t": "Zinco é sacrifício, estanho é barreira", "c": "Aço **galvanizado** (Zn): se riscar, o zinco continua protegendo, porque é mais ativo. Aço **estanhado** (Sn): se riscar, o aço vira o ânodo e corrói **mais rápido** — o estanho é só barreira." }
+  ]
+ },
+
+ "v2m5": {
+  "centro": "Resistência dos materiais",
+  "nota": "4% da prova, mas é conta certa quando cai",
+  "ramos": [
+   { "t": "Tensão e deformação", "cor": "acento", "itens": [
+     "**σ = F/A** · **ε = ΔL/L₀**",
+     "**Hooke**: σ = E·ε — só no regime elástico",
+     "**Poisson** ν = −ε_transversal / ε_longitudinal · aço ≈ **0,3**",
+     "Energia elástica por volume = **σ²/2E**" ] },
+   { "t": "Vasos de pressão (parede fina)", "cor": "err", "itens": [
+     "**Cilindro** · circunferencial σ_θ = **p·r/t** · longitudinal σ_L = **p·r/2t**",
+     "A circunferencial é o **dobro** — por isso a solda longitudinal é a crítica",
+     "**Esfera** · σ = p·r/2t nas duas direções ⇒ a forma mais eficiente",
+     "Parede fina vale para **t < r/10**" ] },
+   { "t": "Dimensionamento", "cor": "ok", "itens": [
+     "**σ_adm = σ_escoamento ÷ fator de segurança**",
+     "Vaso: espessura = p·r/(S·E − 0,6p) + sobrespessura de corrosão",
+     "**E** = eficiência da junta soldada (depende do exame radiográfico)" ] },
+   { "t": "Outros esforços", "cor": "info", "itens": [
+     "**Cisalhamento** τ = F/A · **Torção** τ = T·r/J",
+     "**Flexão** σ = M·c/I",
+     "**Flambagem** (Euler) · P_cr = π²EI/(KL)² · coluna esbelta rompe por instabilidade, não por tensão" ] }
+  ],
+  "mnemonicos": [
+   { "t": "O dobro manda", "c": "No cilindro, a tensão **circunferencial é 2× a longitudinal**. Por isso o vaso rompe ao longo de uma **linha longitudinal** — e por isso a solda longitudinal é a que exige mais exame." },
+   { "t": "Esfera é a forma mais econômica", "c": "Metade da tensão do cilindro para o mesmo raio e pressão. É por isso que esferas de GLP são esferas — só custam mais para fabricar." },
+   { "t": "Flambagem não é resistência, é rigidez", "c": "A carga crítica de Euler depende de **E e I** (geometria), não de σ_escoamento. Coluna esbelta pode flambar com tensão muito abaixo do escoamento." }
+  ]
+ },
+
+ "v3m1": {
+  "centro": "Processos de soldagem",
+  "nota": "com metalurgia, 14% da prova",
+  "ramos": [
+   { "t": "A arco com eletrodo consumível", "cor": "acento", "itens": [
+     "**SMAW / eletrodo revestido** · versátil, campo · escória · baixa produtividade",
+     "**GMAW / MIG-MAG** · arame contínuo + gás · alta produtividade · MIG=inerte, MAG=ativo (CO₂)",
+     "**FCAW / arame tubular** · fluxo dentro do arame · bom em campo",
+     "**SAW / arco submerso** · fluxo granulado · **alta deposição** · só posição plana" ] },
+   { "t": "A arco com eletrodo não consumível", "cor": "ok", "itens": [
+     "**GTAW / TIG** · tungstênio + argônio · **máxima qualidade** · passe de raiz · lento",
+     "**Plasma** · arco constrito · mais concentrado que o TIG" ] },
+   { "t": "Outros", "cor": "info", "itens": [
+     "**Oxicombustível** · chama · manutenção, chapa fina",
+     "**Resistência** (ponto, costura) · efeito Joule · automotivo",
+     "**Feixe de elétrons / laser** · **máxima concentração de calor** · ZTA mínima",
+     "**Estado sólido** (fricção, explosão, ultrassom) · não funde" ] },
+   { "t": "Terminologia", "cor": "err", "itens": [
+     "**Reforço** · metal **além** do necessário para preencher a junta",
+     "**Penetração** · até onde o metal fundido alcança",
+     "**Passe de raiz** · o primeiro, o mais crítico",
+     "Juntas: topo, ângulo, sobreposta, aresta · Chanfros: V, X, U, J, meio-V" ] }
+  ],
+  "mnemonicos": [
+   { "t": "Quem concentra mais calor", "c": "**Laser e feixe de elétrons > plasma > TIG > MIG > eletrodo revestido > arco submerso > oxigás.** Mais concentração = **ZTA menor** = menos distorção. É a ordem que a banca cobra." },
+   { "t": "MIG é Inerte, MAG é Ativo", "c": "As iniciais entregam: **MIG** = Metal **I**nert Gas (argônio, hélio). **MAG** = Metal **A**ctive Gas (CO₂, misturas). Mesmo equipamento, gás diferente." },
+   { "t": "TIG faz a raiz, arco submerso faz o enchimento", "c": "**TIG** = qualidade, pouco depósito, ideal para o **passe de raiz**. **Arco submerso** = muito depósito, só na plana, ideal para **enchimento de chapa grossa**." },
+   { "t": "Reforço não reforça", "c": "É o excesso de metal depositado além do necessário. Em excesso, **concentra tensão** na margem do cordão e piora a fadiga — as normas limitam." }
+  ]
+ },
+
+ "v3m4": {
+  "centro": "Fabricação e siderurgia",
+  "nota": "4,7% da prova de Inspeção",
+  "ramos": [
+   { "t": "Siderurgia", "cor": "acento", "itens": [
+     "**Alto-forno**: minério + coque + fundente → **ferro-gusa** (~4%C)",
+     "**Aciaria**: conversor **LD/BOF** sopra oxigênio e **reduz o carbono**",
+     "**Forno elétrico a arco** · sucata · aços especiais",
+     "**Lingotamento contínuo** · substituiu o convencional · menos perda" ] },
+   { "t": "Fundição", "cor": "ok", "itens": [
+     "**Areia verde** · o mais comum e barato · molde destrutível",
+     "**Cera perdida (investment)** · alta precisão e acabamento",
+     "**Coquilha** · molde metálico permanente · alta produção",
+     "**Sob pressão (die casting)** · ligas de baixo ponto de fusão",
+     "Defeitos: **rechupe** (contração), porosidade, inclusão de areia" ] },
+   { "t": "Conformação", "cor": "err", "itens": [
+     "**A quente** (acima da recristalização) · sem encruar · menos força · pior acabamento",
+     "**A frio** · **encrua** · melhor acabamento e tolerância · exige mais força",
+     "**Laminação · Forjamento · Extrusão · Trefilação · Estampagem**",
+     "Trefilação e extrusão: fio/perfil · a trefilação **puxa**, a extrusão **empurra**" ] },
+   { "t": "Metalurgia do pó", "cor": "info", "itens": [
+     "Compactação + **sinterização**",
+     "Peças pequenas, complexas e em série · pouca perda de material",
+     "Permite materiais impossíveis de fundir (metal duro, WC-Co)" ] }
+  ],
+  "mnemonicos": [
+   { "t": "O alto-forno adiciona, a aciaria tira", "c": "Do **alto-forno** sai gusa com ~4% de carbono. Quem **retira** o carbono é a **aciaria** (conversor a oxigênio). Se a questão diz que o alto-forno produz aço, está errada — produz **gusa**." },
+   { "t": "Puxa é trefila, empurra é extruda", "c": "Na **trefilação** o material é **puxado** pela fieira (a frio, dá fio). Na **extrusão** é **empurrado** pela matriz (geralmente a quente, dá perfil)." },
+   { "t": "A frio encrua, a quente não", "c": "Acima da temperatura de recristalização, o material se recupera enquanto deforma — **não encrua** e exige menos força, mas oxida e perde acabamento. A frio é o contrário, em tudo." }
+  ]
+ },
+
  "v1m5": {
   "centro": "Aços e ligas",
   "nota": "12% da prova de Inspeção",

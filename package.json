@@ -1,6 +1,6 @@
 {
   "name": "petropass",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "private": true,
   "type": "module",
   "description": "App de estudo para os concursos de engenharia da Petrobras (Cesgranrio). O site publicado é o index.html gerado pelo build.",

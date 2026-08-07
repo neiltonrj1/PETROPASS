@@ -53,10 +53,16 @@ function metaDiaria(){ return (S.cfg && S.cfg.metaMin) || 60; }
 /* Intervalos em dias. Acertou, sobe de degrau; errou, volta ao início. */
 const DEGRAUS = [1, 3, 7, 16, 35, 75];
 
-function agendaRevisao(mid, acertou){
+/* resultado: 'limpa' (acertou sozinho) · 'apoio' (acertou com dica) ·
+   'erro'. Acertar com dica NÃO estica o intervalo — se esticasse, o app
+   marcaria como aprendido o que só foi resolvido com ajuda.          */
+function agendaRevisao(mid, resultado){
   if(!mid) return;
+  if(resultado === true) resultado = 'limpa';
+  if(resultado === false) resultado = 'erro';
   const r = S.rev[mid] || {nivel:0};
-  r.nivel = acertou ? Math.min(DEGRAUS.length-1, r.nivel+1) : 0;
+  if(resultado === 'limpa') r.nivel = Math.min(DEGRAUS.length-1, r.nivel+1);
+  else if(resultado === 'erro') r.nivel = 0;
   r.prox = somaDias(hojeISO(), DEGRAUS[r.nivel]);
   r.visto = hojeISO();
   S.rev[mid] = r;
@@ -71,10 +77,11 @@ function revisoesVencidas(){
 }
 
 /* ---------------- desempenho por semana ---------------- */
-function registraResposta(certo){
+function registraResposta(certo, comApoio){
   const k = S.trilha+':'+semanaISO();
-  const h = S.hist[k] || {n:0, ok:0};
-  h.n++; if(certo) h.ok++;
+  const h = S.hist[k] || {n:0, ok:0, apoio:0};
+  h.n++;
+  if(certo){ if(comApoio) h.apoio = (h.apoio||0)+1; else h.ok++; }
   S.hist[k] = h;
 }
 /* Últimas 12 semanas, para o gráfico de barrinhas. */
@@ -95,9 +102,13 @@ function serieDesempenho(){
    respondida — os três sinais de que a pessoa passou por ali.      */
 function moduloTocado(mid){
   if((S.notas[mid]||'').trim()) return true;
-  if(['licao','questoes','gabarito'].some(a => (S.ink[mid+':'+a]||[]).length)) return true;
-  if(S.rev[mid]) return true;
-  return false;
+  if(['licao','questoes','figuras','prova'].some(a => (S.ink[mid+':'+a]||[]).length)) return true;
+  /* responder questão conta; só abrir a lição, não — senão a barra de
+     cobertura mediria arquivo aberto em vez de assunto estudado.    */
+  const r = S.quiz['licao:'+mid];
+  if(r && Object.keys(r).length) return true;
+  return DATA.provas.some(p => (S.quiz[p.id]||{}) &&
+    p.questoes.some(q => q.mod===mid && (S.quiz[p.id]||{})[q.n]!==undefined));
 }
 function cobertura(){
   const t = trilha();

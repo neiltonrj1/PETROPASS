@@ -16,7 +16,11 @@ const RAIZ = path.resolve(import.meta.dirname, '..');
 const DEST = path.join(RAIZ, 'design');
 fs.mkdirSync(DEST, { recursive: true });
 
-const cssCompleto = fs.readFileSync(path.join(RAIZ, 'src', 'shell', 'estilo.css'), 'utf8').replace(/^﻿/, '');
+/* o mesmo empilhamento que o build usa: todos os .css de src/shell/ */
+const dirShell = path.join(RAIZ, 'src', 'shell');
+const cssCompleto = fs.readdirSync(dirShell).filter(f => f.endsWith('.css')).sort()
+  .map(f => fs.readFileSync(path.join(dirShell, f), 'utf8').replace(/^﻿/, ''))
+  .join('\n\n');
 /* tira só as @font-face; os fallbacks (system-ui) já estão declarados */
 const css = cssCompleto.replace(/@font-face\{[\s\S]*?\}\s*/g, '');
 

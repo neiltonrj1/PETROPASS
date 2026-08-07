@@ -3,12 +3,12 @@ const DIAS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 /* trilha = a prova escolhida (inspecao, producao, eletrica, projetos).
    curWeek e chk passam a ser por trilha, porque cada prova tem o seu
    cronograma; o que já estava salvo é migrado em migraEstado().        */
-const DEF = {v:5, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
-             trilha:null, tempo:{}, rev:{}, hist:{},
+const DEF = {v:6, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
+             trilha:null, tempo:{}, rev:{}, hist:{}, dicas:{}, rascunho:{}, risca:{},
              cfg:{tema:'claro', fs:16, dataProva:'', metaMin:60}, ult:null};
 
 let sb=null, USER=null, S=JSON.parse(JSON.stringify(DEF)), CFG=null, OFFLINE=false, SUJO=false;
-let VIEW='home', LEITOR=null, QZ=null, SIM=null;
+let VIEW='home', LEITOR=null, QZ=null, SIM=null, REV=null;
 const main = document.getElementById('main');
 
 /* ---------------- utilidades ---------------- */
@@ -48,14 +48,44 @@ function migraEstado(){
     S.curWeek = {inspecao: S.curWeek||0};
     if(Object.keys(S.notas||{}).length || Object.keys(S.quiz||{}).length) S.trilha='inspecao';
   }
+  /* Até a v5 as respostas de prova eram guardadas pelo ÍNDICE da questão
+     no array. Agora a chave é o número da questão na prova, o mesmo das
+     questões da lição — assim uma peça só corrige as duas.            */
+  if(S.v<6){
+    for(const p of DATA.provas){
+      const r = S.quiz[p.id];
+      if(r){
+        const novo = {};
+        for(const k in r){ const q = p.questoes[+k]; if(q) novo[q.n] = r[k]; }
+        S.quiz[p.id] = novo;
+      }
+      S.erros.forEach(e => { if(e.vol===p.id){ const q = p.questoes[+e.qi]; if(q) e.qi = q.n; } });
+    }
+  }
+  /* As abas "gabarito" e "calculos" deixaram de existir. A tinta era
+     guardada em "<módulo>:<aba>", então o que foi rabiscado nelas
+     ficaria órfão — trazemos para a aba de questões, que é onde aquele
+     conteúdo passou a morar.                                        */
+  if(S.v<6){
+    for(const k of Object.keys(S.ink||{})){
+      const m = k.match(/^(.+):(gabarito|calculos)$/);
+      if(!m) continue;
+      const destino = m[1]+':questoes';
+      S.ink[destino] = (S.ink[destino]||[]).concat(S.ink[k]);
+      delete S.ink[k];
+    }
+  }
   /* campos que podem faltar em qualquer backup mais antigo */
-  if(!S.tempo || typeof S.tempo!=='object') S.tempo={};
-  if(!S.rev   || typeof S.rev  !=='object') S.rev={};
-  if(!S.hist  || typeof S.hist !=='object') S.hist={};
+  if(!S.risca    || typeof S.risca   !=='object') S.risca={};
+  if(!S.tempo    || typeof S.tempo   !=='object') S.tempo={};
+  if(!S.rev      || typeof S.rev     !=='object') S.rev={};
+  if(!S.hist     || typeof S.hist    !=='object') S.hist={};
+  if(!S.dicas    || typeof S.dicas   !=='object') S.dicas={};
+  if(!S.rascunho || typeof S.rascunho!=='object') S.rascunho={};
   if(!S.cfg) S.cfg={};
   if(!S.cfg.metaMin) S.cfg.metaMin=60;
   if(!S.trilha) S.trilha=null;
-  S.v=5;
+  S.v=6;
 }
 function semanaAtual(){
   if(typeof S.curWeek==='number') S.curWeek={};             // formato antigo
@@ -351,6 +381,10 @@ async function sair(){
 /* ---------------- dados: local + nuvem ---------------- */
 let saveT=null, syncT=null;
 function save(agora){
+  /* carimbo de versão: é o que permite decidir, no próximo boot, quem
+     está mais novo — o aparelho ou a nuvem — em vez de chutar.      */
+  S.seq = (S.seq||0) + 1;
+  S.atualizadoEm = new Date().toISOString();
   lsSet(chaveLocal(), S);
   SUJO = true; marcaSync();
   clearTimeout(syncT);
@@ -388,14 +422,51 @@ window.addEventListener('online', ()=>{ if(USER && SUJO) nuvemSalva(); });
 window.addEventListener('offline', ()=>{ OFFLINE=true; marcaSync(); });
 document.addEventListener('visibilitychange', ()=>{ if(document.hidden && SUJO) nuvemSalva(true); });
 
+/* Junta o que está no aparelho com o que está na nuvem.
+
+   Antes daqui, quando havia versão na nuvem ela simplesmente substituía
+   a local — e quem estudasse duas horas offline perdia tudo se a última
+   subida tivesse falhado. Agora ninguém é descartado: manda o mais novo,
+   e o que só existe do outro lado é incorporado chave a chave. Como tudo
+   o que o app guarda é dicionário (anotações, notas, respostas, revisões),
+   a fusão não tem conflito na prática.                                  */
+function juntaEstados(local, nuvem){
+  const base = JSON.parse(JSON.stringify(DEF));
+  if(!local && !nuvem) return base;
+  if(!nuvem) return Object.assign(base, local);
+  if(!local) return Object.assign(base, nuvem);
+
+  const seqL = local.seq||0, seqN = nuvem.seq||0;
+  const novo = seqL > seqN ? local : nuvem;
+  const velho = seqL > seqN ? nuvem : local;
+  const S2 = Object.assign(base, JSON.parse(JSON.stringify(novo)));
+
+  /* dicionários: o que existe só no lado antigo é preservado */
+  for(const campo of ['ink','notas','quiz','chk','wkdone','rev','tempo','hist','dicas','rascunho','risca']){
+    const a = velho[campo], b = S2[campo];
+    if(!a || typeof a !== 'object' || !b) continue;
+    for(const k in a){
+      if(b[k] === undefined){ b[k] = a[k]; continue; }
+      /* respostas de um mesmo caderno: une as questões que faltam */
+      if(campo==='quiz' && b[k] && typeof b[k]==='object' && typeof a[k]==='object'){
+        for(const q in a[k]) if(b[k][q] === undefined) b[k][q] = a[k][q];
+      }
+    }
+  }
+  /* caderno de erros: união por (acervo, questão) */
+  const vistos = new Set((S2.erros||[]).map(e => e.vol+'#'+e.qi));
+  for(const e of (velho.erros||[])) if(!vistos.has(e.vol+'#'+e.qi)) S2.erros.push(e);
+
+  if(seqL !== seqN) setTimeout(()=>toast('Progresso do aparelho e da nuvem foram juntados ✔', 3800), 900);
+  return S2;
+}
+
 /* ---------------- início do app ---------------- */
 async function iniciaApp(){
   document.body.classList.remove('deslogado');
   const local = lsGet(chaveLocal(), null);
   const nuvem = await nuvemCarrega();
-  if(nuvem) S = nuvem;
-  else if(local) S = Object.assign(JSON.parse(JSON.stringify(DEF)), local);
-  else S = JSON.parse(JSON.stringify(DEF));
+  S = juntaEstados(local, nuvem);
   if(local && nuvem){ lsSet(chaveLocal(), S); }
   migraEstado();
   aplicaCfg(); SUJO=false; marcaSync(); iniciaRelogio();
@@ -439,6 +510,7 @@ function go(v){
   VIEW = v; if(v!=='estudar') LEITOR=null;
   if(v!=='treinar') QZ=null;
   if(v!=='provas') SIM=null;
+  if(v!=='treinar') REV=null;
   document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v===v));
   window.scrollTo(0,0); render();
 }
@@ -513,16 +585,24 @@ function stats(){
   const feitas = Object.keys(S.wkdone).filter(k=>k.startsWith(pre) && S.wkdone[k]).length;
   const TOT = semanas().length;
   const meus = new Set(volsTrilha().map(v=>v.id));
+  const meusMods = new Set(modsTrilha().map(m=>'licao:'+m.id));
   let resp=0, certas=0;
   for(const vid in S.quiz){
-    if(!meus.has(vid) && !provasTrilha().some(p=>p.id===vid)) continue;
-    const qs = bancoDe(vid);
-    for(const i in S.quiz[vid]){ resp++; if(qs[i] && S.quiz[vid][i]===qs[i].correta) certas++; }
+    if(!meus.has(vid) && !meusMods.has(vid) && !provasTrilha().some(p=>p.id===vid)) continue;
+    for(const chave in S.quiz[vid]){
+      const q = questaoDe(vid, chave);
+      if(!q) continue;
+      resp++; if(S.quiz[vid][chave]===q.correta) certas++;
+    }
   }
+  /* Sequência de dias fechados, contada de HOJE para trás. Antes a
+     varredura começava no sábado da semana escolhida no seletor, então
+     marcar os blocos de um sábado numa terça já contava dias futuros. */
   const w0 = semanaAtual();
   let streak=0;
   outer: for(let w=w0; w>=0; w--){
-    for(let d=6; d>=0; d--){
+    const primeiro = (w===w0) ? new Date().getDay() : 6;
+    for(let d=primeiro; d>=0; d--){
       if(S.chk[kBloco(w,d,'m')] && S.chk[kBloco(w,d,'n')]) streak++;
       else if(streak>0) break outer;
     }
@@ -535,6 +615,14 @@ function bancoDe(id){
   if(DATA.quizzes[id]) return DATA.quizzes[id];
   const p = DATA.provas.find(p=>p.id===id);
   return p? p.questoes : [];
+}
+/* Uma resposta guardada aponta para a questão de três jeitos diferentes:
+   nos quizzes comentados a chave é o índice; nas provas e nas questões
+   da lição é o número da questão. Esta função esconde isso.          */
+function questaoDe(fonte, chave){
+  if(DATA.quizzes[fonte]) return DATA.quizzes[fonte][chave];
+  const ctx = achaQuestao(fonte, +chave);
+  return ctx && ctx.q;
 }
 function hojeZero(){ const d=new Date(); d.setHours(0,0,0,0); return d; }
 function dataProva(){
@@ -705,10 +793,12 @@ function abrirModulo(mid, aba){
 function abrir(vid,mid,aba){
   LEITOR = {vol:vid, mod:mid, aba:aba||'licao'};
   S.ult = {vol:vid, mod:mid, aba:LEITOR.aba};
-  /* estudar um módulo o coloca na fila de revisão espaçada; revê-lo
-     depois de vencido empurra para o degrau seguinte.              */
+  /* Abrir a lição coloca o módulo na fila de revisão, mas NÃO faz o
+     intervalo crescer: quem move o degrau é acertar questão. Antes,
+     reabrir seis vezes levava o módulo para 75 dias sem o aluno ter
+     acertado nada — e a barra de cobertura media abrir arquivo.     */
   if(!S.rev[mid]) agendaRevisao(mid, false);
-  else if(diasEntre(S.rev[mid].prox, hojeISO()) >= 0 && S.rev[mid].visto !== hojeISO()) agendaRevisao(mid, true);
+  else S.rev[mid].visto = hojeISO();
   save();
   if(VIEW!=='estudar'){ VIEW='estudar'; document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='estudar')); }
   window.scrollTo(0,0); render();
@@ -717,14 +807,14 @@ function renderLeitor(){
   const m = findMod(LEITOR.vol, LEITOR.mod);
   if(!m){ LEITOR=null; return vEstudar(); }
   const figs = FIGURAS.filter(f=>f.mod===m.id);
-  const cals = CALCULOS.filter(c=>c.mod===m.id);
   const daProva = questoesDoModulo(m.id);
+  const nQs = (m.qs||[]).length;
+  /* Gabarito e cálculos deixaram de ser abas: agora aparecem dentro da
+     própria questão, junto do enunciado que eles resolvem.           */
   const abas = [['licao','Lição']];
   if(figs.length) abas.push(['figuras','Figuras '+figs.length]);
-  if(m.questoes) abas.push(['questoes','Questões']);
+  if(nQs || m.questoes) abas.push(['questoes','Questões'+(nQs?' '+nQs:'')]);
   if(daProva.length) abas.push(['prova','De prova '+daProva.length]);
-  if(cals.length) abas.push(['calculos','Cálculos '+cals.length]);
-  if(m.gabarito) abas.push(['gabarito','Gabarito']);
   if(!abas.some(a=>a[0]===LEITOR.aba)) LEITOR.aba = 'licao';
   main.innerHTML = `
   <div id="leitorHead">
@@ -748,30 +838,15 @@ function renderLeitor(){
 }
 function conteudoAba(m){
   if(LEITOR.aba==='figuras') return '<div id="figs"></div>';
+  if(LEITOR.aba==='questoes') return questoesDoModuloHTML(m);
   if(LEITOR.aba==='prova'){
     const qs = questoesDoModulo(m.id);
-    return `<p class="hint">Questões que já caíram sobre este assunto, com o gabarito oficial da banca.
-      Tente responder antes de abrir a resposta.</p>` + qs.map((q,i)=>`
-      <div class="qprova">
-        <span class="origem">${esc(q.prova.nome)} · ${q.prova.ano} · Q${q.n}</span>
-        <div class="enun">${esc(q.q)}</div>
-        ${['A','B','C','D','E'].filter(L=>L in q.alts).map(L=>
-          `<div class="altp"><span class="letra">${L}</span><span>${esc(q.alts[L])}</span></div>`).join('')}
-        <button class="btn btn-s" style="margin-top:8px" onclick="mostraResp(${i})">Ver gabarito</button>
-        <div class="resp hide" id="resp${i}"><b>Gabarito oficial: letra ${q.correta}</b><br>
-          <span style="font-size:.8rem">${esc(q.alts[q.correta]||'')}</span></div>
-      </div>`).join('');
+    return `<div class="qz-topo">
+        <div><b>${qs.length} questões</b> que já caíram sobre este assunto</div>
+        <div class="qz-placar">gabarito oficial da banca</div>
+      </div>` +
+      qs.map((q,i) => questaoHTML(q.prova.id, q, m, i, qs.length)).join('');
   }
-  if(LEITOR.aba==='calculos') return CALCULOS.filter(c=>c.mod===m.id).map((c,i)=>`
-    <div class="cbox">
-      <h3>${esc(c.t)}</h3><div class="co">${esc(c.orig)}</div>
-      <div class="en">${esc(c.en)}</div>
-      <div class="dd"><b>Dados:</b><ul>${c.dados.map(d=>`<li>${d}</li>`).join('')}</ul></div>
-      ${c.passos.map((p,j)=>`<div class="passo"><div class="num">${j+1}</div><div class="txt">${p.t}
-        ${p.f? `<div class="mline">${p.f}</div>`:''}</div></div>`).join('')}
-      <div class="aviso a-ok"><b>Resposta:</b> ${esc(c.resp)}</div>
-      <div class="aviso a-err"><b>Erro clássico:</b> ${c.erro}</div>
-    </div>`).join('');
   return m[LEITOR.aba] || '<p>—</p>';
 }
 function montaFiguras(m){
@@ -935,6 +1010,7 @@ window.addEventListener('resize', ()=>{ if(!LEITOR) return; clearTimeout(rsT);
 
 /* ---------------- TREINAR ---------------- */
 function vTreinar(){
+  if(REV) return renderRevisao();
   if(QZ) return renderQuiz();
   const comentados = volsTrilha().filter(v=>(DATA.quizzes[v.id]||[]).length);
   let html = `<div class="card"><h2>Treino comentado · ${esc(trilha().curto)}</h2>
@@ -1005,8 +1081,8 @@ function renderSimulado(){
   const p = DATA.provas.find(p=>p.id===SIM.id);
   const R = S.quiz[p.id] = S.quiz[p.id]||{};
   const total = p.questoes.length;
-  const feitas = Object.keys(R).length;
-  const certas = Object.keys(R).filter(i=>R[i]===p.questoes[i].correta).length;
+  const feitas = p.questoes.filter(q=>R[q.n]!==undefined).length;
+  const certas = p.questoes.filter(q=>R[q.n]===q.correta).length;
   if(SIM.i>=total){
     const pct = feitas? Math.round(certas/feitas*100):0;
     main.innerHTML = `<div class="card" style="text-align:center">
@@ -1016,7 +1092,8 @@ function renderSimulado(){
       <button class="btn btn-s" onclick="SIM=null;render()">Voltar</button></div></div>`;
     return;
   }
-  const q = p.questoes[SIM.i], resp = R[SIM.i];
+  const q = p.questoes[SIM.i], resp = R[q.n];
+  const mod = (q.mod && findModPorId(q.mod)) || {id:'', t:p.nome};
   let html = `<div class="card">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
       <button class="btn btn-s" style="padding:7px 10px" onclick="SIM=null;render()">←</button>
@@ -1024,43 +1101,26 @@ function renderSimulado(){
       <div style="font-size:.74rem;font-weight:700">✔ ${certas} · ✘ ${feitas-certas}</div>
     </div>
     <div class="pbar" style="margin-bottom:13px"><div class="pfill" style="width:${feitas/total*100}%"></div></div>
-    <span class="origem">${esc(q.origem)}</span>
-    <div class="enun">${esc(q.q)}</div>`;
-  ['A','B','C','D','E'].forEach(L=>{
-    if(!(L in q.alts)) return;
-    let cls='alt';
-    if(resp!==undefined) cls += (L===q.correta)?' correta':(L===resp?' errada':' apagada');
-    html += `<button class="${cls}" ${resp===undefined?`onclick="respondeSim('${L}')"`:''}>
-      <span class="letra">${L}</span><span>${esc(q.alts[L])}</span></button>`;
-  });
+    ${questaoHTML(p.id, q, mod, SIM.i, total)}`;
   if(resp!==undefined){
-    const ok = resp===q.correta;
-    html += `<div class="fb ${ok?'fb-ok':'fb-err'}">
-      <h4 style="color:var(--${ok?'ok':'err'})">${ok?'✔ Acertou!':'✘ Errou.'} Gabarito oficial: letra ${q.correta}</h4>
-      <div>${esc(q.alts[q.correta]||'')}</div>
-      ${q.mod? `<div class="sec"><button class="link" onclick="abrirModulo('${q.mod}')">📖 Rever a lição deste assunto</button></div>`:''}
-    </div>
-    <div class="row" style="margin-top:12px">
+    html += `<div class="row" style="margin-top:12px">
       <button class="btn btn-s" onclick="SIM.i=Math.max(0,SIM.i-1);window.scrollTo(0,0);render()">← Anterior</button>
       <button class="btn btn-p" onclick="SIM.i++;window.scrollTo(0,0);render()">${SIM.i===total-1?'Ver resultado':'Próxima →'}</button></div>`;
   }
   html += `</div>`;
-  html += mapaSessao(p.questoes.map((_,i)=>i), R, p.questoes, SIM.i, 'vaiParaSimulado');
+  html += mapaSessao(p.questoes.map(x=>x.n), R, indexaPorN(p.questoes), SIM.i, 'vaiParaSimulado');
   main.innerHTML = html;
 }
+/* o mapa da sessão trabalha com um "banco" indexado pela chave da resposta */
+function indexaPorN(qs){ const o={}; qs.forEach(q=>o[q.n]=q); return o; }
+function findModPorId(mid){
+  for(const v of DATA.conteudo){ const m = v.mods.find(m=>m.id===mid); if(m) return m; }
+  return null;
+}
+/* mantido porque o simulado antigo e os testes chamam por este nome */
 function respondeSim(L){
   const p = DATA.provas.find(p=>p.id===SIM.id);
-  const q = p.questoes[SIM.i];
-  S.quiz[p.id][SIM.i] = L;
-  registraResposta(L===q.correta);
-  if(q.mod) agendaRevisao(q.mod, L===q.correta);
-  if(L!==q.correta){
-    if(!S.erros.some(e=>e.vol===p.id && e.qi===SIM.i))
-      S.erros.push({vol:p.id, qi:SIM.i, origem:q.origem, marcou:L, correta:q.correta,
-        ponto:'Rever '+(q.mod||'o assunto desta questão'), motivo:'', d:new Date().toISOString().slice(0,10)});
-  } else S.erros = S.erros.filter(e=>!(e.vol===p.id && e.qi===SIM.i));
-  save(); render();
-  setTimeout(()=>{ const fb=document.querySelector('.fb'); fb&&fb.scrollIntoView({behavior:'smooth',block:'center'}); },70);
+  respondeQuestao(p.id, p.questoes[SIM.i].n, L);
 }
 function iniciaQuiz(vid, fila){
   const qs = DATA.quizzes[vid]||[];
@@ -1070,15 +1130,37 @@ function iniciaQuiz(vid, fila){
   document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='treinar'));
   window.scrollTo(0,0); render();
 }
+/* Antes, isto pegava só os erros do acervo do PRIMEIRO item da lista:
+   quem errasse em duas provas diferentes refazia metade e o botão
+   prometia o total. Agora a revisão junta tudo, de todos os acervos. */
 function refazerErradas(){
   const meus = errosDaTrilha();
   if(!meus.length) return;
-  const vid = meus[0].vol;
-  const fila = [...new Set(meus.filter(e=>e.vol===vid).map(e=>e.qi))];
-  fila.forEach(i=>{ if(S.quiz[vid]) delete S.quiz[vid][i]; });
+  REV = meus.map(e => ({vol:e.vol, qi:e.qi}));
+  REV.forEach(r => { if(S.quiz[r.vol]) delete S.quiz[r.vol][r.qi]; });
   save();
-  if(DATA.quizzes[vid]) return iniciaQuiz(vid, fila);
-  SIM = {id:vid, i:fila[0]||0}; VIEW='provas'; window.scrollTo(0,0); render();
+  VIEW='treinar'; QZ=null; SIM=null;
+  document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='treinar'));
+  window.scrollTo(0,0); render();
+}
+function renderRevisao(){
+  const itens = REV.map(r => {
+    const ctx = achaQuestao(r.vol, r.qi);
+    return ctx && ctx.q ? {fonte:r.vol, q:ctx.q, mod:ctx.mod} : null;
+  }).filter(Boolean);
+  const feitas = itens.filter(x => (S.quiz[x.fonte]||{})[x.q.n] !== undefined).length;
+  main.innerHTML = `<div class="card">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <button class="btn btn-s" style="padding:7px 10px" onclick="REV=null;render()">←</button>
+        <h2 style="flex:1;margin:0">Revisão dirigida</h2>
+      </div>
+      <p class="hint" style="margin-top:0">${itens.length} ${itens.length===1?'questão que você errou':'questões que você errou'},
+        de todos os cadernos desta prova. ${feitas?`Já refez ${feitas}.`:''}</p>
+      ${feitas ? `<div class="pbar"><div class="pfill" style="width:${feitas/itens.length*100}%"></div></div>` : ''}
+    </div>
+    ${itens.length
+      ? itens.map((x,i) => questaoHTML(x.fonte, x.q, x.mod || {id:'',t:''}, i, itens.length)).join('')
+      : `<div class="card"><p class="hint" style="margin:0">Nenhuma questão para refazer.</p></div>`}`;
 }
 function renderQuiz(){
   const qs = DATA.quizzes[QZ.vol]; const vol = findVol(QZ.vol);

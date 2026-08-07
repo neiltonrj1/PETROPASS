@@ -123,6 +123,140 @@ for (const t of DATA.trilhas) {
   ok(`${t.id}/marcar semana`, () => window.toggleWk(0));
 }
 
+/* ---- questão interativa (v6) ---- */
+process.stdout.write('\nquestão     ');
+ok('questões da lição viraram interativas', () => {
+  window.escolheTrilha('inspecao');
+  const n = window.eval('DATA.conteudo.reduce(function(a,v){return a+v.mods.reduce(function(b,m){return b+((m.qs||[]).length)},0)},0)');
+  if (n < 150) throw new Error(`só ${n} questões de lição converteram`);
+  window.abrirModulo('v1m2', 'questoes');
+  if (!window.document.querySelector('.qz')) throw new Error('nenhuma questão renderizou');
+  if (!window.document.querySelector('.qz-alts .alt')) throw new Error('as alternativas não apareceram');
+});
+ok('não existem mais abas de gabarito e cálculos', () => {
+  const abas = [...window.document.querySelectorAll('.abas button')].map(b => b.textContent.trim().toLowerCase());
+  if (abas.some(a => a.startsWith('gabarito') || a.startsWith('cálculos'))) {
+    throw new Error('ainda há aba separada: ' + abas.join(', '));
+  }
+});
+ok('responder corrige e mostra a explicação', () => {
+  const r = window.eval(`(function(){
+    var mod = null;
+    DATA.conteudo.forEach(function(v){ v.mods.forEach(function(m){ if(m.id==='v1m2') mod=m; }); });
+    var q = mod.qs[0];
+    delete S.quiz['licao:v1m2'];
+    respondeQuestao('licao:v1m2', q.n, q.correta === 'A' ? 'B' : 'A');
+    return {marcada: S.quiz['licao:v1m2'][q.n], correta: q.correta, temErro: S.erros.some(function(e){return e.vol==='licao:v1m2'})};
+  })()`);
+  if (!r.marcada) throw new Error('a resposta não foi guardada');
+  if (!r.temErro) throw new Error('errar não alimentou o caderno de erros');
+  if (!window.document.querySelector('.qz-bloco.ruim')) throw new Error('não apareceu o bloco de erro');
+  if (!window.document.querySelector('.alt.correta')) throw new Error('a alternativa correta não foi destacada');
+});
+ok('refazer limpa a resposta', () => {
+  const q = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var n = mod.qs[0].n; refazQuestao('licao:v1m2', n);
+    return {resp: S.quiz['licao:v1m2'][n], erro: S.erros.some(function(e){return e.vol==='licao:v1m2'})};
+  })()`);
+  if (q.resp !== undefined) throw new Error('a resposta não foi apagada');
+  if (q.erro) throw new Error('o erro continuou no caderno');
+});
+ok('dicas revelam uma de cada vez e escondem a letra', () => {
+  const r = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var q = mod.qs[0], id = 'licao:v1m2:'+q.n;
+    S.dicas = {};
+    var ds = dicasDe(q, mod);
+    pedeDica(id, ds.length);
+    var n1 = S.dicas[id];
+    pedeDica(id, ds.length); pedeDica(id, ds.length); pedeDica(id, ds.length);
+    var texto = ds.map(function(d){return d.c}).join(' ');
+    return {n1:n1, teto:S.dicas[id], total:ds.length, vazou: /letra\\s+[A-E]\\b/.test(texto)};
+  })()`);
+  if (r.n1 !== 1) throw new Error('a primeira dica não abriu sozinha');
+  if (r.teto > r.total) throw new Error('a dica passou do total disponível');
+  if (r.vazou) throw new Error('uma dica entregou a letra da resposta');
+});
+ok('rascunho guarda por questão', () => {
+  window.eval(`salvaRascunho('licao:v1m2:11', 'meu raciocínio')`);
+  if (window.eval(`S.rascunho['licao:v1m2:11']`) !== 'meu raciocínio') throw new Error('o rascunho não foi salvo');
+});
+ok('resolução passo a passo entra na questão que ela resolve', () => {
+  const achou = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    return (mod.qs||[]).some(function(q){ return !!calculoDaQuestao('v1m2', q.origem); });
+  })()`);
+  if (!achou) throw new Error('nenhum cálculo casou com a questão de origem');
+});
+ok('revisão dirigida cobre todos os acervos', () => {
+  const r = window.eval(`(function(){
+    S.erros = [];
+    var provas = provasTrilha();
+    if(provas.length < 2) return {pulou:true};
+    provas.slice(0,2).forEach(function(p){
+      S.erros.push({vol:p.id, qi:p.questoes[0].n, origem:'x', marcou:'A', correta:'B', ponto:'', motivo:'', d:''});
+    });
+    refazerErradas();
+    return {acervos: new Set(REV.map(function(x){return x.vol})).size, total: REV.length};
+  })()`);
+  if (r.pulou) return;
+  if (r.acervos < 2) throw new Error('a revisão pegou só um acervo');
+  if (r.total !== window.eval('S.erros.length')) throw new Error('a revisão não pegou todas as erradas');
+  if (!window.document.querySelector('.qz')) throw new Error('a tela de revisão não renderizou as questões');
+  window.eval('REV=null'); window.go('treinar');
+});
+ok('acertar com dica não estica a revisão', () => {
+  const r = window.eval(`(function(){
+    var mod=null; DATA.conteudo.forEach(function(v){v.mods.forEach(function(m){if(m.id==='v1m2')mod=m})});
+    var q = mod.qs[1], id = 'licao:v1m2:'+q.n;
+    S.rev['v1m2'] = {nivel:2, prox:hojeISO(), visto:''};
+    S.dicas = {}; delete S.quiz['licao:v1m2'];
+    respondeQuestao('licao:v1m2', q.n, q.correta);      // sem dica
+    var limpo = S.rev['v1m2'].nivel;
+    S.rev['v1m2'] = {nivel:2, prox:hojeISO(), visto:''};
+    S.dicas[id] = 1; refazQuestao('licao:v1m2', q.n);
+    respondeQuestao('licao:v1m2', q.n, q.correta);      // com dica
+    return {limpo:limpo, comApoio:S.rev['v1m2'].nivel};
+  })()`);
+  if (r.limpo !== 3) throw new Error('acerto limpo devia subir para o degrau 3');
+  if (r.comApoio !== 2) throw new Error('acerto com dica não podia subir de degrau');
+});
+ok('abrir a lição não faz o intervalo crescer', () => {
+  const r = window.eval(`(function(){
+    S.rev['v1m3'] = {nivel:1, prox: somaDias(hojeISO(),-5), visto: somaDias(hojeISO(),-30)};
+    abrirModulo('v1m3'); fecharLeitor();
+    return S.rev['v1m3'].nivel;
+  })()`);
+  if (r !== 1) throw new Error('só abrir a lição mudou o degrau da revisão');
+});
+ok('estados local e nuvem se juntam sem perder nada', () => {
+  const r = window.eval(`(function(){
+    var local = JSON.parse(JSON.stringify(DEF));
+    local.seq = 5; local.notas = {a:'do aparelho'}; local.ink = {'m1:licao':[1]};
+    var nuvem = JSON.parse(JSON.stringify(DEF));
+    nuvem.seq = 9; nuvem.notas = {b:'da nuvem'};
+    var j = juntaEstados(local, nuvem);
+    return {a:j.notas.a, b:j.notas.b, ink:!!j.ink['m1:licao']};
+  })()`);
+  if (!r.a) throw new Error('a nota que só existia no aparelho foi descartada');
+  if (!r.b) throw new Error('a nota da nuvem sumiu');
+  if (!r.ink) throw new Error('as anotações a caneta do aparelho foram perdidas');
+});
+/* O jsdom não resolve var() em getComputedStyle, então aqui se confere
+   a regra em si: sem `html{font-size:var(--fs)}` o ajuste de tamanho
+   de texto não alcança nenhuma das medidas em rem do sistema.       */
+ok('o tamanho do texto escala a página', () => {
+  const css = [...window.document.querySelectorAll('style')].map(s => s.textContent).join('\n');
+  if (!/html\s*\{[^}]*font-size\s*:\s*var\(--fs/.test(css)) {
+    throw new Error('falta html{font-size:var(--fs)} — o controle de tamanho não escala os rem');
+  }
+});
+ok('questões de prova herdaram explicação', () => {
+  const n = window.eval('DATA.provas.reduce(function(a,p){return a+p.questoes.filter(function(q){return !!q.explica}).length},0)');
+  if (n < 100) throw new Error(`só ${n} questões de prova têm explicação`);
+});
+
 /* ---- painel de estudo (v5) ---- */
 process.stdout.write('\npainel      ');
 ok('meta e cronômetro', () => {

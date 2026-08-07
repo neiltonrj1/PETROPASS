@@ -1,0 +1,121 @@
+/* ================================================================
+   AJUSTES DE ACESSIBILIDADE E LEITURA
+
+   Correções apontadas na avaliação de UI. Ficam num arquivo à parte,
+   carregado por último, para que dê para ler o que mudou e por quê
+   sem caçar as linhas dentro dos 2 mil do arquivo base.
+   ================================================================ */
+
+/* ---- 1. o controle "tamanho do texto" voltou a funcionar ----
+   O app grava --fs no <html>, mas o tamanho estava aplicado no <body>.
+   Como rem é relativo ao <html>, as ~50 medidas em rem do sistema
+   ignoravam o ajuste: o aluno arrastava de 13 para 22 px e só o
+   parágrafo da lição crescia. Agora a página inteira escala.       */
+html{ font-size:var(--fs, 16px); }
+body{ font-size:1rem; }
+
+/* ---- 2. contraste ----
+   Os valores antigos ficavam entre 2,7:1 e 3,1:1 sobre os fundos
+   claros — abaixo do mínimo de 4,5:1 — e justamente nos textos de
+   10 e 11 px, que é onde menos se pode economizar.                */
+:root{
+  --muted:#696E75;      /* era #8E9299 */
+  --ok:#0C6B3F;         /* era #118A52 */
+  --err:#B92C24;        /* era #C8342B */
+  --line-forte:#8C887E; /* contorno de controle, ≥3:1 */
+  --warnln:#C9AE62;
+  --foco:#14161A;
+}
+[data-tema="escuro"]{
+  --muted:#8C939B;      /* era #767C84 */
+  --line-forte:#6E757E;
+  --warnln:#6B5C2C;
+  --foco:#C9F24A;
+  /* Os apelidos da v5 eram declarados só no :root com var() dentro.
+     Custom property com var() resolve no elemento em que é declarada,
+     então no tema escuro eles ficavam presos nos valores claros em
+     qualquer escopo aninhado. Redeclarados aqui, com valor próprio. */
+  --sf:#15181C; --sf2:#1B1F24; --ink3:#8C939B;
+  --acid:#C9F24A; --pri:#C9F24A; --priink:#14161A;
+}
+#top, .capa, #tools, body.deslogado{ --foco:#C9F24A; }
+
+/* ---- 3. foco visível ----
+   O sistema não tinha nenhuma regra de foco. Num app usado com caneta,
+   teclado e leitor de tela, isso trava a navegação inteira.        */
+:where(button, a, [tabindex], input, textarea, select, summary):focus-visible{
+  outline:3px solid var(--foco);
+  outline-offset:2px;
+  border-radius:var(--r-s);
+}
+:where(button, a, input, textarea, select):focus:not(:focus-visible){ outline:none; }
+
+/* ---- 4. estado por cor E por forma ----
+   opacity derruba o contraste de tudo junto — texto, borda e fundo.
+   Trocado por cor declarada, e o estado passa a ter também um sinal
+   de forma (risco, ✓, ✗), para não depender de enxergar cor.      */
+.alt.apagada{
+  opacity:1; background:var(--bg); border-color:var(--line); color:var(--muted);
+}
+.alt.apagada .letra{ color:var(--muted); text-decoration:line-through; }
+.btn:disabled{
+  opacity:1; background:var(--chip); color:var(--muted);
+  border:1px solid var(--line); cursor:not-allowed;
+}
+.alt.correta::after{ content:"✓"; margin-left:auto; font-weight:700; color:var(--ok); }
+.alt.errada::after{ content:"✗"; margin-left:auto; font-weight:700; color:var(--err); }
+
+/* ---- 5. contorno de controle visível ----
+   .btn-s e .alt tinham borda com 1,3:1 sobre o próprio fundo do
+   cartão: no tema escuro o botão secundário sumia por completo.   */
+.btn-s, .alt, .list button, .abas button, .pitem, .trilha-card, .qz{
+  border-color:var(--line-forte);
+}
+.btn-s{ background:var(--chip); }
+
+/* ---- 6. medida de linha ----
+   Sem largura máxima, a lição chegava a ~120 caracteres por linha no
+   monitor — o dobro do confortável para leitura longa.            */
+#page p, #page li, #page h1, #page h2, #page h3, #page h4,
+.qz .enun, .qz-bloco p, .qz-dica p{ max-width:68ch; }
+#page{ line-height:1.7; }
+
+/* ---- 7. hierarquia de títulos ----
+   h2 de cartão tinha o mesmo corpo do parágrafo, e h3 era MENOR que
+   o texto que ele titulava. Sem contraste de tamanho, não há como
+   varrer a página com o olho.                                     */
+.card h2, #page h1{ font-size:1.35rem; line-height:1.2; }
+#page h2{ font-size:1.15rem; }
+#page h3, #page h4, .card h3{ font-size:1rem; font-weight:700; color:var(--ink); }
+
+/* ---- 8. alvo de toque ----
+   Alternativa, casa do mapa e bloco do plano estavam abaixo do que
+   se acerta com o dedo — e o app é usado em tablet.               */
+.alt{ min-height:56px; align-items:center; }
+.mapa b{ width:30px; height:30px; line-height:28px; font-size:11px; }
+.blk{ min-height:40px; }
+.sbrand button{ width:40px; height:40px; }
+@media (pointer:coarse){
+  .alt{ min-height:60px; }
+  .list button, .pitem, .trilha-card, .qz-fbt{ min-height:52px; }
+}
+
+/* ---- 9. dados em lima precisam de contorno no tema claro ----
+   Lima sobre fundo claro dá 1,13:1. Como essas barras carregam
+   informação (ofensiva, desempenho, cobertura), ganham contorno.  */
+:root .spark i.on, :root .cob-fl, :root .sstreak .g i.f{
+  box-shadow:inset 0 0 0 1px #5C7412;
+}
+.cob-peso{ opacity:1; background:var(--ink2); width:3px; }
+
+/* ---- 10. degrau de superfície ----
+   Cartão branco dentro de cartão branco, separados por uma borda de
+   1,3:1: as listas não se destacavam do fundo que as contém.      */
+:root{ --card-2:#F7F6F2; }
+[data-tema="escuro"]{ --card-2:#1E2228; }
+.card .list button, .card .cbox, .pcard .pitem, .qz{ background:var(--card-2); }
+
+/* ---- 11. piso de tamanho de texto ----
+   Havia 16 tamanhos abaixo de 12 px, vários deles em cinza claro. */
+#top .ver, .dia h4, .mapa-leg, .spark-eixo, .strilha .tr{ font-size:11px; }
+.tile .l, .rotulo, .qz-pos{ color:var(--ink2); }

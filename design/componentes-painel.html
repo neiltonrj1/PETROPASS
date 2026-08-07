@@ -511,6 +511,212 @@ body.deslogado .aviso.a-ok{background:#12281D;border-color:#3BC07E;color:#3BC07E
 }
 
 
+/* ================================================================
+   QUESTÃO INTERATIVA
+   Enunciado, rascunho, dicas, alternativas, correção e resolução —
+   tudo na mesma peça. Substituiu as abas "Gabarito" e "Cálculos".
+   ================================================================ */
+
+.qz{border:1px solid var(--line);border-radius:var(--r-m);background:var(--card);
+  padding:18px 18px 16px;margin-bottom:14px;}
+.qz-cab{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:10px;}
+.qz-pos{font:600 10.5px/1 var(--mono);color:var(--muted);letter-spacing:.04em;}
+.qz-sel{margin-left:auto;font:700 10.5px/1 var(--mono);padding:4px 9px;border-radius:999px;}
+.qz-sel.ok{background:var(--okbg);color:var(--ok);}
+.qz-sel.nao{background:var(--errbg);color:var(--err);}
+
+/* --- barra de ferramentas: rascunhar e pedir dica --- */
+.qz-ferramentas{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 0;}
+.qz-fbt{background:var(--chip);border:1px solid var(--line);color:var(--ink2);cursor:pointer;
+  border-radius:999px;padding:8px 14px;font:600 .76rem/1 var(--ui);font-family:var(--ui);}
+.qz-fbt:hover{border-color:var(--ink2);color:var(--ink);}
+
+.qz-rascunho{margin-top:10px;}
+.qz-rascunho.hide{display:none;}
+.qz-rascunho textarea{width:100%;min-height:110px;box-sizing:border-box;resize:vertical;
+  border:1.5px dashed var(--line);border-radius:var(--r-s);background:var(--chip);
+  padding:12px 13px;font:400 .86rem/1.6 var(--ui);color:var(--ink);}
+.qz-rascunho textarea:focus{outline:none;border-color:var(--amarelo);border-style:solid;background:var(--card);}
+.qz-rascunho .hint{margin:6px 0 0;}
+.qz-rasctxt{white-space:pre-wrap;font-size:.84rem;line-height:1.6;color:var(--ink2);}
+
+/* --- dicas progressivas --- */
+.qz-dicas{margin-top:12px;border-left:3px solid var(--amarelo);
+  background:var(--warnbg);border-radius:0 var(--r-s) var(--r-s) 0;padding:12px 14px;}
+[data-tema="escuro"] .qz-dicas{background:rgba(201,242,74,.07);}
+.qz-dica{display:flex;gap:11px;align-items:flex-start;}
+.qz-dica + .qz-dica{margin-top:11px;padding-top:11px;border-top:1px solid var(--warnln);}
+.qz-dnum{flex:none;width:21px;height:21px;border-radius:50%;background:var(--ink);color:var(--card);
+  font:700 11px/21px var(--mono);text-align:center;}
+/* só o rótulo da dica é versalete; os negritos do texto ficam normais */
+.qz-dica > div > b:first-child{display:block;font-size:.74rem;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--ink2);margin-bottom:5px;}
+.qz-dica p{margin:0 0 6px;font-size:.86rem;line-height:1.55;}
+.qz-dica ul{margin:4px 0 6px;padding-left:18px;font-size:.84rem;line-height:1.55;}
+.qz-dicas .qz-fbt{margin-top:11px;}
+
+/* --- alternativas, com o botão de descartar ao lado --- */
+.qz-alts{margin-top:14px;}
+.alt-linha{display:flex;align-items:stretch;gap:7px;}
+.alt-linha .alt{flex:1;min-width:0;}
+.alt-risca{flex:none;width:42px;border:1.5px dashed var(--line-forte);background:transparent;
+  color:var(--muted);border-radius:var(--r-s);cursor:pointer;font-size:.9rem;margin-bottom:8px;}
+.alt-risca:hover{border-style:solid;color:var(--ink);}
+.alt.riscada{background:var(--bg);color:var(--muted);border-color:var(--line);}
+.alt.riscada .letra{text-decoration:line-through;color:var(--muted);}
+.alt.riscada span:last-child{text-decoration:line-through;text-decoration-color:var(--line-forte);}
+
+/* --- correção --- */
+.qz-resp{margin-top:14px;}
+.qz-bloco{border-radius:var(--r-s);padding:13px 15px;margin-bottom:9px;font-size:.86rem;line-height:1.6;
+  background:var(--chip);}
+.qz-bloco h4{margin:0 0 7px;font-size:.82rem;font-weight:700;}
+.qz-bloco p{margin:0 0 7px;}
+.qz-bloco ul{margin:4px 0 0;padding-left:19px;}
+.qz-bloco li{margin-bottom:4px;}
+.qz-bloco.bom{background:var(--okbg);}
+.qz-bloco.bom h4{color:var(--ok);}
+.qz-bloco.ruim{background:var(--errbg);}
+.qz-bloco.ruim h4{color:var(--err);}
+.qz-bloco.atencao{background:var(--warnbg);border:1px solid var(--warnln);}
+.qz-bloco.calculo{background:var(--card);border:1px solid var(--line);}
+.qz-bloco.calculo .passo{display:flex;gap:11px;margin:10px 0;}
+.qz-bloco.calculo .num{flex:none;width:22px;height:22px;border-radius:50%;background:var(--verde);
+  color:var(--onv);font:700 11px/22px var(--mono);text-align:center;}
+.qz-bloco.calculo .dd{background:var(--chip);border-radius:var(--r-s);padding:10px 12px;margin-bottom:10px;}
+.qz-bloco.calculo .dd ul{margin:5px 0 0;}
+
+/* --- cabeçalho da lista de questões --- */
+.qz-topo{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  margin-bottom:10px;font-size:.86rem;color:var(--ink2);}
+.qz-placar{font:600 .76rem/1 var(--mono);color:var(--muted);}
+
+.qz-trava{font-size:.72rem;color:var(--muted);align-self:center;max-width:34ch;line-height:1.35;}
+
+
+/* ================================================================
+   AJUSTES DE ACESSIBILIDADE E LEITURA
+
+   Correções apontadas na avaliação de UI. Ficam num arquivo à parte,
+   carregado por último, para que dê para ler o que mudou e por quê
+   sem caçar as linhas dentro dos 2 mil do arquivo base.
+   ================================================================ */
+
+/* ---- 1. o controle "tamanho do texto" voltou a funcionar ----
+   O app grava --fs no <html>, mas o tamanho estava aplicado no <body>.
+   Como rem é relativo ao <html>, as ~50 medidas em rem do sistema
+   ignoravam o ajuste: o aluno arrastava de 13 para 22 px e só o
+   parágrafo da lição crescia. Agora a página inteira escala.       */
+html{ font-size:var(--fs, 16px); }
+body{ font-size:1rem; }
+
+/* ---- 2. contraste ----
+   Os valores antigos ficavam entre 2,7:1 e 3,1:1 sobre os fundos
+   claros — abaixo do mínimo de 4,5:1 — e justamente nos textos de
+   10 e 11 px, que é onde menos se pode economizar.                */
+:root{
+  --muted:#696E75;      /* era #8E9299 */
+  --ok:#0C6B3F;         /* era #118A52 */
+  --err:#B92C24;        /* era #C8342B */
+  --line-forte:#8C887E; /* contorno de controle, ≥3:1 */
+  --warnln:#C9AE62;
+  --foco:#14161A;
+}
+[data-tema="escuro"]{
+  --muted:#8C939B;      /* era #767C84 */
+  --line-forte:#6E757E;
+  --warnln:#6B5C2C;
+  --foco:#C9F24A;
+  /* Os apelidos da v5 eram declarados só no :root com var() dentro.
+     Custom property com var() resolve no elemento em que é declarada,
+     então no tema escuro eles ficavam presos nos valores claros em
+     qualquer escopo aninhado. Redeclarados aqui, com valor próprio. */
+  --sf:#15181C; --sf2:#1B1F24; --ink3:#8C939B;
+  --acid:#C9F24A; --pri:#C9F24A; --priink:#14161A;
+}
+#top, .capa, #tools, body.deslogado{ --foco:#C9F24A; }
+
+/* ---- 3. foco visível ----
+   O sistema não tinha nenhuma regra de foco. Num app usado com caneta,
+   teclado e leitor de tela, isso trava a navegação inteira.        */
+:where(button, a, [tabindex], input, textarea, select, summary):focus-visible{
+  outline:3px solid var(--foco);
+  outline-offset:2px;
+  border-radius:var(--r-s);
+}
+:where(button, a, input, textarea, select):focus:not(:focus-visible){ outline:none; }
+
+/* ---- 4. estado por cor E por forma ----
+   opacity derruba o contraste de tudo junto — texto, borda e fundo.
+   Trocado por cor declarada, e o estado passa a ter também um sinal
+   de forma (risco, ✓, ✗), para não depender de enxergar cor.      */
+.alt.apagada{
+  opacity:1; background:var(--bg); border-color:var(--line); color:var(--muted);
+}
+.alt.apagada .letra{ color:var(--muted); text-decoration:line-through; }
+.btn:disabled{
+  opacity:1; background:var(--chip); color:var(--muted);
+  border:1px solid var(--line); cursor:not-allowed;
+}
+.alt.correta::after{ content:"✓"; margin-left:auto; font-weight:700; color:var(--ok); }
+.alt.errada::after{ content:"✗"; margin-left:auto; font-weight:700; color:var(--err); }
+
+/* ---- 5. contorno de controle visível ----
+   .btn-s e .alt tinham borda com 1,3:1 sobre o próprio fundo do
+   cartão: no tema escuro o botão secundário sumia por completo.   */
+.btn-s, .alt, .list button, .abas button, .pitem, .trilha-card, .qz{
+  border-color:var(--line-forte);
+}
+.btn-s{ background:var(--chip); }
+
+/* ---- 6. medida de linha ----
+   Sem largura máxima, a lição chegava a ~120 caracteres por linha no
+   monitor — o dobro do confortável para leitura longa.            */
+#page p, #page li, #page h1, #page h2, #page h3, #page h4,
+.qz .enun, .qz-bloco p, .qz-dica p{ max-width:68ch; }
+#page{ line-height:1.7; }
+
+/* ---- 7. hierarquia de títulos ----
+   h2 de cartão tinha o mesmo corpo do parágrafo, e h3 era MENOR que
+   o texto que ele titulava. Sem contraste de tamanho, não há como
+   varrer a página com o olho.                                     */
+.card h2, #page h1{ font-size:1.35rem; line-height:1.2; }
+#page h2{ font-size:1.15rem; }
+#page h3, #page h4, .card h3{ font-size:1rem; font-weight:700; color:var(--ink); }
+
+/* ---- 8. alvo de toque ----
+   Alternativa, casa do mapa e bloco do plano estavam abaixo do que
+   se acerta com o dedo — e o app é usado em tablet.               */
+.alt{ min-height:56px; align-items:center; }
+.mapa b{ width:30px; height:30px; line-height:28px; font-size:11px; }
+.blk{ min-height:40px; }
+.sbrand button{ width:40px; height:40px; }
+@media (pointer:coarse){
+  .alt{ min-height:60px; }
+  .list button, .pitem, .trilha-card, .qz-fbt{ min-height:52px; }
+}
+
+/* ---- 9. dados em lima precisam de contorno no tema claro ----
+   Lima sobre fundo claro dá 1,13:1. Como essas barras carregam
+   informação (ofensiva, desempenho, cobertura), ganham contorno.  */
+:root .spark i.on, :root .cob-fl, :root .sstreak .g i.f{
+  box-shadow:inset 0 0 0 1px #5C7412;
+}
+.cob-peso{ opacity:1; background:var(--ink2); width:3px; }
+
+/* ---- 10. degrau de superfície ----
+   Cartão branco dentro de cartão branco, separados por uma borda de
+   1,3:1: as listas não se destacavam do fundo que as contém.      */
+:root{ --card-2:#F7F6F2; }
+[data-tema="escuro"]{ --card-2:#1E2228; }
+.card .list button, .card .cbox, .pcard .pitem, .qz{ background:var(--card-2); }
+
+/* ---- 11. piso de tamanho de texto ----
+   Havia 16 tamanhos abaixo de 12 px, vários deles em cinza claro. */
+#top .ver, .dia h4, .mapa-leg, .spark-eixo, .strilha .tr{ font-size:11px; }
+.tile .l, .rotulo, .qz-pos{ color:var(--ink2); }
+
+
 /* ---- só do kit: molduras para comparar claro e escuro lado a lado ---- */
 html,body{background:#DAD8D2;}
 .kit{padding:22px;display:grid;gap:18px;}

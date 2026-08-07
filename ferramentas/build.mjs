@@ -15,10 +15,12 @@
    ============================================================ */
 import fs from 'node:fs';
 import path from 'node:path';
+import { montaQuestoes } from './lib/licao-questoes.mjs';
 
 const RAIZ = path.resolve(import.meta.dirname, '..');
 const SRC = path.join(RAIZ, 'src');
 const DADOS = path.join(SRC, 'dados');
+const avisos = [];
 /* O BOM que alguns editores (e o PowerShell) deixam no começo do arquivo é
    caractere inválido dentro de <style> e <script>: o parser de CSS descarta
    a primeira regra por causa dele. Some com ele em toda leitura.          */
@@ -56,6 +58,17 @@ function montaDados() {
         const arq = path.join(dir, `${m.id}.${aba}.html`);
         if (existe(arq)) mod[aba] = le(arq).trim();
       }
+      /* As questões da lição viram questões que o app corrige, com
+         alternativa clicável e explicação. O HTML original fica de
+         reserva: se algum módulo não converter, ele ainda é exibido. */
+      const { qs, perdidas } = montaQuestoes(mod.questoes, mod.gabarito);
+      if (qs.length) {
+        mod.qs = qs;
+        delete mod.questoes; delete mod.gabarito;     // já estão dentro de qs
+        if (perdidas.length) avisos.push(`${m.id}: ${perdidas.length} questão(ões) não converteram (${perdidas.join(',')})`);
+      } else if (mod.questoes) {
+        avisos.push(`${m.id}: nenhuma questão converteu — o HTML antigo será exibido como estava`);
+      }
       mod.txt = semTags(mod.licao || '');
       return mod;
     });
@@ -83,6 +96,27 @@ function montaDados() {
       }
     }
   }
+
+  /* Boa parte das questões que estão nas lições foi tirada das mesmas
+     provas que o extrator leu. Quando ano e número batem, a explicação
+     escrita para a lição passa a valer também na prova — assim o aluno
+     não fica com um "gabarito: letra E" seco no simulado.            */
+  const porOrigem = new Map();
+  const chaveOrigem = s => {
+    const m = String(s || '').match(/(\d{4})[^0-9]*Q\s*(\d{1,3})/i);
+    return m ? m[1] + '/' + m[2] : null;
+  };
+  for (const v of conteudo) for (const m of v.mods) for (const q of (m.qs || [])) {
+    const k = chaveOrigem(q.origem);
+    if (k && q.explica && !porOrigem.has(k)) porOrigem.set(k, { explica: q.explica, mod: m.id });
+  }
+  let herdadas = 0;
+  for (const p of provas) for (const q of p.questoes) {
+    const k = chaveOrigem(q.origem);
+    const achou = k && porOrigem.get(k);
+    if (achou) { q.explica = achou.explica; q.modExplica = achou.mod; herdadas++; }
+  }
+  if (herdadas) avisos.push(`${herdadas} questões de prova receberam a explicação escrita na lição`);
 
   /* Cada questão de prova ganha o módulo a que pertence, para aparecer
      dentro da lição certa e alimentar o gráfico de incidência.        */
@@ -158,6 +192,10 @@ function confere(DATA) {
       for (const campo of ['n', 't', 'licao']) {
         if (!m[campo]) erros.push(`módulo ${m.id} está sem "${campo}"`);
       }
+      for (const q of (m.qs || [])) {
+        if (!q.correta || !q.alts || !q.alts[q.correta]) erros.push(`questão ${m.id}/Q${q.n} sem alternativa correta`);
+        if (!q.explica) erros.push(`questão ${m.id}/Q${q.n} sem explicação`);
+      }
     }
   }
   for (const t of DATA.trilhas) {
@@ -185,7 +223,12 @@ if (erros.length) {
   process.exit(1);
 }
 
-const css = le(path.join(SRC, 'shell', 'estilo.css'));
+/* Todos os .css de src/shell/, em ordem alfabética — estilo.css vem
+   primeiro e define os tokens; os demais acrescentam componentes.  */
+const css = fs.readdirSync(path.join(SRC, 'shell'))
+  .filter(f => f.endsWith('.css')).sort()
+  .map(f => `/* ===== ${f} ===== */\n` + le(path.join(SRC, 'shell', f)))
+  .join('\n\n');
 const cabeca = le(path.join(SRC, 'shell', 'cabeca.html')).replace('/*{{ESTILO}}*/', () => css);
 const corpo = le(path.join(SRC, 'shell', 'corpo.html'));
 
@@ -225,6 +268,11 @@ if (existe(swPath)) {
 const mods = DATA.conteudo.reduce((a, v) => a + v.mods.length, 0);
 const comentadas = Object.values(DATA.quizzes).reduce((a, q) => a + q.length, 0);
 const deProva = DATA.provas.reduce((a, p) => a + p.questoes.length, 0);
+if (avisos.length) {
+  console.log('\n⚠ avisos de conteúdo:');
+  avisos.forEach(a => console.log('   · ' + a));
+  console.log('');
+}
 console.log(`✓ index.html gerado — ${(html.length / 1024 / 1024).toFixed(2)} MB`);
 console.log(`  ${DATA.trilhas.length} trilhas · ${DATA.conteudo.length} volumes · ${mods} módulos`);
 console.log(`  ${comentadas} questões comentadas · ${deProva} questões de prova · ${DATA.provas.length} provas`);

@@ -114,7 +114,9 @@ function questaoHTML(fonte, q, mod, pos, total){
       ${errosAntes ? `<span class="qz-hist" title="quantas vezes você já errou esta questão">✘ ${errosAntes}× antes</span>` : ''}
       ${respondida ? `<span class="qz-sel ${acertou?'ok':'nao'}">${acertou?'✔ acertou':'✘ errou'}</span>` : ''}
     </header>
-    <div class="enun">${esc(q.q)}</div>`;
+    <div class="enun">${q.htm ? q.q : esc(q.q)}</div>
+    ${q.fig ? `<figure class="qz-fig">${q.fig}${q.figLegenda
+      ? `<figcaption>${q.htm ? q.figLegenda : esc(q.figLegenda)}</figcaption>` : ''}</figure>` : ''}`;
 
   /* rascunho e dicas só antes de responder — depois viram ruído */
   if(!respondida){
@@ -164,7 +166,7 @@ function questaoHTML(fonte, q, mod, pos, total){
     else if(riscadas.includes(L)) cls += ' riscada';
     h += `<div class="alt-linha">
       <button class="${cls}" ${(respondida||travada)?'disabled':`onclick="respondeQuestao('${fonte}',${q.n},'${L}')"`}>
-        <span class="letra">${L}</span><span>${esc(q.alts[L])}</span></button>
+        <span class="letra">${L}</span><span>${q.htm ? q.alts[L] : esc(q.alts[L])}</span></button>
       ${(respondida||travada)?'':`<button class="alt-risca" title="descartar esta alternativa"
         onclick="riscaAlt('${id}','${L}')">${riscadas.includes(L)?'↺':'✕'}</button>`}
     </div>`;

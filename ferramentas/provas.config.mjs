@@ -37,6 +37,12 @@ export const PROVAS = [
     pdf: 'prova_16_engenheiro_a_de_equipamentos_junior_inspecao.pdf',
     gab: 'gabarito_nivel_superior.pdf', ini: 21, ate: 70,
     pagina: 2, faixaX: [266, 288],
+    /* Erro de impressão da própria folha oficial: na coluna desta prova a
+       linha entre a 63 e a 65 vem rotulada "68 – D", e a 68 verdadeira
+       aparece mais abaixo como "68 – E". Ou seja, o "68" do meio é a 64.
+       Confere na coluna inteira: … 62-D | 63-C | [68]-D | 65-C | 66-A |
+       67-C | 68-E | 69-B | 70-E. Sem isto a 64 ficava sem gabarito.   */
+    correcoes: { 64: 'D' },
   },
 
   /* ---------------- PRODUÇÃO ---------------- */

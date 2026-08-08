@@ -303,6 +303,38 @@ ok('toda questão comentada sabe o seu módulo', () => {
   })()`);
   if (orfas) throw new Error(`${orfas} questões comentadas sem módulo — não entram na revisão nem na cobertura`);
 });
+/* As figuras são SVG escrito por agente e entram inline na página. */
+ok('as figuras das questões são SVG seguro e sem tamanho fixo', () => {
+  const r = window.eval(`(function(){
+    var comFig = [], ruins = [];
+    DATA.provas.forEach(function(p){ p.questoes.forEach(function(q){
+      if(!q.fig) return;
+      comFig.push(p.id+'/Q'+q.n);
+      var s = q.fig;
+      if(!/^<svg[\\s>]/i.test(s)) ruins.push(p.id+'/Q'+q.n+': não começa com <svg');
+      if(!/viewBox\\s*=/i.test(s)) ruins.push(p.id+'/Q'+q.n+': sem viewBox');
+      if(/<script|\\son[a-z]+\\s*=|javascript:|<foreignObject/i.test(s)) ruins.push(p.id+'/Q'+q.n+': conteúdo executável');
+      if(/<svg[^>]*\\s(width|height)\\s*=/i.test(s)) ruins.push(p.id+'/Q'+q.n+': tamanho fixo no <svg>');
+    }); });
+    return {n: comFig.length, ruins: ruins};
+  })()`);
+  if (r.ruins.length) throw new Error(r.ruins.slice(0, 4).join(' · '));
+  if (!r.n) return;                       // ainda não há figura recuperada
+  /* e uma delas tem de renderizar de verdade */
+  const desenhou = window.eval(`(function(){
+    for(var i=0;i<DATA.provas.length;i++){
+      var p = DATA.provas[i];
+      var q = p.questoes.filter(function(q){return !!q.fig})[0];
+      if(!q) continue;
+      escolheTrilha(p.trilha); iniciaSimulado(p.id);
+      SIM.i = p.questoes.indexOf(q); render();
+      return !!document.querySelector('.qz-fig svg');
+    }
+    return true;
+  })()`);
+  if (!desenhou) throw new Error('a figura não apareceu na tela da questão');
+  window.eval('SIM=null'); window.go('provas');
+});
 ok('o caderno comentado usa a mesma peça das outras questões', () => {
   const r = window.eval(`(function(){
     S.rev = {}; S.tentativas = {}; S.quiz['v1'] = {};

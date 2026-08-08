@@ -190,9 +190,44 @@ function montaDados() {
     t.baseEstats = total;
   }
 
+  /* Questões recuperadas do caderno renderizado: as que o extrator tinha
+     descartado por dependerem de figura ou por o texto ter saído corrompido.
+     Vêm de src/dados/questoes-figura.json, com o desenho refeito em SVG.  */
+  const arqFig = path.join(DADOS, 'questoes-figura.json');
+  if (existe(arqFig)) {
+    const recuperadas = leJson(arqFig).filter(x => x && x.prova && x.n && x.q && x.alts && x.correta);
+    let postas = 0, semLugar = 0;
+    for (const r of recuperadas) {
+      const p = provas.find(p => p.id === r.prova);
+      if (!p) { semLugar++; continue; }
+      const alts = {};
+      for (const L of ['A', 'B', 'C', 'D', 'E']) if (r.alts[L]) alts[L] = limpaEnunciado(r.alts[L]);
+      const nova = {
+        n: r.n, origem: `Cesgranrio ${p.ano}, Q${r.n}`,
+        q: limpaEnunciado(r.q), alts, correta: r.correta, htm: true,
+        ...(r.fig ? { fig: limpaSvg(r.fig), figLegenda: limpaEnunciado(r.legenda || '') } : {}),
+      };
+      const i = p.questoes.findIndex(q => q.n === r.n);
+      if (i >= 0) p.questoes[i] = { ...p.questoes[i], ...nova }; else p.questoes.push(nova);
+      postas++;
+      /* sai da lista de descartadas: a conta tem de continuar honesta */
+      for (const k of ['comFigura', 'quebradas', 'semGabarito']) {
+        if (p.deFora && p.deFora[k]) p.deFora[k] = p.deFora[k].filter(n => n !== r.n);
+      }
+    }
+    for (const p of provas) { p.questoes.sort((a, b) => a.n - b.n); p.total = p.questoes.length; }
+    avisos.push(`${postas} questões recuperadas do caderno (${recuperadas.filter(r => r.fig).length} com figura redesenhada)` +
+      (semLugar ? ` · ${semLugar} sem prova correspondente` : ''));
+  }
+
   /* marca as questões que chegaram incompletas, em todos os acervos */
   const contaAviso = {};
-  const marca = q => { const a = avisoDaQuestao(q); if (a) { q.aviso = a; contaAviso[a] = (contaAviso[a] || 0) + 1; } };
+  /* questão que já veio com o desenho refeito não precisa de aviso nenhum */
+  const marca = q => {
+    if (q.fig) return;
+    const a = avisoDaQuestao(q);
+    if (a) { q.aviso = a; contaAviso[a] = (contaAviso[a] || 0) + 1; }
+  };
   for (const v of conteudo) for (const m of v.mods) (m.qs || []).forEach(marca);
   for (const vid in quizzes) quizzes[vid].forEach(marca);
   for (const p of provas) p.questoes.forEach(marca);
@@ -209,6 +244,48 @@ function montaDados() {
 
   const versao = leJson(path.join(RAIZ, 'package.json')).version;
   return { versao, trilhas, conteudo, quizzes, provas, mapas };
+}
+
+/* O SVG das figuras é escrito por agente e entra inline na página. Antes
+   de entrar, some tudo o que pode executar: script, handler on*, href
+   javascript:, <foreignObject> e referência externa. O desenho é para
+   desenhar — não precisa de nada disso.                                */
+function limpaSvg(svg) {
+  let s = String(svg || '')
+    .replace(/<\s*(script|foreignObject|iframe|object|embed)\b[\s\S]*?<\/\s*\1\s*>/gi, '')
+    .replace(/<\s*(script|foreignObject|iframe|object|embed)\b[^>]*\/?>/gi, '')
+    .replace(/\son[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+    .replace(/(href|xlink:href|src)\s*=\s*("|')\s*(javascript|data):[^"']*\2/gi, '')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .trim();
+  if (!/^<svg[\s>]/i.test(s)) return '';
+  if (!/<\/svg>\s*$/i.test(s)) return '';
+  /* largura fixa quebra o layout responsivo — quem manda é o viewBox */
+  s = s.replace(/<svg([^>]*)>/i, (m, at) => '<svg' + at.replace(/\s(width|height)\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '') + '>');
+  if (!/viewBox\s*=/i.test(s)) return '';
+  return s;
+}
+
+/* O enunciado recuperado pode trazer tabela, expoente e índice — coisas
+   que a questão original tinha e que viram texto morto se forem escapadas.
+   Aqui passa uma lista curta de tags de formatação e NADA mais: sem
+   atributo, sem link, sem estilo. O que não estiver na lista é escapado. */
+const TAGS_OK = new Set(['table', 'thead', 'tbody', 'tr', 'td', 'th', 'sup', 'sub', 'b', 'strong', 'i', 'em', 'br', 'p', 'ul', 'ol', 'li', 'small']);
+function limpaEnunciado(txt) {
+  let s = String(txt || '');
+  /* O desenho aparece logo abaixo do enunciado, então o marcador de lugar
+     que o transcritor deixou vira lixo na tela. */
+  s = s.replace(/[ \t]*\n?[ \t]*\[\s*figura[^\]]*\][ \t]*\n?[ \t]*/gi, '\n\n')
+    .replace(/\(\s*figura abaixo\s*\)/gi, '')
+    .replace(/[ \t]+$/gm, '').replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g, ' ').trim();
+  /* V_T e I_A vindos da transcrição viram índice de verdade. Só uma letra
+     de cada lado, para não estragar nome_de_arquivo nem fórmula. */
+  s = s.replace(/\b([A-Za-zΔΩμφθ])_([A-Za-z0-9])\b/g, '$1<sub>$2</sub>');
+  return s.replace(/<\/?([a-zA-Z][\w-]*)\b[^>]*>/g, (tag, nome) => {
+    const n = nome.toLowerCase();
+    if (!TAGS_OK.has(n)) return tag.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return tag.startsWith('</') ? `</${n}>` : `<${n}>`;      // descarta todo atributo
+  });
 }
 
 /* ---------------- questão que chegou incompleta ----------------

@@ -9,3 +9,20 @@
 /* alternativas travadas: dá para ler, não dá para marcar */
 .qz-alts.qz-travada .alt{cursor:default;opacity:.72;}
 .qz-alts.qz-travada .alt:hover{border-color:var(--line);background:var(--card);}
+
+/* ================================================================
+   FIGURA DA QUESTÃO
+   Desenho refeito em SVG, não imagem: acompanha o tema claro/escuro
+   pelo currentColor, escala com o tamanho da letra e não pesa.
+   ================================================================ */
+.qz-fig{margin:0 0 14px;padding:14px 12px;background:var(--card-2);
+  border:1px solid var(--line);border-radius:var(--r-s);
+  color:var(--ink);overflow-x:auto;}
+.qz-fig svg{display:block;width:100%;max-width:460px;height:auto;margin:0 auto;
+  color:var(--ink);overflow:visible;}
+.qz-fig figcaption{margin-top:9px;font-size:.75rem;line-height:1.5;
+  color:var(--ink2);text-align:center;}
+/* tabela que veio no lugar da figura */
+.enun table{border-collapse:collapse;margin:11px 0;font-size:.83rem;width:100%;}
+.enun table td,.enun table th{border:1px solid var(--line);padding:6px 9px;text-align:left;}
+.enun table th{background:var(--chip);font-weight:700;}

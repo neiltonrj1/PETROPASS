@@ -149,6 +149,15 @@ function porIndiceDeColuna(linhas, indice, faixa) {
      nome do cargo é impresso na vertical e sai do PDF picado: aí se indica a
      página (1 = a primeira) e a faixa horizontal ocupada por aquele cargo.
      Descubra os valores com `node ferramentas/mapear-gabarito.mjs <pdf> <ano>`. */
+/* Correção pontual, aplicada por último, para erro de impressão da própria
+   folha oficial. Só entra com prova documentada no comentário da config. */
+function aplicaCorrecoes(mapa, prova) {
+  const c = (typeof prova === 'object' && prova.correcoes) || null;
+  if (!mapa || !c) return mapa;
+  for (const [n, L] of Object.entries(c)) mapa[n] = L;
+  return mapa;
+}
+
 export async function leGabarito(arquivo, prova) {
   const num = typeof prova === 'number' ? prova : prova.num;
   const coluna = typeof prova === 'object' ? prova.coluna : undefined;
@@ -162,7 +171,7 @@ export async function leGabarito(arquivo, prova) {
       if (c.x < x0 || c.x > x1) continue;
       for (const [n, L] of Object.entries(c.respostas)) if (mapa[n] === undefined) mapa[n] = L;
     }
-    return Object.keys(mapa).length ? mapa : null;
+    return Object.keys(mapa).length ? aplicaCorrecoes(mapa, prova) : null;
   }
 
   const paginas = await pdfItens(arquivo);
@@ -175,10 +184,10 @@ export async function leGabarito(arquivo, prova) {
     if (r) {
       Object.assign(juntos, r);
       // a tabela larga pode continuar na página seguinte (21-40 numa, 41-70 noutra)
-      if (Object.keys(juntos).length >= 50) return juntos;
+      if (Object.keys(juntos).length >= 50) return aplicaCorrecoes(juntos, prova);
     }
   }
-  return Object.keys(juntos).length ? juntos : null;
+  return Object.keys(juntos).length ? aplicaCorrecoes(juntos, prova) : null;
 }
 
 /* Lê as questões de conhecimentos básicos (1 a 20), que são iguais para todo mundo. */

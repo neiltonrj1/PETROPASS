@@ -274,6 +274,22 @@ ok('a explicação herdada não vem de outra trilha', () => {
   })()`);
   if (ruins.length) throw new Error(`${ruins.length} explicações vieram de outra trilha (ex.: ${ruins[0]})`);
 });
+/* Versão adaptada tem gabarito próprio; herdar a explicação dela punha um
+   texto defendendo uma letra embaixo do gabarito de outra. */
+ok('explicação de questão adaptada não é herdada pela prova', () => {
+  const n = window.eval(`(function(){
+    var alvo = {};
+    DATA.conteudo.forEach(function(v){ v.mods.forEach(function(m){ (m.qs||[]).forEach(function(q){
+      if(/adaptad/i.test(q.origem||'') && q.explica) alvo[q.explica.slice(0,120)] = true;
+    }); }); });
+    var n = 0;
+    DATA.provas.forEach(function(p){ p.questoes.forEach(function(q){
+      if(q.explica && alvo[q.explica.slice(0,120)]) n++;
+    }); });
+    return n;
+  })()`);
+  if (n) throw new Error(`${n} questões de prova herdaram a explicação de uma versão adaptada`);
+});
 ok('a revisão sobe no máximo um degrau por dia', () => {
   const r = window.eval(`(function(){
     S.rev['v1m4'] = {nivel:0};

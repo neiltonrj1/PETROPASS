@@ -1,6 +1,22 @@
 [
  {
   "prova": "elet-2006",
+  "n": 25,
+  "q": "A chave estrela-triângulo é muito utilizada para a partida de motores, em função de seu custo reduzido, praticidade e outras vantagens. Para um dado motor, possível de ser ligado nas configurações estrela e triângulo, a utilização desta chave garante a redução na corrente de partida de:",
+  "alts": {
+   "A": "1/√3",
+   "B": "1/2",
+   "C": "1/3",
+   "D": "1/4",
+   "E": "2/3"
+  },
+  "correta": "C",
+  "fig": "",
+  "legenda": "",
+  "conferida": true
+ },
+ {
+  "prova": "elet-2006",
   "n": 28,
   "q": "Um determinado circuito monofásico que alimenta um motor elétrico, cujo esquema de aterramento adotado é o TN-C, tem o seu neutro rompido. A máxima tensão que pode existir entre a carcaça do motor e o terra é igual a:",
   "alts": {
@@ -77,6 +93,22 @@
   "correta": "B",
   "fig": "<svg viewBox=\"0 0 400 190\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Trecho de programa em linguagem LADDER: contatos W e Z em série, contato Q em paralelo, contato normalmente fechado T e bobina de saída S</title><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.8\" stroke-linecap=\"round\"><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"170\" stroke-width=\"5\"/><line x1=\"381\" y1=\"30\" x2=\"381\" y2=\"170\" stroke-width=\"5\"/><line x1=\"35\" y1=\"67\" x2=\"83\" y2=\"67\"/><line x1=\"93\" y1=\"67\" x2=\"139\" y2=\"67\"/><line x1=\"149\" y1=\"67\" x2=\"240\" y2=\"67\"/><line x1=\"251\" y1=\"67\" x2=\"296\" y2=\"67\"/><line x1=\"337\" y1=\"67\" x2=\"381\" y2=\"67\"/><line x1=\"83\" y1=\"51\" x2=\"83\" y2=\"83\"/><line x1=\"93\" y1=\"51\" x2=\"93\" y2=\"83\"/><line x1=\"139\" y1=\"51\" x2=\"139\" y2=\"83\"/><line x1=\"149\" y1=\"51\" x2=\"149\" y2=\"83\"/><line x1=\"240\" y1=\"51\" x2=\"240\" y2=\"83\"/><line x1=\"251\" y1=\"51\" x2=\"251\" y2=\"83\"/><line x1=\"233\" y1=\"86\" x2=\"259\" y2=\"48\"/><path d=\"M305 52 Q296 67 305 83\"/><path d=\"M328 52 Q337 67 328 83\"/><line x1=\"197\" y1=\"67\" x2=\"197\" y2=\"146\"/><line x1=\"35\" y1=\"146\" x2=\"111\" y2=\"146\"/><line x1=\"121\" y1=\"146\" x2=\"197\" y2=\"146\"/><line x1=\"111\" y1=\"130\" x2=\"111\" y2=\"162\"/><line x1=\"121\" y1=\"130\" x2=\"121\" y2=\"162\"/></g><g fill=\"currentColor\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"15\" text-anchor=\"middle\"><text x=\"88\" y=\"42\">W</text><text x=\"144\" y=\"42\">Z</text><text x=\"246\" y=\"42\">T</text><text x=\"316\" y=\"42\">S</text><text x=\"116\" y=\"121\">Q</text></g></svg>",
   "legenda": "Diagrama LADDER: os contatos normalmente abertos W e Z em série formam um ramo; o contato normalmente aberto Q, ligado à barra de alimentação, está em paralelo com esse ramo; o nó comum segue em série pelo contato normalmente fechado T até a bobina de saída S, na barra da direita.",
+  "conferida": true
+ },
+ {
+  "prova": "elet-2011",
+  "n": 22,
+  "q": "A expressão acima apresenta a igualdade entre a matriz fasorial e o produto das matrizes transformação e componentes simétricos. Os valores de x, y e z são respectivamente os componentes simétricos da fase",
+  "alts": {
+   "A": "C na sequência positiva, B na sequência negativa e A na sequência zero",
+   "B": "A na sequência positiva, B na sequência negativa e C na sequência zero",
+   "C": "C nas sequências positiva, negativa e zero",
+   "D": "B nas sequências positiva, negativa e zero",
+   "E": "A nas sequências positiva, negativa e zero"
+  },
+  "correta": "E",
+  "fig": "<svg viewBox=\"0 0 340 122\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\">\n<title>Matriz fasorial igual ao produto da matriz de transformação pelas componentes simétricas</title>\n<g fill=\"currentColor\" font-size=\"15\" text-anchor=\"middle\">\n<text x=\"30\" y=\"35\">A</text><text x=\"30\" y=\"63\">B</text><text x=\"30\" y=\"91\">C</text>\n<text x=\"70\" y=\"63\">=</text>\n<text x=\"152\" y=\"35\">1</text><text x=\"192\" y=\"35\">1</text><text x=\"232\" y=\"35\">1</text>\n<text x=\"152\" y=\"63\">a²</text><text x=\"192\" y=\"63\">1</text><text x=\"232\" y=\"63\">1</text>\n<text x=\"152\" y=\"91\">a</text><text x=\"192\" y=\"91\">a²</text><text x=\"232\" y=\"91\">1</text>\n<text x=\"285\" y=\"35\">x</text><text x=\"285\" y=\"63\">y</text><text x=\"285\" y=\"91\">z</text>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"1.4\" fill=\"none\">\n<path d=\"M18 16 h-6 v88 h6\"/><path d=\"M42 16 h6 v88 h-6\"/>\n<path d=\"M130 16 h-6 v88 h6\"/><path d=\"M252 16 h6 v88 h-6\"/>\n<path d=\"M270 16 h-6 v88 h6\"/><path d=\"M300 16 h6 v88 h-6\"/>\n</g>\n<g stroke=\"currentColor\" stroke-width=\"1.3\">\n<line x1=\"24\" y1=\"23\" x2=\"36\" y2=\"23\"/><line x1=\"24\" y1=\"51\" x2=\"36\" y2=\"51\"/><line x1=\"24\" y1=\"79\" x2=\"36\" y2=\"79\"/>\n</g>\n</svg>",
+  "legenda": "A barra sobre A, B e C indica fasor. A matriz de transformação usa a = 1∠120°.",
   "conferida": true
  },
  {

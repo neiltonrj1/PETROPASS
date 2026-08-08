@@ -117,9 +117,17 @@ function montaDados() {
   };
   const trilhasDoVol = {};
   for (const t of trilhas) for (const vid of t.vols) (trilhasDoVol[vid] = trilhasDoVol[vid] || []).push(t.id);
+  /* Questão marcada "adaptada" foi modificada de propósito na lição —
+     número trocado, alternativa reescrita, ordem invertida. A explicação
+     dela vale para a versão adaptada, NÃO para a questão original da
+     prova, que muitas vezes tem outro gabarito. Herdar essa explicação
+     punha um texto defendendo a letra A embaixo de um gabarito B.     */
+  const ADAPTADA = /adaptad/i;
+  let bloqueadas = 0;
   for (const v of conteudo) for (const m of v.mods) for (const q of (m.qs || [])) {
     const k = chaveOrigem(q.origem);
     if (!k || !q.explica) continue;
+    if (ADAPTADA.test(q.origem)) { bloqueadas++; continue; }
     for (const tid of (trilhasDoVol[v.id] || [])) {
       const kt = tid + '|' + k;
       if (!porOrigem.has(kt)) porOrigem.set(kt, { explica: q.explica, mod: m.id });
@@ -131,7 +139,8 @@ function montaDados() {
     const achou = k && porOrigem.get(p.trilha + '|' + k);
     if (achou) { q.explica = achou.explica; q.modExplica = achou.mod; herdadas++; }
   }
-  if (herdadas) avisos.push(`${herdadas} questões de prova receberam a explicação escrita na lição`);
+  if (herdadas) avisos.push(`${herdadas} questões de prova receberam a explicação escrita na lição` +
+    (bloqueadas ? ` (${bloqueadas} versões adaptadas não foram herdadas, de propósito)` : ''));
 
   /* Cada questão de prova ganha o módulo a que pertence, para aparecer
      dentro da lição certa e alimentar o gráfico de incidência.        */

@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 1/2012",
  "caderno": "prova_16_engenheiro_a_de_equipamentos_junior_inspecao.pdf",
  "folhaGabarito": "gabarito_nivel_superior.pdf",
- "total": 44,
+ "total": 45,
  "questoes": [
   {
    "n": 21,
@@ -503,6 +503,19 @@
    "correta": "C"
   },
   {
+   "n": 64,
+   "origem": "Cesgranrio 2012, Q64",
+   "q": "O processamento de materiais por laminação permite a obtenção de uma grande variedade de produtos, desde chapas e placas de várias espessuras até tubos. Em relação à laminação de materiais, tem-se que",
+   "alts": {
+    "A": "a laminação a frio ocorre em temperaturas próximas à temperatura ambiente, enquanto que laminação a quente ocorre em temperaturas elevadas.",
+    "B": "a laminação a frio distingue-se da laminação a quente pela função da temperatura de austenitização do material.",
+    "C": "a recuperação dos grãos do material, após a deformação, não ocorre na laminação a quente.",
+    "D": "as laminações na temperatura ambiente são, para o chumbo, consideradas a quente.",
+    "E": "os aços laminados a frio sempre sofrem recozimento subcrítico após o processamento."
+   },
+   "correta": "D"
+  },
+  {
    "n": 65,
    "origem": "Cesgranrio 2012, Q65",
    "q": "O ensaio por partículas magnéticas pode ser utilizado na indicação de descontinuidades em diferentes etapas do projeto, desde a qualificação de soldadores até a garantia da qualidade do componente em serviço. São características do ensaio por partículas magnéticas, EXCETO",
@@ -552,7 +565,7 @@
     "D": "distância entre componente e fonte de radiação",
     "E": "dimensão do componente em relação à dimensão da fonte"
    },
-   "correta": "D"
+   "correta": "E"
   },
   {
    "n": 69,
@@ -582,9 +595,7 @@
   }
  ],
  "deFora": {
-  "semGabarito": [
-   64
-  ],
+  "semGabarito": [],
   "comFigura": [
    46,
    51,

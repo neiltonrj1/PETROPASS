@@ -38,11 +38,17 @@ export const PROVAS = [
     gab: 'gabarito_nivel_superior.pdf', ini: 21, ate: 70,
     pagina: 2, faixaX: [266, 288],
     /* Erro de impressão da própria folha oficial: na coluna desta prova a
-       linha entre a 63 e a 65 vem rotulada "68 – D", e a 68 verdadeira
-       aparece mais abaixo como "68 – E". Ou seja, o "68" do meio é a 64.
-       Confere na coluna inteira: … 62-D | 63-C | [68]-D | 65-C | 66-A |
-       67-C | 68-E | 69-B | 70-E. Sem isto a 64 ficava sem gabarito.   */
-    correcoes: { 64: 'D' },
+       linha entre a 63 e a 65 vem rotulada "68 – D" em vez de "64 – D".
+       A coluna inteira: … 62-D | 63-C | [68]-D | 65-C | 66-A | 67-C |
+       68-E | 69-B | 70-E — o número 68 aparece DUAS vezes e o 64 nenhuma.
+
+       Isso causava dois estragos de uma vez. A 64 ficava sem gabarito; e
+       a 68, que o leitor resolve ficando com a PRIMEIRA ocorrência, herdava
+       o D que na verdade é da 64 — enquanto o E verdadeiro era descartado.
+       Três confirmações independentes de que a 68 é E: a posição na folha
+       (entre a 67 e a 69), o gabarito escrito à mão na lição v3m3, e a
+       revisão de conteúdo, que resolveu a questão e chegou em E.      */
+    correcoes: { 64: 'D', 68: 'E' },
   },
 
   /* ---------------- PRODUÇÃO ---------------- */

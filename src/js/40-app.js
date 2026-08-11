@@ -960,12 +960,26 @@ function sizeCanvas(){
   cv.width = Math.round(w*dpr); cv.height = Math.round(h*dpr);
   ctx.setTransform(dpr,0,0,dpr,0,0);
 }
+/* Cada traço guarda o tamanho da página no momento em que foi desenhado
+   (s.W, s.H) e o redesenho reescala pra acompanhar a página atual — isso
+   é o que faz a anotação seguir o texto quando a fonte aumenta ou a tela
+   gira. Mas quando o CONTEÚDO da lição muda (mapa, figura, tabela, aviso
+   adicionados numa atualização), a altura da página pode multiplicar por
+   várias vezes — e esticar um traço pequeno na mesma proporção transforma
+   ele num borrão cobrindo boa parte da tela. Fora de uma faixa razoável
+   de ajuste de fonte/tela, é melhor manter o traço no tamanho original
+   (ainda que um pouco fora de lugar) do que virar tinta ilegível.       */
+function escalaTraco(atual, salvo){
+  if(!salvo) return 1;
+  const r = atual / salvo;
+  return (r > 0.6 && r < 1.6) ? r : 1;
+}
 function redraw(){
   if(!ctx) return;
   const page = document.getElementById('page');
   const W = page.clientWidth, H = page.scrollHeight;
   ctx.clearRect(0,0,cv.width,cv.height);
-  strokes().forEach(s=>drawStroke(s, W/s.W, H/s.H));
+  strokes().forEach(s=>drawStroke(s, escalaTraco(W,s.W), escalaTraco(H,s.H)));
 }
 function drawStroke(s,sx,sy){
   const p=s.p; if(p.length<2) return;

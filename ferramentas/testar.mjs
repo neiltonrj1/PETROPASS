@@ -290,6 +290,27 @@ ok('explicação de questão adaptada não é herdada pela prova', () => {
   })()`);
   if (n) throw new Error(`${n} questões de prova herdaram a explicação de uma versão adaptada`);
 });
+/* Regressão: mapas, figuras e tabelas adicionados nas últimas versões
+   fizeram várias lições crescerem bastante de altura. Um traço salvo
+   antes disso reescalava proporcional a essa altura nova e virava um
+   borrão cobrindo boa parte da tela — mesmo com a caneta em modo "Ler",
+   porque o redesenho roda de qualquer forma, não é uma anotação nova. */
+ok('anotação antiga não estica quando a página cresce muito', () => {
+  const r = window.eval(`(function(){
+    if(typeof escalaTraco !== 'function') return {erro:'escalaTraco não existe'};
+    return {
+      cresceu: escalaTraco(3000, 400),     // página 7,5× mais alta que quando o traço foi salvo
+      encolheu: escalaTraco(300, 2000),    // e o caso inverso
+      ajusteFonte: +escalaTraco(1300, 1000).toFixed(2),  // variação normal de fonte/tela
+      semDadoAntigo: escalaTraco(500, 0),
+    };
+  })()`);
+  if (r.erro) throw new Error(r.erro);
+  if (r.cresceu !== 1) throw new Error(`página 7,5× mais alta devia manter escala 1, veio ${r.cresceu}`);
+  if (r.encolheu !== 1) throw new Error(`página muito menor devia manter escala 1, veio ${r.encolheu}`);
+  if (r.ajusteFonte !== 1.3) throw new Error(`ajuste normal de fonte devia escalar, veio ${r.ajusteFonte}`);
+  if (r.semDadoAntigo !== 1) throw new Error('traço sem tamanho salvo devia cair em escala 1');
+});
 ok('a revisão sobe no máximo um degrau por dia', () => {
   const r = window.eval(`(function(){
     S.rev['v1m4'] = {nivel:0};

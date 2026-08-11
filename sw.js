@@ -1,4 +1,4 @@
-const CACHE = 'petropass-v6.7.0';
+const CACHE = 'petropass-v6.7.1';
 const ARQ = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARQ)).then(() => self.skipWaiting()));

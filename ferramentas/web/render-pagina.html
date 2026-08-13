@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>html,body{margin:0;padding:0;background:#fff}canvas{display:block}</style>
+<canvas id="c"></canvas>
+<script type="module">
+/* Renderiza UMA página de um PDF num canvas. O pdf.js roda aqui no seu
+   ambiente nativo — no Node ele não consegue desenhar os glifos.
+   uso: render-pagina.html?pdf=<file url>&pg=<n>&s=<escala> */
+const p = new URLSearchParams(location.search);
+const pdfjs = await import('./pdfjs/pdf.mjs');
+pdfjs.GlobalWorkerOptions.workerSrc = './pdfjs/pdf.worker.mjs';
+const doc = await pdfjs.getDocument({
+  url: p.get('pdf'),
+  standardFontDataUrl: './pdfjs/standard_fonts/',
+  cMapUrl: './pdfjs/cmaps/', cMapPacked: true,
+}).promise;
+const pg = await doc.getPage(+p.get('pg'));
+const vp = pg.getViewport({ scale: +(p.get('s') || 2) });
+const c = document.getElementById('c');
+c.width = Math.ceil(vp.width); c.height = Math.ceil(vp.height);
+const ctx = c.getContext('2d');
+ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+await pg.render({ canvasContext: ctx, viewport: vp }).promise;
+document.title = 'PRONTO ' + c.width + 'x' + c.height;
+</script>

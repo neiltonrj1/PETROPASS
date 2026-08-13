@@ -1,0 +1,47 @@
+<p><strong>1. Geometria do cilindro: o vocabulário que vira conta.</strong> O pistão vai do <strong>PMS</strong> (volume mínimo) ao <strong>PMI</strong> (volume máximo). A distância entre eles é o <strong>curso</strong> L, que vale <strong>duas vezes o raio da manivela</strong> (L = 2R). Com diâmetro D e z cilindros:</p>
+<ul>
+<li><strong>Cilindrada unitária</strong>: V<sub>d</sub> = π·D<sup>2</sup>·L/4 &nbsp;·&nbsp; <strong>total</strong>: V<sub>t</sub> = z·π·D<sup>2</sup>·L/4</li>
+<li><strong>Volume morto</strong> V<sub>c</sub> (câmara de combustão): o que sobra no PMS</li>
+<li><strong>Taxa de compressão</strong>: r = V<sub>PMI</sub>/V<sub>PMS</sub> = (V<sub>c</sub> + V<sub>d</sub>)/V<sub>c</sub> = 1 + V<sub>d</sub>/V<sub>c</sub></li>
+</ul>
+<p>Motor <em>quadrado</em> tem D = L; <em>superquadrado</em>, D &gt; L (gira mais alto). E decore o sinônimo que já caiu direto: <strong>cambota = virabrequim = árvore de manivelas</strong> — não é biela nem volante.</p>
+<p><strong>2. Quatro tempos × dois tempos.</strong></p>
+<table>
+<thead>
+<tr><th>Item</th><th>Quatro tempos</th><th>Dois tempos</th></tr>
+</thead>
+<tbody>
+<tr><td>Ciclo completo</td><td>2 voltas (720°)</td><td>1 volta (360°)</td></tr>
+<tr><td>Tempo motor</td><td>1 a cada 2 voltas</td><td>1 por volta</td></tr>
+<tr><td>Admissão/escape</td><td>Válvulas; comando gira à <strong>metade</strong> da rotação</td><td>Janelas (lumbreiras) abertas pelo pistão</td></tr>
+<tr><td>Potência por cilindrada</td><td>Menor</td><td>Maior, mas nunca o dobro teórico</td></tr>
+<tr><td>Consumo e emissões</td><td>Melhores</td><td>Piores (curto-circuito de mistura na lavagem)</td></tr>
+<tr><td>Lubrificação</td><td>Cárter próprio</td><td>Óleo misturado ao combustível</td></tr>
+</tbody>
+</table>
+<p><strong>3. ICE × ICO (Otto × Diesel).</strong> ICE = ignição por centelha; ICO = ignição por compressão. <strong>Os dois são de combustão INTERNA.</strong></p>
+<table>
+<thead>
+<tr><th>Característica</th><th>Otto (ICE)</th><th>Diesel (ICO)</th></tr>
+</thead>
+<tbody>
+<tr><td>O que se comprime</td><td>Mistura ar + combustível</td><td><strong>Ar apenas</strong></td></tr>
+<tr><td>Ignição</td><td>Centelha da vela</td><td>Autoignição pelo ar quente comprimido</td></tr>
+<tr><td>Combustível entra</td><td>Na admissão</td><td>Injetado a alta pressão no fim da compressão</td></tr>
+<tr><td>Taxa de compressão</td><td>≈ 8:1 a 12:1</td><td>≈ 14:1 a 24:1</td></tr>
+<tr><td>Limite de r</td><td>Detonação (batida de pino)</td><td>Esforço mecânico e ruído</td></tr>
+<tr><td>Combustão ideal</td><td>Volume constante</td><td>Pressão constante</td></tr>
+<tr><td>Índice de qualidade</td><td><strong>Octanagem</strong> (resistir à autoignição)</td><td><strong>Cetano</strong> (facilitar a autoignição)</td></tr>
+<tr><td>Controle de carga</td><td>Borboleta estrangula o ar</td><td>Sem borboleta; varia só o combustível</td></tr>
+<tr><td>Perfil</td><td>Leve, gira alto</td><td>Robusto, mais torque, grandes potências</td></tr>
+</tbody>
+</table>
+<p><strong>4. Diagramas p × V e p × ângulo de manivela.</strong> Nos dois ciclos ideais compressão e expansão são isentrópicas; muda o fornecimento de calor — vertical (V constante) no Otto, horizontal (p constante) no Diesel. A <strong>razão de corte</strong> r<sub>c</sub> = V<sub>3</sub>/V<sub>2</sub> mede quanto o pistão anda enquanto queima.</p>
+<p>η<sub>Otto</sub> = 1 − 1/r<sup>(k−1)</sup> &nbsp;&nbsp; η<sub>Diesel</sub> = 1 − (1/r<sup>(k−1)</sup>)·[(r<sub>c</sub><sup>k</sup> − 1)/(k·(r<sub>c</sub> − 1))]</p>
+<p>O colchete é <strong>sempre maior que 1</strong>: para a <strong>mesma</strong> taxa de compressão o Otto rende mais, e quando r<sub>c</sub> → 1 o Diesel degenera no Otto. Na prática o Diesel ganha porque roda com r muito maior. O <strong>ciclo real</strong> tem área menor por combustão não instantânea (daí o avanço de ignição/injeção), troca de calor pelas paredes, abertura antecipada do escape e o <strong>laço de bombeamento negativo</strong>. O diagrama <strong>p × ângulo de manivela</strong> mostra o que o p×V esconde: o pico de pressão não cai no PMS, e sim alguns graus depois dele.</p>
+<p><strong>5. Potências, torque e rendimentos.</strong> A <strong>potência indicada</strong> é a que o gás entrega ao pistão (área do diagrama): N<sub>i</sub> = pme·V<sub>t</sub>·n/x, com n em rotações por segundo e <strong>x = 2 no quatro tempos, x = 1 no dois tempos</strong>. A <strong>potência de atrito</strong> N<sub>a</sub> cobre atrito e acessórios. Sobra a <strong>potência efetiva (líquida, ao freio)</strong>: N<sub>e</sub> = N<sub>i</sub> − N<sub>a</sub>, e o <strong>rendimento mecânico</strong> é η<sub>m</sub> = N<sub>e</sub>/N<sub>i</sub>. Torque e potência se ligam por N<sub>e</sub> = τ·ω = 2π·n·τ — e <strong>torque máximo e potência máxima nunca caem na mesma rotação</strong>: a da potência é sempre mais alta. O <strong>rendimento térmico</strong> é η<sub>t</sub> = N<sub>e</sub>/(ṁ<sub>comb</sub>·PCI). O <strong>consumo horário</strong> C<sub>h</sub> dividido pela potência dá o <strong>consumo específico</strong> C<sub>e</sub> = C<sub>h</sub>/N<sub>e</sub> (g/kWh): é o rendimento de cabeça para baixo, pois η<sub>t</sub> = 1/(C<sub>e</sub>·PCI). O <strong>rendimento volumétrico</strong> compara o ar admitido com o que caberia na cilindrada; a sobrealimentação o leva acima de 1.</p>
+<p><strong>6. Combustíveis.</strong> <strong>Octanagem alta não dá mais energia</strong> — dá resistência à autoignição, permitindo taxa de compressão e avanço maiores. O <strong>etanol</strong> tem octanagem superior à da gasolina e alto calor latente de vaporização (resfria a admissão), aceita r mais alta e entrega mais potência; como seu PCI por litro é menor, o <strong>consumo volumétrico é maior</strong> — daí a regra de compensar até cerca de <strong>70%</strong> do preço da gasolina. No <strong>diesel</strong>, cetano alto = atraso de ignição curto = partida fácil e marcha macia; <strong>octanagem e cetano puxam em sentidos opostos</strong>. O <strong>GNV</strong> (metano) tem octanagem altíssima e queima quase sem particulado, mas ocupa volume na admissão e derruba rendimento volumétrico e potência. O <strong>biodiesel</strong> traz mais lubricidade e cetano, com pior oxidação e escoamento a frio.</p>
+<p><strong>7. Propriedades do óleo lubrificante.</strong> <strong>Viscosidade</strong> é a principal. Na classificação SAE, o número com <strong>W</strong> descreve o comportamento <strong>a frio</strong> e o número solto, o comportamento <strong>a 100 °C</strong>: um óleo que age como SAE 10 no frio e como SAE 40 quente é <strong>SAE 10W40</strong> (jamais "40W10"). O resto do que cai: <strong>índice de viscosidade</strong> (alto = varia pouco com a temperatura = bom), <strong>ponto de fluidez</strong> (quanto mais baixo, melhor), <strong>ponto de fulgor</strong> (alto é bom), <strong>TBN</strong> (alcalinidade que neutraliza ácidos e cai com o uso), <strong>demulsibilidade</strong>, detergência-dispersância e estabilidade à oxidação.</p>
+<p><strong>Números-chave do módulo:</strong> 4T = <strong>720°</strong>, comando a <strong>n/2</strong>; 2T = <strong>360°</strong>, um tempo motor por volta; V<sub>d</sub> = <strong>π·D<sup>2</sup>·L/4</strong> (quatro cilindros ⇒ V<sub>t</sub> = π·D<sup>2</sup>·L); r = <strong>1 + V<sub>d</sub>/V<sub>c</sub></strong>; Otto <strong>8–12:1</strong>, Diesel <strong>14–24:1</strong>; k = <strong>1,4</strong> no ar-padrão; x = <strong>2</strong> (4T) e <strong>1</strong> (2T); η<sub>m</sub> = N<sub>e</sub>/N<sub>i</sub>; etanol compensa até ≈ <strong>70%</strong> do preço da gasolina.</p>
+<p><strong>Pegadinha clássica:</strong> a banca adora afirmar que o Diesel é motor de <strong>combustão externa</strong> — falso, os dois são internos; externa é a máquina a vapor. Segunda: taxa de compressão <strong>não</strong> é V<sub>d</sub>/V<sub>c</sub>, é 1 + V<sub>d</sub>/V<sub>c</sub>; se r sobe de 8:1 para 10:1 com a mesma cilindrada, a câmara passa de V<sub>d</sub>/7 para V<sub>d</sub>/9 e a razão pedida é <strong>9/7</strong> — quem faz 10/8 cai na alternativa plantada. Terceira: num motor de <strong>quatro</strong> cilindros o 4 cancela o denominador e a cilindrada total fica π·D<sup>2</sup>·L, sem o "/4". E a mais barata: consumo específico <strong>menor</strong> significa rendimento <strong>maior</strong>.</p>
+<p><strong>Resumo de véspera:</strong> curso = 2× raio da manivela; V<sub>d</sub> = π·D<sup>2</sup>·L/4; r = V<sub>PMI</sub>/V<sub>PMS</sub> = 1 + V<sub>d</sub>/V<sub>c</sub>; 4T = 2 voltas por ciclo e comando a n/2; 2T = 1 volta, com janelas no lugar de válvulas; Otto comprime mistura e acende com vela, Diesel comprime só ar; Otto queima a volume constante, Diesel a pressão constante com r<sub>c</sub> = V<sub>3</sub>/V<sub>2</sub>; mesma r ⇒ Otto rende mais, mas o Diesel usa r maior e vence na prática; o ciclo real perde área e o pico de pressão vem depois do PMS; N<sub>e</sub> = N<sub>i</sub> − N<sub>a</sub>, η<sub>m</sub> = N<sub>e</sub>/N<sub>i</sub> e N<sub>e</sub> = 2π·n·τ; potência máxima em rotação acima da do torque máximo; consumo específico baixo = motor eficiente; octanagem resiste à autoignição, cetano a favorece; SAE 10W40 = fino a frio, encorpado a 100 °C; índice de viscosidade alto e ponto de fluidez baixo são o que se quer num lubrificante.</p>

@@ -159,6 +159,13 @@ function aplicaCorrecoes(mapa, prova) {
 }
 
 export async function leGabarito(arquivo, prova) {
+  /* Algumas folhas antigas usam fonte com subconjunto de glifos e sem
+     ToUnicode: o pdfjs devolve letras trocadas e não há como ler o PDF.
+     Nesses casos a config traz o gabarito já transcrito em `gabaritoFixo`,
+     com a procedência anotada no comentário da linha.                   */
+  if (typeof prova === 'object' && prova.gabaritoFixo) {
+    return { ...prova.gabaritoFixo };
+  }
   const num = typeof prova === 'number' ? prova : prova.num;
   const coluna = typeof prova === 'object' ? prova.coluna : undefined;
 

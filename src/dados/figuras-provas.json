@@ -1,0 +1,303 @@
+[
+ {
+  "prova": "elet-2008",
+  "n": 28,
+  "arquivo": "elet-2008-q28.png",
+  "w": 694,
+  "h": 566
+ },
+ {
+  "prova": "elet-2011",
+  "n": 29,
+  "arquivo": "elet-2011-q29.png",
+  "w": 619,
+  "h": 103
+ },
+ {
+  "prova": "elet-2011",
+  "n": 32,
+  "arquivo": "elet-2011-q32.png",
+  "w": 74,
+  "h": 322
+ },
+ {
+  "prova": "elet-2011",
+  "n": 34,
+  "arquivo": "elet-2011-q34.png",
+  "w": 312,
+  "h": 403
+ },
+ {
+  "prova": "elet-2011",
+  "n": 40,
+  "arquivo": "elet-2011-q40.png",
+  "w": 619,
+  "h": 206
+ },
+ {
+  "prova": "elet-2018",
+  "n": 27,
+  "arquivo": "elet-2018-q27.png",
+  "w": 690,
+  "h": 420
+ },
+ {
+  "prova": "elet-2018",
+  "n": 32,
+  "arquivo": "elet-2018-q32.png",
+  "w": 690,
+  "h": 146
+ },
+ {
+  "prova": "elet-2018",
+  "n": 40,
+  "arquivo": "elet-2018-q40.png",
+  "w": 1147,
+  "h": 370
+ },
+ {
+  "prova": "elet-2018",
+  "n": 44,
+  "arquivo": "elet-2018-q44.png",
+  "w": 700,
+  "h": 218
+ },
+ {
+  "prova": "elet-2018",
+  "n": 53,
+  "arquivo": "elet-2018-q53.png",
+  "w": 619,
+  "h": 785
+ },
+ {
+  "prova": "elet-2018",
+  "n": 55,
+  "arquivo": "elet-2018-q55.png",
+  "w": 700,
+  "h": 151
+ },
+ {
+  "prova": "elet-2018",
+  "n": 56,
+  "arquivo": "elet-2018-q56.png",
+  "w": 690,
+  "h": 317
+ },
+ {
+  "prova": "elet-2018",
+  "n": 58,
+  "arquivo": "elet-2018-q58.png",
+  "w": 700,
+  "h": 156
+ },
+ {
+  "prova": "elet-2018",
+  "n": 59,
+  "arquivo": "elet-2018-q59.png",
+  "w": 690,
+  "h": 427
+ },
+ {
+  "prova": "elet-2018",
+  "n": 61,
+  "arquivo": "elet-2018-q61.png",
+  "w": 700,
+  "h": 278
+ },
+ {
+  "prova": "elet-2018",
+  "n": 63,
+  "arquivo": "elet-2018-q63.png",
+  "w": 690,
+  "h": 319
+ },
+ {
+  "prova": "elet-2018",
+  "n": 67,
+  "arquivo": "elet-2018-q67.png",
+  "w": 700,
+  "h": 153
+ },
+ {
+  "prova": "insp-2012",
+  "n": 46,
+  "arquivo": "insp-2012-q46.png",
+  "w": 689,
+  "h": 806
+ },
+ {
+  "prova": "insp-2012",
+  "n": 51,
+  "arquivo": "insp-2012-q51.png",
+  "w": 700,
+  "h": 116
+ },
+ {
+  "prova": "insp-2012",
+  "n": 56,
+  "arquivo": "insp-2012-q56.png",
+  "w": 619,
+  "h": 255
+ },
+ {
+  "prova": "insp-2014",
+  "n": 33,
+  "arquivo": "insp-2014-q33.png",
+  "w": 690,
+  "h": 538
+ },
+ {
+  "prova": "insp-2014",
+  "n": 47,
+  "arquivo": "insp-2014-q47.png",
+  "w": 1053,
+  "h": 228
+ },
+ {
+  "prova": "insp-2014",
+  "n": 70,
+  "arquivo": "insp-2014-q70.png",
+  "w": 690,
+  "h": 190
+ },
+ {
+  "prova": "insp-2014",
+  "n": 70,
+  "arquivo": "insp-2014-q70.png",
+  "w": 619,
+  "h": 756
+ },
+ {
+  "prova": "insp-2018",
+  "n": 49,
+  "arquivo": "insp-2018-q49.png",
+  "w": 700,
+  "h": 444
+ },
+ {
+  "prova": "insp-2018",
+  "n": 53,
+  "arquivo": "insp-2018-q53.png",
+  "w": 690,
+  "h": 307
+ },
+ {
+  "prova": "mec-2010",
+  "n": 27,
+  "arquivo": "mec-2010-q27.png",
+  "w": 619,
+  "h": 415
+ },
+ {
+  "prova": "mec-2010",
+  "n": 31,
+  "arquivo": "mec-2010-q31.png",
+  "w": 694,
+  "h": 401
+ },
+ {
+  "prova": "mec-2010",
+  "n": 38,
+  "arquivo": "mec-2010-q38.png",
+  "w": 694,
+  "h": 108
+ },
+ {
+  "prova": "mec-2010",
+  "n": 55,
+  "arquivo": "mec-2010-q55.png",
+  "w": 694,
+  "h": 204
+ },
+ {
+  "prova": "mec-2012",
+  "n": 53,
+  "arquivo": "mec-2012-q53.png",
+  "w": 756,
+  "h": 271
+ },
+ {
+  "prova": "mec-2012",
+  "n": 56,
+  "arquivo": "mec-2012-q56.png",
+  "w": 634,
+  "h": 336
+ },
+ {
+  "prova": "mec-2015",
+  "n": 26,
+  "arquivo": "mec-2015-q26.png",
+  "w": 700,
+  "h": 149
+ },
+ {
+  "prova": "mec-2015",
+  "n": 28,
+  "arquivo": "mec-2015-q28.png",
+  "w": 690,
+  "h": 643
+ },
+ {
+  "prova": "mec-2023",
+  "n": 36,
+  "arquivo": "mec-2023-q36.png",
+  "w": 700,
+  "h": 199
+ },
+ {
+  "prova": "mec-2023",
+  "n": 37,
+  "arquivo": "mec-2023-q37.png",
+  "w": 690,
+  "h": 221
+ },
+ {
+  "prova": "mec-2023",
+  "n": 40,
+  "arquivo": "mec-2023-q40.png",
+  "w": 700,
+  "h": 225
+ },
+ {
+  "prova": "mec-2023",
+  "n": 43,
+  "arquivo": "mec-2023-q43.png",
+  "w": 690,
+  "h": 415
+ },
+ {
+  "prova": "mec-2023",
+  "n": 45,
+  "arquivo": "mec-2023-q45.png",
+  "w": 700,
+  "h": 259
+ },
+ {
+  "prova": "mec-2023",
+  "n": 48,
+  "arquivo": "mec-2023-q48.png",
+  "w": 690,
+  "h": 478
+ },
+ {
+  "prova": "mec-2023",
+  "n": 60,
+  "arquivo": "mec-2023-q60.png",
+  "w": 700,
+  "h": 638
+ },
+ {
+  "prova": "mec-2023",
+  "n": 62,
+  "arquivo": "mec-2023-q62.png",
+  "w": 619,
+  "h": 398
+ },
+ {
+  "prova": "mec-2023",
+  "n": 63,
+  "arquivo": "mec-2023-q63.png",
+  "w": 700,
+  "h": 574
+ }
+]

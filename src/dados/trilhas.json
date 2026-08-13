@@ -6,24 +6,238 @@
   "icone": "🔍",
   "sub": "Materiais, metalurgia, corrosão, soldagem e ensaios não destrutivos",
   "cor": "#C9F24A",
-  "vols": ["v1", "v2", "v3", "v4"],
+  "vols": [
+   "v1",
+   "v2",
+   "v3",
+   "v4"
+  ],
   "semanas": [
-   ["1", "F1", "Aula 0: estrutura cristalina e difusão", "N1 cristalografia/difusão", "v1m1"],
-   ["2", "F1", "Aula 0: diagramas de fases e Fe-C", "N1 fases + regra da alavanca", "v1m2"],
-   ["3", "F1", "Aula 0/1: TTT, CCT e martensita", "N1 TTT/CCT", "v1m3"],
-   ["4", "F1", "Aula 1: tratamentos térmicos · Aula 2: aços", "N1 tratamentos e aços", "v1m4"],
-   ["5", "F1", "Aula 2: inox, não ferrosos, polímeros", "Revisão + mini-simulado Bloco 1", "v1m5"],
-   ["6", "F2", "Aula 3: ensaios mecânicos", "N1–N2 ensaios · sáb: prova antiga", "v2m1"],
-   ["7", "F2", "Aula 5: corrosão I (pilhas, Pourbaix)", "N2 corrosão", "v2m2"],
-   ["8", "F2", "Aula 5: corrosão II + sensitização", "N2 corrosão/danos", "v2m3"],
-   ["9", "F2", "Mecanismos de dano + ResMat", "Revisão + mini-simulado Bloco 2", "v2m4"],
-   ["10", "F3", "Aula 8: metalurgia da soldagem", "N2 soldagem", "v3m1"],
-   ["11", "F3", "Aula 9: processos de soldagem", "N2–N3 + Schaeffler", "v3m2"],
-   ["12", "F3", "Aula 4: ensaios não destrutivos", "N2–N3 END", "v3m3"],
-   ["13", "F3", "Aulas 6/7: fundição e conformação", "N3 variados", "v3m4"],
-   ["14", "F3", "Aula 10: siderurgia + revisão Bloco 3", "Revisão + mini-simulado Bloco 3", "v3m4"],
-   ["15", "F4", "Reta final + caderno de erros", "Simulado: Inspeção 2012 completa", "v4m1"],
-   ["16", "F4", "Reta final + flashcards de erros", "Simulado: Inspeção 2014 e 2018", "v4m2"]
+   [
+    "1",
+    "F1",
+    "Estrutura cristalina, difusão e recristalização",
+    "N1 cristalografia/difusão · 20 min de Português",
+    "v1m1"
+   ],
+   [
+    "2",
+    "F1",
+    "Diagramas de fases e Fe-C",
+    "N1 fases + regra da alavanca · 20 min de Português",
+    "v1m2"
+   ],
+   [
+    "3",
+    "F1",
+    "TTT, CCT, martensita e temperabilidade",
+    "N1 TTT/CCT · 20 min de Inglês",
+    "v1m3"
+   ],
+   [
+    "4",
+    "F1",
+    "Tratamentos térmicos e termoquímicos · aços",
+    "N1 tratamentos e aços · 20 min de Português",
+    "v1m4"
+   ],
+   [
+    "5",
+    "F1",
+    "Inox, não ferrosos, polímeros, cerâmicos e compósitos",
+    "Revisão + mini-simulado Bloco 1 · Inglês",
+    "v1m5"
+   ],
+   [
+    "6",
+    "F2",
+    "Ensaios mecânicos",
+    "N1–N2 ensaios · 20 min de Português",
+    "v2m1"
+   ],
+   [
+    "7",
+    "F2",
+    "Fratura, fadiga e fluência",
+    "N2 mecanismos de falha · 20 min de Inglês",
+    "v2m6"
+   ],
+   [
+    "8",
+    "F2",
+    "Corrosão I: pilhas, Pourbaix, polarização",
+    "N2 corrosão · 20 min de Português",
+    "v2m2"
+   ],
+   [
+    "9",
+    "F2",
+    "Corrosão II: formas, proteção e alta temperatura",
+    "N2 corrosão/danos · Inglês",
+    "v2m3"
+   ],
+   [
+    "10",
+    "F2",
+    "Mecanismos de dano e fragilizações · ResMat",
+    "Revisão + mini-simulado Bloco 2",
+    "v2m4"
+   ],
+   [
+    "11",
+    "F3",
+    "Soldagem I e II: processos e metalurgia",
+    "N2–N3 soldagem + Schaeffler · Português",
+    "v3m1"
+   ],
+   [
+    "12",
+    "F3",
+    "Ensaios não destrutivos",
+    "N2–N3 END · 20 min de Inglês",
+    "v3m3"
+   ],
+   [
+    "13",
+    "F3",
+    "Fabricação: siderurgia, fundição e conformação",
+    "N3 variados · Português",
+    "v3m4"
+   ],
+   [
+    "14",
+    "F4",
+    "Gestão de projetos: Scrum, Kanban, EAP e caminho crítico",
+    "Simulado: Inspeção 2012 completa",
+    "v3m5"
+   ],
+   [
+    "15",
+    "F4",
+    "Véspera: mapas mentais, números-chave e caderno de erros",
+    "Simulados: Inspeção 2014 e 2018",
+    "v4m1"
+   ]
+  ]
+ },
+ {
+  "id": "mecanica",
+  "nome": "Profissional Jr — Engenharia Mecânica",
+  "curto": "Mecânica",
+  "icone": "⚙",
+  "sub": "Termodinâmica, fluidos, calor, máquinas, resistência dos materiais, materiais e fabricação",
+  "cor": "#FF8A5B",
+  "vols": [
+   "me1",
+   "me2",
+   "v4"
+  ],
+  "semanas": [
+   [
+    "1",
+    "F1",
+    "Termodinâmica: estados, 1ª e 2ª lei, gases perfeitos",
+    "N1 termodinâmica · 20 min de Português",
+    "me1m1"
+   ],
+   [
+    "2",
+    "F1",
+    "Ciclos de potência e refrigeração: Rankine, Brayton, Otto, Diesel",
+    "N1 ciclos · 20 min de Português",
+    "me1m2"
+   ],
+   [
+    "3",
+    "F1",
+    "Mecânica dos fluidos: hidrostática, Bernoulli, perda de carga",
+    "N1 fluidos · 20 min de Inglês",
+    "me1m3"
+   ],
+   [
+    "4",
+    "F1",
+    "Transmissão de calor: condução, convecção, radiação e trocadores",
+    "N1 transferência de calor · 20 min de Português",
+    "me1m4"
+   ],
+   [
+    "5",
+    "F1",
+    "Máquinas de fluxo: bombas, compressores e turbinas",
+    "Revisão + mini-simulado Bloco 1 · Inglês",
+    "me1m5"
+   ],
+   [
+    "6",
+    "F2",
+    "Motores de combustão interna: Otto × Diesel, parâmetros e desempenho",
+    "N2 motores · 20 min de Português",
+    "me1m6"
+   ],
+   [
+    "7",
+    "F2",
+    "Resistência dos materiais: solicitações, flexão, torção e flambagem",
+    "N2 ResMat · 20 min de Português",
+    "me2m1"
+   ],
+   [
+    "8",
+    "F2",
+    "Elementos de máquinas: eixos, engrenagens, mancais e fadiga",
+    "N2 elementos de máquinas · Inglês",
+    "me2m2"
+   ],
+   [
+    "9",
+    "F2",
+    "Dinâmica e vibrações mecânicas",
+    "N2 vibrações · 20 min de Português",
+    "me2m3"
+   ],
+   [
+    "10",
+    "F2",
+    "Metalurgia e seleção de materiais",
+    "Revisão + mini-simulado Bloco 2 · Inglês",
+    "me2m4"
+   ],
+   [
+    "11",
+    "F3",
+    "Corrosão e proteção anticorrosiva",
+    "N3 corrosão · 20 min de Português",
+    "me2m5"
+   ],
+   [
+    "12",
+    "F3",
+    "Processos de fabricação e soldagem",
+    "N3 fabricação e soldagem · Inglês",
+    "me2m6"
+   ],
+   [
+    "13",
+    "F3",
+    "Estatística, eletrotécnica e segurança do trabalho",
+    "Revisão + mini-simulado Bloco 3",
+    "me2m7"
+   ],
+   [
+    "14",
+    "F4",
+    "Reta final: Português e Inglês concentrados + caderno de erros",
+    "Simulado: Transpetro 2023 completa",
+    "v4m1"
+   ],
+   [
+    "15",
+    "F4",
+    "Véspera: mapas mentais, números-chave e erros recorrentes",
+    "Simulados: BR 2015 e Petrobras 2012",
+    "v4m3"
+   ]
   ]
  },
  {
@@ -33,24 +247,117 @@
   "icone": "⚙️",
   "sub": "Gestão da produção, qualidade, logística, custos e métodos quantitativos",
   "cor": "#57B6FF",
-  "vols": ["pr1", "pr2", "v4"],
+  "vols": [
+   "pr1",
+   "pr2",
+   "v4"
+  ],
   "semanas": [
-   ["1", "F1", "Estratégia de operações e cinco forças", "N1 estratégia e projeto organizacional", "pr1m1"],
-   ["2", "F1", "PDP, projeto de processo e inovação", "N1 desenvolvimento de produto", "pr1m2"],
-   ["3", "F1", "MPS, MRP, CRP e BOM", "N1 planejamento e controle", "pr1m3"],
-   ["4", "F1", "Estoques, ABC e lote econômico", "N1 previsão de demanda", "pr1m4"],
-   ["5", "F1", "Arranjo físico e balanceamento", "Revisão + mini-simulado Bloco 1", "pr1m5"],
-   ["6", "F2", "Qualidade, CEP e custos da qualidade", "N2 qualidade", "pr2m1"],
-   ["7", "F2", "Seis Sigma e ferramentas", "N2 Seis Sigma e confiabilidade", "pr2m1"],
-   ["8", "F2", "Logística e cadeia de suprimentos", "N2 logística e roteirização", "pr2m2"],
-   ["9", "F2", "Custos, custeio e ponto de equilíbrio", "N2 engenharia econômica", "pr2m3"],
-   ["10", "F3", "Ergonomia e organização do trabalho", "N2 ergonomia e segurança", "pr2m4"],
-   ["11", "F3", "Pesquisa operacional e filas", "N3 PO e estatística", "pr2m5"],
-   ["12", "F3", "Confiabilidade e manutenção", "N3 manutenção e decisão", "pr2m5"],
-   ["13", "F3", "Português: interpretação e crase", "N2 básicas", "v4m1"],
-   ["14", "F3", "Português: pontuação e concordância", "N2 básicas + inglês", "v4m3"],
-   ["15", "F4", "Reta final + caderno de erros", "Simulado: Produção 2011 completa", "v4m5"],
-   ["16", "F4", "Reta final + flashcards de erros", "Simulado: Produção 2018 completa", "v4m8"]
+   [
+    "1",
+    "F1",
+    "Estratégia de operações e projeto organizacional",
+    "N1 estratégia · 20 min de Português",
+    "pr1m1"
+   ],
+   [
+    "2",
+    "F1",
+    "PDP, projeto de processo e inovação",
+    "N1 desenvolvimento de produto · Português",
+    "pr1m2"
+   ],
+   [
+    "3",
+    "F1",
+    "PCP: S&OP, MPS, MRP, CRP e BOM",
+    "N1 planejamento e controle · Inglês",
+    "pr1m3"
+   ],
+   [
+    "4",
+    "F1",
+    "Estoques, ABC, lote econômico e previsão",
+    "N1 estoques e demanda · Português",
+    "pr1m4"
+   ],
+   [
+    "5",
+    "F1",
+    "Arranjo físico, capacidade e balanceamento",
+    "Revisão + mini-simulado Bloco 1 · Inglês",
+    "pr1m5"
+   ],
+   [
+    "6",
+    "F2",
+    "Qualidade, CEP, custos da qualidade e Seis Sigma",
+    "N2 qualidade · 20 min de Português",
+    "pr2m1"
+   ],
+   [
+    "7",
+    "F2",
+    "Logística e cadeia de suprimentos",
+    "N2 logística e roteirização · Inglês",
+    "pr2m2"
+   ],
+   [
+    "8",
+    "F2",
+    "Custos, custeio, ponto de equilíbrio e risco",
+    "N2 engenharia econômica · Português",
+    "pr2m3"
+   ],
+   [
+    "9",
+    "F2",
+    "Ergonomia, organização do trabalho e segurança",
+    "Revisão + mini-simulado Bloco 2",
+    "pr2m4"
+   ],
+   [
+    "10",
+    "F2",
+    "Pesquisa operacional, confiabilidade e manutenção",
+    "N3 PO e estatística · Português",
+    "pr2m5"
+   ],
+   [
+    "11",
+    "F3",
+    "Sustentabilidade: gestão ambiental, resíduos e P+L",
+    "N3 sustentabilidade · Inglês",
+    "pr2m6"
+   ],
+   [
+    "12",
+    "F3",
+    "Engenharia organizacional, inovação e Indústria 4.0",
+    "N3 gestão · 20 min de Português",
+    "pr2m7"
+   ],
+   [
+    "13",
+    "F3",
+    "Contratação: Lei 13.303, Lei 14.133 e LC 123",
+    "Revisão + mini-simulado Bloco 3",
+    "pr2m8"
+   ],
+   [
+    "14",
+    "F4",
+    "Reta final: Português e Inglês concentrados",
+    "Simulado: Produção 2011 completa",
+    "v4m1"
+   ],
+   [
+    "15",
+    "F4",
+    "Véspera: mapas mentais e caderno de erros",
+    "Simulado: Produção 2018 completa",
+    "v4m3"
+   ]
   ]
  },
  {
@@ -60,51 +367,237 @@
   "icone": "⚡",
   "sub": "Circuitos, máquinas, instalações, sistemas de potência, proteção e controle",
   "cor": "#FFC24A",
-  "vols": ["el1", "el2", "v4"],
+  "vols": [
+   "el1",
+   "el2",
+   "v4"
+  ],
   "semanas": [
-   ["1", "F1", "Circuitos CA, fasores e potência", "N1 impedância e fator de potência", "el1m1"],
-   ["2", "F1", "Transformadores e ligações trifásicas", "N1 defasagem e ensaios", "el1m2"],
-   ["3", "F1", "Máquinas de corrente contínua", "N1 shunt, série e composta", "el1m3"],
-   ["4", "F1", "Motor de indução e partida", "N1 escorregamento e conjugado", "el1m4"],
-   ["5", "F1", "Máquina síncrona e curva V", "Revisão + mini-simulado Bloco 1", "el1m4"],
-   ["6", "F2", "Instalações NBR 5410 e dimensionamento", "N2 condutores e queda de tensão", "el1m5"],
-   ["7", "F2", "Aterramento, DR e dispositivos", "N2 proteção de instalações", "el1m5"],
-   ["8", "F2", "Sistema por unidade e mudança de base", "N2 p.u. e potência de curto", "el2m1"],
-   ["9", "F2", "Componentes simétricas e curto-circuito", "Revisão + mini-simulado Bloco 2", "el2m2"],
-   ["10", "F3", "Linhas de transmissão e ABCD", "N2 Ferranti e compensação", "el2m3"],
-   ["11", "F3", "Proteção e coordenação de relés", "N3 curvas de sobrecorrente", "el2m4"],
-   ["12", "F3", "Controle, transformada Z e amostragem", "N3 sistemas de controle", "el2m5"],
-   ["13", "F3", "Eletrônica de potência e acionamentos", "N3 conversores", "el2m5"],
-   ["14", "F3", "Setor elétrico, tarifas e eficiência", "Revisão + mini-simulado Bloco 3", "el2m6"],
-   ["15", "F4", "Reta final + caderno de erros", "Simulado: Elétrica 2011 completa", "v4m1"],
-   ["16", "F4", "Reta final + flashcards de erros", "Simulado: Elétrica 2018 completa", "v4m3"]
+   [
+    "1",
+    "F1",
+    "Matemática aplicada: matrizes, complexos e Laplace",
+    "N1 ferramental · 20 min de Português",
+    "el1m7"
+   ],
+   [
+    "2",
+    "F1",
+    "Circuitos CC e transitórios: Kirchhoff, Thévenin, RL/RC/RLC",
+    "N1 circuitos CC · Português",
+    "el1m8"
+   ],
+   [
+    "3",
+    "F1",
+    "Circuitos CA, fasores e fator de potência",
+    "N1 impedância e potência · Inglês",
+    "el1m1"
+   ],
+   [
+    "4",
+    "F1",
+    "Transformadores e ligações trifásicas",
+    "N1 defasagem e ensaios · Português",
+    "el1m2"
+   ],
+   [
+    "5",
+    "F1",
+    "Máquinas CC, indução e síncrona",
+    "Revisão + mini-simulado Bloco 1 · Inglês",
+    "el1m3"
+   ],
+   [
+    "6",
+    "F2",
+    "Motor de indução, partida e máquina síncrona",
+    "N2 escorregamento e curva V · Português",
+    "el1m4"
+   ],
+   [
+    "7",
+    "F2",
+    "Medidas elétricas, TC e TP",
+    "N2 instrumentos e medição · Inglês",
+    "el1m9"
+   ],
+   [
+    "8",
+    "F2",
+    "Instalações BT, aterramento e proteção",
+    "N2 condutores e queda de tensão · Português",
+    "el1m5"
+   ],
+   [
+    "9",
+    "F2",
+    "Sistema p.u. e componentes simétricas",
+    "Revisão + mini-simulado Bloco 2",
+    "el2m1"
+   ],
+   [
+    "10",
+    "F2",
+    "Curto-circuito e linhas de transmissão",
+    "N2 faltas e Ferranti · Português",
+    "el2m2"
+   ],
+   [
+    "11",
+    "F3",
+    "MT/AT, subestações, malha de terra e SPDA",
+    "N3 subestações · Inglês",
+    "el2m7"
+   ],
+   [
+    "12",
+    "F3",
+    "Proteção, relés de sobrecorrente e coordenação",
+    "N3 curvas de sobrecorrente · Português",
+    "el2m4"
+   ],
+   [
+    "13",
+    "F3",
+    "Controle clássico: Bode, lugar das raízes, espaço de estados",
+    "Revisão + mini-simulado Bloco 3",
+    "el2m8"
+   ],
+   [
+    "14",
+    "F4",
+    "NR-10, Lei 14.133 e reta final de básicas",
+    "Simulado: Elétrica 2011 completa",
+    "el2m9"
+   ],
+   [
+    "15",
+    "F4",
+    "Véspera: mapas mentais e caderno de erros",
+    "Simulado: Elétrica 2018 completa",
+    "v4m1"
+   ]
   ]
  },
  {
   "id": "projetos",
-  "nome": "Engenheiro(a) Jr — Análise e Projetos de Investimento",
-  "curto": "Projetos",
+  "nome": "Profissional Jr — Contabilidade",
+  "curto": "Contabilidade",
   "icone": "📈",
-  "sub": "Engenharia econômica, finanças, economia, estratégia e métodos quantitativos",
+  "sub": "Administração financeira, contabilidade geral, societária, de custos e gestão de projetos",
   "cor": "#8FD98F",
-  "vols": ["pj1", "pj2", "v4"],
+  "vols": [
+   "pj1",
+   "pj2",
+   "v4"
+  ],
   "semanas": [
-   ["1", "F1", "Matemática financeira e séries", "N1 juros e equivalência", "pj1m1"],
-   ["2", "F1", "VPL, TIR e payback", "N1 análise de investimentos", "pj1m2"],
-   ["3", "F1", "Projetos excludentes e risco", "N1 sensibilidade e cenários", "pj1m2"],
-   ["4", "F1", "Fluxo de caixa descontado e WACC", "N1 avaliação de empresas", "pj1m3"],
-   ["5", "F1", "Alavancagem e capital de giro", "Revisão + mini-simulado Bloco 1", "pj1m4"],
-   ["6", "F2", "Project finance e financiamento", "N2 estrutura de capital", "pj1m4"],
-   ["7", "F2", "Contabilidade e análise de balanços", "N2 índices e custeio", "pj1m5"],
-   ["8", "F2", "Microeconomia: custos e mercados", "N2 elasticidade e oligopólio", "pj2m1"],
-   ["9", "F2", "Macroeconomia: PIB, moeda e IS-LM", "Revisão + mini-simulado Bloco 2", "pj2m2"],
-   ["10", "F3", "Estratégia e ambiente de negócios", "N2 Porter e Miles & Snow", "pj2m3"],
-   ["11", "F3", "PERT/CPM e gerenciamento de projetos", "N3 caminho crítico", "pj2m3"],
-   ["12", "F3", "Probabilidade e estatística", "N3 distribuições e inferência", "pj2m4"],
-   ["13", "F3", "Teoria dos jogos, matrizes e vetores", "N3 decisão e álgebra", "pj2m4"],
-   ["14", "F3", "Física aplicada e transferência de calor", "Revisão + mini-simulado Bloco 3", "pj2m5"],
-   ["15", "F4", "Reta final + caderno de erros", "Simulado: Projetos 2006 completa", "v4m1"],
-   ["16", "F4", "Reta final + flashcards de erros", "Simulado: Projetos 2011 completa", "v4m3"]
+   [
+    "1",
+    "F1",
+    "Matemática financeira e séries",
+    "N1 juros e equivalência · 20 min de Português",
+    "pj1m1"
+   ],
+   [
+    "2",
+    "F1",
+    "VPL, TIR, payback e projetos excludentes",
+    "N1 análise de investimentos · Português",
+    "pj1m2"
+   ],
+   [
+    "3",
+    "F1",
+    "Fluxo de caixa descontado, TMA, WACC e CAPM",
+    "N1 custo de capital · Inglês",
+    "pj1m3"
+   ],
+   [
+    "4",
+    "F1",
+    "Avaliação de empresas: múltiplos, perpetuidade e DDM",
+    "N1 valuation · Português",
+    "pj1m6"
+   ],
+   [
+    "5",
+    "F1",
+    "Estrutura de capital, alavancagem e capital de giro",
+    "Revisão + mini-simulado Bloco 1 · Inglês",
+    "pj1m4"
+   ],
+   [
+    "6",
+    "F2",
+    "Contabilidade geral e análise de balanços",
+    "N2 índices e demonstrações · Português",
+    "pj1m5"
+   ],
+   [
+    "7",
+    "F2",
+    "Contabilidade societária: provisões e imobilizado",
+    "N2 CPCs · Inglês",
+    "pj1m7"
+   ],
+   [
+    "8",
+    "F2",
+    "Contabilidade societária: investimentos e resultado",
+    "N2 CPCs · Português",
+    "pj1m7"
+   ],
+   [
+    "9",
+    "F2",
+    "Custeio, margem de contribuição e custo-padrão",
+    "Revisão + mini-simulado Bloco 2",
+    "pj1m8"
+   ],
+   [
+    "10",
+    "F2",
+    "EVA, ROI, orçamento e controle orçamentário",
+    "N3 contabilidade gerencial · Português",
+    "pj1m8"
+   ],
+   [
+    "11",
+    "F3",
+    "Gestão e avaliação de projetos: ciclo de vida, EAP e EVTE",
+    "N3 viabilidade · Inglês",
+    "pj2m3"
+   ],
+   [
+    "12",
+    "F3",
+    "Microeconomia: custos, mercados e elasticidade",
+    "N3 microeconomia · Português",
+    "pj2m1"
+   ],
+   [
+    "13",
+    "F3",
+    "Macroeconomia: PIB, moeda, inflação e política",
+    "Revisão + mini-simulado Bloco 3",
+    "pj2m2"
+   ],
+   [
+    "14",
+    "F4",
+    "Probabilidade e estatística descritiva",
+    "Simulado: Projetos 2006 completa",
+    "pj2m4"
+   ],
+   [
+    "15",
+    "F4",
+    "Véspera: mapas mentais e caderno de erros",
+    "Simulado: Projetos 2011 completa",
+    "v4m1"
+   ]
   ]
  }
 ]

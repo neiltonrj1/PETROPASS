@@ -1,0 +1,79 @@
+<p><strong>1. Duas famílias — a prova começa por aqui.</strong> Na <strong>turbomáquina</strong> (máquina de fluxo, ou de deslocamento <em>não</em> positivo) um rotor acelera o fluido e a energia cinética vira pressão na voluta. Na <strong>máquina de deslocamento positivo</strong>, uma câmara de volume variável confina o fluido e o expulsa: a vazão vem da geometria e da rotação, não da pressão de descarga.</p>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Turbomáquina (dinâmica)</th>
+<th>Deslocamento positivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vazão × pressão de descarga</td>
+<td>cai muito quando a pressão sobe</td>
+<td>praticamente constante</td>
+</tr>
+<tr>
+<td>Descarga bloqueada</td>
+<td>tolera por instantes</td>
+<td>rompe — exige <strong>válvula de alívio</strong></td>
+</tr>
+<tr>
+<td>Fluxo / escorva</td>
+<td>contínuo; precisa escorvar</td>
+<td>pulsante; autoaspirante</td>
+</tr>
+<tr>
+<td>Bombas</td>
+<td>radial, <strong>helicocentrífuga</strong>, axial</td>
+<td>engrenagens, palhetas, diafragma, pistão, parafuso</td>
+</tr>
+<tr>
+<td>Compressores</td>
+<td>centrífugo, axial</td>
+<td>alternativo, parafuso, lóbulos</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2. Rotor, curva e associação.</strong> Classifique o rotor pela saída do líquido: <strong>radial</strong> (perpendicular ao eixo, muita altura), <strong>misto</strong> e <strong>axial</strong> (<em>sai na mesma direção do eixo de rotação</em>); pelo fechamento (aberto, semiaberto, fechado); pela admissão (simples ou <strong>dupla sucção / entrada bilateral</strong>). A curva H × Q de catálogo só vale com <strong>tamanho da bomba, rotação e fluido</strong> fixos. <strong>Série soma alturas</strong>, <strong>paralelo soma vazões</strong>: vazão certa e altura insuficiente ⇒ segunda bomba igual <strong>em série</strong>.</p>
+<p><strong>3. Cavitação e NPSH.</strong> Cavitação é formação de bolhas por <strong>queda de pressão até a pressão de vapor, à temperatura constante</strong> — o inverso da ebulição. As bolhas colapsam na alta pressão do rotor: ruído de cascalho, vibração, queda de altura e erosão. Critério: <strong>NPSH<sub>d</sub> &gt; NPSH<sub>r</sub></strong>, com NPSH<sub>d</sub> = (p<sub>abs</sub> − p<sub>v</sub>)/(ρ·g) ± h<sub>geom</sub> − h<sub>perdas</sub>. Combate: afogar e encurtar a sucção, baixar a rotação, resfriar o líquido. Sucção crítica por <strong>baixa pressão e alta temperatura</strong> pede um <strong>indutor</strong> à frente do rotor.</p>
+<p><strong>4. Potência e rendimentos.</strong> <strong>P = γ·Q·H = ρ·g·Q·H</strong> é a potência cedida ao líquido; no eixo, <strong>P<sub>eixo</sub> = ρ·g·Q·H/η</strong>, com η<sub>total</sub> = η<sub>hidráulico</sub> × η<sub>volumétrico</sub> × η<sub>mecânico</sub>. Já caiu cru: motriz 10, elevação 9,5 e útil 7,5 kgf·m/s ⇒ <strong>rendimento mecânico = elevação/motriz = 0,95</strong> (0,75 e 0,79 esperavam quem dividisse errado). 1 CV = 75 kgf·m/s.</p>
+<p><strong>5. Semelhança e número específico de rotações.</strong> Afinidade: <strong>Q ∝ n</strong>, <strong>H ∝ n<sup>2</sup></strong>, <strong>P ∝ n<sup>3</sup></strong>. Na forma da banca, <strong>n<sub>s</sub> = 3,65·n·√Q / H<sup>3/4</sup></strong> (n em rpm, Q em m<sup>3</sup>/s, H em m), com duas correções: <strong>dupla sucção ⇒ Q/2</strong>; <strong>vários estágios ⇒ H por estágio</strong>. Caiu assim: 600 rpm, Q = 0,18 bilateral ⇒ 0,09 e H<sup>3/4</sup> = 3, logo n<sub>s</sub> = <strong>219</strong>. <strong>n<sub>s</sub> baixo ⇒ radial; alto ⇒ axial.</strong></p>
+<p><strong>6. Compressores.</strong> Compare antes de decorar:</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Vazão</th>
+<th>Razão de pressão</th>
+<th>Limite típico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Alternativo</strong> (positivo)</td>
+<td>baixa, pulsante</td>
+<td>muito alta</td>
+<td>espaço nocivo derruba η<sub>volumétrico</sub></td>
+</tr>
+<tr>
+<td><strong>Centrífugo</strong> (dinâmico)</td>
+<td>média/alta</td>
+<td>média por estágio</td>
+<td><strong>surge</strong> (mínima) e <strong>choke</strong> (máxima)</td>
+</tr>
+<tr>
+<td><strong>Axial</strong> (dinâmico)</td>
+<td>muito alta</td>
+<td>baixa por estágio</td>
+<td>maior η, faixa estreita — o das turbinas a gás</td>
+</tr>
+</tbody>
+</table>
+<p>No alternativo, o gás preso no <strong>espaço nocivo</strong> se reexpande antes de a admissão abrir: <strong>η<sub>v</sub> = 1 − c·[(P<sub>2</sub>/P<sub>1</sub>)<sup>1/n</sup> − 1]</strong>. Razão de pressão maior ⇒ <strong>menos vazão aspirada</strong> — daí o <strong>multiestágio com resfriamento intermediário</strong>, com trabalho mínimo quando a razão é <strong>igualmente repartida</strong>: r por estágio = (P<sub>final</sub>/P<sub>inicial</sub>)<sup>1/N</sup>.</p>
+<p><strong>7. Termodinâmica da compressão.</strong> Adiabática reversível: <strong>T<sub>2</sub> = T<sub>1</sub>·(P<sub>2</sub>/P<sub>1</sub>)<sup>(k−1)/k</sup></strong>. Literal na prova: 100 → 400 kPa, T<sub>1</sub> = 293 K, k = 2 ⇒ T<sub>2</sub> = <strong>586 K</strong>. Trabalho: <strong>isotérmico &lt; politrópico &lt; adiabático</strong>. Compressor refrigerado: <strong>Ẇ = ṁ·(h<sub>2</sub> − h<sub>1</sub>) + Q̇<sub>retirado</sub></strong> — com 200 kW, 40 kW e Δh = 50 kJ/kg, ṁ = <strong>3,2 kg/s</strong>. Isentrópico: <strong>compressor η = w<sub>ideal</sub>/w<sub>real</sub></strong>, <strong>turbina η = w<sub>real</sub>/w<sub>ideal</sub></strong> — a fração inverte.</p>
+<p><strong>8. Turbinas a vapor e a gás.</strong> Na turbina de <strong>ação (impulso)</strong> toda a queda de pressão ocorre nos bocais fixos; as móveis trabalham a pressão constante, só perdendo velocidade. Na de <strong>reação</strong> a pressão cai também nas móveis (Parsons, grau de reação ≈ 50%). Trabalho líquido = turbina − bomba/compressor: Rankine, 1.100 = w<sub>t</sub> − 50 ⇒ <strong>1.150 kJ/kg</strong>; Brayton, η = 436,0/720,2 = <strong>60,5%</strong>. A bomba do Rankine come ~4% da turbina; o compressor do Brayton, <strong>mais da metade</strong>. Melhorar Rankine = <strong>subir a pressão da caldeira e baixar a do condensador</strong>.</p>
+<p><strong>9. Influência das condições de serviço.</strong> Na bomba centrífuga, <strong>a altura em metros não muda com a densidade</strong>, mas pressão e potência mudam na proporção de ρ. Viscosidade maior derruba H, Q e η e <strong>aumenta</strong> a potência. Temperatura maior eleva p<sub>v</sub> e corrói o NPSH disponível. Em compressor e turbina a gás, ar mais quente é ar menos denso: <strong>menos vazão mássica, menos potência</strong>.</p>
+<p><strong>Números-chave do módulo:</strong> n<sub>s</sub> = <strong>3,65·n·√Q/H<sup>3/4</sup></strong>, com <strong>Q/2</strong> na dupla sucção; afinidade <strong>1, 2 e 3</strong> (Q, H, P × rotação); <strong>1 CV = 75 kgf·m/s</strong>; T<sub>2</sub>/T<sub>1</sub> = (P<sub>2</sub>/P<sub>1</sub>)<sup>(k−1)/k</sup>, k<sub>ar</sub> = <strong>1,4</strong>; reação Parsons ≈ <strong>50%</strong>; NPSH<sub>d</sub> &gt; NPSH<sub>r</sub>; η<sub>total</sub> = η<sub>h</sub>·η<sub>v</sub>·η<sub>m</sub>.</p>
+<p><strong>Pegadinha clássica:</strong> a banca engana pelo nome. <strong>Bomba "centrífuga helicoidal" (helicocentrífuga) é DINÂMICA</strong>, não positiva — positivas são engrenagens, palhetas, diafragma e pistão radial; nada a ver com a <strong>bomba de parafuso helicoidal</strong>, essa sim positiva. Segunda armadilha: o rendimento isentrópico invertido — no compressor o ideal fica em cima, na turbina embaixo. Terceira: somar altura em paralelo, quando paralelo soma <em>vazão</em>.</p>
+<p><strong>Resumo de véspera:</strong> turbomáquina acelera, positiva confina; positiva com descarga fechada arrebenta, logo válvula de alívio; radial dá altura, axial dá vazão e sai na direção do eixo; curva de catálogo vale com tamanho, rotação e fluido fixos; série soma altura, paralelo soma vazão; cavitação é queda de pressão a temperatura constante; NPSH<sub>d</sub> &gt; NPSH<sub>r</sub> e indutor salva sucção fraca e quente; n<sub>s</sub> usa Q/2 na entrada bilateral; espaço nocivo derruba o rendimento volumétrico e o intercooler resolve; surge é a vazão mínima do centrífugo; isotérmico gasta menos que adiabático; ação cai só nos bocais, reação também nas móveis; w<sub>líq</sub> = turbina − bomba; ar quente é ar leve, e ar leve é menos potência.</p>

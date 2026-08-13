@@ -99,12 +99,71 @@ export const PROVAS = [
     pagina: 2, faixaX: [196, 214],
   },
 
-  /* Duas provas ficaram de fora por falta da folha certa de gabarito:
-       • prova_7 (Elétrica, Petrobras PSP RH 2/2012)
-       • engenharia_eletrica (Transpetro Terra 2023.2)
-     Nos dois casos o "gabarito.pdf"/"gabaritos.pdf" que veio junto é de
-     outro processo. Baixe a folha correta, jogue na pasta e acrescente a
-     linha aqui — o resto é automático.                                  */
+  /* Uma prova de Elétrica ainda está de fora por falta da folha certa de
+     gabarito: prova_7 (Petrobras PSP RH 2/2012). O "gabarito.pdf" que veio
+     junto é de outro processo. Baixe a folha correta, jogue na pasta e
+     acrescente a linha aqui — o resto é automático.                      */
+
+  /* ---------------- ENGENHARIA MECÂNICA ----------------
+     Os cadernos vieram numerados aos pares: N é a prova e NN o gabarito.
+     A exceção é o par de 2023, onde a numeração está trocada — 1.pdf é a
+     folha de respostas e 11.pdf é o caderno de questões.
+
+     A de 2023.2 é a mais valiosa do acervo inteiro: mesma banca, mesma
+     empresa e mesmo cargo da prova de 29/11/2026.                       */
+  {
+    id: 'mec-2023', trilha: 'mecanica', ano: 2023, num: 24,
+    nome: 'Profissional Jr — Engenharia Mecânica',
+    processo: 'Transpetro PSP/Terra 2023.2',
+    pdf: '11.pdf',
+    gab: '1.pdf', ini: 21, ate: 70,
+    /* tabela larga: a PROVA 24 ocupa duas colunas (21–45 e 46–70) */
+    pagina: 7, faixaX: [420, 495],
+  },
+  {
+    id: 'mec-2015', trilha: 'mecanica', ano: 2015, num: 14,
+    nome: 'Profissional Jr — Engenharia Mecânica',
+    processo: 'BR Distribuidora PSP 1/2014',
+    pdf: '4.pdf',
+    /* aqui as básicas vão até 25 (tem Informática II), então as
+       específicas começam na 26, não na 21 */
+    gab: '44.pdf', ini: 26, ate: 70,
+    pagina: 5, faixaX: [385, 400],
+  },
+  {
+    id: 'mec-2012', trilha: 'mecanica', ano: 2012, num: 22,
+    nome: 'Profissional Jr — Engenharia Mecânica',
+    processo: 'Petrobras PSP RH 1/2011 (prova em 05/02/2012)',
+    pdf: '3.pdf',
+    gab: '33.pdf', ini: 26, ate: 70,
+    pagina: 4, faixaX: [415, 430],
+  },
+  {
+    id: 'mec-2010', trilha: 'mecanica', ano: 2010, num: 13,
+    nome: 'Profissional Jr — Engenharia Mecânica',
+    processo: 'BR Distribuidora (prova em 02/05/2010)',
+    pdf: '5.pdf',
+    gab: '55.pdf', ini: 26, ate: 70,
+    /* Esta folha é desenhada com fonte Type 3 (glifos vetoriais em
+       /CharProcs, sem ToUnicode útil): o pdfjs devolve índices de glifo,
+       não texto, e `separaColunas` não acha coluna nenhuma. O gabarito
+       abaixo foi decifrado por dois caminhos independentes que fecharam:
+       o mapa de glifos derivado das respostas de Língua Portuguesa
+       (1-B 2-C 3-D 4-C 5-A 6-E 7-D 8-E 9-A 10-E) e a leitura direta dos
+       contornos dos CharProcs (81=A, 88=B, 84=C, 94=D, 70=E).
+       Engenharia Mecânica é a 13ª das 17 colunas, em x≈429.
+
+       CUIDADO na linha 38: a coluna de Arquitetura traz "38-anul" em vez
+       de letra, e contar só as letras desloca todas as colunas seguintes
+       — a resposta certa da 38 é A, não E.                             */
+    gabaritoFixo: {
+      26: 'C', 27: 'C', 28: 'B', 29: 'B', 30: 'E', 31: 'E', 32: 'E', 33: 'D', 34: 'A',
+      35: 'E', 36: 'D', 37: 'C', 38: 'A', 39: 'D', 40: 'B', 41: 'A', 42: 'E', 43: 'C',
+      44: 'D', 45: 'C', 46: 'B', 47: 'C', 48: 'E', 49: 'E', 50: 'B', 51: 'A', 52: 'D',
+      53: 'B', 54: 'B', 55: 'B', 56: 'A', 57: 'E', 58: 'C', 59: 'D', 60: 'A', 61: 'C',
+      62: 'A', 63: 'C', 64: 'B', 65: 'B', 66: 'D', 67: 'C', 68: 'D', 69: 'B', 70: 'D',
+    },
+  },
 
   /* ---------------- ANÁLISE E PROJETOS DE INVESTIMENTO ---------------- */
   {

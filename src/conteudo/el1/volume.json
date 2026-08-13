@@ -4,28 +4,43 @@
  "sub": "Bloco 1 · a base que sustenta o resto da prova",
  "mods": [
   {
-   "id": "el1m1",
+   "id": "el1m7",
    "n": "Módulo 1",
+   "t": "Matemática aplicada: matrizes, números complexos e Transformada de Laplace"
+  },
+  {
+   "id": "el1m8",
+   "n": "Módulo 2",
+   "t": "Circuitos CC e transitórios: Kirchhoff, Thévenin, Norton e resposta RL/RC/RLC"
+  },
+  {
+   "id": "el1m1",
+   "n": "Módulo 3",
    "t": "Circuitos em corrente alternada: fasores, impedância, potência e fator de potência"
   },
   {
    "id": "el1m2",
-   "n": "Módulo 2",
+   "n": "Módulo 4",
    "t": "Transformadores: ligações, defasagem, autotransformador e três enrolamentos"
   },
   {
    "id": "el1m3",
-   "n": "Módulo 3",
+   "n": "Módulo 5",
    "t": "Máquinas de corrente contínua: shunt, série e composta"
   },
   {
    "id": "el1m4",
-   "n": "Módulo 4",
+   "n": "Módulo 6",
    "t": "Motor de indução e máquina síncrona: escorregamento, partida e curva V"
   },
   {
+   "id": "el1m9",
+   "n": "Módulo 7",
+   "t": "Medidas elétricas: instrumentos, SI, TC e TP, medição de potência e energia"
+  },
+  {
    "id": "el1m5",
-   "n": "Módulo 5",
+   "n": "Módulo 8",
    "t": "Instalações de baixa tensão (NBR 5410), aterramento e dispositivos de proteção"
   }
  ]

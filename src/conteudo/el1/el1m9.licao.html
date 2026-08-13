@@ -1,0 +1,60 @@
+<p><strong>1. Onde cada instrumento entra.</strong> Antes da conta, a banca cobra a ligação e a impedância interna ideal:</p>
+<table>
+<thead>
+<tr><th>Instrumento</th><th>Ligação</th><th>Impedância interna ideal</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Amperímetro</strong></td><td><strong>série</strong></td><td><strong>zero</strong></td></tr>
+<tr><td><strong>Voltímetro</strong></td><td><strong>paralelo</strong></td><td><strong>infinita</strong></td></tr>
+<tr><td><strong>Frequencímetro</strong></td><td><strong>paralelo</strong></td><td>alta</td></tr>
+<tr><td><strong>Wattímetro</strong></td><td>bobina de corrente em <strong>série</strong> + bobina de potencial em <strong>paralelo</strong></td><td>—</td></tr>
+<tr><td><strong>Ohmímetro</strong> e <strong>capacímetro</strong></td><td>componente <strong>isolado</strong>, circuito <strong>desenergizado</strong></td><td>fonte própria interna</td></tr>
+</tbody>
+</table>
+<p>Amperímetro em paralelo é curto; voltímetro em série abre o circuito. <strong>Bobina móvel</strong> responde ao <strong>valor médio</strong> (só CC; em CA exige retificador, com escala calibrada para senoide pelo <strong>fator de forma 1,11</strong>); <strong>ferro móvel</strong> e <strong>eletrodinamômetro</strong> respondem ao quadrado e indicam <strong>eficaz verdadeiro</strong>, em CC e CA. O capacímetro deduz C de τ = R·C ou de X<sub>C</sub> = 1/ωC.</p>
+
+<p><strong>2. Extensão de escala.</strong> Para multiplicar o alcance por <em>n</em>: <strong>shunt em paralelo</strong> R<sub>sh</sub> = R<sub>a</sub>/(n − 1) no amperímetro; <strong>multiplicador em série</strong> R<sub>m</sub> = R<sub>v</sub>·(n − 1) no voltímetro. A <strong>sensibilidade</strong> em Ω/V é o inverso da corrente de fundo de escala — 20 kΩ/V equivale a 50 μA. O erro do analógico é dado em <strong>% do fundo de escala</strong>, não da leitura.</p>
+
+<p><strong>3. Ponte de Wheatstone.</strong> No equilíbrio o galvanômetro acusa <strong>corrente nula</strong> e os <strong>produtos dos braços opostos se igualam</strong>: R<sub>1</sub>·R<sub>x</sub> = R<sub>2</sub>·R<sub>3</sub>. O resultado <strong>independe da tensão da fonte</strong> e <strong>da resistência do galvanômetro</strong>. Abaixo de 1 Ω use a <strong>ponte de Kelvin (dupla)</strong>, que anula fios e contatos; para isolamento, o <strong>megôhmetro</strong>, que aplica CC elevada e lê MΩ/GΩ. Em CA: <strong>Maxwell</strong> (indutância), <strong>Schering</strong> (capacitância), <strong>Wien</strong> (frequência).</p>
+
+<p><strong>4. Osciloscópio × analisador de espectro.</strong> O osciloscópio é o <strong>domínio do tempo</strong>: horizontal em s/div, vertical em V/div, com T = divisões × (s/div), f = 1/T e V<sub>pp</sub> = divisões × (V/div). Entrada de <strong>1 MΩ</strong>; a <strong>ponta ×10</strong> atenua por 10 e eleva a impedância para 10 MΩ. Em X-Y, <strong>figuras de Lissajous</strong>. O <strong>analisador de espectro</strong> é o <strong>domínio da frequência</strong>: horizontal em Hz, e é ele que revela <strong>harmônicos, THD e espúrios</strong>.</p>
+
+<p><strong>5. Sistema Internacional.</strong> Sete unidades de base: metro (m), quilograma (kg), segundo (s), <strong>ampere (A)</strong>, kelvin (K), mol (mol), candela (cd). O <strong>ampere é a única elétrica de base</strong>; o resto é derivado:</p>
+<table>
+<thead>
+<tr><th>Grandeza</th><th>Unidade</th><th>Grandeza</th><th>Unidade</th></tr>
+</thead>
+<tbody>
+<tr><td>Carga</td><td>coulomb: A·s</td><td>Indutância</td><td>henry: Wb/A</td></tr>
+<tr><td>Tensão</td><td>volt: W/A = J/C</td><td>Fluxo magnético</td><td>weber: V·s</td></tr>
+<tr><td>Resistência</td><td>ohm: V/A</td><td>Densidade de fluxo</td><td>tesla: Wb/m²</td></tr>
+<tr><td>Condutância</td><td>siemens: A/V</td><td>Potência</td><td>watt: J/s</td></tr>
+<tr><td>Capacitância</td><td>farad: C/V</td><td>Energia</td><td>joule: W·s</td></tr>
+</tbody>
+</table>
+<p>Regras que caem literal: símbolo de unidade que homenageia pessoa é <strong>maiúsculo</strong> (A, V, W, Hz), mas o nome por extenso é <strong>minúsculo</strong> (ampere, volt, watt); símbolo <strong>não tem plural nem ponto</strong>. O <strong>kWh não é SI</strong>, é tolerado, assim como <strong>VA</strong> e <strong>var</strong>.</p>
+
+<p><strong>6. TC e TP.</strong> Isolam o instrumento da alta tensão e padronizam a entrada:</p>
+<table>
+<thead>
+<tr><th>Aspecto</th><th>TP (potencial)</th><th>TC (corrente)</th></tr>
+</thead>
+<tbody>
+<tr><td>Primário</td><td><strong>paralelo</strong> com o circuito</td><td><strong>série</strong> com o circuito</td></tr>
+<tr><td>Secundário nominal</td><td><strong>115 V</strong> (ou 115/√3)</td><td><strong>5 A</strong> (ou 1 A)</td></tr>
+<tr><td>Regime normal</td><td>quase em <strong>vazio</strong></td><td>quase em <strong>curto</strong></td></tr>
+<tr><td>Proibido</td><td><strong>curto-circuitar</strong> o secundário</td><td><strong>abrir</strong> o secundário energizado</td></tr>
+<tr><td>Alimenta</td><td>voltímetro, bobina de potencial</td><td>amperímetro, bobina de corrente, relé de sobrecorrente</td></tr>
+</tbody>
+</table>
+<p>A relação é o nominal do primário dividido pelo do secundário: TC <strong>100:5</strong> → RTC = <strong>20</strong>. A grandeza real vale <strong>leitura × RTC × RTP</strong>. Classes: <strong>0,3 / 0,6 / 1,2</strong> na medição e <strong>5P / 10P</strong> na proteção, com o número seguinte sendo o fator limite de exatidão (5P10 = erro ≤ 5 % até 10 vezes a nominal). O TC de <strong>medição deve saturar cedo</strong>, protegendo o instrumento no curto; o de <strong>proteção não pode saturar</strong>, para o relé enxergar a falta.</p>
+
+<p><strong>7. Potência em CA.</strong> <strong>Teorema de Blondel</strong>: em sistema de <em>N</em> condutores bastam <strong>N − 1 wattímetros</strong> — trifásico a <strong>4 fios</strong> pede 3; a <strong>3 fios</strong>, apenas <strong>2 (método de Aron)</strong>, equilibrado ou não. Sempre P = W<sub>1</sub> + W<sub>2</sub>; <strong>só com carga equilibrada</strong>, Q = √3·(W<sub>1</sub> − W<sub>2</sub>). Marcos: <strong>FP = 1 → leituras iguais</strong>; <strong>FP = 0,5 → um wattímetro lê zero</strong>; <strong>FP &lt; 0,5 → um lê negativo</strong> (inverta a bobina de corrente e subtraia). Reativa se mede com <strong>varímetro</strong> ou com wattímetro sob tensão defasada de 90°.</p>
+
+<p><strong>8. Energia ativa e reativa.</strong> No medidor de indução, o ímã de frenagem torna a velocidade do disco proporcional à potência ativa — logo o <strong>número de voltas é proporcional à energia</strong>. Com K<sub>h</sub> em Wh/volta e N voltas em t segundos: <strong>P = 3600·K<sub>h</sub>·N/t</strong>. O eletrônico integra p = v·i e registra nos <strong>quatro quadrantes</strong>: ativa em <strong>kWh</strong>, reativa em <strong>kvarh</strong> e demanda máxima em kW, média em <strong>15 minutos</strong>. Daí sai o FP médio: cos φ = kWh/√(kWh² + kvarh²). O FP de referência da regulação brasileira é <strong>0,92</strong> — abaixo disso, o excedente de reativo é faturado.</p>
+
+<p><strong>Números-chave do módulo:</strong> TP entrega <strong>115 V</strong> e TC entrega <strong>5 A</strong>; TC 100:5 → RTC <strong>20</strong>; classes <strong>0,3 / 0,6 / 1,2</strong> e <strong>5P10 / 10P20</strong>; Blondel = <strong>N − 1</strong> wattímetros; fator de forma <strong>1,11</strong> e de crista <strong>1,41</strong>; 20 kΩ/V ↔ <strong>50 μA</strong>; osciloscópio de <strong>1 MΩ</strong>, ponta <strong>×10</strong>; 1 kWh = <strong>3,6 MJ</strong>; demanda em <strong>15 min</strong>; FP de referência <strong>0,92</strong>.</p>
+
+<p><strong>Pegadinha clássica:</strong> a banca inverte a regra de segurança do TC e do TP. Grave pelo regime: o <strong>TC opera quase em curto</strong>, então <strong>abrir</strong> o secundário energizado gera sobretensão altíssima, perfura a isolação e põe o operador em risco — antes de retirar o instrumento, <strong>curto-circuite o secundário do TC</strong>. O <strong>TP opera quase em vazio</strong>, e nele o proibido é o <strong>curto</strong>. Segunda armadilha: o osciloscópio mostra <strong>valor de pico</strong> e a alternativa pede o eficaz — em senoide, V<sub>ef</sub> = V<sub>pp</sub>/(2√2).</p>
+
+<p><strong>Resumo de véspera:</strong> amperímetro em série com resistência nula, voltímetro em paralelo com resistência infinita; shunt R<sub>a</sub>/(n − 1) e multiplicador R<sub>v</sub>·(n − 1); Wheatstone iguala produtos opostos e independe da fonte e do galvanômetro; Kelvin para resistência baixa e megôhmetro para isolamento; osciloscópio é tempo, analisador de espectro é frequência; o ampere é a única elétrica entre as sete unidades de base; TP em paralelo dá 115 V e não pode ser curto-circuitado; TC em série dá 5 A e não pode ser aberto; TC de medição satura cedo, o de proteção não pode saturar; Blondel dá dois wattímetros no trifásico a três fios; leitura negativa é FP abaixo de 0,5; ativa em kWh e reativa em kvarh, com FP de referência 0,92 e demanda em 15 minutos.</p>

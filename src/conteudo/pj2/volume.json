@@ -1,32 +1,27 @@
 {
  "id": "pj2",
- "t": "Economia, Estratégia e Métodos Quantitativos",
- "sub": "Bloco 2 · o que completa a prova de Análise e Projetos",
+ "t": "Gestão de Projetos, Economia e Métodos Quantitativos",
+ "sub": "Bloco 2 · o que fecha a prova de Contabilidade",
  "mods": [
   {
-   "id": "pj2m1",
+   "id": "pj2m3",
    "n": "Módulo 1",
-   "t": "Microeconomia: custos, estruturas de mercado e elasticidade"
+   "t": "Gestão e avaliação de projetos: ciclo de vida, EAP e estudo de viabilidade (EVTE)"
+  },
+  {
+   "id": "pj2m1",
+   "n": "Módulo 2",
+   "t": "Microeconomia: noções de custos, estruturas de mercado e elasticidade"
   },
   {
    "id": "pj2m2",
-   "n": "Módulo 2",
-   "t": "Macroeconomia: PIB, moeda, IS-LM e política econômica"
-  },
-  {
-   "id": "pj2m3",
    "n": "Módulo 3",
-   "t": "Estratégia, ambiente de negócios e gerenciamento de projetos (PERT/CPM)"
+   "t": "Macroeconomia: noções de PIB, moeda, inflação e política econômica"
   },
   {
    "id": "pj2m4",
    "n": "Módulo 4",
-   "t": "Probabilidade, estatística e teoria dos jogos"
-  },
-  {
-   "id": "pj2m5",
-   "n": "Módulo 5",
-   "t": "Física aplicada: mecânica, fluidos, termodinâmica e transferência de calor"
+   "t": "Probabilidade e estatística descritiva"
   }
  ]
 }

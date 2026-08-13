@@ -1,0 +1,367 @@
+{
+ "id": "mec-2010",
+ "trilha": "mecanica",
+ "ano": 2010,
+ "nome": "Profissional Jr — Engenharia Mecânica",
+ "processo": "BR Distribuidora (prova em 02/05/2010)",
+ "caderno": "5.pdf",
+ "folhaGabarito": "55.pdf",
+ "total": 26,
+ "questoes": [
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2010, Q29",
+   "q": "Nessas condições, as acelerações angulares a 3 e a 4 das barras 3 e 4 são tais que",
+   "alts": {
+    "A": "a 3 = 0 e a 4 acelera a barra 4.",
+    "B": "a 3 acelera a barra 3 e a 4 = 0.",
+    "C": "a 3 desacelera a barra 3 e a 4 = 0.",
+    "D": "a 3 desacelera a barra 3 e a 4 acelera a barra 4.",
+    "E": "a 3 acelera a barra 3 e a 4 desacelera a barra 4."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2010, Q30",
+   "q": "No ensaio de tração de uma peça prismática fabricada de material elástico linear, o estado tridimensional de deformações em um ponto do material é tal que as deformações principais são",
+   "alts": {
+    "A": "todas positivas.",
+    "B": "todas negativas.",
+    "C": "duas negativas e uma nula.",
+    "D": "duas positivas e uma negativa.",
+    "E": "uma positiva e duas negativas. A B C x(t) Plataforma rígida Mola elástica"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2010, Q35",
+   "q": "Um determinado sistema mecânico possui uma frequência natural (wn = k/m) igual a 10 rad/s. Deseja-se aumentar essa frequência natural em 20% substituindo a mola. A constante elástica da nova mola (k = d 4 G/8D 3 N) deve ser obtida modificando-se apenas o número de espiras N. Mantidos inalterados todos os demais parâmetros do sistema, e considerando-se que a mola original tenha 14,4 espiras, o número de espiras necessárias à nova mola é",
+   "alts": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "8",
+    "E": "10"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2010, Q36",
+   "q": "Um elemento estrutural pode falhar em níveis de tensão significativamente inferiores ao limite de resistência de um ensaio estático, se for submetido a carregamentos repetidos em substituição a um carregamento estático. O fenômeno da falha por fratura sob cargas flutuantes é denominado Fadiga. A esse respeito, analise as afirmativas abaixo. I – A fadiga é influenciada por descontinuidades estruturais menores, dimensões, geometria e qualidade de acabamento superficial de uma peça. II – Uma trinca por fadiga se inicia, geralmente, em um ponto de concentração de tensões. III – A falha por fadiga possui natureza dúctil, mesmo nos materiais que normalmente são frágeis. Está(ão) correta(s) APENAS a(s) afirmativa(s)",
+   "alts": {
+    "A": "I.",
+    "B": "II.",
+    "C": "III.",
+    "D": "I e II.",
+    "E": "II e III."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2010, Q37",
+   "q": "No dimensionamento de um eixo de material dúctil sujeito à torção combinada com flexão, onde o ponto mais solicitado situa-se na superfície do eixo, o critério de resistência mais adequado é o da (de)",
+   "alts": {
+    "A": "tensão normal máxima, com as tensões principais de mesmo sinal.",
+    "B": "tensão cisalhante máxima, com as tensões principais de mesmo sinal.",
+    "C": "energia de distorção, com as tensões principais de sinais opostos.",
+    "D": "Coulomb Modificado, com as tensões principais de mesmo sinal.",
+    "E": "deformação normal máxima, com as tensões principais de sinais opostos."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2010, Q39",
+   "q": "A transformação das variáveis de corrente e tensão entre circuitos e subcircuitos é de grande necessidade, tanto para equipamentos utilizados no dia a dia da sociedade quanto para as linhas de transmissão de alta tensão que precisam atender às demandas dos consumidores de energia elétrica. Embora os transformadores, em geral, apresentem perdas de energia durante seu funcionamento, o modelo denominado transformador ideal, considerado sem perdas, pode ser utilizado nas diversas situações em que as perdas são desprezíveis. Esse modelo representa, portanto, a condição em que o transformador",
+   "alts": {
+    "A": "modifica a tensão do circuito primário para o secundário sem alterar a corrente.",
+    "B": "modifica a corrente do circuito primário para o secundário sem alterar a tensão.",
+    "C": "modifica igualmente a tensão e a corrente do circuito primário para o secundário.",
+    "D": "mantém a potência de entrada no circuito primário igual à potência de saída pelo circuito secundário.",
+    "E": "permite modificações independentes entre tensão e corrente do circuito primário para o secundário. + _ R 1 R 2 E (constante)"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2010, Q41",
+   "q": "Vários sistemas e entidades foram criados nas últimas duas décadas para articular e dar suporte institucional e técnico para a gestão ambiental no país, entre eles, o Conselho Nacional do Meio Ambiente - CONAMA, que é um órgão",
+   "alts": {
+    "A": "consultivo e deliberativo que tem caráter normatizador dos instrumentos da política ambiental.",
+    "B": "de planejamento, coordenação, supervisão e controle das ações relativas à política do meio ambiente.",
+    "C": "de execução, encarregado de executar e fazer executar as políticas e diretrizes governamentais definidas para o meio ambiente.",
+    "D": "de execução dos programas e projetos e do controle e fiscalização das atividades degradadoras do meio ambiente.",
+    "E": "de controle e fiscalização das atividades executivas de meio ambiente em suas respectivas jurisdições."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2010, Q43",
+   "q": "Durante o desenvolvimento de um programa, o uso de sub-rotinas é bastante recomendável para tornar mais modular o procedimento de programação. As sub-rotinas são constituídas de um conjunto de comandos ordenados, entre os quais não deve constar a definição dos valores das variáveis, pois",
+   "alts": {
+    "A": "essas variáveis podem ser alteradas ao retornarem para o nível de programação imediatamente anterior.",
+    "B": "a área de armazenamento desses valores na memória do computador pode ser utilizada para armazenar outras variáveis, perdendo-se, assim, os valores originais.",
+    "C": "toda vez que a sub-rotina for chamada pelo programa, esses dados serão novamente definidos, o que caracteriza uma programação inadequada.",
+    "D": "os comandos de definição dos valores numéricos das variáveis não funcionam dentro de uma sub-rotina.",
+    "E": "as sub-rotinas só aceitam comandos que representem operações matemáticas literais."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2010, Q44",
+   "q": "Para garantir a implantação de um empreendimento de qualidade com o menor custo e o menor prazo é imprescindível que sua administração contemple três fases principais: planejamento, programação e controle. A esse respeito, analise as afirmativas abaixo. I - O planejamento consiste no estudo do empreendimento como um todo, levando em conta Diretrizes Básicas preestabelecidas, a solução de problemas econômicos com a obtenção de financiamentos, o atendimento aos problemas legais, sociais, de logística, etc., com o estabelecimento de datasmarco para os eventos principais, e a elaboração da respectiva Rede de Precedências. II - A programação consiste no detalhamento das atividades que constam da Rede de Precedências, levando em conta os recursos disponíveis e os métodos de execução, permite que se determine a relação entre uma atividade planejada e uma atividade realizada, sempre com base na qualidade, nos custos e nos prazos. III - O controle abrange o acompanhamento de todas as atividades relacionadas com qualidade, custos e prazos referentes à elaboração de projetos, à execução das obras e ao fornecimento de materiais. Está(ão) correta(s) APENAS a(s) afirmação(ões)",
+   "alts": {
+    "A": "I.",
+    "B": "II.",
+    "C": "I e II.",
+    "D": "I e III.",
+    "E": "II e III."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2010, Q46",
+   "q": "O princípio da isonomia dentro de um processo licitatório tem como objetivo",
+   "alts": {
+    "A": "vincular os licitantes às regras estabelecidas em leis, regulamentos e normas em vigor.",
+    "B": "dar igual tratamento a todos os interessados em participar de uma licitação.",
+    "C": "dar tratamento desigual aos desiguais para garantir as mesmas oportunidades.",
+    "D": "obrigar o administrador a observar os critérios definidos no ato convocatório para o julgamento das propostas referidas à licitação.",
+    "E": "garantir que nada poderá ser criado ou feito sem que haja previsão no ato convocatório."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2010, Q48",
+   "q": "A seleção de materiais é uma atividade da Engenharia que envolve um processo de decisão não trivial, pois deve-se realizar uma escolha entre as propriedades, por vezes uma em detrimento de outra, em função das condições de utilização da peça. Para selecionar um material, deve-se considerar, além das questões econômicas, fatores como corrosão, desgaste e integridade estrutural. A seleção de um aço de alta resistência e baixa liga (ARBL ou, em inglês, HSLA) está relacionada à aplicação em",
+   "alts": {
+    "A": "ferramentas para conformação e usinagem em função da alta resistência mecânica e corrosão, como resultado da adição de ligas de cobre, vanádio, níquel e molibdênio.",
+    "B": "estruturas com alta resistência mecânica e com ductilidade aumentada pela adição de ligas de cobre, vanádio, níquel e molibdênio, o que confere adicionalmente alta resistência à corrosão.",
+    "C": "estruturas inoxidáveis, pela adição de cromo, mantendo o baixo teor de carbono e a alta resistência à tração.",
+    "D": "estruturas de uma elevada tensão de escoamento a aços de baixo teor de carbono. A adição de ligas em baixo teor é necessária para conferir ductilidade ao material, permitindo a conformação do mesmo.",
+    "E": "estruturas dúcteis, conformáveis e usináveis e com resistência mecânica aumentada pela adição de ligas de cobre, vanádio, níquel e molibdênio."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2010, Q49",
+   "q": "A maioria dos ferros fundidos utilizados na indústria apresenta, na composição química, teor de carbono entre 3 e 5%, além de outros elementos de liga. A denominação recebida se deve ao fato de fundir a temperaturas mais baixas que os aços, além de compor peças de estrutura frágil, adequadas a serem fabricadas a partir do processo de fundição. Dentre esses materiais, está o Ferro Fundido Branco, que se caracteriza por apresentar",
+   "alts": {
+    "A": "grafita em forma de flocos envolvidos por uma matriz de ferrita ou de perlita, em razão dos quais possui uma estrutura esbranquiçada.",
+    "B": "grafita em forma de nódulos envolvidos por uma matriz de austenita e estrutura esbranquiçada pela presença do silício, responsável pela denominação.",
+    "C": "ductilidade proveniente da formação da grafita em formato esférico e denominação branco em virtude das propriedades intermediárias em relação ao ferro fundido cinzento e o vermicular.",
+    "D": "teor de silício entre 1,7 e 3% e uma consequente redução na resistência à fratura e na resistência à fadiga do material.",
+    "E": "baixo teor de silício e, para taxas de resfriamento rápidas, a maior parte do carbono se apresenta na forma de cementita, ao invés de grafita."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2010, Q50",
+   "q": "A utilização de pastilhas intercambiáveis de metal duro para usinagem tem reduzido custos da indústria, pois preserva o corpo da ferramenta, substituindo apenas a pastilha, seja em troca de pastilhas diferentes, ao usinar diferentes materiais ou ao apresentar desgaste elevado. As pastilhas são divididas comercialmente em diferentes classes para usinar diferentes materiais. As características do material a seguir relacionam-se a três diferentes classes de pastilhas. I - Nesta classe, a pastilha é composta de carbonetos de tungstênio aglomerados pelo cobalto, indicada para usinagem de materiais frágeis que formam cavacos curtos, como ferros fundidos e latões. II - Com elevado teor de TiC e TaC, esta classe apresenta alta dureza a quente e resistência ao desgaste, e é indicada para a usinagem de aços e materiais dúcteis em geral. III - Esta classe tem propriedades intermediárias entre as classes I e II e é destinada a ferramentas com aplicações múltiplas. A relação correta entre material e classe da pastilha é:",
+   "alts": {
+    "A": "I: Classe P; II: Classe M; III: Classe K",
+    "B": "I: Classe K; II: Classe P; III: Classe M",
+    "C": "I: Classe P; II: Classe K; III: Classe M",
+    "D": "I: Classe K; II: Classe M; III: Classe P",
+    "E": "I: Classe M; II: Classe P; III: Classe K"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2010, Q51",
+   "q": "Os processos de conformação têm a característica de transformar a geometria da peça e, em muitos casos, alterar as propriedades mecânicas do material. O aparecimento da anisotropia na ductilidade e tenacidade associa-se",
+   "alts": {
+    "A": "ao alongamento das inclusões no sentido da deformação, que influenciam o processo de fratura e consequentemente as propriedades do material.",
+    "B": "ao alongamento das inclusões no sentido da deformação a quente, sendo que, quando se realiza a conformação a frio, as inclusões desaparecem e não influenciam a anisotropia do material.",
+    "C": "ao alongamento das inclusões no sentido da deformação a frio, sendo que, quando se realiza a conformação a quente, as inclusões desaparecem e não influenciam a anisotropia do material.",
+    "D": "à segregação dos elementos de liga que surgem durante o processo de conformação a frio.",
+    "E": "à alteração das propriedades das inclusões durante o processo de conformação pela ação da difusão entre as regiões da peça. A = 0,2 m1 2 P2 = patm V2 = 60 m/s A2 = 0,04 m 2 linha de corrente"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2010, Q52",
+   "q": "O processo de soldagem que produz a união por fusão dos elementos metálicos através do arco elétrico estabelecido entre um eletrodo de tungstênio, não consumível, e a peça ou um bocal constritor, que limita o diâmetro do arco e aumenta a intensidade da fonte de calor, com a presença de fluxo de gases, é",
+   "alts": {
+    "A": "soldagem com arco submerso.",
+    "B": "soldagem MIG/MAG.",
+    "C": "soldagem TIG.",
+    "D": "soldagem a arco plasma.",
+    "E": "soldagem a Laser."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2010, Q56",
+   "q": "Um engenheiro deseja calcular os coeficientes de película interno e externo à parede de um laboratório situado na França. Para isso, ele realiza algumas medidas, obtendo 14 °C para a temperatura da face interna da parede e -6 °C para a temperatura da face externa da parede. Nesse mesmo dia, ele verifica também as temperaturas interna e externa ao recinto, desenhando o esboço a seguir. Após realizar os cálculos, considerando a condutividade térmica apresentada para o material da parede, o engenheiro obterá para os coeficientes de película interno e externo, respectivamente, em W/(m 2.°C),",
+   "alts": {
+    "A": "7,5 e 25",
+    "B": "15 e 35",
+    "C": "22,5 e 42",
+    "D": "55 e 25",
+    "E": "75 e 55"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2010, Q57",
+   "q": "A equação da condução de calor em coordenadas cilíndricas, unidimensional, em regime transiente é dada por ¶ ¶ ¶æ ö æ ö + = rç ÷ ç ÷ ¶ ¶ ¶è ø è ø & p 1 T T rk g c r r r t onde r é a variável radial, T a temperatura, k a condutividade térmica do material, &g a taxa de geração de energia por unidade de volume, r a massa específica do material, pc o calor específico do material e t o tempo. A forma mais simplificada da equação anterior para o caso específico de condução de calor em estado estacionário sem geração de energia e k constante é",
+   "alts": {
+    "A": "¶ ¶ ¶ ¶ æ ö ç ÷ è ø T k = 0 r r",
+    "B": "¶ ¶ æ ö ç ÷ è ø 2 2 T k = 0 r",
+    "C": "æ ö ç ÷ è ø 2 2 d T k = 0 dr",
+    "D": "¶ ¶ ¶æ ö æ ö ç ÷ ç ÷ ¶ ¶ r ¶è ø è øp 1 T 1 T r = r r r c t",
+    "E": "æ ö ç ÷ è ø 1 d dT r = 0 r dr dr"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2010, Q58",
+   "q": "Um escritório no inverno é aquecido com uma bomba de calor. A temperatura do escritório deve ser mantida a 24 °C, enquanto o ambiente externo permanece a −8 °C. A potência necessária para acionar a bomba de calor é de 3 kW. Supondo-se que o ciclo da bomba de calor seja reversível, a taxa de transferência de calor do escritório para o ambiente externo, em kW, é",
+   "alts": {
+    "A": "5,5",
+    "B": "9,0",
+    "C": "27,0",
+    "D": "48,0",
+    "E": "66,0"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2010, Q60",
+   "q": "Uma bomba centrífuga é utilizada em um determinado sistema, fornecendo a vazão correta, porém apresentando uma altura de carga muito inferior à necessária. Uma possível solução para tal problema é",
+   "alts": {
+    "A": "adicionar uma bomba semelhante em série, com a saída alimentando diretamente o lado de aspiração da outra bomba.",
+    "B": "associar duas bombas semelhantes em paralelo.",
+    "C": "aumentar a potência de eixo da bomba.",
+    "D": "utilizar um fluido de maior viscosidade.",
+    "E": "diminuir a potência fornecida ao fluido. 8 100 80 60 40 20 0 x(mm) T(C) o 50 100 150 200 250 300 T material 3material 3 material 2material 2 material 1material 1"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2010, Q62",
+   "q": "O monitoramento de vibração em máquinas rotativas, de ruídos em rolamentos, de aumentos de temperatura em alguns pontos de mancais e o uso de técnicas de ultrassom são exemplos de manutenção",
+   "alts": {
+    "A": "preditiva.",
+    "B": "corretiva.",
+    "C": "preventiva.",
+    "D": "de ocasião.",
+    "E": "produtiva. Pressão Fase sólida Fase líquida Ponto Triplo Fase vapor Ponto crítico Temperatua A B p 1 p 2 1 2 V 1 V2"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2010, Q63",
+   "q": "O diagrama pressão–volume de um gás em um conjunto cilindro-pistão que passa por um processo de expansão em quase-equilíbrio é apresentado a seguir, sabendo-se que o gás evolui de um estado inicial de equilíbrio 1 para um estado final de equilíbrio 2. Com relação ao trabalho realizado pelo gás sobre o pistão durante a expansão, qual das afirmativas a seguir NÃO está correta?",
+   "alts": {
+    "A": "O trabalho é uma função de linha e, portanto, sua diferencial é inexata.",
+    "B": "O trabalho depende dos detalhes do processo definido pela curva e não apenas dos estados extremos.",
+    "C": "O trabalho, tal como o calor, é uma propriedade do sistema.",
+    "D": "O trabalho pode ser interpretado como a área sombreada indicada na figura.",
+    "E": "O trabalho é dado por ò 2 1 pdV."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2010, Q64",
+   "q": "Um engenheiro consulta os resultados de ensaio de uma bomba centrífuga trabalhando com uma velocidade constante de 875 rpm. Esses resultados estão representados em um diagrama com as curvas características de carga, rendimento e potência absorvida, em relação à vazão. Através deste diagrama, ele observa o comportamento de uma bomba de 75 HP, 340 l/s e 13,5 m de altura manométrica. O engenheiro decide, então, verificar o que ocorreria, caso fosse introduzida uma determinada alteração na condição de funcionamento da bomba, no caso, uma redução de velocidade para 700 rpm. Para essa situação específica, quais são, respectivamente, os novos valores de potência (HP), vazão (l/s) e de altura manométrica (m)?",
+   "alts": {
+    "A": "35,2; 250,4 e 7,4",
+    "B": "38,4; 272,0 e 8,6",
+    "C": "52,5; 272,0 e 9,5",
+    "D": "60,0; 292,0 e 10,8",
+    "E": "67,5; 272,0 e 12,2 3 R-134a 1 2 4 água"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2010, Q67",
+   "q": "Quando ocorre a diminuição total ou parcial do desempenho de uma peça ou equipamento, durante um período de tempo, com relação à sua função específica, o referido item deve sofrer manutenção ou ser substituído. Na área da manutenção, essa perda da capacidade é vista como um(a)",
+   "alts": {
+    "A": "defeito.",
+    "B": "reparo.",
+    "C": "falha.",
+    "D": "resultado de mão de obra sem supervisão adequada.",
+    "E": "resultado do uso de sobressalentes de má qualidade."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2010, Q68",
+   "q": "Considere as afirmativas a seguir. I - No conceito ABC de estoques, os itens são ordenados de acordo com os seus valores relativos e classificados em três grupos: no grupo correspondente à Classe A, estão incluídos todos os itens de valor elevado e, portanto, os que requerem controle rigoroso; na Classe B, estão os itens de valor intermediário e que requerem um controle menos rigoroso e na Classe C, os de menor valor relativo e que necessitam de um controle apenas rotineiro. II - A rotatividade ou giro do estoque é a relação entre o consumo anual e a quantidade mínima de mercadoria ou matéria-prima que a empresa deve manter em estoque. III - Existem certas características comuns a todos os problemas de controle de estoque, não importando se são matérias-primas, material em processo ou produto acabado, a saber: custos associados ao estoque, função de controle de estoque, objetivo do controle de estoque, política de estoque e princípios básicos para controle de estoque. IV - O JIT (Just in Time) é um sistema de produção com base em uma metodologia racional com a finalidade de eliminar todas as formas de desperdício na indústria, visando ao aumento da competitividade, sendo que tais desperdícios, geralmente camuflados, aparecem sob a forma de perdas sutis, como altos estoques, baixa qualidade, tempo de fabricação demorado, excesso de movimentação, além de outros. Estão corretas SOMENTE as afirmativas",
+   "alts": {
+    "A": "I e II.",
+    "B": "III e IV.",
+    "C": "I, II e III.",
+    "D": "I, III e IV.",
+    "E": "II, III e IV."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2010, Q69",
+   "q": "O fluido ideal, ou seja, aquele que serve para todos os tipos de sistemas hidráulicos, sob as mais diversas condições de serviço, deve ser bom lubrificante. Tal fluido deve reunir, entre outras, as seguintes características:",
+   "alts": {
+    "A": "ter baixa demulsibilidade e não ser inflamável.",
+    "B": "ter baixo ponto de fluidez e ser quimicamente estável.",
+    "C": "ter baixo ponto de fulgor e não ser tóxico.",
+    "D": "ser compressível e resistir ao cisalhamento.",
+    "E": "possuir baixo índice de viscosidade e não ser corrosivo."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2010, Q70",
+   "q": "A insalubridade foi regulamentada pela NR-15, que trata das Atividades e Operações Insalubres. Com base na referida norma, considere as afirmativas a seguir. I - Se, durante a jornada de trabalho, ocorrerem dois ou mais períodos de exposição a ruídos de diferentes níveis, devem ser considerados os seus efeitos combinados e, assim, no caso de dois períodos de exposição a ruídos de diferentes níveis, deve-se obedecer à relação £ C1+ C2 1 T1+ T2 para não exceder o limite de tolerância, em que C indica o tempo total que o trabalhador fica exposto a um nível de ruído específico e T indica a máxima exposição diária permissível a este nível. II - As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB, sem proteção adequada, oferecerão risco grave e iminente. III - O exercício de trabalho em condições de insalubridade de grau máximo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 40%. IV - O exercício de trabalho em condições de insalubridade de grau mínimo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 10%. Estão corretas as afirmativas",
+   "alts": {
+    "A": "I, II e III, apenas.",
+    "B": "I, II e IV, apenas.",
+    "C": "I, III e IV, apenas.",
+    "D": "II, III e IV, apenas.",
+    "E": "I, II, III e IV."
+   },
+   "correta": "D"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   26,
+   27,
+   31,
+   32,
+   38,
+   42,
+   55,
+   59,
+   61
+  ],
+  "quebradas": [
+   33
+  ]
+ }
+}

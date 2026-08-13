@@ -1,0 +1,77 @@
+<p><strong>1. Operações com matrizes.</strong> Soma só entre matrizes de <strong>mesma ordem</strong>, termo a termo. No produto A<sub>(m×n)</sub>·B<sub>(n×p)</sub> = C<sub>(m×p)</sub>, as <strong>colunas de A</strong> têm de bater com as <strong>linhas de B</strong>. O produto <strong>não comuta</strong>; transposição e inversão trocam a ordem: (A·B)<sup>T</sup> = B<sup>T</sup>·A<sup>T</sup> e (A·B)<sup>−1</sup> = B<sup>−1</sup>·A<sup>−1</sup>. A inversa A<sup>−1</sup> = adj(A)/det(A) <strong>só existe se det(A) ≠ 0</strong>.</p>
+
+<p><strong>2. Determinantes.</strong> O que cai é o <strong>efeito de uma operação</strong>:</p>
+<table>
+<thead>
+<tr><th>Operação sobre A (ordem n)</th><th>Efeito em det(A)</th></tr>
+</thead>
+<tbody>
+<tr><td>Trocar duas linhas de lugar</td><td><strong>troca o sinal</strong></td></tr>
+<tr><td>Multiplicar <strong>uma</strong> linha por k</td><td>k·det(A)</td></tr>
+<tr><td>Multiplicar a <strong>matriz inteira</strong> por k</td><td><strong>k<sup>n</sup>·det(A)</strong></td></tr>
+<tr><td>Somar a uma linha múltiplo de outra</td><td><strong>não muda</strong> (escalonamento)</td></tr>
+<tr><td>Linhas iguais, proporcionais ou nula</td><td>det(A) = 0</td></tr>
+<tr><td>Transpor / inverter</td><td>det(A<sup>T</sup>) = det(A); det(A<sup>−1</sup>) = 1/det(A)</td></tr>
+<tr><td>Produto / triangular</td><td>det(A·B) = det(A)·det(B); produto da diagonal</td></tr>
+</tbody>
+</table>
+<p>Questão real: det(M) = 240, M de ordem 3, K = 2·M ⇒ det(K) = 2<sup>3</sup>·240 = <strong>1.920</strong>.</p>
+
+<p><strong>3. Sistemas lineares.</strong> Em A·x = b com n incógnitas, compare o <strong>posto</strong> de A com o da ampliada [A|b]: iguais e valendo n → <strong>solução única</strong>; iguais e menores que n → <strong>infinitas soluções</strong>; diferentes → <strong>impossível</strong>. Vale sempre <strong>posto + nulidade = número de colunas</strong>: matriz 4×4 de nulidade 1 tem posto 3, logo <em>não</em> há solução única. Homogêneo só tem solução não trivial se <strong>det(A) = 0</strong>.</p>
+
+<p><strong>4. Vetores: escalar × vetorial.</strong></p>
+<table>
+<thead>
+<tr><th></th><th>Produto escalar (·)</th><th>Produto vetorial (×)</th></tr>
+</thead>
+<tbody>
+<tr><td>Resultado</td><td><strong>número</strong></td><td><strong>vetor</strong> perpendicular aos dois</td></tr>
+<tr><td>Cálculo</td><td>a<sub>x</sub>b<sub>x</sub> + a<sub>y</sub>b<sub>y</sub> + a<sub>z</sub>b<sub>z</sub></td><td>determinante 3×3 com i, j, k</td></tr>
+<tr><td>Módulo</td><td>|a|·|b|·cos τ</td><td>|a|·|b|·sen τ</td></tr>
+<tr><td>Vale zero se</td><td><strong>ortogonais</strong> (90°)</td><td><strong>paralelos</strong> (0° ou 180°)</td></tr>
+<tr><td>Ordem</td><td>a·b = b·a</td><td>a×b = −(b×a)</td></tr>
+<tr><td>Na eletricidade</td><td>fluxo Φ = B·A, trabalho</td><td>F = q·v×B, τ = r×F, S = E×H</td></tr>
+</tbody>
+</table>
+<p>Questão real: (2, 1, 3)·(1, 1, −1) = 0 ⇒ <strong>ortogonais</strong>. O produto misto a·(b×c) é determinante 3×3 e dá o <strong>volume do paralelepípedo</strong>.</p>
+
+<p><strong>5. Números complexos.</strong> Com z = a + jb, r = √(a² + b²) e τ = arctg(b/a):</p>
+<table>
+<thead>
+<tr><th>Forma</th><th>Escrita</th><th>Boa para</th></tr>
+</thead>
+<tbody>
+<tr><td>Retangular</td><td>a + jb</td><td><strong>somar e subtrair</strong></td></tr>
+<tr><td>Trigonométrica</td><td>r·(cos τ + j·sen τ)</td><td>conversão</td></tr>
+<tr><td>Exponencial (Euler)</td><td>r·e<sup>jτ</sup></td><td>derivar, integrar, Laplace</td></tr>
+<tr><td>Polar (fasorial)</td><td>r∠τ</td><td><strong>multiplicar, dividir, potenciar</strong></td></tr>
+</tbody>
+</table>
+<p>Multiplicando, <strong>módulos multiplicam e ângulos somam</strong>; dividindo, dividem e subtraem. De Moivre: z<sup>n</sup> = r<sup>n</sup>∠(n·τ), com as n raízes espaçadas de 360°/n. Decore j² = −1, <strong>1/j = −j</strong> e z·z* = |z|².</p>
+
+<p><strong>6. Complexos na eletricidade.</strong> Em regime senoidal (ω = 2πf): Z<sub>R</sub> = R, <strong>Z<sub>L</sub> = jωL</strong> (+90°) e <strong>Z<sub>C</sub> = −j/(ωC)</strong> (−90°). Potência complexa <strong>S = V·I*</strong> (conjugado da corrente) = P + jQ, com Q &gt; 0 na carga indutiva. Nas componentes simétricas entra o operador <strong>a = 1∠120°</strong>, com a³ = 1 e <strong>1 + a + a² = 0</strong>. f(z) = u + jv é <strong>analítica</strong> se obedece Cauchy-Riemann (∂u/∂x = ∂v/∂y e ∂u/∂y = −∂v/∂x); aí u e v são harmônicas (∇²u = 0) e valem como potencial e linhas de campo, sempre <strong>ortogonais</strong>.</p>
+
+<p><strong>7. Transformada de Laplace.</strong> F(s) = ∫<sub>0</sub><sup>∞</sup> f(t)·e<sup>−st</sup> dt. Os pares que caem:</p>
+<table>
+<thead>
+<tr><th>f(t), t ≥ 0</th><th>F(s)</th></tr>
+</thead>
+<tbody>
+<tr><td>δ(t) impulso</td><td>1</td></tr>
+<tr><td>u(t) degrau</td><td>1/s</td></tr>
+<tr><td>t / t<sup>n</sup></td><td>1/s² / n!·s<sup>−(n+1)</sup></td></tr>
+<tr><td>e<sup>−at</sup></td><td>1/(s + a)</td></tr>
+<tr><td>sen(ωt)</td><td>ω/(s² + ω²)</td></tr>
+<tr><td>cos(ωt)</td><td>s/(s² + ω²)</td></tr>
+<tr><td>e<sup>−at</sup>·sen(ωt)</td><td>ω/[(s + a)² + ω²]</td></tr>
+</tbody>
+</table>
+<p>Propriedades: <strong>L{f′} = s·F(s) − f(0)</strong>; L{f″} = s²F(s) − s·f(0) − f′(0); L{∫f dt} = F(s)/s; L{e<sup>−at</sup>f(t)} = F(s + a); atraso L{f(t−a)·u(t−a)} = e<sup>−as</sup>·F(s). Valor inicial: lim<sub>s→∞</sub> s·F(s); valor final: lim<sub>s→0</sub> s·F(s), <strong>só com polos de parte real negativa</strong>.</p>
+
+<p><strong>8. Laplace em circuitos.</strong> Transforme o circuito: R continua R, o indutor vira <strong>sL</strong> e o capacitor vira <strong>1/(sC)</strong>; valem Ohm, divisor, malhas e nós como em CC, e a equação diferencial vira <strong>algébrica</strong>. Condições iniciais viram fontes: L·i(0) com sL e v(0)/s com 1/(sC). Com CI nulas, H(s) = Saída(s)/Entrada(s). Cobrado: d²i/dt² + 4·di/dt + 29·i = 10·dv/dt + 5·v dá H(s) = (10s + 5)/(s² + 4s + 29) — <strong>zero em s = −0,5</strong> e <strong>polos conjugados em s = −2 ± j5</strong>. Polo real −a gera e<sup>−at</sup>; par −σ ± jω gera oscilação amortecida; parte real positiva é <strong>instabilidade</strong>. Volta ao tempo por frações parciais.</p>
+
+<p><strong>Números-chave do módulo:</strong> det(k·A) = <strong>k<sup>n</sup>·det(A)</strong> — 3×3 dobrada dá 8×; posto + nulidade = nº de colunas; j² = −1 e 1/j = −j; a = 1∠120° com 1 + a + a² = 0; Z<sub>L</sub> = jωL e Z<sub>C</sub> = −j/(ωC); L{δ} = 1; L{u} = 1/s; L{t} = 1/s²; L{e<sup>−at</sup>} = 1/(s+a); L{sen ωt} = ω/(s²+ω²); polos de s² + 4s + 29 em −2 ± j5.</p>
+
+<p><strong>Pegadinha clássica:</strong> multiplicar a matriz inteira por k e responder k·det(A) em vez de <strong>k<sup>n</sup>·det(A)</strong> — o distrator 480 está sempre ao lado do 1.920 correto. Do mesmo naipe: escrever S = V·I sem o <strong>conjugado</strong>; usar o <strong>valor final em sistema instável</strong>; e inverter os produtos — escalar nulo é <strong>ortogonal</strong>, vetorial nulo é <strong>paralelo</strong>. E o sinal: (s + a) tem polo em <strong>−a</strong>, nunca em +a.</p>
+
+<p><strong>Resumo de véspera:</strong> produto de matrizes não comuta e exige colunas de A = linhas de B; (AB)<sup>−1</sup> = B<sup>−1</sup>A<sup>−1</sup>; det(kA) = k<sup>n</sup>·det(A); posto igual ao nº de incógnitas dá solução única, menor dá infinitas, postos diferentes dá impossível; escalar nulo é ortogonalidade, vetorial nulo é paralelismo, misto nulo é coplanaridade; some na retangular e multiplique na polar; 1/j = −j; Z<sub>L</sub> = jωL e Z<sub>C</sub> = −j/(ωC); S = V·I* = P + jQ; a = 1∠120°; Cauchy-Riemann define função analítica; Laplace troca derivada por s carregando f(0); indutor vira sL e capacitor 1/(sC); polo à direita é instável; valor final só com polos no semiplano esquerdo.</p>

@@ -1,0 +1,469 @@
+{
+ "id": "mec-2015",
+ "trilha": "mecanica",
+ "ano": 2015,
+ "nome": "Profissional Jr — Engenharia Mecânica",
+ "processo": "BR Distribuidora PSP 1/2014",
+ "caderno": "4.pdf",
+ "folhaGabarito": "44.pdf",
+ "total": 34,
+ "questoes": [
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2015, Q29",
+   "q": "Em um mecanismo clássico, do tipo manivela-biela-pistão, a manivela possui velocidade de rotação constante no sentido horário. Em uma das fases em que a manivela se alinha com a biela, se o comprimento da biela for igual ao dobro do da manivela, o valor da velocidade angular da biela será igual",
+   "alts": {
+    "A": "a zero",
+    "B": "a um terço do valor da velocidade angular da manivela no sentido horário",
+    "C": "à metade do valor da velocidade angular da manivela no sentido anti-horário",
+    "D": "ao dobro do valor da velocidade angular da manivela no sentido horário",
+    "E": "ao dobro do valor da velocidade angular da manivela no sentido anti-horário"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2015, Q30",
+   "q": "O modelo matemático desenvolvido para o estudo das vibrações de um motor (corpo rígido) possui 6 graus de liberdade (3 de translação e 3 de rotação), acoplados entre si. A quantidade de frequências naturais desse sistema é igual a",
+   "alts": {
+    "A": "seis, cada uma referente a um grau de liberdade do sistema.",
+    "B": "seis, cada uma associada a um modo de vibração do sistema.",
+    "C": "três, cada uma associada a um movimento de translação e a um movimento de rotação.",
+    "D": "três, sendo uma referente a um movimento de translação, uma referente a um movimento de rotação e uma igual à velocidade de rotação do motor.",
+    "E": "duas, sendo uma referente aos movimentos de translação, e a outra referente aos movimentos de rotação."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2015, Q31",
+   "q": "Um sistema mecânico modelado com um único grau de liberdade entrará em ressonância quando a frequência de excitação do sistema for igual à frequência natural, e o(a)",
+   "alts": {
+    "A": "amortecimento do sistema for crítico.",
+    "B": "amortecimento do sistema for supercrítico.",
+    "C": "amortecimento do sistema for desprezado.",
+    "D": "rigidez do sistema for desprezível.",
+    "E": "massa do sistema for desprezível."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2015, Q32",
+   "q": "A lei de Hooke estabelece uma relação de proporcionalidade entre a tensão aplicada a uma peça e a correspondente deformação específica. Para o caso de um estado plano de tensões, essa relação depende, além do módulo de elasticidade do material, de seu(sua)",
+   "alts": {
+    "A": "coeficiente de Poisson",
+    "B": "coeficiente de expansão térmica",
+    "C": "massa específica",
+    "D": "elongação percentual",
+    "E": "resistência à tração"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2015, Q33",
+   "q": "Uma viga biapoiada de seção transversal retangular está sujeita a uma flexão simples. A tensão normal máxima ocorrerá na superfície mais afastada da linha neutra, enquanto a tensão cisalhante máxima ocorrerá na(no)",
+   "alts": {
+    "A": "linha (superfície) neutra",
+    "B": "totalidade dos bordos laterais da seção transversal",
+    "C": "bordo inferior da seção transversal",
+    "D": "bordo superior da seção transversal",
+    "E": "centroide da seção transversal, apenas"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2015, Q34",
+   "q": "A linha elástica de uma viga engastada-livre, sujeita a um carregamento transversal uniforme ao longo de todo o seu vão, é representada por um polinômio de ordem",
+   "alts": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3",
+    "E": "4"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2015, Q35",
+   "q": "Entre os critérios de resistência recomendados para o dimensionamento de eixos de materiais dúcteis sujeitos a esforços de torção e de flexão, destaca-se o critério de Von Mises. Se o ponto mais solicitado de um eixo nessas condições apresenta tensões principais em que  1   2   3, esse critério, comparativamente ao critério de Tresca (máxima tensão cisalhante), será menos conservativo porque naquele ponto",
+   "alts": {
+    "A": " 1 > 0,  2 = 0 e  3 < 0",
+    "B": " 1 =  2 e  3 = 0",
+    "C": " 1 = 0 e  2 =  3",
+    "D": " 1 =  2 = 0 e  3 < 0",
+    "E": " 1 > 0 e  2 =  3 = 0"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2015, Q36",
+   "q": "Um sistema de transmissão é constituído de eixos nos quais estão solidárias engrenagens de dentes helicoidais. Uma das importantes características desse tipo de engrenagem é o fato de elas transmitirem aos eixos esforços de",
+   "alts": {
+    "A": "torção, apenas",
+    "B": "flexão, apenas",
+    "C": "torção e carga axial, apenas",
+    "D": "flexão e carga axial, apenas",
+    "E": "flexão, torção e carga axial"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2015, Q37",
+   "q": "Considere as seguintes quantidades de fluidos colocadas em 3 reservatórios distintos: 14 m 3 de água, 1 m 3 de mercúrio e 15 m 3 de gasolina. Em ordem crescente de peso nos reservatórios, tem-se",
+   "alts": {
+    "A": "água, mercúrio e gasolina",
+    "B": "mercúrio, água e gasolina",
+    "C": "mercúrio, gasolina e água",
+    "D": "gasolina, mercúrio e água",
+    "E": "gasolina, água e mercúrio Dados de pesos específicos (N/m 3) Água 10.000 Gasolina 7.200 Mercúrio 136.000"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2015, Q38",
+   "q": "Para determinar o nível de etanol ( = 790 kg/m 3) em um reservatório, um técnico verificou que um manômetro instalado na base do reservatório indicava a pressão de 23,7 kPa. Considerando-se g = 10 m/s 2, esse nível, em m, pode ser estimado em",
+   "alts": {
+    "A": "2,0",
+    "B": "3,0",
+    "C": "4,0",
+    "D": "5,0",
+    "E": "8,0"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2015, Q39",
+   "q": "Entre os elementos listados a seguir, o que possui o maior valor de condutividade térmica na temperatura ambiente, sendo usado inclusive como dissipador de calor de dispositivos eletrônicos sensíveis, é o(a)",
+   "alts": {
+    "A": "cobre",
+    "B": "diamante",
+    "C": "manganês",
+    "D": "madeira",
+    "E": "prata"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2015, Q40",
+   "q": "O regime de escoamento na convecção natural é regido pelo adimensional conhecido como número de Grashof. Tal adimensional é uma medida da importância relativa da(s)",
+   "alts": {
+    "A": "transferência de calor por convecção e da transferência de calor por condução.",
+    "B": "transferência de calor por advecção e da transferência de calor por condução.",
+    "C": "forças de inércia e das forças viscosas agindo sobre o fluido.",
+    "D": "forças gravitacionais e das tensões superficiais agindo sobre o fluido.",
+    "E": "forças de empuxo e das forças viscosas oponentes agindo sobre o fluido."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2015, Q41",
+   "q": "Pelo princípio da conservação da energia, sabe-se que a variação líquida da energia total de um sistema durante um processo é igual à diferença entre a energia total que entra e a energia total que sai do sistema durante esse processo. Nos sistemas estacionários, a variação da energia total corresponde à(ao)",
+   "alts": {
+    "A": "variação da energia cinética",
+    "B": "variação da energia potencial",
+    "C": "variação da energia interna",
+    "D": "somatório da variação da energia cinética com a variação da energia interna",
+    "E": "somatório da variação da energia cinética com a variação da energia potencial"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2015, Q42",
+   "q": "Um sistema executa um ciclo de potência reversível para o qual a temperatura média de adição de calor é 552°C, e a temperatura média na qual o calor é descarregado é 57°C. A eficiência térmica máxima desse ciclo, conhecida como eficiência de Carnot, em porcentagem, é de",
+   "alts": {
+    "A": "10",
+    "B": "40",
+    "C": "60",
+    "D": "100",
+    "E": "495"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2015, Q43",
+   "q": "Que tipo de tratamento térmico é recomendado quando se deseja obter um produto final com alta ductilidade e resistência ao impacto, sem perda expressiva da dureza?",
+   "alts": {
+    "A": "Recozimento",
+    "B": "Normalização",
+    "C": "Têmpera",
+    "D": "Martêmpera",
+    "E": "Austêmpera"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2015, Q44",
+   "q": "A temperatura de revenimento influencia diretamente nas propriedades finais dos aços-carbono e de baixa liga. Quais as consequências, nesses materiais, caso o revenido venha a ter um aumento de temperatura de até 200 o C?",
+   "alts": {
+    "A": "Fragilização",
+    "B": "Aumento da ductilidade",
+    "C": "Recristalização dinâmica",
+    "D": "Elevação da dureza superficial",
+    "E": "Diminuição da resistência ao choque"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2015, Q45",
+   "q": "A martensita pode apresentar-se dura e frágil, quando temperada, o que pode vir a inviabilizar o seu emprego prático. O que melhora na martensita, por meio do tratamento de revenido, a fim de se atingirem valores adequados para a sua utilização?",
+   "alts": {
+    "A": "Resiliência e tenacidade",
+    "B": "Resiliência e ductilidade",
+    "C": "Tenacidade e resistência mecânica",
+    "D": "Tenacidade e ductilidade",
+    "E": "Ductilidade e resistência mecânica"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2015, Q46",
+   "q": "Qual é o efeito provocado pelo recozimento fertilizante nos ferros fundidos cinzentos?",
+   "alts": {
+    "A": "Esferoidização",
+    "B": "Homogeneização",
+    "C": "Recuperação",
+    "D": "Recristalização",
+    "E": "Grafitização"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2015, Q47",
+   "q": "O único ensaio de dureza utilizado e aceito para metais que tenham uma estrutura interna não uniforme é o",
+   "alts": {
+    "A": "Vickers",
+    "B": "Brinell",
+    "C": "Rockwell",
+    "D": "Knoop",
+    "E": "Shore"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2015, Q48",
+   "q": "A concentração de impurezas constitui um defeito de fundição, cujas consequências são a heterogeneidade na composição do material e alterações nas suas propriedades mecânicas. Como é conhecido esse tipo de defeito?",
+   "alts": {
+    "A": "Discordância",
+    "B": "Dendrita",
+    "C": "Massalote",
+    "D": "Segregação",
+    "E": "Vazio"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2015, Q49",
+   "q": "Em um projeto eficiente de um cilindro de laminação, é recomendado que se tenha",
+   "alts": {
+    "A": "maior potência motora para diminuir o espalhamento.",
+    "B": "maior potência motora para aumentar a deformação na direção de laminação.",
+    "C": "menor número de passes para diminuir o custo de fabricação do cilindro.",
+    "D": "menor diâmetro dos cilindros para permitir maior intensidade de redução.",
+    "E": "menor temperatura de trabalho, diminuindo o desgaste dos cilindros."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2015, Q50",
+   "q": "As bolhas gasosas tanto surgem no fenômeno conhecido como cavitação quanto na vaporização convencional. Na cavitação, as bolhas nascem devido à(ao)",
+   "alts": {
+    "A": "redução de pressão, mantida a temperatura constante.",
+    "B": "redução de temperatura, mantida a pressão constante.",
+    "C": "aumento de pressão e de temperatura.",
+    "D": "aumento de pressão, mantida a temperatura constante.",
+    "E": "aumento de temperatura, mantida a pressão constante."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2015, Q51",
+   "q": "Um indutor preso no eixo da bomba é uma solução utilizada para melhorar as condições de sucção das bombas centrífugas quando determinadas condições se tornam um problema crítico de bombeamento. Tais condições são:",
+   "alts": {
+    "A": "alta pressão de sucção e presença de cavitação",
+    "B": "alta pressão de sucção e baixa temperatura",
+    "C": "alta pressão de sucção e alta temperatura",
+    "D": "baixa temperatura e presença de cavitação",
+    "E": "baixa pressão de sucção e alta temperatura"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2015, Q52",
+   "q": "O rotor é o órgão da bomba que imprime à massa líquida um movimento circulatório, acelerando-a para a periferia em decorrência da ação da força centrífuga. A situação em que o líquido sai do rotor na mesma direção do eixo de rotação envolve um rotor",
+   "alts": {
+    "A": "fechado",
+    "B": "semiaberto",
+    "C": "de dupla sucção",
+    "D": "de fluxo axial",
+    "E": "de fluxo radial"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2015, Q55",
+   "q": "A principal característica da manutenção produtiva total (TPM) é a",
+   "alts": {
+    "A": "realização de paradas em intervalos regulares.",
+    "B": "transformação do operador do equipamento em um parceiro na sua manutenção.",
+    "C": "detecção do início da degradação de um componente, o controle do seu avanço e a antevisão do limite aceitável dessa degradação.",
+    "D": "paralisação do equipamento sempre que ocorrer o desvio de algum parâmetro que está sendo monitorado.",
+    "E": "realização do serviço em um equipamento sob falha, justamente para sanar essa falha."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2015, Q58",
+   "q": "Nas bombas alternativas, as peças do cilindro e as da distribuição estão expostas ao vapor. A verificação do desempenho do óleo nos cilindros pode ser feita retirando- -se a tampa do cilindro e observando-se o aspecto da sua superfície interna. Se a superfície apresentar aspecto escuro e uniforme, é indicativo de que o(a)",
+   "alts": {
+    "A": "lubrificante deve ser trocado.",
+    "B": "lubrificante está sobre a parede metálica.",
+    "C": "pistão e o cilindro estão em atrito.",
+    "D": "lubrificação está satisfatória.",
+    "E": "matéria carbonizada existe."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2015, Q59",
+   "q": "Na administração da produção, um sistema é classificado como aberto quando",
+   "alts": {
+    "A": "possui poucas entradas e saídas.",
+    "B": "alcança seus objetivos de uma única e exclusiva maneira.",
+    "C": "é um sistema mecânico ou determinístico.",
+    "D": "podem ser equacionadas matematicamente as relações de entradas e saídas.",
+    "E": "possui uma infinidade de entradas e saídas que não são bem conhecidas e determinadas."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2015, Q60",
+   "q": "Em um consultório dentário, um exemplo de transformação no processo de produção é o",
+   "alts": {
+    "A": "equipamento",
+    "B": "paciente",
+    "C": "tratamento",
+    "D": "dentista",
+    "E": "enfermeiro"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2015, Q61",
+   "q": "Uma fábrica de tecidos tem capacidade de produzir 100 quilos de um determinado tecido por hora de trabalho. O setor trabalha em um turno de 8 horas em 5 dias por semana. A capacidade instalada de produção semanal desse tecido, em kg, é de",
+   "alts": {
+    "A": "4.000",
+    "B": "6.500",
+    "C": "8.200",
+    "D": "12.600",
+    "E": "16.800"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2015, Q62",
+   "q": "A radiação não ionizante, utilizada em trabalhos com solda elétrica, metais e vidros incandescentes é composta de raios",
+   "alts": {
+    "A": "X",
+    "B": "alfa",
+    "C": "gama",
+    "D": "laser",
+    "E": "infravermelhos"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2015, Q63",
+   "q": "Os micro-organismos, na maioria das vezes invisíveis a olho nu, capazes de produzir doenças, deterioração de alimentos e mau cheiro são classificados como agentes",
+   "alts": {
+    "A": "façam em uma instrução o que os processadores CISC fazem em muitas.",
+    "B": "possuam instruções simples, executadas em um único ciclo.",
+    "C": "realizem instruções mais longas, porém mais ricas em semântica.",
+    "D": "reduzam o número de instruções de máquina para executar um programa compilado.",
+    "E": "sejam construídos em torno de um núcleo CISC."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2015, Q64",
+   "q": "Em relação ao programa de regularização do meio ambiente (PRA), considere as afirmações a seguir. I – Esse programa permite ao proprietário rural regularizar as áreas de preservação permanente e a reserva legal consolidada. II – Esse programa se aplica exclusivamente a áreas que não sejam de risco e em que sejam observados critérios técnicos de conservação do solo e da água. III – Esse programa tem como objetivo solucionar vários passivos ambientais dos produtores rurais. IV – Esse programa se aplica exclusivamente às regiões de restingas. É correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I e II",
+    "B": "II e IV",
+    "C": "III e IV",
+    "D": "I, II e III",
+    "E": "I, III e IV"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2015, Q65",
+   "q": "Há um órgão responsável por estabelecer normas, critérios e padrões relativos ao controle e à manutenção da qualidade do meio ambiente com vistas ao uso racional dos recursos ambientais, principalmente hídricos. Esse órgão é o",
+   "alts": {
+    "A": "Ibama",
+    "B": "Conama",
+    "C": "Anamma",
+    "D": "Sisnama",
+    "E": "Sema"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2015, Q66",
+   "q": "O encargo social complementar sobre a mão de obra, utilizado nos cálculos dos custos diretos de uma obra, é denominado",
+   "alts": {
+    "A": "FGTS",
+    "B": "previdência social",
+    "C": "licença paternidade",
+    "D": "vale transporte",
+    "E": "seguro contra acidentes de trabalho"
+   },
+   "correta": "D"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   26,
+   27,
+   28,
+   56,
+   57
+  ],
+  "quebradas": [
+   53,
+   54,
+   67
+  ]
+ }
+}

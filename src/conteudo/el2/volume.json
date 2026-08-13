@@ -24,13 +24,28 @@
    "t": "Proteção de sistemas elétricos, relés de sobrecorrente e coordenação"
   },
   {
-   "id": "el2m5",
+   "id": "el2m7",
    "n": "Módulo 5",
-   "t": "Sistemas de controle, sinais, amostragem e eletrônica de potência"
+   "t": "Média e alta tensão: dimensionamento, subestações, malha de terra e SPDA"
+  },
+  {
+   "id": "el2m8",
+   "n": "Módulo 6",
+   "t": "Controle clássico: função de transferência, 2ª ordem, lugar das raízes, Bode e espaço de estados"
+  },
+  {
+   "id": "el2m5",
+   "n": "Módulo 7",
+   "t": "Sistemas de controle discreto, amostragem e eletrônica de potência"
+  },
+  {
+   "id": "el2m9",
+   "n": "Módulo 8",
+   "t": "NR-10 e Lei 14.133/2021: segurança em eletricidade e contratação de obras"
   },
   {
    "id": "el2m6",
-   "n": "Módulo 6",
+   "n": "Módulo 9",
    "t": "Setor elétrico brasileiro, tarifas e eficiência energética"
   }
  ]

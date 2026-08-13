@@ -1,0 +1,49 @@
+<p><strong>1. Balanço energético do ciclo.</strong> Todo ciclo recebe q<sub>H</sub> da fonte quente, rejeita q<sub>L</sub> para a fonte fria e entrega trabalho. Como o estado final é igual ao inicial, vale sempre <strong>w<sub>líq</sub> = q<sub>H</sub> − q<sub>L</sub></strong> e <strong>η = w<sub>líq</sub>/q<sub>H</sub> = 1 − q<sub>L</sub>/q<sub>H</sub></strong>. Quando a banca esconde o calor da câmara de combustão, monte q<sub>H</sub> pela porta dos fundos: com w<sub>turb</sub> = 894,9, w<sub>comp</sub> = 458,9 e q<sub>L</sub> = 284,2 kJ/kg, tem-se w<sub>líq</sub> = 436, q<sub>H</sub> = 720,2 e η = <strong>60,5%</strong>. Em escoamento permanente, o trabalho por kg é <strong>Δh</strong> e a potência é <strong>Ẇ = ṁ·Δh</strong> — daí sai a vazão mássica a partir da potência da turbina.</p>
+
+<p><strong>2. Carnot é o teto.</strong> η<sub>Carnot</sub> = 1 − T<sub>L</sub>/T<sub>H</sub>, sempre em <strong>kelvin</strong>: 552 °C e 57 °C viram 825 K e 330 K, η = 60%. Duas consequências cobradas literal: somar o mesmo ΔT às duas fontes <strong>reduz</strong> o rendimento (T<sub>L</sub>/T<sub>H</sub> se aproxima de 1), e nenhum ciclo real entre as mesmas fontes supera Carnot.</p>
+
+<p><strong>3. Os quatro ciclos de potência, lado a lado.</strong></p>
+<table>
+<thead>
+<tr><th>Ciclo</th><th>Calor entra</th><th>Eficiência teórica</th><th>Onde aparece</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Rankine</strong></td><td>P constante, com mudança de fase</td><td>(w<sub>turb</sub> − w<sub>bomba</sub>)/q<sub>cald</sub></td><td>termelétrica a vapor, cogeração</td></tr>
+<tr><td><strong>Brayton</strong></td><td>P constante, gás</td><td>1 − 1/r<sub>p</sub><sup>(k−1)/k</sup></td><td>turbina a gás, aeronave</td></tr>
+<tr><td><strong>Otto</strong></td><td><strong>V constante</strong></td><td>1 − 1/r<sup>k−1</sup></td><td>ignição por centelha</td></tr>
+<tr><td><strong>Diesel</strong></td><td><strong>P constante</strong></td><td>1 − (1/r<sup>k−1</sup>)·[(r<sub>c</sub><sup>k</sup> − 1)/(k·(r<sub>c</sub> − 1))]</td><td>ignição por compressão</td></tr>
+</tbody>
+</table>
+<p>r = taxa de compressão = V<sub>PMI</sub>/V<sub>PMS</sub>; r<sub>p</sub> = razão de pressões; r<sub>c</sub> = razão de corte; k = c<sub>p</sub>/c<sub>v</sub> = 1,4 no ar. Os quatro melhoram quando você <strong>aumenta a compressão</strong>.</p>
+
+<p><strong>4. Rankine: os quatro equipamentos.</strong></p>
+<table>
+<thead>
+<tr><th>Equipamento</th><th>Processo ideal</th><th>Energia por kg</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Bomba</strong></td><td>compressão isentrópica de líquido</td><td>w<sub>b</sub> = h<sub>4</sub> − h<sub>3</sub> ≈ v·ΔP</td></tr>
+<tr><td><strong>Caldeira</strong></td><td>aquecimento a P constante</td><td>q<sub>H</sub> = h<sub>1</sub> − h<sub>4</sub></td></tr>
+<tr><td><strong>Turbina</strong></td><td>expansão isentrópica</td><td>w<sub>t</sub> = h<sub>1</sub> − h<sub>2</sub></td></tr>
+<tr><td><strong>Condensador</strong></td><td>rejeição a P constante</td><td>q<sub>L</sub> = h<sub>2</sub> − h<sub>3</sub></td></tr>
+</tbody>
+</table>
+<p>Comprimir líquido é barato: o trabalho da bomba fica abaixo de 5% do da turbina. Daí a conta favorita da banca, <strong>w<sub>turb</sub> = w<sub>líq</sub> + w<sub>bomba</sub></strong> — com 1.100 e 50 kJ/kg, a turbina entrega 1.150.</p>
+
+<p><strong>5. Como o Rankine ganha eficiência.</strong> Tudo é afastar as temperaturas médias: <strong>aumentar a pressão e a temperatura na caldeira</strong>, <strong>reduzir a pressão no condensador</strong> (vácuo) e <strong>superaquecer</strong> o vapor. Em porte maior: <strong>reaquecimento</strong> (expande até pressão intermediária, volta à caldeira, expande de novo) e <strong>regeneração</strong> (extrai vapor da turbina para pré-aquecer a água de alimentação). Subir a pressão da caldeira e baixar a do condensador cobram o mesmo preço: <strong>vapor mais úmido na descarga</strong>. Regra de projeto: título <strong>x ≥ 0,90</strong>, senão as gotículas erodem as pás do último estágio — e é para isso que serve o reaquecimento.</p>
+
+<p><strong>6. Brayton na prática.</strong> Compressor → câmara de combustão → turbina. O que o distingue é a <strong>razão de trabalho reversa</strong>: comprimir gás custa caro, e o compressor consome tipicamente <strong>40% a 60%</strong> do trabalho da turbina (no exemplo acima, 458,9/894,9 ≈ 51%). Melhorias: <strong>regenerador</strong> (o escape quente pré-aquece o ar que sai do compressor; só compensa em r<sub>p</sub> baixa, quando o escape ainda está mais quente que a descarga do compressor), <strong>resfriamento intermediário</strong> entre estágios de compressão e <strong>reaquecimento</strong> entre estágios de turbina — estes dois, sozinhos, <em>baixam</em> a eficiência; só valem <strong>com regenerador</strong>. O arranjo definitivo é o <strong>ciclo combinado</strong>: o escape da turbina a gás alimenta uma caldeira de recuperação que roda um Rankine.</p>
+
+<p><strong>7. Otto × Diesel.</strong> Para a <em>mesma</em> taxa de compressão, o Otto rende mais (calor a volume constante). Na prática o Diesel vence, porque comprime <strong>só ar</strong>, não sofre detonação e usa r muito maior; o Otto comprime <strong>mistura ar + combustível</strong> e é limitado pela batida de pino. Os dois são de <strong>combustão interna</strong>. Contas típicas: PMI = 100 cm³ e PMS = 10 cm³ dão r = 10:1; e como <strong>V<sub>deslocado</sub>/V<sub>câmara</sub> = r − 1</strong>, elevar r de 8 para 10 com o mesmo deslocamento põe as câmaras na razão 9/7.</p>
+
+<p><strong>8. Refrigeração por compressão de vapor.</strong> É o Rankine ao contrário, com um detalhe: a bomba vira <strong>compressor</strong> e a turbina vira <strong>válvula de expansão</strong>, um estrangulamento <strong>isentálpico</strong> (h<sub>3</sub> = h<sub>4</sub>, sem trabalho). Não se fala em eficiência, e sim em <strong>coeficiente de desempenho</strong>: <strong>COP<sub>R</sub> = q<sub>L</sub>/w<sub>c</sub></strong>, <strong>COP<sub>BC</sub> = q<sub>H</sub>/w<sub>c</sub> = COP<sub>R</sub> + 1</strong>, limite de Carnot COP<sub>R</sub> = T<sub>L</sub>/(T<sub>H</sub> − T<sub>L</sub>). COP maior que 1 não é rendimento acima de 100% — é calor movido por trabalho gasto. Variantes: <strong>absorção</strong> (usa calor no lugar de trabalho) e <strong>Brayton reverso</strong> (a ar, criogenia e aeronaves).</p>
+
+<p><strong>9. Principais fatores de perda de eficiência.</strong> São todas irreversibilidades: <strong>rendimento isentrópico</strong> de turbina, compressor e bomba; <strong>perda de carga</strong> em caldeira, tubulação e trocadores; troca de calor com <strong>ΔT finito</strong>; isolamento deficiente; <strong>incrustação</strong>; <strong>entrada de ar no condensador</strong>, que destrói o vácuo e sobe a pressão de rejeição; sub-resfriamento excessivo do condensado; vazamentos e purgadores travados; no Brayton, filtro de admissão sujo e ar de admissão quente (menos massa aspirada).</p>
+
+<p><strong>10. Equipamentos auxiliares.</strong> No Rankine: <strong>economizador</strong> (pré-aquece a água com os gases de exaustão), superaquecedor e reaquecedor, pré-aquecedor de ar, <strong>aquecedores regenerativos de água de alimentação</strong>, <strong>desaerador</strong> (aquecedor aberto que <em>também</em> remove O<sub>2</sub> e CO<sub>2</sub> — função dupla, cai em prova), bombas de condensado e de alimentação, ejetores de vácuo, torre de resfriamento, purgadores e tratamento da água. No Brayton: filtro de admissão, resfriador intermediário, regenerador e caldeira de recuperação. Na refrigeração: filtro secador, visor de líquido e tanque de líquido.</p>
+
+<p><strong>Números-chave do módulo:</strong> k = 1,4 no ar (c<sub>p</sub> = 1,005 e c<sub>v</sub> = 0,718 kJ/kg·K); Carnot só em <strong>kelvin</strong>; título mínimo na descarga da turbina <strong>0,90</strong>; bomba do Rankine <strong>&lt; 5%</strong> do trabalho da turbina; compressor do Brayton <strong>40% a 60%</strong> do trabalho da turbina; r do Otto ≈ <strong>8 a 12</strong>, r do Diesel ≈ <strong>12 a 24</strong>; COP<sub>BC</sub> = COP<sub>R</sub> + <strong>1</strong>; V<sub>deslocado</sub>/V<sub>câmara</sub> = <strong>r − 1</strong>.</p>
+
+<p><strong>Pegadinha clássica:</strong> a alternativa que sugere "<strong>usar um compressor no lugar da bomba</strong>" no Rankine. Soa técnico e é besteira: o que sai do condensador é <strong>líquido saturado</strong>, e líquido se bombeia — trocar por compressor só gastaria mais trabalho. Da mesma família, "turbina com eficiência isentrópica <strong>inferior</strong>" listada como melhoria. A segunda armadilha é o sentido do rendimento isentrópico: na <strong>turbina</strong>, η = w<sub>real</sub>/w<sub>ideal</sub>; no <strong>compressor e na bomba</strong>, η = w<sub>ideal</sub>/w<sub>real</sub> — invertido, porque neles o real é sempre maior. E, entre Otto e Diesel, os dois são de combustão <strong>interna</strong>: quem queima fora é o Rankine.</p>
+
+<p><strong>Resumo de véspera:</strong> η = 1 − q<sub>L</sub>/q<sub>H</sub> e q<sub>H</sub> = w<sub>líq</sub> + q<sub>L</sub>; Carnot em kelvin, e subir as duas fontes pelo mesmo ΔT piora o rendimento; Rankine melhora com caldeira mais pressurizada, condensador em vácuo mais profundo e superaquecimento; compressor no lugar da bomba é sempre alternativa errada; w<sub>turb</sub> = w<sub>líq</sub> + w<sub>bomba</sub>; Ẇ = ṁ·Δh dá a vazão; no Brayton manda a razão de trabalho reversa, e regenerador só ajuda em r<sub>p</sub> baixa; intercooler e reaquecimento só compensam com regenerador; a igual r o Otto ganha, mas na prática o Diesel vence porque comprime só ar; r = V<sub>PMI</sub>/V<sub>PMS</sub>; a válvula de expansão é isentálpica; COP<sub>BC</sub> = COP<sub>R</sub> + 1; desaerador aquece e desoxigena; a perda real mora no rendimento isentrópico, na perda de carga e no ΔT finito.</p>

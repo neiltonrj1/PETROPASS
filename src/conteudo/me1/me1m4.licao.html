@@ -1,0 +1,72 @@
+<p><strong>1. Os três mecanismos.</strong> A banca abre pela definição literal — esta tabela mata as conceituais:</p>
+<table>
+<thead>
+<tr>
+<th>Mecanismo</th>
+<th>Como o calor anda</th>
+<th>Precisa de meio?</th>
+<th>Lei</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Condução</strong></td>
+<td>Molécula a molécula (e por elétrons livres); <strong>sem transporte de massa</strong></td>
+<td>Sim — meio <em>parado</em></td>
+<td>Fourier: q = −k·A·dT/dx</td>
+</tr>
+<tr>
+<td><strong>Convecção</strong></td>
+<td>Condução na parede <em>mais</em> arraste pelo fluido</td>
+<td>Sim — fluido <em>em movimento</em></td>
+<td>Newton: q = h·A·(T<sub>s</sub> − T<sub>∞</sub>)</td>
+</tr>
+<tr>
+<td><strong>Radiação</strong></td>
+<td><strong>Ondas eletromagnéticas</strong>, de toda matéria acima de 0 K</td>
+<td><strong>Não</strong> — atravessa o vácuo</td>
+<td>Stefan-Boltzmann: q = ε·σ·A·T<sup>4</sup></td>
+</tr>
+</tbody>
+</table>
+<p>Dois fatos separam alternativas: <strong>radiação é a única que dispensa meio</strong> e a única que <strong>não é proporcional a ΔT</strong> — vai com a diferença de quartas potências das temperaturas absolutas. Convecção <strong>natural</strong> nasce do empuxo; <strong>forçada</strong>, de ventilador ou bomba.</p>
+<p><strong>2. Condução.</strong> O sinal negativo em Fourier só diz que o calor desce o gradiente. Em <strong>parede plana, permanente, sem geração e k constante</strong>, o perfil é <strong>linear</strong> e a equação vira d<sup>2</sup>T/dx<sup>2</sup> = 0. Em <strong>cilíndricas 1D</strong> a equação geral é (1/r)·d/dr(r·k·dT/dr) + ġ = ρ·c<sub>p</sub>·∂T/∂τ e, nas mesmas hipóteses, cai para <strong>(1/r)·d/dr(r·dT/dr) = 0</strong>, com perfil <strong>logarítmico</strong> — forma já pedida literalmente.</p>
+<p><strong>3. Resistência térmica.</strong> O atalho que resolve quase toda conta: ΔT é a tensão, q a corrente. Parede plana R = L/(k·A); cilindro R = ln(r<sub>2</sub>/r<sub>1</sub>)/(2π·k·L); filme convectivo R = 1/(h·A). Em série, q = ΔT<sub>total</sub>/ΣR — e o <strong>coeficiente global</strong> é isso reescrito: q = U·A·ΔT com 1/(U·A) = ΣR. Na prova: forno com k = 1,5 W/m·°C, L = 0,15 m, face externa a 100 °C, ar a 25 °C, h = 20. Mesmo fluxo nos dois: q" = 20·(100 − 25) = 1500 W/m²; T<sub>int</sub> = 100 + 1500·0,15/1,5 = <strong>250 °C</strong>.</p>
+<p><strong>4. Convecção e adimensionais.</strong> O <strong>h não é propriedade do fluido</strong>: depende de geometria, regime e velocidade. Convecção natural em gás fica em dezenas de W/m²·K; ebulição e condensação, em dezenas de milhares — daí, num trocador gás–líquido, quem manda em U é <strong>o lado do gás</strong>. Os adimensionais caem com a definição literal:</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Expressão</th>
+<th>Relação entre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nusselt</strong></td>
+<td>Nu = h·L/k</td>
+<td>Convecção e condução; é o <strong>gradiente de temperatura adimensional na superfície</strong></td>
+</tr>
+<tr>
+<td><strong>Prandtl</strong></td>
+<td>Pr = ν/α = c<sub>p</sub>·μ/k</td>
+<td>Difusão de quantidade de movimento e de calor</td>
+</tr>
+<tr>
+<td><strong>Grashof</strong></td>
+<td>Gr = g·β·ΔT·L<sup>3</sup>/ν<sup>2</sup></td>
+<td><strong>Empuxo e forças viscosas</strong> — rege a convecção <strong>natural</strong></td>
+</tr>
+<tr>
+<td><strong>Biot</strong></td>
+<td>Bi = h·L<sub>c</sub>/k</td>
+<td>Resistência interna (condução) e externa (convecção)</td>
+</tr>
+</tbody>
+</table>
+<p>Forçada → Nu = f(Re, Pr); natural → Nu = f(Gr, Pr) = f(Ra), com <strong>Ra = Gr·Pr</strong>.</p>
+<p><strong>5. Radiação.</strong> <strong>Corpo negro</strong> é absorvedor e emissor perfeito, com ε = 1. Corpo real emite ε·σ·T<sup>4</sup>, com 0 ≤ ε ≤ 1 (<strong>cinzento</strong> = ε constante com o comprimento de onda). Da radiação incidente, <strong>α + ρ + τ = 1</strong>; opaco tem τ = 0. <strong>Kirchhoff</strong>: no equilíbrio <strong>α = ε</strong> — bom absorvedor é bom emissor, e por isso superfície polida tem ε baixo e a fosca escura, ε alto. Com a vizinhança, q = ε·σ·A·(T<sub>s</sub><sup>4</sup> − T<sub>viz</sub><sup>4</sup>).</p>
+<p><strong>6. Trocadores de calor.</strong> Todo trocador é um balanço: Q = ṁ·c<sub>p</sub>·ΔT em cada corrente e, sem perdas, Q<sub>quente</sub> = Q<sub>frio</sub>. Tipos: <strong>duplo tubo</strong>, simples e de área pequena; <strong>casco e tubos</strong>, o padrão de refinaria — feixe tubular, espelhos e <strong>chicanas (baffles)</strong>, que seguram os tubos, direcionam o fluido no casco e aumentam a turbulência (e o h); <strong>placas gaxetadas</strong>, de U alto e limpeza fácil, limitadas em pressão. <strong>Contracorrente bate corrente paralela sempre</strong>: ΔT médio maior, menos área para a mesma carga, e é o <strong>único</strong> arranjo em que a fria pode sair mais quente que a quente. Dimensionamento: <strong>Q = U·A·F·ΔT<sub>ml</sub></strong>, com ΔT<sub>ml</sub> = (ΔT<sub>1</sub> − ΔT<sub>2</sub>)/ln(ΔT<sub>1</sub>/ΔT<sub>2</sub>) e F ≤ 1 (F = 1 no contracorrente puro, menor em casco-tubo multipasse). Faltando temperaturas de saída, o caminho é <strong>ε-NUT</strong>, com ε = Q/Q<sub>máx</sub> e Q<sub>máx</sub> = C<sub>mín</sub>·(T<sub>q,ent</sub> − T<sub>f,ent</sub>). A <strong>incrustação</strong> é resistência em série: derruba U e justifica a parada de limpeza.</p>
+<p><strong>Números-chave do módulo:</strong> σ = <strong>5,67×10<sup>−8</sup> W/m²·K<sup>4</sup></strong>; corpo negro ε = <strong>1</strong>; α + ρ + τ = <strong>1</strong>; k em W/m·K a 25 °C — <strong>diamante</strong> é o maior de todos (ordem de 10<sup>3</sup>, daí virar dissipador de eletrônicos), prata ≈ 429, cobre ≈ 401, alumínio ≈ 237, aço ≈ 50, água ≈ 0,6, ar ≈ 0,026; Pr do ar ≈ <strong>0,7</strong>; <strong>Bi &lt; 0,1</strong> libera a capacitância global; raio crítico de isolamento <strong>r<sub>cr</sub> = k/h</strong> (cilindro) e 2k/h (esfera).</p>
+<p><strong>Pegadinha clássica:</strong> três, e a banca reveza. <strong>(i)</strong> Em condução e convecção pode usar ΔT em °C, porque <em>diferença</em> de temperatura é igual nas duas escalas; em <strong>radiação, não</strong> — T entra à quarta e tem de ser absoluta. <strong>(ii)</strong> Numa parede composta, a maior queda de temperatura ocorre na camada de <strong>maior resistência</strong>, e a interface fica mais perto do lado de <strong>maior k</strong>; com mesma espessura e mesmo k, ela cai na <strong>média aritmética (T<sub>Q</sub> + T<sub>F</sub>)/2</strong> — já cobrado. <strong>(iii)</strong> Com perda pela carcaça, Q<sub>quente</sub> ≠ Q<sub>frio</sub>: a quente com C = 2 kJ/K·s de 95 a 45 °C cede 100 kW, a fria com C = 3 kJ/K·s de 25 a 55 °C recebe 90 kW, perdem-se <strong>10 kW</strong>. Quem chuta "zero" cai.</p>
+<p><strong>Resumo de véspera:</strong> condução move energia sem transporte de massa; convecção é condução mais arraste, com h que não é propriedade do fluido; radiação dispensa meio e vai com T<sup>4</sup> absoluta; resistências somam em série e 1/(U·A) = ΣR; parede plana dá perfil linear, cilíndrica dá logarítmico; Nusselt é convecção sobre condução e Grashof é empuxo sobre viscosidade; α + ρ + τ = 1 e α = ε; contracorrente sempre rende mais que corrente paralela; Q = U·A·F·ΔT<sub>ml</sub> com F ≤ 1; e, com perda pela carcaça, a quente cede mais do que a fria recebe.</p>

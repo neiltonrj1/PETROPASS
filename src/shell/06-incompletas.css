@@ -20,6 +20,10 @@
   color:var(--ink);overflow-x:auto;}
 .qz-fig svg{display:block;width:100%;max-width:460px;height:auto;margin:0 auto;
   color:var(--ink);overflow:visible;}
+/* recorte do caderno original: é imagem de fundo branco, então no tema
+   escuro ela ganha uma moldura clara para não flutuar sobre o preto */
+.qz-fig img{display:block;width:100%;max-width:520px;height:auto;margin:0 auto;
+  border-radius:4px;background:#fff;}
 .qz-fig figcaption{margin-top:9px;font-size:.75rem;line-height:1.5;
   color:var(--ink2);text-align:center;}
 /* tabela que veio no lugar da figura */

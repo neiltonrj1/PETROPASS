@@ -1,0 +1,103 @@
+<p><strong>1. Fluido e propriedades.</strong> Fluido é o que <strong>se deforma continuamente sob qualquer tensão de cisalhamento</strong>: sólido deforma e para, fluido não para. Lei de Newton da viscosidade: <strong>τ = μ · dv/dy</strong>. O <strong>newtoniano</strong> (água, ar, óleo mineral) tem μ constante — τ × dv/dy é uma <strong>reta pela origem</strong>. Fogem disso o pseudoplástico (μ cai com a taxa), o dilatante (μ sobe) e o plástico de Bingham (só escoa acima de uma tensão inicial). Não troque as duas viscosidades:</p>
+<table>
+<thead>
+<tr>
+<th>Propriedade</th>
+<th>Relação</th>
+<th>Unidade SI</th>
+<th>Água</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Massa específica</td>
+<td>ρ = m/V</td>
+<td>kg/m<sup>3</sup></td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Peso específico</td>
+<td>γ = ρ·g</td>
+<td>N/m<sup>3</sup></td>
+<td>9810 (provas usam 10.000)</td>
+</tr>
+<tr>
+<td>Densidade relativa</td>
+<td>d = ρ/ρ<sub>água</sub></td>
+<td>adimensional</td>
+<td>1 (mercúrio 13,6)</td>
+</tr>
+<tr>
+<td>Viscosidade <strong>dinâmica</strong></td>
+<td>μ, de τ = μ·dv/dy</td>
+<td>Pa·s</td>
+<td>≈ 1×10<sup>−3</sup></td>
+</tr>
+<tr>
+<td>Viscosidade <strong>cinemática</strong></td>
+<td>ν = μ/ρ</td>
+<td>m<sup>2</sup>/s</td>
+<td>≈ 1×10<sup>−6</sup></td>
+</tr>
+</tbody>
+</table>
+<p>Guarde: 1 poise = 0,1 Pa·s; 1 stokes = 10<sup>−4</sup> m<sup>2</sup>/s; líquido é incompressível, gás não; e <strong>cavitação é bolha por queda de pressão a temperatura constante</strong> (ebulição é o contrário).</p>
+<p><strong>2. Hidrostática.</strong> Em repouso não há cisalhamento: só pressão, <strong>normal à superfície e igual em todas as direções</strong> num ponto (Pascal). Stevin: <strong>p = p<sub>0</sub> + γ·h</strong>. Daí saem três fatos de prova: pontos no <strong>mesmo nível e mesmo fluido contínuo</strong> têm pressão igual; a pressão <strong>não depende do formato nem do volume</strong> do recipiente, só da altura de coluna; e <strong>p<sub>abs</sub> = p<sub>atm</sub> + p<sub>man</sub></strong> (manométrica negativa é vácuo). Em manômetro em U, <strong>some γh ao descer e subtraia ao subir</strong>. Superfície plana submersa: <strong>F = γ·h<sub>CG</sub>·A</strong>, aplicada no centro de pressão, sempre <strong>abaixo</strong> do CG (parede vertical desde a superfície: a 2h/3 do topo). Empuxo: <strong>E = γ<sub>fluido</sub>·V<sub>deslocado</sub></strong>; flutuando, peso = empuxo. Já caiu só ordenar γ·V — volume grande não é peso grande.</p>
+<p><strong>3. Equações constitutivas e Bernoulli.</strong> <strong>Continuidade:</strong> ṁ = ρ·A·V constante em regime permanente; incompressível vira <strong>Q = A·V</strong>. Em gás não corte o ρ: com ρ = p/(R·T), mesma seção com p e T diferentes dá velocidades diferentes. <strong>Quantidade de movimento:</strong> Navier-Stokes é a 2ª lei de Newton para fluido newtoniano; sem o termo viscoso vira Euler, e integrado na linha de corrente vira <strong>Bernoulli</strong>:</p>
+<p><strong>p/γ + V<sup>2</sup>/2g + z = constante</strong> — carga de pressão, cinética e de posição, todas em metros de coluna.</p>
+<p>As hipóteses são o que a banca cobra: <strong>permanente, incompressível, sem atrito, sem máquina, na mesma linha de corrente</strong>. Havendo atrito ou máquina, use a forma estendida: soma-se H<sub>bomba</sub> de um lado e H<sub>turbina</sub> + h<sub>f</sub> do outro. Aplicações diretas: Torricelli (<strong>V = √(2gh)</strong> em tanque aberto), Venturi e placa de orifício (a garganta acelera e a pressão cai — medem vazão por Δp) e Pitot.</p>
+<p><strong>4. Análise dimensional e semelhança.</strong> Buckingham: <strong>n</strong> variáveis e <strong>m</strong> dimensões primárias (M, L, t) geram <strong>n − m</strong> grupos. Modelo já cobrado: arrasto F numa esfera em função de D, V, ρ e μ dá 5 − 3 = <strong>2 grupos</strong>, resultando em <strong>F/(ρV<sup>2</sup>D<sup>2</sup>) = f(ρVD/μ)</strong> — coeficiente de arrasto em função do <strong>Reynolds</strong>. Semelhança exige, nesta ordem, <strong>geométrica</strong>, <strong>cinemática</strong> e <strong>dinâmica</strong> (igualar o adimensional dominante):</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Expressão</th>
+<th>Razão de forças</th>
+<th>Domínio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reynolds</strong></td>
+<td>Re = ρVD/μ = VD/ν</td>
+<td>inércia / viscosa</td>
+<td>tubulações, arrasto</td>
+</tr>
+<tr>
+<td><strong>Froude</strong></td>
+<td>Fr = V/√(gL)</td>
+<td>inércia / gravidade</td>
+<td>superfície livre, cascos</td>
+</tr>
+<tr>
+<td><strong>Mach</strong></td>
+<td>Ma = V/c</td>
+<td>inércia / elástica</td>
+<td>bocais, compressível</td>
+</tr>
+<tr>
+<td><strong>Weber</strong></td>
+<td>We = ρV<sup>2</sup>L/σ</td>
+<td>inércia / tensão superficial</td>
+<td>gotas, atomização</td>
+</tr>
+<tr>
+<td><strong>Euler</strong></td>
+<td>Eu = Δp/(ρV<sup>2</sup>)</td>
+<td>pressão / inércia</td>
+<td>cavitação</td>
+</tr>
+<tr>
+<td><strong>Grashof</strong></td>
+<td>Gr</td>
+<td>empuxo / viscosa</td>
+<td>convecção natural</td>
+</tr>
+</tbody>
+</table>
+<p><strong>5. Escoamento em tubulações.</strong> O regime sai do Reynolds com o diâmetro interno: <strong>Re &lt; 2000 laminar</strong>, 2000–4000 transição, <strong>Re &gt; 4000 turbulento</strong>. Laminar tem perfil parabólico e <strong>V<sub>máx</sub> = 2·V<sub>média</sub></strong>; turbulento tem perfil achatado. Seção não circular: <strong>D<sub>h</sub> = 4A/P<sub>molhado</sub></strong>. Roteiro da questão real: de Q = A·V tire A, depois <strong>D = √(4A/π)</strong>; 7,5 m<sup>3</sup>/s a 2,5 m/s dá D ≈ 1,95 m e Re na casa dos milhões — turbulento, como quase toda linha industrial de água.</p>
+<p><strong>6. Perdas de carga.</strong> Distribuída, por atrito ao longo do tubo — <strong>Darcy-Weisbach: h<sub>f</sub> = f·(L/D)·V<sup>2</sup>/2g</strong>. O fator f vem do diagrama de Moody, função de <strong>Re e da rugosidade relativa ε/D</strong>. No laminar, <strong>f = 64/Re</strong> (rugosidade não entra) e h<sub>f</sub> ∝ V; no turbulento plenamente rugoso, f só depende de ε/D e h<sub>f</sub> ∝ V<sup>2</sup>. Localizadas (curvas, válvulas, reduções): <strong>h<sub>L</sub> = K·V<sup>2</sup>/2g</strong> ou comprimento equivalente. Dois desdobramentos que viram questão: a vazão fixa, <strong>h<sub>f</sub> ∝ 1/D<sup>5</sup></strong> — dobrar o diâmetro divide a perda por 32; e a perda <strong>cresce ao longo da vida útil</strong>, porque incrustação e corrosão aumentam ε e comem o diâmetro útil.</p>
+<p><strong>7. Bocais e escoamento compressível.</strong> Compressibilidade só pesa acima de <strong>Ma ≈ 0,3</strong>, com <strong>c = √(k·R·T)</strong> e Ma = V/c. A regra que inverte tudo: no <strong>subsônico</strong>, área que diminui acelera; no <strong>supersônico</strong>, área que <em>aumenta</em> é que acelera. Por isso o bocal <strong>convergente</strong> só chega a Ma = 1 na saída; para passar disso, <strong>convergente-divergente (de Laval)</strong>, com Ma = 1 na garganta. Atingido Ma = 1 o bocal <strong>bloqueia</strong>: a vazão mássica trava e baixar mais a pressão a jusante não muda nada. Razão crítica p*/p<sub>0</sub> = [2/(k+1)]<sup>k/(k−1)</sup> — no ar (k = 1,4), <strong>0,528</strong>, com T*/T<sub>0</sub> = 0,833.</p>
+<p><strong>Números-chave do módulo:</strong> ρ<sub>água</sub> = <strong>1000 kg/m<sup>3</sup></strong>, γ<sub>água</sub> ≈ <strong>10.000 N/m<sup>3</sup></strong>, γ<sub>Hg</sub> = <strong>136.000 N/m<sup>3</sup></strong> (d = 13,6), γ<sub>gasolina</sub> ≈ 7.200 N/m<sup>3</sup>; ν<sub>água</sub> ≈ <strong>10<sup>−6</sup> m<sup>2</sup>/s</strong>; 1 atm = <strong>101,3 kPa = 760 mmHg ≈ 10,33 mca</strong>; <strong>Re 2000 / 4000</strong>; <strong>f = 64/Re</strong> e V<sub>máx</sub> = 2V<sub>méd</sub> no laminar; Ma <strong>0,3</strong>; razão crítica <strong>0,528</strong>; ar com k = 1,4 e R = 287 J/kg·K.</p>
+<p><strong>Pegadinha clássica:</strong> "as perdas menores (válvulas, registros, acidentes) são <em>sempre</em> menores que as perdas ao longo da tubulação" é <strong>falso</strong>, e caiu exatamente assim. Em linha curta cheia de acessórios, as localizadas dominam — o "sempre" derruba a alternativa. A outra armadilha é trocar μ por ν: se o enunciado der a <strong>cinemática</strong> (m<sup>2</sup>/s), Re = V·D/ν, <em>sem</em> ρ; se der a <strong>dinâmica</strong> (Pa·s), Re = ρ·V·D/μ.</p>
+<p><strong>Resumo de véspera:</strong> fluido se deforma continuamente sob qualquer cisalhamento; newtoniano dá reta pela origem em τ × dv/dy; ν = μ/ρ; Stevin p = p<sub>0</sub> + γh, só a altura de coluna importa; F = γ·h<sub>CG</sub>·A com centro de pressão abaixo do CG; empuxo = peso do volume deslocado; Q = A·V só para incompressível; Bernoulli exige permanente, incompressível, sem atrito e sem máquina; Torricelli V = √(2gh); Buckingham dá n − m grupos e C<sub>D</sub> = f(Re); semelhança dinâmica exige geométrica e cinemática antes; Re &lt; 2000 laminar, &gt; 4000 turbulento; laminar tem f = 64/Re e V<sub>máx</sub> = 2V<sub>méd</sub>; h<sub>f</sub> = f(L/D)V<sup>2</sup>/2g e h<sub>L</sub> = KV<sup>2</sup>/2g; localizadas nem sempre são as menores; perda cresce com a idade do tubo; a vazão mássica não muda por causa da perda; convergente para em Ma = 1 e bloqueia; de Laval é obrigatório para supersônico; p*/p<sub>0</sub> = 0,528 no ar; cavitação é queda de pressão a T constante.</p>

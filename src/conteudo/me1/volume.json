@@ -1,0 +1,37 @@
+{
+ "id": "me1",
+ "t": "Térmica, Fluidos e Máquinas",
+ "sub": "Termodinâmica, ciclos, escoamento, calor e as máquinas que vivem disso",
+ "mods": [
+  {
+   "id": "me1m1",
+   "n": "Módulo 1",
+   "t": "Termodinâmica: estado, 1ª e 2ª lei, gases perfeitos"
+  },
+  {
+   "id": "me1m2",
+   "n": "Módulo 2",
+   "t": "Ciclos de potência e refrigeração: Rankine, Brayton, Otto e Diesel"
+  },
+  {
+   "id": "me1m3",
+   "n": "Módulo 3",
+   "t": "Mecânica dos fluidos: hidrostática, Bernoulli, semelhança e perda de carga"
+  },
+  {
+   "id": "me1m4",
+   "n": "Módulo 4",
+   "t": "Transmissão de calor: condução, convecção, radiação e trocadores"
+  },
+  {
+   "id": "me1m5",
+   "n": "Módulo 5",
+   "t": "Máquinas de fluxo: bombas, compressores e turbinas"
+  },
+  {
+   "id": "me1m6",
+   "n": "Módulo 6",
+   "t": "Motores de combustão interna: ciclos reais, parâmetros e desempenho"
+  }
+ ]
+}

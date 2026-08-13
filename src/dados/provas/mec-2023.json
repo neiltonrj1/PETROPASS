@@ -1,0 +1,524 @@
+{
+ "id": "mec-2023",
+ "trilha": "mecanica",
+ "ano": 2023,
+ "nome": "Profissional Jr — Engenharia Mecânica",
+ "processo": "Transpetro PSP/Terra 2023.2",
+ "caderno": "11.pdf",
+ "folhaGabarito": "1.pdf",
+ "total": 38,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2023, Q21",
+   "q": "Considere um ciclo teórico de Rankine, sem reaquecimento. Com o objetivo de aumentar a eficiência do ciclo, devem ser postas em prática as seguintes alterações:",
+   "alts": {
+    "A": "aumento da pressão na caldeira e redução da pressão no condensador.",
+    "B": "uso de um compressor no lugar da bomba e uso de uma turbina com eficiência isentrópica inferior.",
+    "C": "aumento da pressão na caldeira e uso de um compressor no lugar da bomba.",
+    "D": "aumento da pressão da caldeira, uso de um compressor no lugar da bomba e uso de uma turbina com eficiência isentrópica inferior.",
+    "E": "aumento da pressão na caldeira, redução da pressão no condensador e uso de uma turbina com eficiência isentrópica inferior."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2023, Q22",
+   "q": "Considere um ciclo teórico de Rankine, sem superaquecimento. As seguintes informações foram disponibilizadas: • Entrada na turbina: pressão = 6 MPa, temperatura 275,4 ºC, entalpia = 2784,30 kJ/kg • Saída da turbina: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 2020,12 kJ/kg • Saída do condensador: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 251,38 kJ/kg • Entrada na caldeira: pressão de 6 MPa, temperatura 60,06 ºC; entalpia = 257,50 kJ/kg De posse dessas informações e sabendo-se que a potência da turbina é 7,64 MW, constata-se que o fluxo de massa, em kg/s, é igual a",
+   "alts": {
+    "A": "5,5",
+    "B": "6",
+    "C": "8",
+    "D": "10",
+    "E": "12,5"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2023, Q23",
+   "q": "O diâmetro da tubulação necessária para escoar cerca de 7,5 m3/s, com uma velocidade média de 2,5 m/s, deve ser determinado. O diâmetro, em metros, dessa tubulação e a natureza do escoamento (laminar ou turbulento) serão, respectivamente,",
+   "alts": {
+    "A": "0,52; laminar",
+    "B": "1,14; laminar",
+    "C": "1,71; turbulento",
+    "D": "1,95; turbulento",
+    "E": "2,52; turbulento Dado viscosidade cinemática da água = 0,5 x 10-6 m2/s"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2023, Q24",
+   "q": "Comparando dois motores, um seguindo o ciclo OTTO e o outro seguindo o ciclo DIESEL, considere as afirmações abaixo. I - Na prática, os motores DIESEL têm eficiência térmica superior aos motores OTTO, pois se conseguem razões maiores de compressão nos primeiros que aquelas nos motores OTTO. II - Os motores OTTO devem ser usados quando grandes potências se fazem necessárias, pois operam em rotações mais elevadas. III - Os motores DIESEL são máquinas de combustão externa, enquanto os motores OTTO são máquinas de combustão interna. IV - Os motores OTTO comprimem uma mistura ar + combustível, e os motores DIESEL comprimem ar tão somente. São corretas APENAS as afirmações",
+   "alts": {
+    "A": "I e III",
+    "B": "I e IV",
+    "C": "II e III",
+    "D": "II e IV",
+    "E": "I, II e III"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2023, Q25",
+   "q": "A respeito da perda de carga em uma tubulação, considere as afirmações abaixo: I - A perda de carga em uma tubulação varia ao longo da vida útil da tubulação. II - As perdas ditas menores, isto é, em registros, acidentes, etc., são sempre menores que as perdas maiores, isto é, ao longo da tubulação. III - A vazão mássica entre dois pontos ao longo do escoamento não é alterada pelas perdas internas. Está correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2023, Q26",
+   "q": "Considere duas máquinas térmicas de Carnot. A primeira, máquina térmica A, opera entre as temperaturas T1 e T2 (T1 > T2). A segunda, máquina térmica B, opera entre as temperaturas T1 + DeltaT e T2 + DeltaT, onde DeltaT > 0. Nesta condição, constata-se que a(s)",
+   "alts": {
+    "A": "máquina A é irreversível e a máquina B é reversível.",
+    "B": "eficiência térmica da máquina A é sempre maior que a eficiência térmica da máquina B.",
+    "C": "eficiência térmica da máquina A é duas vezes maior que a eficiência térmica da máquina B.",
+    "D": "máquina A é reversível e a máquina B é irreversível.",
+    "E": "eficiências térmicas das duas máquinas são iguais."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2023, Q27",
+   "q": "A força de arrasto F (ML / t2) em uma esfera lisa é dependente das seguintes variáveis independentes: D(L); V(L/t); ρ (M/L 3) e μ (M/Lt), considerando-se M, L e t como dimensões primárias. Após o uso da Análise Dimensional, obtém-se a seguinte relação:",
+   "alts": {
+    "A": "F / (ρ V 2 D 2) = f5 (ρ V / μ)",
+    "B": "F / (ρ V2 D2) = f2 (μ / ρ D)",
+    "C": "F / (ρ V2 D2) = f3 (μ2 / ρ)",
+    "D": "F / (ρ V 2 D 2) = f4 (ρ 2 V 2 D 2 / μ 3)",
+    "E": "F / (ρ V2 D2) = f1 (ρ V D / μ)"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2023, Q28",
+   "q": "A gerência de uma pizzaria registrou a venda diária de pizzas napolitanas durante um ano (dentro do horário de 12 h a 23 h). Com os dados obtidos das vendas, ajustou- -se a seguinte equação de regressão linear: Vendas = 2 x (horário do pedido) – 22 Com base nessas informações, o incremento horário no número de vendas é dado por",
+   "alts": {
+    "A": "–22",
+    "B": "22",
+    "C": "2",
+    "D": "–2",
+    "E": "–20"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2023, Q29",
+   "q": "Um gás perfeito experimental é utilizado em uma compressão adiabática reversível, saindo da pressão (absoluta) P1 = 100 kPa, temperatura T1 = 293 K e atingindo a pressão (absoluta) de P2 = 400 kPa. Sabendo-se que a razão entre os calores específicos (k = cp / cv) vale 2, a temperatura final, em K, é igual a",
+   "alts": {
+    "A": "250",
+    "B": "350",
+    "C": "470",
+    "D": "586",
+    "E": "615"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2023, Q30",
+   "q": "Em um ciclo Brayton padrão de gás, foi determinado que: • trabalho no compressor: 458,90 kJ / kg • trabalho na turbina: 894,9 kJ / kg • calor liberado na câmara de combustão: não informado • calor liberado para a fonte fria: 284,2 kJ / kg Com essas informações, constata-se que a eficiência do ciclo é igual a",
+   "alts": {
+    "A": "35,2%",
+    "B": "45,1%",
+    "C": "51%",
+    "D": "57,8%",
+    "E": "60,5%"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2023, Q31",
+   "q": "Deseja-se conhecer a variação de entropia em um ciclo irreversível, se comparada com a devida variação de um ciclo reversível. Nessa condição, conclui-se que a(s)",
+   "alts": {
+    "A": "variação de entropia do ciclo irreversível é sempre maior que a do ciclo reversível.",
+    "B": "variação de entropia no ciclo irreversível será maior que a do ciclo reversível, se a substância de trabalho for água.",
+    "C": "variação de entropia nos dois ciclos é nula, pois a entropia é uma propriedade termodinâmica.",
+    "D": "variação de entropia no ciclo reversível será maior que a do ciclo irreversível, se a substância de trabalho for um gás perfeito.",
+    "E": "duas variações de entropia são iguais, mas seu valor não pode ser determinado sem o conhecimento dos estados termodinâmicos."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2023, Q32",
+   "q": "Ao iniciar uma viagem, o carro tinha 0,2 kg de ar (suposto gás perfeito) em cada pneu, à temperatura de 27ºC e pressão manométrica de 450 kPa. Ao final da viagem, a temperatura atingiu 57ºC. Despreze as variações de volume do pneu. Admita o seguinte: • as propriedades termodinâmicas da substância não foram alteradas durante a viagem; • Rar = 0,3 kN × m / Kg × K; • P atm = 100 kPa. Ao final da viagem, a pressão manométrica do ar no pneu, em KPa, e o volume do pneu, em m3, serão, respectivamente, iguais a",
+   "alts": {
+    "A": "505 e 0,0327",
+    "B": "605 e 0,0327",
+    "C": "707 e 0,0205",
+    "D": "453 e 0,0205",
+    "E": "325 e 0,0402"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2023, Q33",
+   "q": "Duas placas planas justapostas, de mesma espessura, separam dois ambientes, ambos evacuados. As temperaturas das faces esquerda e direita do conjunto das duas placas são mantidas a TQ e TF. Sejam kE e kD as condutividades térmicas das placas da esquerda e da direita, respectivamente. Suponha o regime permanente, e que L seja a espessura de cada placa. Nessas condições, verifica-se o seguinte:",
+   "alts": {
+    "A": "se kE = kD, a temperatura TM da interface das duas placas será mais próxima de TQ.",
+    "B": "se kE < kD, o calor trocado aumentará.",
+    "C": "se kE > kD, o calor trocado aumentará.",
+    "D": "se kE = kD, a temperatura TM da interface das duas placas será mais próxima de TF.",
+    "E": "se kE = kD, a temperatura TM da interface das duas placas será dada por (TQ + TF) / 2."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2023, Q34",
+   "q": "A temperatura da carcaça de um trocador de calor indica perda de calor para o ambiente. Sabe-se que: • corrente quente: Capacidade térmica = 2 kJ/K.s Temperatura de entrada no trocador: 95 ºC Temperatura de saída no trocador: 45 ºC • corrente fria: Capacidade térmica = 3 kJ/K.s Temperatura de entrada no trocador: 25 ºC Temperatura de saída no trocador: 55 ºC Com essas informações, a quantidade de calor perdida para o ambiente, em kW, é igual a",
+   "alts": {
+    "A": "0",
+    "B": "10",
+    "C": "20",
+    "D": "30",
+    "E": "40"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2023, Q35",
+   "q": "A cambota é um dos principais componentes de um motor de quatro tempos, seja ele por ignição por centelha ou por compressão, e faz parte do sistema de transmissão do movimento desse motor. Uma outra denominação para cambota é",
+   "alts": {
+    "A": "biela",
+    "B": "cilindro",
+    "C": "pistão",
+    "D": "volante de inércia",
+    "E": "árvore de manivelas"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2023, Q38",
+   "q": "Considere um modelo plano da dinâmica vertical de um veículo de passeio, com quatro graus de liberdade: deslocamento vertical do CM do veículo; deslocamento angular em torno do CM e os deslocamentos de duas rodas. As quatro frequências naturais de vibração estão relacionadas a",
+   "alts": {
+    "A": "um dos graus de liberdade do sistema",
+    "B": "todos os graus de liberdade do sistema",
+    "C": "um dos elementos elásticos considerados",
+    "D": "um dos elementos dissipativos considerados",
+    "E": "um dos elementos armazenadores de energia do sistema"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2023, Q39",
+   "q": "Uma viga está apoiada em uma de suas extremidades e engastada na outra, e está suportando uma carga concentrada F no centro de seu vão. As reações de apoio atuantes nas extremidades dessa viga são obtidas utilizando-se as",
+   "alts": {
+    "A": "condições de equilíbrio, apenas",
+    "B": "condições de equilíbrio e a Lei de Hooke",
+    "C": "condições de equilíbrio e uma equação da resistência dos materiais envolvendo a linha elástica",
+    "D": "condições de equilíbrio e uma equação relacionada à geometria da seção transversal da viga",
+    "E": "condições de equilíbrio e as informações sobre a resistência do material da viga"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2023, Q41",
+   "q": "Um engenheiro deseja estimar a frequência natural de um veículo de passeio, modelado como sistema de um grau de liberdade. Para isso, ele considerou uma massa de 1.000 kg e uma rigidez equivalente às suspensões do veículo com valor de 100 kN/m. Diante do exposto acima, a frequência natural, expressa em Hz, está na faixa entre",
+   "alts": {
+    "A": "1 e 2",
+    "B": "2 e 4",
+    "C": "4 e 15",
+    "D": "15 e 80",
+    "E": "80 e 100"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2023, Q42",
+   "q": "O eixo 1 da transmissão de movimento realizada por um par de engrenagens cônicas gira a 1.800 rpm para acionar o eixo 2 que demanda um torque de 120 N.m. Considerando-se que o pinhão possui 30 dentes, e a coroa, 60 dentes, a potência mínima necessária ao motor, expressa em watts, é de",
+   "alts": {
+    "A": "1.200",
+    "B": "3.600",
+    "C": "1.200p",
+    "D": "3.600p",
+    "E": "4.800p"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2023, Q44",
+   "q": "Um veículo cuja massa é de 1.000 kg deve manter-se em uma trajetória circular de 40 m de raio a uma velocidade constante de 36 km/h. Nessa condição, o valor da força de atrito atuante nos pneus, expresso em N, é de",
+   "alts": {
+    "A": "2.500 na direção tangente à trajetória",
+    "B": "2.500 na direção perpendicular à trajetória",
+    "C": "5.000 na direção perpendicular à trajetória",
+    "D": "10.000 na direção tangente à trajetória",
+    "E": "10.000 na direção perpendicular à trajetória"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2023, Q46",
+   "q": "Em um projeto a determinação das dimensões da seção transversal de uma viga utiliza a expressão da tensão normal de flexão,  = Mc/I, na qual M é o momento fletor máximo, c é a distância entre a linha neutra e a fibra mais afastada da linha neutra, e I é o momento de inércia da seção. Essa tensão é comparada à tensão admissível do projeto, e o módulo de resistência à flexão necessário (W = I/c) é determinado. Considerando-se que a seção transversal seja retangular, de base b e altura h, esse módulo será expresso por",
+   "alts": {
+    "A": "bh/6",
+    "B": "bh/12",
+    "C": "bh 2 /6",
+    "D": "bh 3 /6",
+    "E": "bh 3 /12"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2023, Q47",
+   "q": "Para diminuir a vibração de um motor com massa de 40 kg (peso de 400 N), foi sugerido apoiá-lo sobre um isolante de borracha. Por meio de um teste estático, o motor apresentou um deslocamento de 2,5 cm relativamente à condição indeformada do isolante. Diante do exposto, o sistema massa-mola representativo do motor instalado sobre o isolante de borracha possui uma frequência natural, expressa em Hz, de",
+   "alts": {
+    "A": "20",
+    "B": "10",
+    "C": "20",
+    "D": "10/",
+    "E": "20/"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2023, Q50",
+   "q": "A gasolina deve ser capaz de ser submetida às altas pressões e às temperaturas do processo de combustão, sem que a mistura, ainda não queimada, venha a explodir por si só, que é um processo que se deseja evitar. A propriedade que define essa capacidade da gasolina é denominada",
+   "alts": {
+    "A": "knock",
+    "B": "cracking",
+    "C": "índice de cetano",
+    "D": "índice de octano",
+    "E": "velocidade de propagação de chama"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2023, Q51",
+   "q": "A classificação SAE para lubrificantes é a mais conhecida, sendo especificada conforme a condição de operação e as características do motor. Nesse contexto, considere um óleo multigrade que mantenha as características de um óleo SAE 10 à baixa temperatura (-20 o C) e de um óleo SAE 40 à 100 o C. Qual é a classificação SAE desse óleo?",
+   "alts": {
+    "A": "SAE 10",
+    "B": "SAE 40",
+    "C": "SAE 40 W 10",
+    "D": "SAE 40 W 100",
+    "E": "SAE 10 W 40"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2023, Q52",
+   "q": "De forma geral, os motores de combustão interna aproveitam o aumento de pressão resultante da combustão da mistura ar-combustível para gerar movimento, sendo a cilindrada e a taxa de compressão características importantes desses motores. Considere um motor de quatro cilindros, no qual cada cilindro tem diâmetro D e curso C. Qual é a expressão que determina a cilindrada desse motor?",
+   "alts": {
+    "A": "p. C. D 2 /4",
+    "B": "p. C. D 2 /2",
+    "C": "p. C. D 2",
+    "D": "2. p. C. D 2",
+    "E": "4. p. C. D 2"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2023, Q53",
+   "q": "Um sistema de bombeamento possui os valores de potências motriz, de elevação e útil iguais a 10 kgf. m/s, 9,5 kgf. m/s e 7,5 kgf. m/s, respectivamente. Qual é o valor do rendimento mecânico para esse sistema?",
+   "alts": {
+    "A": "0,20",
+    "B": "0,25",
+    "C": "0,75",
+    "D": "0,79",
+    "E": "0,95"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2023, Q54",
+   "q": "Um engenheiro mecânico, ao analisar as propriedades mecânicas do metal depositado em uma solda a arco submerso (SAW), identificou que essa solda apresentava 430 MPa de limite de resistência e 330 MPa de limite de escoamento mínimo (0,2%). Com base na informação acima, qual é a designação utilizada como base para classificar o material empregado nessa solda?",
+   "alts": {
+    "A": "F33XX - EXXX",
+    "B": "F43XX - EXXX",
+    "C": "F3343 - EXXX",
+    "D": "F4333 - EXXX",
+    "E": "F4X3X - EXXX"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2023, Q55",
+   "q": "A American Weldind Society (AWS) possui especificações aplicáveis aos consumíveis para soldagem a arco submerso (SAW). Com base nisso, considere que se deseja especificar os consumíveis para soldagem SAW de aço inoxidável. Para tal finalidade, deve-se empregar a seguinte especificação:",
+   "alts": {
+    "A": "AWS A 5.9",
+    "B": "AWS A 5.14",
+    "C": "AWS A 5.17",
+    "D": "AWS A 5.21",
+    "E": "AWS A 5.23"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2023, Q56",
+   "q": "Uma bomba cujo rotor apresenta entrada bilateral é utilizada para bombear 0,18 m 3 /s para 3 81 m de altura, operando a 600 rpm. Qual o valor, em rpm, do número específico de rotações dessa unidade de bombeamento?",
+   "alts": {
+    "A": "219",
+    "B": "310",
+    "C": "391",
+    "D": "472",
+    "E": "553"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2023, Q57",
+   "q": "Em um ciclo de Rankine com rendimento de 40%, o trabalho líquido é de 1.100 kJ/kg, enquanto o trabalho na bomba é de 50 kJ/kg. Sabendo-se que 2.750 kJ/kg de calor são trocados na caldeira, qual é o valor, em kJ/kg, do trabalho na turbina?",
+   "alts": {
+    "A": "1.600",
+    "B": "1.200",
+    "C": "1.150",
+    "D": "1.100",
+    "E": "1.050"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2023, Q59",
+   "q": "Considere um motor cujos volumes nos pontos morto inferior e morto superior sejam, respectivamente, 100 cm 3 e 10 cm 3. Qual é a taxa de compressão desse motor?",
+   "alts": {
+    "A": "100:1",
+    "B": "10:1",
+    "C": "9:1",
+    "D": "1:10",
+    "E": "1:100"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2023, Q61",
+   "q": "A corrosão eletroquímica é uma das principais causas para falhas de materiais em serviço. Ela sempre pode ocorrer para determinadas geometrias em que dois materiais são colocados em contato íntimo um com o outro. É favorável a uma corrosão eletroquímica o seguinte sistema de materiais:",
+   "alts": {
+    "A": "cobre e policloreto de vinila",
+    "B": "cobre e óxido de silício",
+    "C": "cobre e ferro",
+    "D": "óxido de silício e policloreto de vinila",
+    "E": "óxido de silício e ferro"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2023, Q64",
+   "q": "Um motor alternativo do ciclo Otto, com relação diâmetro × curso do cilindro igual a 98,4 mm × 89,7 mm, é modificado, e sua taxa de compressão original de 8:1 sofre um aumento de 25%. A razão entre os volumes da câmara de combustão antes e depois de tal modificação é",
+   "alts": {
+    "A": "6/5",
+    "B": "11/9",
+    "C": "5/4",
+    "D": "9/7",
+    "E": "15/11"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2023, Q65",
+   "q": "Um engenheiro precisa especificar um material para uma mola, e, para isso, deve definir características da curva de tensão de tração versus deformação de engenharia para satisfazer as condições de trabalho. Nesse caso, ele deve definir a seguinte(s) característica(s):",
+   "alts": {
+    "A": "módulo de Young, apenas",
+    "B": "limite de escoamento, apenas",
+    "C": "limite de resistência mecânica, apenas",
+    "D": "módulo de Young e limite de escoamento",
+    "E": "módulo de Young e limite de resistência mecânica"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2023, Q66",
+   "q": "Um aço eutetoide, ligado com manganês e níquel para melhorar sua temperabilidade, é austenitizado numa temperatura acima do eutetoide e resfriado rapidamente até a temperatura ambiente por imersão num banho de água fria, processo conhecido como têmpera. O principal constituinte observado na microestrutura desse aço após esse tratamento térmico é a",
+   "alts": {
+    "A": "austenita",
+    "B": "cementita",
+    "C": "ferrita",
+    "D": "perlita",
+    "E": "martensita"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2023, Q67",
+   "q": "Um engenheiro precisa construir um forno elétrico para trabalhar na faixa de temperatura de 25°C até 1200°C sob atmosfera oxidante. O material interno do forno servirá de barreira isolante térmica e de isolante elétrico. Nesse caso, o material mais adequado para a parte interna do forno é a(o)",
+   "alts": {
+    "A": "alumina alfa (A 2 O 3)",
+    "B": "carbono grafítico",
+    "C": "carbeto (carboneto) de tungstênio (WC)",
+    "D": "nióbio (Nb)",
+    "E": "teflon (politetrafluoretileno, PTFE)"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2023, Q69",
+   "q": "A soldagem pelo método TIG pode ser empregada com diferentes configurações de corrente elétrica, utilizando argônio como gás inerte. Em todas as configurações, o gás argônio é ionizado com carga positiva e, por isso, sofre uma aceleração que resulta em elevada energia cinética. Sobre o efeito que esse íon argônio apresenta sobre a superfície do metal soldado, tem-se que, com corrente",
+   "alts": {
+    "A": "contínua e eletrodo de tungstênio polarizado positivo, o íon argônio é acelerado contra o eletrodo e, portanto, melhora a limpeza da peça soldada.",
+    "B": "contínua e eletrodo de tungstênio polarizado positivo, o íon de argônio é acelerado contra o metal de solda e, portanto, melhora a limpeza da peça soldada.",
+    "C": "contínua e eletrodo de tungstênio polarizado negativo, o íon argônio é acelerado contra o metal de solda e, portanto, melhora a limpeza da peça soldada.",
+    "D": "contínua e eletrodo de tungstênio polarizado negativo, o íon de argônio é acelerado contra o eletrodo e, portanto, melhora a limpeza da peça soldada.",
+    "E": "alternada, o íon de argônio não sofre nenhuma aceleração e, portanto, não melhora a limpeza da peça soldada."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2023, Q70",
+   "q": "Um sistema binário A-B apresenta um líquido que se solidifica de forma eutética com uma fração molar de B igual a 0,5. A fase rica em B não apresenta solubilidade para o componente A. A fase rica em A apresenta uma solubilidade máxima de 0,2 de B na temperatura do eutético. Uma liga contendo 35% molar de B foi preparada pela mistura de proporções adequadas de A e B no estado líquido. Essa liga foi resfriada lentamente buscando alcançar a solidificação de equilíbrio. Qual a fase do primeiro constituinte precipitado e qual a sua quantidade, respectivamente?",
+   "alts": {
+    "A": "Fase rica em A, 50%",
+    "B": "Fase rica em A, 81,25%",
+    "C": "B puro, 35%",
+    "D": "B puro, 81,25%",
+    "E": "eutético"
+   },
+   "correta": "A"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   36,
+   37,
+   40,
+   43,
+   45,
+   48,
+   49,
+   60,
+   62,
+   63
+  ],
+  "quebradas": [
+   58
+  ]
+ }
+}

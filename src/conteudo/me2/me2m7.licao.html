@@ -1,0 +1,48 @@
+<p><strong>1. Estatística descritiva.</strong> Mediana = valor central com os dados <em>ordenados</em> (n par: média dos dois centrais). Variância populacional divide por n; a <strong>amostral divide por n − 1</strong>. O <strong>coeficiente de variação CV = σ/x̄</strong> é adimensional: só ele compara dispersão entre unidades diferentes, e <strong>menor CV = mais homogêneo</strong>.</p>
+<p><strong>2. Transformações lineares (cai literal).</strong></p>
+<table>
+<thead>
+<tr><th>Operação em todos os dados</th><th>Média</th><th>Desvio padrão</th><th>Variância</th><th>CV</th></tr>
+</thead>
+<tbody>
+<tr><td>Somar a constante c</td><td>μ + c</td><td>σ (não muda)</td><td>σ² (não muda)</td><td>muda</td></tr>
+<tr><td>Multiplicar por k</td><td>k·μ</td><td>|k|·σ</td><td>k²·σ²</td><td>não muda</td></tr>
+</tbody>
+</table>
+<p>Passar reais para <em>milhões</em> divide por 10<sup>6</sup>: o desvio cai 10<sup>6</sup> vezes e a <strong>variância, 10<sup>12</sup></strong>. Deslocar não mexe na dispersão; mudar de escala mexe, e ao quadrado.</p>
+<p><strong>3. Probabilidade.</strong> P(A∪B) = P(A) + P(B) − P(A∩B); independentes: P(A∩B) = P(A)·P(B). O recorte é <strong>árvore de eventos</strong>: num vazamento de gás a chance de incêndio é 1% e, sem incêndio, a de explosão é 1%; logo P(sem incêndio e sem explosão) = 0,99 × 0,99 ≈ <strong>98%</strong>. Multiplique ao longo do ramo, some entre ramos.</p>
+<p><strong>4. Distribuições e confiabilidade.</strong> <strong>Normal</strong>: simétrica, média = mediana = moda, z = (x − μ)/σ, com ≈68%, ≈95% e ≈99,7% dentro de ±1σ, ±2σ e ±3σ — base das cartas de controle. <strong>Poisson</strong>: eventos raros por intervalo, <strong>média = variância = λ</strong>. <strong>Exponencial</strong>: taxa de falha constante, R(t) = e<sup>−λ·t</sup> e <strong>MTBF = 1/λ</strong>.</p>
+<p><strong>5. Gerador × motor: a mesma máquina.</strong></p>
+<table>
+<thead>
+<tr><th></th><th>Gerador</th><th>Motor</th></tr>
+</thead>
+<tbody>
+<tr><td>Conversão</td><td>mecânica → elétrica</td><td>elétrica → mecânica</td></tr>
+<tr><td>Lei</td><td>Faraday−Lenz: e = −N·dΦ/dt</td><td>Laplace: F = B·I·L</td></tr>
+<tr><td>Exige</td><td>movimento relativo condutor/campo</td><td>corrente em condutor dentro do campo</td></tr>
+<tr><td>Conjugado</td><td>resistente</td><td>motor</td></tr>
+</tbody>
+</table>
+<p>No motor CA as três correntes do <strong>estator</strong>, defasadas de 120°, criam o <strong>campo girante</strong> — é assim que o motor de indução parte sem contato elétrico com o rotor.</p>
+<p><strong>6. Velocidade síncrona e escorregamento.</strong> n<sub>s</sub> = 120·f/p, com p = número de <em>polos</em>: em 60 Hz, 2 polos → 3600 e 6 polos → 1200 rpm. O motor de indução gira <em>abaixo</em> da síncrona: <strong>s = (n<sub>s</sub> − n)/n<sub>s</sub></strong>. Com s = 0 não há fem induzida nem conjugado. Receita: MIT 220 V, 6 polos, s = 5%, I = 40 A, cos φ = 0,8, perdas 1.200 W → n = 1140 rpm; P<sub>elét</sub> = √3·220·40·0,8 ≈ 12.190 W; P<sub>mec</sub> ≈ 10.990 W; <strong>T = P<sub>mec</sub>/ω ≈ 92 N·m</strong>.</p>
+<p><strong>7. Os dois casos preferidos da banca.</strong> <em>Motor síncrono</em>: gira em n<sub>s</sub>, sem escorregamento; a <strong>superexcitação</strong> eleva a fem induzida e faz a máquina <strong>fornecer reativos</strong> como um capacitor, corrigindo o fator de potência (curva V). <em>Motor CC shunt sem campo</em>: n ∝ (V − R<sub>a</sub>·I<sub>a</sub>)/Φ e T = k·Φ·I<sub>a</sub>, logo com Φ → 0 <strong>corrente e velocidade disparam</strong> — nunca "trava". Rotor bloqueado drena <strong>6 a 8 × I<sub>n</sub></strong>, e a <strong>estrela-triângulo corta corrente e conjugado de partida a 1/3</strong>. A resistência de aquecimento não protege de sobrecarga: <strong>impede condensação</strong>.</p>
+<p><strong>8. NR-6 — EPI.</strong> EPI é de <em>uso individual</em> e só entra quando a proteção coletiva for inviável, incompleta, estiver em implantação ou em emergência. Hierarquia: <strong>eliminar o risco → proteção coletiva → medida administrativa → EPI</strong>. Nada vale sem <strong>CA (Certificado de Aprovação)</strong>. O empregador fornece <strong>gratuitamente</strong>, exige o uso, treina e substitui o danificado; para o empregado, recusar é ato faltoso.</p>
+<p><strong>9. NR-9 — PPRA (hoje absorvido pelo PGR da NR-1).</strong> Os <strong>riscos ambientais são três: físicos, químicos e biológicos</strong>. Etapas: antecipação e reconhecimento → prioridades e metas → avaliação da exposição → controle → monitoramento → registro, com <strong>avaliação global anual</strong> e dados guardados <strong>20 anos</strong>. <strong>Nível de ação</strong> manda agir abaixo do limite de tolerância: <strong>metade do limite</strong> para químicos e <strong>dose 0,5</strong> para ruído.</p>
+<p><strong>10. NR-12 — máquinas e equipamentos.</strong> Mesma hierarquia: coletivas → administrativas → individuais. <strong>Proteção fixa</strong> só sai com ferramenta; <strong>proteção móvel</strong> exige <strong>intertravamento</strong> — abriu, para; e fechar não pode religar sozinho. <strong>Parada de emergência</strong>: vermelha sobre fundo amarelo, prevalece sobre todos os comandos e <strong>jamais serve de partida</strong>. Manutenção só com máquina parada e <strong>bloqueio de todas as fontes de energia</strong>. Sistemas dimensionados por <strong>categoria (B, 1, 2, 3 e 4)</strong>.</p>
+<p><strong>11. NR-16 (perigosas) × NR-15 (insalubres).</strong></p>
+<table>
+<thead>
+<tr><th></th><th>Periculosidade — NR-16</th><th>Insalubridade — NR-15</th></tr>
+</thead>
+<tbody>
+<tr><td>Adicional</td><td><strong>30%</strong></td><td><strong>40</strong> / <strong>20</strong> / <strong>10%</strong> (máx./méd./mín.)</td></tr>
+<tr><td>Base de cálculo</td><td>salário <strong>base</strong></td><td>salário <strong>mínimo</strong></td></tr>
+<tr><td>Agentes</td><td>inflamáveis, explosivos, eletricidade, radiação ionizante, violência</td><td>ruído, calor, vibração, poeiras, químicos, biológicos</td></tr>
+<tr><td>Critério</td><td>risco acentuado permanente</td><td>passar do limite de tolerância</td></tr>
+</tbody>
+</table>
+<p>Os adicionais <strong>não se acumulam</strong>: com direito aos dois, opta-se pelo mais vantajoso. Ruído contínuo ou intermitente: <strong>85 dB(A) por 8 h</strong> e, a cada <strong>+5 dB</strong>, o tempo cai pela metade (90 → 4 h; 95 → 2 h; 100 → 1 h; 105 → 30 min); acima de <strong>115 dB(A)</strong> sem proteção há <strong>risco grave e iminente</strong>. No meio ambiente, quem fixa normas e padrões de qualidade é o <strong>CONAMA</strong>; o IBAMA fiscaliza.</p>
+<p><strong>Números-chave do módulo:</strong> variância amostral em <strong>n − 1</strong>; escala k → variância <strong>×k²</strong>; normal <strong>68/95/99,7%</strong>; Poisson <strong>média = variância = λ</strong>; <strong>MTBF = 1/λ</strong>; <strong>n<sub>s</sub> = 120·f/p</strong> (60 Hz: 3600/1800/1200/900 rpm); <strong>P<sub>3φ</sub> = √3·V·I·cos φ</strong>; partida direta <strong>6 a 8 × I<sub>n</sub></strong>; estrela-triângulo <strong>1/3</strong>; insalubridade <strong>10/20/40%</strong>; periculosidade <strong>30%</strong>; <strong>85 dB(A)/8 h</strong>; <strong>115 dB(A)</strong> = grave e iminente; nível de ação <strong>50%</strong>; registros <strong>20 anos</strong>.</p>
+<p><strong>Pegadinha clássica:</strong> com dois níveis de ruído na mesma jornada somam-se as <em>doses parciais</em> — <strong>C<sub>1</sub>/T<sub>1</sub> + C<sub>2</sub>/T<sub>2</sub> ≤ 1</strong> —, e a banca escreve (C<sub>1</sub> + C<sub>2</sub>)/(T<sub>1</sub> + T<sub>2</sub>) ≤ 1, outra conta: item errado. As irmãs: dividir os dados por k corta a <strong>variância por k²</strong>, não por k; e riscos ambientais do PPRA são <strong>só físicos, químicos e biológicos</strong> — ergonômicos e de acidentes ficam no mapa de riscos.</p>
+<p><strong>Resumo de véspera:</strong> variância amostral divide por n − 1 e escala k a eleva a k²; menor CV = mais homogêneo; normal 68−95−99,7; MTBF = 1/λ; gerador é Faraday, motor é Laplace; n<sub>s</sub> = 120f/p e o MIT gira abaixo dela; s = 0 não gera conjugado; síncrono superexcitado fornece reativos; CC shunt sem campo dispara, não trava; estrela-triângulo corta a 1/3; EPI só depois da coletiva e sempre com CA; PPRA = físicos, químicos e biológicos; proteção móvel pede intertravamento e emergência nunca dá partida; manutenção só com bloqueio de energia; periculosidade 30% do salário base e insalubridade 10/20/40% do mínimo, sem acumular; 115 dB(A) é risco grave e iminente.</p>

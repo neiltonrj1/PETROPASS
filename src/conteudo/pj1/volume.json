@@ -1,7 +1,7 @@
 {
  "id": "pj1",
- "t": "Engenharia Econômica e Finanças",
- "sub": "Bloco 1 · o núcleo da prova de Análise e Projetos",
+ "t": "Finanças e Contabilidade",
+ "sub": "Bloco 1 · administração financeira e escrituração, como a ênfase 13 cobra",
  "mods": [
   {
    "id": "pj1m1",
@@ -16,17 +16,32 @@
   {
    "id": "pj1m3",
    "n": "Módulo 3",
-   "t": "Fluxo de caixa descontado, custo de capital e avaliação de empresas"
+   "t": "Fluxo de caixa descontado, TMA, WACC e CAPM"
+  },
+  {
+   "id": "pj1m6",
+   "n": "Módulo 4",
+   "t": "Avaliação de empresas: múltiplos de mercado, perpetuidade, DDM e política de dividendos"
   },
   {
    "id": "pj1m4",
-   "n": "Módulo 4",
-   "t": "Estrutura de capital, alavancagem, capital de giro e project finance"
+   "n": "Módulo 5",
+   "t": "Estrutura de capital, alavancagem, risco, retorno e capital de giro"
   },
   {
    "id": "pj1m5",
-   "n": "Módulo 5",
-   "t": "Contabilidade, análise de balanços e custos"
+   "n": "Módulo 6",
+   "t": "Contabilidade geral e análise de balanços"
+  },
+  {
+   "id": "pj1m7",
+   "n": "Módulo 7",
+   "t": "Contabilidade societária: provisões, imobilizado, investimentos e destinação do resultado"
+  },
+  {
+   "id": "pj1m8",
+   "n": "Módulo 8",
+   "t": "Contabilidade gerencial e de custos: custeio, margem de contribuição, custo-padrão, EVA, ROI e orçamento"
   }
  ]
 }

@@ -229,6 +229,34 @@ function montaDados() {
       (semLugar ? ` · ${semLugar} sem prova correspondente` : ''));
   }
 
+  /* Figuras recortadas do caderno original por ferramentas/extrair-figuras.mjs.
+     Vão como ARQUIVO em figuras/, não embutidas: são dezenas de PNGs e o
+     index.html já tem mais de 2 MB. O service worker recebe a lista no
+     precache, então o app continua inteiro offline.                     */
+  const arqFigProvas = path.join(DADOS, 'figuras-provas.json');
+  const usadas = [];
+  if (existe(arqFigProvas)) {
+    const lista = leJson(arqFigProvas);
+    let postas = 0;
+    for (const f of lista) {
+      if (!existe(path.join(RAIZ, 'figuras', f.arquivo))) continue;
+      const p = provas.find(p => p.id === f.prova);
+      if (!p) continue;
+      const q = p.questoes.find(q => q.n === f.n);
+      if (q) { q.figArq = 'figuras/' + f.arquivo; postas++; usadas.push('./figuras/' + f.arquivo); }
+    }
+    if (postas) avisos.push(`${postas} questões receberam a figura recortada do caderno`);
+  }
+  /* O service worker precisa saber das figuras, senão elas não existem
+     offline — e o app é usado no celular, no ônibus, sem sinal.       */
+  const arqSw = path.join(RAIZ, 'sw.js');
+  if (existe(arqSw)) {
+    const base = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+    const sw = le(arqSw).replace(/^const ARQ = \[[^\]]*\];/m,
+      'const ARQ = ' + JSON.stringify([...base, ...usadas]) + ';');
+    fs.writeFileSync(arqSw, sw, 'utf8');
+  }
+
   /* marca as questões que chegaram incompletas, em todos os acervos */
   const contaAviso = {};
   /* questão que já veio com o desenho refeito não precisa de aviso nenhum */

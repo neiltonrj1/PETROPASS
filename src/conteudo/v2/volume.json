@@ -27,6 +27,11 @@
    "id": "v2m5",
    "n": "Módulo 5",
    "t": "Resistência dos materiais essencial (tensão, deformação, Poisson, energia elástica, dimensionamento e vasos de pressão)"
+  },
+  {
+   "id": "v2m6",
+   "n": "Módulo 6",
+   "t": "Fratura, fadiga e fluência: dúctil × frágil, baixo/alto/altíssimo ciclo e mecanismos"
   }
  ]
 }

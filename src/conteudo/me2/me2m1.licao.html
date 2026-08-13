@@ -1,0 +1,128 @@
+<p><strong>1. Solicitações axiais e Lei de Hooke.</strong> Barra tracionada ou comprimida: <strong>σ = N/A</strong> e <strong>ε = ΔL/L</strong>. A Lei de Hooke cai literal, e o enunciado certo é o mais simples: <strong>a tensão é diretamente proporcional à deformação</strong> no regime elástico — <strong>σ = E·ε</strong>. Daí sai <strong>ΔL = N·L/(E·A)</strong>, rigidez axial E·A/L. No cisalhamento vale a gêmea <strong>τ = G·γ</strong>, com <strong>G = E/[2(1+ν)]</strong>. O <strong>coeficiente de Poisson ν = −ε<sub>transversal</sub>/ε<sub>longitudinal</sub></strong> fica entre 0 e 0,5 (metais ≈ 0,3), e a lei generalizada é <strong>ε<sub>x</sub> = [σ<sub>x</sub> − ν(σ<sub>y</sub> + σ<sub>z</sub>)]/E</strong>. Já perguntaram de que outra propriedade, além de E, depende essa relação no <strong>estado plano de tensões</strong>: é <strong>ν</strong>. Guarde também: dois corpos de mesma geometria sob a mesma carga têm a <em>mesma tensão</em>; quem tem E maior deforma <em>menos</em>.</p>
+<p><strong>2. Momento de inércia das figuras planas.</strong> Alimenta flexão, torção e flambagem — decore:</p>
+<table>
+<thead>
+<tr>
+<th>Seção</th>
+<th>I (pelo centroide)</th>
+<th>W = I/c</th>
+<th>J (polar)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Retângulo b × h</strong></td>
+<td>b·h³/12</td>
+<td>b·h²/6</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Retângulo, eixo na base</td>
+<td>b·h³/3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Círculo maciço d</strong></td>
+<td>π·d⁴/64</td>
+<td>π·d³/32</td>
+<td>π·d⁴/32 = 2·I</td>
+</tr>
+<tr>
+<td>Tubo (D e d)</td>
+<td>π(D⁴ − d⁴)/64</td>
+<td>—</td>
+<td>π(D⁴ − d⁴)/32</td>
+</tr>
+<tr>
+<td>Triângulo b × h</td>
+<td>b·h³/36</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Eixos paralelos (Steiner): I = I<sub>cg</sub> + A·d²</strong> — é assim que se monta perfil I, T ou caixão. <strong>Raio de giração i = √(I/A)</strong>.</p>
+<p><strong>3. Diagramas de força cortante e momento fletor.</strong> Duas relações comandam tudo: <strong>dV/dx = −q</strong> e <strong>dM/dx = V</strong>. Daí: carga uniforme dá <strong>V linear e M parabólico</strong>; trecho descarregado dá V constante e M linear; força concentrada dá <strong>salto em V e quina em M</strong>; momento aplicado dá <strong>salto em M</strong>; e <strong>M é máximo onde V passa por zero</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Viga (vão L)</th>
+<th>V máx</th>
+<th>M máx</th>
+<th>Flecha máx</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Biapoiada, P no meio</td>
+<td>P/2</td>
+<td><strong>P·L/4</strong></td>
+<td>P·L³/(48·E·I)</td>
+</tr>
+<tr>
+<td>Biapoiada, q uniforme</td>
+<td>q·L/2</td>
+<td><strong>q·L²/8</strong></td>
+<td>5·q·L⁴/(384·E·I)</td>
+</tr>
+<tr>
+<td>Engastada-livre, P na ponta</td>
+<td>P</td>
+<td><strong>P·L</strong></td>
+<td>P·L³/(3·E·I)</td>
+</tr>
+<tr>
+<td>Engastada-livre, q uniforme</td>
+<td>q·L</td>
+<td><strong>q·L²/2</strong></td>
+<td>q·L⁴/(8·E·I)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>4. Tensões e deformações em vigas.</strong> Flexão: <strong>σ = M·y/I</strong>, com <strong>σ<sub>máx</sub> = M·c/I = M/W</strong> na fibra mais afastada; a linha neutra passa pelo <strong>centroide</strong>. Cisalhamento transversal: <strong>τ = V·Q/(I·b)</strong>, com <strong>τ<sub>máx</sub> = 1,5·V/A</strong> na seção retangular e 4V/(3A) na circular. O ponto favorito da banca: <strong>σ é máxima na fibra extrema (onde τ = 0) e τ é máxima na LINHA NEUTRA (onde σ = 0)</strong>. Linha elástica <strong>E·I·y″ = M(x)</strong>: cada integração sobe um grau, então <strong>engastada-livre com carga uniforme</strong> dá elástica do <strong>4º grau</strong>, e com carga concentrada, do 3º.</p>
+<p><strong>5. Torção.</strong> <strong>τ = T·ρ/J</strong>, com <strong>τ<sub>máx</sub> = 16T/(π·d³)</strong> no eixo maciço, e <strong>φ = T·L/(G·J)</strong>. Potência <strong>P = T·ω</strong>, ω = 2π·n/60. Escala: <strong>τ ∝ 1/d³</strong> e <strong>φ ∝ 1/d⁴</strong> — dobrar o diâmetro divide a tensão por 8 e o giro por 16. Fato decisivo: <strong>torção pura é cisalhamento puro</strong>, o círculo de Mohr fica centrado na origem e <strong>σ<sub>1</sub> = +τ, σ<sub>2</sub> = −τ (σ<sub>1</sub> = −σ<sub>2</sub>)</strong>, em planos a 45°. Por isso o frágil rompe em hélice a 45° (tração) e o dúctil na seção reta.</p>
+<p><strong>6. Estado plano de tensões.</strong> <strong>σ<sub>1,2</sub> = (σ<sub>x</sub>+σ<sub>y</sub>)/2 ± √[((σ<sub>x</sub>−σ<sub>y</sub>)/2)² + τ<sub>xy</sub>²]</strong>. O centro do círculo é (σ<sub>x</sub>+σ<sub>y</sub>)/2 e o raio é o próprio <strong>τ<sub>máx</sub> = (σ<sub>1</sub> − σ<sub>2</sub>)/2</strong>; <strong>σ<sub>x</sub> + σ<sub>y</sub> = σ<sub>1</sub> + σ<sub>2</sub></strong> é invariante. Nos planos principais τ = 0, e os de τ máximo ficam a <strong>45°</strong> deles. <strong>Tresca</strong> (σ<sub>1</sub> − σ<sub>3</sub> ≤ σ<sub>e</sub>) é sempre <strong>mais conservativo</strong> que <strong>von Mises</strong>; coincidem no uniaxial e se afastam ao máximo, cerca de <strong>15,5%</strong>, quando <strong>σ<sub>1</sub> &gt; 0, σ<sub>2</sub> = 0 e σ<sub>3</sub> &lt; 0</strong> — o eixo em torção. Em cisalhamento puro escoam a <strong>0,50·σ<sub>e</sub></strong> e <strong>0,577·σ<sub>e</sub></strong>. Eixo sob flexão + torção: σ = 32M/(π·d³) e τ = 16T/(π·d³).</p>
+<p><strong>7. Flexão estaticamente indeterminada.</strong> Grau de hiperestaticidade = nº de reações − 3 equações de equilíbrio: <strong>apoiada-engastada = 1; biengastada = 3</strong>. Só equilíbrio não fecha — exige uma <strong>equação adicional de compatibilidade, a linha elástica</strong> (a alternativa correta de 2023 saiu com essas palavras). Prontos: apoiada-engastada com q → <strong>R<sub>apoio</sub> = 3qL/8, R<sub>engaste</sub> = 5qL/8, M<sub>engaste</sub> = qL²/8</strong>; biengastada com q → qL²/12 nos engastes e qL²/24 no centro.</p>
+<p><strong>8. Flambagem.</strong> <strong>P<sub>cr</sub> = π²·E·I/L<sub>e</sub>²</strong>, com <strong>L<sub>e</sub> = K·L</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Vinculação</th>
+<th>K</th>
+<th>L<sub>e</sub></th>
+<th>P<sub>cr</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Biarticulada</strong></td>
+<td>1,0</td>
+<td>L</td>
+<td>1×</td>
+</tr>
+<tr>
+<td>Engastada-livre</td>
+<td>2,0</td>
+<td>2L</td>
+<td>0,25×</td>
+</tr>
+<tr>
+<td>Engastada-articulada</td>
+<td>0,7</td>
+<td>0,7L</td>
+<td>≈ 2×</td>
+</tr>
+<tr>
+<td>Biengastada</td>
+<td>0,5</td>
+<td>0,5L</td>
+<td>4×</td>
+</tr>
+</tbody>
+</table>
+<p><strong>σ<sub>cr</sub> = π²·E/λ²</strong>, com <strong>esbeltez λ = L<sub>e</sub>/i</strong>. Euler só vale enquanto σ<sub>cr</sub> ≤ tensão de proporcionalidade, isto é, para <strong>colunas esbeltas</strong>; coluna curta não flamba, escoa.</p>
+<p><strong>9. Medição de deformações com extensômetros.</strong> O extensômetro elétrico mede <strong>deformação, nunca tensão</strong> — a tensão vem depois, pela Lei de Hooke, com E e ν. <strong>GF = (ΔR/R)/ε ≈ 2,0</strong> (constantan). Como ΔR/R é minúsculo (lê-se em <strong>μɛ = 10<sup>−6</sup> m/m</strong>), usa-se <strong>ponte de Wheatstone</strong>: um quarto (1 elemento), meia (2) ou completa (4), que <strong>quadruplica a sensibilidade e compensa temperatura</strong>. O estado plano tem 3 incógnitas (ε<sub>x</sub>, ε<sub>y</sub>, γ<sub>xy</sub>), daí a <strong>roseta de 3 elementos</strong> — retangular (0°/45°/90°) ou delta (0°/60°/120°); na retangular, <strong>γ<sub>xy</sub> = 2ε<sub>45</sub> − (ε<sub>0</sub> + ε<sub>90</sub>)</strong>. Uniaxial σ = E·ε; biaxial σ<sub>x</sub> = E(ε<sub>x</sub> + ν·ε<sub>y</sub>)/(1 − ν²).</p>
+<p><strong>Números-chave do módulo:</strong> E<sub>aço</sub> ≈ <strong>200 GPa</strong>, E<sub>alumínio</sub> ≈ <strong>70 GPa</strong>, G<sub>aço</sub> ≈ <strong>77–80 GPa</strong>, ν ≈ <strong>0,3</strong>; I = <strong>bh³/12</strong>, W = <strong>bh²/6</strong>, J = <strong>πd⁴/32 = 2I</strong>; M<sub>máx</sub> = <strong>PL/4</strong> e <strong>qL²/8</strong>; τ<sub>máx</sub> = <strong>1,5·V/A</strong>; K = <strong>1 / 2 / 0,7 / 0,5</strong>; escoamento em cisalhamento <strong>0,50·σ<sub>e</sub></strong> e <strong>0,577·σ<sub>e</sub></strong>; diferença Tresca–von Mises <strong>15,5%</strong>; GF ≈ <strong>2,0</strong>.</p>
+<p><strong>Pegadinha clássica:</strong> na flambagem, entrar com o <strong>maior</strong> momento de inércia — usa-se sempre o <strong>MENOR I</strong>, pois a coluna flamba no eixo fraco; e P<sub>cr</sub> <strong>não depende da resistência do material</strong>, só de E e da geometria, logo trocar aço comum por aço de alta resistência <strong>não aumenta a carga crítica</strong> (E é o mesmo em todo aço). A segunda: confundir <strong>estado plano de tensões</strong> com estado plano de deformações — com σ<sub>z</sub> = 0, <strong>ε<sub>z</sub> = −ν(σ<sub>x</sub> + σ<sub>y</sub>)/E ≠ 0</strong>. A terceira: pôr o cisalhamento máximo da viga na fibra extrema, quando ele está na <strong>linha neutra</strong>.</p>
+<p><strong>Resumo de véspera:</strong> σ = E·ε e ΔL = NL/EA; Steiner I = I<sub>cg</sub> + A·d²; M é máximo onde V = 0; σ = Mc/I na fibra extrema e τ = VQ/Ib máximo na linha neutra; elástica do 4º grau com carga uniforme e do 3º com concentrada; τ = 16T/πd³ e φ = TL/GJ; torção pura dá σ<sub>1</sub> = −σ<sub>2</sub> a 45°; raio de Mohr = τ<sub>máx</sub> e σ<sub>x</sub>+σ<sub>y</sub> invariante; Tresca é mais conservativo que von Mises; apoiada-engastada é 1 grau hiperestática e exige a linha elástica; P<sub>cr</sub> = π²EI/(KL)² sempre com o menor I; λ = L<sub>e</sub>/i e σ<sub>cr</sub> = π²E/λ²; extensômetro mede deformação, não tensão.</p>

@@ -1,0 +1,78 @@
+<p><strong>1. As duas leis de Kirchhoff e quantas equações você precisa.</strong> <strong>LKC (nós):</strong> a soma algébrica das correntes num nó é zero — conservação de carga. <strong>LKT (malhas):</strong> a soma algébrica das tensões num laço fechado é zero — conservação de energia. O que o candidato esquece é a <strong>contagem de equações independentes</strong>: com <em>n</em> nós e <em>b</em> ramos há <strong>n − 1</strong> equações nodais e <strong>b − n + 1</strong> de malha. Escolha pelo menor número: fontes de corrente em paralelo pedem <strong>análise nodal</strong>; fontes de tensão em série, <strong>análise de malhas</strong>.</p>
+
+<p><strong>2. Associações e divisores.</strong> Série: R<sub>eq</sub> = R₁ + R₂ + … (mesma corrente). Paralelo: 1/R<sub>eq</sub> = 1/R₁ + 1/R₂ + … (mesma tensão); para dois, R₁·R₂/(R₁ + R₂); para <em>n</em> iguais, R/n. <strong>Divisor de tensão:</strong> V₁ = V·R₁/(R₁ + R₂). <strong>Divisor de corrente:</strong> I₁ = I·R₂/(R₁ + R₂) — no numerador vai <strong>o outro</strong> resistor. Em ponte desequilibrada, converta <strong>Δ→Y</strong>: cada resistor da estrela é o produto dos dois adjacentes do Δ sobre a soma dos três; com Δ equilibrado, <strong>R<sub>Δ</sub> = 3·R<sub>Y</sub></strong>.</p>
+
+<p><strong>3. Thévenin × Norton.</strong> Todo bipolo linear vira um destes dois:</p>
+<table>
+<thead>
+<tr><th>Item</th><th>Thévenin</th><th>Norton</th></tr>
+</thead>
+<tbody>
+<tr><td>Modelo</td><td>fonte de tensão <strong>V<sub>Th</sub></strong> em <strong>série</strong> com R<sub>Th</sub></td><td>fonte de corrente <strong>I<sub>N</sub></strong> em <strong>paralelo</strong> com R<sub>N</sub></td></tr>
+<tr><td>Como achar a fonte</td><td>tensão de <strong>circuito aberto</strong> (V<sub>oc</sub>)</td><td>corrente de <strong>curto-circuito</strong> (I<sub>sc</sub>)</td></tr>
+<tr><td>Como achar a resistência</td><td colspan="2"><strong>R<sub>Th</sub> = R<sub>N</sub> = V<sub>oc</sub>/I<sub>sc</sub></strong> — ou vista dos terminais com as fontes independentes zeradas</td></tr>
+<tr><td>Conversão</td><td colspan="2"><strong>V<sub>Th</sub> = R<sub>N</sub>·I<sub>N</sub></strong></td></tr>
+</tbody>
+</table>
+<p>Zerar fonte significa <strong>curtar a de tensão</strong> e <strong>abrir a de corrente</strong>. Com <strong>fonte dependente</strong> você <em>não</em> pode zerá-la: injete 1 V nos terminais e faça R<sub>Th</sub> = V/I, ou use V<sub>oc</sub>/I<sub>sc</sub>. <strong>Superposição</strong> só vale em circuito linear e <strong>nunca para potência</strong>, que é quadrática.</p>
+
+<p><strong>4. Máxima transferência de potência.</strong> Em CC, a carga recebe o máximo quando <strong>R<sub>L</sub> = R<sub>Th</sub></strong>, e aí <strong>P<sub>máx</sub> = V<sub>Th</sub>²/(4·R<sub>Th</sub>)</strong>, com rendimento de apenas <strong>η = 50 %</strong> — metade queima na resistência interna. Por isso casamento é regra em sinal, e proibido em sistema de potência.</p>
+
+<p><strong>5. Capacitor e indutor: as regras de contorno.</strong></p>
+<table>
+<thead>
+<tr><th>Grandeza</th><th>Capacitor</th><th>Indutor</th></tr>
+</thead>
+<tbody>
+<tr><td>Relação</td><td>i = C·dv/dt</td><td>v = L·di/dt</td></tr>
+<tr><td>Não pode saltar</td><td>a <strong>tensão</strong> v<sub>C</sub></td><td>a <strong>corrente</strong> i<sub>L</sub></td></tr>
+<tr><td>Energia armazenada</td><td>W = ½·C·V²</td><td>W = ½·L·I²</td></tr>
+<tr><td>t = 0<sup>+</sup> sem energia prévia</td><td><strong>curto-circuito</strong></td><td><strong>circuito aberto</strong></td></tr>
+<tr><td>Regime CC (t → ∞)</td><td><strong>circuito aberto</strong></td><td><strong>curto-circuito</strong></td></tr>
+<tr><td>Em série</td><td>soma dos inversos</td><td>soma direta</td></tr>
+<tr><td>Em paralelo</td><td>soma direta</td><td>soma dos inversos</td></tr>
+</tbody>
+</table>
+<p><strong>Continuidade</strong> entrega as condições iniciais: v<sub>C</sub>(0<sup>+</sup>) = v<sub>C</sub>(0<sup>−</sup>) e i<sub>L</sub>(0<sup>+</sup>) = i<sub>L</sub>(0<sup>−</sup>). Todo o resto — corrente do capacitor, tensão do indutor, corrente nos resistores — <strong>pode</strong> saltar.</p>
+
+<p><strong>6. Primeira ordem: uma fórmula só.</strong> Qualquer RC ou RL chaveado em fonte CC obedece a</p>
+<p><strong>x(t) = x(∞) + [x(0<sup>+</sup>) − x(∞)] · e<sup>−t/τ</sup></strong>,</p>
+<p>com <strong>τ = R<sub>Th</sub>·C</strong> (RC) ou <strong>τ = L/R<sub>Th</sub></strong> (RL), sendo R<sub>Th</sub> a resistência vista <strong>pelos terminais do elemento reativo</strong> — é aqui que Thévenin entra no transitório. Receita: x(0<sup>+</sup>) pela continuidade, x(∞) pelo regime CC (C aberto, L curto), τ pelo Thévenin. Três números e acabou.</p>
+<table>
+<thead>
+<tr><th>Tempo</th><th>Fração do salto já cumprida</th><th>O que falta</th></tr>
+</thead>
+<tbody>
+<tr><td>1τ</td><td><strong>63,2 %</strong></td><td>36,8 % (e<sup>−1</sup> = 0,368)</td></tr>
+<tr><td>2τ</td><td>86,5 %</td><td>13,5 %</td></tr>
+<tr><td>3τ</td><td>95,0 %</td><td>5,0 %</td></tr>
+<tr><td>4τ</td><td>98,2 %</td><td>1,8 %</td></tr>
+<tr><td>5τ</td><td><strong>99,3 %</strong></td><td>0,7 % — regime permanente</td></tr>
+</tbody>
+</table>
+
+<p><strong>7. Funções singulares e os tipos de resposta.</strong> Rampa <em>r</em>(t) = t·u(t), degrau <em>u</em>(t) e impulso δ(t) formam uma cadeia de derivadas: <strong>δ(t) = du/dt</strong> e <strong>u(t) = dr/dt</strong>. O impulso tem <strong>área unitária</strong> e a <strong>propriedade da amostragem</strong>: ∫ f(t)·δ(t − t₀) dt = f(t₀). Nomenclatura que cai literal:</p>
+<ul>
+<li><strong>Resposta livre</strong> (natural, ou <em>à entrada nula</em>): fontes desligadas, só a energia armazenada em C ou L descarregando — exponencial pura, e<sup>−t/τ</sup>.</li>
+<li><strong>Resposta forçada</strong>: a parcela imposta pela fonte; em CC, o valor de regime x(∞). Condições iniciais nulas ⇒ <em>resposta ao estado nulo</em>.</li>
+<li><strong>Resposta ao degrau</strong> = completa = livre + forçada = transitória + permanente.</li>
+<li><strong>Resposta ao impulso h(t)</strong> = <strong>derivada da resposta ao degrau</strong>. Fisicamente, o impulso só carrega o elemento instantaneamente e some; o que se vê depois é resposta livre.</li>
+</ul>
+
+<p><strong>8. Segunda ordem (RLC).</strong> A equação é d²x/dt² + 2α·dx/dt + ω₀²·x = f(t), com <strong>ω₀ = 1/√(LC)</strong> nos dois arranjos:</p>
+<table>
+<thead>
+<tr><th>Circuito</th><th>Coeficiente de amortecimento α</th><th>Amortecimento crítico</th><th>Aumentar R…</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>RLC série</strong></td><td>α = R/(2L)</td><td>R = 2·√(L/C)</td><td><strong>aumenta</strong> o amortecimento</td></tr>
+<tr><td><strong>RLC paralelo</strong></td><td>α = 1/(2RC)</td><td>R = ½·√(L/C)</td><td><strong>diminui</strong> o amortecimento</td></tr>
+</tbody>
+</table>
+<p>Compare α com ω₀ (ou ζ = α/ω₀ com 1): <strong>α &gt; ω₀ superamortecido</strong> — duas raízes reais distintas, sem oscilação; <strong>α = ω₀ criticamente amortecido</strong> — raiz real dupla, o retorno <strong>mais rápido sem oscilar</strong>; <strong>α &lt; ω₀ subamortecido</strong> — raízes complexas s = −α ± j·ω<sub>d</sub>, com <strong>ω<sub>d</sub> = √(ω₀² − α²)</strong>, oscilando sob envoltória e<sup>−αt</sup> e com sobressinal; <strong>α = 0</strong> — oscilação permanente em ω₀.</p>
+
+<p><strong>Números-chave do módulo:</strong> e<sup>−1</sup> = <strong>0,368</strong>, logo <strong>63,2 %</strong> em 1τ e <strong>99,3 %</strong> em 5τ; <strong>τ = RC</strong> e <strong>τ = L/R</strong>; W<sub>C</sub> = <strong>½CV²</strong> e W<sub>L</sub> = <strong>½LI²</strong>; <strong>ω₀ = 1/√(LC)</strong>; α = <strong>R/2L</strong> (série) e <strong>1/2RC</strong> (paralelo); R crítico do série = <strong>2√(L/C)</strong>; máxima potência com <strong>R<sub>L</sub> = R<sub>Th</sub></strong>, <strong>P<sub>máx</sub> = V<sub>Th</sub>²/4R<sub>Th</sub></strong> e <strong>η = 50 %</strong>; <strong>n − 1</strong> equações nodais e <strong>b − n + 1</strong> de malha; <strong>R<sub>Δ</sub> = 3R<sub>Y</sub></strong>.</p>
+
+<p><strong>Pegadinha clássica:</strong> a banca desenha um RC com dois ou três resistores esperando que você faça τ = R·C com o resistor em série com a fonte. Errado — τ usa a <strong>resistência de Thévenin vista pelos terminais do capacitor</strong>, com as fontes independentes zeradas; por isso carga e descarga do mesmo circuito costumam ter τ diferentes. A segunda armadilha é t = 0<sup>+</sup>: capacitor descarregado é <strong>curto</strong> e indutor sem corrente prévia é <strong>aberto</strong> — quem inverte isso erra todas as condições iniciais e ainda acha a alternativa pronta na lista. A terceira é usar α = R/2L num RLC <strong>paralelo</strong>: é o distrator plantado.</p>
+
+<p><strong>Resumo de véspera:</strong> LKC nos nós e LKT nas malhas, com n − 1 e b − n + 1 equações independentes; Thévenin e Norton têm a mesma resistência, e R<sub>Th</sub> = V<sub>oc</sub>/I<sub>sc</sub> resolve até com fonte dependente; zerar fonte de tensão é curtar, de corrente é abrir; superposição não vale para potência; máxima potência com R<sub>L</sub> = R<sub>Th</sub> e η = 50 %; v<sub>C</sub> e i<sub>L</sub> não saltam; em regime CC o capacitor abre e o indutor curta; x(t) = x(∞) + [x(0<sup>+</sup>) − x(∞)]e<sup>−t/τ</sup> resolve todo primeira ordem; τ = RC ou L/R sempre com a resistência de Thévenin; 1τ cumpre 63,2 % e 5τ encerra o transitório; δ é a derivada do degrau e h(t) é a derivada da resposta ao degrau; resposta completa é livre mais forçada; compare α com ω₀ para classificar o RLC; ω<sub>d</sub> = √(ω₀² − α²).</p>

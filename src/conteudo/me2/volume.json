@@ -1,0 +1,42 @@
+{
+ "id": "me2",
+ "t": "Sólidos, Materiais e Fabricação",
+ "sub": "Resistência dos materiais, elementos de máquinas, vibrações, materiais, corrosão e fabricação",
+ "mods": [
+  {
+   "id": "me2m1",
+   "n": "Módulo 1",
+   "t": "Resistência dos materiais: solicitações, flexão, torção e flambagem"
+  },
+  {
+   "id": "me2m2",
+   "n": "Módulo 2",
+   "t": "Elementos de máquinas: eixos, engrenagens, mancais e fadiga"
+  },
+  {
+   "id": "me2m3",
+   "n": "Módulo 3",
+   "t": "Dinâmica e vibrações mecânicas"
+  },
+  {
+   "id": "me2m4",
+   "n": "Módulo 4",
+   "t": "Metalurgia e seleção de materiais"
+  },
+  {
+   "id": "me2m5",
+   "n": "Módulo 5",
+   "t": "Corrosão química e eletroquímica e proteção anticorrosiva"
+  },
+  {
+   "id": "me2m6",
+   "n": "Módulo 6",
+   "t": "Processos de fabricação e soldagem"
+  },
+  {
+   "id": "me2m7",
+   "n": "Módulo 7",
+   "t": "Estatística, eletrotécnica e segurança do trabalho"
+  }
+ ]
+}

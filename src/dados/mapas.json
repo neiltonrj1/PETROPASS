@@ -4201,5 +4201,400 @@
     "c": "Empresa **ambidestra** faz **incremental e radical ao mesmo tempo** — uma mão melhora o que vende hoje, a outra aposta no que vai vender amanhã. Não é escopo, não é plataforma, não é segmento de mercado: é sempre as duas inovações juntas."
    }
   ]
+ },
+ "me1m1": {
+  "centro": "Estado, gás perfeito e as duas leis",
+  "nota": "abre o volume térmico e sustenta todos os ciclos · caiu literal em 2015 e 2023",
+  "ramos": [
+   {
+    "t": "Estado, propriedade e caminho",
+    "cor": "acento",
+    "itens": [
+     "**Propriedade** só depende do estado — P, T, v, u, h, s · **Q e W dependem do caminho**",
+     "Nada de calor contido no sistema: Q e W são **funções de linha**, diferencial inexata",
+     "Em **ciclo**, toda propriedade fecha em **zero** — ΔU = 0 e **Δs = 0**, mesmo irreversível",
+     "**W = ∫P dV** = **área sob a curva no P×V** · outro caminho, outro trabalho",
+     "**Intensiva** independe da massa (P, T, v, ρ) · **extensiva** depende (V, U, H, S, m)",
+     "**Postulado de estado**: duas intensivas independentes fixam a substância pura"
+    ]
+   },
+   {
+    "t": "1ª lei: fechado e volume de controle",
+    "cor": "acento",
+    "itens": [
+     "Fechado: **Q − W = ΔU + ΔE_c + ΔE_p** · Q **entra** positivo, W **sai** positivo",
+     "Sistema **estacionário** ⇒ a energia total varia **só na energia interna**",
+     "Ciclo: ΔU = 0 ⇒ **W_líq = Q_H − Q_L** — é assim que se acha o calor omitido",
+     "VC permanente: **Q̇ − Ẇ = ṁ·[Δh + ΔV²/2 + gΔz]** · **ṁ = ρAV** igual na entrada e na saída",
+     "**Turbina/compressor/bomba**: Q̇ ≈ 0 ⇒ **Ẇ = ṁ(h_e − h_s)** · trocador: **Q̇ = ṁ(h_s − h_e)**",
+     "**Válvula**: Ẇ = Q̇ = 0 ⇒ **h_s = h_e** (isentálpica) · **bocal**: Δh = **−ΔV²/2**"
+    ]
+   },
+   {
+    "t": "Gás perfeito e os quatro processos",
+    "cor": "ok",
+    "itens": [
+     "**PV = mRT** com **P absoluta** e **T em kelvin** · dois estados: **P₁V₁/T₁ = P₂V₂/T₂**",
+     "**Δu = c_v·ΔT** e **Δh = c_p·ΔT** em **qualquer** processo · **c_p − c_v = R** · k = c_p/c_v",
+     "**Isobárica** (n=0): W = PΔV, Q = ΔH · **Isocórica** (n=∞): **W = 0**, Q = ΔU",
+     "**Isotérmica** (n=1): ΔU = 0 ⇒ **Q = W** · W = P₁V₁·ln(V₂/V₁)",
+     "**Isentrópica** (n=k): Q = 0 · W = m·c_v(T₁−T₂) · **T₂/T₁ = (P₂/P₁)^((k−1)/k)**",
+     "Todos são o politrópico **PV^n = cte** · dado em pressão usa **(k−1)/k**; em volume, **(k−1)**"
+    ]
+   },
+   {
+    "t": "2ª lei, Carnot e COP",
+    "cor": "ok",
+    "itens": [
+     "**Kelvin-Planck**: ninguém gera trabalho com **uma só fonte** ⇒ **η < 100%** e fonte fria obrigatória",
+     "**Clausius**: calor não sobe do frio para o quente **sem trabalho**",
+     "**η = W_líq/Q_H = 1 − Q_L/Q_H** · teto: **η_Carnot = 1 − T_L/T_H**, em **kelvin**",
+     "Toda máquina **reversível** entre as mesmas fontes rende **igual**, seja qual for o fluido",
+     "**COP_refrig = T_L/(T_H − T_L)** · **COP_bomba = COP_refrig + 1** · COP > 1 não viola nada",
+     "**ΔS_universo ≥ 0** · **isentrópico = adiabático + reversível**; adiabático real tem Δs > 0"
+    ]
+   },
+   {
+    "t": "Os números do módulo",
+    "cor": "info",
+    "itens": [
+     "R̄ = **8,314 kJ/kmol·K** · R_ar = **0,287 kJ/kg·K** — a banca arredonda para **0,3**",
+     "c_p,ar ≈ **1,005** · c_v,ar ≈ **0,718 kJ/kg·K** · **k_ar = 1,4** · monoatômico ≈ **1,67**",
+     "**T(K) = °C + 273** · **P_abs = P_man + P_atm**, com P_atm = **100 kPa** nas provas",
+     "Pneu a volume fixo, 550 kPa abs, 300 K → 330 K: **605 kPa abs = 505 manométricos**",
+     "Carnot entre 552 °C e 57 °C: 1 − **330/825** = **60%**",
+     "Turbina de **7,64 MW** com Δh = 764,18 kJ/kg ⇒ ṁ = **10 kg/s**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Somar o **mesmo ΔT** nas duas fontes: η de Carnot **cai** — o que melhora é **afastar** as fontes",
+     "**P manométrica** dentro de PV = mRT, ou **°C** no lugar de kelvin no Carnot",
+     "Em ciclo **irreversível** o Δs do fluido também é **zero** — quem cresce é o do **universo**",
+     "Amarrar **Δu = c_v·ΔT** ao isocórico: vale em **todo** processo de gás perfeito",
+     "Inverter a turbina — é **Ẇ = ṁ(h_e − h_s)**, entrada menos saída, com h_e > h_s",
+     "Achar que **COP > 1** viola a 2ª lei: a bomba **transporta** calor, não o cria"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Absoluta e Kelvin",
+    "c": "Antes de escrever **PV = mRT** ou **η = 1 − T_L/T_H**, confira as duas: **P absoluta** (soma os 100 kPa na manométrica) e **T em kelvin** (soma 273). O valor de quem esqueceu está sempre pronto numa alternativa."
+   },
+   {
+    "t": "0 · 1 · k · ∞",
+    "c": "Os expoentes do politrópico **PV^n** na ordem iso**bárica**, iso**térmica**, iso**entrópica**, iso**córica**: **n = 0, 1, k, ∞**. Nas pontas estão os dois trabalhos fáceis: **n = 0 ⇒ W = PΔV** e **n = ∞ ⇒ W = 0**."
+   },
+   {
+    "t": "Entra menos sai",
+    "c": "Quem produz trabalho: **Ẇ = ṁ(h_e − h_s)**, entrada menos saída. Quem só troca calor inverte: **Q̇ = ṁ(h_s − h_e)**. **Válvula não mexe em h** (h_s = h_e) e **bocal troca h por velocidade** (Δh = −ΔV²/2)."
+   },
+   {
+    "t": "Afaste as fontes",
+    "c": "η de Carnot só sobe se a **razão T_L/T_H** cair. Somar o mesmo ΔT em cima e embaixo **empurra a razão para 1** e o rendimento **cai** — a máquina mais fria embaixo e mais quente em cima é sempre a melhor."
+   },
+   {
+    "t": "Bomba é geladeira + 1",
+    "c": "**COP_bomba = COP_refrig + 1**, porque a bomba entrega Q_H = Q_L + W e a geladeira só conta Q_L. Entre 24 °C e −8 °C (297 K e 265 K, ΔT = 32): refrigerador **265/32 ≈ 8,3**, bomba **297/32 ≈ 9,3**."
+   }
+  ]
+ },
+ "me2m5": {
+  "centro": "Corrosão e proteção anticorrosiva",
+  "nota": "Aeração diferencial, efeito de área e revestimento riscado são as armadilhas de sempre",
+  "ramos": [
+   {
+    "t": "Química × eletroquímica",
+    "cor": "acento",
+    "itens": [
+     "**Química (seca)** · sem eletrólito · alta temperatura · oxidação e sulfetação",
+     "**Eletroquímica (úmida)** · tem eletrólito · pilha ânodo-cátodo · temperatura ambiente",
+     "Na seca o elétron fica **no próprio ponto**; na úmida **vai do ânodo ao cátodo**",
+     "Carepa protetora ⇒ crescimento **parabólico** (x² = k·t) · filme inútil ⇒ **linear**",
+     "Galvânica, pite, fresta e sensitização: todas **eletroquímicas** — é quase toda a prova"
+    ]
+   },
+   {
+    "t": "A pilha e quem corrói",
+    "cor": "ok",
+    "itens": [
+     "Precisa dos quatro: **ânodo, cátodo, eletrólito e contato elétrico**",
+     "**Ânodo oxida e corrói** · **cátodo reduz e fica protegido**",
+     "Corrói o de potencial de redução **mais negativo** (mais ativo, menos nobre)",
+     "Do ativo ao nobre: **Mg → Al → Zn → Fe → H → Cu → Ag → Au**",
+     "**Cu e Ag aceleram** o ferro · **Zn e Mg salvam** o ferro",
+     "Faraday: **m = M·I·t/(n·F)** · **F = 96500 C/mol**"
+    ]
+   },
+   {
+    "t": "As formas que caem",
+    "cor": "acento",
+    "itens": [
+     "**Pite** · furo localizado por **Cl⁻** · menos cloreto e oxidante · **Mo** na liga",
+     "**Fresta** · aeração diferencial · ataca a zona **pobre em O₂** · flange, chapas",
+     "**Intergranular** · contorno do inox soldado · aço **L**, Ti/Nb, solubilização",
+     "**Seletiva** · dezincificação do latão · grafitização do ferro fundido",
+     "**CST** · trinca **ramificada** = tração + meio específico · aliviar tensão",
+     "**Erosão/cavitação** · o fluxo arranca o filme · baixar velocidade"
+    ]
+   },
+   {
+    "t": "Proteção que funciona",
+    "cor": "ok",
+    "itens": [
+     "**Sacrifício** · Zn, Al, Mg · sem fonte · exige **imersão e contato elétrico**",
+     "**Corrente impressa** · retificador **CC** · dutos longos e solo resistivo",
+     "Alvo: região de **imunidade** · aço enterrado a **−0,85 V** vs Cu/CuSO₄",
+     "**Revestimento anódico** (Zn) protege riscado · **catódico** (Sn) só íntegro",
+     "**Proteção anódica** só em material passivável (inox, Ti), via potenciostato",
+     "Inibidores anódicos (cromato, nitrito) · catódicos (polifosfato) · adsorção (aminas)"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Aeração diferencial corrói onde há MENOS O₂** · o lado aerado é o cátodo",
+     "Contra pite se **reduz** cloreto e oxidante · mandar aumentar oxidante é distrator",
+     "**Ânodo pequeno + cátodo grande = pior caso** · parafuso de aço em chapa de cobre",
+     "Galvânica **não tem fonte**; impressa usa retificador **CC**, nunca alternada",
+     "**Zinco riscado ainda protege · estanho riscado piora**",
+     "Ânodo de sacrifício isolado ou fora d'água **não protege nada**"
+    ]
+   },
+   {
+    "t": "Números que caem",
+    "cor": "info",
+    "itens": [
+     "Sensitização **425–815 °C** · M₂₃C₆ no contorno · solubilizar a ~**1050 °C**",
+     "Cr mínimo do inox **10,5%** · aço **L** com C ≤ **0,03%** · 321/347 com Ti/Nb",
+     "**PREN = %Cr + 3,3·%Mo + 16·%N** · superduplex **≥ 40**",
+     "**PBR entre 1 e 2** = filme protetor (Al, Cr, Ni) · abaixo de 1, poroso (Mg)",
+     "**2% de Cr** corta a oxidação de aço baixa liga de **300 a 550 °C**",
+     "E° (V): Zn **−0,76** · Fe **−0,44** · H **0,00** · Cu **+0,34** · Ag **+0,80**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Dois eletrodos, um caldo e um fio",
+    "c": "A pilha precisa de **ânodo + cátodo** (os eletrodos), **eletrólito** (o caldo) e **contato elétrico** (o fio). Toda proteção é tirar um dos quatro: junta dielétrica corta o fio, drenagem seca o caldo, pintura isola os eletrodos."
+   },
+   {
+    "t": "Corrói onde o ar não chega",
+    "c": "**Aeração diferencial ataca a região com MENOS O₂** — fundo de fresta, centro da pilha de chapas, face oculta do flange. A parte bem aerada vira **cátodo** e sai ilesa. A intuição diz o contrário, e a banca vive disso."
+   },
+   {
+    "t": "Riscou: zinco salva, estanho mata",
+    "c": "Galvanização é revestimento **anódico** — o Zn segue se sacrificando pelo aço mesmo com o risco. Folha de flandres é **catódico** — riscou, o aço vira **ânodo pequeno sob cátodo grande** e fura rápido."
+   },
+   {
+    "t": "425 a 815, o corredor da solda",
+    "c": "É a faixa que a **ZTA atravessa**: precipita **M₂₃C₆** no contorno, o Cr da vizinhança cai abaixo dos **10,5%** que passivam e o contorno vira ânodo. Saída: **L** (C ≤ 0,03%), **Ti/Nb** ou solubilizar a ~**1050 °C** — a única forma que tratamento térmico reverte."
+   },
+   {
+    "t": "PREN: 1 · 3,3 · 16",
+    "c": "Os pesos de **Cr, Mo e N** contra pite. O **nitrogênio vale 16**, dezesseis vezes o cromo — por isso pouca coisa de N muda tudo. Superduplex só entra no clube com **PREN ≥ 40**."
+   }
+  ]
+ },
+ "me1m2": {
+  "centro": "Ciclos de potência e refrigeração",
+  "nota": "o coração térmico da prova de Mecânica — e quase tudo aqui vira conta",
+  "ramos": [
+   {
+    "t": "O balanço de todo ciclo",
+    "cor": "acento",
+    "itens": [
+     "**w_líq = q_H − q_L** · **η = w_líq/q_H = 1 − q_L/q_H**",
+     "Escondeu o calor da câmara? Monte por trás: **q_H = w_líq + q_L**",
+     "Trabalho por kg = **Δh** · potência **Ẇ = ṁ·Δh** — é daí que sai a vazão mássica",
+     "**Carnot** η = 1 − T_L/T_H · só em **kelvin** · é o teto de qualquer ciclo real",
+     "Subir as duas fontes o mesmo ΔT **reduz** o η (T_L/T_H se aproxima de 1)"
+    ]
+   },
+   {
+    "t": "Os quatro ciclos, lado a lado",
+    "cor": "acento",
+    "itens": [
+     "**Rankine** · P constante **com mudança de fase** · vapor · combustão **externa**",
+     "**Brayton** · P constante, gás · **η = 1 − 1/r_p^((k−1)/k)** · turbina a gás",
+     "**Otto** · calor a **V constante** · **η = 1 − 1/r^(k−1)** · ignição por centelha",
+     "**Diesel** · calor a **P constante** · só ele tem **razão de corte r_c** · por compressão",
+     "A igual r o **Otto** rende mais; na prática o **Diesel** vence — comprime **só ar**",
+     "Todos melhoram com **mais compressão** · r = **V_PMI/V_PMS** · k = c_p/c_v = **1,4** no ar"
+    ]
+   },
+   {
+    "t": "Rankine: os quatro equipamentos",
+    "cor": "ok",
+    "itens": [
+     "**Bomba** (v·ΔP) → **caldeira** (q_H) → **turbina** (w_t) → **condensador** (q_L)",
+     "Líquido é barato de bombear: bomba **< 5%** da turbina · **w_turb = w_líq + w_bomba**",
+     "Ganha η: **mais P e T na caldeira** · **vácuo no condensador** · **superaquecer**",
+     "Porte maior: **reaquecimento** e **regeneração** (extrai vapor e pré-aquece a água)",
+     "O preço é vapor **mais úmido** na descarga — segure o título em **x ≥ 0,90**"
+    ]
+   },
+   {
+    "t": "Brayton: o compressor come o lucro",
+    "cor": "info",
+    "itens": [
+     "Compressor → câmara de combustão → turbina · calor a **P constante**, gás",
+     "**Razão de trabalho reversa**: o compressor consome **40% a 60%** da turbina",
+     "**Regenerador** (o escape pré-aquece o ar) · só compensa em **r_p baixa**",
+     "**Ciclo combinado**: o escape roda uma caldeira de recuperação e um **Rankine**",
+     "Filtro sujo ou ar de admissão quente ⇒ **menos massa aspirada** ⇒ menos potência"
+    ]
+   },
+   {
+    "t": "Refrigeração: o ciclo ao contrário",
+    "cor": "ok",
+    "itens": [
+     "Bomba vira **compressor** · turbina vira **válvula de expansão**",
+     "A válvula é um estrangulamento **isentálpico**: h₃ = h₄, sem trabalho",
+     "**COP_R = q_L/w_c** · **COP_BC = q_H/w_c = COP_R + 1**",
+     "Teto de Carnot **COP_R = T_L/(T_H − T_L)** · aqui não se fala em eficiência",
+     "Variantes: **absorção** (calor no lugar de trabalho) · **Brayton reverso** (a ar)"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Compressor no lugar da bomba** no Rankine: do condensador sai **líquido**, e líquido se bombeia",
+     "η isentrópico: **turbina = real/ideal** · **bomba e compressor = ideal/real**",
+     "Otto e Diesel são **combustão interna** — quem queima fora é o **Rankine**",
+     "**Intercooler e reaquecimento sozinhos baixam** o η do Brayton · só valem com regenerador",
+     "Na **mesma** taxa de compressão quem rende mais é o **Otto** — nunca o Diesel",
+     "Carnot com temperatura em **°C** · e melhoria que **reduz** o η isentrópico da turbina"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Otto estoura, Diesel empurra",
+    "c": "No **Otto** a centelha queima tudo de uma vez com o pistão parado no topo ⇒ calor a **volume constante**. No **Diesel** o combustível entra enquanto o pistão já desce ⇒ calor a **pressão constante** — e é por isso que só ele carrega a **razão de corte r_c** na fórmula."
+   },
+   {
+    "t": "Mesma r, o Otto ganha; na vida real, o Diesel",
+    "c": "As duas frases são verdadeiras e a banca troca uma pela outra. **Na mesma taxa de compressão o Otto rende mais**, sempre. Só que ele comprime **mistura** e bate pino, parando em r ≈ **8–12**; o Diesel comprime **só ar** e chega a **12–24**. Conta de bolso: **V_deslocado/V_câmara = r − 1**."
+   },
+   {
+    "t": "Bomba é barata, compressor é caro",
+    "c": "Comprimir **líquido** custa quase nada: a bomba do Rankine fica **abaixo de 5%** da turbina. Comprimir **gás** custa caro: o compressor do Brayton come **40% a 60%** — é a **razão de trabalho reversa**. Guardada essa diferença, a alternativa que manda **trocar a bomba por um compressor** se denuncia sozinha."
+   },
+   {
+    "t": "COP não é rendimento",
+    "c": "**COP_BC = COP_R + 1**, sempre — a bomba de calor entrega o calor tirado da fonte fria **mais** o trabalho do compressor. Por isso COP maior que 1 é o normal, e não uma máquina de 300% de eficiência: o calor é **movido**, não criado."
+   },
+   {
+    "t": "O ideal vai onde deixa η ≤ 1",
+    "c": "Na **turbina** o trabalho real é menor que o ideal ⇒ η = **w_real/w_ideal**. Na **bomba e no compressor** o real é maior ⇒ η = **w_ideal/w_real**. Não decore os dois: ponha o ideal no lugar que faz a conta dar **no máximo 1**."
+   }
+  ]
+ },
+ "me1m3": {
+  "centro": "Mecânica dos fluidos",
+  "nota": "Perda de carga e Bernoulli são o eixo · o “sempre” das perdas localizadas já caiu literal",
+  "ramos": [
+   {
+    "t": "Fluido e hidrostática",
+    "cor": "acento",
+    "itens": [
+     "Fluido **deforma continuamente** sob qualquer cisalhamento — sólido deforma e para",
+     "**τ = μ·dv/dy** · newtoniano = μ constante = **reta pela origem** em τ × dv/dy",
+     "**ν = μ/ρ** · dinâmica **μ em Pa·s** · cinemática **ν em m²/s** · líquido é incompressível",
+     "Stevin **p = p₀ + γh** · só a **altura de coluna** conta, não o formato nem o volume",
+     "Manômetro em U: **soma γh ao descer, subtrai ao subir** · **p_abs = p_atm + p_man**",
+     "**F = γ·h_CG·A** no centro de pressão, **abaixo do CG** · **E = γ·V_deslocado**"
+    ]
+   },
+   {
+    "t": "Continuidade e Bernoulli",
+    "cor": "ok",
+    "itens": [
+     "**ṁ = ρ·A·V** constante em permanente · incompressível vira **Q = A·V**",
+     "Navier-Stokes **sem o termo viscoso = Euler** · integrado na linha = **Bernoulli**",
+     "**p/γ + V²/2g + z = cte** — cargas de pressão, cinética e de posição, em **metros**",
+     "Hipóteses: **permanente · incompressível · sem atrito · sem máquina · mesma linha**",
+     "Com máquina ou atrito: **+H_bomba** de um lado · **+H_turbina + h_f** do outro",
+     "Torricelli **V = √(2gh)** · Venturi e orifício medem vazão pelo **Δp** da garganta"
+    ]
+   },
+   {
+    "t": "Perda de carga",
+    "cor": "ok",
+    "itens": [
+     "Distribuída: **Darcy-Weisbach · h_f = f·(L/D)·V²/2g**",
+     "**f** sai do Moody, função de **Re e ε/D** · no laminar **f = 64/Re**, sem rugosidade",
+     "Laminar **h_f ∝ V** · turbulento rugoso **h_f ∝ V²**, com f só de ε/D",
+     "Localizadas (curva, válvula, redução): **h_L = K·V²/2g** ou comprimento equivalente",
+     "Vazão fixa: **h_f ∝ 1/D⁵** — dobrar o diâmetro divide a perda por **32**",
+     "A perda **cresce com a idade** do tubo: incrustação e corrosão sobem ε e comem o D"
+    ]
+   },
+   {
+    "t": "Regime, Re e semelhança",
+    "cor": "info",
+    "itens": [
+     "**Re < 2000 laminar** · 2000–4000 transição · **Re > 4000 turbulento** (D interno)",
+     "Laminar: perfil parabólico e **V_máx = 2·V_média** · turbulento: perfil achatado",
+     "**Re = ρVD/μ = VD/ν** · seção não circular usa **D_h = 4A/P_molhado**",
+     "**Fr = V/√(gL)** superfície livre · **Ma = V/c** compressível · **Eu** cavitação · **We** gotas",
+     "Buckingham: **n − m grupos** (M, L, t) · esfera 5 − 3 = 2 ⇒ **C_D = f(Re)**",
+     "Semelhança nesta ordem: **geométrica → cinemática → dinâmica**"
+    ]
+   },
+   {
+    "t": "Bocais e números de cabeça",
+    "cor": "info",
+    "itens": [
+     "Compressível só acima de **Ma ≈ 0,3** · **c = √(k·R·T)** · ar: k = 1,4 e R = 287",
+     "**Subsônico** acelera estreitando · **supersônico** acelera **alargando** — inverte",
+     "Convergente trava em **Ma = 1** na saída · supersônico exige **de Laval**",
+     "Bloqueado: a **vazão mássica trava** · ar **p*/p₀ = 0,528** e T*/T₀ = 0,833",
+     "ρ_água **1000 kg/m³** · γ_água ≈ **10.000 N/m³** · γ_Hg **136.000** (d = 13,6)",
+     "ν_água ≈ **10⁻⁶ m²/s** · 1 atm = **101,3 kPa = 760 mmHg ≈ 10,33 mca**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "“As localizadas são **sempre** menores que as distribuídas” é **falso** — caiu assim",
+     "Deu **ν (m²/s)**? Re = V·D/ν, sem ρ · deu **μ (Pa·s)**? Re = ρ·V·D/μ",
+     "**Cavitação** = bolha por **queda de pressão a T constante**; ebulição é o contrário",
+     "**Q = A·V** só incompressível — em gás mantenha o ρ, com ρ = p/(R·T)",
+     "Centro de pressão fica **abaixo do CG**, nunca nele · parede vertical: **2h/3 do topo**",
+     "Ordenar por peso: compare **γ·V** — volume grande **não é** peso grande"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Os quatro “sem” de Bernoulli",
+    "c": "**Sem** atrito, **sem** máquina, **sem** compressão (incompressível) e **sem** sair da linha de corrente — tudo em regime **permanente**. Faltou um “sem”? Vá para a forma estendida: **H_bomba** de um lado, **H_turbina + h_f** do outro."
+   },
+   {
+    "t": "Cinemática não tem massa",
+    "c": "A **cinemática ν** é m²/s — não tem kg na unidade, então **não entra ρ**: **Re = V·D/ν**. A **dinâmica μ** é Pa·s, tem massa, então **precisa de ρ**: **Re = ρ·V·D/μ**. Olhe a unidade que o enunciado deu antes de escolher a fórmula — e lembre que **ν = μ/ρ**."
+   },
+   {
+    "t": "Dobrou o diâmetro, dividiu por 32",
+    "c": "A vazão fixa, **h_f ∝ 1/D⁵**, e 2⁵ = **32**. Por isso tubo maior derruba a perda muito mais rápido que qualquer outro ajuste — e por isso a perda **sobe** ao longo da vida da linha, quando incrustação e corrosão comem o diâmetro útil."
+   },
+   {
+    "t": "No laminar, o 2 manda",
+    "c": "Limite **2000**, **V_máx = 2·V_média** e **f = 64/Re** (64 = 2⁶, e a **rugosidade não entra**). Passou de **4000** é turbulento: perfil achatado e f do Moody com **ε/D**. Entre 2000 e 4000, transição."
+   },
+   {
+    "t": "Convergente para no 1",
+    "c": "Bocal **convergente** acelera até **Ma = 1** na saída e **bloqueia**: a vazão mássica trava e baixar mais a pressão a jusante não muda nada. Para passar de 1, só **de Laval** — Ma = 1 na garganta e é a parte **divergente** que acelera. No ar, **p*/p₀ = 0,528**."
+   }
+  ]
  }
 }

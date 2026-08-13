@@ -115,8 +115,7 @@ function questaoHTML(fonte, q, mod, pos, total){
       ${respondida ? `<span class="qz-sel ${acertou?'ok':'nao'}">${acertou?'✔ acertou':'✘ errou'}</span>` : ''}
     </header>
     <div class="enun">${q.htm ? q.q : esc(q.q)}</div>
-    ${q.fig ? `<figure class="qz-fig">${q.fig}${q.figLegenda
-      ? `<figcaption>${q.htm ? q.figLegenda : esc(q.figLegenda)}</figcaption>` : ''}</figure>` : ''}`;
+    ${figuraDaQuestao(q)}`;
 
   /* rascunho e dicas só antes de responder — depois viram ruído */
   if(!respondida){
@@ -212,6 +211,19 @@ function questaoHTML(fonte, q, mod, pos, total){
     </div></div>`;
   }
   return h + `</article>`;
+}
+
+/* A figura da questão vem de dois lugares: `figArq` é o recorte do caderno
+   original, servido como arquivo em figuras/ (é a maioria, e é assim que
+   o desenho fica idêntico ao da prova); `fig` é um SVG desenhado à mão,
+   inline. O arquivo tem prioridade — é a fonte fiel.                   */
+function figuraDaQuestao(q){
+  const legenda = q.figLegenda
+    ? `<figcaption>${q.htm ? q.figLegenda : esc(q.figLegenda)}</figcaption>` : '';
+  if(q.figArq) return `<figure class="qz-fig">
+    <img src="${esc(q.figArq)}" alt="Figura da questão ${q.n}" loading="lazy">${legenda}</figure>`;
+  if(q.fig) return `<figure class="qz-fig">${q.fig}${legenda}</figure>`;
+  return '';
 }
 
 /* Aviso de questão que chegou incompleta do caderno. Ela continua na tela

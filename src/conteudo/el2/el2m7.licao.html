@@ -1,0 +1,62 @@
+<p><strong>1. Dimensionamento de condutores: quatro critérios.</strong> Calcule por todos e fique com a <strong>maior</strong> seção. Em BT são três; em MT/AT entra o <strong>nível de isolamento</strong> (8,7/15 kV, 12/20 kV, 15/25 kV, 20/35 kV) — e o cabo ganha camadas semicondutoras e <strong>blindagem metálica aterrada</strong>, que uniformiza o campo elétrico.</p>
+<ul>
+<li><strong>Ampacidade:</strong> I<sub>Z</sub> de tabela corrigido pelos fatores de <strong>temperatura</strong> e <strong>agrupamento</strong>, que multiplicam e <strong>reduzem</strong> a capacidade.</li>
+<li><strong>Queda de tensão:</strong> ΔV ≈ √3 · I · L · (R·cos φ + X·sen φ). Em BT o R domina; em MT/AT a <strong>reatância</strong> pesa igual. Circuito longo → é este que manda.</li>
+<li><strong>Solicitação térmica de curto:</strong> S = I<sub>cc</sub> · √t ÷ K, com K ≈ <strong>115</strong> (cobre/PVC), <strong>143</strong> (cobre/EPR-XLPE), <strong>76</strong> (alumínio/PVC), <strong>94</strong> (alumínio/EPR). O <em>t</em> é o tempo de eliminação da falta: <strong>proteção mais rápida permite cabo menor</strong>.</li>
+<li><strong>Condutor de proteção:</strong> fase ≤ 16 mm² → PE igual à fase; 16 &lt; S ≤ 35 → PE = 16 mm²; S &gt; 35 → PE = <strong>metade</strong> da fase.</li>
+</ul>
+
+<p><strong>2. Resistividade do solo e eletrodos.</strong> Medição padrão: <strong>método de Wenner</strong> — quatro hastes alinhadas e igualmente espaçadas de <em>a</em>, corrente nas externas, tensão nas internas, <strong>ρ = 2π·a·R</strong>; o valor vale até a profundidade ≈ <em>a</em>, e é variando <em>a</em> que se estratifica o solo. Haste vertical: <strong>R = (ρ ÷ 2πL) · [ln(4L/d) − 1]</strong> — o <strong>comprimento</strong> derruba a resistência, o diâmetro quase nada. Padrão: <strong>5/8" × 2,4 m</strong>. Em paralelo, exija espaçamento <strong>≥ o comprimento</strong> da haste; senão R<sub>eq</sub> &gt; R/n.</p>
+
+<p><strong>3. Malha de terra de subestação.</strong> Reticulado de <strong>cabo de cobre nu enterrado</strong> com hastes na periferia. Resistência: <strong>R = (ρ ÷ 4)·√(π/A) + ρ ÷ L</strong>, com <em>A</em> = área e <em>L</em> = comprimento de condutor. Na falta o solo sobe de potencial: <strong>GPR = R<sub>malha</sub> · I<sub>malha</sub></strong>. O projeto não persegue ohms, persegue tensões:</p>
+<table>
+<thead>
+<tr><th>Tensão</th><th>Onde aparece</th><th>Limite (corpo 1000 Ω)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>De passo</strong></td><td>entre os pés, a <strong>1 m</strong> (série ⇒ 6ρ<sub>s</sub>)</td><td>(1000 + 6·C<sub>s</sub>·ρ<sub>s</sub>) · k ÷ √t</td></tr>
+<tr><td><strong>De toque</strong></td><td>mão na estrutura, pés a 1 m (paralelo ⇒ 1,5ρ<sub>s</sub>)</td><td>(1000 + 1,5·C<sub>s</sub>·ρ<sub>s</sub>) · k ÷ √t</td></tr>
+<tr><td><strong>De malha</strong></td><td>maior toque real, no centro da malha de canto</td><td>≤ toque admissível</td></tr>
+<tr><td><strong>Transferida</strong></td><td>levada para fora por cerca ou tubulação</td><td>a pior: chega ao <strong>GPR inteiro</strong></td></tr>
+</tbody>
+</table>
+<p>Constante <strong>k = 0,116</strong> (corpo de 50 kg) e <strong>0,157</strong> (70 kg). A <strong>brita (0,10 a 0,15 m)</strong> tem ρ alta e é o jeito barato de <em>elevar</em> os limites admissíveis; C<sub>s</sub> é seu fator de redução.</p>
+
+<p><strong>4. Arranjos de barramento.</strong> No unifilar, cada saída traz na ordem: seccionador de barra, disjuntor, TCs, seccionador de linha com lâmina de terra e para-raios.</p>
+<table>
+<thead>
+<tr><th>Arranjo</th><th>Disjuntores/circuito</th><th>Característica decisiva</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Barra simples</strong></td><td>1</td><td>mais barato e menos confiável: falta na barra desliga tudo</td></tr>
+<tr><td><strong>Principal e transferência</strong></td><td>1 (+1)</td><td>manutenção de disjuntor <strong>sem desligar o circuito</strong></td></tr>
+<tr><td><strong>Barra dupla, disjuntor simples</strong></td><td>1</td><td>flexibilidade: divide a SE em dois grupos</td></tr>
+<tr><td><strong>Disjuntor e meio</strong></td><td><strong>1,5</strong></td><td>3 disjuntores para 2 circuitos; padrão em extra-alta tensão</td></tr>
+<tr><td><strong>Barra dupla, disjuntor duplo</strong></td><td>2</td><td>confiabilidade máxima, custo máximo</td></tr>
+<tr><td><strong>Em anel</strong></td><td>1</td><td>bom fechado; com o anel aberto, vulnerável</td></tr>
+</tbody>
+</table>
+
+<p><strong>5. Equipamentos de manobra em alta tensão.</strong> O <strong>disjuntor</strong> é o único que interrompe curto-circuito; extinção em <strong>SF<sub>6</sub></strong> (AT) e <strong>vácuo</strong> (MT). Especificado por tensão e corrente nominais, <strong>capacidade de interrupção simétrica e assimétrica</strong>, fechamento sobre falta e tempo de eliminação. O <strong>seccionador</strong> abre <em>sem carga</em>, dá <strong>isolação visível</strong> e vem intertravado com a <strong>lâmina de terra</strong>. O <strong>para-raios de ZnO</strong> fica fase-terra e <strong>o mais perto possível</strong> do equipamento: a distância gera sobretensão por reflexão de onda.</p>
+
+<p><strong>6. Sistemas auxiliares.</strong> Além do serviço auxiliar <strong>CA</strong>, há o crítico: comando, proteção, sinalização e bobinas de abertura vivem em <strong>corrente contínua</strong> (usualmente <strong>125 V CC</strong>), com <strong>banco de baterias em flutuação</strong> e carregador. O disjuntor precisa abrir <strong>mesmo com a subestação sem tensão CA</strong>.</p>
+
+<p><strong>7. SPDA (NBR 5419).</strong> Três subsistemas — <strong>captação, descidas e aterramento</strong> — interligados à equipotencialização. Três métodos para posicionar captores: <strong>Franklin</strong> (ângulo, que diminui com a altura), <strong>Faraday</strong> (malha, cobertura plana) e <strong>eletrogeométrico</strong> (esfera rolante).</p>
+<table>
+<thead>
+<tr><th>Classe</th><th>Esfera rolante</th><th>Malha de captação</th><th>Descidas</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>I</strong></td><td>20 m</td><td>5 × 5 m</td><td>10 m</td></tr>
+<tr><td><strong>II</strong></td><td>30 m</td><td>10 × 10 m</td><td>10 m</td></tr>
+<tr><td><strong>III</strong></td><td>45 m</td><td>15 × 15 m</td><td>15 m</td></tr>
+<tr><td><strong>IV</strong></td><td>60 m</td><td>20 × 20 m</td><td>20 m</td></tr>
+</tbody>
+</table>
+<p>Classe I é a mais exigente. Descidas simétricas e pelo caminho mais curto, com <strong>anéis horizontais</strong>. Aterramento em arranjo <strong>A</strong> (radial/vertical) ou <strong>B</strong> (anel, preferencial), valor <strong>recomendado ≤ 10 Ω</strong>; as <strong>armaduras das fundações</strong> são o eletrodo preferencial e o SPDA <strong>compartilha</strong> o aterramento da instalação. Contra efeitos indiretos, os <strong>DPS</strong>: classe I com onda <strong>10/350 μs</strong> na entrada, classe II com <strong>8/20 μs</strong> nos quadros.</p>
+
+<p><strong>Números-chave do módulo:</strong> K = <strong>115 / 143 / 76 / 94</strong>; PE = metade da fase acima de 35 mm²; <strong>ρ = 2π·a·R</strong>; haste <strong>5/8" × 2,4 m</strong>; corpo <strong>1000 Ω</strong>, k = <strong>0,116</strong> e <strong>0,157</strong>; passo <strong>6ρ<sub>s</sub></strong>, toque <strong>1,5ρ<sub>s</sub></strong>; brita <strong>0,10–0,15 m</strong>; disjuntor e meio = <strong>1,5</strong>/circuito; esfera rolante <strong>20/30/45/60 m</strong>; malha SPDA <strong>5/10/15/20 m</strong>; SPDA <strong>≤ 10 Ω</strong>; DPS <strong>10/350</strong> e <strong>8/20 μs</strong>; auxiliar <strong>125 V CC</strong>.</p>
+
+<p><strong>Pegadinha clássica:</strong> a alternativa que diz que <strong>baixar a resistência da malha garante segurança</strong>. Não garante — quem mata é a <strong>tensão de toque e de passo</strong>: uma malha de 1 Ω pode reprovar e uma de 10 Ω pode aprovar, porque o que vale é a <em>distribuição</em> de potencial na superfície; e quem reduz R é a <strong>área</strong>, não a bitola. Duas irmãs: o <strong>SPDA não protege eletrônica</strong> (isso é DPS) e <strong>aterramentos separados</strong> são proibidos.</p>
+
+<p><strong>Resumo de véspera:</strong> maior seção entre ampacidade, queda de tensão, curto e isolamento; S = I<sub>cc</sub>√t/K; Wenner ρ = 2πaR; haste ganha por comprimento, não por diâmetro; R da malha cai com a área, não com a bitola; GPR = R·I; passo 6ρ<sub>s</sub> e toque 1,5ρ<sub>s</sub>; brita eleva o limite admissível sem mexer no GPR; barra simples é frágil e disjuntor e meio é o padrão de EAT; só disjuntor interrompe curto, seccionador só abre sem carga; para-raios colado no equipamento; comando em 125 V CC; SPDA = captação, descida e aterramento, classes I a IV com esfera de 20, 30, 45 e 60 m; aterramento único, sempre.</p>

@@ -1,0 +1,373 @@
+{
+ "id": "mec-2012",
+ "trilha": "mecanica",
+ "ano": 2012,
+ "nome": "Profissional Jr — Engenharia Mecânica",
+ "processo": "Petrobras PSP RH 1/2011 (prova em 05/02/2012)",
+ "caderno": "3.pdf",
+ "folhaGabarito": "33.pdf",
+ "total": 26,
+ "questoes": [
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2012, Q26",
+   "q": "Uma estrutura é constituída de uma barra rígida, (2), apoiada sobre duas colunas, (1) e (3). Considere que a dimensão a seja inferior à dimensão b. A condição de equilíbrio estático da estrutura estabelece que a força compressiva atuante na coluna",
+   "alts": {
+    "A": "1 será inferior à da coluna 3 se a área A 1 for inferior à área A 2.",
+    "B": "1 será igual à da coluna 3 se as áreas das colunas forem idênticas.",
+    "C": "1 será igual à da coluna 3 se a relação entre as áreas for tal que.",
+    "D": "3 será inferior à da coluna 1.",
+    "E": "3 será superior à da coluna 1 independentemente da relação de áreas."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2012, Q28",
+   "q": "Se a velocidade angular da manivela é ω, a velocidade do pistão será",
+   "alts": {
+    "A": "ωR",
+    "B": "ωR cos θ",
+    "C": "ωR sen θ",
+    "D": "ωR/cos θ",
+    "E": "ωR/sen θ"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2012, Q29",
+   "q": "Se uma força F for aplicada ao pistão, o torque transmitido pela manivela será igual a",
+   "alts": {
+    "A": "FR",
+    "B": "FR cos θ",
+    "C": "FR sen θ",
+    "D": "FR/cos θ",
+    "E": "FR/sen θ"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2012, Q30",
+   "q": "Um sistema massa -mola de um grau de liberdade é posto a vibrar a partir da imposição de uma condição inicial de deslocamento. O aumento da frequência natural de vibração desse sistema em 20% é conseguido se a rigidez da mola for",
+   "alts": {
+    "A": "aumentada de 20%",
+    "B": "aumentada de 44%",
+    "C": "diminuída de 20%",
+    "D": "diminuída de 21%",
+    "E": "diminuída de 44%"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2012, Q31",
+   "q": "Se, no circuito primário de um transformador ideal, for desenvolvida uma potência de 100 W, e a tensão no ramo secundário for de 5 V, a corrente no secundário, em A, será de",
+   "alts": {
+    "A": "4",
+    "B": "10",
+    "C": "20",
+    "D": "100",
+    "E": "500 Utilize as informações a seguir para responder às questões de n os 32 e 33. A viga biapoiada mostrada na figura juntamente com sua seção transversal está sujeita à ação de uma força concentrada F atuante no meio de seu vão."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2012, Q34",
+   "q": "Dois corpos de prova, (1) e (2), de materiais distintos (E 1 ≠ E 2) e geometrias idênticas (A 1 = A 2 e L 1 = L 2), são submetidos a um ensaio de tração no regime elástico até uma carga F. Sendo E 1 > E 2, a",
+   "alts": {
+    "A": "deformação axial do corpo 1 será inferior à do corpo 2.",
+    "B": "deformação axial do corpo 1 será igual à do corpo 2.",
+    "C": "deformação transversal do corpo 1 será superior à do corpo 2.",
+    "D": "tensão atuante no corpo 1 será superior à atuante no corpo 2.",
+    "E": "tensão atuante no corpo 1 será inferior à atuante no corpo 2."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2012, Q35",
+   "q": "O estado plano de tensões ocorrente em um ponto da superfície de um eixo sujeito a torção pura é tal que suas tensões principais são σ 1 e σ 2. A relação entre essas tensões é",
+   "alts": {
+    "A": "σ 1 = σ 2",
+    "B": "σ 1 = −σ 2",
+    "C": "σ 1 = 2 σ 2",
+    "D": "σ 2 = −2 σ 1",
+    "E": "σ 1 = σ 2"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2012, Q38",
+   "q": "Uma mola helicoidal cilíndrica de compressão tem 6 espiras ativas, índice de mola igual a 7, com fio de diâmetro igual a 14 mm, e é feita com material cujo módulo de rigidez à torção é igual a 42 GPa. O diâmetro médio de espira, em mm, e a constante de rigidez, em N/mm, são, respectivamente,",
+   "alts": {
+    "A": "42 e 453,7",
+    "B": "84 e 35,7",
+    "C": "84 e 56,7",
+    "D": "98 e 35,7",
+    "E": "98 e 56,7"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2012, Q39",
+   "q": "Um redutor de velocidade permite até cinco diferentes reduções usando engrenagens cilíndricas de dentes retos. Os eixos das engrenagens movidas e motoras são paralelos, cilíndricos e de mesmo diâmetro, apoiados em rolamentos somente nas extremidades. No eixo de entrada, as engrenagens giram solidárias ao mesmo, enquanto que as engrenagens do eixo de saída podem deslizar sobre estrias. O torque de entrada é constante e somente é possível uma redução atuar por vez. Com respeito à estrutura descrita, analise as diretrizes abaixo. I - O par de engrenagens de maior transmissão de torque deve ficar na extremidade do eixo, para reduzir sua flexão. II - O par de engrenagens de maior transmissão de velocidade deve ficar na extremidade do eixo, para reduzir sua flexão. III - A velocidade crítica do eixo de saída deve ser maior do que a maior velocidade de saída. Estão corretas as afirmações",
+   "alts": {
+    "A": "I, apenas",
+    "B": "II, apenas",
+    "C": "III, apenas",
+    "D": "I e III, apenas",
+    "E": "I, II e III"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2012, Q40",
+   "q": "A ficha de manutenção de um equipamento informa O tempo médio entre falhas (TMEF) em horas, o tempo médio para reparos (TMPR) em horas, e a taxa de falhas, λ, são, respectivamente,",
+   "alts": {
+    "A": "174,75, 9,5 e 2,94x10 −3",
+    "B": "340, 9,5 e 1,05x10 −3",
+    "C": "340, 9,5 e 2,94x10 −3",
+    "D": "2040, 57 e 1,75x10 −2",
+    "E": "2040, 57 e 9,73x10 −2"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2012, Q41",
+   "q": "O número de Sommerfeld é definido pela equação, que relaciona cinco parâmetros. Se, mantidos os demais parâmetros, a razão de folga radial passa a ser 90% de seu valor original, o novo valor do número característico do mancal é",
+   "alts": {
+    "A": "de 0,8S a 0,9S",
+    "B": "de 0,9S a 1,0S",
+    "C": "o mesmo",
+    "D": "de S a 1,1S",
+    "E": "de 1,1S a 1,2S"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2012, Q42",
+   "q": "Um mancal é lubrificado com óleo cuja classificação SAE é 10W30. A 10 °C e 140 °C, respectivamente, o óleo SAE 10W30 apresenta viscosidade próxima aos óleos de graus",
+   "alts": {
+    "A": "20 e 10",
+    "B": "10 e 20",
+    "C": "10 e 30",
+    "D": "20 e 30",
+    "E": "30 e 10 Período 1 2 3 4 5 6 T – Tempo de funcionamento (horas) 320 370 300 390 350 310 t – Tempo de reparo (horas) 8 8 12 5 9 15"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2012, Q44",
+   "q": "O licenciamento ambiental das atividades de aquisição de dados sísmicos marítimos e em zonas de transição deve obedecer a seis etapas. Em uma delas, há o enquadramento das atividades pelo Ibama, considerando três classes, sendo necessária a elaboração dos seguintes documentos: plano de controle ambiental de sísmica – PCAS, estudo ambiental de sísmica – EAS, relatório de impacto ambiental de sísmica – RIAS e Licença de Pesquisa Sísmica – LPS. O conceito correto do PCAS é:",
+   "alts": {
+    "A": "documento elaborado pelo empreendedor que prevê as medidas de controle ambiental da atividade de aquisição de dados sísmicos.",
+    "B": "documento elaborado pelo empreendedor que apresenta a avaliação dos impactos ambientais não significativos da atividade de aquisição de dados sísmicos nos ecossistemas marinho e costeiro.",
+    "C": "documento elaborado pelo empreendedor em linguagem acessível aos interessados, demonstrando as consequências ambientais da implementação das atividades de aquisição de dados sísmicos.",
+    "D": "ato administrativo pelo qual o Ibama autoriza e estabelece condições, restrições e medidas de controle ambiental que devem ser seguidas pelo empreendedor para a realização das atividades de aquisição de dados sísmicos.",
+    "E": "reunião pública com o intuito de explanar aos interessados sobre a atividade de aquisição de dados sísmicos, visando a dirimir dúvidas e a recolher críticas e sugestões a respeito."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2012, Q47",
+   "q": "Os procedimentos para o licenciamento ambiental de atividades de Exploração e Produção Marítima de Petróleo estão regulamentados pelas Resoluções do Conama. As licenças referentes a esse licenciamento ambiental são",
+   "alts": {
+    "A": "Prévia para Perfuração e Prévia de Produção para Pesquisa, somente",
+    "B": "Prévia para Perfuração e de Instalação, somente",
+    "C": "Prévia para Perfuração, de Operação e de Pesquisa Sísmica, somente",
+    "D": "Prévia para Perfuração, Prévia de Produção para Pesquisa e de Pesquisa Sísmica, somente",
+    "E": "Prévia para Perfuração, Prévia de Produção para Pesquisa, de Instalação, de Operação e de Pesquisa Sísmica"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2012, Q48",
+   "q": "As etapas a serem realizadas para a adequada execução indireta de uma obra pública dentro da Fase Interna da Licitação são",
+   "alts": {
+    "A": "Contrato, Fiscalização da Obra, Recebimento da Obra",
+    "B": "Operação e Manutenção",
+    "C": "Projeto Básico, Projeto Executivo, Recursos Orçamentários, Edital de Licitação",
+    "D": "Programa de Necessidades, Estudos de Viabilidade, Anteprojeto",
+    "E": "Publicação do Edital de Licitação, Comissão de Licitação, Recebimento de Propostas, Procedimento da Licitação Estoque Q1 Tempo d 1 d 4 d 7 d 10 Q2 Q3"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2012, Q50",
+   "q": "Quanto à identificação do produto, os custos podem ser classificados como custos",
+   "alts": {
+    "A": "fixos, variáveis e semivariáveis",
+    "B": "fixos, indiretos locais e indiretos empresariais",
+    "C": "fixos, diretos locais e diretos variáveis",
+    "D": "diretos e indiretos",
+    "E": "diretos locais e diretos empresariais"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2012, Q51",
+   "q": "Dada a tabela, o custo unitário de produção de um litro de óleo composto pela mistura de três fluidos em R$ é",
+   "alts": {
+    "A": "141,70",
+    "B": "176,50",
+    "C": "197,00",
+    "D": "209,30",
+    "E": "370,3 Início X = 0 Para i de 1 a 5 Faça Início X = X + i**2; Se X > 10 Então Início Faça X = X – i**3; Fim Fim Escreva “X = ” X Discriminação Coef. Unid. Material (R$) Mão de Obra (R$) Fluido 1 0,70 Litros 4,00 Fluido 2 1,20 Litros 6,00 Fluido 3 1,80 Litros 10,00 Misturador 2 Horas 6,5 Operador 6 Horas 20,00 Encargos Sociais 130,0 %"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2012, Q54",
+   "q": "O adimensional que fornece uma medida da transferência de calor por convecção, que ocorre em uma superfície, e que corresponde ao gradiente de temperatura adimensional na superfície, é o número de",
+   "alts": {
+    "A": "Nusselt",
+    "B": "Prandtl",
+    "C": "Grashof",
+    "D": "Rayleigh",
+    "E": "Reynolds"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2012, Q55",
+   "q": "Um gás ideal escoa em regime permanente na tubulação ilustrada acima. Na seção 1, P 1 = 500 kPa e T 1 = 300 K. Na seção 2, P 2 = 100 kPa, T 2 = 200 K, e a velocidade média do fluido, V 2, é de 400 m/s. Considerando que o diâmetro interno da tubulação é de 80 mm e que as distribuições de temperatura e pressão são uniformes em todas as seções transversais do tubo, a velocidade média do fluido na seção 1, em m/s, é",
+   "alts": {
+    "A": "46",
+    "B": "63",
+    "C": "80",
+    "D": "120",
+    "E": "250"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2012, Q57",
+   "q": "As bombas de deslocamento não positivo ou dinâmicas são usadas nas instalações hidráulicas para o transporte de fluidos. Um exemplo dessa bomba é",
+   "alts": {
+    "A": "centrífuga helicoidal",
+    "B": "de engrenagens",
+    "C": "de palhetas",
+    "D": "de diafragma",
+    "E": "de pistão radial"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2012, Q58",
+   "q": "Um condensador que opera em regime permanente é alimentado com 1,5 kg/s de um fluido refrigerante a P 1, T 1 = 40 o C e h 1 = 300 kJ/kg. Na saída, o fluido é descarregado a P 2, T 2 = 12 o C e h 2 = 60 kJ/kg. A taxa de transferência de calor, em módulo, associada a esse fluido, em kW, vale",
+   "alts": {
+    "A": "28",
+    "B": "160",
+    "C": "240",
+    "D": "360",
+    "E": "540"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2012, Q60",
+   "q": "Um compressor que opera em regime estacionário admite R-134a a P 1, T 1 e h 1 = 400 kJ/kg. Na saída do compressor, o fluido é descarregado a P 2, T 2 e h 2 = 450 kJ/kg. A potência de acionamento do equipamento é de 200 kW. Sabendo que o compressor é refrigerado a água e que a taxa de transferência de calor para a água é de 40 kW, a vazão de R-134a no compressor, em kg/s, vale",
+   "alts": {
+    "A": "0,2",
+    "B": "0,3",
+    "C": "3,2",
+    "D": "4,8",
+    "E": "5,6 Considere o enunciado a seguir para responder às questões de n os 61 e 62. Um conjunto cilindro-pistão sem atrito contém 3 kg de uma substância pura. A pressão, o volume específico e a energia interna da substância no estado inicial são iguais a 200 kPa, 0,2 m 3 /kg e 1.010 kJ/kg. Transfere-se calor à substância em um processo à pressão constante até que ela atinja um estado final, em que o volume específico e a energia interna são iguais a 1,0 m 3 /kg e 2.600 kJ/kg."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2012, Q63",
+   "q": "Para determinar a variação de carga, potência e rendimento em função da variação da vazão, o fabricante de bombas hidráulicas deverá manter constantes as grandezas neutras ou auxiliares. As curvas levantadas representarão a resposta da bomba para esse conjunto de grandezas. Tais grandezas neutras ou auxiliares, mantidas constantes, usualmente apresentadas nos catálogos dos fabricantes, são",
+   "alts": {
+    "A": "o tamanho da bomba, a rotação e o fluido utilizado",
+    "B": "o tamanho da bomba, a pressão e a temperatura máxima do fluido",
+    "C": "a potência da bomba, a rotação e a temperatura máxima do fluido",
+    "D": "a potência da bomba, a pressão e a temperatura máxima do fluido",
+    "E": "a potência da bomba, a pressão e o fluido utilizado"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2012, Q64",
+   "q": "Que tipo de ensaio não destrutivo tem por objetivo a detecção de defeitos ou descontinuidades internas, os quais estão presentes nos mais variados tipos ou formas de materiais ferrosos ou não ferrosos?",
+   "alts": {
+    "A": "Fadiga",
+    "B": "Visual",
+    "C": "Ultrassom",
+    "D": "Partículas magnéticas",
+    "E": "Líquidos penetrantes"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2012, Q69",
+   "q": "Em um Laboratório de Ensaios Mecânicos, deve-se ensaiar um material cerâmico de alta dureza. Os ensaios disponíveis são o de Flexão e o de Dobramento. Qual dos dois seria o mais recomendável?",
+   "alts": {
+    "A": "Dobramento, devido à alta dureza do material.",
+    "B": "Dobramento, para avaliar a tenacidade do material.",
+    "C": "Flexão, devido à alta dureza do material.",
+    "D": "Nenhum dos dois seria recomendado, porque o material possui alta dureza.",
+    "E": "É indiferente, pois ambos darão o mesmo resultado."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2012, Q70",
+   "q": "Em torneamento retilíneo, o processo no qual a ferramenta se desloca segundo uma trajetória retilínea radial ou axial, visando à obtenção de uma forma definida, denomina-se",
+   "alts": {
+    "A": "aplainamento",
+    "B": "perfilamento",
+    "C": "torneamento cilíndrico",
+    "D": "torneamento cônico",
+    "E": "torneamento radial"
+   },
+   "correta": "B"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   27,
+   33,
+   36,
+   43,
+   46,
+   53,
+   56
+  ],
+  "quebradas": [
+   32,
+   45,
+   49,
+   61,
+   62,
+   65,
+   66,
+   67,
+   68
+  ]
+ }
+}

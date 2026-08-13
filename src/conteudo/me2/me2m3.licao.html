@@ -1,0 +1,41 @@
+<p><strong>1. Dinâmica da partícula.</strong> Três métodos: <strong>Newton (ΣF = m·a)</strong> para força ou aceleração num instante; <strong>trabalho–energia (T<sub>1</sub> + U<sub>12</sub> = T<sub>2</sub>)</strong> para ligar velocidade a posição sem citar tempo; <strong>impulso–quantidade de movimento (m·v<sub>1</sub> + ∫F·dt = m·v<sub>2</sub>)</strong> quando entra tempo ou choque. Em coordenadas normal–tangenciais, a<sub>t</sub> = dv/dt muda o <em>módulo</em> da velocidade e a<sub>n</sub> = v²/ρ muda a <em>direção</em>: em curva a velocidade constante, a<sub>t</sub> = 0 e ainda há força resultante <strong>perpendicular à trajetória</strong>, F = m·v²/R (1000 kg, 10 m/s, R = 40 m ⇒ 2500 N). Em choque, a quantidade de movimento se conserva sem força externa impulsiva; a energia cinética, só se e = 1.</p>
+
+<p><strong>2. Sistemas de partículas e corpos rígidos.</strong> ΣF<sub>ext</sub> = m·a<sub>G</sub> vale para qualquer sistema: as forças internas se cancelam aos pares. O corpo rígido acrescenta ΣM<sub>G</sub> = I<sub>G</sub>·α e T = ½·m·v<sub>G</sub>² + ½·I<sub>G</sub>·ω². Inércias cobradas: barra pelo centro m·L²/12, pela extremidade m·L²/3, disco ½·m·R², aro m·R², com Steiner I = I<sub>G</sub> + m·d². Rolando sem escorregar, v<sub>G</sub> = ω·R e o contato é o <strong>centro instantâneo de rotação</strong>. Em mecanismos vale a velocidade relativa v<sub>B</sub> = v<sub>A</sub> + ω × r<sub>B/A</sub>. Corpo rígido livre no espaço: <strong>6 GDL</strong>.</p>
+
+<p><strong>3. Um grau de liberdade, sem amortecimento.</strong> De m·x'' + k·x = 0: <strong>ω<sub>n</sub> = √(k/m)</strong> [rad/s], <strong>f<sub>n</sub> = ω<sub>n</sub>/2π</strong> [Hz]. Com a <strong>deflexão estática</strong> δ<sub>st</sub> = m·g/k, use <strong>ω<sub>n</sub> = √(g/δ<sub>st</sub>)</strong>: motor de 400 N afundando 2,5 cm no coxim dá k = 16 kN/m, ω<sub>n</sub> = 20 rad/s e f<sub>n</sub> = 10/π Hz. Molas em <strong>paralelo somam k</strong>, em <strong>série somam 1/k</strong>; torcional √(k<sub>t</sub>/J); pêndulo √(g/L), sem massa. Como ω<sub>n</sub> ∝ √k, subir ω<sub>n</sub> em 20% exige <strong>+44%</strong> em k (1,2² = 1,44) e quadruplicar a massa corta ω<sub>n</sub> pela metade; com k = d⁴·G/(8·D³·N), esses +44% saem dividindo N por 1,44 (14,4 espiras viram 10).</p>
+
+<p><strong>4. Amortecimento.</strong> Em m·x'' + c·x' + k·x = 0, o crítico é c<sub>c</sub> = 2·√(k·m) = 2·m·ω<sub>n</sub> e o fator é ζ = c/c<sub>c</sub>.</p>
+<table>
+<thead>
+<tr><th>ζ</th><th>Regime</th><th>Comportamento</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0</strong></td><td>Não amortecido</td><td>oscila para sempre em ω<sub>n</sub>, amplitude constante</td></tr>
+<tr><td><strong>entre 0 e 1</strong></td><td>Subamortecido</td><td>oscila em ω<sub>d</sub> = ω<sub>n</sub>√(1 − ζ²) &lt; ω<sub>n</sub>, sob envoltória e<sup>−ζω<sub>n</sub>t</sup></td></tr>
+<tr><td><strong>= 1</strong></td><td>Crítico</td><td>volta ao repouso sem oscilar, no <strong>menor tempo</strong></td></tr>
+<tr><td><strong>&gt; 1</strong></td><td>Superamortecido</td><td>volta sem oscilar, mais devagar</td></tr>
+</tbody>
+</table>
+<p>ζ sai do <strong>decremento logarítmico</strong>: δ = ln(x<sub>1</sub>/x<sub>2</sub>) = 2πζ/√(1 − ζ²) ≈ <strong>2πζ</strong>.</p>
+
+<p><strong>5. Vibração forçada: transiente + permanente.</strong> Com F(t) = F<sub>0</sub>·sen(ωt), a resposta é a <strong>transiente</strong> (homogênea, em ω<sub>d</sub>, que morre com o amortecimento) mais a <strong>permanente</strong> (particular, na frequência da <em>excitação</em>). Com r = ω/ω<sub>n</sub>, o fator de amplificação é 1/√[(1 − r²)² + (2ζr)²]: r ≈ 0 dá X ≈ F<sub>0</sub>/k (manda a rigidez); <strong>r = 1 é ressonância</strong>, amplitude F<sub>0</sub>/(2ζk) e fase de <strong>90° para qualquer ζ</strong>, infinita só se ζ = 0; r ≫ 1 dá X → 0 (manda a inércia). Excitação <strong>periódica não harmônica</strong> vira série de Fourier: resolve-se harmônico a harmônico e ressoa se <em>qualquer</em> um bater com ω<sub>n</sub>. No <strong>transiente</strong>, um degrau súbito dá deslocamento máximo <strong>2×</strong> o estático sem amortecimento. Desbalanceamento gera m<sub>e</sub>·e·ω², que cresce com o <strong>quadrado</strong> da rotação. Na isolação, a transmissibilidade só cai abaixo de 1 para <strong>r &gt; √2 ≈ 1,41</strong>: isolador bom é o mole.</p>
+
+<p><strong>6. Múltiplos graus de liberdade.</strong> [M]{x''} + [C]{x'} + [K]{x} = {F}. Com <strong>n</strong> GDL há <strong>n frequências naturais e n modos</strong>, de det([K] − ω²·[M]) = 0. O que a banca cobra: cada frequência está associada a <strong>um modo</strong>, e cada modo mobiliza <strong>todos</strong> os GDL — não existe uma frequência por GDL isolado. Os modos são ortogonais em [M] e [K], o que desacopla as equações (análise modal); a menor é a fundamental. Motor como corpo rígido, 6 GDL acoplados ⇒ 6 frequências; viga e tubulação são contínuas, com infinitos GDL. O <strong>absorvedor dinâmico</strong> acopla um massa-mola sintonizado em √(k<sub>2</sub>/m<sub>2</sub>) = ω: a massa principal para, ao preço de trocar um pico de ressonância por dois.</p>
+
+<p><strong>7. Transdutores.</strong> No harmônico cada derivada multiplica por ω: v<sub>máx</sub> = ω·X e a<sub>máx</sub> = ω²·X — deslocamento domina em baixa frequência, aceleração em alta, e a <strong>velocidade eficaz (RMS) em mm/s</strong> é o índice de severidade de máquinas rotativas.</p>
+<table>
+<thead>
+<tr><th>Transdutor</th><th>Operação</th><th>Mede</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Acelerômetro piezoelétrico</strong></td><td>ω<sub>n</sub> própria <strong>alta</strong>; usa r ≪ 1</td><td>aceleração <strong>absoluta</strong>; faixa larga, pequeno, robusto</td></tr>
+<tr><td><strong>Sensor sísmico de velocidade</strong></td><td>ω<sub>n</sub> própria <strong>baixa</strong>; usa r ≫ 1</td><td>velocidade <strong>absoluta</strong>; volumoso</td></tr>
+<tr><td><strong>Proxímetro (correntes parasitas)</strong></td><td>sem contato, sem massa sísmica</td><td>deslocamento <strong>relativo</strong> eixo–mancal</td></tr>
+</tbody>
+</table>
+
+<p><strong>Números-chave do módulo:</strong> ω<sub>n</sub> = √(k/m) em <strong>rad/s</strong> e f<sub>n</sub> = ω<sub>n</sub>/<strong>2π</strong> em Hz; ω<sub>n</sub> = √(g/δ<sub>st</sub>); c<sub>c</sub> = <strong>2√(k·m)</strong>; ζ = 1 é o crítico; ω<sub>d</sub> = ω<sub>n</sub>√(1 − ζ²); δ ≈ <strong>2πζ</strong>; ressonância com fase <strong>90°</strong> e amplitude F<sub>0</sub>/(2ζk); isolamento só para r &gt; <strong>√2 ≈ 1,41</strong>; degrau ⇒ <strong>2×</strong> a deflexão estática; +20% em ω<sub>n</sub> ⇒ <strong>+44%</strong> em k; corpo rígido no espaço = <strong>6 GDL = 6 frequências</strong>.</p>
+
+<p><strong>Pegadinha clássica:</strong> <strong>(i)</strong> trocar rad/s por Hz — ω<sub>n</sub> = 20 rad/s não é 20 Hz, é 10/π Hz, e a banca põe "20" e "10/π" na mesma lista de propósito. <strong>(ii)</strong> achar que ressonância dá amplitude infinita: só com o amortecimento <em>desprezado</em>; as alternativas erradas oferecem amortecimento crítico ou supercrítico, que nem oscilam. <strong>(iii)</strong> amarrar cada frequência natural a um GDL — ela pertence a um <em>modo</em>, que envolve todos. E ω<sub>d</sub> é sempre <strong>menor</strong> que ω<sub>n</sub>.</p>
+
+<p><strong>Resumo de véspera:</strong> ΣF = m·a<sub>G</sub> vale sempre, e o corpo rígido soma ΣM<sub>G</sub> = I<sub>G</sub>·α; em curva a força é perpendicular à trajetória, m·v²/R; ω<sub>n</sub> = √(k/m) = √(g/δ<sub>st</sub>) e f<sub>n</sub> = ω<sub>n</sub>/2π; paralelo soma k, série soma 1/k; +20% em ω<sub>n</sub> pede +44% em k; ζ = c/2√(km); ζ &lt; 1 oscila, ζ = 1 volta sem oscilar no menor tempo, ζ &gt; 1 mais devagar; ω<sub>d</sub> &lt; ω<sub>n</sub>; forçada = transiente que morre + permanente na frequência da excitação; ressonância em r = 1 com fase 90°; degrau dá o dobro do estático; desbalanceamento cresce com ω²; isolar exige r &gt; √2; n GDL dá n frequências e n modos, cada modo com todos os GDL; acelerômetro mede aceleração absoluta, proxímetro mede deslocamento relativo sem contato.</p>

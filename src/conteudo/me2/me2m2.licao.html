@@ -1,0 +1,86 @@
+<p><strong>1. Eixos: as tensões de cor.</strong> Eixo trabalha sob <strong>torção</strong> (do torque) combinada com <strong>flexão</strong> (forças de engrenagens e polias). Seção circular maciça, J = π·d<sup>4</sup>/32 e I = π·d<sup>4</sup>/64:</p>
+<p>τ = T·c/J = <strong>16·T/(π·d<sup>3</sup>)</strong> &nbsp; e &nbsp; σ = M·c/I = <strong>32·M/(π·d<sup>3</sup>)</strong></p>
+<p>Ambas são <strong>máximas na superfície</strong> (c = d/2) — é lá que a trinca de fadiga nasce. Em <strong>torção pura</strong>: <strong>σ<sub>1</sub> = +τ, σ<sub>2</sub> = 0, σ<sub>3</sub> = −τ</strong> — mesmo módulo, <strong>sinais opostos</strong>, a 45°, o que explica a hélice a 45° na fratura frágil.</p>
+<p><strong>2. Von Mises × Tresca.</strong> Eixo <strong>dúctil</strong> sob flexão + torção pede o critério da <strong>energia de distorção (von Mises)</strong>, com principais de <strong>sinais opostos</strong> no ponto crítico. Tresca escoa em σ<sub>1</sub> − σ<sub>3</sub> = 2τ; von Mises, só em √3·τ ≈ 1,73τ: <strong>libera mais carga, logo é MENOS conservativo</strong>. Em cisalhamento, <strong>τ<sub>e</sub> = 0,577·σ<sub>e</sub></strong> contra <strong>0,50·σ<sub>e</sub></strong> de Tresca.</p>
+<p>von Mises: d<sup>3</sup> = (32n/π·σ<sub>e</sub>)·√(M<sup>2</sup> + 0,75·T<sup>2</sup>) &nbsp; | &nbsp; Tresca: d<sup>3</sup> = (32n/π·σ<sub>e</sub>)·√(M<sup>2</sup> + T<sup>2</sup>)</p>
+<p><strong>3. O eixo montado.</strong> Rasgo de chaveta, estria e mudança brusca de seção são <strong>concentradores</strong>: aumente o raio de adoçamento. Em fadiga, K<sub>f</sub> = 1 + q·(K<sub>t</sub> − 1). Duas regras já cobradas: <strong>a engrenagem de maior torque fica perto do mancal</strong>, onde o momento fletor é menor; e <strong>a velocidade crítica fica acima da rotação de trabalho</strong> — com ω<sub>c</sub> = √(k/m), eixo mais grosso ou vão menor a eleva.</p>
+<p><strong>4. Engrenagens.</strong> <strong>Módulo m = d/z</strong> (mm), passo p = π·m, <strong>m = 25,4/P</strong>. Só engrenam pares de <strong>mesmo módulo e mesmo ângulo de pressão</strong> (padrão <strong>20°</strong>); C = m·(z<sub>1</sub> + z<sub>2</sub>)/2. Transmissão: <strong>i = z<sub>2</sub>/z<sub>1</sub> = n<sub>1</sub>/n<sub>2</sub> = T<sub>2</sub>/T<sub>1</sub></strong>. Potência: <strong>P = T·ω</strong>, com <strong>ω = 2π·n/60</strong>. Abaixo de <strong>17–18 dentes</strong> há interferência. A engrenagem "louca" inverte o sentido sem mudar a relação. O dente falha por <strong>flexão na raiz</strong> (Lewis) ou por <strong>pitting</strong> no flanco (Hertz).</p>
+<p><strong>5. Tipos e o que cada um joga no eixo.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Eixos</th>
+<th>Esforços no eixo</th>
+<th>Marca registrada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dentes retos</strong></td>
+<td>Paralelos</td>
+<td>Flexão e torção, <strong>sem axial</strong></td>
+<td>Simples e ruidosa</td>
+</tr>
+<tr>
+<td><strong>Helicoidal</strong></td>
+<td>Paralelos</td>
+<td><strong>Flexão, torção E axial</strong></td>
+<td>Silenciosa; exige mancal axial</td>
+</tr>
+<tr>
+<td><strong>Dupla helicoidal</strong></td>
+<td>Paralelos</td>
+<td>Flexão e torção (<strong>o axial se cancela</strong>)</td>
+<td>Helicoidal sem empuxo</td>
+</tr>
+<tr>
+<td><strong>Cônica</strong></td>
+<td>Concorrentes (90°)</td>
+<td>Flexão, torção e axial</td>
+<td>Muda a direção</td>
+</tr>
+<tr>
+<td><strong>Sem-fim e coroa</strong></td>
+<td>Reversos</td>
+<td>Empuxo axial elevado</td>
+<td>Redução alta num par; rendimento baixo; autotravante</td>
+</tr>
+</tbody>
+</table>
+<p><strong>6. Mancais de deslizamento.</strong> O eixo flutua num filme de óleo gerado pela própria rotação (<strong>hidrodinâmico</strong>, cunha convergente) ou por bomba externa (<strong>hidrostático</strong>, que sustenta com o eixo parado). Número de <strong>Sommerfeld</strong>:</p>
+<p><strong>S = (r/c)<sup>2</sup> · (μ·N/P)</strong> — r = raio do munhão, c = folga radial, <strong>r/c = razão de folga radial</strong>, μ = viscosidade absoluta, N em rev/s, P = carga/área projetada.</p>
+<p>Repare no <strong>quadrado</strong>: razão de folga radial a 90% leva S a <strong>0,81·S</strong>. Na curva de <strong>Stribeck</strong>, com μN/P crescendo vai-se da lubrificação <strong>limite → mista → hidrodinâmica</strong>, atrito <strong>mínimo na transição</strong>. <strong>SAE 10W40</strong> = SAE 10 a frio (W = winter), 40 a quente.</p>
+<p><strong>7. Mancais de rolamento.</strong> <strong>L<sub>10</sub> = (C/P)<sup>a</sup></strong>, em milhões de rotações, com <strong>a = 3 (esferas)</strong> e <strong>10/3 (rolos)</strong>: é a vida atingida por <strong>90% dos rolamentos</strong>. C = carga dinâmica, P = X·F<sub>r</sub> + Y·F<sub>a</sub>. Rolos cilíndricos não aceitam axial; cônicos trabalham aos pares; autocompensadores toleram desalinhamento. Falham por <strong>fadiga de contato</strong> — vibração, ruído e temperatura em mancais são o alvo da <strong>manutenção preditiva</strong>.</p>
+<p><strong>8. Fadiga: mecanismo.</strong> Falha sob carga <strong>cíclica</strong> em tensão <strong>abaixo do escoamento</strong>, em três estágios: <strong>nucleação</strong> (na superfície, num concentrador), <strong>propagação estável</strong> (marcas de praia a olho nu, <strong>estrias</strong> ao microscópio — uma por ciclo) e <strong>ruptura final</strong> brusca. A fratura é <strong>macroscopicamente frágil</strong>, sem estricção, mesmo em material dúctil. σ<sub>m</sub> = (σ<sub>máx</sub> + σ<sub>mín</sub>)/2, σ<sub>a</sub> = (σ<sub>máx</sub> − σ<sub>mín</sub>)/2, <strong>R = σ<sub>mín</sub>/σ<sub>máx</sub></strong> (−1 alternado, 0 pulsante).</p>
+<p><strong>9. Curva S-N e tensão média.</strong> <strong>Aços e ligas de titânio têm patamar (limite de fadiga)</strong> entre <strong>10<sup>6</sup> e 10<sup>7</sup></strong> ciclos: abaixo dele, vida infinita. <strong>Ligas não ferrosas (Al, Cu, Mg) não têm patamar.</strong> Para aço, <strong>S'<sub>e</sub> ≈ 0,5·σ<sub>u</sub></strong>, teto de <strong>700 MPa</strong> se σ<sub>u</sub> &gt; 1400 MPa, corrigido por acabamento, tamanho, carregamento (k<sub>c</sub> = 1 flexão / 0,85 axial / 0,59 torção) e confiabilidade. Com σ<sub>m</sub> ≠ 0:</p>
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th>Equação</th>
+<th>Comportamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soderberg</strong></td>
+<td>σ<sub>a</sub>/S<sub>e</sub> + σ<sub>m</sub>/σ<sub>e</sub> = 1</td>
+<td>Reta até o <strong>escoamento</strong>: o mais conservador</td>
+</tr>
+<tr>
+<td><strong>Goodman</strong></td>
+<td>σ<sub>a</sub>/S<sub>e</sub> + σ<sub>m</sub>/σ<sub>u</sub> = 1</td>
+<td>Reta até a <strong>ruptura</strong>: o padrão de prova</td>
+</tr>
+<tr>
+<td><strong>Gerber</strong></td>
+<td>σ<sub>a</sub>/S<sub>e</sub> + (σ<sub>m</sub>/σ<sub>u</sub>)<sup>2</sup> = 1</td>
+<td>Parábola: o menos conservador</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Média trativa reduz a vida; compressiva aumenta.</strong> Por isso <strong>jateamento, roleteamento, cementação e nitretação</strong> prolongam a vida: deixam <strong>tensão residual de compressão</strong> na superfície — corrosão e usinagem grosseira fazem o contrário. Dano acumulado: <strong>Miner, Σ(n<sub>i</sub>/N<sub>i</sub>) = 1</strong>; propagação: <strong>Paris, da/dN = C·(ΔK)<sup>m</sup></strong>.</p>
+<p><strong>Números-chave do módulo:</strong> τ = <strong>16T/πd<sup>3</sup></strong> e σ = <strong>32M/πd<sup>3</sup></strong>; τ<sub>e</sub> = <strong>0,577σ<sub>e</sub></strong> (Mises) e <strong>0,50σ<sub>e</sub></strong> (Tresca); ângulo de pressão <strong>20°</strong>; m = d/z = <strong>25,4/P</strong>; mínimo <strong>17–18 dentes</strong>; <strong>S = (r/c)<sup>2</sup>·μN/P</strong>; expoente <strong>3</strong> (esferas) e <strong>10/3</strong> (rolos) no L<sub>10</sub>, a <strong>90%</strong>; patamar de fadiga em <strong>10<sup>6</sup>–10<sup>7</sup></strong> ciclos; S'<sub>e</sub> ≈ <strong>0,5σ<sub>u</sub></strong>, teto <strong>700 MPa</strong>; k<sub>c</sub> = <strong>1 / 0,85 / 0,59</strong>; R = <strong>−1</strong> alternado, <strong>0</strong> pulsante.</p>
+<p><strong>Pegadinha clássica:</strong> engrenagem <strong>helicoidal</strong> transmite ao eixo <strong>flexão, torção E carga axial</strong> — "flexão e torção, apenas" é a isca, e o empuxo só some na dupla helicoidal. Do mesmo naipe: <strong>von Mises é MENOS conservativo</strong> que Tresca; no Sommerfeld r/c está <strong>ao quadrado</strong> (0,9 vira 0,81); e em fadiga manda a <strong>amplitude σ<sub>a</sub></strong>, não σ<sub>máx</sub> — média <strong>compressiva</strong> com σ<sub>a</sub> abaixo do limite não falha, e o mesmo σ<sub>a</sub> sobre média trativa alta falha.</p>
+<p><strong>Resumo de véspera:</strong> tensões máximas na superfície do eixo; eixo dúctil sob flexão + torção pede von Mises, menos conservativo que Tresca; carga pesada perto do mancal e velocidade crítica acima da de trabalho; só engrenam módulo e ângulo de pressão iguais; P = T·ω; reto não dá axial, helicoidal dá, dupla helicoidal cancela; Sommerfeld tem r/c ao quadrado; 10W40 é 10 a frio e 40 a quente; L<sub>10</sub> é a vida de 90% dos rolamentos; fadiga nucleia na superfície e rompe macroscopicamente frágil; aço tem limite de fadiga, alumínio não; Soderberg &gt; Goodman &gt; Gerber em conservadorismo; média trativa mata, compressiva salva.</p>

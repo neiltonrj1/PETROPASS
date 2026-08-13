@@ -6,7 +6,7 @@
  "processo": "Transpetro PSP/Terra 2023.2",
  "caderno": "11.pdf",
  "folhaGabarito": "1.pdf",
- "total": 38,
+ "total": 48,
  "questoes": [
   {
    "n": 21,
@@ -204,6 +204,34 @@
    "correta": "E"
   },
   {
+   "n": 36,
+   "origem": "Cesgranrio 2023, Q36",
+   "q": "Um sistema com um grau de liberdade, equivalente a um motor posicionado no centro do vão de uma viga biapoiada, possui massa m e rigidez k eq, onde m é a massa do motor, e keq é a rigidez equivalente da viga na posição do motor, conforme representado na Figura. Considerando-se que a seção transversal retangular da viga tem dimensões de 10 cm por 20 cm, e seu comprimento é de 1,0 m, o valor da frequência natural do sistema",
+   "alts": {
+    "A": "será maior quando a base da área da seção retangular for de 20 cm.",
+    "B": "será maior quando a base da área da seção retangular for de 10 cm.",
+    "C": "não depende do posicionamento da seção transversal.",
+    "D": "não depende das dimensões da seção transversal.",
+    "E": "não depende do comprimento L da viga."
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2023, Q37",
+   "q": "Em um determinado instante da operação de uma máquina, a barra AB de um mecanismo fica sujeita às forças FA e FB, conforme representado na Figura. Considerando-se que a massa da barra é 6 kg e seu momento de inércia em relação ao CM é 0,02 kg.m 2, a aceleração do CM, expressa em m/s 2, e a aceleração angular da barra, expressa em rad/s 2, são, respectivamente,",
+   "alts": {
+    "A": "10 e 50",
+    "B": "20 e 80",
+    "C": "20 e 100",
+    "D": "50 e 150",
+    "E": "50 e 200"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
    "n": 38,
    "origem": "Cesgranrio 2023, Q38",
    "q": "Considere um modelo plano da dinâmica vertical de um veículo de passeio, com quatro graus de liberdade: deslocamento vertical do CM do veículo; deslocamento angular em torno do CM e os deslocamentos de duas rodas. As quatro frequências naturais de vibração estão relacionadas a",
@@ -228,6 +256,20 @@
     "E": "condições de equilíbrio e as informações sobre a resistência do material da viga"
    },
    "correta": "C"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2023, Q40",
+   "q": "A viga biapoiada ABC mostrada na Figura deve suportar os efeitos da carga F atuante no ponto D, conforme indicado. Os esforços internos atuantes no trecho BC da viga são de",
+   "alts": {
+    "A": "flexão, apenas",
+    "B": "carga axial de tração, apenas",
+    "C": "carga axial de compressão, apenas",
+    "D": "flexão combinada com carga axial de tração",
+    "E": "flexão combinada com carga axial de compressão"
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 41,
@@ -256,6 +298,20 @@
    "correta": "D"
   },
   {
+   "n": 43,
+   "origem": "Cesgranrio 2023, Q43",
+   "q": "Uma transmissão de movimento entre eixos paralelos é realizada por meio de um par de engrenagens helicoidais que transmitem aos eixos uma força normal Nx, um torque T x e um momento fletor Mz, conforme ilustrado na seção transversal apresentada na Figura. Diante desse cenário, esses esforços produzem, no cubo representativo do ponto P da seção transversal da Figura, tensões normais e cisalhantes, tais que",
+   "alts": {
+    "A": "sx > 0 e txz = 0",
+    "B": "sy = 0 e txz = 0",
+    "C": "sz ≠ 0 e txz ≠ 0",
+    "D": "sx < 0 e txz ≠ 0",
+    "E": "sx < 0 e txz = 0"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 44,
    "origem": "Cesgranrio 2023, Q44",
    "q": "Um veículo cuja massa é de 1.000 kg deve manter-se em uma trajetória circular de 40 m de raio a uma velocidade constante de 36 km/h. Nessa condição, o valor da força de atrito atuante nos pneus, expresso em N, é de",
@@ -267,6 +323,20 @@
     "E": "10.000 na direção perpendicular à trajetória"
    },
    "correta": "B"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2023, Q45",
+   "q": "A seção transversal de um eixo oco está submetida à ação de um momento fletor M y e de um torque T x, conforme ilustrado na Figura. Considerando-se o sistema de referência xyz ilustrado na Figura, a tensão normal  x atuante no ponto A e a tensão cisalhante  xy atuante no ponto B da seção são, respectivamente,",
+   "alts": {
+    "A": "positiva e nula",
+    "B": "negativa e nula",
+    "C": "positiva e diferente de zero",
+    "D": "negativa e diferente de zero",
+    "E": "nula e diferente de zero"
+   },
+   "correta": "A",
+   "pedeFigura": true
   },
   {
    "n": 46,
@@ -293,6 +363,34 @@
     "E": "20/"
    },
    "correta": "D"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2023, Q48",
+   "q": "O modelo de um sistema de elevação de carga considera um tambor com momento de inércia I, um cabo flexível com rigidez k e a carga com massa m, conforme ilustrado na Figura. Esse sistema com dois graus de liberdade (x e ) apresenta uma frequência natural nula porque",
+   "alts": {
+    "A": "a rigidez do cabo é muito alta.",
+    "B": "o sistema não está em equilíbrio dinâmico.",
+    "C": "um dos corpos possui movimento de rotação.",
+    "D": "um dos corpos possui movimento de translação.",
+    "E": "há uma condição de movimento para a qual o cabo não se deforma."
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2023, Q49",
+   "q": "O acionamento de abertura de uma porta é constituído de uma estrutura em que pode ser identificado um trecho AB perpendicular a um trecho BC, ambos de seção transversal circular com diâmetro constante, conforme a Figura. Considerando-se o sistema de referência xyz representado na Figura, verifica-se que no ponto P da seção transversal no engaste são nulas as tensões",
+   "alts": {
+    "A": " x,  xy e  yz",
+    "B": " x,  yz e  z",
+    "C": " y,  xy e  xz",
+    "D": " z,  xy e  xz",
+    "E": " y,  z e  yz"
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 50,
@@ -412,6 +510,20 @@
    "correta": "B"
   },
   {
+   "n": 60,
+   "origem": "Cesgranrio 2023, Q60",
+   "q": "Em um experimento para medir o momento de inércia em torno do centro de massa, uma biela é posta para oscilar, sem atrito, e fica suspensa em um eixo que passa pelo furo de centro O 2, como mostrado na Figura abaixo. A massa da biela é igual a 500 g, e as distâncias L 1 e L 2 medem, respectivamente, 50 mm e 100 mm. O período de oscilação da biela, quando deslocada de um pequeno ângulo q, menor do que 5°, registrado em um cronômetro, foi igual a 0,4p segundos. Nesse cenário, considere que g = 10 m/s 2, e que a relação entre o momento de inércia medido ao longo do eixo que passa pelo centro O 2 e a frequência natural da biela é dada por O 2 2 2 n (mg)L J = w O valor do momento de inércia em torno do eixo transversal z que passa pelo centro de massa dessa biela, em kg.m 2, é igual a",
+   "alts": {
+    "A": "5,0 × 10 –3",
+    "B": "10,0 × 10 –3",
+    "C": "15,0 × 10 –3",
+    "D": "20,0 × 10 –3",
+    "E": "25,0 × 10 –3 PROVA 24 - ENGENHARIA MECÂNICATERRA"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 61,
    "origem": "Cesgranrio 2023, Q61",
    "q": "A corrosão eletroquímica é uma das principais causas para falhas de materiais em serviço. Ela sempre pode ocorrer para determinadas geometrias em que dois materiais são colocados em contato íntimo um com o outro. É favorável a uma corrosão eletroquímica o seguinte sistema de materiais:",
@@ -423,6 +535,34 @@
     "E": "óxido de silício e ferro"
    },
    "correta": "C"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2023, Q62",
+   "q": "Na Figura abaixo é representado um sistema de três graus de liberdade sem amortecimento, onde cada uma das massas pode se deslocar, sem atrito, somente ao longo do eixo X. O vetor de graus de liberdade é 1 2 3 x x x          . As frequências naturais desse sistema são f 1 = 0,2 Hz, f 2 = 0,6 Hz e f 3 = 1,2 Hz, e os correspondentes modos de vibração são representados pelos vetores: 1 2 3 0,22 0,53 1,00 u 0,54 u 1,00 u 0,25 1,00 0,40 0,02                                  São feitos três experimentos, utilizando esse sistema, em que as massas são simultaneamente deslocadas de suas correspondentes posições de equilíbrio, conforme descrito na Tabela abaixo, e depois são liberadas para oscilarem. Experimento 1 2 3 Massa m 1 x 1 = 0,44 cm x 1 = –1,10 cm x 1 = 2,00 cm Massa m 2 x 2 = 1,08 cm x 2 = –2,70 cm x 2 = –0,50 cm Massa m 3 x 3 = 2,00 cm x 3 = –5,00 cm x 3 = 0,04 cm Considerando-se as informações apresentadas, verifica-se que as massas oscilam na frequência natural f 1 APENAS no(s) experimento(s)",
+   "alts": {
+    "A": "1",
+    "B": "3",
+    "C": "1 e 2",
+    "D": "1 e 3",
+    "E": "2 e 3"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2023, Q63",
+   "q": "No ciclo ideal de Diesel, mostrado no gráfico pressão × volume abaixo, o processo que vai do ponto 2 ao ponto 3, é conhecido como fornecimento de calor à pressão constante. Em um motor real, o fenômeno físico que ocorre ao longo desse processo e o nome atribuído à relação V 3 /V 2 são, respectivamente,",
+   "alts": {
+    "A": "compressão e rendimento volumétrico",
+    "B": "compressão e rendimento térmico",
+    "C": "combustão e razão de compressão",
+    "D": "combustão e rendimento mecânico",
+    "E": "combustão e razão de corte"
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 64,

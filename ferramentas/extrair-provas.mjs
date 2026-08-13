@@ -52,14 +52,21 @@ for (const p of PROVAS) {
     const correta = gab[q.n];
     if (!correta) { descartadas.semGabarito.push(q.n); continue; }
     if (pareceQuebrada(q)) { descartadas.quebradas.push(q.n); continue; }
+    /* Questão que cita um desenho ENTRA, e é marcada. Antes ela era jogada
+       fora porque sem a figura ensinaria errado — mas hoje o
+       ferramentas/extrair-figuras.mjs recorta a figura do caderno, e o app
+       sabe travar a questão que ficou mesmo sem desenho (`pede-desenho` no
+       build). Descartar todas custava caro: era metade da prova de
+       Elétrica e um terço da de Mecânica.                               */
     const precisaFigura = PEDE_FIGURA.test(q.enun);
-    if (precisaFigura) { descartadas.comFigura.push(q.n); continue; }
+    if (precisaFigura) descartadas.comFigura.push(q.n);
     questoes.push({
       n: q.n,
       origem: `Cesgranrio ${p.ano}, Q${q.n}`,
       q: q.enun,
       alts: q.alts,
       correta,
+      ...(precisaFigura ? { pedeFigura: true } : {}),
     });
   }
 

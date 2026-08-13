@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 3/2011",
  "caderno": "prova_6_engenheiro_a_junior_area_analise_e_projetos_de_investimento.pdf",
  "folhaGabarito": "gabaritos.pdf",
- "total": 36,
+ "total": 43,
  "questoes": [
   {
    "n": 21,
@@ -20,6 +20,20 @@
     "E": "implicam o mesmo valor de investimento inicial."
    },
    "correta": "D"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2011, Q22",
+   "q": "A figura acima mostra como o Valor Presente Líquido (VPL) de um projeto de investimento varia com a taxa de desconto usada para calcular o próprio VPL. Nessa situação, verifica-se que o(a)",
+   "alts": {
+    "A": "segmento 0B corresponde ao VPL.",
+    "B": "segmento 0C corresponde à taxa interna de retorno.",
+    "C": "VPL é sempre positivo.",
+    "D": "VPL estimado, à taxa de desconto 0A, é positivo.",
+    "E": "taxa interna de retorno é negativa."
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 23,
@@ -282,6 +296,34 @@
    "correta": "B"
   },
   {
+   "n": 48,
+   "origem": "Cesgranrio 2011, Q48",
+   "q": "A figura a seguir mostra uma região hachureada definida pelas desigualdades: x + y 10; x + 2y 16; x 0; y 0. A maximização da função objetivo 3y, sujeita às restrições lineares explicitadas acima, é obtida quando (x,y) for igual a",
+   "alts": {
+    "A": "(16,0)",
+    "B": "(10,0)",
+    "C": "(8,0)",
+    "D": "(0,10)",
+    "E": "(0,8)"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2011, Q49",
+   "q": "A figura abaixo, do modelo IS/LM, mostra, em linha cheia, as posições iniciais das curvas IS e LM. Uma política fiscal expansiva alteraria a(s) curva(s)",
+   "alts": {
+    "A": "IS para uma posição como IS 1",
+    "B": "IS para uma posição como IS 2",
+    "C": "LM para uma posição como LM 1",
+    "D": "IS e LM para posições como IS 2 e LM 2",
+    "E": "IS e LM para posições como IS 1 e LM 1"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 50,
    "origem": "Cesgranrio 2011, Q50",
    "q": "Uma característica importante em um mercado perfeitamente competitivo é o(a)",
@@ -319,6 +361,20 @@
     "E": "produção doméstica mais as importações destinadas ao mercado interno."
    },
    "correta": "B"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2011, Q53",
+   "q": "A figura abaixo mostra, em linha cheia, as posições iniciais das curvas de demanda (D) e de oferta (S) pelo bem X. Os consumidores consideram X um bem inferior. Suponha que, para os consumidores de X, o bem Y seja um substituto de X. Um aumento no preço de Y, as demais variáveis que influenciam a demanda e a oferta de X permanecendo constantes, altera a curva de",
+   "alts": {
+    "A": "demanda D para uma posição como D 1",
+    "B": "demanda D para uma posição como D 2",
+    "C": "oferta S para uma posição como S 1",
+    "D": "oferta S para uma posição como S 2",
+    "E": "oferta S para uma posição como D 1"
+   },
+   "correta": "A",
+   "pedeFigura": true
   },
   {
    "n": 54,
@@ -373,6 +429,20 @@
    "correta": "C"
   },
   {
+   "n": 58,
+   "origem": "Cesgranrio 2011, Q58",
+   "q": "Uma partícula se deslocou em linha reta por 20 segundos e com velocidade (V) variável conforme a figura abaixo. A distância total, em metros, percorrida pela partícula nesses 20s, foi",
+   "alts": {
+    "A": "65",
+    "B": "75",
+    "C": "85",
+    "D": "95",
+    "E": "105"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 59,
    "origem": "Cesgranrio 2011, Q59",
    "q": "Um corpo de massa igual a 9,8 kg se desloca à velocidade constante de 10 m/s. Sua energia cinética é a energia necessária para elevar do nível do solo um corpo de 10 kg de massa até uma altura, medida em metros, de",
@@ -425,6 +495,20 @@
    "correta": "C"
   },
   {
+   "n": 63,
+   "origem": "Cesgranrio 2011, Q63",
+   "q": "A figura abaixo mostra uma distribuição de probabilidades discreta e simétrica em relação ao eixo vertical. Seu desvio padrão é",
+   "alts": {
+    "A": "igual a 0,6",
+    "B": "igual a 1",
+    "C": "igual à variância",
+    "D": "menor que a média",
+    "E": "menor que a moda"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 64,
    "origem": "Cesgranrio 2011, Q64",
    "q": "Suponha que P (X), P (X/Y) e P (Y/X) representem, respectivamente, a probabilidade do evento X, a probabilidade de X caso o evento Y tenha ocorrido e a probabilidade de Y caso X tenha ocorrido. Se X e Y forem eventos independentes, então",
@@ -436,6 +520,20 @@
     "E": "X e Y ocorrem simultaneamente"
    },
    "correta": "B"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2011, Q65",
+   "q": "Uma reta, y = a + bx, foi ajustada no gráfico dos pares de dados (x, y). Para estimar os parâmetros a e b usou-se a técnica de minimizar a soma dos erros quadráticos. Se resultar desta minimização uma soma de erros quadráticos nula, então o(s)",
+   "alts": {
+    "A": "coeficiente de correlação entre os dados x e y é nulo.",
+    "B": "desvio padrão dos dados x é igual ao desvio padrão dos dados y.",
+    "C": "pontos (x, y) no gráfico se situam sobre o eixo das ordenadas.",
+    "D": "pontos (x, y) no gráfico estão sobre uma única linha reta.",
+    "E": "dados x e os dados y têm a mesma média."
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 66,

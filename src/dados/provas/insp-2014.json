@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 2014.2",
  "caderno": "engenheiro_a_equipamentos_jnior_inspecao.pdf",
  "folhaGabarito": "gabarito_oficial_apos_recursos.pdf",
- "total": 41,
+ "total": 49,
  "questoes": [
   {
    "n": 21,
@@ -46,6 +46,20 @@
     "E": "2,5 e 4 mm apresentavam, ambas, o mesmo tamanho médio dos grãos e o mesmo limite de escoamento médio."
    },
    "correta": "B"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2014, Q24",
+   "q": "O ensaio Jominy é um dos mais empregados para definir a temperabilidade de um aço. O gráfico abaixo apresenta o resultado do ensaio Jominy em três aços distintos. Após análise do resultado desse ensaio, constata-se que o(s) aço(s)",
+   "alts": {
+    "A": "C é o de maior temperabilidade.",
+    "B": "A é o de maior temperabilidade.",
+    "C": "B é o de maior temperabilidade.",
+    "D": "C apresenta profundidade de têmpera muito maior que o aço A.",
+    "E": "A, B e C apresentam a mesma temperabilidade."
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 25,
@@ -152,6 +166,20 @@
    "correta": "C"
   },
   {
+   "n": 33,
+   "origem": "Cesgranrio 2014, Q33",
+   "q": "A Figura abaixo apresenta um diagrama TTT (Transformação - Temperatura - Tempo) de um aço com quatro propostas distintas de resfriamentos iniciados de uma mesma temperatura de austenitização e numerados de 1 a 4. Um engenheiro precisa tratar termicamente duas peças desse aço para obter duas microestruturas distintas: a primeira microestrutura é composta de bainita e martensita, enquanto a segunda microestrutura apresenta somente perlita. Que programas de resfriamento esse engenheiro deverá propor para essas duas microestruturas?",
+   "alts": {
+    "A": "1 e 3",
+    "B": "2 e 3",
+    "C": "2 e 4",
+    "D": "3 e 4",
+    "E": "1 e 4"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 34,
    "origem": "Cesgranrio 2014, Q34",
    "q": "A transformação martensítica gera uma fase metaestável nos aços, a qual apresenta propriedades mecânicas muito especiais. Em relação às características presentes nas transformações martensíticas, considere as afirmativas a seguir. I - A transformação martensítica em aços faz com que eles fiquem mais maleáveis porque o carbono se precipita na forma de carbonetos durante a transformação. II - A transformação martensítica em aços faz com que eles fiquem mais duros porque o carbono permanece em solução. III - Aços que sofrem a transformação martensítica ficam mais dúcteis porque o carbono permanece em solução. IV - A transformação martensítica em aços faz a estrutura cúbica de face centrada da austenita se transformar em tetragonal de corpo centrado. Estão corretas as afirmativas",
@@ -215,6 +243,20 @@
     "E": "polietileno com fibras de sisal"
    },
    "correta": "B"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2014, Q39",
+   "q": "Ensaios de tração são relativamente simples de serem realizados e permitem uma avaliação extremamente interessante das propriedades de um material. Os resultados de um ensaio de tração para três materiais distintos estão apresentados na Tabela abaixo. Limite de Escoamento (MPa) Limite de Resistência Mecânica (MPa) Módulo de Young (GPa) Material P 540 900 211 Material Q 540 605 26 Material R 900 970 116 O material que apresenta a maior capacidade de absorver energia elástica e o material que mais se deforma para uma dada tensão aplicada são, respectivamente,",
+   "alts": {
+    "A": "P; R",
+    "B": "P; Q",
+    "C": "Q; Q",
+    "D": "R; P",
+    "E": "R; Q"
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 40,
@@ -282,6 +324,34 @@
    "correta": "B"
   },
   {
+   "n": 45,
+   "origem": "Cesgranrio 2014, Q45",
+   "q": "A curva experimental de polarização potenciodinâmica de uma amostra temperada do aço inoxidável martensítico UNS S41000, obtida por um engenheiro, em pesquisa de mestrado em 1995, está apresentada na Figura abaixo. Nas condições analisadas, verifica-se que esse aço apresenta a seguinte propriedade:",
+   "alts": {
+    "A": "Está no estado passivado para tensões na faixa 0,5 a 0,75 V.",
+    "B": "Está no estado passivado para tensões na faixa 0,25 e 0,5 V.",
+    "C": "Está no estado passivado para tensões acima de 1,0 V.",
+    "D": "Para tensões maiores que aproximadamente 0,5 V, a curva mostra a condição de polarização catódica.",
+    "E": "Para tensões menores que aproximadamente 0,5 V, o material apresenta um comportamento transpassivo."
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2014, Q47",
+   "q": "O diagrama de Pourbaix do sistema Cromo-H 2 O está apresentado na Figura abaixo. Esse diagrama é muito empregado para estabelecer as condições de corrosão do cromo quando imerso em um meio aquoso, em função do potencial elétrico do cromo relativo ao eletrodo de hidrogênio, E she, e do pH da solução. Com a análise do diagrama, constata-se que o",
+   "alts": {
+    "A": "Cr 3 O 3 cristalino é formado para pH abaixo de 3 e potencial do eletrodo igual a 0,5 V.",
+    "B": "Cr metálico não é corroído para pH acima de 6 e potencial do eletrodo entre 0,5 e 0 V pela formação de uma camada superficial de óxido de cromo.",
+    "C": "Cr metálico está presente para qualquer pH entre 2 e 8 e potencial de eletrodo igual a 0 V.",
+    "D": "Cr metálico é corroído para pH acima de 6 e potencial do eletrodo entre 0,5 e 0 V pela formação de uma camada superficial de óxido de cromo.",
+    "E": "Cr 2 O 3 cristalino não é formado para pH básico e potencial de eletrodo igual a 0 V."
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
    "n": 48,
    "origem": "Cesgranrio 2014, Q48",
    "q": "A sensitização de aços inoxidáveis austeníticos é um fenômeno que ocorre durante a soldagem ou o tratamento térmico desses aços. Esse fenômeno está associado à",
@@ -334,6 +404,20 @@
    "correta": "B"
   },
   {
+   "n": 52,
+   "origem": "Cesgranrio 2014, Q52",
+   "q": "A Figura abaixo apresenta uma barra de seção reta quadrada, com lado de 1 cm e comprimento de 10 cm, submetida a uma tração de 4800 N. Sabendo-se que a barra possui um módulo de Young de 2,4 GPa e um coeficiente de Poisson de 0,5, a variação do comprimento dos lados da seção quadrada causados por essa força é de",
+   "alts": {
+    "A": "0,01%",
+    "B": "0,01%",
+    "C": "1%",
+    "D": "1%",
+    "E": "0,1%"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 53,
    "origem": "Cesgranrio 2014, Q53",
    "q": "Uma viga de 2 m de comprimento e 500 ton está apoiada pelas extremidades em duas pilastras. Essas pilastras são de um material metálico com seção reta quadrada, e o material que as compõe possui as seguintes propriedades: módulo de Young de 70 GPa, limite de escoamento de 250 MPa e limite de resistência mecânica de 360 MPa. Qual é o menor lado da seção quadrada, em mm, para que a pilastra não sofra uma deformação plástica permanente?",
@@ -371,6 +455,20 @@
     "E": "Tratar a peça metálica termicamente, a altas temperaturas, numa atmosfera rica em água. BLOCO 3"
    },
    "correta": "A"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2014, Q56",
+   "q": "Na terminologia de soldagem, adotam-se, frequentemente, símbolos como, por exemplo, os exibidos na Figura abaixo. Tais símbolos fornecem aos técnicos e soldadores informações fundamentais para o sucesso das operações de soldagem. Na Figura acima, em sequência da esquerda para a direita, quais são as especificações indicadas?",
+   "alts": {
+    "A": "Soldagem vertical, junta em ângulo e chanfro em V",
+    "B": "Junta superposta, junta em ângulo e chanfro em duplo V",
+    "C": "Junta superposta, junta em ângulo e chanfro em X",
+    "D": "Filete no lado oposto, filete no mesmo lado de chanfro ½ V, chanfro em X",
+    "E": "Filete no mesmo lado, filete no lado oposto de chanfro ½ V, chanfro em duplo V"
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 57,
@@ -540,6 +638,20 @@
     "E": "I, II e III"
    },
    "correta": "A"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2014, Q70",
+   "q": "O aço possui relativa homogeneidade química enquanto líquido, mas por causas distintas, quando sólido, apresenta variadas heterogeneidades físicas e químicas que vão de vazios até inclusões, conforme exemplificado na Figura abaixo. Em função de sua morfologia, o tipo da inclusão apresentado esquematicamente na Figura acima é o",
+   "alts": {
+    "A": "TiC",
+    "B": "SiO 2",
+    "C": "MnS",
+    "D": "Al 2 O 3",
+    "E": "Fe C"
+   },
+   "correta": "C",
+   "pedeFigura": true
   }
  ],
  "deFora": {

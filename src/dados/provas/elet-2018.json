@@ -6,7 +6,7 @@
  "processo": "Transpetro PSP RH 2018.1",
  "caderno": "Elétrica\\engenheiro_a_junior_eletrica.pdf",
  "folhaGabarito": "gabarito_definitivo.pdf",
- "total": 16,
+ "total": 35,
  "questoes": [
   {
    "n": 22,
@@ -48,6 +48,20 @@
    "correta": "E"
   },
   {
+   "n": 25,
+   "origem": "Cesgranrio 2018, Q25",
+   "q": "A característica terminal de um gerador é a curva que representa a variação de sua tensão terminal (V T) em função de sua corrente de carga (I A). Essa característica depende da forma de excitação de seu circuito de campo. VT I A Analisando-se a Figura mostrada acima e sabendo-se que o circuito de campo do gerador é sujeito à saturação, constata-se que essa curva corresponde à característica terminal típica do gerador de corrente contínua",
+   "alts": {
+    "A": "série",
+    "B": "shunt",
+    "C": "composto subtrativo curto",
+    "D": "composto aditivo longo",
+    "E": "com excitação independente"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 26,
    "origem": "Cesgranrio 2018, Q26",
    "q": "Um motor de indução trifásico (MIT), 220 V, 6 polos, 60 Hz, ligação Y opera com um escorregamento de 5%. Esse motor drena da rede elétrica uma corrente de 40 A e opera com um fator de potência 0,8 (indutivo). Sabendo-se que as perdas do motor, nessas condições de operação, são 1.200 W, o valor aproximado do torque mecânico aplicado à carga, em Nm, é",
@@ -59,6 +73,20 @@
     "E": "117"
    },
    "correta": "B"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2018, Q27",
+   "q": "Fasores são elementos complexos, bastante empregados na solução de circuitos em corrente alternada, em seu estado estacionário senoidal. A Figura abaixo mostra o diagrama fasorial de uma fonte de tensão monofásica E alimentando uma carga com tensão terminal V T, conectadas por meio de um cabo, cuja impedância é Z  R  jX. Analisando-se o diagrama fasorial, conclui-se que a",
+   "alts": {
+    "A": "tensão E está em fase com a queda de tensão na resistência da linha.",
+    "B": "tensão E está atrasada em relação à tensão terminal V T de um ângulo .",
+    "C": "carga alimentada pelo gerador tem fator de potência indutivo.",
+    "D": "regulação de tensão do gerador é negativa, uma vez que |E|  |V T |.",
+    "E": "queda de tensão na reatância está 90 o atrasada em relação à corrente I do circuito."
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 28,
@@ -85,6 +113,20 @@
     "E": "50"
    },
    "correta": "B"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2018, Q32",
+   "q": "O esquema de aterramento de um sistema elétrico é o TN. Um usuário dessa instalação foi submetido a um choque por meio de um contato indireto. Para a intensidade desse choque, o tempo máximo de exposição deve ser de 6 segundos. A curva do disjuntor de 20 A do circuito do equipamento onde o usuário foi submetido ao choque é o apresentado na Figura abaixo. Sabendo-se que o disjuntor relaciona múltiplo de corrente nominal e tempo de exposição, para que o usuário tenha a sua integridade salvaguardada, a corrente de falta deve assumir um valor, em ampères, aproximadamente igual a",
+   "alts": {
+    "A": "40",
+    "B": "50",
+    "C": "60",
+    "D": "80",
+    "E": "110"
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 33,
@@ -152,6 +194,20 @@
    "correta": "C"
   },
   {
+   "n": 40,
+   "origem": "Cesgranrio 2018, Q40",
+   "q": "Um sistema linear de 2 a ordem é modelado em função de transferência por uma planta do tipo G(s)  K N(s) D(s), em que N(s) é o polinômio do numerador, e D(s) é o polinômio do denominador. Quando esse sistema é submetido a uma realimentação proporcional de saída, e o ganho K varia de 0 a  , os polos se movimentam no plano complexo, formando trajetórias que se caracterizam como o lugar das raízes, mostrado na Figura a seguir. Com base nos dados da Figura acima, a expressão da Função de Transferência de Malha Fechada em função do ganho K é",
+   "alts": {
+    "A": "G(s)  K s 2  8s  10",
+    "B": "G(s)  K(s10) s 2  10s  8K",
+    "C": "G(s)  K s 2  10s  8K  5",
+    "D": "G(s)  K(s10) s 2  (8K)s  10K",
+    "E": "G(s)  K(s8) s 2  (10K)s  8K"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 41,
    "origem": "Cesgranrio 2018, Q41",
    "q": "Seja um sistema de 2 a ordem, linear e analógico, que liga um sinal U de entrada ao sinal Y de saída e cujo modelo é representado pela função de transferência G(s)  Y(s) U(s)  K(s  5) (s  2)(s 10) Esse modelo foi submetido a uma realimentação proporcional de saída, fazendo com que o ganho K varie no intervalo 0  K . Na configuração acima descrita, vai ocorrer que, para um determinado valor do ganho K, um dos dois polos de malha fechada será zero, e o outro polo, consequentemente, terá valor igual a",
@@ -176,6 +232,34 @@
     "E": "s 0,5 e dois polos complexos conjugados s 2 j5"
    },
    "correta": "E"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2018, Q43",
+   "q": "Considere o circuito elétrico de corrente contínua mostrado na Figura a seguir: Com base nos teoremas de Norton e Thevenin, qual é o valor, em ohms, da resistência equivalente desse circuito, medida entre os pontos 1 e 2?",
+   "alts": {
+    "A": "15",
+    "B": "20",
+    "C": "35",
+    "D": "40",
+    "E": "55"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2018, Q44",
+   "q": "Considere o circuito elétrico de corrente contínua e puramente resistivo, mostrado na Figura abaixo. Conectando-se uma carga resistiva de 2 k entre os terminais a e b, qual é o valor, em mW, da potência dissipada nessa carga?",
+   "alts": {
+    "A": "0,72",
+    "B": "0,96",
+    "C": "1,75",
+    "D": "2,24",
+    "E": "2,88"
+   },
+   "correta": "A",
+   "pedeFigura": true
   },
   {
    "n": 45,
@@ -204,6 +288,34 @@
    "correta": "E"
   },
   {
+   "n": 47,
+   "origem": "Cesgranrio 2018, Q47",
+   "q": "Considere a Figura a seguir que mostra um trecho de uma rede de distribuição aérea. O dispositivo destacado na Figura é um(a)",
+   "alts": {
+    "A": "para-raio",
+    "B": "disjuntor",
+    "C": "religador",
+    "D": "chave-faca",
+    "E": "chave-fusível"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2018, Q48",
+   "q": "Uma comissão de engenheiros foi incumbida de avaliar quatro projetos de malhas de aterramento, denominados projetos P1, P2, P3 e P4. A Tabela abaixo exibe os resultados do dimensionamento de cada projeto referentes a critérios de potencial de toque e de passo. Projetos Critérios de dimensionamento P1 P2 P3 P4 Potencial de toque de malha (V) 300 600 800 300 Potencial de toque na cerca (V) 300 600 800 300 Potencial de passo da malha (V) 1600 900 2000 2000 Potencial de passo na periferia da malha (V) 1600 900 2000 2000 Sabe-se, ainda, que os potenciais de toque e de passo admissíveis são, respectivamente, 700 V e 1900 V. Atende(m) aos critérios de dimensionamento APENAS o(s) projeto(s)",
+   "alts": {
+    "A": "P1",
+    "B": "P2",
+    "C": "P3",
+    "D": "P1 e P2",
+    "E": "P1 e P4"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 49,
    "origem": "Cesgranrio 2018, Q49",
    "q": "Considere um ramal de distribuição de 13,8 kV, protegido por um relé de sobrecorrente temporizado, que obedece à seguinte curva de proteção: Sabe-se que • a relação de transformação do transformador de corrente é 100:5; • a corrente de ajuste secundária da unidade temporizada é 3 A. Caso ocorra uma falta bifásica no ramal, cujo valor da corrente seja de 480 A, em quantos segundos, a partir do instante em que ocorreu a falta, o relé deverá atuar?",
@@ -215,6 +327,160 @@
     "E": "0,1"
    },
    "correta": "C"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2018, Q53",
+   "q": "O circuito da Figura abaixo tem como objetivo controlar a potência que uma fonte de tensão alternada V S entrega para uma carga resistiva R L. A potência na carga é controlada através do disparo de um SCR (Silicon Controlled Rectifier). As formas de onda da tensão alternada V S e da tensão de disparo V G também estão representadas na Figura abaixo. Considerando-se ideais o diodo e o SCR, a corrente média, em ampères, que circula pelo SCR é igual a",
+   "alts": {
+    "A": "0",
+    "B": "1 ",
+    "C": "2 ",
+    "D": "4 ",
+    "E": ""
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2018, Q55",
+   "q": "Em uma planta industrial, uma bomba de combustível é utilizada para bombear óleo diesel para um tanque de armazenamento. Quando acionada, essa bomba mantém a vazão de óleo constante em 20 litros por minuto. O acionamento dessa bomba é comandado por um Controlador Lógico Programável (CLP), cuja programação em linguagem ladder está ilustrada abaixo, onde B é o sinal que aciona a bomba quando em nível lógico alto. Na Figura também é mostrada a evolução no tempo dos sinais de comando X 1 e X 2. Considerando-se que o tanque de armazenamento inicia a sua operação em t = 0 completamente vazio, qual será o volume, em litros, de óleo diesel armazenado nesse mesmo tanque no instante t  10 min?",
+   "alts": {
+    "A": "80",
+    "B": "100",
+    "C": "120",
+    "D": "140",
+    "E": "160"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2018, Q56",
+   "q": "O circuito representado na Figura abaixo é um conversor de potência do tipo CC-CC, cuja finalidade é converter uma tensão não regulada V DC em uma tensão regulada V O aplicada em uma carga R L, onde o valor da tensão na carga é controlado através do ciclo de trabalho da chave S 1. Nesse conversor,",
+   "alts": {
+    "A": "o ciclo de trabalho da chave também deve ser aumentado para manter constante o valor da tensão V O, caso a tensão V DC aumente.",
+    "B": "a tensão na saída V O será maior que a tensão V DC, se o ciclo de trabalho da chave S 1 for superior a 50% do período.",
+    "C": "a polaridade da tensão V O na saída é invertida em relação à tensão V DC na entrada.",
+    "D": "a tensão média V D1 no diodo é igual à tensão média na carga R L em regime permanente.",
+    "E": "a corrente média na resistência de carga R L é igual à corrente média fornecida pelo capacitor C em regime permanente."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2018, Q58",
+   "q": "O circuito passivo representado na Figura abaixo apresenta valores normalizados para os seus componentes. Nesse circuito, a chave ideal tem estado aberta por bastante tempo, até que, em t = 0 s, ela é fechada instantaneamente. Assim, a transformada de Laplace da tensão V O após o fechamento da chave é dada por:",
+   "alts": {
+    "A": "8 (s 1) s 2 s 1",
+    "B": "8s 4 s 2 s 1",
+    "C": "8s  4 s 2 s 1",
+    "D": "8 (s 1) s 2 s 1",
+    "E": "4s 8 s 2 s 1"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2018, Q59",
+   "q": "Um campo magnético B \u0002 uniforme, orientado na direção y, encontra-se inserido no espaço pontilhado, conforme ilustrado na Figura a seguir. Uma partícula de massa M e carga elétrica +Q, com velocidade v \u0002 constante e na direção y, penetra no espaço do campo magnético. Enquanto estiver no interior do campo, o módulo da velocidade instantânea v \u0002 da partícula e a forma de sua trajetória serão, respectivamente,",
+   "alts": {
+    "A": "crescente e hiperbólica",
+    "B": "decrescente e circular",
+    "C": "constante e elíptica",
+    "D": "constante e circular",
+    "E": "constante e retilínea"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2018, Q61",
+   "q": "O circuito ilustrado na Figura abaixo encontra-se funcionando em regime permanente, sendo alimentado por uma fonte de tensão CC de 10 V e uma fonte de corrente de 2 A. Os componentes são considerados ideais. Nessas condições, a corrente I L que passa pelo resistor de 12 , medida em ampères, é",
+   "alts": {
+    "A": "0,50",
+    "B": "0,75",
+    "C": "1,50",
+    "D": "2,00",
+    "E": "2,25"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2018, Q62",
+   "q": "Considere o circuito ilustrado na Figura abaixo, cuja entrada é a tensão V I e cuja saída é a tensão V o. A função de transferência     O I V s V s do circuito é:",
+   "alts": {
+    "A": "  B A B A B sLR sL R + R + R R",
+    "B": "B A A B sLR sLR + R R",
+    "C": "  B A B A sLR sL R + R + R",
+    "D": "  A A B B sLR sL R + R + R",
+    "E": "B B A sLR sLR + R"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2018, Q63",
+   "q": "A Figura abaixo ilustra um circuito em que V I é a tensão de entrada, V o é a tensão de saída, e em que os componentes são considerados ideais: A equação diferencial que relaciona V I (t) e V o (t) é:",
+   "alts": {
+    "A": "o o I dV R + CV = V dt",
+    "B": "o o I dV + RCV = V dt",
+    "C": "I I o dV + RCV = V dt",
+    "D": "I I o dV RC + V = V dt",
+    "E": "o o I dV RC + V = V dt"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2018, Q64",
+   "q": "Considere o triângulo ABC ilustrado na Figura abaixo, onde os eixos estão em centímetros. Deseja-se inscrever, nesse triângulo, o retângulo mostrado na Figura em linhas pontilhadas, tendo a maior área possível, observando-se que um dos seus lados estará sobre o segmento BC, um dos vértices estará apoiado no segmento AB, e o outro, no AC. Qual é a maior área, em cm 2, do retângulo inscrito?",
+   "alts": {
+    "A": "56",
+    "B": "72",
+    "C": "75",
+    "D": "78",
+    "E": "85"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2018, Q67",
+   "q": "Um sistema formado por dois equipamentos, que funcionava com a chave Ch1 aberta, teve seu comportamento dinâmico modificado quando a chave Ch1 foi fechada, conforme ilustrado na Figura abaixo. Face ao exposto acima, considerando-se uma entrada do tipo degrau em r(t), os tipos de comportamento dos sinais de saída c(t), com a chave Ch1 aberta e, em seguida, com a chave Ch1 fechada, serão, respectivamente:",
+   "alts": {
+    "A": "superamortecido e criticamente amortecido",
+    "B": "superamortecido e superamortecido",
+    "C": "superamortecido e subamortecido",
+    "D": "subamortecido e superamortecido",
+    "E": "subamortecido e subamortecido"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2018, Q69",
+   "q": "O engenheiro responsável por uma planta industrial alterou seu comportamento dinâmico por meio de realimentação unitária, conforme ilustrado na Figura abaixo. Dessa forma, em malha fechada, as novas posições dos polos no plano s serão:",
+   "alts": {
+    "A": "s 1,2 = 1±2j",
+    "B": "s 1,2 = 1±4j",
+    "C": "s 1,2 = 2±2j",
+    "D": "s 1,2 = 2±4j",
+    "E": "s 1,2 = 4±2j"
+   },
+   "correta": "A",
+   "pedeFigura": true
   }
  ],
  "deFora": {

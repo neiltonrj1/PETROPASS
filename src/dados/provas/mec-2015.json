@@ -6,8 +6,50 @@
  "processo": "BR Distribuidora PSP 1/2014",
  "caderno": "4.pdf",
  "folhaGabarito": "44.pdf",
- "total": 34,
+ "total": 39,
  "questoes": [
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2015, Q26",
+   "q": "A chapa triangular mostrada na Figura abaixo é fixada a uma estrutura por meio de 3 parafusos posicionados em P, Q e R. P S R Q Se as forças dos parafusos em P e R possuem as direções indicadas, a condição de equilíbrio estático da chapa é tal que a força do parafuso em Q, atuante sobre a chapa, possui a direção",
+   "alts": {
+    "A": "paralela ao segmento PQ",
+    "B": "paralela ao segmento RQ",
+    "C": "paralela ao segmento SQ",
+    "D": "perpendicular ao segmento SQ",
+    "E": "perpendicular ao segmento RQ"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2015, Q27",
+   "q": "A viga biapoiada mostrada na Figura abaixo está sujeita à ação de uma força concentrada F em sua extremidade livre. P N F M a b O momento fletor interno atuante na seção do apoio N da viga é",
+   "alts": {
+    "A": "nulo, pois o apoio N da viga não reage a momentos.",
+    "B": "nulo, pois o apoio N da viga é similar a uma rótula.",
+    "C": "máximo, e a fibra superior da viga é comprimida.",
+    "D": "máximo, e a fibra superior da viga é tracionada.",
+    "E": "diferente de zero e não é máximo."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2015, Q28",
+   "q": "O perfil I mostrado na Figura é utilizado como viga e estará sujeito à flexão, para a qual vale a relação  = Mc/I, onde M é o momento fletor atuante na seção, c é a distância da linha neutra (LN) até a fibra mais externa, e I é o momento de inércia da área da seção transversal. O perfil é utilizado de tal modo que a linha neutra pode estar apoiada sobre o eixo x ou sobre o eixo y. A viga apresentará maior resistência à flexão se a linha neutra estiver sobre o eixo",
+   "alts": {
+    "A": "x, porque I x > I y",
+    "B": "x, porque I x < I y",
+    "C": "y, porque I x < I y",
+    "D": "y, porque I y < I x",
+    "E": "x ou sobre o eixo y, pois I x = I y"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
   {
    "n": 29,
    "origem": "Cesgranrio 2015, Q29",
@@ -332,6 +374,34 @@
     "E": "realização do serviço em um equipamento sob falha, justamente para sanar essa falha."
    },
    "correta": "B"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2015, Q56",
+   "q": "Desejando determinar a resistência desconhecida R x do circuito mostrado na Figura abaixo, um operador mediu a resistência equivalente entre os pontos 1 e 3 do circuito e obteve o valor de 3,0 . 1 R 2 3 R x R Considerando a configuração do circuito e o valor da resistência R = 2,0 , o operador verificou que o valor da resistência R x, em , é de",
+   "alts": {
+    "A": "0,5",
+    "B": "1,0",
+    "C": "1,5",
+    "D": "2,0",
+    "E": "2,5"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2015, Q57",
+   "q": "O esquema mostrado na Figura abaixo representa a conexão entre dois circuitos por meio de um transformador ideal de módulo m. Se a relação entre as correntes é tal que I 2 = m I 1, a relação entre as tensões V 1-2 /V 3-4 é",
+   "alts": {
+    "A": "1",
+    "B": "m",
+    "C": "m 2",
+    "D": "1/m",
+    "E": "1/m 2"
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 58,

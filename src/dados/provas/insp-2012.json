@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 1/2012",
  "caderno": "prova_16_engenheiro_a_de_equipamentos_junior_inspecao.pdf",
  "folhaGabarito": "gabarito_nivel_superior.pdf",
- "total": 45,
+ "total": 49,
  "questoes": [
   {
    "n": 21,
@@ -321,6 +321,20 @@
    "correta": "D"
   },
   {
+   "n": 46,
+   "origem": "Cesgranrio 2012, Q46",
+   "q": "Três materiais foram inicialmente escolhidos para a produção de um eixo que irá trabalhar sob tensão e compressão, completando um ciclo a cada 63 segundos. O período de vida estabelecido no projeto é de 20 anos, e a variação da tensão média aplicada pode ser descrita pela equação: S(MPa) = 200 + 300 sen(2 πvt), onde o tempo t é dado em segundos, as tensões são em MPa e ν é a frequência. Esses materiais sofreram um teste de fadiga que gerou o gráfico abaixo. Nessa situação e considerando o gráfico acima, que materiais podem ser empregados na produção do eixo?",
+   "alts": {
+    "A": "Somente o material A",
+    "B": "Somente o material B",
+    "C": "Somente o material C",
+    "D": "Somente os materiais A e C",
+    "E": "Somente os materiais B e C"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
    "n": 47,
    "origem": "Cesgranrio 2012, Q47",
    "q": "Dois materiais estão sendo considerados para a produção de uma mola. Esses materiais apresentam as seguintes propriedades: material X, o limite de elasticidade ocorre para uma deformação de 0,05, e o módulo de elasticidade é 100 MPa; material Y, o limite de elasticidade ocorre para uma deformação de 0,01, e o módulo de elasticidade é 1000 MPa. Os dois materiais apresentam um comportamento linear-elástico até o limite da elasticidade. A mola com a maior capacidade de armazenar energia é a produzida com o material",
@@ -373,6 +387,20 @@
    "correta": "C"
   },
   {
+   "n": 51,
+   "origem": "Cesgranrio 2012, Q51",
+   "q": "Disponível em: <http://www.crct.polymtl.ca/ephweb.php>. Acesso em: 04 mar. 2012. Adaptado. O Diagrama de Pourbaix do sistema Cobre-H 2 O está apresentado na figura acima. Esse diagrama é muito empregado para estabelecer as condições de corrosão do cobre quando imerso em um meio aquoso, em função do potencial elétrico do cobre relativo ao eletrodo de hidrogênio, Eh, e do pH da solução. A partir da leitura do diagrama, verifica-se que o cobre metálico",
+   "alts": {
+    "A": "forma um óxido para pH = 3 e Eh = −0,4.",
+    "B": "se dissolve na solução para pH = 10 e Eh = 0.",
+    "C": "se dissolve na solução para pH = 3 e Eh = 0.",
+    "D": "se dissolve na solução para pH = 3 e Eh = 0,4.",
+    "E": "não forma hidróxido para pH = 10 e Eh = 0,4."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 52,
    "origem": "Cesgranrio 2012, Q52",
    "q": "A observação da superfície de fratura de um material que falha em serviço é uma etapa importante para a identificação dos mecanismos prováveis que causaram a falha. Essa observação precisa ser realizada no microscópio eletrônico de varredura para que os detalhes de relevo sejam bem visualizados. A partir disso, sabe-se que a fratura",
@@ -384,6 +412,20 @@
     "E": "frágil ocorre com baixa absorção de energia e, portanto, apresenta uma superfície rugosa pela nucleação e crescimento de vazios."
    },
    "correta": "C"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2012, Q53",
+   "q": "Um oleoduto precisa ser substituído numa região em que a temperatura no inverno mais rigoroso chega a −15 °C. A empresa possui condições de escolher aços de quatro fabricantes distintos. Todos os aços apresentam características de resistência mecânica, limite de escoamento, deformação e energia de impacto Charpy na temperatura ambiente (valor mínimo Ea), dentro dos limites impostos pelo projeto. No entanto, as curvas de energia de impacto Charpy, em função da temperatura do corpo de prova, apresentam comportamentos bem distintos, conforme mostrado na figura a seguir. Considerando a figura acima, que aços podem ser empregados para substituir o atual oleoduto?",
+   "alts": {
+    "A": "Aço D",
+    "B": "Aço C",
+    "C": "Aço A",
+    "D": "Aços A e B",
+    "E": "Aços A, B e C"
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 54,
@@ -410,6 +452,20 @@
     "E": "óxido de ferro, que é um composto de ferro e oxigênio. BLOCO 3"
    },
    "correta": "A"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2012, Q56",
+   "q": "Disponível em: <http://www.bohlerweldinggroup.com.ar/spanish/130_ESN_HTML.htm>. Acesso em: 03 abr. 2012. Adaptado. O diagrama de Schaeffler, apresentado acima, é uma importante ferramenta adotada no estudo da soldabilidade dos aços inoxidáveis. Assim, deseja-se fazer uma solda dissimilar entre um aço estrutural (Cr eq =0,4 e Ni eq =7,8) e outro inoxidável (Cr eq =20,8 e Ni eq =14,9), adotando o material de adição X (Cr eq =25,4 e Ni eq =15,1) ou Y (Cr eq =31,9 e Ni eq =13,4). A tabela abaixo apresenta a diluição de diferentes processos de soldagem. Processo Diluição (%) eletrodo revestido 10-30 TIG com adição 2-20 plasma com adição 20-40 Nesse contexto, para a obtenção de",
+   "alts": {
+    "A": "5-20% de ferrita, o material de adição X necessita maior diluição que Y.",
+    "B": "0-5% de ferrita, o material de adição Y poderá ser adotado conjuntamente com o processo TIG.",
+    "C": "0-5% de ferrita, um material de adição Y poderá ser adotado com qualquer dos processos.",
+    "D": "15% de ferrita, o material de adição X poderá ser adotado conjuntamente com o processo de eletrodo revestido.",
+    "E": "30-40% de ferrita, o material de adição X poderá ser adotado."
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 57,

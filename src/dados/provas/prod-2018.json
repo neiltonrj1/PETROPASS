@@ -6,8 +6,22 @@
  "processo": "Transpetro PSP RH 2018.1",
  "caderno": "engenheiro_a_junior_producao.pdf",
  "folhaGabarito": "gabarito_definitivo.pdf",
- "total": 42,
+ "total": 46,
  "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2018, Q21",
+   "q": "Uma das atividades principais na fabricação de pregos para a construção civil é o corte de bobinas de arame. Sabe-se que a empresa X produz pregos para a construção civil, e seu processo encontra-se estatisticamente controlado: o comprimento desses pregos é de 10 cm, e o desvio-padrão é de 0,5 cm. A cada hora o supervisor de qualidade extrai 4 pregos desse processo para elaborar um gráfico de controle. A partir desse processo amostral, quais os limites superior e inferior, respectivamente, desse gráfico de controle, considerando-se que tais limites se encontram 3 desvios- -padrão distantes da média?",
+   "alts": {
+    "A": "10,25 cm e 9,75 cm",
+    "B": "10,50 cm e 9,50 cm",
+    "C": "10,75 cm e 9,25 cm",
+    "D": "11,00 cm e 9,00 cm",
+    "E": "11,50 cm e 8,50 cm"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
   {
    "n": 22,
    "origem": "Cesgranrio 2018, Q22",
@@ -191,6 +205,20 @@
    "correta": "C"
   },
   {
+   "n": 36,
+   "origem": "Cesgranrio 2018, Q36",
+   "q": "Considere a rede de projeto da Figura abaixo, onde as durações de cada atividade estão indicadas em semanas entre parênteses. A(2) B(1) C(1) D(2) E(5) F(5) G(1) Tem(êm) folga a(s) atividade(s)",
+   "alts": {
+    "A": "F",
+    "B": "B",
+    "C": "D",
+    "D": "A e C",
+    "E": "E e F"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 37,
    "origem": "Cesgranrio 2018, Q37",
    "q": "Uma empresa captou R$ 100.000 reais a uma taxa de juros compostos de 1% ao mês. Ao cabo de seis meses no futuro, essa dívida terá um valor em reais, no presente, de",
@@ -215,6 +243,20 @@
     "E": "há necessidade de fazer análises de sensibilidade dos resultados obtidos."
    },
    "correta": "D"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2018, Q39",
+   "q": "Um distribuidor de bebidas servindo as cidades do Rio de Janeiro, São Paulo e Belo Horizonte optou em localizar seu Centro de Distribuição para minimizar os custos de transportes utilizando o método do centroide a partir das coordenadas da Figura abaixo. Sabendo-se que a demanda é de 320 unidades no Rio de Janeiro, 220 em São Paulo e 495 em Belo Horizonte, o CD foi localizado nas coordenadas",
+   "alts": {
+    "A": "5 e 15",
+    "B": "10 e 17",
+    "C": "21 e 12",
+    "D": "14 e 15",
+    "E": "23 e 10"
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 43,
@@ -423,6 +465,20 @@
     "E": "declaração de missão"
    },
    "correta": "A"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2018, Q60",
+   "q": "Noventa e cinco por cento dos problemas relacionados à qualidade podem ser resolvidos com o uso de sete ferramentas quantitativas básicas, dentre as quais figura a Análise de Pareto. As “sete ferramentas para a qualidade”, como ficaram conhecidas, destinam-se a auxiliar pessoas na resolução de problemas de qualidade. A Análise de Pareto tem o objetivo de",
+   "alts": {
+    "A": "Identificar as possíveis causas-raízes de um problema.",
+    "B": "hierarquizar os fatos para uma ação corretiva imediata.",
+    "C": "estabelecer os pontos de inspeção em um processo.",
+    "D": "descrever o fluxo de material em um processo.",
+    "E": "manter o controle de um processo."
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 61,

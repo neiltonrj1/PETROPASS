@@ -6,8 +6,36 @@
  "processo": "Transpetro PSP RH 002/2008",
  "caderno": "Elétrica\\prova8.pdf",
  "folhaGabarito": "Elétrica\\transpetro0208_gabsup.pdf",
- "total": 6,
+ "total": 8,
  "questoes": [
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2008, Q28",
+   "q": "A figura apresenta a parte de controle do circuito de acionamento de duas máquinas trifásicas, comandadas por intermédio dos contatores C1 e C2. As chaves S0 e S1 são do tipo sem retenção. A ação de acionar uma chave significa apertá-la e, em seguida, deixá-la retornar à sua posição inicial. Os relés K1 e K2 são do tipo com retardo na ligação, programados para 15 minutos e 40 minutos, respectivamente. O relé K3 é do tipo com retardo no desligamento, programado para 20 minutos. Com o sistema em condições normais de funcionamento, considere que o operador tenha acionado a chave S0 e, após 1 minuto, a chave S1. Nessa situação, sem que haja novas interferências do operador, analise as seguintes afirmativas: I - as duas máquinas funcionarão, simultaneamente, por cerca de 20 minutos a cada hora; II - a máquina comandada pelo contator C1 funcionará cerá desligada nos 15 minutos restantes de cada hora; III - a máquina comandada por C2 funcionará por 25 minutos a cada hora; IV - a máquina comandada por C2 funcionará sozinha por mais de 10 minutos a cada hora. Estão corretas APENAS as seguintes afirmativas",
+   "alts": {
+    "A": "X cosEE2EE RS 2 R 2 S d--",
+    "B": "X cosEE2EE RS 2 R 2 S d-+",
+    "C": "2 RS 2 R 2 S X cosEE2EE d-+",
+    "D": "X cosEE2EE RS 2 R 2 S d++",
+    "E": "2 RS 2 R 2 S X cosEE2EE d++ W Z T S Q"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2008, Q31",
+   "q": "Na figura acima é mostrada uma parte de um programa de um controlador lógico programável (CLP), em linguagem LADDER. A expressão “booleana” da saída S é",
+   "alts": {
+    "A": "T Q (W + Z)• •",
+    "B": "T (Q + W Z)• •",
+    "C": "T (Q + W Z)• •",
+    "D": "T (Q W + Z)• •",
+    "E": "T (Q + W Z)• +"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
   {
    "n": 33,
    "origem": "Cesgranrio 2008, Q33",

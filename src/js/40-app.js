@@ -1111,6 +1111,44 @@ function iniciaSimulado(pid){
   document.querySelectorAll('#nav button,.snav button').forEach(b=>b.classList.toggle('on', b.dataset.v==='provas'));
   window.scrollTo(0,0); render();
 }
+/* A regra de corte que o edital de 2026 aplica de verdade (subitem 7.1.4.3):
+   elimina quem tiver menos de 50% nas Específicas, OU menos de 50% nas
+   Gerais, OU grau ZERO em Português ou em Inglês isoladamente. Um acerto
+   geral de 70% não diz nada se o candidato zerou Inglês — e era só o
+   percentual geral que o simulado mostrava.
+
+   As provas do acervo só trazem as Específicas (Q21–70 ou Q26–70), então
+   o que dá para julgar aqui é a Fase 1. As Gerais entram como lembrete,
+   porque é onde a maioria dos engenheiros é reprovada.                 */
+function corteDoEdital(p, R){
+  const esp = p.questoes.filter(q => q.n >= 21);
+  if(!esp.length) return '';
+  const feitas = esp.filter(q => R[q.n] !== undefined).length;
+  if(!feitas) return '';
+  const certas = esp.filter(q => R[q.n] === q.correta).length;
+  /* o corte é sobre o total da fase, não sobre o que foi respondido */
+  const pctFase = Math.round(certas / esp.length * 100);
+  const passou = pctFase >= 50;
+  const faltam = Math.max(0, Math.ceil(esp.length * 0.5) - certas);
+  return `<div class="card">
+    <h2>Corte do edital</h2>
+    <div class="qz-bloco ${passou ? 'bom' : 'ruim'}">
+      <h4>${passou ? '✔ Passaria na Fase 1' : '✘ Seria eliminado na Fase 1'}</h4>
+      <div>Você acertou <b>${certas} de ${esp.length}</b> nas Específicas — <b>${pctFase}%</b>.
+      O edital elimina abaixo de <b>50%</b> (${Math.ceil(esp.length * 0.5)} acertos).
+      ${passou ? '' : `Faltaram <b>${faltam}</b> acertos.`}
+      ${feitas < esp.length ? `<br><span class="hint">Você respondeu ${feitas} das ${esp.length}; as em branco contam como erro, igual na prova.</span>` : ''}</div>
+    </div>
+    <div class="qz-bloco atencao">
+      <h4>⚠ E ainda tem a Fase 2, que este caderno não traz</h4>
+      <div>São <b>10 de Português e 10 de Inglês</b>. O edital elimina quem
+      fizer menos de <b>50% nas Gerais</b> (10 de 20) <b>ou tirar zero em
+      qualquer uma das duas</b> — zerar Inglês reprova sozinho, com qualquer
+      nota nas Específicas. Treine essas na trilha, aba <b>Estudar</b>.</div>
+    </div>
+  </div>`;
+}
+
 function renderSimulado(){
   const p = DATA.provas.find(p=>p.id===SIM.id);
   const R = S.quiz[p.id] = S.quiz[p.id]||{};
@@ -1123,7 +1161,8 @@ function renderSimulado(){
       <div style="font-size:2.6rem;font-weight:800;color:var(--verde)">${pct}%</div>
       <p style="color:var(--ink2);font-size:.86rem;margin:8px 0 15px">${certas} de ${feitas} respondidas · ${esc(p.nome)} ${p.ano}</p>
       <div class="row"><button class="btn btn-p" onclick="SIM.i=0;render()">Rever da primeira</button>
-      <button class="btn btn-s" onclick="SIM=null;render()">Voltar</button></div></div>`;
+      <button class="btn btn-s" onclick="SIM=null;render()">Voltar</button></div></div>`
+      + corteDoEdital(p, R);
     return;
   }
   const q = p.questoes[SIM.i], resp = R[q.n];

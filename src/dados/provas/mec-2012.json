@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 1/2011 (prova em 05/02/2012)",
  "caderno": "3.pdf",
  "folhaGabarito": "33.pdf",
- "total": 26,
+ "total": 33,
  "questoes": [
   {
    "n": 26,
@@ -20,6 +20,20 @@
     "E": "3 será superior à da coluna 1 independentemente da relação de áreas."
    },
    "correta": "D"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2012, Q27",
+   "q": "Uma chapa é cortada na forma de um L e fixada a uma estrutura por meio de três parafusos, posicionados nos pontos P, Q e R. Se as forças dos parafusos em P e R exercem sobre a chapa as forças F P e F R, respectivamente, conforme indicado na figura, o equilíbrio estático da chapa será obtido por uma força F Q exercida pelo parafuso em Q cuja direção é",
+   "alts": {
+    "A": "paralela a QR",
+    "B": "paralela a PQ",
+    "C": "paralela a QS",
+    "D": "perpendicular a QS",
+    "E": "perpendicular a PR Utilize as informações a seguir para responder às questões de n os 28 e 29. A figura mostra um mecanismo biela -manivela -pistão. O comprimento da manivela é R. O ângulo entre a biela e a manivela é 90 o."
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 28,
@@ -74,6 +88,20 @@
    "correta": "C"
   },
   {
+   "n": 33,
+   "origem": "Cesgranrio 2012, Q33",
+   "q": "Se a forma da seção transversal da viga for a de um T, como mostrado na figura (2), e a tensão admissível de projeto for de mesmo valor numérico para tração e para compressão, a viga será projetada considerando o ponto mais solicitado que, nesse caso, é o ponto",
+   "alts": {
+    "A": "P, no qual atua a maior tensão normal de tração.",
+    "B": "Q, no qual atua a maior tensão cisalhante.",
+    "C": "Q, no qual atua a maior tensão normal de tração.",
+    "D": "R, no qual atua a maior tensão normal de tração.",
+    "E": "R, no qual atua a maior tensão cisalhante."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 34,
    "origem": "Cesgranrio 2012, Q34",
    "q": "Dois corpos de prova, (1) e (2), de materiais distintos (E 1 ≠ E 2) e geometrias idênticas (A 1 = A 2 e L 1 = L 2), são submetidos a um ensaio de tração no regime elástico até uma carga F. Sendo E 1 > E 2, a",
@@ -98,6 +126,20 @@
     "E": "σ 1 = σ 2"
    },
    "correta": "B"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2012, Q36",
+   "q": "Um circuito RLC em série é alimentado por uma fonte de tensão E(t). Para monitorar a tensão nos terminais dos componentes do circuito, foram instalados dois voltímetros, V 1 e V 2, conforme mostrado na figura. A tensão nos terminais do capacitor é obtida por",
+   "alts": {
+    "A": "E(t) – V 2",
+    "B": "E(t) – V 1",
+    "C": "V 2 – V 1",
+    "D": "V 2 + E(t)",
+    "E": "V – E(t)"
+   },
+   "correta": "A",
+   "pedeFigura": true
   },
   {
    "n": 38,
@@ -165,6 +207,20 @@
    "correta": "C"
   },
   {
+   "n": 43,
+   "origem": "Cesgranrio 2012, Q43",
+   "q": "A figura representa a curva característica da vida de equipamentos, constituída de três períodos, a saber: Mortalidade Infantil, Vida Útil e Envelhecimento ou Degradação. As justificativas para o seu formato são que",
+   "alts": {
+    "A": "a grande incidência de falhas no período 1 decorre de componentes com defeitos de fabricação, deficiências de projeto ou de instalação.",
+    "B": "o comportamento praticamente constante nas falhas no período 2 é decorrente de manutenções corretivas.",
+    "C": "o comportamento praticamente constante nas falhas no período 2 é decorrente de desgaste natural.",
+    "D": "a ocorrência de falhas no período 3 decorre de fatores menos controláveis, como fadiga ou corrosão acelerada, e, assim, sua previsão é mais difícil.",
+    "E": "o comportamento crescente das falhas no período 3 decorre da complexidade do equipamento."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 44,
    "origem": "Cesgranrio 2012, Q44",
    "q": "O licenciamento ambiental das atividades de aquisição de dados sísmicos marítimos e em zonas de transição deve obedecer a seis etapas. Em uma delas, há o enquadramento das atividades pelo Ibama, considerando três classes, sendo necessária a elaboração dos seguintes documentos: plano de controle ambiental de sísmica – PCAS, estudo ambiental de sísmica – EAS, relatório de impacto ambiental de sísmica – RIAS e Licença de Pesquisa Sísmica – LPS. O conceito correto do PCAS é:",
@@ -176,6 +232,20 @@
     "E": "reunião pública com o intuito de explanar aos interessados sobre a atividade de aquisição de dados sísmicos, visando a dirimir dúvidas e a recolher críticas e sugestões a respeito."
    },
    "correta": "A"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2012, Q46",
+   "q": "Um produto apresenta consumo constante segundo o gráfico da figura. O eixo das abscissas representa o tempo de consumo em dias e o das ordenadas o estoque. O lead time é de três dias. A data de pedido de reposição do produto e o ponto de reposição são",
+   "alts": {
+    "A": "d 1 e Q 1",
+    "B": "d 4 e Q 2",
+    "C": "d 4 e Q 3",
+    "D": "d 7 e Q 2",
+    "E": "d 7 e Q 3"
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 47,
@@ -230,6 +300,20 @@
    "correta": "C"
   },
   {
+   "n": 53,
+   "origem": "Cesgranrio 2012, Q53",
+   "q": "Considerando que no manômetro diferencial, ilustrado na figura, o fluido 1 possui peso específico de 10.000 N/m 3, o fluido 2, de 136.000 N/m 3, e o fluido 3, de 7.000 N/m 3, o módulo da diferença de pressão, P a − P b, em kPa, é",
+   "alts": {
+    "A": "5,6",
+    "B": "17,0",
+    "C": "98,6",
+    "D": "133,4",
+    "E": "153,0"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 54,
    "origem": "Cesgranrio 2012, Q54",
    "q": "O adimensional que fornece uma medida da transferência de calor por convecção, que ocorre em uma superfície, e que corresponde ao gradiente de temperatura adimensional na superfície, é o número de",
@@ -254,6 +338,20 @@
     "E": "250"
    },
    "correta": "D"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2012, Q56",
+   "q": "Um dos lados de uma parede plana é mantido a 100 o C, enquanto o outro troca calor por convecção com um ambiente a 25 o C, conforme ilustra a figura. A condutividade térmica da parede é de 1,6 W/(m. o C). Considerando os processos de condução e de convecção presentes, o fluxo de calor unidimensional, em W/m 2, é",
+   "alts": {
+    "A": "75,0",
+    "B": "125,0",
+    "C": "187,5",
+    "D": "320,4",
+    "E": "425,3"
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 57,

@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 2018.1",
  "caderno": "engenheiro_a_de_equipamentos_junior_inspecao.pdf",
  "folhaGabarito": "gabarito_oficial.pdf",
- "total": 41,
+ "total": 50,
  "questoes": [
   {
    "n": 21,
@@ -59,6 +59,20 @@
     "E": "absorver energia durante o impacto em alta velocidade de um martelo."
    },
    "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2018, Q25",
+   "q": "Os aços A, B e C foram fornecidos com as respectivas curvas de ensaio Jominy, apresentadas no gráfico abaixo. Uma peça mecânica precisa ser usinada e depois temperada com um desses aços para obter uma dureza mínima de 50 HRC à profundidade de 3/16 pol da superfície. Os aços, em ordem CRESCENTE da taxa de resfriamento necessária para promover essa dureza nessa profundidade, são:",
+   "alts": {
+    "A": "aço A, aço B e aço C",
+    "B": "aço B, aço A e aço C",
+    "C": "aço B, aço C e aço A",
+    "D": "aço C, aço B e aço A",
+    "E": "aço C, aço A e aço B"
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 26,
@@ -152,6 +166,34 @@
    "correta": "D"
   },
   {
+   "n": 33,
+   "origem": "Cesgranrio 2018, Q33",
+   "q": "Uma empresa possui em seu estoque de cilindros de ferro quatro ligas de ferro carbono com as seguintes composições em massa de carbono: material A(%C < 0,01); material B(%C = 0,30); material C(%C= 1,00); material D(%C =0,75). No entanto, um funcionário novo embaralhou as etiquetas dos materiais. O engenheiro responsável pelo setor resolveu aproveitar o forno da empresa para identificar os materiais. Conhecedor do diagrama de fases Fe-C (Figura acima), cortou um pedaço pequeno de cada material e colocou no forno a 750°C por uma hora e resfriou ao ar. A observação microscópica revelou a microestrutura, e o engenheiro pôde identificar os materiais. Relacione cada material com sua composição. I – material A P - Ferrita pura II – material B Q - Perlita e ferrita pró- -eutetoide III – material C R - Perlita pura IV – material D S - Perlita e cementita pró-eutetoide T - Martensita e ferrita pró-eutetoide Estão corretas as relações",
+   "alts": {
+    "A": "I – P, II – Q, III – R, IV – S",
+    "B": "I – P, II – Q, III – S, IV – R",
+    "C": "I – P, II – S, III – T, IV – Q",
+    "D": "I – Q, II – S, III – T, IV – R",
+    "E": "I – Q, II – T, III – R, IV – S"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2018, Q34",
+   "q": "Considere uma liga de Fe-C com a composição em massa do carbono de 0,75%, conforme exibido na Figura acima. A quantidade de cementita formada quando essa liga é resfriada lentamente, vinda do campo austenítico até uma temperatura abaixo da temperatura eutetoide, é de",
+   "alts": {
+    "A": "89,1",
+    "B": "10,9",
+    "C": "50,1",
+    "D": "49,9",
+    "E": "12,3"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
    "n": 35,
    "origem": "Cesgranrio 2018, Q35",
    "q": "Alumínio e suas ligas estão cada vez mais presentes na indústria. Segundo as normas técnicas, essas ligas estão divididas em séries que dependem da composição e de tratamentos térmicos para o controle das propriedades mecânicas. A série 2XXX pode ser endurecida por precipitação, enquanto as séries 1XXX e 3XXX não são endurecidas por precipitação. O almoxarifado de uma empresa possui quatro ligas de alumínio com as seguintes características: I) A\u0002 puro, série 1XXX, recristalizado, cujo tamanho de grão é 10 m; II) A\u0002-Mn, série 3XXX, recristalizado, cujo tamanho de grão é 10 m; III) A\u0002-Mn, série 3XXX, recristalizado, cujo tamanho de grão é 5 m; IV) A\u0002-Cu-Mg-Si, série 2XXX, solubilizado e envelhecido por precipitação, cujo tamanho de grão é 5 m. As ligas precisam ser organizadas em ordem crescente do limite de escoamento, mas não existe tempo para realizar um ensaio apropriado. O engenheiro, que tinha bom conhecimento dos mecanismos de endurecimento de ligas metálicas, ordenou corretamente as ligas em ordem crescente do limite de escoamento. A ordenação feita pelo engenheiro foi",
@@ -189,6 +231,20 @@
     "E": "I – T, II – R, III – S, IV – Q"
    },
    "correta": "D"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2018, Q38",
+   "q": "O sistema binário A-B, ilustrado na Figura abaixo, apresenta uma reação eutética. Uma liga, contendo 50% massa de B, foi resfriada de uma região contedo somente líquido até uma temperatura 0,1°C acima do eutético e mantida nessa temperatura até estabelecer o equilíbrio termodinâmico no sistema. A quantidade de líquido e a composição do líquido presentes nessa temperatura são:",
+   "alts": {
+    "A": "100% da fase líquida contendo 50% massa de B",
+    "B": "100% da fase líquida contendo 100% massa de B",
+    "C": "83,3% da fase líquida contendo 40% massa de B",
+    "D": "16,7% da fase líquida contendo 50% massa de B",
+    "E": "16,7% da fase líquida contendo 40% massa de B"
+   },
+   "correta": "C",
+   "pedeFigura": true
   },
   {
    "n": 39,
@@ -243,6 +299,20 @@
    "correta": "E"
   },
   {
+   "n": 43,
+   "origem": "Cesgranrio 2018, Q43",
+   "q": "A Figura abaixo apresenta três curvas esquemáticas de fluência de um mesmo material policristalino. A taxa de fluência do estágio secundário aumenta da curva I para a III como resultado das seguintes alterações nas condições experimentais:",
+   "alts": {
+    "A": "aumento do tamanho de grão médio e redução da tensão aplicada para uma mesma temperatura.",
+    "B": "aumento do tamanho de grão médio e redução da temperatura do ensaio para uma mesma tensão aplicada.",
+    "C": "aumento simultâneo da tensão aplicada e da temperatura do ensaio para um mesmo tamanho de grão.",
+    "D": "redução simultânea da tensão aplicada e da temperatura do ensaio para um mesmo tamanho de grão.",
+    "E": "redução da tensão aplicada para uma mesma temperatura e tamanho de grão."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 44,
    "origem": "Cesgranrio 2018, Q44",
    "q": "As curvas S x N apresentadas abaixo foram obtidas empregando a mesma razão tensão mínima por tensão máxima. Um determinado eixo sofrerá um carregamento cíclico dado pela expressão: S(t)=300+150sen(2νt)MPa, onde ν é a frequência de rotação do eixo. Para esse carregamento, verifica-se que o(s)",
@@ -282,6 +352,20 @@
    "correta": "A"
   },
   {
+   "n": 47,
+   "origem": "Cesgranrio 2018, Q47",
+   "q": "A Figura abaixo apresenta quatro curvas experimentais de energia absorvida em função da temperatura de Ensaio Charpy para quatro aços distintos. Um engenheiro precisa escolher dois aços para serem empregados na construção de estruturas que podem sofrer impactos. A construção terá lugar numa região cuja menor temperatura ambiente registrada nos últimos 100 anos foi 0°C, e cuja temperatura média é de 20°C. Os aços que devem ser escolhidos pelo engenheiro, considerando somente o ensaio Charpy, são aços",
+   "alts": {
+    "A": "A e B",
+    "B": "B e C",
+    "C": "A e C",
+    "D": "B e D",
+    "E": "C e D"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 48,
    "origem": "Cesgranrio 2018, Q48",
    "q": "Tubulações enterradas podem ser protegidas pelo método denominado proteção catódica galvânica. Este método emprega um",
@@ -293,6 +377,20 @@
     "E": "metal com potencial de redução mais positivo que o metal da tubulação para agir como anodo."
    },
    "correta": "D"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2018, Q49",
+   "q": "A Figura abaixo mostra a curva de polarização de um metal ativo-passivo (M → M+), na qual a abcissa é o logarítmo da corrente, e a ordenada é o potencial aplicado. As linhas numeradas de 1 a 7 indicam a concentração crescente dos ions de cromato, o agente oxidante empregado. Considerando essa figura esquemática, a concentração de agente oxidante que passiva o metal para todas as correntes é a",
+   "alts": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "5",
+    "E": "7"
+   },
+   "correta": "D",
+   "pedeFigura": true
   },
   {
    "n": 50,
@@ -319,6 +417,34 @@
     "E": "ferro irá favorecer a fragilização do cobre pelo hidrogênio."
    },
    "correta": "B"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2018, Q52",
+   "q": "A Figura abaixo é o diagrama de Pourbaix do Ferro (simplificado). De acordo com esse diagrama, um cano de ferro imerso na água com pH=7 poderá ser protegido da oxidação com a aplicação de um potencial elétrico de",
+   "alts": {
+    "A": "1,6 V",
+    "B": "0,8 V",
+    "C": "0,0 V",
+    "D": "0,4 V",
+    "E": "0,8 V"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2018, Q53",
+   "q": "A corrosão galvânica é, talvez, o mais importante mecanismo de corrosão dos metais. A Tabela abaixo apresenta os potenciais de redução de diversos elementos químicos. Reação de Redução Potencial Padrão (V) Mg 2+ (aq) + 2e  = Mg (s) -2,38 Zn 2+ (aq) + 2e  = Zn (s) -0,76 Fe 2+ (aq) + 2e  = Fe (s) -0,44 Ni 2+ (aq) + 2e  = Ni (s) -0,26 Sn 2+ (aq) + 2e  = Sn (s) -0,14 2H + + 2e  = H 2 (g) 0,00 Cu 2+ (aq) + 2e  = Cu (s) +0,34 Au 2+ (aq) + 3e  = Au (s) +1,42 A observação da Tabela permite concluir que, numa junção metálica entre o",
+   "alts": {
+    "A": "magnésio e o zinco, o zinco é o anodo.",
+    "B": "zinco e o estanho, o zinco é o anodo.",
+    "C": "estanho e o magnésio, o magnésio é o catodo.",
+    "D": "cobre e o estanho, o estanho é o catodo.",
+    "E": "níquel e o estanho, o níquel é o catodo."
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 54,

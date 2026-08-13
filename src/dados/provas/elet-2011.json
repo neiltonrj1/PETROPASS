@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 3/2011",
  "caderno": "Elétrica\\prova_9_engenheiro_a_junior_area_eletrica.pdf",
  "folhaGabarito": "gabaritos.pdf",
- "total": 19,
+ "total": 32,
  "questoes": [
   {
    "n": 21,
@@ -61,6 +61,34 @@
    "correta": "B"
   },
   {
+   "n": 27,
+   "origem": "Cesgranrio 2011, Q27",
+   "q": "A figura acima apresenta dois wattímetros W 1 e W 2 ligados a uma carga trifásica, com suas respectivas bobinas de tensão e corrente medindo A 1, V 1 e A 2, V 2. Sabe-se, pelo método adotado para a medição, que a potência ativa trifásica é dada pela expressão P 3Φ = A 1 V 1 cos 25 o + A 2 V 2 cos 85 o. Essa carga possui um fator de potência igual a",
+   "alts": {
+    "A": "cos 25 o",
+    "B": "cos 55 o",
+    "C": "cos 60 o",
+    "D": "cos 85 o",
+    "E": "cos 110 o"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2011, Q29",
+   "q": "G 1 T 1 T 2 Z LT Z C A figura acima mostra o diagrama unifilar de parte de um sistema elétrico de potência. O circuito é composto por um gerador, G1, dois transformadores, T 1 e T 2, uma linha de transmissão, Z LT, e uma carga, Z C. Para o trecho entre os dois transformadores, considere como valores de base a potência de 100 MVA e a tensão nominal da linha de 500 kV. Os dados de cada componente são apresentados no quadro abaixo, em suas respectivas bases. Componente Impedância Potência Base Tensão Base Gerador G 1 j 0,08 10 MVA 25 kV Transformador T 1 j 0,05 50 MVA 100 kV/500 kV Transformador T 2 j 0,10 100 MVA 500 kV/100 kV Linha de Transmissão Z LT j 0,05 100 MVA 500 kV Carga Z C j 0,20 100 MVA 100 kV De acordo com as informações acima, e supondo que o gerador está operando com tensão de 25 kV, o valor do módulo da corrente que passa pela linha, em valores por unidade (pu) na base da linha, é",
+   "alts": {
+    "A": "2,5",
+    "B": "5,0",
+    "C": "12,5",
+    "D": "15,0",
+    "E": "25,0"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 31,
    "origem": "Cesgranrio 2011, Q31",
    "q": "As constantes generalizadas de circuito de uma linha de transmissão monofásica são A = 0,80 1,5°, B = 145 85°Ω, C = 0,0025 89,7° S e D = 0,80 1,5°. Considere que a linha está em vazio, em regime permanente, e a tensão no terminal emissor é igual a 100 0° kV. Então, o valor, em kV, do módulo da tensão no terminal receptor da linha é",
@@ -72,6 +100,34 @@
     "E": "145"
    },
    "correta": "D"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2011, Q32",
+   "q": "V CC S 1 S 2 D 1 D 2 i m V m A força motriz de um carro elétrico é proveniente de um motor de corrente contínua. O motor é acionado por dois diodos, D 1 e D 2, e duas chaves estáticas autocomutáveis, S 1 e S 2, conforme indicado na figura acima, onde V CC é a tensão da bateria. Em qualquer instante, uma das chaves estáticas está conduzindo, enquanto a outra, não. Considere as afirmações abaixo sobre o acionamento do motor. I - A corrente i m, mostrada na figura, pode fluir nos dois sentidos. II - O carro pode andar em marcha a ré, isto é, o sentido de rotação do motor pode ser invertido. III - É possível recuperar energia para a bateria durante a ação de frenagem motora. É correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "I e III"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2011, Q34",
+   "q": "Dado: obtêm-se as impedâncias por: para i = 1,2,...6. Considere o circuito da figura acima, com três nós (1, 2 e 3), seis admitâncias (y 1 a y 6), alimentado por duas fontes senoidais de corrente, em regime permanente. Equacionando a solução desse circuito na forma matricial, obtém-se I = Y.V, onde I é o vetor das injeções de correntes nodais, Y a matriz de admitância nodal, e V o vetor das tensões nodais. A expressão do elemento Y 22 da matriz Y é",
+   "alts": {
+    "A": "y 1 + y 2 + y 3",
+    "B": "y 2 + y 4 + y 5",
+    "C": "y 4 + y 5 − y 6",
+    "D": "z 1 + z 2 + z 3",
+    "E": "(z 1 + z 4) − (z 3 − z 5)"
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 36,
@@ -100,6 +156,20 @@
    "correta": "B"
   },
   {
+   "n": 38,
+   "origem": "Cesgranrio 2011, Q38",
+   "q": "A figura acima apresenta um circuito elétrico, puramente resistivo, alimentado por uma fonte CC. As correntes elétricas nos trechos entre os pontos A-B, C-A e B-D são, respectivamente, em ampères, iguais a",
+   "alts": {
+    "A": "0,5; 0 e 0",
+    "B": "0,5; 0 e 0,5",
+    "C": "0; 0,33 e 0,5",
+    "D": "0; 0,16 e 0,33",
+    "E": "0,5; 0,16 e 0,33"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 39,
    "origem": "Cesgranrio 2011, Q39",
    "q": "O disjuntor termomagnético e o dispositivo à corrente Diferencial Residual (DR) são equipamentos de proteção muito utilizados em instalações elétricas de baixa tensão. As suas atuações ocorrem Para o disjuntor Para o DR",
@@ -111,6 +181,20 @@
     "E": "sobrecorrente corrente de fuga e corrente de curto-circuito"
    },
    "correta": "B"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2011, Q40",
+   "q": "O circuito da figura acima é composto por um amplificador operacional considerado ideal. Para que a função de transferência desse circuito seja, os valores de R, em Ω, e C, em F, devem ser, respectivamente",
+   "alts": {
+    "A": "5 e 0,001",
+    "B": "20 e 0,0025",
+    "C": "30 e 0,01",
+    "D": "15 e 0,1",
+    "E": "10 e 0,002 BLOCO 2"
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 41,
@@ -204,6 +288,48 @@
    "correta": "E"
   },
   {
+   "n": 53,
+   "origem": "Cesgranrio 2011, Q53",
+   "q": "O gráfico da figura acima mostra a função densidade de probabilidade de um experimento com uma variável aleatória X. O valor da amplitude A é",
+   "alts": {
+    "A": "0,10",
+    "B": "0,15",
+    "C": "0,20",
+    "D": "0,25",
+    "E": "0,30 Considere as informações a seguir para responder às questões de n os 54 e 55. Um sistema de 2 a ordem tem seu modelo em função de transferência representado, na forma padrão, por. As posições dos seus polos estão mostradas no gráfico da figura acima."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2011, Q54",
+   "q": "Com base no gráfico da Figura 1, esse sistema apresenta razão de amortecimento igual a",
+   "alts": {
+    "A": "0,2",
+    "B": "0,4",
+    "C": "0,6",
+    "D": "0,8",
+    "E": "1,0"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2011, Q55",
+   "q": "Considere o diagrama de realimentação mostrado na Figura 2, onde o ganho K varia positivamente até os polos alcançarem as posições mostradas na Figura 1. Os valores de a e K são, respectivamente,",
+   "alts": {
+    "A": "3 e 25",
+    "B": "3 e 12",
+    "C": "5 e 15",
+    "D": "6 e 12",
+    "E": "6 e 25 BLOCO 3"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
    "n": 56,
    "origem": "Cesgranrio 2011, Q56",
    "q": "Com respeito à equação M. x = y, em que e, analise as afirmativas abaixo. I - A equação apresenta uma única solução. II - O posto da matriz M é igual a 4. III - A nulidade da Matriz M é igual a 1. É correto APENAS o que se afirma em",
@@ -230,6 +356,20 @@
    "correta": "D"
   },
   {
+   "n": 60,
+   "origem": "Cesgranrio 2011, Q60",
+   "q": "Um carro encontra-se suspenso por meio de uma prensa hidráulica, conforme mostrado na figura acima. O diâmetro, d 1, do êmbolo maior que sustenta o carro é igual a 40 cm. O diâmetro, d 2, do êmbolo menor, é igual a 5 cm. Considere o fluido interno na prensa ideal e as massas dos êmbolos desprezíveis. Se a massa do carro é de 1.600 kg, qual é o valor da massa do contrapeso, em kg, para manter o carro suspenso e em equilíbrio?",
+   "alts": {
+    "A": "25",
+    "B": "50",
+    "C": "100",
+    "D": "200",
+    "E": "400"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 62,
    "origem": "Cesgranrio 2011, Q62",
    "q": "Em um sistema de bombeamento de água, utiliza-se uma bomba centrífuga cuja vazão e altura de carga total são, respectivamente, 0,5 m 3 /s e 3 m quando operando a 1.800 rpm. A bomba é acionada por um motor elétrico síncrono de 4 polos, conectado a uma rede elétrica de frequência igual a 60 Hz. Considere que o escoamento é permanente, não viscoso, uniforme e sem perdas. Se o motor elétrico for substituído por um motor síncrono de 2 polos, então, nessa nova condição, a altura de carga total da bomba, em metros, é",
@@ -254,6 +394,48 @@
     "E": "as duas afirmações são falsas."
    },
    "correta": "E"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2011, Q64",
+   "q": "A figura acima mostra o ciclo térmico para um gás ideal formado por dois processos isotérmicos e dois processos adiabáticos, em que Q 1 e Q 2 são as energias térmicas absorvida e rejeitada pelo gás. O ciclo térmico indicado na figura é conhecido como Ciclo de",
+   "alts": {
+    "A": "Rankine",
+    "B": "Otto",
+    "C": "Brayton",
+    "D": "Diesel",
+    "E": "Carnot"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2011, Q66",
+   "q": "Deseja-se medir a velocidade v do fluido 1 utilizando-se o instrumento mostrado na figura acima, que se encontra em repouso. A diferença de nível do fluido 2, nos tubos verticais, é de 5 cm, conforme indicado na figura. Considerando a aceleração da gravidade igual a 9,8 m/s 2 e sabendo-se que a densidade do fluido 1 é igual a 9,8 x 10 −5 vezes a densidade do fluido 2, qual é o valor, em m/s, da velocidade do fluido 1?",
+   "alts": {
+    "A": "50",
+    "B": "100",
+    "C": "250",
+    "D": "500",
+    "E": "1000"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2011, Q67",
+   "q": "Deseja-se fazer um pequeno orifício na parede de um reservatório de água, de forma que a água jorrada atinja exatamente o ponto x, localizado a uma distância de 6 m da base do reservatório, conforme indicado na figura acima. Assuma que o reservatório seja aberto e grande o suficiente para que o nível da água, H, permaneça constante e igual a 10 m, mesmo após a abertura do orifício. Diante dessas informações, o valor, em metros, da distância mínima, y, da lâmina d’água para que a água atinja o ponto x desejado é",
+   "alts": {
+    "A": "1,0",
+    "B": "3,0",
+    "C": "4,0",
+    "D": "6,0",
+    "E": "9,0"
+   },
+   "correta": "A",
+   "pedeFigura": true
   }
  ],
  "deFora": {

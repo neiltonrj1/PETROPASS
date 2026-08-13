@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP 03/2006",
  "caderno": "Elétrica\\37.pdf",
  "folhaGabarito": "gabsup.pdf",
- "total": 8,
+ "total": 11,
  "questoes": [
   {
    "n": 25,
@@ -35,6 +35,20 @@
    "correta": "B"
   },
   {
+   "n": 28,
+   "origem": "Cesgranrio 2006, Q28",
+   "q": "Um determinado circuito monofásico que alimenta um motor elétrico, cujo esquema de aterramento adotado é o TN-C, tem o seu neutro rompido. A máxima tensão que pode existir entre a carcaça do motor e o terra é igual a:",
+   "alts": {
+    "A": "tensão entre fase e neutro.",
+    "B": "tensão entre duas fases.",
+    "C": "zero.",
+    "D": "tensão entre neutro e terra.",
+    "E": "duas vezes a tensão entre fase e neutro."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 30,
    "origem": "Cesgranrio 2006, Q30",
    "q": "De acordo com a Primeira Lei da Termodinâmica, com relação às transformações isotérmicas de um gás ideal, é correto afirmar que o(a):",
@@ -48,6 +62,20 @@
    "correta": "A"
   },
   {
+   "n": 31,
+   "origem": "Cesgranrio 2006, Q31",
+   "q": "O circuito RLC da figura é visto como um sistema elétrico cuja entrada é a tensão e i (t) e a saída a tensão e o (t). É designado o seguinte vetor de estados: O modelo deste sistema em espaço de estado será representado pela seguinte equação de estado: As expressões de a e b, em função dos componentes, são, respectivamente:",
+   "alts": {
+    "A": "LC 1 e L R",
+    "B": "LCeRC",
+    "C": "L C e R L",
+    "D": "L R e LC 1",
+    "E": "LCeR"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 35,
    "origem": "Cesgranrio 2006, Q35",
    "q": "O sistema tarifário de energia elétrica segue um conjunto de normas e regulamentos, a fim de se estabelecer o preço da energia elétrica para os diversos tipos de consumidores. A responsabilidade pela regulamentação das tarifas é:",
@@ -59,6 +87,20 @@
     "E": "das Concessionárias de Energia Elétrica. C B A"
    },
    "correta": "C"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2006, Q36",
+   "q": "A figura mostra uma linha de transmissão trifásica com suas respectivas fases. Considere que)F(1 V é a tensão de seqüência positiva e que as impedâncias nas seqüências zero, positiva e negativa são, respectivamente, 0 EQU Z, 1 EQU Z e 2 EQU Z. Na fase A, ocorre uma falta para a terra. A expressão da corrente de falta FI é:",
+   "alts": {
+    "A": "2 EQU 1 EQU 0 EQU (F) 1 2ZZZ 3V ++",
+    "B": "2 EQU 1 EQU 0 EQU (F) 1 Z2ZZ 3V ++",
+    "C": "2 EQU 1 EQU 0 EQU (F) 1 3Z2ZZ V ++",
+    "D": "2 EQU 1 EQU 0 EQU (F) 1 2Z0,5ZZ V ++",
+    "E": "2 EQU 1 EQU 0 EQU (F) 1 ZZZ 3V ++"
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 37,

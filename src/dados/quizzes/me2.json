@@ -1,0 +1,577 @@
+[
+ {
+  "origem": "Cesgranrio 2023, Q70",
+  "q": "Um sistema binário A-B apresenta um líquido que se solidifica de forma eutética com uma fração molar de B igual a 0,5. A fase rica em B não apresenta solubilidade para o componente A. A fase rica em A apresenta uma solubilidade máxima de 0,2 de B na temperatura do eutético. Uma liga contendo 35% molar de B foi preparada pela mistura de proporções adequadas de A e B no estado líquido. Essa liga foi resfriada lentamente buscando alcançar a solidificação de equilíbrio. Qual a fase do primeiro constituinte precipitado e qual a sua quantidade, respectivamente?",
+  "alts": {
+   "A": "Fase rica em A, 50%",
+   "B": "Fase rica em A, 81,25%",
+   "C": "B puro, 35%",
+   "D": "B puro, 81,25%",
+   "E": "eutético"
+  },
+  "correta": "A",
+  "explica": "Duas decisões, nessa ordem. Primeiro QUAL fase: a liga tem 0,35 de B e o eutético está em 0,50 de B. Como 0,35 < 0,50, a liga é hipoeutética, fica à esquerda do eutético, e o primeiro sólido a nucleares no resfriamento lento é a fase primária (proeutética) daquele lado — a fase rica em A. Isso já mata C, D e E. Depois QUANTO: a fração de fase primária se lê logo ACIMA da temperatura eutética, no instante em que a fase rica em A atingiu o máximo e o líquido que sobrou já chegou à composição eutética. Regra da alavanca com os três números do enunciado: composição da liga C0 = 0,35; composição da fase rica em A no eutético (solubilidade máxima) Ca = 0,20; composição do líquido remanescente CL = 0,50 (o eutético). W(fase rica em A) = (CL - C0) / (CL - Ca) = (0,50 - 0,35) / (0,50 - 0,20) = 0,15 / 0,30 = 0,50, ou seja, 50%. Repare que o braço da alavanca é sempre o segmento OPOSTO à fase que se quer: para a fase da esquerda, mede-se a distância até o líquido, que está à direita. Resposta: fase rica em A, 50%.",
+  "erradas": {
+   "B": "Acertou a fase e errou a temperatura de leitura: aplicou a alavanca ABAIXO do eutético, entre a fase rica em A (0,20) e o B puro (1,00), obtendo (1,00 - 0,35)/(1,00 - 0,20) = 0,65/0,80 = 0,8125, isto é, 81,25%. Essa conta dá a fase rica em A TOTAL do sólido final (a primária mais a que veio dentro do eutético), e não o primeiro constituinte a precipitar, que é o que a questão pede.",
+   "C": "Trocou a fase, achando que quem precipita primeiro é o componente minoritário, e ainda copiou a composição da liga (35% de B) como se fosse a fração da fase. Composição de liga e fração de fase são grandezas diferentes; e o simples fato de 0,35 ser menor que 0,50 já joga a liga para o lado do A.",
+   "D": "Soma os dois erros de uma vez: escolheu B puro (liga hipoeutética não começa a solidificar pelo lado do B) e usou a alavanca abaixo do eutético, 0,65/0,80 = 81,25%, que seria a fração da fase rica em A total, nem sequer do B.",
+   "E": "O eutético é o ÚLTIMO líquido a congelar, não o primeiro sólido a aparecer. Ele só se forma quando o líquido remanescente é empurrado até 0,50 de B e a temperatura chega à eutética, depois que toda a fase primária rica em A já cresceu. Só seria a primeira coisa a solidificar se a liga tivesse exatamente 50% de B."
+  },
+  "pontos": [
+   "Antes de qualquer conta, compare C0 com a composição eutética: liga à esquerda (hipoeutética) começa pela fase primária da esquerda; à direita (hipereutética), pela fase da direita.",
+   "Regra da alavanca: a fração de uma fase é o braço OPOSTO sobre o segmento total. Para a fase alfa: (CL - C0)/(CL - Calfa).",
+   "Fração de fase PRIMÁRIA lê-se logo acima da temperatura eutética (líquido remanescente na composição eutética). Logo abaixo, a mesma alavanca entre as duas fases sólidas dá a fase TOTAL — foi essa a armadilha dos 81,25%.",
+   "O eutético é sempre o último líquido a solidificar, e a temperatura constante."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q43",
+  "q": "Que tipo de tratamento térmico é recomendado quando se deseja obter um produto final com alta ductilidade e resistência ao impacto, sem perda expressiva da dureza?",
+  "alts": {
+   "A": "Recozimento",
+   "B": "Normalização",
+   "C": "Têmpera",
+   "D": "Martêmpera",
+   "E": "Austêmpera"
+  },
+  "correta": "E",
+  "explica": "O enunciado pede as três coisas ao mesmo tempo: ductilidade alta, resistência ao impacto alta e dureza preservada. Isso é a assinatura da bainita, e o tratamento que a produz é a austêmpera. Austenitiza-se o aço, mergulha-se num banho de sal fundido a temperatura ACIMA de Mi (tipicamente 250 a 400 °C) e mantém-se a peça lá até a transformação isotérmica se completar — o produto é bainita, e a austenita nunca chega a virar martensita. Para uma mesma dureza, a bainita (principalmente a inferior) entrega tenacidade e ductilidade bem maiores que a martensita revenida, e a peça sai pronta do banho, sem precisar de revenido posterior. É o único da lista que atende aos três requisitos juntos.",
+  "erradas": {
+   "A": "Entrega a ductilidade máxima, mas exatamente amolecendo o aço: resfriamento lento no forno, perlita grosseira, dureza lá embaixo. Falha justamente no 'sem perda expressiva da dureza'.",
+   "B": "Resfriamento ao ar calmo dá perlita fina e refina o grão, o que uniformiza a estrutura e melhora um pouco a tenacidade em relação ao bruto de fusão. Mas as propriedades ficam intermediárias e a dureza é muito inferior à da bainita — não é o tratamento que se escolhe quando se exige dureza junto com impacto.",
+   "C": "Dá a dureza máxima e é o oposto do pedido em tudo o mais: martensita não revenida é dura e frágil, com resistência ao impacto péssima. Quem marca isso leu só a parte final do enunciado ('sem perda de dureza') e ignorou 'alta ductilidade e resistência ao impacto'.",
+   "D": "Confundir martêmpera com austêmpera é o erro clássico, porque nas duas a peça vai para um banho quente. Na martêmpera o banho serve só para igualar a temperatura em toda a seção e evitar empeno e trinca; a peça é retirada antes de qualquer transformação e resfriada ao ar, e a austenita vira MARTENSITA, que ainda exige revenido depois. Produto final martensita, não bainita — logo, sem a ductilidade pedida."
+  },
+  "pontos": [
+   "Austêmpera: transformação isotérmica acima de Mi, produto bainita. Dureza alta com boa tenacidade e ductilidade, e dispensa revenido.",
+   "Martêmpera: banho quente apenas para uniformizar temperatura e evitar trinca e empeno; termina em martensita e ainda precisa de revenido.",
+   "Têmpera sozinha = martensita dura e frágil; recozimento = macio e dúctil; normalização = intermediário com grão refinado.",
+   "Comparadas na mesma dureza, bainita bate martensita revenida em tenacidade — é esse o argumento que a banca cobra."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q49",
+  "q": "A maioria dos ferros fundidos utilizados na indústria apresenta, na composição química, teor de carbono entre 3 e 5%, além de outros elementos de liga. A denominação recebida se deve ao fato de fundir a temperaturas mais baixas que os aços, além de compor peças de estrutura frágil, adequadas a serem fabricadas a partir do processo de fundição. Dentre esses materiais, está o Ferro Fundido Branco, que se caracteriza por apresentar",
+  "alts": {
+   "A": "grafita em forma de flocos envolvidos por uma matriz de ferrita ou de perlita, em razão dos quais possui uma estrutura esbranquiçada.",
+   "B": "grafita em forma de nódulos envolvidos por uma matriz de austenita e estrutura esbranquiçada pela presença do silício, responsável pela denominação.",
+   "C": "ductilidade proveniente da formação da grafita em formato esférico e denominação branco em virtude das propriedades intermediárias em relação ao ferro fundido cinzento e o vermicular.",
+   "D": "teor de silício entre 1,7 e 3% e uma consequente redução na resistência à fratura e na resistência à fadiga do material.",
+   "E": "baixo teor de silício e, para taxas de resfriamento rápidas, a maior parte do carbono se apresenta na forma de cementita, ao invés de grafita."
+  },
+  "correta": "E",
+  "explica": "Toda a questão gira em torno de duas variáveis: teor de silício e velocidade de resfriamento. Silício é grafitizante — ele desestabiliza a cementita e empurra o carbono para sair como grafita. Resfriamento lento dá tempo para essa grafitização acontecer. Tire o silício (abaixo de cerca de 1%) e resfrie rápido, e o carbono não tem nem estímulo nem tempo: fica retido como cementita, Fe3C, que é exatamente o que a alternativa E afirma. Daí vem o nome: ao quebrar a peça, a superfície de fratura é clara, esbranquiçada, porque quem aparece é a cementita, e não flocos escuros de grafita. É essa cementita maciça que torna o ferro fundido branco duro, muito resistente ao desgaste e extremamente frágil — motivo de ser usado em revestimentos e componentes de moagem, e não em peças que sofrem impacto.",
+  "erradas": {
+   "A": "Grafita em flocos numa matriz de ferrita ou perlita é o ferro fundido CINZENTO. E a alternativa ainda se contradiz: são justamente esses flocos de grafita que dão à fratura o aspecto escuro/acinzentado que batiza o cinzento. Descreve outro material e inverte a cor.",
+   "B": "Grafita em nódulos é o ferro fundido NODULAR (dúctil), obtido com tratamento de magnésio, e a matriz dele é ferrítica ou perlítica, não austenítica. Pior ainda, o silício é o agente que PROMOVE a grafitização: mais silício empurra para cinzento ou nodular, nunca para branco.",
+   "C": "Grafita esférica e ductilidade são o nodular; e quem tem propriedades intermediárias entre cinzento e nodular é o VERMICULAR (grafita compacta). O branco é o extremo oposto: é o mais frágil da família, praticamente sem ductilidade.",
+   "D": "Silício de 1,7 a 3% é a faixa do ferro fundido CINZENTO — nessa quantidade o silício grafitiza e a peça nem chega a ser branca. No branco o silício é baixo, abaixo de cerca de 1%, exatamente para impedir a grafitização. Trocar a faixa de silício é o erro que leva a essa alternativa."
+  },
+  "pontos": [
+   "Ferro fundido branco: silício baixo (abaixo de cerca de 1%) mais resfriamento rápido, e o carbono fica como cementita (Fe3C). Duro, resistente ao desgaste, muito frágil.",
+   "Silício é grafitizante: mais silício e resfriamento lento levam a grafita — flocos no cinzento, esferas no nodular (tratado com Mg), grafita compacta no vermicular.",
+   "O nome vem da fratura: grafita exposta deixa a superfície escura (cinzento); cementita exposta deixa clara (branco).",
+   "Ferro fundido maleável se obtém recozendo o branco: a cementita se decompõe e a grafita reaparece em rosetas."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q24",
+  "q": "Comparando dois motores, um seguindo o ciclo OTTO e o outro seguindo o ciclo DIESEL, considere as afirmações abaixo. I - Na prática, os motores DIESEL têm eficiência térmica superior aos motores OTTO, pois se conseguem razões maiores de compressão nos primeiros que aquelas nos motores OTTO. II - Os motores OTTO devem ser usados quando grandes potências se fazem necessárias, pois operam em rotações mais elevadas. III - Os motores DIESEL são máquinas de combustão externa, enquanto os motores OTTO são máquinas de combustão interna. IV - Os motores OTTO comprimem uma mistura ar + combustível, e os motores DIESEL comprimem ar tão somente. São corretas APENAS as afirmações",
+  "alts": {
+   "A": "I e III",
+   "B": "I e IV",
+   "C": "II e III",
+   "D": "II e IV",
+   "E": "I, II e III"
+  },
+  "correta": "B",
+  "explica": "Verdadeiras: I e IV — alternativa B. I: na prática o Diesel rende mais mesmo, e o motivo dado está certo. O Diesel comprime só ar, não corre risco de detonação da mistura, e por isso trabalha com taxas de 16:1 a 22:1; o Otto comprime mistura ar+combustível e esbarra na detonação, ficando entre 8:1 e 12:1. Como o rendimento térmico cresce com a taxa de compressão, o Diesel leva. Atenção à pegadinha teórica que NÃO está sendo cobrada aqui: comparados na MESMA taxa de compressão, quem rende mais é o Otto — a afirmativa I fala de motores reais, com taxas diferentes, e aí a vantagem é do Diesel. IV: é a diferença de partida entre os dois ciclos — o Otto admite e comprime a mistura e acende com centelha; o Diesel comprime ar puro e injeta o combustível no fim da compressão, que se inflama pela alta temperatura do ar comprimido. II é falsa: grande potência é território do Diesel (navios, locomotivas, grupos geradores); o Otto gira mais rápido, e rotação alta não é sinônimo de potência grande. III é falsa de cara: nos dois a queima acontece dentro do cilindro — são ambos de combustão interna.",
+  "erradas": {
+   "A": "Acertou I mas comprou III: achou que Diesel é combustão externa, confundindo com caldeira/ciclo Rankine e com o Stirling. No Diesel a queima é dentro do cilindro, igual ao Otto.",
+   "C": "Troca completa — descartou exatamente as duas verdadeiras (I e IV) e ficou com as duas falsas. Quem marca aqui não separou 'gira mais rápido' de 'entrega mais potência' e ainda engoliu a combustão externa.",
+   "D": "Acertou IV, a mais fácil, e caiu em II: leu 'rotações mais elevadas' e concluiu 'grandes potências'. Motor de grande porte é Diesel, justamente porque é lento, de curso longo e alto torque.",
+   "E": "Manteve I, que é certa, mas somou as duas falsas (II e III) e ainda deixou IV de fora — que é a distinção mais elementar entre os dois ciclos: o que cada um comprime."
+  },
+  "pontos": [
+   "Motores reais: Diesel rende mais porque comprime mais (16:1 a 22:1 contra 8:1 a 12:1). Na MESMA taxa de compressão, quem rende mais é o Otto — a banca alterna as duas versões.",
+   "Otto comprime mistura ar+combustível e acende por centelha; Diesel comprime só ar e acende por compressão, com o combustível injetado no fim do curso.",
+   "Grandes potências (navio, locomotiva, geração) são Diesel; o Otto compensa com rotação alta, não com potência.",
+   "Otto e Diesel são os dois de combustão interna. Combustão externa é caldeira (Rankine) e Stirling."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q52",
+  "q": "De forma geral, os motores de combustão interna aproveitam o aumento de pressão resultante da combustão da mistura ar-combustível para gerar movimento, sendo a cilindrada e a taxa de compressão características importantes desses motores. Considere um motor de quatro cilindros, no qual cada cilindro tem diâmetro D e curso C. Qual é a expressão que determina a cilindrada desse motor?",
+  "alts": {
+   "A": "p. C. D 2 /4",
+   "B": "p. C. D 2 /2",
+   "C": "p. C. D 2",
+   "D": "2. p. C. D 2",
+   "E": "4. p. C. D 2"
+  },
+  "correta": "C",
+  "explica": "Cilindrada é o volume que os pistões varrem entre o PMS e o PMI. Por cilindro: área do êmbolo × curso. A área é a do círculo de diâmetro D, ou seja, πD²/4 (o raio é D/2, e (D/2)² = D²/4). Então cada cilindro desloca (πD²/4)·C. Com quatro cilindros: V = 4 × (πD²/4)·C = π·C·D². É a alternativa C — o 'p' impresso nas alternativas é o π mal convertido no PDF da prova. O truque é enxergar que o 4 do número de cilindros cancela exatamente o 4 do denominador da área do êmbolo; num motor de quatro cilindros a cilindrada total sai limpa como πCD², e dá para resolver de cabeça.",
+  "erradas": {
+   "A": "Calculou a cilindrada de UM cilindro, (πD²/4)·C, e parou aí. Esqueceu de multiplicar pelos quatro cilindros que o enunciado deu.",
+   "B": "Multiplicou a cilindrada unitária por 2 em vez de 4: 2 × (πD²/4)·C = πCD²/2. Contou meio motor.",
+   "D": "Errou a área do êmbolo pela metade: usou πD²/2 em vez de πD²/4 e multiplicou pelos quatro cilindros, 4 × (πD²/2)·C = 2πCD².",
+   "E": "Erro clássico do raio: usou área = πD², jogando o diâmetro dentro de πr² sem dividir por dois. Multiplicando por 4 cilindros dá 4πCD² — exatamente quatro vezes a resposta certa."
+  },
+  "pontos": [
+   "Cilindrada = (πD²/4) × curso × número de cilindros. A área do êmbolo usa o raio: πD²/4, nunca πD².",
+   "Em motor de 4 cilindros o 4 cancela o denominador e sobra π·C·D². Guarde esse atalho.",
+   "Cilindrada é volume DESLOCADO entre PMS e PMI — não inclui o volume da câmara de combustão.",
+   "Prova digitalizada troca π por 'p' e expoente por espaço ('D 2' é D²). Leia pelo contexto e não descarte a alternativa por causa da digitação."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q59",
+  "q": "Considere um motor cujos volumes nos pontos morto inferior e morto superior sejam, respectivamente, 100 cm 3 e 10 cm 3. Qual é a taxa de compressão desse motor?",
+  "alts": {
+   "A": "100:1",
+   "B": "10:1",
+   "C": "9:1",
+   "D": "1:10",
+   "E": "1:100"
+  },
+  "correta": "B",
+  "explica": "Taxa de compressão é o volume total do cilindro com o pistão no ponto morto inferior dividido pelo volume da câmara de combustão, com o pistão no ponto morto superior: r = V_PMI / V_PMS = 100 cm³ / 10 cm³ = 10, escrito 10:1. Alternativa B. Repare no que a questão está testando de verdade: o numerador é o volume TOTAL (100 cm³), não a cilindrada. A cilindrada aqui vale V_PMI − V_PMS = 100 − 10 = 90 cm³, e ela não entra sozinha na conta. Se quiser usá-la, a fórmula é r = 1 + Vd/Vc = 1 + 90/10 = 1 + 9 = 10 — o mesmo resultado, desde que você não perca o 1.",
+  "erradas": {
+   "A": "Pegou o número do volume no PMI e chamou de taxa, como se o volume da câmara fosse 1 cm³. Taxa de compressão é razão entre dois volumes, não um volume.",
+   "C": "A isca principal. Dividiu a cilindrada (100 − 10 = 90 cm³) pelo volume da câmara (10 cm³) e parou em 9, esquecendo o +1 da fórmula r = 1 + Vd/Vc. Faltou somar o volume da câmara de volta ao numerador.",
+   "D": "Inverteu a razão: dividiu V_PMS por V_PMI (10/100). Taxa de compressão é sempre maior que 1 — o volume maior fica em cima.",
+   "E": "Inverteu a razão e ainda ignorou o volume do PMS, juntando os dois erros das alternativas D e A."
+  },
+  "pontos": [
+   "r = V_PMI / V_PMS = (Vc + Vd)/Vc = 1 + Vd/Vc. Volume total sobre volume da câmara.",
+   "V_PMI é o volume total do cilindro (câmara + cilindrada); V_PMS é só a câmara de combustão. Cilindrada é a diferença entre os dois.",
+   "A resposta é sempre maior que 1 e se escreve x:1. Se saiu 1:x, você inverteu a razão.",
+   "Se for pela cilindrada, não perca o +1: 90/10 dá 9, mas a taxa é 10."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q64",
+  "q": "Um motor alternativo do ciclo Otto, com relação diâmetro × curso do cilindro igual a 98,4 mm × 89,7 mm, é modificado, e sua taxa de compressão original de 8:1 sofre um aumento de 25%. A razão entre os volumes da câmara de combustão antes e depois de tal modificação é",
+  "alts": {
+   "A": "6/5",
+   "B": "11/9",
+   "C": "5/4",
+   "D": "9/7",
+   "E": "15/11"
+  },
+  "correta": "D",
+  "explica": "Primeiro: diâmetro e curso não mudam, então o volume deslocado Vd é o mesmo antes e depois. Os 98,4 mm × 89,7 mm estão no enunciado só para garantir isso — não entram em conta nenhuma. A modificação é na câmara de combustão (usinar o cabeçote, por exemplo). Da definição: r = (Vc + Vd)/Vc = 1 + Vd/Vc, logo Vc = Vd/(r − 1). Antes: r1 = 8 → Vc1 = Vd/(8 − 1) = Vd/7. Depois: aumento de 25% sobre a taxa, r2 = 8 × 1,25 = 10 → Vc2 = Vd/(10 − 1) = Vd/9. Razão pedida (antes ÷ depois): Vc1/Vc2 = (Vd/7)/(Vd/9) = 9/7 ≈ 1,29. Alternativa D. Confere o sentido físico: para a taxa subir de 8 para 10, a câmara precisa encolher — Vc2/Vc1 = 7/9, uma redução de cerca de 22%. Resposta maior que 1, como tem de ser.",
+  "erradas": {
+   "A": "6/5 = 1,2 é o número de quem não fez a conta e estimou por porcentagem: 'a taxa subiu 25%, então a câmara cai uns 20%'. Variação percentual da taxa não é a razão entre os volumes da câmara, porque a relação passa por (r − 1).",
+   "B": "Errou o sinal na inversão da fórmula: usou Vc = Vd/(r + 1) em vez de Vd/(r − 1). Dá Vc1 = Vd/9 e Vc2 = Vd/11, razão 11/9. O 1 que se soma é ao quociente Vd/Vc, então na hora de isolar Vc ele se SUBTRAI de r.",
+   "C": "A isca principal: esqueceu o −1 e tratou a câmara como inversamente proporcional a r, chegando a Vc1/Vc2 = r2/r1 = 10/8 = 5/4. Só valeria se o volume total fosse constante, e o que é constante aqui é o volume deslocado.",
+   "E": "15/11 ≈ 1,36 é o extremo do chute por porcentagem, de quem arredondou a taxa nova ou embutiu os 25% dentro da subtração (usando r − 2,5 no lugar de r − 1). Nenhuma dessas rotas respeita Vc = Vd/(r − 1)."
+  },
+  "pontos": [
+   "Mexer na taxa de compressão sem mexer em diâmetro e curso significa mexer SÓ na câmara: Vd fica constante e Vc = Vd/(r − 1).",
+   "O volume da câmara é inversamente proporcional a (r − 1), não a r. Esquecer o −1 entrega 5/4, que a banca deixou pronto na alternativa C.",
+   "O aumento percentual incide sobre a taxa: 8 × 1,25 = 10. Não some 25 pontos nem aplique o percentual no volume.",
+   "Diâmetro 98,4 mm e curso 89,7 mm são dados-isca: servem apenas para afirmar que a cilindrada não mudou."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q42",
+  "q": "O eixo 1 da transmissão de movimento realizada por um par de engrenagens cônicas gira a 1.800 rpm para acionar o eixo 2 que demanda um torque de 120 N.m. Considerando-se que o pinhão possui 30 dentes, e a coroa, 60 dentes, a potência mínima necessária ao motor, expressa em watts, é de",
+  "alts": {
+   "A": "1.200",
+   "B": "3.600",
+   "C": "1.200p",
+   "D": "3.600p",
+   "E": "4.800p"
+  },
+  "correta": "D",
+  "explica": "O par de engrenagens não cria nem consome potência: o que ele faz é trocar torque por rotação. Como o torque foi dado no eixo 2, calcule por lá.\n\n1) Rotação do eixo 2. Num par externo, n2 = n1 × Z_pinhão/Z_coroa = 1.800 × 30/60 = 900 rpm.\n\n2) Velocidade angular em rad/s. ω2 = 2πn/60 = 2π × 900/60 = 30π rad/s ≈ 94,2 rad/s.\n\n3) Potência. P = T2 · ω2 = 120 N·m × 30π rad/s = 3.600π W ≈ 11.310 W.\n\nConfirmação pelo eixo 1: T1 = 120 × 30/60 = 60 N·m e ω1 = 2π × 1.800/60 = 60π rad/s, logo P = 60 × 60π = 3.600π W. Mesma potência nos dois eixos, como tem que ser. O \"p\" das alternativas é o π estropiado na digitalização do caderno. Letra D.",
+  "erradas": {
+   "A": "Erra duas vezes: come o π (usa ω = 2n/60 em vez de 2πn/60) e ainda parte de uma rotação de 300 rpm no eixo 2. É o par de erros das letras B e C somado.",
+   "B": "É a resposta certa com o π comido. A rotação está certa (900 rpm), mas o candidato fez ω = 2 × 900/60 = 30 em vez de 30π. Converter rpm para rad/s exige o fator 2π/60, não 2/60.",
+   "C": "Manteve o π mas usou ω = 10π rad/s, o que equivale a 300 rpm no eixo 2 — rotação que só sai se você dividir 1.800 por 6, aplicando a redução duas vezes ou inventando razão com a soma dos dentes. A razão do par é 60/30 = 2 e entra uma única vez.",
+   "E": "Manteve o π mas usou ω = 40π rad/s, ou seja, 1.200 rpm no eixo 2. Isso vem de montar a razão de transmissão com a soma dos dentes (60/90) em vez da razão entre eles. Num par externo simples, n2 = n1·Z1/Z2."
+  },
+  "pontos": [
+   "Par de engrenagens conserva potência: n2/n1 = Z1/Z2 e T2/T1 = Z2/Z1. Quem ganha torque perde rotação na mesma proporção.",
+   "ω [rad/s] = 2πn/60. Com n = 900 rpm, ω = 30π rad/s. Em questão de potência, alternativa sem π costuma ser a armadilha do enunciado.",
+   "P = T·ω só fecha em watts com T em N·m e ω em rad/s.",
+   "Cônica, cilíndrica ou helicoidal: a razão de transmissão é sempre a razão de dentes. O tipo de dente muda os esforços que chegam ao eixo, não a cinemática."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q41",
+  "q": "O número de Sommerfeld é definido pela equação, que relaciona cinco parâmetros. Se, mantidos os demais parâmetros, a razão de folga radial passa a ser 90% de seu valor original, o novo valor do número característico do mancal é",
+  "alts": {
+   "A": "de 0,8S a 0,9S",
+   "B": "de 0,9S a 1,0S",
+   "C": "o mesmo",
+   "D": "de S a 1,1S",
+   "E": "de 1,1S a 1,2S"
+  },
+  "correta": "A",
+  "explica": "O número de Sommerfeld, ou número característico do mancal, é\n\nS = (r/c)² · (μN/P)\n\ne são exatamente cinco parâmetros: raio do munhão r, folga radial c, viscosidade absoluta μ, rotação N e pressão média projetada P = W/(2rL). A razão de folga radial r/c entra elevada ao quadrado — esse é o ponto inteiro da questão.\n\nSe a razão passa a valer 90% do valor original:\n\nS_novo = (0,9 · r/c)² · (μN/P) = 0,81 · (r/c)² · (μN/P) = 0,81·S\n\nE 0,81S cai dentro da faixa \"de 0,8S a 0,9S\". Letra A. Uma variação de 10% no parâmetro vira 19% em S justamente por causa do expoente 2.",
+  "erradas": {
+   "B": "Aplicou os 90% de forma linear e esqueceu o quadrado, chegando a 0,9S. É a alternativa que colhe mais gente na prova: a razão de folga aparece ao quadrado na equação de Sommerfeld, nunca em primeira potência.",
+   "C": "Supôs que a folga se cancela e que S dependeria só de μN/P. Não cancela: (r/c)² é justamente o termo geométrico que separa um mancal apertado de um mancal folgado.",
+   "D": "Inverteu a razão — trabalhou com c/r no lugar de r/c — e ainda aplicou linearmente: 1/0,9 ≈ 1,11S. Errou o sentido da variação e o expoente na mesma conta.",
+   "E": "Inverteu a razão mas lembrou do quadrado: 1/0,81 ≈ 1,23S, que o candidato arredonda para a faixa 1,1–1,2. O expoente estava certo, o sentido não: diminuir r/c diminui S."
+  },
+  "pontos": [
+   "S = (r/c)²·μN/P, com P = W/(2rL). A razão de folga radial entra AO QUADRADO.",
+   "Mexeu em porcentagem, escreva a fórmula antes de multiplicar: 0,9 num termo quadrático vira 0,81, não 0,9.",
+   "S sobe com viscosidade e rotação e desce com carga. Folga maior derruba S e empurra o mancal para o contato metálico.",
+   "Os cinco parâmetros do número de Sommerfeld: r, c, μ, N e P. Saber quais são já resolve metade das questões sobre mancal hidrodinâmico."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q39",
+  "q": "Um redutor de velocidade permite até cinco diferentes reduções usando engrenagens cilíndricas de dentes retos. Os eixos das engrenagens movidas e motoras são paralelos, cilíndricos e de mesmo diâmetro, apoiados em rolamentos somente nas extremidades. No eixo de entrada, as engrenagens giram solidárias ao mesmo, enquanto que as engrenagens do eixo de saída podem deslizar sobre estrias. O torque de entrada é constante e somente é possível uma redução atuar por vez. Com respeito à estrutura descrita, analise as diretrizes abaixo. I - O par de engrenagens de maior transmissão de torque deve ficar na extremidade do eixo, para reduzir sua flexão. II - O par de engrenagens de maior transmissão de velocidade deve ficar na extremidade do eixo, para reduzir sua flexão. III - A velocidade crítica do eixo de saída deve ser maior do que a maior velocidade de saída. Estão corretas as afirmações",
+  "alts": {
+   "A": "I, apenas",
+   "B": "II, apenas",
+   "C": "III, apenas",
+   "D": "I e III, apenas",
+   "E": "I, II e III"
+  },
+  "correta": "D",
+  "explica": "O enunciado diz que os rolamentos ficam SÓ nas extremidades: o eixo é uma viga biapoiada. Carga no meio do vão dá momento fletor máximo, M = FL/4; carga encostada no apoio dá M = Fab/L com a → 0, ou seja, praticamente zero. Quem carrega mais tem que ficar mais perto do mancal.\n\nI — Correta. A força tangencial no dente é Ft = 2T/d. Com os eixos de mesmo diâmetro e o torque de entrada constante, o par que transmite maior torque é o que gera maior força e, portanto, o maior momento fletor. Jogá-lo para a extremidade, junto ao rolamento, é o que reduz a flexão do eixo.\n\nII — Errada. Rotação não gera força no dente. Como a potência P = T·ω é a mesma, o par de maior velocidade é justamente o de MENOR torque, logo o de menor força. Ele é o que menos precisa da posição privilegiada.\n\nIII — Correta. A velocidade crítica é a rotação em que a excitação coincide com a frequência natural de flexão do eixo. O projeto normal mantém a operação abaixo dela (regime subcrítico), então a crítica precisa ficar acima da maior velocidade de saída, com folga.\n\nI e III: letra D.",
+  "erradas": {
+   "A": "Aceitou I e descartou III, geralmente por confundir velocidade crítica do eixo com rotação máxima admissível do rolamento. Velocidade crítica é ressonância de flexão do eixo, e o eixo tem que trabalhar abaixo dela.",
+   "B": "Trocou I por II: posicionou pela rotação em vez de pelo torque. Quem manda na flexão do eixo é a força no dente, Ft = 2T/d, e ela vem do torque.",
+   "C": "Ficou só com III e tratou a posição da engrenagem no vão como indiferente. Num eixo biapoiado, mudar a carga do meio para o apoio derruba o momento fletor de FL/4 para quase zero.",
+   "E": "Marcou tudo sem ver que I e II se contradizem: no mesmo eixo, o par de maior torque é o de menor velocidade. As duas engrenagens não podem ocupar a mesma extremidade."
+  },
+  "pontos": [
+   "Eixo apoiado só nas pontas é viga biapoiada: carga junto ao mancal quase não flete, carga no meio do vão dá M = FL/4. A engrenagem mais carregada vai para perto do apoio.",
+   "Força tangencial no dente: Ft = 2T/d. Carregamento de eixo se ordena por torque, nunca por rotação.",
+   "Com potência constante, maior velocidade significa menor torque — ordenar por velocidade é o inverso de ordenar por carga.",
+   "A velocidade crítica (whirl) do eixo deve ficar acima da maior rotação de trabalho, para operar em regime subcrítico."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q36",
+  "q": "Um elemento estrutural pode falhar em níveis de tensão significativamente inferiores ao limite de resistência de um ensaio estático, se for submetido a carregamentos repetidos em substituição a um carregamento estático. O fenômeno da falha por fratura sob cargas flutuantes é denominado Fadiga. A esse respeito, analise as afirmativas abaixo. I – A fadiga é influenciada por descontinuidades estruturais menores, dimensões, geometria e qualidade de acabamento superficial de uma peça. II – Uma trinca por fadiga se inicia, geralmente, em um ponto de concentração de tensões. III – A falha por fadiga possui natureza dúctil, mesmo nos materiais que normalmente são frágeis. Está(ão) correta(s) APENAS a(s) afirmativa(s)",
+  "alts": {
+   "A": "I.",
+   "B": "II.",
+   "C": "III.",
+   "D": "I e II.",
+   "E": "II e III."
+  },
+  "correta": "D",
+  "explica": "I e II são o núcleo da teoria de fadiga; III inverte o fato mais conhecido do assunto.\n\nI — Correta. É exatamente por isso que o limite de fadiga obtido no corpo de prova padrão precisa ser corrigido por fatores de acabamento superficial, tamanho, tipo de carregamento, temperatura e confiabilidade antes de virar limite da peça real. Peça retificada dura muito mais que peça bruta de fundição, e peça grande dura menos que peça pequena sob a mesma tensão nominal.\n\nII — Correta. A trinca nucleia onde a tensão local é máxima: rasgo de chaveta, mudança brusca de diâmetro sem raio de concordância, furo, fundo de rosca, marca de ferramenta, risco de retífica, inclusão. Por isso projeto contra fadiga é, na prática, projeto de raios e de acabamento.\n\nIII — Errada, e invertida. A fratura por fadiga é macroscopicamente FRÁGIL mesmo em material dúctil: não há deformação plástica generalizada nem estricção, a peça parte de repente com a seção ainda de aparência íntegra. A superfície mostra marcas de praia na zona de propagação e uma zona final de ruptura brusca.\n\nCorretas apenas I e II: letra D.",
+  "erradas": {
+   "A": "Aceitou I e recusou II achando que a trinca nasce no interior da peça. Nucleação subsuperficial existe (fadiga de contato em rolamento, inclusão grosseira), mas é exceção — a regra é superfície, no concentrador de tensão.",
+   "B": "Recusou I supondo que fadiga depende só do material e do nível de tensão. Se fosse assim, não existiriam os fatores de acabamento e de tamanho que corrigem o limite de fadiga do corpo de prova para a peça real.",
+   "C": "Comprou a inversão da III e ainda jogou fora as duas afirmativas verdadeiras. Fadiga não é falha dúctil: a peça rompe sem aviso e sem empescoçamento.",
+   "E": "Acertou a II e caiu na III. É o erro clássico da matéria: a falha por fadiga tem aspecto frágil, com marcas de praia e ruptura final súbita, mesmo em aço dúctil."
+  },
+  "pontos": [
+   "Fadiga rompe abaixo do limite de resistência estático e sem deformação plástica visível: aspecto frágil mesmo em material dúctil.",
+   "A trinca nucleia na superfície, num concentrador de tensão. Raio de concordância e acabamento valem mais que trocar por um aço mais resistente.",
+   "O limite de fadiga do corpo de prova só vira limite da peça depois dos fatores de superfície, tamanho, carregamento, temperatura e confiabilidade.",
+   "Superfície de fratura por fadiga: marcas de praia na zona de propagação e zona final rugosa. Quanto menor a zona final, menor era a tensão aplicada."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q32",
+  "q": "Ao iniciar uma viagem, o carro tinha 0,2 kg de ar (suposto gás perfeito) em cada pneu, à temperatura de 27ºC e pressão manométrica de 450 kPa. Ao final da viagem, a temperatura atingiu 57ºC. Despreze as variações de volume do pneu. Admita o seguinte: • as propriedades termodinâmicas da substância não foram alteradas durante a viagem; • Rar = 0,3 kN × m / Kg × K; • P atm = 100 kPa. Ao final da viagem, a pressão manométrica do ar no pneu, em KPa, e o volume do pneu, em m3, serão, respectivamente, iguais a",
+  "alts": {
+   "A": "505 e 0,0327",
+   "B": "605 e 0,0327",
+   "C": "707 e 0,0205",
+   "D": "453 e 0,0205",
+   "E": "325 e 0,0402"
+  },
+  "correta": "A",
+  "explica": "Volume fixo (o enunciado manda desprezar a dilatação do pneu) e massa fixa. Com PV = mRT e V, m, R constantes, sobra P/T = constante.\n\n1) Passe tudo para absoluto e kelvin: P1 = 450 + 100 = 550 kPa (absolutos); T1 = 27 + 273 = 300 K; T2 = 57 + 273 = 330 K.\n2) Pressão final absoluta: P2 = P1 · T2/T1 = 550 · 330/300 = 550 · 1,1 = 605 kPa.\n3) A banca pediu manométrica: 605 − 100 = 505 kPa.\n4) Volume, pelo estado inicial: V = m·R·T1/P1 = (0,2 kg × 0,3 kJ/kg·K × 300 K)/550 kPa = 18/550 = 0,0327 m³. As unidades fecham: kJ/kPa = kN·m/(kN/m²) = m³.\n5) Confira pelo estado final: V = 0,2 × 0,3 × 330/605 = 19,8/605 = 0,0327 m³. Mesmo valor, conta validada.\n\nPar 505 e 0,0327: alternativa A.",
+  "erradas": {
+   "B": "Pressão final absoluta (605 kPa) entregue no lugar da manométrica. O volume está certo, o que torna essa a alternativa mais perigosa da prova: o candidato entra em absoluto para fazer a conta e esquece de devolver os 100 kPa da atmosférica na hora de responder.",
+   "C": "707 é 605 + 100, ou seja, converteu para o lado errado: somou a atmosférica em vez de subtrair. E o 0,0205 não sai de nenhuma combinação de 0,2 × 0,3 × T/P do enunciado — quem marca C está chutando o par.",
+   "D": "453 é praticamente os 450 kPa iniciais: é a alternativa de quem acha que 30 °C a mais quase não mexem na pressão. Mexem em 10% (330/300), e esses 10% valem sobre a pressão ABSOLUTA — 55 kPa a mais, não 3.",
+   "E": "O 0,0402 denuncia o erro: 0,2 × 0,3 × 300/450 = 0,040 m³, com a pressão MANOMÉTRICA no denominador da equação de estado. Em PV = mRT só entra pressão absoluta; usar 450 no lugar de 550 infla o volume em 22%."
+  },
+  "pontos": [
+   "Equação de estado só aceita pressão absoluta e temperatura em kelvin — mas a resposta pode ser pedida em manométrica. Leia o que a banca quer na saída.",
+   "Volume e massa constantes ⇒ P/T constante: P2 = P1 · T2/T1, com P absoluta. Pressão manométrica não obedece a essa proporção.",
+   "kJ/kPa = m³. Se a unidade fechar, a conta está no caminho certo; se não fechar, pare e revise antes de marcar.",
+   "Calcule o volume nos dois estados (18/550 e 19,8/605): dão o mesmo 0,0327 m³. É conferência de graça em questão de dupla resposta."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q29",
+  "q": "Um gás perfeito experimental é utilizado em uma compressão adiabática reversível, saindo da pressão (absoluta) P1 = 100 kPa, temperatura T1 = 293 K e atingindo a pressão (absoluta) de P2 = 400 kPa. Sabendo-se que a razão entre os calores específicos (k = cp / cv) vale 2, a temperatura final, em K, é igual a",
+  "alts": {
+   "A": "250",
+   "B": "350",
+   "C": "470",
+   "D": "586",
+   "E": "615"
+  },
+  "correta": "D",
+  "explica": "Adiabática + reversível = isentrópica. Para gás perfeito com k constante vale a relação\n\nT2/T1 = (P2/P1)^((k−1)/k)\n\n1) Expoente: k = 2 ⇒ (k − 1)/k = (2 − 1)/2 = 1/2.\n2) Razão de pressões: P2/P1 = 400/100 = 4. Ambas já são absolutas, como o enunciado faz questão de avisar duas vezes.\n3) T2 = 293 × 4^(1/2) = 293 × 2 = 586 K.\n\nAlternativa D. T1 já veio em kelvin — não some 273 em nada. E o teste de sanidade fecha: compressão adiabática esquenta o gás, então a resposta tem obrigatoriamente que ser maior que 293 K.",
+  "erradas": {
+   "A": "250 K é MENOR que os 293 K iniciais. Só se chega a isso invertendo a razão e calculando 293 × (P1/P2)^((k−1)/k) = 293 × 0,5 — ou seja, resolvendo uma expansão quando o enunciado deu uma compressão. Comprimir adiabaticamente sempre aquece.",
+   "B": "Aumento de só 20% sobre T1, resultado de errar o expoente para baixo. Com k = 2 o expoente é exatamente 1/2, e √4 = 2: a temperatura DOBRA, não sobe um pouco.",
+   "C": "É onde cai quem soma a atmosférica a pressões que já eram absolutas — 293 × √(500/200) = 463 K — ou quem usa um k de tabela por hábito em vez do k = 2 do enunciado (k = 1,4 do ar dá 435 K; k = 1,5 dá 465 K). O enunciado forneceu o k; use o k fornecido.",
+   "E": "Expoente digitado com folga (0,53 em vez de 0,50 redondo) ou T1 arredondado para cima. Com k = 2 a conta fecha exata em 586 K; quando um valor da lista sai redondo da fórmula, é ele."
+  },
+  "pontos": [
+   "Adiabática + reversível = isentrópica. Guarde o trio: P·V^k = cte, T·V^(k−1) = cte e T2/T1 = (P2/P1)^((k−1)/k).",
+   "Nessas relações só entram pressão e temperatura ABSOLUTAS. Razão de pressões manométricas não vale nada.",
+   "Compressão esquenta, expansão esfria: descarte na leitura qualquer alternativa que contrarie isso, sem fazer conta.",
+   "Com k = 2 o expoente vira 1/2 — a questão inteira é uma raiz quadrada. Cesgranrio escolhe k para a conta fechar redonda."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q60",
+  "q": "Um compressor que opera em regime estacionário admite R-134a a P 1, T 1 e h 1 = 400 kJ/kg. Na saída do compressor, o fluido é descarregado a P 2, T 2 e h 2 = 450 kJ/kg. A potência de acionamento do equipamento é de 200 kW. Sabendo que o compressor é refrigerado a água e que a taxa de transferência de calor para a água é de 40 kW, a vazão de R-134a no compressor, em kg/s, vale",
+  "alts": {
+   "A": "0,2",
+   "B": "0,3",
+   "C": "3,2",
+   "D": "4,8",
+   "E": "5,6 Considere o enunciado a seguir para responder às questões de n os 61 e 62. Um conjunto cilindro-pistão sem atrito contém 3 kg de uma substância pura. A pressão, o volume específico e a energia interna da substância no estado inicial são iguais a 200 kPa, 0,2 m 3 /kg e 1.010 kJ/kg. Transfere-se calor à substância em um processo à pressão constante até que ela atinja um estado final, em que o volume específico e a energia interna são iguais a 1,0 m 3 /kg e 2.600 kJ/kg."
+  },
+  "correta": "C",
+  "explica": "1ª lei em volume de controle, regime permanente, uma entrada e uma saída, desprezando energia cinética e potencial:\n\nẆ_entra − Q̇_sai = ṁ · (h2 − h1)\n\n1) Potência que entra pelo eixo: 200 kW.\n2) Calor que SAI para a água de resfriamento: 40 kW (o enunciado diz \"transferência de calor PARA a água\").\n3) Salto de entalpia: h2 − h1 = 450 − 400 = 50 kJ/kg.\n4) ṁ = (200 − 40)/50 = 160/50 = 3,2 kg/s.\n\nAlternativa C. Em linguagem de chão de fábrica: dos 200 kW que entram pelo eixo, 40 kW vazam para a água de refrigeração; sobram 160 kW para levantar a entalpia do R-134a. Como cada quilo ganha 50 kJ, passam 3,2 kg por segundo. Unidade: kW ÷ (kJ/kg) = kg/s.",
+  "erradas": {
+   "A": "40/200 = 0,2. Dividiu o calor pela potência. Isso é um número adimensional (a fração de energia perdida para a água), não uma vazão — a entalpia sequer entrou na conta.",
+   "B": "50/160 = 0,31. Inverteu a divisão: pôs a energia por quilo em cima e a potência líquida embaixo. Vazão é potência dividida por energia específica (kW ÷ kJ/kg = kg/s), nunca o contrário.",
+   "D": "(200 + 40)/50 = 4,8. Este é o erro que a questão foi construída para pegar: sinal trocado no calor, somando os 40 kW como se a água AQUECESSE o compressor. Calor que vai para a água sai do volume de controle e desconta da potência de eixo.",
+   "E": "280/50 = 5,6, ou seja, os 40 kW contados duas vezes com sinal invertido. A taxa de calor entra uma única vez no balanço, e negativa. (A alternativa vem com o enunciado das questões 61 e 62 colado por falha de digitalização do caderno; o valor é 5,6.)"
+  },
+  "pontos": [
+   "1ª lei em VC, regime permanente: Q̇ − Ẇ = ṁ(h2 − h1) na convenção padrão (Q entrando, W saindo). Em compressor o trabalho entra: Ẇ_entra − Q̇_sai = ṁ·Δh.",
+   "Antes de calcular, escreva a seta de cada energia: eixo entra, calor para a água sai. Trocar esse sinal leva direto ao distrator 4,8.",
+   "kW ÷ (kJ/kg) = kg/s. Só a análise de unidades já elimina 0,2 e 0,3, que são adimensionais disfarçados.",
+   "Em compressor, h2 > h1 sempre, e o resfriamento não muda isso — apenas reduz o quanto a entalpia sobe por unidade de potência gasta."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q42",
+  "q": "Um sistema executa um ciclo de potência reversível para o qual a temperatura média de adição de calor é 552°C, e a temperatura média na qual o calor é descarregado é 57°C. A eficiência térmica máxima desse ciclo, conhecida como eficiência de Carnot, em porcentagem, é de",
+  "alts": {
+   "A": "10",
+   "B": "40",
+   "C": "60",
+   "D": "100",
+   "E": "495"
+  },
+  "correta": "C",
+  "explica": "Ciclo de potência reversível entre duas temperaturas: rendimento de Carnot.\n\nη = 1 − T_fria/T_quente, com as temperaturas em KELVIN.\n\n1) T_quente = 552 + 273 = 825 K.\n2) T_fria = 57 + 273 = 330 K.\n3) Razão: 330/825 = 0,4.\n4) η = 1 − 0,4 = 0,6 = 60%.\n\nAlternativa C. Os números foram escolhidos para fechar redondo (825 = 2,5 × 330); se a sua conta não estiver dando um valor limpo, você errou a conversão.",
+  "erradas": {
+   "A": "57/552 = 0,103 ≈ 10%. Dois erros empilhados no mesmo passo: fez a razão direto em graus Celsius e ainda esqueceu o \"1 −\".",
+   "B": "330/825 = 0,4 → 40%. Converteu certo para kelvin e parou na razão T_fria/T_quente, sem subtrair de 1. Esse 40% é a fração do calor que é REJEITADA para a fonte fria; o rendimento é o que sobra.",
+   "D": "Confundiu \"reversível\" com \"sem perda nenhuma\". Reversível significa o teto do rendimento entre AQUELAS duas temperaturas. Rendimento de 100% exigiria fonte fria a 0 K, o que a 2ª lei proíbe.",
+   "E": "552 − 57 = 495. Pegou a diferença de temperaturas em Celsius e chamou de porcentagem. Rendimento é razão, não diferença — e 495% de rendimento seria um moto-perpétuo."
+  },
+  "pontos": [
+   "η_Carnot = 1 − T_fria/T_quente, sempre em kelvin. Diferença de temperatura pode ficar em °C; razão de temperaturas, jamais.",
+   "Rendimento de máquina térmica fica entre 0 e 1. Qualquer alternativa acima de 100% morre na leitura, sem conta.",
+   "Se você parar em T_fria/T_quente, achou a fração de calor rejeitada. Falta o 1 − para virar rendimento — é o distrator mais marcado dessa questão.",
+   "Reversível = máximo possível entre as duas temperaturas dadas, não 100%. Nenhum ciclo real chega nesse teto, e nenhum ciclo qualquer o ultrapassa."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q37",
+  "q": "Considere as seguintes quantidades de fluidos colocadas em 3 reservatórios distintos: 14 m 3 de água, 1 m 3 de mercúrio e 15 m 3 de gasolina. Em ordem crescente de peso nos reservatórios, tem-se",
+  "alts": {
+   "A": "água, mercúrio e gasolina",
+   "B": "mercúrio, água e gasolina",
+   "C": "mercúrio, gasolina e água",
+   "D": "gasolina, mercúrio e água",
+   "E": "gasolina, água e mercúrio Dados de pesos específicos (N/m 3) Água 10.000 Gasolina 7.200 Mercúrio 136.000"
+  },
+  "correta": "D",
+  "explica": "Peso é peso específico VEZES volume, não peso específico sozinho. Os dados estão escondidos dentro da alternativa E — água 10.000 N/m³, gasolina 7.200 N/m³, mercúrio 136.000 N/m³. Faça as três contas: água, P = 10.000 N/m³ × 14 m³ = 140.000 N; mercúrio, P = 136.000 N/m³ × 1 m³ = 136.000 N; gasolina, P = 7.200 N/m³ × 15 m³ = 108.000 N. Em ordem crescente: gasolina (108 kN) < mercúrio (136 kN) < água (140 kN), que é a alternativa D. Repare na margem que a banca montou: o mercúrio perde para a água por apenas 4 kN, менос de 3%. É essa folga apertada que pune quem responde de cabeça 'mercúrio é o mais pesado' sem multiplicar pelo volume.",
+  "erradas": {
+   "A": "É exatamente a ordem certa de trás para frente — água (140 kN), mercúrio (136 kN), gasolina (108 kN) é a ordem DECRESCENTE. O candidato fez as três multiplicações corretamente e leu 'crescente' como 'decrescente' na hora de marcar.",
+   "B": "É a lista dos pesos específicos do maior para o menor: 136.000 > 10.000 > 7.200. Dois erros empilhados — ignorou o volume (não multiplicou nada) e ainda ordenou ao contrário do que foi pedido.",
+   "C": "Mistura dois critérios sem calcular nenhum peso: põe o mercúrio na frente porque só tem 1 m³ ('é pouco, deve pesar menos') e depois ordena os outros dois pelo peso específico (gasolina 7.200 < água 10.000). O mercúrio é o segundo, não o primeiro — 136 kN contra os 108 kN da gasolina.",
+   "E": "É a ordem crescente dos pesos específicos (7.200 < 10.000 < 136.000) — o candidato esqueceu de multiplicar pelo volume. É a pegadinha central da questão: pelo γ o mercúrio seria disparado o último, mas 1 m³ de mercúrio (136 kN) pesa MENOS que 14 m³ de água (140 kN)."
+  },
+  "pontos": [
+   "Peso = γ · V. Peso específico grande não significa peso grande: 1 m³ de mercúrio pesa menos que 14 m³ de água.",
+   "γ da água = 10.000 N/m³, gasolina ≈ 7.200 N/m³, mercúrio = 136.000 N/m³ (13,6 vezes a água).",
+   "Antes de olhar as alternativas, escreva no rascunho se o pedido é crescente ou decrescente — a banca sempre oferece a ordem invertida como distrator.",
+   "A Cesgranrio costuma jogar a tabela de dados dentro da última alternativa; leia a alternativa E antes de começar a contar."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q38",
+  "q": "Para determinar o nível de etanol ( = 790 kg/m 3) em um reservatório, um técnico verificou que um manômetro instalado na base do reservatório indicava a pressão de 23,7 kPa. Considerando-se g = 10 m/s 2, esse nível, em m, pode ser estimado em",
+  "alts": {
+   "A": "2,0",
+   "B": "3,0",
+   "C": "4,0",
+   "D": "5,0",
+   "E": "8,0"
+  },
+  "correta": "B",
+  "explica": "Hidrostática pura: p = ρ g h, logo h = p / (ρ g). Primeiro converta a pressão: 23,7 kPa = 23.700 Pa = 23.700 N/m². Depois monte o peso específico do etanol: γ = ρ g = 790 kg/m³ × 10 m/s² = 7.900 N/m³. Então h = 23.700 / 7.900 = 3,0 m — alternativa B. Confira as unidades, que é o que garante a resposta: (N/m²) ÷ (N/m³) = m. Feche a conta de volta: 3,0 m × 7.900 N/m³ = 23.700 Pa = 23,7 kPa, exatamente o que o manômetro indica.",
+  "erradas": {
+   "A": "Vem de usar a massa específica da água (1.000 kg/m³) no lugar da do etanol: 23.700/10.000 = 2,37 m, que o candidato arredonda para 2,0. Dá no mesmo quem converte para coluna d'água (2,37 m) e depois MULTIPLICA por 0,79 em vez de dividir: 1,87 ≈ 2,0. Verificação: 2,0 m de etanol dariam só 15,8 kPa.",
+   "C": "Aparece em quem aplica a correção de densidade duas vezes: 2,37 m de coluna d'água dividido por 0,79 dá o valor certo (3,0 m), mas dividir de novo por 0,79 leva a 3,8 ≈ 4,0. Verificação: 4,0 m de etanol dariam 790 × 10 × 4 = 31.600 Pa = 31,6 kPa, e não 23,7 kPa.",
+   "D": "Nenhuma conta consistente com os dados chega a 5,0 — é o distrator de quem estima um nível 'redondo' e não fecha a verificação. 5,0 m de etanol dariam 790 × 10 × 5 = 39.500 Pa = 39,5 kPa, quase o dobro do que o manômetro indica.",
+   "E": "O 8,0 é o denominador da conta disfarçado de resposta: γ = ρ g = 7.900 N/m³ = 7,9 kN/m³, que arredonda para 8. O candidato calculou o peso específico e marcou esse número em vez do quociente. Verificação: 8,0 m de etanol dariam 63,2 kPa."
+  },
+  "pontos": [
+   "p = ρ g h vale para qualquer líquido em repouso; o que muda de fluido para fluido é só o γ = ρ g.",
+   "Converta kPa para Pa antes de dividir: 23,7 kPa = 23.700 N/m². Errar a potência de 10 aqui é o jeito mais comum de perder a questão.",
+   "γ do etanol ≈ 7.900 N/m³ contra 10.000 N/m³ da água: para a mesma pressão, a coluna de etanol fica cerca de 27% mais alta que a de água.",
+   "Sempre feche a conta de volta — h × γ tem que devolver a pressão do enunciado. Isso mata 3 dos 4 distratores em segundos."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q23",
+  "q": "O diâmetro da tubulação necessária para escoar cerca de 7,5 m3/s, com uma velocidade média de 2,5 m/s, deve ser determinado. O diâmetro, em metros, dessa tubulação e a natureza do escoamento (laminar ou turbulento) serão, respectivamente,",
+  "alts": {
+   "A": "0,52; laminar",
+   "B": "1,14; laminar",
+   "C": "1,71; turbulento",
+   "D": "1,95; turbulento",
+   "E": "2,52; turbulento Dado viscosidade cinemática da água = 0,5 x 10-6 m2/s"
+  },
+  "correta": "D",
+  "explica": "São duas contas em sequência. Primeira, continuidade: Q = V · A, logo A = Q / V = 7,5 m³/s ÷ 2,5 m/s = 3,0 m². Como a seção é circular, A = πD²/4, então D = √(4A/π) = √(4 × 3,0 / 3,1416) = √3,82 = 1,95 m. Segunda, regime: o dado da viscosidade cinemática está escondido no fim da alternativa E, ν = 0,5 × 10⁻⁶ m²/s. Re = V·D/ν = (2,5 m/s × 1,95 m) / (0,5 × 10⁻⁶ m²/s) = 4,89 / 0,0000005 ≈ 9,8 × 10⁶. Com Re na casa de dez milhões, muito acima dos 2.300 do limite laminar, o escoamento é francamente turbulento. Resposta D. Atalho de prova: as duas alternativas que dizem 'laminar' já morrem antes de qualquer conta — para ficar laminar com água a 2,5 m/s seria preciso D = 2.300 × 0,5×10⁻⁶ / 2,5 = 0,00046 m, ou seja, meio milímetro de tubo.",
+  "erradas": {
+   "A": "Morre no rótulo: 'laminar' é impossível para água a 2,5 m/s em tubo de escala métrica. O número também não fecha — 0,52 é praticamente o inverso do diâmetro certo (1/1,95 = 0,51), pegadinha de quem inverteu a razão e trabalhou com V/Q em vez de Q/V. Conferindo: um tubo de 0,52 m tem A = 0,21 m² e escoaria 0,53 m³/s, não 7,5.",
+   "B": "Mesma sentença de morte no 'laminar'. O diâmetro corresponde a uma área de 1,0 m², que sai de dividir por π uma vez a mais do que deveria (3,0/π ≈ 0,95 ≈ 1). Conferindo: 1,14 m dá A = 1,02 m² e Q = 2,55 m³/s, um terço da vazão pedida.",
+   "C": "Acertou o regime e errou o diâmetro: esqueceu o fator π/4 e tratou a seção como se fosse A = D², chegando a D = √3,0 = 1,73 ≈ 1,71. É o distrator mais perigoso da questão, porque a metade conceitual está certa. Conferindo: 1,71 m dá A = 2,30 m² e Q = 5,74 m³/s.",
+   "E": "Regime certo, diâmetro inflado. 2,52 m corresponde a A = 4,99 m², ou seja, uma vazão de 12,5 m³/s a 2,5 m/s — não os 7,5 m³/s do enunciado. Cai aqui quem usa uma área maior que a de continuidade (tipicamente multiplicando onde deveria dividir)."
+  },
+  "pontos": [
+   "A = Q/V e depois D = √(4A/π). O fator 4/π é justamente o que separa a resposta certa (1,95) do distrator (1,71 ≈ √3).",
+   "Re = V·D/ν, com ν em m²/s. Água tem ν da ordem de 10⁻⁶ m²/s, então qualquer tubo industrial com velocidade de metros por segundo dá Re de milhões: turbulento.",
+   "Laminar exige Re < 2.300. Com água a 2,5 m/s isso pediria diâmetro de ~0,5 mm — alternativa que diga 'laminar' pode ser riscada antes da conta.",
+   "Confira de volta com Q = A·V: se o diâmetro marcado não devolve 7,5 m³/s, está errado. Esse teste elimina A, B, C e E sozinho."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q22",
+  "q": "Considere um ciclo teórico de Rankine, sem superaquecimento. As seguintes informações foram disponibilizadas: • Entrada na turbina: pressão = 6 MPa, temperatura 275,4 ºC, entalpia = 2784,30 kJ/kg • Saída da turbina: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 2020,12 kJ/kg • Saída do condensador: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 251,38 kJ/kg • Entrada na caldeira: pressão de 6 MPa, temperatura 60,06 ºC; entalpia = 257,50 kJ/kg De posse dessas informações e sabendo-se que a potência da turbina é 7,64 MW, constata-se que o fluxo de massa, em kg/s, é igual a",
+  "alts": {
+   "A": "5,5",
+   "B": "6",
+   "C": "8",
+   "D": "10",
+   "E": "12,5"
+  },
+  "correta": "D",
+  "explica": "A potência da turbina só conversa com a entalpia que entra e sai DA TURBINA. Regime permanente, adiabática: Ẇ = ṁ · (h_entrada − h_saída).\n\n1) Trabalho específico da turbina: 2784,30 − 2020,12 = 764,18 kJ/kg.\n2) Converta a potência antes de dividir: 7,64 MW = 7 640 kW = 7 640 kJ/s.\n3) ṁ = 7 640 (kJ/s) ÷ 764,18 (kJ/kg) = 9,998 kg/s ≈ 10 kg/s.\n\nOs outros dois estados estão no enunciado só para ver se você separa os quatro trechos do ciclo: caldeira h1 − h4 = 2784,30 − 257,50 = 2 526,80 kJ/kg; condensador h2 − h3 = 2020,12 − 251,38 = 1 768,74 kJ/kg; bomba h4 − h3 = 257,50 − 251,38 = 6,12 kJ/kg. Note que a bomba consome 6,12 contra 764,18 da turbina — menos de 1%. Se você tivesse usado o trabalho líquido (764,18 − 6,12 = 758,06 kJ/kg), daria 10,08 kg/s e a resposta continuaria D. Conferência de coerência dos dados: rendimento = 758,06 ÷ 2 526,80 = 30,0%, número típico de Rankine sem superaquecimento.",
+  "erradas": {
+   "A": "Divide a potência pelo calor rejeitado no condensador (1 768,74 kJ/kg), o que dá 4,3 kg/s, e arrasta o chute para a alternativa mais próxima. Condensador não produz trabalho.",
+   "B": "Divide pelo calor da caldeira (2 526,80 kJ/kg) e chega a 3,0 kg/s, correndo para o extremo baixo da lista. Esse Δh serve para o rendimento, não para a potência da turbina.",
+   "C": "É a armadilha do número redondo: o candidato vê 7,64 MW, arredonda para 8 e marca. Para a resposta ser 8 kg/s o Δh teria de valer 955 kJ/kg, valor que não existe entre nenhum par de estados do enunciado.",
+   "E": "Exigiria Δh = 611 kJ/kg — que é 0,8 × 764,18. Cai aqui quem 'aplica' um rendimento isentrópico de 80% que o enunciado nunca deu: o ciclo é teórico e a expansão já é a ideal."
+  },
+  "pontos": [
+   "Potência de turbina: Ẇ = ṁ·(h_ent − h_sai); use só as duas entalpias da turbina.",
+   "Converta MW para kJ/s antes de dividir — 7,64 MW = 7 640 kJ/s.",
+   "Rankine tem quatro Δh: caldeira (h1−h4), turbina (h1−h2), condensador (h2−h3) e bomba (h4−h3). Saiba qual é qual antes de encostar na calculadora.",
+   "O trabalho da bomba é ~1% do da turbina; ignorá-lo raramente muda a alternativa, mas ele existe no trabalho líquido."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q30",
+  "q": "Em um ciclo Brayton padrão de gás, foi determinado que: • trabalho no compressor: 458,90 kJ / kg • trabalho na turbina: 894,9 kJ / kg • calor liberado na câmara de combustão: não informado • calor liberado para a fonte fria: 284,2 kJ / kg Com essas informações, constata-se que a eficiência do ciclo é igual a",
+  "alts": {
+   "A": "35,2%",
+   "B": "45,1%",
+   "C": "51%",
+   "D": "57,8%",
+   "E": "60,5%"
+  },
+  "correta": "E",
+  "explica": "O calor da câmara de combustão foi omitido de propósito: você o obtém fechando o balanço de energia do ciclo. Num ciclo completo a energia interna volta ao valor inicial, então q_ent = w_líq + q_sai.\n\n1) Trabalho líquido: w_líq = w_turbina − w_compressor = 894,9 − 458,90 = 436,00 kJ/kg.\n2) Calor fornecido: q_ent = 436,00 + 284,2 = 720,20 kJ/kg.\n3) Rendimento: η = w_líq ÷ q_ent = 436,00 ÷ 720,20 = 0,6054 → 60,5%.\n\nConfirme pelo outro caminho: η = 1 − q_sai/q_ent = 1 − 284,2/720,20 = 1 − 0,3946 = 0,6054 = 60,5%. As duas formas têm de dar o mesmo número; se não derem, o balanço está errado.",
+  "erradas": {
+   "A": "Chuta o calor fornecido como sendo o trabalho da turbina mais o calor rejeitado (894,9 + 284,2 = 1 179,1) e faz 436,00 ÷ 1 179,1 = 37,0%, parando aqui. O trabalho da turbina não é calor de entrada.",
+   "B": "Sai exatamente de (894,9 − 284,2) ÷ (894,9 + 458,90) = 610,7 ÷ 1 353,8 = 45,1%: o candidato desconta o calor rejeitado do trabalho da turbina e divide pela soma dos dois trabalhos, como se compressor e turbina fossem 'energia gasta'. Trabalho de compressor não é insumo térmico.",
+   "C": "É a razão de trabalho reverso (back work ratio): 458,90 ÷ 894,9 = 51,3%, a fatia do trabalho da turbina que o compressor devora. Número importantíssimo no Brayton, mas não é rendimento.",
+   "D": "Monta o calor fornecido somando compressor e calor rejeitado (458,90 + 284,2 = 743,1) e obtém 436,00 ÷ 743,1 = 58,7%, caindo aqui. O compressor entra no trabalho líquido, nunca no calor da câmara."
+  },
+  "pontos": [
+   "Se o calor da câmara não é dado, feche o ciclo: q_ent = w_líq + q_sai.",
+   "η = w_líq/q_ent = 1 − q_sai/q_ent — use uma e confira com a outra.",
+   "w_líq no Brayton = w_turbina − w_compressor; o compressor come metade da turbina (razão de trabalho reverso ≈ 51% aqui), o que não acontece no Rankine, onde a bomba come ~1%.",
+   "Razão de trabalho reverso não é rendimento — a banca coloca esse valor como alternativa."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q64",
+  "q": "Um engenheiro consulta os resultados de ensaio de uma bomba centrífuga trabalhando com uma velocidade constante de 875 rpm. Esses resultados estão representados em um diagrama com as curvas características de carga, rendimento e potência absorvida, em relação à vazão. Através deste diagrama, ele observa o comportamento de uma bomba de 75 HP, 340 l/s e 13,5 m de altura manométrica. O engenheiro decide, então, verificar o que ocorreria, caso fosse introduzida uma determinada alteração na condição de funcionamento da bomba, no caso, uma redução de velocidade para 700 rpm. Para essa situação específica, quais são, respectivamente, os novos valores de potência (HP), vazão (l/s) e de altura manométrica (m)?",
+  "alts": {
+   "A": "35,2; 250,4 e 7,4",
+   "B": "38,4; 272,0 e 8,6",
+   "C": "52,5; 272,0 e 9,5",
+   "D": "60,0; 292,0 e 10,8",
+   "E": "67,5; 272,0 e 12,2 3 R-134a 1 2 4 água"
+  },
+  "correta": "B",
+  "explica": "É aplicação direta das leis de semelhança (afinidade) para a MESMA bomba com rotação variável: Q ∝ n, H ∝ n², P ∝ n³.\n\n1) Razão de rotações: n₂/n₁ = 700/875 = 0,8.\n2) Vazão (expoente 1): Q₂ = 340 l/s × 0,8 = 272,0 l/s.\n3) Altura (expoente 2): H₂ = 13,5 m × 0,8² = 13,5 × 0,64 = 8,64 m ≈ 8,6 m.\n4) Potência (expoente 3): P₂ = 75 HP × 0,8³ = 75 × 0,512 = 38,4 HP.\n\nNa ordem que a banca pediu — potência, vazão, altura — dá 38,4 HP; 272,0 l/s; 8,6 m: letra B.\n\nAtalho de prova: calcule só a vazão primeiro. 340 × 0,8 = 272 já elimina A e D. Depois 13,5 × 0,64 = 8,64 fecha em B sem precisar sequer elevar ao cubo.",
+  "erradas": {
+   "A": "Os três números vêm abaixo dos corretos. É a alternativa de quem aplica expoente também na vazão, como se Q caísse junto com H. A vazão é a única grandeza que cai LINEARMENTE: 340 × 0,8 = 272 l/s, e o 250,4 já mata a letra antes de olhar carga e potência.",
+   "C": "Acertou a vazão (272), mas usou 0,7 como razão — leu os 700 rpm como '70%' em vez de calcular 700/875 — e ainda aplicou esse fator linearmente: 75 × 0,7 = 52,5 HP e 13,5 × 0,7 = 9,45 ≈ 9,5 m. Dois erros somados: razão errada e expoente 1 onde deveria ser 2 e 3.",
+   "D": "Pegou a razão certa (0,8) e aplicou LINEARMENTE em tudo: 75 × 0,8 = 60,0 HP e 13,5 × 0,8 = 10,8 m. Esqueceu o quadrado da altura e o cubo da potência. A vazão de 292 l/s nem obedece à lei linear, o que denuncia a alternativa de imediato.",
+   "E": "Usou 0,9 no lugar de 0,8 — ou seja, tirou a RAIZ da razão (√0,8 ≈ 0,894) em vez de elevá-la ao quadrado e ao cubo: 75 × 0,9 = 67,5 HP e 13,5 × 0,9 = 12,15 ≈ 12,2 m. Inverteu os expoentes e por isso reduziu de menos."
+  },
+  "pontos": [
+   "Rotação variável, mesma bomba: Q ∝ n, H ∝ n², P ∝ n³. Diâmetro de rotor variável com n fixo: Q ∝ D³, H ∝ D², P ∝ D⁵.",
+   "Cortar 20% da rotação derruba quase metade da potência (0,8³ = 0,512). É a razão física da economia com variador de frequência.",
+   "Comece sempre pela vazão: é a única linear e costuma eliminar duas alternativas de cara.",
+   "As leis de semelhança só valem entre pontos homólogos das curvas, com rendimento aproximadamente constante."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q60",
+  "q": "Uma bomba centrífuga é utilizada em um determinado sistema, fornecendo a vazão correta, porém apresentando uma altura de carga muito inferior à necessária. Uma possível solução para tal problema é",
+  "alts": {
+   "A": "adicionar uma bomba semelhante em série, com a saída alimentando diretamente o lado de aspiração da outra bomba.",
+   "B": "associar duas bombas semelhantes em paralelo.",
+   "C": "aumentar a potência de eixo da bomba.",
+   "D": "utilizar um fluido de maior viscosidade.",
+   "E": "diminuir a potência fornecida ao fluido. 8 100 80 60 40 20 0 x(mm) T(C) o 50 100 150 200 250 300 T material 3material 3 material 2material 2 material 1material 1"
+  },
+  "correta": "A",
+  "explica": "Leia o diagnóstico do enunciado: a vazão já está correta e falta ALTURA. Ou seja, precisa-se de mais carga mantendo a mesma vazão. Isso é associação em SÉRIE.\n\nEm série, todo o líquido que sai da primeira bomba entra na sucção da segunda — a vazão que atravessa as duas é a mesma, e as alturas se somam: H_total = H₁ + H₂. Com duas bombas semelhantes, dobra-se a altura para a mesma vazão. É exatamente o arranjo que a letra A descreve ('a saída alimentando diretamente o lado de aspiração da outra bomba'), que é a própria definição de série.\n\nÉ o mesmo princípio da bomba de múltiplos estágios: rotores em série dentro de uma carcaça só, cada um somando sua parcela de altura.",
+  "erradas": {
+   "B": "Paralelo é o arranjo oposto: as VAZÕES se somam sob a mesma altura. Aplicado aqui, aumentaria justamente a grandeza que já estava correta e deixaria a carga insuficiente. Pior: com a curva do sistema mais íngreme, a vazão nem chega a dobrar e a altura continua sem resolver.",
+   "C": "A altura manométrica que a bomba entrega vem da geometria do rotor e da rotação, não do motor. Trocar por um motor mais potente não desloca a curva H×Q nem um milímetro — só evita sobrecarga caso o eixo estivesse no limite. Confundir potência disponível com carga gerada é o erro clássico.",
+   "D": "Fluido mais viscoso piora tudo ao mesmo tempo: derruba a curva de carga da bomba, despenca o rendimento e ainda aumenta a perda de carga na tubulação. É andar na direção contrária ao problema.",
+   "E": "Menos potência entregue ao fluido significa menos energia por unidade de peso, ou seja, altura menor ainda. Se falta carga, reduzir a potência hidráulica só agrava o quadro."
+  },
+  "pontos": [
+   "Série soma ALTURA com a mesma vazão; paralelo soma VAZÃO com a mesma altura. Falta carga → série. Falta vazão → paralelo.",
+   "Bomba de múltiplos estágios nada mais é do que associação em série dentro de uma carcaça.",
+   "A curva H×Q pertence à bomba (rotor e rotação). Trocar o motor não a move; usinar o rotor ou mudar a rotação, sim.",
+   "Viscosidade alta derruba carga e rendimento da centrífuga — por isso fluido viscoso pede bomba de deslocamento positivo."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q51",
+  "q": "Um indutor preso no eixo da bomba é uma solução utilizada para melhorar as condições de sucção das bombas centrífugas quando determinadas condições se tornam um problema crítico de bombeamento. Tais condições são:",
+  "alts": {
+   "A": "alta pressão de sucção e presença de cavitação",
+   "B": "alta pressão de sucção e baixa temperatura",
+   "C": "alta pressão de sucção e alta temperatura",
+   "D": "baixa temperatura e presença de cavitação",
+   "E": "baixa pressão de sucção e alta temperatura"
+  },
+  "correta": "E",
+  "explica": "O indutor é um rotor de fluxo axial montado no mesmo eixo, logo à frente do rotor principal. Ele dá um pré-aumento de pressão ao líquido antes da entrada do rotor e, com isso, reduz o NPSH REQUERIDO da bomba. Só se recorre a ele quando o NPSH disponível está apertado.\n\nOlhe o que compõe o NPSH disponível:\n\nNPSH_d ≈ (p_sucção − p_vapor)/(ρ·g) + z − h_perdas\n\nDuas condições espremem esse numerador ao mesmo tempo:\n• pressão de sucção baixa → o primeiro termo cai;\n• temperatura alta → a pressão de vapor sobe e o termo cai de novo.\n\nÉ exatamente a combinação da letra E, e é o cenário típico de refinaria: bomba puxando produto quente de um vaso a baixa pressão. Repare que três alternativas trazem 'alta pressão de sucção', que é justamente o que dá FOLGA de NPSH e dispensa o indutor — dá para eliminá-las em bloco.",
+  "erradas": {
+   "A": "Alta pressão de sucção afasta a cavitação, não a provoca — a primeira metade já derruba a alternativa. Além disso, cavitação é a consequência que se quer evitar, não a condição de sucção que justifica instalar o indutor.",
+   "B": "Alta pressão de sucção com baixa temperatura é o melhor cenário de sucção possível: pressão de vapor baixa e NPSH disponível sobrando. Nessa condição não se instala indutor nenhum.",
+   "C": "A alta temperatura de fato prejudica, mas a alta pressão de sucção compensa e devolve margem de NPSH. Quem marca aqui acerta metade do raciocínio e ignora que o gargalo do problema é a pressão baixa na sucção.",
+   "D": "Baixa temperatura AJUDA: reduz a pressão de vapor e aumenta o NPSH disponível. A alternativa inverte o efeito da temperatura e ainda troca a causa (pressão de sucção baixa) pelo efeito (cavitação)."
+  },
+  "pontos": [
+   "Indutor = rotor axial auxiliar montado à frente do rotor principal, no mesmo eixo, para reduzir o NPSH requerido.",
+   "NPSH disponível cai com pressão de sucção baixa e com temperatura alta (a pressão de vapor sobe). Cavita quando NPSH_d < NPSH_r.",
+   "Cavitação é vaporização por QUEDA DE PRESSÃO a temperatura constante — o inverso da ebulição, que é aumento de temperatura a pressão constante.",
+   "Produto quente puxado de vaso a baixa pressão é a receita clássica de problema de sucção; nas alternativas, 'alta pressão de sucção' quase sempre é distrator."
+  ]
+ }
+]

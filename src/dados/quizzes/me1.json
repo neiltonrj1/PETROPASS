@@ -1,0 +1,569 @@
+[
+ {
+  "origem": "Cesgranrio 2023, Q33",
+  "q": "Duas placas planas justapostas, de mesma espessura, separam dois ambientes, ambos evacuados. As temperaturas das faces esquerda e direita do conjunto das duas placas são mantidas a TQ e TF. Sejam kE e kD as condutividades térmicas das placas da esquerda e da direita, respectivamente. Suponha o regime permanente, e que L seja a espessura de cada placa. Nessas condições, verifica-se o seguinte:",
+  "alts": {
+   "A": "se kE = kD, a temperatura TM da interface das duas placas será mais próxima de TQ.",
+   "B": "se kE < kD, o calor trocado aumentará.",
+   "C": "se kE > kD, o calor trocado aumentará.",
+   "D": "se kE = kD, a temperatura TM da interface das duas placas será mais próxima de TF.",
+   "E": "se kE = kD, a temperatura TM da interface das duas placas será dada por (TQ + TF) / 2."
+  },
+  "correta": "E",
+  "explica": "Vácuo dos dois lados e temperaturas de face impostas: sobra condução pura, em série. Cada placa é uma resistência térmica R = L/(k·A), e resistências em série se somam: R_total = L/(kE·A) + L/(kD·A). Em regime permanente e sem geração, o MESMO fluxo atravessa as duas placas: q = kE·A·(TQ − TM)/L = kD·A·(TM − TF)/L. Fazendo kE = kD, os k e os L cancelam e sobra TQ − TM = TM − TF, ou seja, 2·TM = TQ + TF, logo TM = (TQ + TF)/2. Resistências iguais dividem a queda total de temperatura em partes iguais, e a interface cai exatamente no meio.",
+  "erradas": {
+   "A": "Imagina que o lado quente 'empurra' a interface para perto de TQ. Com kE = kD e mesma espessura L, as duas resistências são idênticas, cada placa fica com metade da queda e não há razão física para TM pender para lado nenhum.",
+   "B": "O calor trocado depende da SOMA L/kE + L/kD, não da desigualdade entre os dois. Dizer 'kE < kD aumenta' não define comparação alguma: se kD é que subiu, a soma cai e o calor sobe; se foi kE que caiu, a soma sobe e o calor cai. A desigualdade sozinha não decide nada.",
+   "C": "Mesma armadilha, invertida: o candidato raciocina que 'material mais condutor no lado quente puxa mais calor'. Em série quem manda é a resistência total, e ela é comutativa — trocar as duas placas de posição não altera 1 W no fluxo.",
+   "D": "Espelho do erro da A, jogando a interface para o lado frio. Resistências iguais, quedas iguais, TM no meio."
+  },
+  "pontos": [
+   "Condução em série: as resistências L/(k·A) somam, e a ORDEM das camadas não altera o fluxo total.",
+   "Em regime permanente sem geração, o mesmo q atravessa todas as camadas; a queda de temperatura de cada camada é proporcional à resistência dela.",
+   "Camadas de mesma espessura e mesmo k dividem o ΔT ao meio: TM = (TQ + TF)/2. Quem tem k baixo (o isolante) sempre fica com a maior queda."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q34",
+  "q": "A temperatura da carcaça de um trocador de calor indica perda de calor para o ambiente. Sabe-se que: • corrente quente: Capacidade térmica = 2 kJ/K.s Temperatura de entrada no trocador: 95 ºC Temperatura de saída no trocador: 45 ºC • corrente fria: Capacidade térmica = 3 kJ/K.s Temperatura de entrada no trocador: 25 ºC Temperatura de saída no trocador: 55 ºC Com essas informações, a quantidade de calor perdida para o ambiente, em kW, é igual a",
+  "alts": {
+   "A": "0",
+   "B": "10",
+   "C": "20",
+   "D": "30",
+   "E": "40"
+  },
+  "correta": "B",
+  "explica": "Capacidade térmica de corrente é C = ṁ·cp, dada aqui já em kJ/(K·s), que é kW/K. Balanço de energia no trocador em regime permanente: o que a corrente quente cede = o que a fria recebe + o que vaza pela carcaça. Corrente quente: Q_q = 2 kW/K × (95 − 45) K = 2 × 50 = 100 kW cedidos. Corrente fria: Q_f = 3 kW/K × (55 − 25) K = 3 × 30 = 90 kW recebidos. Perda pela carcaça = 100 − 90 = 10 kW. Detalhe que poupa tempo: só aparece DIFERENÇA de temperatura, e 50 °C de queda valem 50 K — não há conversão a fazer.",
+  "erradas": {
+   "A": "Zero é a resposta do trocador adiabático, em que Q cedido = Q recebido. O enunciado diz na primeira linha que a carcaça está perdendo calor. Quem marca 0 aplicou fórmula decorada sem ler.",
+   "C": "Subtraiu as quedas de temperatura, 50 − 30 = 20, e escreveu 'kW'. Faltou multiplicar cada corrente pela SUA capacidade térmica; ΔT em kelvin não é potência.",
+   "D": "Usou a diferença entre as capacidades, (3 − 2) = 1 kW/K, e multiplicou pelo ΔT da corrente fria: 1 × 30 = 30 kW. As capacidades não se subtraem — cada corrente carrega a própria e cada uma multiplica o próprio ΔT.",
+   "E": "Repetiu C = 2 kW/K nas duas correntes: 2 × 50 − 2 × 60/2 = 100 − 60 = 40 kW. Leu a capacidade da corrente quente e reaproveitou na fria, que vale 3 kW/K, não 2."
+  },
+  "pontos": [
+   "C = ṁ·cp em kW/K multiplicado por ΔT em K entrega potência em kW, direto, sem passar por vazão nem calor específico separados.",
+   "Trocador com perda: Q cedido pelo quente = Q recebido pelo frio + Q perdido. Os dois lados só batem em trocador adiabático.",
+   "Diferença de temperatura tem o mesmo valor numérico em °C e em K; converter para kelvin só é obrigatório quando a temperatura aparece sozinha (radiação, gás ideal, rendimento de Carnot)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q40",
+  "q": "O regime de escoamento na convecção natural é regido pelo adimensional conhecido como número de Grashof. Tal adimensional é uma medida da importância relativa da(s)",
+  "alts": {
+   "A": "transferência de calor por convecção e da transferência de calor por condução.",
+   "B": "transferência de calor por advecção e da transferência de calor por condução.",
+   "C": "forças de inércia e das forças viscosas agindo sobre o fluido.",
+   "D": "forças gravitacionais e das tensões superficiais agindo sobre o fluido.",
+   "E": "forças de empuxo e das forças viscosas oponentes agindo sobre o fluido."
+  },
+  "correta": "E",
+  "explica": "Gr = g·β·(Ts − T∞)·L³/ν². O numerador é o empuxo que nasce da diferença de massa específica provocada pelo aquecimento do fluido junto à parede; o denominador, ν², é o atrito viscoso que freia esse movimento. Grashof é empuxo dividido por viscosidade — exatamente o que a letra E diz, e a palavra 'oponentes' é o sinal de que a banca quis a força que resiste. Na convecção natural o Gr faz o papel que o Reynolds faz na forçada: é ele quem define se a camada limite é laminar ou turbulenta (em placa vertical a transição sai por volta de Ra = Gr·Pr ≈ 10⁹).",
+  "erradas": {
+   "A": "É a definição de Nusselt (Nu = h·L/k): convecção na superfície comparada com a condução que existiria naquele mesmo fluido parado. Descreve troca de calor, não relação de forças.",
+   "B": "Advecção sobre difusão é Péclet (Pe = Re·Pr): calor carregado pelo escoamento contra calor espalhado por difusão. Nada a ver com empuxo.",
+   "C": "Inércia sobre viscosidade é Reynolds. O candidato acerta o denominador e erra o numerador: em convecção natural não há velocidade imposta, quem move o fluido é o empuxo, não a inércia de um escoamento forçado.",
+   "D": "Gravidade contra tensão superficial é o número de Bond (ou Eötvös), de bolha e gota. A palavra 'gravitacionais' lembra o g da fórmula do Grashof e o candidato morde a isca."
+  },
+  "pontos": [
+   "Gr = g·β·ΔT·L³/ν²: empuxo sobre viscosidade, e manda no regime da convecção NATURAL.",
+   "Re = inércia/viscosidade (convecção forçada); Pe = advecção/difusão; Bo = gravidade/tensão superficial.",
+   "Ra = Gr·Pr é quem marca a transição laminar–turbulento na convecção natural.",
+   "Convecção natural: Nu = f(Gr, Pr). Convecção forçada: Nu = f(Re, Pr). Saber qual par entra em cada caso resolve metade das questões do tema."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q54",
+  "q": "O adimensional que fornece uma medida da transferência de calor por convecção, que ocorre em uma superfície, e que corresponde ao gradiente de temperatura adimensional na superfície, é o número de",
+  "alts": {
+   "A": "Nusselt",
+   "B": "Prandtl",
+   "C": "Grashof",
+   "D": "Rayleigh",
+   "E": "Reynolds"
+  },
+  "correta": "A",
+  "explica": "Nu = h·L/k_fluido. Adimensionalizando a condição de contorno na parede, −k·(∂T/∂y) em y = 0 igual a h·(Ts − T∞), chega-se a Nu = (∂θ*/∂y*) em y* = 0: o número de Nusselt É, literalmente, o gradiente adimensional de temperatura na superfície — a banca copiou a definição. Fisicamente, mede quanto a convecção real supera a condução pura que existiria naquela mesma camada de fluido se ela estivesse parada: Nu = 1 significa fluido estagnado (condução pura) e Nu alto significa camada limite fina, gradiente íngreme na parede e h grande.",
+  "erradas": {
+   "B": "Prandtl (Pr = ν/α = cp·μ/k) é propriedade só do fluido: compara difusão de quantidade de movimento com difusão de calor, ou seja, diz qual camada limite é mais espessa, a de velocidade ou a térmica. Não mede troca na superfície.",
+   "C": "Grashof (g·β·ΔT·L³/ν²) é empuxo sobre viscosidade: define o regime da convecção natural, mas não quantifica o gradiente na parede.",
+   "D": "Rayleigh (Ra = Gr·Pr) é o critério de início e de transição da convecção natural. Muita gente marca aqui por lembrar que Ra aparece nas correlações de convecção — mas Ra é ENTRADA da correlação; quem sai dela é o Nu.",
+   "E": "Reynolds (ρ·V·L/μ) é inércia sobre viscosidade: define o regime do escoamento forçado. Também é insumo do cálculo, não a resposta térmica."
+  },
+  "pontos": [
+   "Nu = h·L/k_fluido é o gradiente adimensional de temperatura na superfície; Nu = 1 equivale a condução pura.",
+   "O k do Nusselt é o do FLUIDO; o k do Biot (Bi = h·L/k) é o do SÓLIDO. Trocar os dois é o erro clássico da prova.",
+   "As correlações entregam Nu a partir de Re e Pr (forçada) ou de Gr e Pr (natural); de Nu você extrai h e só então calcula q = h·A·ΔT."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q70",
+  "q": "A insalubridade foi regulamentada pela NR-15, que trata das Atividades e Operações Insalubres. Com base na referida norma, considere as afirmativas a seguir. I - Se, durante a jornada de trabalho, ocorrerem dois ou mais períodos de exposição a ruídos de diferentes níveis, devem ser considerados os seus efeitos combinados e, assim, no caso de dois períodos de exposição a ruídos de diferentes níveis, deve-se obedecer à relação £ C1+ C2 1 T1+ T2 para não exceder o limite de tolerância, em que C indica o tempo total que o trabalhador fica exposto a um nível de ruído específico e T indica a máxima exposição diária permissível a este nível. II - As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB, sem proteção adequada, oferecerão risco grave e iminente. III - O exercício de trabalho em condições de insalubridade de grau máximo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 40%. IV - O exercício de trabalho em condições de insalubridade de grau mínimo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 10%. Estão corretas as afirmativas",
+  "alts": {
+   "A": "I, II e III, apenas.",
+   "B": "I, II e IV, apenas.",
+   "C": "I, III e IV, apenas.",
+   "D": "II, III e IV, apenas.",
+   "E": "I, II, III e IV."
+  },
+  "correta": "D",
+  "explica": "Item por item. I está ERRADO: a NR-15, Anexo 1, manda somar as RAZÕES, ou seja, C1/T1 + C2/T2 + ... ≤ 1. O enunciado escreveu (C1+C2)/(T1+T2) ≤ 1, que é outra coisa. Veja a diferença com números: 4 h a 85 dB(A) (onde T = 8 h) mais 2 h a 100 dB(A) (onde T = 1 h). Pela norma: 4/8 + 2/1 = 0,5 + 2,0 = 2,5 > 1, jornada acima do limite de tolerância. Pela fórmula do item I: (4+2)/(8+1) = 6/9 = 0,67 ≤ 1, ou seja, a fórmula errada aprovaria uma exposição que a norma reprova por larga margem. É justamente o período curto e violento que a soma de razões pesa e a razão de somas dilui. II está CERTO: acima de 115 dB(A), contínuo ou intermitente, sem proteção adequada, a norma classifica como risco grave e iminente — é o teto, não se admite exposição nenhuma. III e IV estão CERTOS: sobre o salário mínimo, grau máximo 40% e grau mínimo 10% (falta o grau médio, 20%). Sobram II, III e IV: alternativa D.",
+  "erradas": {
+   "A": "Engoliu a fórmula somada do item I e ainda cortou o item IV, que está correto — grau mínimo é 10% mesmo. Dois erros na mesma alternativa.",
+   "B": "Aceitou o item I e derrubou o III, achando que grau máximo seria 20% (isso é o grau MÉDIO) ou confundindo com os 30% da periculosidade, que são de outra norma (NR-16) e incidem sobre o salário base.",
+   "C": "Manteve o item I errado e cortou o II, geralmente por lembrar dos 85 dB(A) — que é o limite de tolerância para 8 h de jornada, não o patamar de risco grave e iminente. O número que a norma associa a risco grave e iminente é 115 dB(A).",
+   "E": "Errou só no item I: não percebeu que a NR-15 soma as razões C/T de cada nível, e não os tempos em cima e os limites embaixo. Quem lê o item I rápido acha que 'soma dos efeitos combinados' é somar tudo em bloco."
+  },
+  "pontos": [
+   "Ruído com níveis diferentes na mesma jornada: C1/T1 + C2/T2 + ... ≤ 1. Nunca somar tempos no numerador e limites no denominador.",
+   "85 dB(A) é o limite de tolerância para 8 h; 115 dB(A) sem proteção adequada é risco grave e iminente.",
+   "Insalubridade sobre o salário mínimo: 40% grau máximo, 20% grau médio, 10% grau mínimo.",
+   "Periculosidade é 30%, mas incide sobre o salário base e é NR-16 — a banca adora trocar as duas."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q31",
+  "q": "Se, no circuito primário de um transformador ideal, for desenvolvida uma potência de 100 W, e a tensão no ramo secundário for de 5 V, a corrente no secundário, em A, será de",
+  "alts": {
+   "A": "4",
+   "B": "10",
+   "C": "20",
+   "D": "100",
+   "E": "500 Utilize as informações a seguir para responder às questões de n os 32 e 33. A viga biapoiada mostrada na figura juntamente com sua seção transversal está sujeita à ação de uma força concentrada F atuante no meio de seu vão."
+  },
+  "correta": "C",
+  "explica": "Transformador ideal é aquele sem perdas: a potência que entra no primário sai inteira pelo secundário. Então P1 = P2 = 100 W. No secundário vale P2 = V2 · I2, logo I2 = P2 / V2 = 100 W / 5 V = 20 A (W/V = A, unidade fecha). Alternativa C. Repare que não foi preciso saber a tensão do primário nem a relação de espiras: a conservação de potência resolve sozinha. Se o enunciado pedisse a corrente do primário, aí sim entraria V1·I1 = V2·I2 com V1/V2 = N1/N2 = I2/I1 — se o primário estivesse em 100 V, por exemplo, I1 = 1 A e a razão de espiras seria 20:1.",
+  "erradas": {
+   "A": "Dividiu a potência pelo QUADRADO da tensão: 100/5² = 4. É a mistura clássica entre P = V·I e P = V²/R. Corrente sai de P/V; P/V² dá condutância, não ampère.",
+   "B": "Supôs que os 100 W se repartem entre primário e secundário e trabalhou com 50 W: 50/5 = 10. No transformador ideal não há divisão nem perda — os 100 W passam integralmente para o secundário.",
+   "D": "Copiou o valor da potência como se fosse a corrente, tratando W e A como a mesma coisa. Faltou dividir pela tensão do secundário.",
+   "E": "Multiplicou em vez de dividir: 100 W × 5 V = 500. O resultado nem tem dimensão de corrente. Sempre que a tensão dada estiver no denominador, multiplicar por ela é o erro mais comum."
+  },
+  "pontos": [
+   "Transformador ideal: P1 = P2. Praticamente toda questão de transformador para mecânica cai nessa única linha.",
+   "V1/V2 = N1/N2 = I2/I1: tensão e espiras andam juntas, corrente anda ao contrário. Abaixou a tensão, subiu a corrente na mesma proporção.",
+   "I = P/V, com W/V = A. Conferir a unidade do resultado elimina metade das alternativas na hora."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q28",
+  "q": "A gerência de uma pizzaria registrou a venda diária de pizzas napolitanas durante um ano (dentro do horário de 12 h a 23 h). Com os dados obtidos das vendas, ajustou- -se a seguinte equação de regressão linear: Vendas = 2 x (horário do pedido) – 22 Com base nessas informações, o incremento horário no número de vendas é dado por",
+  "alts": {
+   "A": "–22",
+   "B": "22",
+   "C": "2",
+   "D": "–2",
+   "E": "–20"
+  },
+  "correta": "C",
+  "explica": "Numa regressão linear simples Y = a + bX, quem responde pelo 'incremento por unidade de X' é sempre o coeficiente angular b. Aqui X é o horário e Y são as vendas: Vendas = 2·(horário) – 22, então b = 2 e a = –22. Conferindo na mão: às 18 h, Vendas = 2(18) – 22 = 14; às 19 h, Vendas = 2(19) – 22 = 16. Diferença de uma hora para a outra: 16 – 14 = 2 pizzas. Vale para qualquer par de horas consecutivas, porque a reta tem inclinação constante. Alternativa C. O –22 é apenas o intercepto, o valor que a reta assumiria em X = 0 — sem sentido físico, já que o ajuste só foi feito na faixa de 12 h a 23 h (às 12 h o modelo já prevê 2(12) – 22 = 2 pizzas).",
+  "erradas": {
+   "A": "Pegou o intercepto e chamou de incremento. O intercepto diz onde a reta corta o eixo vertical, não quanto ela sobe a cada hora — e aqui ele cai fora da faixa em que os dados foram coletados.",
+   "B": "Mesmo erro do intercepto, agora com o sinal trocado, provavelmente por achar que 'venda negativa não existe' e corrigir o sinal na marra.",
+   "D": "Módulo certo, sinal invertido: puxou o '–' que pertence ao 22 para o coeficiente angular. A reta é crescente, +2 — vende mais conforme a noite avança.",
+   "E": "Calculou o valor previsto na hora 1 (2×1 – 22 = –20) em vez da diferença entre duas horas consecutivas. Confundiu valor da função com taxa de variação."
+  },
+  "pontos": [
+   "Em Y = a + bX, o incremento por unidade de X é o coeficiente angular b; o intercepto a é só o valor em X = 0.",
+   "O sinal de b dá o sentido: positivo cresce, negativo cai. O sinal do intercepto não tem nada a ver com isso.",
+   "Regressão só vale dentro da faixa em que foi ajustada — aqui, de 12 h a 23 h. Extrapolar para X = 0 produz números sem significado."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q62",
+  "q": "A radiação não ionizante, utilizada em trabalhos com solda elétrica, metais e vidros incandescentes é composta de raios",
+  "alts": {
+   "A": "X",
+   "B": "alfa",
+   "C": "gama",
+   "D": "laser",
+   "E": "infravermelhos"
+  },
+  "correta": "E",
+  "explica": "A questão tem dois filtros e a maioria só aplica o primeiro. Filtro 1, ionizante ou não: radiação ionizante carrega energia suficiente para arrancar elétron do átomo — raios X, gama, alfa e beta. Não ionizantes são micro-ondas, radiofrequência, ultravioleta, luz visível, infravermelho e laser. Isso já corta A, B e C. Filtro 2, a fonte descrita: 'solda elétrica, metais e vidros incandescentes'. Todo corpo aquecido irradia calor na faixa do infravermelho — é exatamente o que sai de metal e vidro incandescentes e do arco de solda (que emite também ultravioleta e visível). Alternativa E. O controle na prática é a máscara ou o óculos com lente filtrante de tonalidade adequada, contra queimadura de córnea e catarata.",
+  "erradas": {
+   "A": "Raio X é ionizante e vem de tubo de raios X — na indústria, da radiografia de soldas e tubulações, não do metal incandescente. Trocou a categoria logo no primeiro filtro.",
+   "B": "Alfa nem é onda eletromagnética: é partícula (núcleo de hélio) emitida por material radioativo, ionizante, e barrada por uma folha de papel. Nada a ver com processo de solda.",
+   "C": "Gama é ionizante, de decaimento nuclear — é a gamagrafia com Ir-192 ou Co-60. Quem marca aqui confunde o calor irradiado pelo metal em brasa com radiação de origem nuclear.",
+   "D": "É a boa pegadinha: laser realmente é não ionizante, então quem parou no primeiro filtro fica satisfeito. Só que laser é feixe coerente gerado por equipamento próprio; metal incandescente, vidro incandescente e arco de solda não emitem laser. Faltou casar a resposta com a lista de fontes do enunciado."
+  },
+  "pontos": [
+   "Ionizantes: X, gama, alfa e beta. Não ionizantes: micro-ondas, radiofrequência, ultravioleta, visível, infravermelho e laser.",
+   "Metal e vidro incandescentes e arco de solda = infravermelho (com ultravioleta somado no arco). EPI: lente filtrante.",
+   "Quando mais de uma alternativa cai na categoria pedida, a fonte descrita no enunciado é o critério de desempate — leia a lista de fontes antes de marcar."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q52",
+  "q": "O processo de soldagem que produz a união por fusão dos elementos metálicos através do arco elétrico estabelecido entre um eletrodo de tungstênio, não consumível, e a peça ou um bocal constritor, que limita o diâmetro do arco e aumenta a intensidade da fonte de calor, com a presença de fluxo de gases, é",
+  "alts": {
+   "A": "soldagem com arco submerso.",
+   "B": "soldagem MIG/MAG.",
+   "C": "soldagem TIG.",
+   "D": "soldagem a arco plasma.",
+   "E": "soldagem a Laser."
+  },
+  "correta": "D",
+  "explica": "O enunciado entrega três pistas e elas se somam. Primeira: \"eletrodo de tungstênio, não consumível\". Isso derruba de saída arco submerso e MIG/MAG (eletrodo é arame consumível, vira metal de adição) e o laser (não tem eletrodo nem arco elétrico). Sobram TIG e plasma. Segunda pista, a decisiva: \"um bocal constritor, que limita o diâmetro do arco e aumenta a intensidade da fonte de calor\". Bocal constritor é exclusivo do plasma — no TIG o arco é livre e se abre em forma de sino. Terceira: \"fluxo de gases\", no plural, porque o plasma trabalha com dois, o gás de plasma (ou de orifício), que atravessa o bocal e é ionizado, e o gás de proteção externo; o TIG usa um só. O estrangulamento da coluna eleva a densidade de energia da ordem de 10^4 W/cm² do TIG para a ordem de 10^6 W/cm², o que permite o modo keyhole e soldar em passe único espessura que no TIG exigiria chanfro. Gabarito D.",
+  "erradas": {
+   "A": "Arco submerso usa arame consumível alimentado continuamente e a poça é protegida por camada granular de fluxo, não por fluxo de gases. Não existe tungstênio nem bocal constritor no processo — quem marca isso leu \"fluxo\" e pensou em fluxo granular.",
+   "B": "No MIG/MAG o eletrodo é o próprio arame consumível. Quem marca B se ancorou apenas em \"fluxo de gases\" e passou por cima de \"eletrodo de tungstênio, não consumível\", que já eliminava a alternativa na primeira linha.",
+   "C": "É a pegadinha da questão: o TIG tem sim eletrodo de tungstênio não consumível e gás de proteção. O que falta nele é o bocal constritor — o arco TIG é aberto, sem constrição. Ignorar essa expressão é o erro que leva ao TIG.",
+   "E": "Na soldagem a laser não há arco elétrico nem eletrodo: a fonte de calor é um feixe óptico e a concentração de energia é feita por lente, não por bocal. Quem marca E se prendeu ao \"aumenta a intensidade da fonte de calor\"."
+  },
+  "pontos": [
+   "Bocal constritor no enunciado significa arco plasma. É a única palavra que separa plasma de TIG.",
+   "Eletrodo não consumível de tungstênio: só TIG e plasma. Eletrodo revestido, MIG/MAG e arco submerso são todos de eletrodo consumível.",
+   "O plasma usa dois gases (de plasma e de proteção) e chega a densidade de energia cerca de cem vezes a do TIG, o que viabiliza o keyhole.",
+   "Arco submerso é o único da lista protegido por fluxo granular, e não por gás."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q69",
+  "q": "A soldagem pelo método TIG pode ser empregada com diferentes configurações de corrente elétrica, utilizando argônio como gás inerte. Em todas as configurações, o gás argônio é ionizado com carga positiva e, por isso, sofre uma aceleração que resulta em elevada energia cinética. Sobre o efeito que esse íon argônio apresenta sobre a superfície do metal soldado, tem-se que, com corrente",
+  "alts": {
+   "A": "contínua e eletrodo de tungstênio polarizado positivo, o íon argônio é acelerado contra o eletrodo e, portanto, melhora a limpeza da peça soldada.",
+   "B": "contínua e eletrodo de tungstênio polarizado positivo, o íon de argônio é acelerado contra o metal de solda e, portanto, melhora a limpeza da peça soldada.",
+   "C": "contínua e eletrodo de tungstênio polarizado negativo, o íon argônio é acelerado contra o metal de solda e, portanto, melhora a limpeza da peça soldada.",
+   "D": "contínua e eletrodo de tungstênio polarizado negativo, o íon de argônio é acelerado contra o eletrodo e, portanto, melhora a limpeza da peça soldada.",
+   "E": "alternada, o íon de argônio não sofre nenhuma aceleração e, portanto, não melhora a limpeza da peça soldada."
+  },
+  "correta": "B",
+  "explica": "Resolve-se com uma regra de sinal só: carga positiva é acelerada em direção ao polo negativo, ou seja, ao cátodo. O íon é Ar+. Se o eletrodo de tungstênio está polarizado positivo (CC+, também chamada polaridade inversa ou DCEP), então quem está no negativo é a peça — a peça é o cátodo. Logo o Ar+ é acelerado contra o metal de solda, que é exatamente o que a alternativa B diz. Esse bombardeio iônico arranca a camada de óxido refratário da superfície: é a limpeza catódica. Ela importa justamente no alumínio e no magnésio, onde o óxido funde muito acima do metal (a alumina passa dos 2000 °C enquanto o alumínio funde a 660 °C), e sem quebrar essa película não se forma poça sadia. Gabarito B.",
+  "erradas": {
+   "A": "Acerta a polaridade (eletrodo positivo) e erra a trajetória: manda o íon positivo contra o polo positivo. Além de contrariar o sinal, bombardear o eletrodo não limpa peça nenhuma — só superaquece e consome o tungstênio.",
+   "C": "Com eletrodo negativo (CC−) a peça é o anodo, então o Ar+ vai para o eletrodo e não para o metal de solda. CC− é a polaridade de maior penetração e maior vida do eletrodo, mas é justamente a que NÃO produz limpeza catódica.",
+   "D": "Aqui a trajetória do íon está coerente com a polaridade (eletrodo negativo atrai o Ar+), mas a conclusão é que quebra: bombardear o eletrodo não melhora a limpeza da peça. O candidato acerta a física e erra o efeito.",
+   "E": "Em corrente alternada o íon é acelerado sim — o campo apenas inverte o sentido a cada semiciclo. E é por isso que a CA é a escolha clássica para alumínio: no semiciclo de eletrodo positivo ela limpa o óxido, no de eletrodo negativo ela penetra e resfria o eletrodo."
+  },
+  "pontos": [
+   "Íon positivo corre sempre para o cátodo. Eletrodo positivo (CC+) significa peça negativa, logo bombardeio na peça e limpeza catódica.",
+   "CC− (eletrodo negativo): cerca de 70% do calor na peça, cordão estreito e profundo, eletrodo durável, sem limpeza do óxido.",
+   "CC+ (eletrodo positivo): limpa o óxido, mas cozinha o eletrodo — exige tungstênio de diâmetro maior e ponta esférica.",
+   "Alumínio e magnésio em TIG pedem CA, que junta limpeza e penetração alternando semiciclo a semiciclo."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q54",
+  "q": "Um engenheiro mecânico, ao analisar as propriedades mecânicas do metal depositado em uma solda a arco submerso (SAW), identificou que essa solda apresentava 430 MPa de limite de resistência e 330 MPa de limite de escoamento mínimo (0,2%). Com base na informação acima, qual é a designação utilizada como base para classificar o material empregado nessa solda?",
+  "alts": {
+   "A": "F33XX - EXXX",
+   "B": "F43XX - EXXX",
+   "C": "F3343 - EXXX",
+   "D": "F4333 - EXXX",
+   "E": "F4X3X - EXXX"
+  },
+  "correta": "B",
+  "explica": "A designação de consumível para arco submerso (AWS A5.17, aços carbono) classifica o PAR fluxo + arame: a parte antes do hífen começa com F, de flux (fluxo), e a parte depois com E, de eletrodo. Na versão em unidades SI, os dois dígitos que vêm logo após o F são o limite de resistência à TRAÇÃO mínimo do metal depositado, expresso em dezenas de MPa. Conta: 430 MPa ÷ 10 MPa = 43. Logo a sigla abre com F43. As duas posições seguintes (os XX) não são o escoamento — são a condição do metal depositado (A = como soldado, P = após tratamento térmico pós-soldagem) e a temperatura do ensaio de impacto Charpy. Os 330 MPa de escoamento não entram no código; eles apenas confirmam a faixa, porque a norma casa cada nível de tração com um escoamento mínimo. Resultado: F43XX - EXXX, alternativa B.",
+  "erradas": {
+   "A": "Pegou o limite de escoamento (330 MPa → 33) e colocou na posição que é da tração. O número que abre a classificação é sempre o de resistência à tração, nunca o de escoamento.",
+   "C": "Comete dois erros de uma vez: põe o escoamento (33) na abertura e ainda empurra a tração (43) para as duas últimas posições, que são de condição de tratamento térmico e temperatura de impacto. É a inversão completa da ordem.",
+   "D": "Acerta o 43 da tração e emenda o 33 do escoamento logo em seguida, como se a sigla codificasse as duas propriedades em série. Aquelas duas posições são condição (A ou P) e temperatura do Charpy — escoamento não aparece na designação.",
+   "E": "Espalha tração e escoamento alternados com curingas (4, X, 3, X). Nenhuma classificação AWS distribui dígitos assim; se algo é conhecido, é o par inicial que representa a tração."
+  },
+  "pontos": [
+   "FXXXX - EXXX: F de fluxo, E de eletrodo. A classificação do arco submerso qualifica o conjunto fluxo + arame, não o arame sozinho.",
+   "Os dois dígitos logo após o F são a resistência à tração em dezenas de MPa: 430 MPa vira F43.",
+   "Escoamento não aparece na sigla. O que vem depois da tração é condição (A = como soldado, P = após TTPS) e temperatura do ensaio de impacto.",
+   "Na versão em unidades americanas o mesmo consumível cai na faixa F6, porque 430 MPa equivalem a cerca de 62 ksi — atenção ao ler catálogo importado."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q50",
+  "q": "A utilização de pastilhas intercambiáveis de metal duro para usinagem tem reduzido custos da indústria, pois preserva o corpo da ferramenta, substituindo apenas a pastilha, seja em troca de pastilhas diferentes, ao usinar diferentes materiais ou ao apresentar desgaste elevado. As pastilhas são divididas comercialmente em diferentes classes para usinar diferentes materiais. As características do material a seguir relacionam-se a três diferentes classes de pastilhas. I - Nesta classe, a pastilha é composta de carbonetos de tungstênio aglomerados pelo cobalto, indicada para usinagem de materiais frágeis que formam cavacos curtos, como ferros fundidos e latões. II - Com elevado teor de TiC e TaC, esta classe apresenta alta dureza a quente e resistência ao desgaste, e é indicada para a usinagem de aços e materiais dúcteis em geral. III - Esta classe tem propriedades intermediárias entre as classes I e II e é destinada a ferramentas com aplicações múltiplas. A relação correta entre material e classe da pastilha é:",
+  "alts": {
+   "A": "I: Classe P; II: Classe M; III: Classe K",
+   "B": "I: Classe K; II: Classe P; III: Classe M",
+   "C": "I: Classe P; II: Classe K; III: Classe M",
+   "D": "I: Classe K; II: Classe M; III: Classe P",
+   "E": "I: Classe M; II: Classe P; III: Classe K"
+  },
+  "correta": "B",
+  "explica": "A chave está nas palavras cavaco curto e cavaco longo. Item I: WC puro aglomerado com cobalto, sem TiC nem TaC, para ferro fundido e latão, materiais que produzem cavaco curto e quebradiço — isso é a classe K (a letra vem de Kurzspan, cavaco curto em alemão; cor de identificação vermelha). Item II: alto teor de TiC e TaC, para aço e dúcteis em geral — classe P (cor azul). A razão técnica é a de sempre: o cavaco de aço é contínuo, escorrega quente sobre a face de saída e desgasta a pastilha por difusão, abrindo cratera; o WC difunde no aço com facilidade, o TiC e o TaC não, e por isso são adicionados. No ferro fundido o cavaco se quebra, praticamente não há cratera, e o problema passa a ser abrasão — aí o WC-Co simples, mais tenaz, é a escolha certa. Item III: propriedades intermediárias, uso múltiplo — classe M (cor amarela), a das ligas difíceis e inoxidáveis. Logo I-K, II-P, III-M: alternativa B.",
+  "erradas": {
+   "A": "Trocou P e K de posição, aplicando ao ferro fundido a classe própria do aço, e ainda usou a classe K, que é a mais específica de cavaco curto, como se fosse a de aplicações múltiplas.",
+   "C": "Repete a inversão P/K — erro clássico de quem decora \"P de peça de ferro fundido\" em vez de associar P a cavaco longo. Só o M do meio-termo fica no lugar certo.",
+   "D": "Acerta o K no ferro fundido, mas trata a classe M, a intermediária, como se fosse a do aço, e joga a P, a mais especializada em aço, na posição de uso múltiplo. Inverteu exatamente as duas que sobravam.",
+   "E": "Acerta o P no aço, mas coloca a intermediária M no ferro fundido e usa a K, que é específica para cavaco curto, como classe coringa. Quem marca aqui associou M a \"metal duro\" genérico."
+  },
+  "pontos": [
+   "K é cavaco curto (Kurzspan): WC + Co, sem TiC nem TaC — ferro fundido, latão, bronze, não metálicos. Cor vermelha.",
+   "P é cavaco longo: WC + Co com TiC e TaC, que resistem à difusão e ao desgaste de cratera provocado pelo aço. Cor azul.",
+   "M é a intermediária, de uso múltiplo, indicada para inoxidáveis e ligas de usinagem difícil. Cor amarela.",
+   "O que define a classe é a forma do cavaco e o mecanismo de desgaste dominante (cratera por difusão × abrasão), não a dureza da peça."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q61",
+  "q": "A corrosão eletroquímica é uma das principais causas para falhas de materiais em serviço. Ela sempre pode ocorrer para determinadas geometrias em que dois materiais são colocados em contato íntimo um com o outro. É favorável a uma corrosão eletroquímica o seguinte sistema de materiais:",
+  "alts": {
+   "A": "cobre e policloreto de vinila",
+   "B": "cobre e óxido de silício",
+   "C": "cobre e ferro",
+   "D": "óxido de silício e policloreto de vinila",
+   "E": "óxido de silício e ferro"
+  },
+  "correta": "C",
+  "explica": "Corrosão eletroquímica é pilha, e pilha exige quatro coisas ao mesmo tempo: anodo, catodo, contato elétrico entre os dois e eletrólito. Como o enunciado já garante o contato íntimo, o que resta decidir é quais dos pares oferecem DOIS condutores eletrônicos com potenciais de eletrodo diferentes. Só metal tem potencial de eletrodo. Das cinco opções, apenas a C junta dois metais: cobre e ferro. A conta do par galvânico, com os potenciais padrão de redução: E°(Cu2+/Cu) = +0,34 V e E°(Fe2+/Fe) = -0,44 V. A força eletromotriz da pilha é ΔE = E°(catodo) - E°(anodo) = +0,34 V - (-0,44 V) = +0,78 V. Como ΔG = -n·F·ΔE, com n = 2 e F = 96.500 C/mol, sai ΔG = -2 × 96.500 × 0,78 = -150.540 J/mol ≈ -150,5 kJ/mol. ΔG negativo, reação espontânea: o ferro, de potencial mais negativo (menos nobre), é o anodo e corrói (Fe → Fe2+ + 2e-); o cobre, mais nobre, é o catodo, recebe os elétrons e fica protegido. Na prática é o parafuso de aço fixando chapa de cobre: o parafuso some, a chapa não.",
+  "erradas": {
+   "A": "Trata o PVC como se fosse o segundo eletrodo. Policloreto de vinila é polímero isolante: não conduz elétrons e não tem potencial de eletrodo, logo não há catodo nem anodo. O candidato marca porque leu 'dois materiais em contato íntimo' e não checou se ambos são condutores.",
+   "B": "Mesmo erro com cerâmica: o óxido de silício é isolante elétrico e já está oxidado. Sem par condutor, não circula corrente e não existe pilha, por mais íntimo que seja o contato entre cobre e SiO2.",
+   "D": "Escolhe dois isolantes e nenhum metal. Não há quem se oxide (anodo) nem quem conduza os elétrons: é o par mais distante possível de uma célula de corrosão.",
+   "E": "Marcada por quem viu 'ferro' e associou direto a ferrugem. Ferro sozinho até corrói, mas o enunciado pede corrosão eletroquímica FAVORECIDA pelo contato entre dois materiais. Encostado em SiO2, que é isolante, o ferro não ganha catodo nenhum e o circuito não fecha."
+  },
+  "pontos": [
+   "Pilha de corrosão precisa de anodo, catodo, contato elétrico e eletrólito. Faltando um, não há corrosão eletroquímica.",
+   "Só metal tem potencial de eletrodo. Polímero (PVC) e cerâmica (SiO2) são isolantes e nunca formam par galvânico.",
+   "No par galvânico corrói sempre o metal menos nobre, e corrói mais rápido do que corroeria sozinho. Cu (+0,34 V) e Fe (-0,44 V): quem vai embora é o ferro.",
+   "ΔE = E°catodo - E°anodo; se ΔE > 0, então ΔG = -nFΔE < 0 e o ataque é espontâneo."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q67",
+  "q": "Um engenheiro precisa construir um forno elétrico para trabalhar na faixa de temperatura de 25°C até 1200°C sob atmosfera oxidante. O material interno do forno servirá de barreira isolante térmica e de isolante elétrico. Nesse caso, o material mais adequado para a parte interna do forno é a(o)",
+  "alts": {
+   "A": "alumina alfa (A 2 O 3)",
+   "B": "carbono grafítico",
+   "C": "carbeto (carboneto) de tungstênio (WC)",
+   "D": "nióbio (Nb)",
+   "E": "teflon (politetrafluoretileno, PTFE)"
+  },
+  "correta": "A",
+  "explica": "Esta é corrosão química, ou seca: oxidação direta do sólido pelo gás em alta temperatura, sem eletrólito e sem corrente elétrica circulando. O enunciado impõe três filtros e a resposta tem de passar nos três. Filtro 1, isolante elétrico: elimina de saída carbono grafítico, WC e Nb, que são todos condutores. Filtro 2, sobreviver a 1200 °C: elimina o PTFE, cujo limite de uso contínuo fica em torno de 260 °C e que se decompõe acima de ~350 °C, ou seja, quatro vezes abaixo da temperatura pedida. Filtro 3, resistir à atmosfera oxidante: aqui está o coração do assunto. A alumina alfa é Al2O3, ou seja, o alumínio JÁ está no seu estado completamente oxidado. Não sobra força motriz termodinâmica para oxidar mais nada, porque o material é o próprio produto da reação de oxidação. Somando: óxido estável em ar quente, fusão em torno de 2050 °C (bem acima dos 1200 °C exigidos), resistividade elétrica altíssima e baixa condutividade térmica na forma de refratário poroso. Passa nos três filtros, é a A.",
+  "erradas": {
+   "B": "Grafita queima. Em atmosfera oxidante o carbono reage a partir de cerca de 450-500 °C (C + O2 → CO2), muito antes dos 1200 °C, e ainda por cima conduz eletricidade, o que já viola a exigência de isolante elétrico. Escolhida por quem lembra que grafita é refratária em atmosfera inerte e esquece de ler 'oxidante'.",
+   "C": "O carboneto de tungstênio oxida ao ar a partir de ~500-600 °C, formando WO3 pulverulento e não protetor, e conduz eletricidade como metal. Marcada por quem seleciona pela dureza e pelo alto ponto de fusão, critérios que o enunciado nem pediu.",
+   "D": "Confunde ponto de fusão alto com resistência à oxidação. O nióbio funde a 2477 °C, mas ao ar acima de ~400 °C sofre oxidação catastrófica, gerando Nb2O5 poroso que descasca e não passiva. E, sendo metal, é condutor: reprovado também no requisito de isolante elétrico.",
+   "E": "O PTFE é de fato inerte quimicamente e ótimo isolante elétrico, e é justamente por isso que engana. O erro é ignorar o limite térmico: polímero não vai a 1200 °C, degrada perto de 260 °C liberando gases tóxicos."
+  },
+  "pontos": [
+   "Corrosão química (seca) é ataque direto do gás sobre o material em alta temperatura, sem eletrólito e sem circulação de corrente.",
+   "Óxido já formado e estável (Al2O3) não tem mais o que oxidar: é a escolha natural para atmosfera oxidante quente.",
+   "Ponto de fusão alto não é sinônimo de resistência à oxidação. Nb, grafita e WC são refratários e mesmo assim queimam ao ar.",
+   "Quando o enunciado exigir isolante elétrico, corte imediatamente todo metal e o carbono grafítico, antes até de discutir temperatura."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q48",
+  "q": "A seleção de materiais é uma atividade da Engenharia que envolve um processo de decisão não trivial, pois deve-se realizar uma escolha entre as propriedades, por vezes uma em detrimento de outra, em função das condições de utilização da peça. Para selecionar um material, deve-se considerar, além das questões econômicas, fatores como corrosão, desgaste e integridade estrutural. A seleção de um aço de alta resistência e baixa liga (ARBL ou, em inglês, HSLA) está relacionada à aplicação em",
+  "alts": {
+   "A": "ferramentas para conformação e usinagem em função da alta resistência mecânica e corrosão, como resultado da adição de ligas de cobre, vanádio, níquel e molibdênio.",
+   "B": "estruturas com alta resistência mecânica e com ductilidade aumentada pela adição de ligas de cobre, vanádio, níquel e molibdênio, o que confere adicionalmente alta resistência à corrosão.",
+   "C": "estruturas inoxidáveis, pela adição de cromo, mantendo o baixo teor de carbono e a alta resistência à tração.",
+   "D": "estruturas de uma elevada tensão de escoamento a aços de baixo teor de carbono. A adição de ligas em baixo teor é necessária para conferir ductilidade ao material, permitindo a conformação do mesmo.",
+   "E": "estruturas dúcteis, conformáveis e usináveis e com resistência mecânica aumentada pela adição de ligas de cobre, vanádio, níquel e molibdênio."
+  },
+  "correta": "E",
+  "explica": "ARBL (HSLA) é aço de BAIXO carbono, tipicamente até 0,25% C, com a soma dos elementos de liga abaixo de cerca de 5%. O objetivo do projeto desse aço é subir a resistência mecânica sem perder ductilidade, conformabilidade, usinabilidade e soldabilidade, que é exatamente o que a alternativa E descreve: a liga entra para AUMENTAR a resistência (solução sólida, precipitação de carbonitretos de Nb, V e Ti, e refino de grão), e o aço continua dúctil e trabalhável. Ele aparece em estrutura, tubulação e chapa, não em ferramenta. O lado de corrosão da questão está nos distratores: a adição de cobre, cromo, níquel e fósforo melhora a resistência à corrosão ATMOSFÉRICA, porque forma uma pátina aderente e pouco permeável que freia o ataque ao ar livre — é o aço patinável. Melhora não é o mesmo que 'alta resistência à corrosão', e muito menos que inoxidável: a pátina não sobrevive a imersão, a meio com cloreto ou a ciclos de molhamento permanente. Por isso a banca só aceita a alternativa que credita à liga o ganho de RESISTÊNCIA MECÂNICA e não promete proteção anticorrosiva que o material não entrega.",
+  "erradas": {
+   "A": "Manda ARBL para ferramenta de conformação e usinagem. Ferramenta exige alta dureza e alto carbono, ou metal duro; ARBL tem baixo carbono justamente para ser soldável e conformável. O candidato cai aqui por traduzir 'alta resistência' como 'serve para ferramenta'.",
+   "B": "É o distrator mais caro da questão, e erra duas vezes. Primeiro, atribui à adição de Cu, V, Ni e Mo um AUMENTO de ductilidade — solução sólida e precipitação endurecem e tendem a reduzir a ductilidade; quem preserva a tenacidade no ARBL é o refino de grão com laminação controlada, não a liga em si. Segundo, promete 'alta resistência à corrosão', quando o ganho real é apenas de resistência à corrosão atmosférica, pela pátina do aço patinável.",
+   "C": "Confunde baixa liga com inoxidável. Aço só passa a ser inoxidável a partir de aproximadamente 10,5% de cromo em solução sólida, teor que forma o filme passivo contínuo de Cr2O3. ARBL não chega perto disso: a soma de TODOS os elementos de liga fica abaixo de ~5%.",
+   "D": "Inverte a função da liga. O baixo teor de elementos de liga entra para ELEVAR a tensão de escoamento, não para conferir ductilidade — a ductilidade já vem do baixo teor de carbono da matriz ferrítica."
+  },
+  "pontos": [
+   "ARBL/HSLA: baixo carbono e soma de liga abaixo de ~5%; a liga sobe a resistência mecânica, e a ductilidade e a soldabilidade vêm do baixo carbono.",
+   "Cu, Cr, Ni e P melhoram a resistência à corrosão ATMOSFÉRICA formando pátina aderente (aço patinável). Isso não é passivação e não é inoxidável.",
+   "Inoxidável só a partir de ~10,5% de Cr em solução sólida, que é o teor mínimo para o filme passivo contínuo de Cr2O3.",
+   "Pátina de aço patinável só funciona em atmosfera com ciclos de molha e seca; em imersão ou em meio com cloreto ela não protege."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q46",
+  "q": "Em um projeto a determinação das dimensões da seção transversal de uma viga utiliza a expressão da tensão normal de flexão,  = Mc/I, na qual M é o momento fletor máximo, c é a distância entre a linha neutra e a fibra mais afastada da linha neutra, e I é o momento de inércia da seção. Essa tensão é comparada à tensão admissível do projeto, e o módulo de resistência à flexão necessário (W = I/c) é determinado. Considerando-se que a seção transversal seja retangular, de base b e altura h, esse módulo será expresso por",
+  "alts": {
+   "A": "bh/6",
+   "B": "bh/12",
+   "C": "bh 2 /6",
+   "D": "bh 3 /6",
+   "E": "bh 3 /12"
+  },
+  "correta": "C",
+  "explica": "Retângulo de base b e altura h fletindo em torno do eixo centroidal horizontal: o momento de inércia é I = b·h³/12 e a fibra mais afastada da linha neutra está a c = h/2 (a linha neutra passa pelo centroide, na meia altura). Substituindo na definição do enunciado: W = I/c = (b·h³/12) ÷ (h/2) = (b·h³/12)·(2/h) = 2b·h³/(12h) = b·h²/6. Confira pela dimensão antes de marcar: I é [m⁴], c é [m], então W tem obrigatoriamente que sair em [m³]. Só bh²/6 tem dimensão de comprimento ao cubo — bh/6 e bh/12 dão m², bh³/6 e bh³/12 dão m⁴. Esta questão se resolve em cinco segundos por análise dimensional, sem integrar nada.",
+  "erradas": {
+   "A": "Dividiu I = bh³/12 por c = h/2 mas cortou h² em vez de cortar apenas um h — sobrou bh/6. Dimensão m², não pode ser módulo de resistência.",
+   "B": "Manteve o denominador 12 e ainda cortou h³ inteiro, como se c fosse h². Resultado com dimensão de área (m²); é praticamente a área da seção dividida por 12, que não significa nada aqui.",
+   "D": "Dividiu só o número (12 ÷ 2 = 6) e esqueceu de dividir o h³ pelo h de c = h/2. Sobra bh³/6, que continua com dimensão m⁴ — é uma inércia, não um módulo.",
+   "E": "Respondeu o momento de inércia I = bh³/12 e parou uma linha antes do fim: faltou dividir por c. Erro clássico de quem lê rápido o \"W = I/c\" do enunciado."
+  },
+  "pontos": [
+   "W = I/c. Para retângulo fletindo em torno do eixo forte: I = bh³/12, c = h/2, W = bh²/6.",
+   "I tem dimensão [comprimento⁴]; W tem [comprimento³]. Conferir a dimensão elimina alternativa antes de qualquer conta.",
+   "σ = M/W: dobrar a altura h quadruplica W (a tensão cai a um quarto), dobrar a base b só dobra W. É por isso que viga se monta \"em pé\".",
+   "Para seção circular cheia de diâmetro d o análogo é W = πd³/32, e o módulo de torção é W_t = πd³/16 — o dobro."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q34",
+  "q": "A linha elástica de uma viga engastada-livre, sujeita a um carregamento transversal uniforme ao longo de todo o seu vão, é representada por um polinômio de ordem",
+  "alts": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "3",
+   "E": "4"
+  },
+  "correta": "E",
+  "explica": "Basta contar integrações. Carga uniformemente distribuída significa q(x) = q, constante — polinômio de grau 0. A partir daí: V(x) = ∫q dx → grau 1; M(x) = ∫V dx → grau 2; EI·y'' = M(x) → grau 2; EI·y' = ∫M dx → grau 3 (rotação); EI·y = ∫(EI·y') dx → grau 4. A linha elástica y(x) é do quarto grau. Confirmando com a fórmula fechada da engastada-livre com carga uniforme: y(x) = −q·x²·(x² − 4Lx + 6L²)/(24EI), que é polinômio do 4º grau, e na ponta livre (x = L) dá a flecha conhecida y = −qL⁴/(8EI). A regra geral é: grau da carga + 4.",
+  "erradas": {
+   "A": "Grau 0 é deslocamento constante ao longo do vão, ou seja, a viga se moveria como corpo rígido sem se deformar. Só valeria com carga nula — e ainda assim o engaste impede o movimento.",
+   "B": "Grau 1 é reta, o que implica y'' = 0 e portanto momento fletor nulo em todo o vão. Contradiz o enunciado, que tem carga transversal atuando.",
+   "C": "Parou no diagrama de momento fletor. Com carga uniforme M(x) é de fato do 2º grau (parábola), mas M não é a linha elástica — faltam ainda duas integrações para chegar em y.",
+   "D": "Resposta da viga com carga CONCENTRADA, não distribuída: aí M é linear e a elástica sai cúbica em cada trecho. Quem marca 3 trocou o tipo de carregamento ou parou na equação da rotação θ = y', que é o 3º grau."
+  },
+  "pontos": [
+   "Cadeia de integração: q (grau n) → V (n+1) → M (n+2) → θ (n+3) → y (n+4). Carga uniforme é grau 0, logo elástica de grau 4.",
+   "EI·y'''' = q, EI·y''' = V, EI·y'' = M, EI·y' = θ. Decorar essa escada resolve toda a família dessas questões.",
+   "Carga concentrada em trecho descarregado: M linear, elástica cúbica em cada trecho (por isso a Cesgranrio adora pedir \"terceira e quarta\" quando há dois trechos diferentes).",
+   "Engastada-livre com q uniforme: flecha máxima na ponta = qL⁴/(8EI); com carga concentrada F na ponta = FL³/(3EI)."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2012, Q34",
+  "q": "Dois corpos de prova, (1) e (2), de materiais distintos (E 1 ≠ E 2) e geometrias idênticas (A 1 = A 2 e L 1 = L 2), são submetidos a um ensaio de tração no regime elástico até uma carga F. Sendo E 1 > E 2, a",
+  "alts": {
+   "A": "deformação axial do corpo 1 será inferior à do corpo 2.",
+   "B": "deformação axial do corpo 1 será igual à do corpo 2.",
+   "C": "deformação transversal do corpo 1 será superior à do corpo 2.",
+   "D": "tensão atuante no corpo 1 será superior à atuante no corpo 2.",
+   "E": "tensão atuante no corpo 1 será inferior à atuante no corpo 2."
+  },
+  "correta": "A",
+  "explica": "Primeiro a tensão: σ = F/A. Mesma carga F e mesma área A nos dois corpos, então σ₁ = σ₂ = F/A. Tensão não depende do material — isso já derruba D e E sem conta nenhuma. Agora a deformação: no regime elástico vale Hooke, ε = σ/E. Como σ₁ = σ₂ = σ e E₁ > E₂, então ε₁ = σ/E₁ e ε₂ = σ/E₂, com ε₁ < ε₂. Em alongamento: ΔL = F·L/(A·E); com F, L e A iguais, quem tem maior E alonga menos. Exemplo numérico para fixar: F/A = 200 MPa, E₁ = 200 GPa (aço) e E₂ = 100 GPa (titânio-ish) → ε₁ = 200/200.000 = 0,001 e ε₂ = 200/100.000 = 0,002. A deformação axial do corpo 1 é a metade da do corpo 2, ou seja, inferior.",
+  "erradas": {
+   "B": "Só seria verdade se E₁ = E₂, exatamente o que o enunciado nega logo na primeira linha. É o candidato que confunde \"mesma tensão\" com \"mesma deformação\" — são coisas ligadas por E.",
+   "C": "Inverteu o raciocínio na direção transversal. Pela lei de Hooke generalizada, ε_transversal = −ν·ε_axial; como o corpo 1 tem a deformação axial MENOR, sua contração lateral também é menor em módulo, não maior.",
+   "D": "Achou que material mais rígido \"atrai\" mais tensão. Isso vale para barras em paralelo repartindo uma carga comum, não aqui: cada corpo de prova recebe a mesma F e tem a mesma A, logo σ = F/A é idêntica. O módulo E não aparece na equação da tensão.",
+   "E": "Mesmo erro conceitual de D, apenas com o sinal trocado — continua supondo que a tensão depende do módulo de elasticidade. Não depende: depende só de F e A."
+  },
+  "pontos": [
+   "σ = F/A não depende do material; ε = σ/E depende. Carga e área iguais ⇒ tensões iguais, deformações diferentes.",
+   "ΔL = F·L/(A·E). A rigidez axial da barra é EA/L: maior E, menor alongamento sob a mesma carga.",
+   "Deformação transversal só entra depois: ε_t = −ν·ε_a. Quem tem menor deformação axial tem menor estricção lateral.",
+   "Rigidez (E) não é resistência (escoamento/ruptura). São propriedades independentes e a banca vive misturando as duas."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q37",
+  "q": "No dimensionamento de um eixo de material dúctil sujeito à torção combinada com flexão, onde o ponto mais solicitado situa-se na superfície do eixo, o critério de resistência mais adequado é o da (de)",
+  "alts": {
+   "A": "tensão normal máxima, com as tensões principais de mesmo sinal.",
+   "B": "tensão cisalhante máxima, com as tensões principais de mesmo sinal.",
+   "C": "energia de distorção, com as tensões principais de sinais opostos.",
+   "D": "Coulomb Modificado, com as tensões principais de mesmo sinal.",
+   "E": "deformação normal máxima, com as tensões principais de sinais opostos."
+  },
+  "correta": "C",
+  "explica": "São duas afirmações a validar em cada alternativa: o critério e o sinal das tensões principais. Sinais: na superfície do eixo atuam a tensão normal de flexão σ = M·c/I e a cisalhante de torção τ = T·r/J, com tensão radial nula — estado plano. As principais valem σ₁,₂ = σ/2 ± √[(σ/2)² + τ²]. Como τ ≠ 0, o radical √[(σ/2)² + τ²] é sempre MAIOR que |σ/2|, isto é, o raio do círculo de Mohr supera a distância do centro à origem. Logo uma raiz cai positiva e a outra negativa: sinais OPOSTOS, sempre. Isso já elimina A, B e D. Critério: material dúctil falha por escoamento, e o critério que melhor descreve o escoamento é o da energia de distorção (von Mises). Aplicado ao eixo, ele dá σ_eq = √(σ² + 3τ²), contra √(σ² + 4τ²) do Tresca — por isso von Mises é o menos conservador dos dois e o preferido em projeto de eixos.",
+  "erradas": {
+   "A": "Erra duas vezes. Tensão normal máxima (Rankine) é critério para materiais FRÁGEIS, e o enunciado diz dúctil; além disso as principais têm sinais opostos, não iguais, sempre que houver torque.",
+   "B": "O critério até serviria — Tresca é válido para dúcteis, apenas mais conservador. O que derruba a alternativa é a segunda metade: com τ ≠ 0 as tensões principais nunca saem de mesmo sinal.",
+   "D": "Mohr-Coulomb modificado é para materiais frágeis com resistências diferentes em tração e compressão (ferro fundido, concreto). Errado para eixo dúctil, e ainda erra o sinal das principais.",
+   "E": "Acertou o sinal das principais, mas escolheu o critério da deformação normal máxima (Saint-Venant), que não representa o escoamento de dúcteis e é abandonado na prática de projeto. A banca monta a alternativa exatamente para pegar quem decide pela segunda metade da frase."
+  },
+  "pontos": [
+   "Na superfície do eixo sob flexão + torção o estado é plano: σ da flexão (Mc/I) e τ da torção (Tr/J), com radial nula.",
+   "Com τ ≠ 0 o raio do círculo de Mohr √[(σ/2)²+τ²] é maior que o centro σ/2 ⇒ σ₁ > 0 e σ₂ < 0, sinais sempre opostos.",
+   "Dúctil → von Mises (energia de distorção); frágil → Rankine (tensão normal máxima) ou Mohr-Coulomb.",
+   "Von Mises para eixo: σ_eq = √(σ² + 3τ²). Tresca: √(σ² + 4τ²). Mesmo problema, Tresca dá tensão equivalente maior e por isso é o conservador."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q41",
+  "q": "Um engenheiro deseja estimar a frequência natural de um veículo de passeio, modelado como sistema de um grau de liberdade. Para isso, ele considerou uma massa de 1.000 kg e uma rigidez equivalente às suspensões do veículo com valor de 100 kN/m. Diante do exposto acima, a frequência natural, expressa em Hz, está na faixa entre",
+  "alts": {
+   "A": "1 e 2",
+   "B": "2 e 4",
+   "C": "4 e 15",
+   "D": "15 e 80",
+   "E": "80 e 100"
+  },
+  "correta": "A",
+  "explica": "Sistema de 1 grau de liberdade: ωn = √(k/m). Antes da conta, arrume a unidade: 100 kN/m = 100.000 N/m.\n\nωn = √(100.000 N/m ÷ 1.000 kg) = √100 = 10 rad/s.\n\nA questão pede Hz, então divida por 2π:\nf = ωn/(2π) = 10 / 6,283 = 1,59 Hz.\n\n1,59 Hz cai na faixa de 1 a 2 → alternativa A.\n\nTeste de sanidade: suspensão de carro de passeio é projetada justamente para ficar entre 1 e 1,5 Hz, faixa em que o corpo humano tolera bem a oscilação. Se a sua resposta deu 10 ou 60 Hz, você modelou um bloco de concreto, não um carro.",
+  "erradas": {
+   "B": "Dividiu por π em vez de 2π: 10/3,14 = 3,18 Hz, que cai entre 2 e 4. O fator é 2π, sempre.",
+   "C": "Calculou ωn = 10 rad/s e respondeu como se rad/s fosse Hz — o 10 cai bem no meio da faixa 4 a 15. É a pegadinha central da questão: a banca montou o intervalo para capturar exatamente quem esqueceu o 2π.",
+   "D": "Multiplicou por 2π em vez de dividir: 10 × 6,28 = 62,8, que cai entre 15 e 80. Inverteu a relação f = ωn/2π.",
+   "E": "Esqueceu a raiz quadrada: fez k/m = 100.000/1.000 = 100 e respondeu 100, que é o extremo da faixa 80 a 100. A frequência natural é a raiz de k/m, não k/m."
+  },
+  "pontos": [
+   "ωn = √(k/m) sai em rad/s; f = ωn/(2π) sai em Hz. A Cesgranrio costuma deixar os dois números disponíveis nas alternativas.",
+   "Converta kN/m para N/m antes de dividir pela massa: 100 kN/m = 10⁵ N/m.",
+   "Suspensão de veículo de passeio gira em torno de 1 a 1,5 Hz — use isso como conferência do resultado."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2010, Q35",
+  "q": "Um determinado sistema mecânico possui uma frequência natural (wn = k/m) igual a 10 rad/s. Deseja-se aumentar essa frequência natural em 20% substituindo a mola. A constante elástica da nova mola (k = d 4 G/8D 3 N) deve ser obtida modificando-se apenas o número de espiras N. Mantidos inalterados todos os demais parâmetros do sistema, e considerando-se que a mola original tenha 14,4 espiras, o número de espiras necessárias à nova mola é",
+  "alts": {
+   "A": "4",
+   "B": "5",
+   "C": "6",
+   "D": "8",
+   "E": "10"
+  },
+  "correta": "E",
+  "explica": "As fórmulas do enunciado são ωn = √(k/m) e k = d⁴G/(8D³N).\n\nPasso 1 — quanto a rigidez precisa subir. A massa não muda, então ωn ∝ √k:\nωn'/ωn = √(k'/k)\n1,20 = √(k'/k)\nk'/k = 1,20² = 1,44.\nA rigidez tem de subir 44%, não 20%. (Em números: ωn' = 12 rad/s.)\n\nPasso 2 — quanto isso custa em espiras. Com d, G e D fixos, k ∝ 1/N:\nk'/k = N/N'\n1,44 = 14,4 / N'\nN' = 14,4 / 1,44 = 10 espiras. Alternativa E.\n\nCoerência física: menos espiras ativas, mola mais rígida, frequência natural maior. O sentido bate.",
+  "erradas": {
+   "A": "Leu \"aumentar em 20%\" como ir de 10 para 20 rad/s. Com razão 2, a rigidez teria de quadruplicar e N cairia para 14,4/4 = 3,6, que arredonda para 4. O aumento é de 20%, não de 20 rad/s.",
+   "B": "Sai de dividir 14,4 por 2,88, isto é, aplicar o fator 1,44 e ainda dobrar a exigência de rigidez. Nenhum caminho correto chega a 5.",
+   "C": "Dobrou o 1,2 em vez de elevá-lo ao quadrado: usou fator 2,4 e fez 14,4/2,4 = 6. O expoente vem da raiz na relação ωn = √(k/m), então é 1,2², e não 2 × 1,2.",
+   "D": "Confundiu \"a rigidez sobe 44%\" com \"as espiras caem 44%\" e fez 14,4 × 0,56 = 8,06. Como k é inversamente proporcional a N, o certo é dividir por 1,44 (dá 10), não multiplicar por 0,56."
+  },
+  "pontos": [
+   "ωn ∝ √k: para subir a frequência em 20%, a rigidez sobe 1,2² = 1,44, ou seja, 44%.",
+   "Em mola helicoidal, k = d⁴G/(8D³N): o N está no denominador, logo menos espiras ativas significa mola mais rígida. E k é hipersensível ao fio (d⁴) e ao diâmetro médio (D³).",
+   "Dividir por 1,44 não é tirar 44%. Tirar 44% de 14,4 dá 8,06 — e o 8 está nas alternativas exatamente para pegar quem fizer isso."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2023, Q44",
+  "q": "Um veículo cuja massa é de 1.000 kg deve manter-se em uma trajetória circular de 40 m de raio a uma velocidade constante de 36 km/h. Nessa condição, o valor da força de atrito atuante nos pneus, expresso em N, é de",
+  "alts": {
+   "A": "2.500 na direção tangente à trajetória",
+   "B": "2.500 na direção perpendicular à trajetória",
+   "C": "5.000 na direção perpendicular à trajetória",
+   "D": "10.000 na direção tangente à trajetória",
+   "E": "10.000 na direção perpendicular à trajetória"
+  },
+  "correta": "B",
+  "explica": "Velocidade constante em trajetória circular: a aceleração tangencial é zero, mas a normal não é. O atrito é a única força horizontal disponível, então é ele que fornece a resultante centrípeta — apontada para o centro da curva, ou seja, perpendicular à trajetória.\n\nConversão da velocidade: 36 km/h ÷ 3,6 = 10 m/s.\n\nAceleração normal: aₙ = v²/R = 10² / 40 = 100/40 = 2,5 m/s².\n\nSegunda lei de Newton na direção radial:\nF_at = m·aₙ = 1.000 kg × 2,5 m/s² = 2.500 N, dirigida ao centro.\n\nMódulo 2.500 N e direção perpendicular à trajetória → alternativa B.",
+  "erradas": {
+   "A": "O número está certo, a direção não. Só haveria atrito tangencial se o carro estivesse acelerando ou freando; o enunciado diz velocidade constante, o que zera a componente tangencial.",
+   "C": "Tratou os 40 m como diâmetro e usou R = 20 m: 100/20 = 5 m/s², dando 5.000 N. O enunciado diz raio de 40 m.",
+   "D": "Multiplicou massa por velocidade (1.000 × 10 = 10.000), confundindo quantidade de movimento com força, e ainda pôs a direção tangente. A conta é m·v²/R.",
+   "E": "Mesmo erro numérico do item D — usou m·v = 1.000 × 10, ou tomou os 10 m/s como se fossem a aceleração. A direção está certa, mas faltou dividir v² por R."
+  },
+  "pontos": [
+   "Velocidade constante em curva não significa aceleração nula: sobra aₙ = v²/R, que é o que exige força.",
+   "36 km/h = 10 m/s. Divida por 3,6 antes de qualquer conta — a banca quase sempre entrega km/h.",
+   "O atrito que segura o carro na curva é centrípeto: radial, apontado para o centro, perpendicular à trajetória.",
+   "Leia se o dado é raio ou diâmetro. Trocar um pelo outro dobra a resposta, e a alternativa dobrada está sempre no cartão."
+  ]
+ },
+ {
+  "origem": "Cesgranrio 2015, Q29",
+  "q": "Em um mecanismo clássico, do tipo manivela-biela-pistão, a manivela possui velocidade de rotação constante no sentido horário. Em uma das fases em que a manivela se alinha com a biela, se o comprimento da biela for igual ao dobro do da manivela, o valor da velocidade angular da biela será igual",
+  "alts": {
+   "A": "a zero",
+   "B": "a um terço do valor da velocidade angular da manivela no sentido horário",
+   "C": "à metade do valor da velocidade angular da manivela no sentido anti-horário",
+   "D": "ao dobro do valor da velocidade angular da manivela no sentido horário",
+   "E": "ao dobro do valor da velocidade angular da manivela no sentido anti-horário"
+  },
+  "correta": "C",
+  "explica": "Chame R o comprimento da manivela OA e L = 2R o da biela AB. Na fase de alinhamento (ponto morto), O, A e B ficam sobre a mesma reta, que é o eixo do pistão.\n\nEquação de corpo rígido: v_B = v_A + ω_biela × r_(B/A).\n\n• v_A = ω_man·R, perpendicular a OA. Como OA está sobre o eixo do pistão, v_A é perpendicular a esse eixo.\n• r_(B/A) também está sobre o eixo (biela alinhada), logo ω_biela × r_(B/A) tem módulo ω_biela·2R e é igualmente perpendicular ao eixo.\n• O pistão só desliza ao longo do eixo, então a componente perpendicular de v_B tem de ser nula:\n\nω_man·R + ω_biela·2R = 0\nω_biela = −ω_man·(R/L) = −ω_man/2.\n\nMódulo: metade. Sinal negativo: sentido oposto ao da manivela. Manivela horária → biela anti-horária. Alternativa C.\n\nA mesma equação mostra que v_pistão = 0 nesse instante: é o ponto morto, onde o pistão inverte o movimento. O módulo R/L vale nas duas fases de alinhamento; o sentido oposto é o do ponto morto externo, que é a fase adotada no gabarito.",
+  "erradas": {
+   "A": "Confundiu a velocidade do pistão com a da biela. O pistão realmente para no ponto morto, mas a biela continua girando — ela está justamente invertendo o balanço.",
+   "B": "Usou a distância de O até B (R + 2R = 3R) no lugar do comprimento da biela, chegando a R/3R = 1/3, e ainda manteve o sentido da manivela. A razão é R/L, com L sendo só a biela.",
+   "D": "Inverteu a razão: usou L/R = 2 em vez de R/L = 1/2, e não trocou o sentido. Com biela mais longa que a manivela, ela nunca gira mais rápido que a manivela.",
+   "E": "Acertou o sentido, mas inverteu a razão (L/R em vez de R/L). Biela de 2R com manivela R gira à metade, não ao dobro."
+  },
+  "pontos": [
+   "Nas fases de ponto morto (manivela alinhada com a biela), v_pistão = 0 e |ω_biela| = (R/L)·ω_manivela.",
+   "Biela mais longa que a manivela sempre gira mais devagar que ela. Se a conta der ω_biela maior que ω_manivela, você inverteu a razão.",
+   "No ponto morto externo o sentido se inverte: manivela horária, biela anti-horária.",
+   "Método que resolve qualquer fase: v_B = v_A + ω × r_(B/A) e imposição do vínculo — o pistão só se move na direção do eixo, então a componente perpendicular de v_B é zero."
+  ]
+ }
+]

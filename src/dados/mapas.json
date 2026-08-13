@@ -4304,28 +4304,28 @@
  },
  "me2m5": {
   "centro": "Corrosão e proteção anticorrosiva",
-  "nota": "Aeração diferencial, efeito de área e revestimento riscado são as armadilhas de sempre",
+  "nota": "quase toda questão é eletroquímica · aeração diferencial e efeito de área são as armadilhas de sempre",
   "ramos": [
    {
     "t": "Química × eletroquímica",
     "cor": "acento",
     "itens": [
-     "**Química (seca)** · sem eletrólito · alta temperatura · oxidação e sulfetação",
-     "**Eletroquímica (úmida)** · tem eletrólito · pilha ânodo-cátodo · temperatura ambiente",
+     "**Química (seca)** · sem eletrólito · alta temperatura · oxidação e sulfetação (H₂S)",
+     "**Eletroquímica (úmida)** · exige eletrólito · pilha ânodo-cátodo · temperatura ambiente",
      "Na seca o elétron fica **no próprio ponto**; na úmida **vai do ânodo ao cátodo**",
-     "Carepa protetora ⇒ crescimento **parabólico** (x² = k·t) · filme inútil ⇒ **linear**",
-     "Galvânica, pite, fresta e sensitização: todas **eletroquímicas** — é quase toda a prova"
+     "Galvânica, pite, fresta e sensitização são **eletroquímicas** — é quase toda a prova",
+     "Carepa: **PBR 1 a 2** protege ⇒ crescimento **parabólico** x² = k·t · filme inútil ⇒ **linear**"
     ]
    },
    {
     "t": "A pilha e quem corrói",
     "cor": "ok",
     "itens": [
-     "Precisa dos quatro: **ânodo, cátodo, eletrólito e contato elétrico**",
-     "**Ânodo oxida e corrói** · **cátodo reduz e fica protegido**",
+     "Os quatro: **ânodo, cátodo, eletrólito e contato elétrico** · tire um e a corrosão para",
+     "**Ânodo oxida e corrói** (M → Mⁿ⁺ + ne⁻) · **cátodo reduz e fica protegido**",
+     "Catódica: **2H⁺ + 2e⁻ → H₂** em ácido · **O₂ + 2H₂O + 4e⁻ → 4OH⁻** em neutro aerado",
      "Corrói o de potencial de redução **mais negativo** (mais ativo, menos nobre)",
-     "Do ativo ao nobre: **Mg → Al → Zn → Fe → H → Cu → Ag → Au**",
-     "**Cu e Ag aceleram** o ferro · **Zn e Mg salvam** o ferro",
+     "Do ativo ao nobre: **Mg → Al → Zn → Fe → H → Cu → Ag → Au** · **Cu acelera, Zn salva** o ferro",
      "Faraday: **m = M·I·t/(n·F)** · **F = 96500 C/mol**"
     ]
    },
@@ -4333,55 +4333,59 @@
     "t": "As formas que caem",
     "cor": "acento",
     "itens": [
-     "**Pite** · furo localizado por **Cl⁻** · menos cloreto e oxidante · **Mo** na liga",
-     "**Fresta** · aeração diferencial · ataca a zona **pobre em O₂** · flange, chapas",
-     "**Intergranular** · contorno do inox soldado · aço **L**, Ti/Nb, solubilização",
+     "**Uniforme** · perde espessura por igual, a mais previsível · sobrespessura e revestimento",
+     "**Pite** · furo localizado por **Cl⁻** · cortar cloreto e oxidante · **Mo** na liga",
+     "**Fresta** · aeração diferencial · ataca a zona **pobre em O₂** · flange, chapas empilhadas",
+     "**Intergranular** · contorno do inox soldado · **a única que tratamento térmico reverte**",
      "**Seletiva** · dezincificação do latão · grafitização do ferro fundido",
-     "**CST** · trinca **ramificada** = tração + meio específico · aliviar tensão",
-     "**Erosão/cavitação** · o fluxo arranca o filme · baixar velocidade"
+     "**CST** trinca **ramificada** = tração + meio específico · **erosão/cavitação** arranca o filme"
     ]
    },
    {
     "t": "Proteção que funciona",
     "cor": "ok",
     "itens": [
-     "**Sacrifício** · Zn, Al, Mg · sem fonte · exige **imersão e contato elétrico**",
-     "**Corrente impressa** · retificador **CC** · dutos longos e solo resistivo",
-     "Alvo: região de **imunidade** · aço enterrado a **−0,85 V** vs Cu/CuSO₄",
+     "**Sacrifício** · Zn, Al, Mg · sem fonte · exige **submersão e contato elétrico**",
+     "**Corrente impressa** · retificador de **corrente contínua** · dutos longos, solo resistivo",
+     "Alvo é a região de **imunidade** · aço enterrado a **−0,85 V** vs Cu/CuSO₄",
      "**Revestimento anódico** (Zn) protege riscado · **catódico** (Sn) só íntegro",
-     "**Proteção anódica** só em material passivável (inox, Ti), via potenciostato",
-     "Inibidores anódicos (cromato, nitrito) · catódicos (polifosfato) · adsorção (aminas)"
+     "**Proteção anódica** só em material **passivável** (inox, Ti), com potenciostato",
+     "Inibidores: anódicos (cromato, nitrito) · catódicos (polifosfato) · adsorção (aminas)"
     ]
    },
    {
     "t": "O que derruba",
     "cor": "err",
     "itens": [
-     "**Aeração diferencial corrói onde há MENOS O₂** · o lado aerado é o cátodo",
-     "Contra pite se **reduz** cloreto e oxidante · mandar aumentar oxidante é distrator",
+     "**Aeração diferencial corrói onde há MENOS O₂** · o lado bem aerado é o **cátodo**",
      "**Ânodo pequeno + cátodo grande = pior caso** · parafuso de aço em chapa de cobre",
-     "Galvânica **não tem fonte**; impressa usa retificador **CC**, nunca alternada",
+     "Contra pite se **reduz** cloreto e oxidante · mandar aumentar oxidante é distrator",
+     "Galvânica **não usa fonte**; a impressa usa retificador **CC**, jamais alternada",
      "**Zinco riscado ainda protege · estanho riscado piora**",
-     "Ânodo de sacrifício isolado ou fora d'água **não protege nada**"
+     "Ânodo de sacrifício isolado ou acima da linha d'água **não protege nada**"
     ]
    },
    {
     "t": "Números que caem",
     "cor": "info",
     "itens": [
-     "Sensitização **425–815 °C** · M₂₃C₆ no contorno · solubilizar a ~**1050 °C**",
-     "Cr mínimo do inox **10,5%** · aço **L** com C ≤ **0,03%** · 321/347 com Ti/Nb",
-     "**PREN = %Cr + 3,3·%Mo + 16·%N** · superduplex **≥ 40**",
-     "**PBR entre 1 e 2** = filme protetor (Al, Cr, Ni) · abaixo de 1, poroso (Mg)",
-     "**2% de Cr** corta a oxidação de aço baixa liga de **300 a 550 °C**",
-     "E° (V): Zn **−0,76** · Fe **−0,44** · H **0,00** · Cu **+0,34** · Ag **+0,80**"
+     "Sensitização **425 a 815 °C** · **M₂₃C₆** no contorno · solubilizar a ~**1050 °C**",
+     "Cr mínimo do inox **10,5%** · aço **L** com C ≤ **0,03%** (304L/316L) · Ti/Nb no 321/347",
+     "**PREN = %Cr + 3,3·%Mo + 16·%N** · o **N pesa 16** · superduplex **≥ 40**",
+     "**PBR < 1** poroso (Mg) · **1 a 2** protetor (Al, Cr, Ni) · muito acima descasca",
+     "**2% de Cr** corta a oxidação do aço baixa liga entre **300 e 550 °C** (forma Cr₂O₃)",
+     "E° (V): Mg −2,4 · Zn **−0,76** · Fe **−0,44** · H **0,00** · Cu **+0,34** · Ag **+0,80**"
     ]
    }
   ],
   "mnemonicos": [
    {
     "t": "Dois eletrodos, um caldo e um fio",
-    "c": "A pilha precisa de **ânodo + cátodo** (os eletrodos), **eletrólito** (o caldo) e **contato elétrico** (o fio). Toda proteção é tirar um dos quatro: junta dielétrica corta o fio, drenagem seca o caldo, pintura isola os eletrodos."
+    "c": "A pilha só anda com **ânodo + cátodo** (os eletrodos), **eletrólito** (o caldo) e **contato elétrico** (o fio). Toda proteção da lista é tirar uma das quatro: junta dielétrica corta o fio, drenagem seca o caldo, tinta isola os eletrodos, proteção catódica derruba o ânodo."
+   },
+   {
+    "t": "Negativo apanha, nobre descansa",
+    "c": "Corrói quem tem o potencial de redução **mais negativo**: **Zn (−0,76) apanha por Fe (−0,44)**, e **Fe apanha por Cu (+0,34)**. Daí sai tudo: **cobre e prata aceleram** o ferro, **zinco e magnésio salvam** o ferro."
    },
    {
     "t": "Corrói onde o ar não chega",
@@ -4389,15 +4393,11 @@
    },
    {
     "t": "Riscou: zinco salva, estanho mata",
-    "c": "Galvanização é revestimento **anódico** — o Zn segue se sacrificando pelo aço mesmo com o risco. Folha de flandres é **catódico** — riscou, o aço vira **ânodo pequeno sob cátodo grande** e fura rápido."
+    "c": "Galvanização é revestimento **anódico** — o Zn segue se sacrificando pelo aço mesmo riscado. Folha de flandres é **catódico** — riscou, o aço vira **ânodo pequeno sob cátodo grande** e fura rápido. É o efeito de área cobrado por dentro."
    },
    {
     "t": "425 a 815, o corredor da solda",
-    "c": "É a faixa que a **ZTA atravessa**: precipita **M₂₃C₆** no contorno, o Cr da vizinhança cai abaixo dos **10,5%** que passivam e o contorno vira ânodo. Saída: **L** (C ≤ 0,03%), **Ti/Nb** ou solubilizar a ~**1050 °C** — a única forma que tratamento térmico reverte."
-   },
-   {
-    "t": "PREN: 1 · 3,3 · 16",
-    "c": "Os pesos de **Cr, Mo e N** contra pite. O **nitrogênio vale 16**, dezesseis vezes o cromo — por isso pouca coisa de N muda tudo. Superduplex só entra no clube com **PREN ≥ 40**."
+    "c": "Faixa que a **ZTA atravessa**: precipita **M₂₃C₆** no contorno, o Cr da vizinhança cai abaixo dos **10,5%** que passivam e o contorno vira ânodo. Saída: **L** (C ≤ 0,03%), **Ti/Nb** ou solubilizar a ~**1050 °C** — a única forma que tratamento térmico reverte."
    }
   ]
  },
@@ -4594,6 +4594,2299 @@
    {
     "t": "Convergente para no 1",
     "c": "Bocal **convergente** acelera até **Ma = 1** na saída e **bloqueia**: a vazão mássica trava e baixar mais a pressão a jusante não muda nada. Para passar de 1, só **de Laval** — Ma = 1 na garganta e é a parte **divergente** que acelera. No ar, **p*/p₀ = 0,528**."
+   }
+  ]
+ },
+ "el1m8": {
+  "centro": "Circuitos CC e transitórios",
+  "nota": "τ é sempre o Thévenin visto do C ou do L · 63,2 % em 1τ e 99,3 % em 5τ",
+  "ramos": [
+   {
+    "t": "Kirchhoff, associações e divisores",
+    "cor": "acento",
+    "itens": [
+     "**LKC**: soma das correntes no nó = 0 (carga) · **LKT**: soma das tensões na malha = 0 (energia)",
+     "**n − 1** equações nodais e **b − n + 1** de malha — escolha o método do menor número",
+     "Fonte de corrente em paralelo ⇒ **nodal** · fonte de tensão em série ⇒ **malhas**",
+     "Série **soma R** · paralelo **R₁R₂/(R₁+R₂)** · n iguais em paralelo **R/n**",
+     "Divisor de **tensão** usa o próprio R · divisor de **corrente** usa **o outro** R",
+     "Δ→Y: produto dos dois adjacentes sobre a soma dos três · equilibrado **R_Δ = 3·R_Y**"
+    ]
+   },
+   {
+    "t": "Thévenin, Norton e máxima potência",
+    "cor": "acento",
+    "itens": [
+     "**V_Th = V_oc** (terminais **abertos**) · **I_N = I_sc** (terminais em **curto**)",
+     "**R_Th = R_N = V_oc/I_sc** · conversão **V_Th = R_N·I_N** · a resistência é a mesma nos dois",
+     "Thévenin: tensão em **série** com R_Th · Norton: corrente em **paralelo** com R_N",
+     "Zerar fonte: **tensão vira curto**, **corrente vira aberto** — só as **independentes**",
+     "Com fonte **dependente**: injete 1 V e faça **R_Th = V/I**, ou vá de V_oc/I_sc",
+     "Máxima potência: **R_L = R_Th** · **P_máx = V_Th²/(4R_Th)** · **η = 50 %**"
+    ]
+   },
+   {
+    "t": "C e L: quem não salta",
+    "cor": "ok",
+    "itens": [
+     "**i = C·dv/dt** · **v = L·di/dt** · **W_C = ½CV²** · **W_L = ½LI²**",
+     "Não saltam **v_C** e **i_L**: v_C(0⁺) = v_C(0⁻) e i_L(0⁺) = i_L(0⁻) · o resto **pode** saltar",
+     "**t = 0⁺** sem energia prévia: **C = curto** · **L = aberto**",
+     "**Regime CC (t → ∞)**: **C = aberto** · **L = curto**",
+     "Em série **C soma inversos** e **L soma direto** · em paralelo inverte-se tudo"
+    ]
+   },
+   {
+    "t": "Primeira ordem: três números e acabou",
+    "cor": "ok",
+    "itens": [
+     "**x(t) = x(∞) + [x(0⁺) − x(∞)]·e^(−t/τ)** resolve todo RC e RL chaveado em CC",
+     "**τ = R_Th·C** (RC) e **τ = L/R_Th** (RL), com R_Th visto **pelos terminais do C ou do L**",
+     "Receita: x(0⁺) pela **continuidade** · x(∞) pelo **regime CC** · τ pelo **Thévenin**",
+     "**1τ = 63,2 %** (sobra 36,8 %; e⁻¹ = 0,368) · 2τ 86,5 % · 3τ 95 % · **5τ = 99,3 %**",
+     "**Livre** (natural) = fontes off, só a energia de C ou L · **forçada** = a fonte, x(∞) em CC",
+     "**Degrau = completa = livre + forçada** · **h(t) = derivada da resposta ao degrau**"
+    ]
+   },
+   {
+    "t": "Segunda ordem e as singulares",
+    "cor": "info",
+    "itens": [
+     "**ω₀ = 1/√(LC)** nos dois arranjos · classifique comparando **α com ω₀** (ou ζ = α/ω₀ com 1)",
+     "**Série: α = R/(2L)**, crítico **R = 2√(L/C)** · mais R ⇒ **mais** amortecimento",
+     "**Paralelo: α = 1/(2RC)**, crítico **R = ½√(L/C)** · mais R ⇒ **menos** amortecimento",
+     "**α > ω₀ super**: duas reais, sem oscilar · **α = ω₀ crítico**: raiz dupla, o mais rápido sem oscilar",
+     "**α < ω₀ sub**: s = −α ± jω_d, **ω_d = √(ω₀² − α²)**, envoltória e^(−αt) · **α = 0** oscila sem fim",
+     "**δ = du/dt** e **u = dr/dt** · impulso tem **área 1** e amostra: ∫f(t)·δ(t − t₀)dt = **f(t₀)**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Fazer **τ = R·C com o resistor da fonte**: é o **R_Th visto do capacitor**, fontes zeradas",
+     "Por isso **carga e descarga** do mesmo circuito costumam ter **τ diferentes**",
+     "Inverter t = 0⁺: **C descarregado é curto** e **L sem corrente é aberto** — o inverso é o t → ∞",
+     "**α = R/2L num RLC paralelo**: lá é **1/(2RC)** — é o distrator plantado",
+     "**Superposição para potência**: nunca · some tensões e correntes e só depois calcule P",
+     "**R_L = R_Th** é máxima **potência**, não máximo rendimento — **η = 50 %**, metade queima dentro"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Três números e acabou",
+    "c": "Todo primeira ordem responde a três perguntas: **onde começa** (continuidade de v_C e i_L), **onde termina** (regime CC: C abre, L curta) e **quão rápido** (τ pelo Thévenin). Encaixe em **x(∞) + [x(0⁺) − x(∞)]·e^(−t/τ)** e nenhuma equação diferencial precisa ser resolvida."
+   },
+   {
+    "t": "A cada τ sobra 37 %",
+    "c": "Não decore a tabela: a cada constante de tempo **sobra 36,8 %** do que ainda faltava. Daí **63,2 % em 1τ**, 86,5 % em 2τ, 95 % em 3τ, 98,2 % em 4τ e **99,3 % em 5τ** (0,368⁵ ≈ 0,7 %) — por isso 5τ vale como fim do transitório."
+   },
+   {
+    "t": "Zero volt é fio, zero ampère é corte",
+    "c": "Em **t = 0⁺** o capacitor descarregado tem 0 V ⇒ é **curto**; o indutor sem corrente tem 0 A ⇒ é **aberto**. No **regime CC** troca tudo: dv/dt = 0 **abre o C** e di/dt = 0 **curta o L**. Quem inverte isso erra todas as condições iniciais."
+   },
+   {
+    "t": "Aberto dá tensão, curto dá corrente",
+    "c": "**Thévenin tem T de Tensão**: V_oc medida com os terminais **abertos**, em **série** com R_Th. Norton é a corrente de **curto** em **paralelo**. A resistência é a mesma, e **R_Th = V_oc/I_sc** é a saída quando há fonte **dependente**, que não pode ser zerada."
+   },
+   {
+    "t": "No série o R atrapalha, no paralelo o R ajuda",
+    "c": "No **RLC série** a corrente atravessa o R: mais R, mais perda ⇒ **α = R/2L** sobe. No **paralelo** o R desvia corrente: R grande quase não desvia ⇒ **α = 1/2RC** cai. Confira nos extremos — **R = 0 no série** e **R = ∞ no paralelo** dão o mesmo LC sem amortecimento."
+   }
+  ]
+ },
+ "el2m7": {
+  "centro": "Cabos, subestação, terra e SPDA",
+  "nota": "Tensão de toque e de passo, classes do SPDA e quem pode interromper curto — é o trio que mais cai",
+  "ramos": [
+   {
+    "t": "Dimensionar o condutor em MT/AT",
+    "cor": "acento",
+    "itens": [
+     "Calcule pelos **quatro critérios** e fique com a **maior seção** — nunca a primeira que fecha",
+     "**Ampacidade**: I_Z de tabela × fatores de **temperatura** e **agrupamento**, que só **reduzem**",
+     "**Queda de tensão**: ΔV ≈ √3·I·L·(R·cosφ + X·senφ) · em MT/AT a **reatância pesa igual** ao R",
+     "**Curto**: **S = I_cc·√t / K** · K = **115** Cu/PVC · **143** Cu/EPR-XLPE · **76** e **94** no Al",
+     "**PE**: fase ≤ 16 mm² → igual · de 16 a 35 → **16 mm²** · acima de 35 → **metade** da fase",
+     "Em MT/AT entra o **nível de isolamento** (8,7/15 · 12/20 · 15/25 · 20/35 kV) e a **blindagem aterrada**"
+    ]
+   },
+   {
+    "t": "Solo, haste e resistência da malha",
+    "cor": "acento",
+    "itens": [
+     "**Wenner**: 4 hastes alinhadas, corrente nas externas, tensão nas internas · **ρ = 2π·a·R**",
+     "O valor vale até a **profundidade ≈ a**; variar o espaçamento é que **estratifica** o solo",
+     "Haste: R = (ρ/2πL)·[ln(4L/d) − 1] — manda o **comprimento**; o diâmetro quase nada",
+     "Padrão **5/8\" × 2,4 m** · em paralelo, espaçamento **≥ o comprimento** da haste, senão R_eq > R/n",
+     "**Malha**: R = (ρ/4)·√(π/A) + ρ/L · cabo de **cobre nu enterrado** com hastes na periferia",
+     "**GPR = R_malha · I_malha** — o potencial que o solo inteiro sobe durante a falta"
+    ]
+   },
+   {
+    "t": "As tensões que o projeto persegue",
+    "cor": "ok",
+    "itens": [
+     "**Passo**: entre os pés a **1 m**, pernas em série ⇒ **6·ρ_s** · limite (1000 + 6·Cs·ρ_s)·k/√t",
+     "**Toque**: mão na estrutura, pés em paralelo ⇒ **1,5·ρ_s** · limite (1000 + 1,5·Cs·ρ_s)·k/√t",
+     "Corpo **1000 Ω** · **k = 0,116** (50 kg) e **0,157** (70 kg) · o **√t** premia proteção rápida",
+     "**Tensão de malha** = o maior toque real, no **centro da malha de canto** · deve ficar ≤ toque admissível",
+     "**Transferida** sai por cerca ou tubulação e entrega o **GPR inteiro** — a pior de todas",
+     "**Brita 0,10 a 0,15 m**: ρ alta **eleva os limites admissíveis** · Cs é o fator de redução"
+    ]
+   },
+   {
+    "t": "Subestação: arranjos e manobra",
+    "cor": "ok",
+    "itens": [
+     "Ordem na saída: **seccionador de barra · disjuntor · TCs · seccionador de linha · para-raios**",
+     "**Barra simples** é a mais barata e frágil: falta na barra **desliga tudo** · **anel** só é bom fechado",
+     "**Principal e transferência**: manutenção do disjuntor **sem desligar o circuito**",
+     "**Disjuntor e meio** = **1,5**/circuito (3 para 2), padrão em EAT · **duplo** = 2, o mais confiável",
+     "Só o **disjuntor** interrompe curto — **SF6** em AT, **vácuo** em MT · **seccionador abre sem carga**",
+     "**Para-raios de ZnO** fase-terra e **o mais perto possível**: distância gera sobretensão por reflexão"
+    ]
+   },
+   {
+    "t": "SPDA, DPS e auxiliares: os números",
+    "cor": "info",
+    "itens": [
+     "Três subsistemas: **captação · descidas · aterramento**, amarrados pela **equipotencialização**",
+     "Captores: **Franklin** (ângulo, cai com a altura) · **Faraday** (malha) · **esfera rolante**",
+     "Esfera rolante **20 · 30 · 45 · 60 m** nas classes **I a IV** — a **classe I é a mais exigente**",
+     "Malha de captação **5 · 10 · 15 · 20 m** · descidas a cada **10 · 10 · 15 · 20 m**, com anéis",
+     "Aterramento **A** (radial) ou **B** (anel, preferencial) · **≤ 10 Ω** · armadura da fundação é o eletrodo",
+     "**DPS I: 10/350 μs** na entrada · **DPS II: 8/20 μs** nos quadros · comando em **125 V CC**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Baixar o R da malha não garante segurança**: 1 Ω pode reprovar e 10 Ω aprovar — manda o toque/passo",
+     "Achar que **bitola grossa** derruba o R da malha — quem derruba é a **área**; bitola é para o curto",
+     "**Brita não muda o GPR** — ela eleva o **limite admissível**, não a tensão que aparece",
+     "**SPDA não protege eletrônica** (isso é **DPS**) · **aterramentos separados são proibidos**",
+     "Trocar **passo = 6ρ_s** por **toque = 1,5ρ_s**, ou o k: **0,116** é 50 kg e **0,157** é 70 kg",
+     "Ficar com a **menor** seção entre os critérios · ou abrir carga com **seccionador**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Pé com pé é 6, mão com pé é 1,5",
+    "c": "No **passo** as pernas ficam em **série** e somam ⇒ **6·ρ_s** (número grande). No **toque** elas ficam em **paralelo** e dividem ⇒ **1,5·ρ_s** (número pequeno). Série soma, paralelo divide — nunca mais troca os dois."
+   },
+   {
+    "t": "Área derruba o GPR, brita levanta o limite",
+    "c": "São dois botões diferentes. Para **baixar a tensão que aparece**, aumente a **área** da malha (R cai com √(π/A)). Para **subir o que o corpo aguenta**, jogue **brita**. Engrossar o cabo não faz nem um nem outro — o cabo é dimensionado pelo curto."
+   },
+   {
+    "t": "20-30-45-60 e a descida é o lado da malha",
+    "c": "Esfera rolante das classes **I a IV**: **20 · 30 · 45 · 60 m**, sempre subindo (menos exigente). A **malha** vai **5 · 10 · 15 · 20** e a **descida repete o lado da malha** — só a classe I foge: malha 5 m, descida **10 m**."
+   },
+   {
+    "t": "Alumínio é 2/3 do cobre",
+    "c": "No **S = I_cc·√t/K**: cobre **115** (PVC) e **143** (EPR-XLPE); alumínio é ~**2/3** disso — **76** e **94**. E trocar PVC por EPR/XLPE sobe o K uns **25%**, ou seja, **cabo menor**. Proteção mais rápida (t menor) também reduz a seção."
+   },
+   {
+    "t": "Disjuntor Desarma, Seccionador Só Sem carga",
+    "c": "Só o **D**isjuntor interrompe **curto** (SF6 em AT, vácuo em MT). O **S**eccionador **só** manobra **sem** carga, dá **isolação visível** e vem intertravado com a **lâmina de terra**. Alternativa que manda seccionador abrir falta está errada."
+   }
+  ]
+ },
+ "me1m4": {
+  "centro": "Transmissão de calor e trocadores",
+  "nota": "Definição literal dos três mecanismos, resistências em série com U·A e contracorrente × paralelo",
+  "ramos": [
+   {
+    "t": "Os três mecanismos",
+    "cor": "acento",
+    "itens": [
+     "**Condução** · molécula a molécula e elétrons livres · **sem transporte de massa** · meio **parado**",
+     "**Convecção** · condução na parede **+ arraste** do fluido · exige o fluido **em movimento**",
+     "**Radiação** · ondas eletromagnéticas · **única que dispensa meio** · toda matéria acima de **0 K**",
+     "As leis: **Fourier −k·A·dT/dx** · **Newton h·A·(T_s − T_∞)** · **Stefan-Boltzmann ε·σ·A·T⁴**",
+     "Só a radiação **não é proporcional a ΔT** — vai com a diferença de **T⁴ absolutas**",
+     "**Natural** nasce do **empuxo** · **forçada** vem de ventilador ou bomba"
+    ]
+   },
+   {
+    "t": "Condução: perfil e rede de resistências",
+    "cor": "ok",
+    "itens": [
+     "**Parede plana**, permanente, sem geração e k cte ⇒ **d²T/dx² = 0** e perfil **linear**",
+     "**Cilíndrica 1D**: **(1/r)·d/dr(r·dT/dr) = 0** ⇒ perfil **logarítmico** — já pedido literal",
+     "**R_plana = L/(k·A)** · **R_cil = ln(r₂/r₁)/(2π·k·L)** · **R_filme = 1/(h·A)**",
+     "Em série **q = ΔT_total/ΣR** · o global é o mesmo: **q = U·A·ΔT** com **1/(U·A) = ΣR**",
+     "Raio crítico de isolamento: **r_cr = k/h** no cilindro e **2k/h** na esfera",
+     "k (W/m·K): **diamante** o maior · prata 429 · cobre 401 · Al 237 · aço 50 · água 0,6 · ar 0,026"
+    ]
+   },
+   {
+    "t": "Convecção e os adimensionais",
+    "cor": "acento",
+    "itens": [
+     "**h não é propriedade do fluido**: muda com geometria, regime e velocidade",
+     "**Nu = h·L/k** · convecção sobre condução · é o **gradiente adimensional de T na superfície**",
+     "**Pr = ν/α = c_p·μ/k** · movimento sobre calor · **Pr do ar ≈ 0,7**",
+     "**Gr = g·β·ΔT·L³/ν²** · **empuxo sobre forças viscosas** — rege a convecção **natural**",
+     "**Bi = h·L_c/k** · resistência interna sobre externa · **Bi < 0,1** libera a capacitância global",
+     "Forçada **Nu = f(Re, Pr)** · natural **Nu = f(Gr, Pr) = f(Ra)**, com **Ra = Gr·Pr**"
+    ]
+   },
+   {
+    "t": "Radiação: as leis e os números",
+    "cor": "info",
+    "itens": [
+     "**σ = 5,67×10⁻⁸ W/m²·K⁴** · **corpo negro ε = 1**, absorvedor e emissor perfeito",
+     "Corpo real: **q = ε·σ·A·(T_s⁴ − T_viz⁴)** com **0 ≤ ε ≤ 1**",
+     "**Cinzento** = ε **constante** com o comprimento de onda",
+     "Da radiação incidente: **α + ρ + τ = 1** · **opaco ⇒ τ = 0**",
+     "**Kirchhoff**: no equilíbrio **α = ε** — bom absorvedor é bom emissor",
+     "Polido tem **ε baixo** · fosco e escuro, **ε alto**"
+    ]
+   },
+   {
+    "t": "Trocadores de calor",
+    "cor": "ok",
+    "itens": [
+     "Balanço: **Q = ṁ·c_p·ΔT** em cada corrente e, **sem perdas**, Q_quente = Q_frio",
+     "**Duplo tubo** = área pequena · **casco e tubos** = padrão de refinaria · **placas** = U alto",
+     "**Chicanas (baffles)** seguram os tubos, guiam o fluido no casco e **elevam a turbulência e o h**",
+     "**Contracorrente bate paralelo sempre**: ΔT médio maior e **menos área** para a mesma carga",
+     "Só no **contracorrente** a fria pode sair **mais quente** que a saída da quente",
+     "**Q = U·A·F·ΔT_ml** · ΔT_ml = (ΔT₁ − ΔT₂)/ln(ΔT₁/ΔT₂) · **F = 1** no contracorrente puro"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Em **radiação** a T entra à quarta e é **absoluta (K)**; **°C** só vale em condução e convecção",
+     "Parede composta: a **maior queda de T** cai na camada de **maior resistência**, não na mais grossa",
+     "Interface fica mais perto do lado de **maior k** · mesmo L e mesmo k ⇒ **(T_Q + T_F)/2**",
+     "Com **perda pela carcaça** Q_quente ≠ Q_frio: cede 100 kW, recebe 90 kW ⇒ **10 kW perdidos**",
+     "**Nu e Bi** têm a mesma cara: no **Nu o k é do fluido**; no **Bi, o do sólido**",
+     "Ler o **−** de Fourier como perda, ou chamar **h de propriedade** — e **F ≤ 1**, nunca maior que 1"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Sem meio, à quarta",
+    "c": "As duas marcas exclusivas da **radiação**: é a **única que atravessa o vácuo** e a **única que não é linear em ΔT** (vai com **T_s⁴ − T_viz⁴**). Falou em vácuo ou em quarta potência, é radiação — e ali a temperatura tem de estar em **kelvin**."
+   },
+   {
+    "t": "Em série, mesma corrente",
+    "c": "ΔT é a tensão e **q é a corrente**: em série o fluxo é **o mesmo** em todas as camadas, e cada uma cai **ΔT = q·R**. Forno com k = 1,5, L = 0,15 m, face a 100 °C, ar a 25 °C e h = 20: q = 20·75 = **1500 W/m²** ⇒ sobe 1500·0,15/1,5 = 150 ⇒ **T_int = 250 °C**."
+   },
+   {
+    "t": "Forçada corre, natural sobe",
+    "c": "Quem **corre** por bomba ou ventilador usa **Re**: Nu = f(Re, Pr). Quem **sobe** por empuxo usa **Gr**: Nu = f(Gr, Pr) = f(**Ra = Gr·Pr**). **Pr entra nas duas.** E o **Bi** não é do fluido: é o sólido conferindo se **Bi < 0,1** para tratar tudo com uma temperatura só."
+   },
+   {
+    "t": "Preto come e devolve",
+    "c": "**Kirchhoff em uma frase**: quem absorve bem, emite bem — **α = ε**. Por isso a superfície **fosca e escura** tem ε alto e a **polida**, ε baixo (péssima emissora, ótima para isolar). E o que chega sempre fecha em 1: **α + ρ + τ = 1**, com τ = 0 no opaco."
+   },
+   {
+    "t": "O gargalo manda",
+    "c": "Em série quem governa é a **maior resistência**: é lá a **maior queda de temperatura**. Num trocador gás–líquido o gargalo é **o lado do gás** — h de gás fica em **dezenas** de W/m²·K contra **dezenas de milhares** na ebulição e na condensação. A **incrustação** entra na mesma soma e derruba U."
+   }
+  ]
+ },
+ "me1m6": {
+  "centro": "Motores de combustão interna",
+  "nota": "r = 1 + V_d/V_c, 4T × 2T e Otto × Diesel: é aí que a banca arma a conta e a pegadinha",
+  "ramos": [
+   {
+    "t": "Geometria e taxa de compressão",
+    "cor": "acento",
+    "itens": [
+     "**PMS** = volume mínimo · **PMI** = volume máximo · **curso L = 2× o raio da manivela**",
+     "**V_d = π·D²·L/4** por cilindro · total **V_t = z·π·D²·L/4** · **V_c** = volume morto (câmara)",
+     "**r = V_PMI/V_PMS = (V_c + V_d)/V_c = 1 + V_d/V_c** · vira **V_d/V_c = r − 1**",
+     "**Quadrado** D = L · **superquadrado** D > L, gira mais alto",
+     "**Cambota = virabrequim = árvore de manivelas** — não é biela nem volante"
+    ]
+   },
+   {
+    "t": "Quatro tempos × dois tempos",
+    "cor": "ok",
+    "itens": [
+     "**4T: 720°** (2 voltas) por ciclo · 1 tempo motor a cada 2 voltas · **comando gira a n/2**",
+     "**2T: 360°** (1 volta) · **1 tempo motor por volta** · janelas (lumbreiras) abertas pelo pistão",
+     "2T entrega mais potência por cilindrada, mas **nunca o dobro** teórico",
+     "2T perde em consumo e emissão (**curto-circuito na lavagem**) e mistura óleo ao combustível",
+     "Na potência indicada: **x = 2 no quatro tempos · x = 1 no dois tempos**"
+    ]
+   },
+   {
+    "t": "Otto (ICE) × Diesel (ICO)",
+    "cor": "acento",
+    "itens": [
+     "**Os dois são de combustão INTERNA** · ICE = ignição por centelha · ICO = por compressão",
+     "Otto comprime **mistura** e acende na **vela** · Diesel comprime **só ar** e autoinflama",
+     "Diesel injeta a alta pressão **no fim da compressão** · no Otto o combustível entra na admissão",
+     "**Otto ≈ 8–12:1**, limite é a **detonação** · **Diesel ≈ 14–24:1**, limite é esforço e ruído",
+     "Otto queima a **volume constante** · Diesel a **pressão constante**, com **r_c = V₃/V₂**",
+     "**Octanagem** no Otto · **cetano** no Diesel · carga: **borboleta** × só mais combustível"
+    ]
+   },
+   {
+    "t": "Ciclo real e desempenho",
+    "cor": "ok",
+    "itens": [
+     "Real perde área: combustão não instantânea (daí o **avanço**), calor pelas paredes, escape antecipado",
+     "**Laço de bombeamento negativo** · no **p × ângulo** o pico de pressão cai **depois do PMS**",
+     "**N_i = pme·V_t·n/x** (n em rot/s) · **N_e = N_i − N_a** · **η_m = N_e/N_i**",
+     "**N_e = τ·ω = 2π·n·τ** · **potência máxima em rotação acima da do torque máximo**",
+     "**η_t = N_e/(ṁ_comb·PCI)** · **C_e = C_h/N_e** em g/kWh · **η_t = 1/(C_e·PCI)**",
+     "**Rendimento volumétrico** = ar admitido ÷ cilindrada · sobrealimentar leva **acima de 1**"
+    ]
+   },
+   {
+    "t": "Números, combustível e óleo",
+    "cor": "info",
+    "itens": [
+     "Otto **8–12:1** · Diesel **14–24:1** · **k = 1,4** no ar-padrão · 4T **720°** · 2T **360°**",
+     "**Octanagem alta não dá mais energia** — dá resistência à autoignição, liberando r e avanço",
+     "**Etanol**: octanagem maior, resfria a admissão, mais potência · compensa até ≈ **70%** da gasolina",
+     "**GNV**: octanagem altíssima e quase sem particulado, mas derruba o **η volumétrico**",
+     "**Biodiesel**: mais lubricidade e cetano · pior oxidação e escoamento a frio",
+     "Óleo bom: **IV alto** · **ponto de fluidez baixo** · **fulgor alto** · **TBN** cai com o uso"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "\"Diesel é **combustão externa**\" — falso: os dois são **internos**; externa é a máquina a vapor",
+     "**r não é V_d/V_c** · de 8:1 para 10:1 a câmara vai de V_d/7 a V_d/9 ⇒ a razão é **9/7**, não 10/8",
+     "Com **quatro** cilindros o 4 cancela o denominador: **V_t = π·D²·L**, sem o \"/4\"",
+     "**Consumo específico menor = rendimento maior** — é o rendimento de cabeça para baixo",
+     "Na **mesma taxa de compressão quem rende mais é o Otto** — nunca o Diesel",
+     "Pico de pressão **no PMS** e potência máxima **na rotação do torque**: as duas são falsas"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Some 1 na taxa",
+    "c": "**r = 1 + V_d/V_c** — o pistão no PMS ainda deixa a câmara, então o deslocado sozinho nunca é a taxa. Invertendo: **V_c = V_d/(r − 1)**. Por isso r = 8 dá V_d/**7** e r = 10 dá V_d/**9**, e a razão entre as câmaras é **9/7** — quem faz 10/8 cai na alternativa plantada."
+   },
+   {
+    "t": "ICE acende, ICO comprime",
+    "c": "**ICE** = ignição por **CE**ntelha: Otto, comprime **mistura**, **8–12:1**, para na **detonação**, quer **octanagem** (resistir à autoignição). **ICO** = ignição por **CO**mpressão: Diesel, comprime **só ar**, **14–24:1**, quer **cetano** (facilitar a autoignição). Octanagem e cetano puxam em sentidos opostos — e os dois motores são **internos**."
+   },
+   {
+    "t": "720 pela metade, 360 na janela",
+    "c": "**4T = 720°**, duas voltas por ciclo, válvulas com **comando a n/2** e **x = 2** na potência indicada. **2T = 360°**, uma volta, **janelas** no lugar de válvulas e **x = 1**. Dobro de tempos motores não é dobro de potência: a lavagem perde mistura pelo escape."
+   },
+   {
+    "t": "Indicada menos atrito dá efetiva",
+    "c": "**N_i** (o gás empurrando o pistão) **− N_a** (atrito e acessórios) **= N_e**, a efetiva ao freio — daí **η_m = N_e/N_i < 1**. Do eixo para fora vale **N_e = 2π·n·τ**, com a **potência máxima girando mais alto** que o torque máximo. E o consumo específico anda ao contrário: **C_e baixo = motor eficiente**."
+   },
+   {
+    "t": "10 no frio, 40 no forno",
+    "c": "**SAE 10W40**: o número com **W** (winter) descreve o **frio**; o solto, o comportamento a **100 °C**. \"40W10\" não existe. Na mesma lógica de bolso, o óleo bom tem **índice de viscosidade alto** (varia pouco com a temperatura), **ponto de fluidez baixo**, **ponto de fulgor alto** e **TBN** que só cai com o uso."
+   }
+  ]
+ },
+ "el2m8": {
+  "centro": "Polos, ζ, Bode e estados",
+  "nota": "M_p só depende de ζ, t_s ≈ 4/(ζω_n) e as inclinações do Bode — é o que a banca cobra literal",
+  "ramos": [
+   {
+    "t": "Função de transferência e malha fechada",
+    "cor": "acento",
+    "itens": [
+     "**G(s) = Y/U** com **condições iniciais nulas** · cada d/dt vira **s** e cada ∫ vira **1/s**",
+     "Circuito vira divisor de tensão: **R**, **sL**, **1/(sC)** — álgebra no lugar da equação diferencial",
+     "**Polos** = raízes do denominador, mandam na **estabilidade** · **zeros** só moldam o transitório",
+     "Negativa: **T = G/(1 + GH)** · característica **1 + GH = 0** · somador **para trás** de G divide por G",
+     "Fechada divide perturbação por **(1 + GH)** e corrige o erro — mas **pode instabilizar** com K alto",
+     "Erro pelo **tipo** (nº de 1/s em GH): tipo **0** erra **1/(1+K_p)** no degrau · tipo **1** zera o degrau"
+    ]
+   },
+   {
+    "t": "Segunda ordem: ζ manda em tudo",
+    "cor": "acento",
+    "itens": [
+     "Padrão **ω_n²/(s² + 2ζω_n s + ω_n²)** · RLC série no C: **ω_n = 1/√(LC)**, **ζ = (R/2)√(C/L)**",
+     "Polos em **−ζω_n ± jω_d** com **ω_d = ω_n√(1 − ζ²)** · no plano s, **cos θ = ζ**",
+     "**ζ=0** só oscila · **0<ζ<1** oscila e converge · **ζ=1** crítica: rápida sem oscilar · **ζ>1** lenta",
+     "**M_p = e^(−πζ/√(1−ζ²))** · **t_p = π/ω_d** · **t_s ≈ 4/(ζω_n)** a 2% e **3/(ζω_n)** a 5%",
+     "**ζ = 0,5 → M_p = 16,3%** · **ζ = 0,707 → 4,3%** · **ζ = 0 → 100%** · **ζ ≥ 1 → 0%**",
+     "1ª ordem K/(τs+1): **63,2%** em t = τ e **98%** em 4τ · valor final do degrau = **G(0)**"
+    ]
+   },
+   {
+    "t": "Lugar das raízes e Routh",
+    "cor": "ok",
+    "itens": [
+     "**n ramos** saem dos **polos** (K = 0) e chegam aos **zeros** (K → ∞) · **n − m** vão ao infinito",
+     "Eixo real entra no lugar à **esquerda de um nº ímpar** de polos e zeros · tudo simétrico no eixo real",
+     "Assíntotas: ângulo **(2q+1)·180°/(n−m)**, centroide **(Σpolos − Σzeros)/(n−m)**",
+     "Girard resolve sem desenhar: em s² + a₁s + a₀, **soma das raízes = −a₁** e **produto = a₀**",
+     "**Routh**: 2ª ordem só pede coeficientes **todos positivos** · em s³, exige **a₂·a₁ > a₀**",
+     "**Ganho crítico**: ramos cruzam o eixo jω (linha de Routh zerada) e o sistema **oscila constante**"
+    ]
+   },
+   {
+    "t": "Bode: inclinações, fases e margens",
+    "cor": "info",
+    "itens": [
+     "**K**: reta em **20·log₁₀K** dB, fase 0° · **1/s**: **−20 dB/déc**, 0 dB em ω = 1, fase **−90°** fixa",
+     "**Polo simples**: −20 dB/déc após ω₁, **−3 dB** e **−45°** em ω₁ · zero: **+20 dB/déc** e **+45°**",
+     "**Par complexo**: **−40 dB/déc** depois de ω_n · fase **−90° em ω_n**, indo a **−180°**",
+     "**MF** lida onde **|G| = 0 dB**: MF = **180° + ∠G** · **MG** lida onde a **fase cruza −180°**",
+     "Fase mínima: malha fechada estável com **MF > 0°** e **MG > 0 dB**",
+     "Ressonância só existe com **ζ < 0,707** · **ω_r = ω_n√(1 − 2ζ²)**, menor que ω_d e que ω_n"
+    ]
+   },
+   {
+    "t": "Espaço de estados",
+    "cor": "ok",
+    "itens": [
+     "**ẋ = A·x + B·u** e **y = C·x + D·u** · ordem = nº de **armazenadores independentes** (cada L, cada C)",
+     "**G(s) = C(sI − A)⁻¹B + D** · **polos = autovalores de A**, raízes de **det(sI − A) = 0**",
+     "Canônica controlável de (b₁s+b₀)/(s²+a₁s+a₀): **A = [0 1; −a₀ −a₁]**, **B = [0; 1]**, **C = [b₀ b₁]**",
+     "**u = −Kx + r** joga a dinâmica em **(A − BK)**: iguale **det[sI − (A − BK)] = 0** ao desejado",
+     "Polos em −5 ± j10 ⇒ desejado **s² + 10s + 125** · case coeficiente a coeficiente e ache K",
+     "Alocação livre só se **controlável**: **[B AB …]** com **posto n** · o dual é a **observabilidade**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**M_p depende SÓ de ζ** — mexer em **ω_n** não muda o sobressinal, só acelera (t_p e t_s caem)",
+     "Trocar as frequências: **ω_r < ω_d < ω_n** sempre · em t_p entra **ω_d**, nunca ω_n",
+     "Perder o sinal do polo: **s = −2 é estável, s = +2 é instável** — confira no denominador, não na alternativa",
+     "Usar **20 dB/déc** onde o polo é **duplo ou complexo** — ali a inclinação é **40 dB/déc**",
+     "Ler o valor final do degrau em **G(∞)**: o certo é **G(0)**",
+     "Inverter as margens: **MF mora no módulo (0 dB)** e **MG mora na fase (−180°)**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "ζ manda no quanto, ω_n manda no quando",
+    "c": "**M_p só depende de ζ**; **ω_n** apenas escala o tempo. Dobrar ω_n com ζ fixo mantém o sobressinal **idêntico** e corta **t_p** e **t_s** pela metade. Se a pergunta é sobressinal, procure só o **ζ** e ignore ω_n."
+   },
+   {
+    "t": "Meio dá 16, raiz-de-meio dá 4",
+    "c": "**ζ = 0,5 → M_p ≈ 16,3%** e **ζ = 0,707 → 4,3%**. O mesmo **0,707** é a fronteira do pico: acima dele o Bode **não tem ressonância**. Nas pontas, **ζ = 0 dá 100%** e **ζ ≥ 1 dá 0%**."
+   },
+   {
+    "t": "Polo é largada, zero é chegada",
+    "c": "No lugar das raízes os ramos **partem dos polos** (K = 0) e **morrem nos zeros** (K → ∞); os **n − m** que sobram fogem pelas assíntotas. Para não desenhar, use Girard em s² + a₁s + a₀: **soma = −a₁**, **produto = a₀**."
+   },
+   {
+    "t": "Cada margem no gráfico do outro",
+    "c": "A margem de **fase** se lê no gráfico do **módulo**, em **0 dB** (MF = 180° + ∠G); a margem de **ganho** se lê no gráfico da **fase**, em **−180°**. Em fase mínima, estável com **MF > 0°** e **MG > 0 dB**."
+   },
+   {
+    "t": "20 no simples, 40 no par",
+    "c": "Polo ou zero simples vale **±20 dB/déc** e **∓45°** na quebra, com **−3 dB** exatamente em ω₁; **par complexo ou polo duplo vale ±40 dB/déc**, com −90° em ω_n. Integrador é polo na origem: **−20 dB/déc** e **−90° em toda a faixa**."
+   }
+  ]
+ },
+ "me2m7": {
+  "centro": "Estatística, motores e NRs",
+  "nota": "Transformação linear, n_s = 120·f/p e os adicionais 30% × 40/20/10% são o que mais cai",
+  "ramos": [
+   {
+    "t": "Estatística descritiva",
+    "cor": "acento",
+    "itens": [
+     "**Mediana** = valor central com os dados **ordenados** · n par: **média dos dois centrais**",
+     "Variância **populacional divide por n** · **amostral divide por n − 1**",
+     "**CV = σ/x̄** é adimensional: só ele compara **unidades diferentes** · **menor CV = mais homogêneo**",
+     "Somar c a todos: média **μ + c** · **σ e σ² não mudam** · o **CV muda**",
+     "Multiplicar por k: média **k·μ** · **σ → |k|·σ** · **σ² → k²·σ²** · **CV não muda**",
+     "Reais para **milhões**: o desvio cai **10⁶** e a **variância, 10¹²**"
+    ]
+   },
+   {
+    "t": "Probabilidade e confiabilidade",
+    "cor": "ok",
+    "itens": [
+     "**P(A∪B) = P(A) + P(B) − P(A∩B)** · independentes: **P(A∩B) = P(A)·P(B)**",
+     "**Árvore de eventos**: **multiplica ao longo do ramo, soma entre ramos**",
+     "1% de incêndio e 1% de explosão sem incêndio ⇒ nenhum dos dois = 0,99 × 0,99 ≈ **98%**",
+     "**Normal**: simétrica · **média = mediana = moda** · **z = (x − μ)/σ** · base da carta de controle",
+     "**Poisson**: eventos raros por intervalo · **média = variância = λ**",
+     "**Exponencial**: taxa de falha **constante** · **R(t) = e^(−λ·t)** · **MTBF = 1/λ**"
+    ]
+   },
+   {
+    "t": "Gerador, motor e escorregamento",
+    "cor": "acento",
+    "itens": [
+     "**Gerador**: mecânica → elétrica · **Faraday-Lenz: e = −N·dΦ/dt** · conjugado **resistente**",
+     "**Motor**: elétrica → mecânica · **Laplace: F = B·I·L** · conjugado **motor**",
+     "Estator com três correntes a **120°** cria o **campo girante** · o MIT parte **sem tocar o rotor**",
+     "**n_s = 120·f/p**, com **p = polos** · o MIT gira **abaixo** · **s = (n_s − n)/n_s** · **s = 0 ⇒ T = 0**",
+     "**P_3φ = √3·V·I·cos φ** · P_mec = P_elét − perdas · **T = P_mec/ω** · 6 polos e s = 5% ⇒ **1140 rpm**",
+     "**Síncrono superexcitado** vira capacitor: **fornece reativos** e corrige o FP (**curva V**)"
+    ]
+   },
+   {
+    "t": "NR-6, NR-9 e NR-12",
+    "cor": "ok",
+    "itens": [
+     "Hierarquia: **eliminar o risco → coletiva → administrativa → EPI** · EPI é de **uso individual**",
+     "Sem **CA** o EPI não vale · empregador **fornece grátis**, treina e troca · recusar é **ato faltoso**",
+     "**PPRA/PGR**: riscos ambientais **físicos, químicos e biológicos** · avaliação **anual** · guarda **20 anos**",
+     "**Nível de ação**: agir já na **metade do limite** de tolerância · no ruído, **dose 0,5**",
+     "**NR-12**: **fixa** só sai com ferramenta · **móvel pede intertravamento** · categorias **B, 1, 2, 3 e 4**",
+     "**Emergência** vermelha em fundo amarelo **nunca dá partida** · manutenção só com **bloqueio de energia**"
+    ]
+   },
+   {
+    "t": "Os números do módulo",
+    "cor": "info",
+    "itens": [
+     "Variância amostral em **n − 1** · escala k ⇒ variância **×k²** · normal **68 / 95 / 99,7%**",
+     "60 Hz: **2 polos 3600** · **4 polos 1800** · **6 polos 1200** · **8 polos 900 rpm**",
+     "Rotor bloqueado e partida direta: **6 a 8 × I_n** · **estrela-triângulo: 1/3** da corrente e do conjugado",
+     "**Periculosidade 30%** do salário **base** · **insalubridade 40/20/10%** do **mínimo** · **não acumulam**",
+     "**85 dB(A) por 8 h** e **cada +5 dB corta o tempo pela metade**: 90→4 h · 95→2 h · 100→1 h · 105→30 min",
+     "**115 dB(A)** sem proteção = **risco grave e iminente** · o **CONAMA** fixa padrões, o IBAMA fiscaliza"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Dois ruídos na jornada: **C₁/T₁ + C₂/T₂ ≤ 1** · a banca escreve **(C₁+C₂)/(T₁+T₂)** — item **errado**",
+     "Dividir os dados por k corta a **variância por k²**, não por k · somar constante **não mexe** na dispersão",
+     "Usar **n** na variância amostral (é **n − 1**) ou comparar dispersões por σ quando a unidade muda: é **CV**",
+     "Riscos ambientais do PPRA são **só três** — **ergonômico e de acidente** ficam no mapa de riscos",
+     "**CC shunt sem campo dispara**: com Φ → 0, corrente e velocidade sobem — o motor **não trava**",
+     "**Resistência de aquecimento não protege de sobrecarga**: ela só **impede condensação**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Somar desloca, multiplicar espalha",
+    "c": "Somar constante mexe **só na média** — **σ e σ² ficam iguais** e o **CV muda**. Multiplicar por k mexe na escala: **σ ×|k|**, **σ² ×k²**, e o **CV não muda**. Passar reais para milhões (÷10⁶) derruba a variância **10¹² vezes**."
+   },
+   {
+    "t": "120 sobre polos",
+    "c": "**n_s = 120·f/p** com **p = polos**, nunca pares de polos. Em 60 Hz decore a escada **3600 · 1800 · 1200 · 900** para 2, 4, 6 e 8 polos. O MIT fica sempre logo **abaixo** dela — e com **s = 0 não há fem nem conjugado**."
+   },
+   {
+    "t": "Faraday gera, Laplace move",
+    "c": "**Faraday-Lenz (e = −N·dΦ/dt)** é o gerador: exige **movimento relativo** entre condutor e campo, e o conjugado é **resistente**. **Laplace (F = B·I·L)** é o motor: exige **corrente no campo**, e o conjugado é **motor**."
+   },
+   {
+    "t": "30 na base, 40/20/10 no mínimo",
+    "c": "**Periculosidade: 30%** sobre o salário **base**. **Insalubridade: 40 / 20 / 10%** (máximo, médio, mínimo) sobre o salário **mínimo**. Com direito aos dois, **opta-se pelo mais vantajoso** — os adicionais nunca somam."
+   },
+   {
+    "t": "Doses somam, tempos não",
+    "c": "Ruído em dois níveis: somam-se as **doses parciais**, **C₁/T₁ + C₂/T₂ ≤ 1**. A alternativa com **(C₁+C₂)/(T₁+T₂)** é outra conta e está errada. E a escada: **85 dB(A)/8 h**, com **cada +5 dB dividindo o tempo por 2**."
+   }
+  ]
+ },
+ "me2m4": {
+  "centro": "Metalurgia e seleção de materiais",
+  "nota": "Pontos fixos do Fe-C e tratamento térmico dominam · temperabilidade e escolha do inox fecham a conta",
+  "ramos": [
+   {
+    "t": "Estrutura, alotropia e propriedades",
+    "cor": "acento",
+    "itens": [
+     "**CCC** · 2 átomos · coord. **8** · FEA **0,68** · Fe-α, Cr, Mo, W · **tem** transição dúctil-frágil",
+     "**CFC** · 4 átomos · coord. **12** · FEA **0,74** · Fe-γ, Al, Cu, Ni, 304 · **não tem** transição",
+     "**HC** · 6 átomos · coord. **12** · FEA **0,74** · Zn, Mg, Ti-α · pouco dúctil",
+     "Fe puro: **CCC (α) até 912 °C** → **CFC (γ) até 1394 °C** → CCC (δ) → funde a **1538 °C**",
+     "A CFC é mais compacta e **dissolve muito mais carbono** — é daí que sai todo o tratamento térmico",
+     "**E** = inclinação do trecho elástico · **não muda** com tratamento nem encruamento · aço **200 GPa**, Al **70**"
+    ]
+   },
+   {
+    "t": "Fe-C: os pontos fixos",
+    "cor": "info",
+    "itens": [
+     "**Eutetóide: 0,77% C a 727 °C** (A₁) · γ → ferrita + cementita = **perlita**",
+     "**2,14% C a 1148 °C** = máximo na austenita = fronteira **aço × ferro fundido**",
+     "**Eutético: 4,30% C a 1148 °C** · L → austenita + cementita = **ledeburita**",
+     "Ferrita segura no máximo **0,022% C** · **cementita Fe₃C = 6,70% C**, dura e frágil",
+     "Abaixo de 0,77%: **hipoeutetóide** (ferrita pró-eutetóide + perlita) · acima: **hipereutetóide**",
+     "**Alavanca pelo braço oposto** · invariantes numa **única T**: eutética, eutetóide e peritética (L + α → β)"
+    ]
+   },
+   {
+    "t": "TTT, martensita e tratamentos",
+    "cor": "ok",
+    "itens": [
+     "**TTT em C**: perto de A₁ sobra difusão e faltam núcleos; embaixo sobram núcleos e falta **difusão**",
+     "Difusionais, do mais lento ao mais rápido: **perlita grosseira → perlita fina → bainita**",
+     "**Martensita** abaixo de M_s: **adifusional**, cisalhamento, C supersaturado, **CFC → TCC** · dureza pelo **%C**",
+     "**Recozimento** esfria **no forno** (mole, dúctil) · **normalização** **ao ar** (perlita fina, grão refinado)",
+     "**Têmpera** = martensita, dureza máxima e tensão residual · **revenido abaixo de A₁** devolve tenacidade",
+     "**Austêmpera** (isotérmica acima de M_s) = **bainita** · **martêmpera** = martensita sem trinca nem distorção"
+    ]
+   },
+   {
+    "t": "Temperabilidade e o que endurece",
+    "cor": "ok",
+    "itens": [
+     "**Temperabilidade = profundidade** de endurecimento, não dureza máxima · mede-se no **Jominy**",
+     "Sobe com **Mn, Ni, Cr, Mo** e com **grão austenítico grosseiro**",
+     "**Cementação**: C, ~**900–950 °C**, na austenita, **exige têmpera** · **nitretação**: N, ~**500–570 °C**, na ferrita",
+     "Travam discordância: **refino de grão**, **solução sólida**, **encruamento** e **precipitação**",
+     "Só o **refino de grão** sobe **resistência e tenacidade juntas** — os outros três derrubam a tenacidade",
+     "**C, N, Ni e Mn** estabilizam **austenita** · **Cr, Mo, Si, Nb e V**, **ferrita** · carboneto: **V, Nb, Ti, Mo**"
+    ]
+   },
+   {
+    "t": "Seleção de materiais",
+    "cor": "acento",
+    "itens": [
+     "**Aço-carbono** barato, soldável até ~**0,30% C**, fragiliza no frio · **Cr-Mo**: alta T, fluência, hidrogênio",
+     "**304/316**: **criogenia** e corrosão · **não temperável**, não magnético · **316 tem Mo** (pite) · sensitiza **450–850 °C**",
+     "**430** ferrítico barato · **410** martensítico e **temperável** · **duplex** = ferrita + austenita, água do mar",
+     "Ferro fundido: **cinzento** veios (amortece, usinável) · **nodular** esferas (dúctil) · **branco** cementita, abrasivo",
+     "**Latão Cu-Zn** e **bronze Cu-Sn**, ambos **>50% Cu** · Al **2,7** e Ti **4,5** contra aço **7,85 g/cm³**",
+     "**Termoplástico funde e reprocessa** · **termofixo** não · **cerâmico**: frágil, isolante térmico **e** elétrico"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Diagrama **dado na prova** com 0,02 e 0,75 arredondados: use os **do desenho** · 0,25% C ⇒ **31,5%** de perlita",
+     "**Temperabilidade não é dureza**: quem endurece por inteiro **no óleo** tem mais que quem só endurece na água",
+     "Subiu a resistência, melhorou tudo? Não: **encruamento e precipitação derrubam a tenacidade**",
+     "**Resiliência** é a área até o **escoamento** (a mola: U_r = σ_e²/2E) · **tenacidade** é a área **total** até a fratura",
+     "**Charpy é comparativo**, não dá parâmetro de projeto — isso vem do **K_IC** · só o **CCC** tem transição",
+     "**A₃ cai quando o %C sobe**: entre 1020 e 1050, o de **maior C** austenitiza na **menor** temperatura"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "CFC é C de criogenia",
+    "c": "Só o **CCC** tem transição dúctil-frágil — por isso o aço-carbono fragiliza no frio e o **304, que é CFC**, vai para a **criogenia**. A CFC ainda empacota melhor (**0,74 contra 0,68**), e é essa folga a mais que faz a austenita dissolver muito mais carbono que a ferrita."
+   },
+   {
+    "t": "0,77 · 2,14 · 4,30 · 6,70",
+    "c": "A escada do carbono, de baixo para cima: **eutetóide 0,77 (727 °C)** dá perlita · **2,14 corta aço de ferro fundido** · **eutético 4,30** dá ledeburita · **cementita 6,70** fecha a escala. Os dois do meio dividem os mesmos **1148 °C**; só o eutetóide fica em **727 °C** — e a ferrita mal segura **0,022%**."
+   },
+   {
+    "t": "Forno, ar, água — e o revenido volta",
+    "c": "A dureza sobe na velocidade do resfriamento: **recozido (forno) < normalizado (ar) < temperado (água)**. Quem esfria mais rápido endurece mais e fica mais frágil, e o **revenido, sempre abaixo de A₁**, devolve a tenacidade que a têmpera tirou. Parar acima de M_s troca a martensita por **bainita** (austêmpera)."
+   },
+   {
+    "t": "No óleo é que se vê",
+    "c": "**Temperabilidade é profundidade, não dureza.** O óleo esfria mais devagar; quem mesmo assim endurece **até o núcleo no óleo** é o mais temperável. Quem manda na **dureza máxima** é o **%C**; quem manda na **temperabilidade** são **Mn, Ni, Cr e Mo**, lidos no **Jominy**."
+   },
+   {
+    "t": "Só o grão dá as duas",
+    "c": "Dos quatro mecanismos — **grão, solução sólida, encruamento e precipitação** — apenas o **refino de grão** sobe resistência **e** tenacidade juntas; os outros três compram σ_e pagando com tenacidade. Hall-Petch: **σ_e = σ₀ + k·d^(−1/2)** — grão menor, material mais resistente."
+   }
+  ]
+ },
+ "el1m9": {
+  "centro": "Instrumentos, TC/TP e energia",
+  "nota": "O que mais cai: ligação do instrumento, TC × TP e os dois wattímetros de Aron",
+  "ramos": [
+   {
+    "t": "Ligação e resposta do instrumento",
+    "cor": "acento",
+    "itens": [
+     "**Amperímetro em série**, impedância interna **zero** — em paralelo ele **curto-circuita**",
+     "**Voltímetro em paralelo**, impedância **infinita** — em série ele **abre** o circuito",
+     "**Wattímetro**: bobina de **corrente em série** + bobina de **potencial em paralelo**",
+     "**Ohmímetro e capacímetro**: componente **isolado**, circuito **desenergizado**, fonte interna",
+     "**Bobina móvel** lê **valor médio**, só CC · em CA usa retificador e **fator de forma 1,11**",
+     "**Ferro móvel** e **eletrodinamômetro** respondem ao quadrado → **eficaz verdadeiro**, CC e CA"
+    ]
+   },
+   {
+    "t": "Escala, pontes e osciloscópio",
+    "cor": "ok",
+    "itens": [
+     "Alcance ×n no amperímetro: **shunt em paralelo, R_sh = R_a/(n − 1)**",
+     "Alcance ×n no voltímetro: **multiplicador em série, R_m = R_v·(n − 1)**",
+     "Sensibilidade **Ω/V = 1/I_fundo** · **20 kΩ/V ↔ 50 μA** · erro em **% do fundo de escala**",
+     "**Wheatstone** equilibrada: **R₁·R_x = R₂·R₃**, galvanômetro em **corrente nula**",
+     "Independe da **fonte** e do **galvanômetro** · **Kelvin** abaixo de 1 Ω · **megôhmetro** no isolamento",
+     "**Osciloscópio = tempo** (T = div × s/div, X-Y dá **Lissajous**) · **analisador = frequência e THD**"
+    ]
+   },
+   {
+    "t": "SI e números que caem",
+    "cor": "info",
+    "itens": [
+     "**Sete unidades de base**; o **ampere é a única elétrica** — todo o resto é derivado",
+     "**V = W/A = J/C** · **Ω = V/A** · **S = A/V** · **F = C/V** · **C = A·s**",
+     "**Wb = V·s** · **T = Wb/m²** · **H = Wb/A** · **W = J/s** · **J = W·s** · **1 kWh = 3,6 MJ**",
+     "Símbolo de homenagem é **maiúsculo** (A, V, W, Hz); o nome por extenso é **minúsculo**",
+     "Símbolo **não tem plural nem ponto** · **kWh, VA e var não são SI**, apenas tolerados",
+     "Fator de forma **1,11** · fator de crista **1,41** · osciloscópio **1 MΩ**, ponta **×10** → 10 MΩ"
+    ]
+   },
+   {
+    "t": "TC e TP",
+    "cor": "acento",
+    "itens": [
+     "**TP em paralelo** → secundário de **115 V** · opera quase em **vazio** · proibido **curtar**",
+     "**TC em série** → secundário de **5 A** · opera quase em **curto** · proibido **abrir**",
+     "Relação = primário ÷ secundário · **TC 100:5 → RTC 20** · real = **leitura × RTC × RTP**",
+     "Classes: **0,3 / 0,6 / 1,2** na medição · **5P e 10P** na proteção",
+     "**5P10** = erro ≤ **5 %** até **10×** a nominal (o número é o fator limite de exatidão)",
+     "TC de **medição satura cedo** e salva o instrumento · o de **proteção não pode saturar**"
+    ]
+   },
+   {
+    "t": "Potência e energia",
+    "cor": "ok",
+    "itens": [
+     "**Blondel**: N condutores pedem **N − 1 wattímetros** · 4 fios → **3** · 3 fios → **2 (Aron)**",
+     "Aron dá **P = W₁ + W₂** com carga **equilibrada ou não** · **Q = √3·(W₁ − W₂)** só se equilibrada",
+     "**FP = 1** → leituras iguais · **FP = 0,5** → um lê **zero** · **FP < 0,5** → um lê **negativo**",
+     "Reativa: **varímetro** ou wattímetro com a tensão defasada de **90°**",
+     "Medidor de indução: voltas ∝ energia · **P = 3600·K_h·N/t** (K_h em Wh/volta, t em s)",
+     "Eletrônico nos **4 quadrantes**: **kWh** e **kvarh**, demanda em **15 min**, FP de referência **0,92**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Inverter a regra: **abrir o secundário do TC** energizado gera sobretensão e perfura a isolação",
+     "Antes de tirar o instrumento, **curto-circuite o TC** · no **TP** o proibido é justamente o curto",
+     "Osciloscópio mostra **pico** e a alternativa pede eficaz: **V_ef = V_pp/(2√2)** na senoide",
+     "Esquecer **RTC e RTP** — o valor real é a **leitura multiplicada** pelas relações",
+     "Erro do analógico é **% do fundo de escala**, não da leitura: na leitura baixa ele dispara",
+     "Usar **Q = √3·(W₁ − W₂)** com carga desequilibrada, ou achar que W negativo é ligação errada"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "TC vive em curto, TP vive em vazio",
+    "c": "O regime manda na proibição: nunca **abrir** o secundário do **TC**, nunca **curtar** o do **TP**. Guarde junto o que cada um entrega: **TP → 115 V** (tensão, em paralelo) e **TC → 5 A** (corrente, em série). Antes de sacar o amperímetro, curto-circuite o TC."
+   },
+   {
+    "t": "Divide no shunt, multiplica no multiplicador",
+    "c": "Alcance ×n: **shunt R_a/(n − 1)** em **paralelo** no amperímetro e **multiplicador R_v·(n − 1)** em **série** no voltímetro. Para ×10 saem **R_a/9** e **9·R_v**; para ×100, R_a/99 e 99·R_v. Quem troca as posições faz curto ou abre o circuito."
+   },
+   {
+    "t": "Conte os fios e tire um",
+    "c": "**Blondel**: 4 fios → **3** wattímetros, 3 fios → **2** (Aron), 2 fios → **1**. Na leitura: **FP = 1** iguala as duas, **FP = 0,5** zera uma e abaixo de 0,5 uma fica **negativa** — é carga bem reativa, não erro de ligação (inverte a bobina de corrente e subtrai)."
+   },
+   {
+    "t": "Maxwell enrola, Schering carrega, Wien marca o compasso",
+    "c": "As pontes CA pelo que medem: **Maxwell → indutância (L)**, **Schering → capacitância (C)**, **Wien → frequência (f)**. Fora delas, **Kelvin** para resistência abaixo de 1 Ω (anula fios e contatos) e **megôhmetro** para isolamento, aplicando CC elevada e lendo MΩ/GΩ."
+   },
+   {
+    "t": "Pessoa dá maiúscula",
+    "c": "Unidade que homenageia gente tem **símbolo maiúsculo** (A, V, W, Hz) e **nome minúsculo** (ampere, volt, watt); as demais ficam minúsculas (m, s, kg). Símbolo **não leva plural nem ponto**: 10 A, nunca 10 As. E **kWh, VA e var não são SI** — são tolerados."
+   }
+  ]
+ },
+ "me2m6": {
+  "centro": "Fabricação, usinagem e soldagem",
+  "nota": "Aporte × ZTA, as três trincas e quem protege a poça de cada processo é o que mais cai",
+  "ramos": [
+   {
+    "t": "Conformação: a quente × a frio",
+    "cor": "acento",
+    "itens": [
+     "Fronteira quente/frio é a **temperatura de recristalização** ≈ **0,3–0,5·T_fusão (K)**, não um valor fixo",
+     "**A quente**: pouco esforço, **grande redução por passe**, não encrua · carepa e tolerância ruins",
+     "**A frio**: encrua (dureza ↑, ductilidade ↓), passe pequeno · **acabamento e tolerância excelentes**",
+     "**Laminação**: cilindro de **menor diâmetro** ⇒ maior redução por passe · menos passes, menos custo",
+     "**Trefilação** puxa o fio, **sempre a frio** · **extrusão** comprime (triaxial), boa para pouco dúctil",
+     "**Forjamento** refina o grão e orienta fibras · **estampagem** = corte, dobra e embutimento de chapa"
+    ]
+   },
+   {
+    "t": "Usinagem: quem gira, quem corta",
+    "cor": "ok",
+    "itens": [
+     "**Torneamento**: gira a **peça** · ferramenta **monocortante** · longitudinal, faceamento, cônico",
+     "**Perfilamento**: trajetória retilínea **radial ou axial** visando **forma definida** (cai literal)",
+     "**Fresamento**: gira a **ferramenta**, multicortante · cavaco de **espessura variável**",
+     "**Concordante**: cavaco espesso → fino, melhor acabamento · **discordante** começa nulo, atrita e encrua",
+     "**Furação**: broca de ponta **118°**, v_c **nula no centro** · **Retificação**: abrasiva, é o **acabamento**",
+     "**v_c = π·D·n/1000** (D em mm, n em rpm) · vida de **Taylor: v_c·T^x = C**"
+    ]
+   },
+   {
+    "t": "Aporte térmico e ZTA",
+    "cor": "acento",
+    "itens": [
+     "**H = η·V·I / v** · v = **velocidade de avanço** — energia por unidade de comprimento do cordão",
+     "Aporte **alto** ⇒ resfria devagar ⇒ **ZTA larga**, grão grosseiro, menos tenacidade, pouca martensita",
+     "Aporte **baixo** ⇒ resfria rápido ⇒ **martensita** ⇒ **trinca a frio**",
+     "**ZTA** = o que **não fundiu** mas mudou pelo calor · quanto maior o aporte, mais larga",
+     "Da fusão para fora: **grosseira → fina → parcialmente transformada (A₁ = 727 °C a A₃) → subcrítica**",
+     "Em **Al-Mg-Si**: dissolução e crescimento de **precipitados** · **nunca martensita**"
+    ]
+   },
+   {
+    "t": "As três fissurações e o remédio",
+    "cor": "ok",
+    "itens": [
+     "**A quente**: fim da solidificação, **centro do cordão** · filmes líquidos de **S e P** · cordão estreito e fundo",
+     "Remédio: **baixar S e P** e fazer o cordão **mais largo que profundo**",
+     "**A frio**: abaixo de **≈150 °C**, com **incubação**, na **ZTA grosseira** · H + martensita + **tensão trativa**",
+     "Remédio: **eletrodo seco** · **pré** evita martensita · **pós 200–300 °C** tira o H · **CE** menor",
+     "**Decoesão interlamelar**: no **metal de base** sob a solda · inclusão alongada + tensão **na espessura**",
+     "Remédio: aço de **baixo S**, mudar a junta (T, cruciforme) · **TTPS 590–650 °C** alivia **tensão residual**"
+    ]
+   },
+   {
+    "t": "Quem protege a poça e quanto rende",
+    "cor": "info",
+    "itens": [
+     "**Eletrodo revestido**: consumível · gases + **escória** · η **0,7–0,85** · versátil, portátil, pouco produtivo",
+     "**TIG**: **tungstênio não consumível** · gás **inerte** · η **0,5–0,8** · maior qualidade, adição separada",
+     "**MIG/MAG**: arame consumível, **sem escória** · MIG **inerte**, MAG **ativo (CO₂)** · η **0,7–0,85**",
+     "**Arco submerso**: arame + **fluxo granular**, arco invisível · η **0,9–0,99** · só **plana**, mecanizado",
+     "**Oxigás**: sem eletricidade, a **chama** protege, **ZTA larga** · neutra **≈1:1** chega a **3.100 °C**",
+     "**Oxicorte não é fusão**: é **combustão do ferro** em jato de O₂ · o óxido funde **abaixo** do metal"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Chumbo laminado a 25 °C é trabalho a quente**: a fronteira é a recristalização, não a temperatura",
+     "**Anisotropia** vem da **inclusão alongada** no sentido da deformação — ela **não desaparece**",
+     "**TIG CC+**: **limpeza catódica** na solda e pouca penetração · **CC−** penetra e não limpa · Al pede **CA**",
+     "Concentração de calor: entre os **a arco** é o **TIG** — se a alternativa trouxer **laser**, muda a resposta",
+     "**Oxicorte não corta** inox, alumínio, cobre nem ferro fundido — o óxido não funde abaixo do metal",
+     "**E6013 rutílico não é baixo hidrogênio** · o de baixo H é o **básico E7018**, e exige **estufa**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Concordante começa cheio",
+    "c": "No **torno gira a peça** (ferramenta monocortante) e no **fresamento gira a ferramenta** — quem tem muitos dentes é quem roda. O cavaco segue o nome: **concordante começa cheio** e termina fino, com o melhor acabamento; **discordante começa em zero**, raspa, atrita e encrua a superfície."
+   },
+   {
+    "t": "Alto alarga, baixo endurece",
+    "c": "Em **H = η·V·I/v**: aporte **alto** ⇒ resfria devagar ⇒ **ZTA larga**, grão grosseiro, menos tenacidade e **pouca martensita**; aporte **baixo** ⇒ resfria rápido ⇒ **martensita** ⇒ **trinca a frio**. Cuidado com o v no denominador: **avançar mais rápido diminui o aporte**."
+   },
+   {
+    "t": "S no centro, H na ZTA, inclusão embaixo",
+    "c": "As três fissurações em uma frase. **A quente**: **S e P** no **centro do cordão**, no fim da solidificação. **A frio**: **hidrogênio + martensita + tensão trativa** na **ZTA grosseira**, abaixo de **150 °C** e com **incubação** (trinca horas depois). **Interlamelar**: **inclusão alongada** no **metal de base, embaixo da solda**, puxada na direção da **espessura**."
+   },
+   {
+    "t": "Pré, pós e TTPS: martensita, hidrogênio, tensão",
+    "c": "Na ordem do tempo, cada um tem um alvo: **pré-aquecimento** (antes) evita **martensita**; **pós-aquecimento**, **200–300 °C** logo depois, só **difunde o hidrogênio** para fora; **TTPS**, **590–650 °C** no aço-carbono, alivia **tensão residual** e revém a ZTA. Quem manda no pré é o **CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15**, crítico em **0,40–0,45**: passou disso, esquenta antes."
+   },
+   {
+    "t": "E em ksi, F em MPa",
+    "c": "No **E70**18 os primeiros dígitos são **ksi** (70 ksi ≈ 485 MPa), o penúltimo é a **posição** (1 = todas) e o último o revestimento: **18 = básico, baixo hidrogênio, exige estufa**; **13 = rutílico**, fácil de operar e **não** é baixo H. No arco submerso a designação começa por **F** (fluxo) e o número é **MPa**: **F43 = 430 MPa**."
+   }
+  ]
+ },
+ "me2m1": {
+  "centro": "Tensões, vigas, eixos e colunas",
+  "nota": "σ = Mc/I, τ = 16T/πd³ e P_cr = π²EI/(KL)² resolvem a maior parte — e a flambagem sempre com o MENOR I",
+  "ramos": [
+   {
+    "t": "Hooke, Poisson e extensômetros",
+    "cor": "acento",
+    "itens": [
+     "**σ = N/A** · **ε = ΔL/L** · **σ = E·ε**: a tensão é **diretamente proporcional** à deformação",
+     "**ΔL = N·L/(E·A)** · rigidez axial **E·A/L** · **τ = G·γ**, com **G = E/[2(1+ν)]**",
+     "**ν = −ε_transv/ε_long**, de **0 a 0,5** · metais **≈ 0,3** · **ε_x = [σ_x − ν(σ_y+σ_z)]/E**",
+     "**E_aço ≈ 200 GPa** · **E_alumínio ≈ 70 GPa** · **G_aço ≈ 77–80 GPa** · **ν ≈ 0,3**",
+     "Extensômetro: **GF = (ΔR/R)/ε ≈ 2,0** · lê em **μɛ** · ponte **completa quadruplica** e compensa T",
+     "**Roseta de 3** (0/45/90 ou 0/60/120) para as 3 incógnitas · **γ_xy = 2ε₄₅ − (ε₀ + ε₉₀)**"
+    ]
+   },
+   {
+    "t": "Geometria da seção",
+    "cor": "ok",
+    "itens": [
+     "Retângulo b×h: **I = b·h³/12** · **W = b·h²/6** · pelo eixo na **base**, **b·h³/3**",
+     "Círculo d: **I = π·d⁴/64** · **W = π·d³/32** · **J = π·d⁴/32 = 2·I**",
+     "Tubo: **π(D⁴ − d⁴)/64** e **J = π(D⁴ − d⁴)/32** · triângulo b×h: **b·h³/36**",
+     "**Steiner: I = I_cg + A·d²** — é assim que se monta perfil **I, T ou caixão**",
+     "**Raio de giração i = √(I/A)** · alimenta a esbeltez **λ = L_e/i** da flambagem"
+    ]
+   },
+   {
+    "t": "Vigas: cortante, fletor e tensões",
+    "cor": "acento",
+    "itens": [
+     "**dV/dx = −q** e **dM/dx = V** ⇒ **M é máximo onde V passa por zero**",
+     "q uniforme ⇒ **V linear, M parabólico** · P concentrada ⇒ **salto em V, quina em M**",
+     "M_máx: **P·L/4** e **q·L²/8** (biapoiada) · **P·L** e **q·L²/2** (balanço)",
+     "Flechas: **PL³/48EI** · **5qL⁴/384EI** · balanço **PL³/3EI** e **qL⁴/8EI**",
+     "**σ = M·y/I**, máx **M·c/I = M/W** na fibra extrema · **LN passa pelo centroide**",
+     "**τ = V·Q/(I·b)** · **τ_máx = 1,5·V/A** (retângulo) e **4V/3A** (círculo) · **E·I·y″ = M(x)**"
+    ]
+   },
+   {
+    "t": "Torção e estado plano",
+    "cor": "ok",
+    "itens": [
+     "**τ = T·ρ/J** · **τ_máx = 16T/(π·d³)** · **φ = T·L/(G·J)** · com flexão junto, **σ = 32M/(π·d³)**",
+     "**P = T·ω**, com **ω = 2π·n/60** · **τ ∝ 1/d³** e **φ ∝ 1/d⁴**",
+     "**Torção pura é cisalhamento puro**: Mohr na origem, **σ₁ = +τ e σ₂ = −τ**, planos a **45°**",
+     "**σ₁,₂ = (σx+σy)/2 ± √[((σx−σy)/2)² + τxy²]** · raio do círculo = **τ_máx = (σ₁ − σ₂)/2**",
+     "**σx + σy = σ₁ + σ₂** é invariante · nos principais **τ = 0**; τ_máx a **45°** deles",
+     "**Tresca** é sempre **mais conservativo** que **von Mises**: **0,50σe** × **0,577σe**, até **15,5%**"
+    ]
+   },
+   {
+    "t": "Flambagem e hiperestática",
+    "cor": "info",
+    "itens": [
+     "**P_cr = π²·E·I/L_e²**, com **L_e = K·L** · **σ_cr = π²·E/λ²**, com esbeltez **λ = L_e/i**",
+     "**K = 1,0 · 2,0 · 0,7 · 0,5** = biarticulada · engastada-livre · engastada-articulada · biengastada",
+     "Euler só vale com **σ_cr ≤ proporcionalidade**: **esbelta flamba**, **coluna curta escoa**",
+     "Grau de hiperestaticidade = reações − **3** · **apoiada-engastada = 1** · **biengastada = 3**",
+     "Só equilíbrio não fecha: exige **equação adicional de compatibilidade — a linha elástica**",
+     "Apoiada-engastada com q: **3qL/8** e **5qL/8**, **M_eng = qL²/8** · biengastada **qL²/12** e **qL²/24**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Flambar com o **maior I**: usa-se sempre o **MENOR I** — a coluna cede no **eixo fraco**",
+     "**P_cr não depende da resistência**: aço de alta resistência tem o **mesmo E** e o mesmo P_cr",
+     "Pôr **τ_máx na fibra extrema**: lá σ é máxima e **τ = 0** · τ é máxima na **linha neutra**",
+     "Estado plano de **tensões** ≠ de deformações: com **σ_z = 0**, **ε_z = −ν(σx+σy)/E ≠ 0**",
+     "Extensômetro mede **deformação, nunca tensão** — a tensão só vem depois, por **Hooke**",
+     "Mesma geometria e carga ⇒ **mesma tensão**; muda a deformação — **E maior deforma menos**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "1 · 2 · 0,7 · 0,5 e o menor I",
+    "c": "Os **K** em ordem de liberdade: biarticulada **1**, engastada-livre **2**, engastada-articulada **0,7**, biengastada **0,5**. Como **P_cr ∝ 1/K²**, a carga vira **1× · ¼× · ≈2× · 4×** — engastar as duas pontas **quadruplica**, soltar uma corta para **um quarto**. E o I é **sempre o menor**."
+   },
+   {
+    "t": "Sigma na pele, tau no meio",
+    "c": "Na viga, **σ é máxima na fibra extrema** (onde τ = 0) e **τ é máxima na linha neutra** (onde σ = 0). No retângulo, **τ_máx = 1,5·V/A** — 50% acima da média V/A. Quem inverte os dois perde a questão inteira."
+   },
+   {
+    "t": "Concentrada é quatro, distribuída é oito",
+    "c": "Biapoiada: **M_máx = P·L/4** com carga no meio e **q·L²/8** com carga uniforme. No **balanço** os dois **quadruplicam**: **P·L** e **q·L²/2**. Debaixo das flechas ficam **48** e **384** na biapoiada, **3** e **8** no balanço."
+   },
+   {
+    "t": "Dobrou o d: 8 e 16",
+    "c": "Na torção **τ ∝ 1/d³** e **φ ∝ 1/d⁴** — dobrar o diâmetro divide a tensão por **8** e o ângulo por **16**. E no círculo maciço **J = 2·I** (πd⁴/32 contra πd⁴/64): quem entra com I no lugar de J erra por 2."
+   },
+   {
+    "t": "Tresca é o careta: 0,50 × 0,577",
+    "c": "**Tresca sempre por dentro de von Mises** ⇒ mais conservativo. Em cisalhamento puro escoam a **0,50·σe** e **0,577·σe**, e a distância máxima, **15,5%**, é exatamente o eixo em **torção pura** (σ₁ = −σ₂)."
+   }
+  ]
+ },
+ "me2m3": {
+  "centro": "Dinâmica e vibrações mecânicas",
+  "nota": "ω_n = √(k/m), ζ e r = ω/ω_n resolvem quase tudo · trocar rad/s por Hz é a pegadinha de sempre",
+  "ramos": [
+   {
+    "t": "Dinâmica: partícula e corpo rígido",
+    "cor": "acento",
+    "itens": [
+     "**Newton ΣF = m·a** no instante · **T₁ + U₁₂ = T₂** liga v e posição **sem citar tempo**",
+     "**m·v₁ + ∫F·dt = m·v₂** com tempo ou choque · **QM se conserva**; energia cinética **só se e = 1**",
+     "Curva a **v constante**: a_t = 0 e ainda há **F = m·v²/R**, perpendicular à trajetória",
+     "Corpo rígido soma **ΣM_G = I_G·α** · **T = ½m·v_G² + ½I_G·ω²** · livre no espaço, **6 GDL**",
+     "Barra **mL²/12** pelo centro e **mL²/3** pela ponta · disco **½mR²** · aro **mR²** · Steiner **+m·d²**",
+     "Rolando sem escorregar: **v_G = ω·R** e o contato é o **centro instantâneo de rotação**"
+    ]
+   },
+   {
+    "t": "1 GDL: a frequência natural",
+    "cor": "acento",
+    "itens": [
+     "**ω_n = √(k/m)** em **rad/s** · **f_n = ω_n/2π** em **Hz** — nunca o mesmo número",
+     "**δ_st = mg/k** ⇒ **ω_n = √(g/δ_st)**: dá a frequência **sem saber a massa**",
+     "Molas em **paralelo somam k** (enrijece) · em **série somam 1/k** (amolece)",
+     "Torcional **√(k_t/J)** · pêndulo simples **√(g/L)** — a **massa não entra**",
+     "ω_n ∝ **√k**: +20% em ω_n pede **+44% em k** (1,2² = 1,44) · **4× a massa** ⇒ ω_n pela metade",
+     "400 N afundando **2,5 cm**: k = **16 kN/m**, ω_n = **20 rad/s**, f_n = **10/π Hz**"
+    ]
+   },
+   {
+    "t": "Amortecimento: quem manda é ζ",
+    "cor": "ok",
+    "itens": [
+     "**c_c = 2√(k·m) = 2·m·ω_n** · **ζ = c/c_c**, adimensional",
+     "**ζ = 0**: oscila para sempre em ω_n, amplitude constante",
+     "**0 < ζ < 1**: oscila em ω_d sob a envoltória e^(−ζω_n·t)",
+     "**ζ = 1** (crítico): volta ao repouso **sem oscilar, no menor tempo**",
+     "**ζ > 1**: também não oscila e volta **mais devagar** que o crítico",
+     "**ω_d = ω_n√(1 − ζ²)** · **δ = ln(x₁/x₂) = 2πζ/√(1−ζ²) ≈ 2πζ**"
+    ]
+   },
+   {
+    "t": "Forçada: ressonância e isolação",
+    "cor": "ok",
+    "itens": [
+     "Resposta = **transiente** (em ω_d, morre) + **permanente** (na frequência da **excitação**)",
+     "**r = ω/ω_n** · amplificação **1/√[(1−r²)² + (2ζr)²]** · r ≈ 0 dá X ≈ **F₀/k**, r ≫ 1 dá X → 0",
+     "**r = 1 é ressonância**: X = **F₀/(2ζk)** e fase de **90° para qualquer ζ**",
+     "Excitação **periódica não harmônica** vira **Fourier**: ressoa se **qualquer** harmônico bater",
+     "Isolar só baixa a transmissibilidade com **r > √2 ≈ 1,41** — **isolador bom é o mole**",
+     "**Degrau** súbito dá **2× a deflexão estática** · desbalanceamento m_e·e·ω² cresce com **ω²**"
+    ]
+   },
+   {
+    "t": "n GDL, modos e medição",
+    "cor": "info",
+    "itens": [
+     "**n GDL ⇒ n frequências e n modos**, de det([K] − ω²[M]) = 0 · a menor é a **fundamental**",
+     "Corpo rígido no espaço: **6 GDL ⇒ 6 frequências** · viga e tubulação: **infinitos GDL**",
+     "**Absorvedor dinâmico** sintonizado em √(k₂/m₂) = ω: a massa para, **1 pico vira 2**",
+     "Harmônico: **v_máx = ω·X** e **a_máx = ω²·X** · severidade de rotativa em **RMS [mm/s]**",
+     "**Acelerômetro** ω_n **alta**, r ≪ 1, aceleração **absoluta** · **sísmico** ω_n **baixa**, r ≫ 1",
+     "**Proxímetro** (correntes parasitas): sem contato, **deslocamento relativo** eixo–mancal"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**rad/s ≠ Hz**: ω_n = 20 rad/s é **10/π Hz**, não 20 Hz — os dois estão nas alternativas",
+     "Ressonância **infinita** só se **ζ = 0**; com amortecimento a amplitude é **F₀/(2ζk)**, finita",
+     "Amarrar a frequência a **um GDL**: ela é de um **modo**, e o modo mobiliza **todos** eles",
+     "**ω_d < ω_n sempre** · só existe com **ζ < 1** — crítico e superamortecido **não oscilam**",
+     "Quem volta no **menor tempo** é o **crítico ζ = 1**; o superamortecido é **mais lento**",
+     "Isolar com **r < √2** piora: transmissibilidade **> 1** · a permanente vibra na **excitação**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Vinte rad não é vinte hertz",
+    "c": "Sempre que ler **rad/s**, divida por **2π ≈ 6,28** para chegar em **Hz** — o valor em hertz é **6 vezes menor**. ω_n = **20 rad/s** = **10/π ≈ 3,2 Hz**. A banca põe o 20 e o 10/π na mesma lista de alternativas de propósito."
+   },
+   {
+    "t": "1,2² = 1,44",
+    "c": "Como **ω_n ∝ √k**, todo ganho de frequência custa o **quadrado** em rigidez: **+20% em ω_n ⇒ +44% em k**. Do outro lado da raiz, **4× a massa** derruba ω_n **pela metade**. Na mola helicoidal k = d⁴G/(8D³N), esses +44% saem **dividindo as espiras por 1,44**: 14,4 viram 10."
+   },
+   {
+    "t": "Abaixo oscila, em 1 é o mais rápido, acima é o mais lento",
+    "c": "Os regimes de **ζ** em ordem: **ζ < 1** oscila em ω_d sob envoltória · **ζ = 1** (crítico) volta ao repouso **sem oscilar e no menor tempo** · **ζ > 1** também não oscila, mas é **mais devagar**. Mais amortecimento não significa voltar mais rápido."
+   },
+   {
+    "t": "1 e 1,41: os dois erres",
+    "c": "Os únicos valores de **r = ω/ω_n** que a banca cobra. **r = 1**: ressonância, amplitude **F₀/(2ζk)** e fase **90° para qualquer ζ**. **r = √2 ≈ 1,41**: fronteira da isolação — só **acima** dela a transmissibilidade cai abaixo de 1. Entre 1 e 1,41 o isolador ainda **amplifica**."
+   },
+   {
+    "t": "Alta acelera, baixa velocita, proxímetro não encosta",
+    "c": "**Acelerômetro**: ω_n própria **alta**, opera em **r ≪ 1**, mede **aceleração absoluta**. **Sensor sísmico**: ω_n própria **baixa**, opera em **r ≫ 1**, mede **velocidade absoluta**. **Proxímetro**: sem contato e sem massa sísmica, mede **deslocamento relativo** eixo–mancal."
+   }
+  ]
+ },
+ "me1m5": {
+  "centro": "Bombas, compressores e turbinas",
+  "nota": "n_s com Q/2 na dupla sucção · NPSH_d > NPSH_r · helicocentrífuga é dinâmica — o trio que mais cai",
+  "ramos": [
+   {
+    "t": "As duas famílias",
+    "cor": "acento",
+    "itens": [
+     "**Turbomáquina**: o rotor **acelera** o fluido e a voluta converte velocidade em **pressão**",
+     "**Positiva**: câmara de **volume variável** confina e expulsa · vazão vem da geometria e da rotação",
+     "Pressão de descarga sobe: dinâmica **perde muita vazão** · positiva fica **quase constante**",
+     "Descarga bloqueada: dinâmica tolera instantes · positiva **rompe** ⇒ **válvula de alívio**",
+     "Dinâmica: fluxo **contínuo**, **precisa escorvar** · positiva: **pulsante** e **autoaspirante**",
+     "Positivas: **engrenagens, palhetas, diafragma, pistão, parafuso** · no gás, alternativo e lóbulos"
+    ]
+   },
+   {
+    "t": "Rotor, curva e associação",
+    "cor": "acento",
+    "itens": [
+     "Rotor pela **saída do líquido**: **radial** (muita altura), **misto**, **axial** (muita vazão)",
+     "O **axial sai na mesma direção do eixo** de rotação · admissão simples ou **dupla sucção (bilateral)**",
+     "Fechamento do rotor: **aberto, semiaberto, fechado**",
+     "Curva **H × Q** de catálogo só vale com **tamanho da bomba, rotação e fluido fixos**",
+     "**Série soma alturas · paralelo soma vazões** — vazão certa e H faltando ⇒ **igual em série**",
+     "Afinidade **1, 2, 3**: **Q ∝ n · H ∝ n² · P ∝ n³** — dobrou a rotação, a potência vai a **×8**"
+    ]
+   },
+   {
+    "t": "Cavitação, NPSH e serviço",
+    "cor": "ok",
+    "itens": [
+     "Cavitação = pressão cai até a **pressão de vapor**, a **temperatura constante** — inverso da ebulição",
+     "Colapso na alta pressão do rotor: **ruído de cascalho**, vibração, queda de H e **erosão**",
+     "Critério **NPSH_d > NPSH_r** · NPSH_d = **(p_abs − p_v)/(ρ·g) ± h_geom − h_perdas**",
+     "Combate: **afogar e encurtar a sucção**, baixar a rotação, **resfriar o líquido**",
+     "Sucção de **baixa pressão e alta temperatura** ⇒ **indutor** à frente do rotor",
+     "**Viscosidade** maior derruba H, Q e η e **aumenta** a potência · ar quente = **menos vazão mássica**"
+    ]
+   },
+   {
+    "t": "Compressores e turbinas",
+    "cor": "ok",
+    "itens": [
+     "**Alternativo** (positivo): vazão **baixa e pulsante**, **razão de pressão muito alta**",
+     "**Centrífugo**: vazão média/alta · **surge** = vazão **mínima** · **choke** = vazão **máxima**",
+     "**Axial**: vazão altíssima, baixa razão por estágio, **maior η**, faixa estreita — o da turbina a gás",
+     "**Espaço nocivo** reexpande o gás ⇒ mais razão, **menos vazão aspirada** e menos **η volumétrico**",
+     "**Multiestágio com intercooler**, razão **igualmente repartida** · **isotérmico < politrópico < adiabático**",
+     "**Ação**: pressão cai só nos **bocais fixos** · **reação**: cai também nas **móveis** (Parsons ≈ **50%**)"
+    ]
+   },
+   {
+    "t": "Os números do módulo",
+    "cor": "info",
+    "itens": [
+     "**n_s = 3,65·n·√Q / H^(3/4)** (n em rpm, Q em m³/s, H em m) · **baixo ⇒ radial, alto ⇒ axial**",
+     "**Dupla sucção ⇒ Q/2** · **vários estágios ⇒ H por estágio** · caiu: 600 rpm e Q = 0,18 ⇒ **n_s = 219**",
+     "**P = γQH = ρgQH** no líquido · **P_eixo = ρgQH/η** · **η_total = η_h·η_v·η_m** · **1 CV = 75 kgf·m/s**",
+     "Caiu: motriz 10, elevação 9,5, útil 7,5 kgf·m/s ⇒ **η_mecânico = 9,5/10 = 0,95** (não 0,75)",
+     "**T₂ = T₁·(P₂/P₁)^((k−1)/k)** · k_ar = **1,4** · 100→400 kPa, 293 K, k = 2 ⇒ **586 K**",
+     "**w_líq = turbina − bomba/compressor** · bomba do Rankine ~**4%**; compressor do Brayton, **mais da metade**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Helicocentrífuga é DINÂMICA**, não positiva — positiva é a de **parafuso helicoidal**",
+     "Somar **altura** em paralelo: paralelo soma **vazão**; altura só empilha em **série**",
+     "Inverter o isentrópico: **compressor η = w_ideal/w_real** · **turbina η = w_real/w_ideal**",
+     "Achar que a **altura em metros muda com a densidade** — não muda; **pressão e potência** mudam com ρ",
+     "Tratar cavitação como ebulição: a **pressão cai** e a **temperatura fica constante**",
+     "Esquecer o **Q/2** da dupla sucção ou usar **H total** em vez de H por estágio no n_s"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Confina ou acelera",
+    "c": "**Positiva confina** o fluido numa câmara que muda de volume; **dinâmica acelera** e troca velocidade por pressão. Tudo decorre daí: com a descarga fechada a positiva **arrebenta** (por isso a **válvula de alívio**) e a vazão dela **não cai** quando a pressão de descarga sobe."
+   },
+   {
+    "t": "Quem tem 'centrífuga' no nome é dinâmica",
+    "c": "A banca engana pelo nome: **centrífuga helicoidal (helicocentrífuga) é turbomáquina**. A vizinha de nome parecido, **bomba de parafuso helicoidal**, essa sim é **deslocamento positivo** — junto com engrenagens, palhetas, diafragma e pistão."
+   },
+   {
+    "t": "Série sobe, paralelo espalha",
+    "c": "**Série soma altura** — uma bomba entrega na sucção da outra e o H empilha. **Paralelo soma vazão** — cada uma manda seu tanto para o mesmo tubo e a altura não muda. Logo: vazão já certa e pressão faltando ⇒ segunda bomba igual **em série**."
+   },
+   {
+    "t": "1, 2, 3 e a meia vazão",
+    "c": "Afinidade pelos expoentes **1, 2 e 3**: **Q ∝ n**, **H ∝ n²**, **P ∝ n³** — dobrou a rotação, a potência vai a **×8**. No **n_s = 3,65·n·√Q/H^(3/4)**, duas correções antes da conta: **dupla sucção ⇒ Q/2** e **vários estágios ⇒ H de um estágio**. Depois é só ler: **baixo é radial, alto é axial**."
+   },
+   {
+    "t": "Ideal em cima no compressor, embaixo na turbina",
+    "c": "Rendimento isentrópico: **compressor η = w_ideal/w_real**; **turbina η = w_real/w_ideal**. O ideal vai sempre onde deixa **η < 1** — o compressor real **gasta mais** que o ideal e a turbina real **entrega menos**. A fração inverte, o resto não."
+   }
+  ]
+ },
+ "me2m2": {
+  "centro": "Eixos, engrenagens, mancais e fadiga",
+  "nota": "Helicoidal joga axial no eixo, von Mises é menos conservativo e no Sommerfeld r/c está ao quadrado",
+  "ramos": [
+   {
+    "t": "Eixo: tensões, critério e montagem",
+    "cor": "acento",
+    "itens": [
+     "**τ = 16T/(π·d³)** · **σ = 32M/(π·d³)** · as duas são **máximas na superfície**, onde a trinca nasce",
+     "**Torção pura**: σ₁ = +τ · σ₂ = 0 · σ₃ = −τ — mesmo módulo, **sinais opostos**, daí a hélice a **45°**",
+     "Eixo **dúctil** sob flexão + torção pede **von Mises** · τ_e = **0,577σ_e** contra **0,50σ_e** de Tresca",
+     "Mises: d³ = (32n/π·σ_e)·√(M² + **0,75**T²) · Tresca: o mesmo com **√(M² + T²)**",
+     "Chaveta, estria e degrau brusco **concentram**: aumente o **raio de adoçamento** · **K_f = 1 + q(K_t − 1)**",
+     "**Maior torque perto do mancal** (menor momento) · **velocidade crítica acima da de trabalho**, ω_c = √(k/m)"
+    ]
+   },
+   {
+    "t": "Engrenagens: só engrena o igual",
+    "cor": "ok",
+    "itens": [
+     "**m = d/z** (mm) · **p = π·m** · **m = 25,4/P** · **C = m·(z₁ + z₂)/2**",
+     "Só engrenam pares de **mesmo módulo e mesmo ângulo de pressão** — o padrão é **20°**",
+     "**i = z₂/z₁ = n₁/n₂ = T₂/T₁** — quem gira mais devagar entrega **mais torque**, na mesma razão",
+     "**P = T·ω** com **ω = 2π·n/60** · passe rpm para rad/s **antes** de multiplicar",
+     "Abaixo de **17–18 dentes** há **interferência** · a **louca** inverte o sentido e **não muda i**",
+     "O dente falha por **flexão na raiz** (Lewis) ou por **pitting** no flanco (contato hertziano)"
+    ]
+   },
+   {
+    "t": "Cada tipo e o que joga no eixo",
+    "cor": "ok",
+    "itens": [
+     "**Reta** · paralelos · flexão e torção, **sem axial** · simples e ruidosa",
+     "**Helicoidal** · paralelos · flexão, torção **E axial** · silenciosa, **exige mancal axial**",
+     "**Dupla helicoidal** · paralelos · flexão e torção: o **axial se cancela** entre as hélices",
+     "**Cônica** · eixos **concorrentes a 90°** · flexão, torção e axial · **muda a direção**",
+     "**Sem-fim e coroa** · **reversos** · **axial elevado** · redução alta, **autotravante**, rendimento baixo"
+    ]
+   },
+   {
+    "t": "Mancais: filme, Sommerfeld e L₁₀",
+    "cor": "info",
+    "itens": [
+     "**Hidrodinâmico**: filme da **própria rotação** (cunha) · **hidrostático**: bomba externa, sustenta **parado**",
+     "**S = (r/c)²·(μN/P)** · r/c = **razão de folga radial** · N em **rev/s** · P = carga/**área projetada**",
+     "**r/c entra ao quadrado**: folga radial a **90%** leva S a **0,81·S**",
+     "**Stribeck**: μN/P crescendo vai de **limite → mista → hidrodinâmica** · atrito **mínimo na transição**",
+     "**L₁₀ = (C/P)^a** em milhões de rotações · **a = 3** esferas e **10/3** rolos · vida de **90%** deles",
+     "**P = X·F_r + Y·F_a** · cilíndrico **não aceita axial** · cônico **aos pares** · falha por **fadiga de contato**"
+    ]
+   },
+   {
+    "t": "Fadiga: mecanismo, S-N e média",
+    "cor": "acento",
+    "itens": [
+     "Carga **cíclica abaixo do escoamento**: **nucleação** na superfície → **propagação** → **ruptura brusca**",
+     "**Marcas de praia** a olho nu, **estrias** (uma por ciclo) ao microscópio · fratura **frágil, sem estricção**",
+     "σ_a = (σ_máx − σ_mín)/2 · σ_m = (σ_máx + σ_mín)/2 · **R = σ_mín/σ_máx**: **−1** alternado, **0** pulsante",
+     "Aço e Ti: **patamar** em **10⁶–10⁷** ciclos = **vida infinita** · **S'_e ≈ 0,5σ_u**, teto **700 MPa**",
+     "**k_c = 1 / 0,85 / 0,59** flexão/axial/torção · **Miner Σ(n_i/N_i) = 1** · **Paris da/dN = C(ΔK)^m**",
+     "**Soderberg** (σ_e) > **Goodman** (σ_u, padrão) > **Gerber** (parábola) — conservadorismo caindo"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Helicoidal joga axial no eixo** — flexão e torção apenas é a isca · só a **dupla** cancela o empuxo",
+     "**von Mises é MENOS conservativo**: libera **1,73τ** contra os **2τ** de Tresca (0,577 × 0,50)",
+     "No Sommerfeld **r/c está ao quadrado**: folga a **90%** vira **0,81·S**, nunca 0,9",
+     "Manda a **amplitude σ_a**, não σ_máx · média **trativa reduz** a vida, **compressiva aumenta**",
+     "**Jateamento, roleteamento, cementação e nitretação aumentam a vida** — deixam **compressão residual**",
+     "**Al, Cu e Mg não têm limite de fadiga**: com ciclos bastantes, qualquer tensão os quebra"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Reta zero, hélice empurra, dupla cancela",
+    "c": "**Reta**: sem axial · **helicoidal**: flexão, torção **E axial** · **dupla helicoidal**: o axial se cancela · **cônica e sem-fim**: têm axial (no sem-fim, alto). A alternativa flexão e torção, apenas para a helicoidal é a isca mais repetida do módulo."
+   },
+   {
+    "t": "Quem libera mais é menos conservativo",
+    "c": "Tresca escoa em **2τ**, von Mises só em **√3·τ ≈ 1,73τ** — Mises aguenta mais carga, logo é **MENOS conservativo**. Guarde pelos coeficientes do cisalhamento: **0,577σ_e** (Mises) contra **0,50σ_e** (Tresca), Mises sempre por cima. No d³, Mises traz **0,75·T²**; Tresca, **T²** cheio."
+   },
+   {
+    "t": "SoGoGe, do mais duro ao mais frouxo",
+    "c": "**So**derberg → **Go**odman → **Ge**rber. Soderberg fecha no **escoamento σ_e** (o mais conservador), Goodman fecha na **ruptura σ_u** e Gerber é a **parábola** que mais libera. Sem indicação no enunciado, a banca quer **Goodman**."
+   },
+   {
+    "t": "O mancal em três números",
+    "c": "**Sommerfeld tem r/c ao quadrado**: folga a **90%** leva S a **0,81·S**. **L₁₀ = (C/P)^a** usa **3** (esferas) e **10/3** (rolos) e é a vida de **90%** deles — o 10 do índice são os 10% que falham. E **10W40** é **10 a frio** (W de winter), **40 a quente**."
+   },
+   {
+    "t": "Amplitude quebra, compressão salva",
+    "c": "Quem trinca o eixo é a **amplitude σ_a**, não σ_máx: com σ_a abaixo do limite e média **compressiva** não falha; o mesmo σ_a sobre média **trativa alta** falha. Por isso **jateamento, roleteamento, cementação e nitretação** deixam **compressão residual** e prolongam a vida — corrosão e usinagem grosseira fazem o contrário."
+   }
+  ]
+ },
+ "pj1m6": {
+  "centro": "Avaliação de empresas e dividendos",
+  "nota": "Gordon e a coerência do múltiplo caem literais · o que derruba é D₀ no lugar de D₁ e valor terminal sem desconto",
+  "ramos": [
+   {
+    "t": "As três famílias e a identidade",
+    "cor": "acento",
+    "itens": [
+     "**FCD** · valor **intrínseco** · VP dos fluxos a taxa de risco — é o método de referência",
+     "**Múltiplos** · avaliação **relativa**, por comparação com empresas semelhantes",
+     "**Patrimonial/liquidação** · é **piso** de valor, não valor de continuidade",
+     "**EV = valor de mercado das ações + dívida líquida** · líquida = onerosa − caixa",
+     "Daí sai tudo: **valor do acionista = EV − dívida líquida**",
+     "O **valor terminal** costuma responder por **60% a 80%** do valor no FCD"
+    ]
+   },
+   {
+    "t": "Os múltiplos e a coerência",
+    "cor": "acento",
+    "itens": [
+     "**P/L** = preço ÷ **LPA** · o mais cobrado · **inútil com prejuízo** · refém do critério contábil",
+     "**P/VPA** = preço ÷ VPA · múltiplo de **bancos** · fica **> 1 quando ROE > K_e**",
+     "**EV/EBITDA** · padrão em fusões · **neutro à estrutura de capital** · ignora CAPEX e giro",
+     "**EV/Receita** salva a empresa **com prejuízo** (ignora margem) · **DY** = dividendo ÷ preço",
+     "**Firma (EV)** pede denominador **antes dos juros**: EBITDA, EBIT, receita, FCFF",
+     "**Acionista (preço)** pede **depois dos juros**: lucro líquido, LPA, VPA, FCFE, dividendo"
+    ]
+   },
+   {
+    "t": "Perpetuidade, valor terminal e g",
+    "cor": "ok",
+    "itens": [
+     "**Sem crescimento: VP = FC ÷ i** · **Gordon: VP = FC₁ ÷ (i − g)**, sempre com **g < i**",
+     "A fórmula devolve o valor no período **imediatamente anterior** ao primeiro fluxo",
+     "Fluxo do ano 6 = 120 · WACC 10% e g 4% ⇒ **2.000 posicionado no ano 5**, e ainda desconta 5",
+     "**g perpétuo ≤ crescimento nominal de longo prazo da economia** — nunca acima",
+     "**g = b × ROE**, com **b = 1 − payout** · na firma, **g = reinvestimento × ROIC**",
+     "ROE 20% e payout 40% ⇒ b = 60% ⇒ **g = 12%** · alternativa: **múltiplo de saída**"
+    ]
+   },
+   {
+    "t": "DDM: Gordon e o retorno do acionista",
+    "cor": "ok",
+    "itens": [
+     "**P₀ = Σ D_t ÷ (1 + K_e)^t** — o único caixa que chega ao acionista é o **dividendo**",
+     "**Crescimento zero: P₀ = D ÷ K_e** — é a preferencial de dividendo fixo, perpetuidade simples",
+     "**Gordon: P₀ = D₁ ÷ (K_e − g)** com **D₁ = D₀(1 + g)** · **dois estágios**: desconta e depois Gordon",
+     "D₀ = 2,00 · g = 5% · K_e = 12% ⇒ D₁ = 2,10 e **P₀ = 2,10 ÷ 0,07 = R$ 30,00**",
+     "**K_e = D₁/P₀ + g** = **yield + ganho de capital** · o preço cresce a g: P₁ = P₀(1 + g)",
+     "**P/L = payout(1+g) ÷ (K_e − g)** · sobe com g e payout, **cai com risco** — alto ≠ caro"
+    ]
+   },
+   {
+    "t": "Política de dividendos e a lei",
+    "cor": "info",
+    "itens": [
+     "**Irrelevância (M-M)**: o valor vem da **política de investimentos** · há o dividendo caseiro",
+     "**Pássaro na mão**: dividendo hoje é certo ⇒ payout alto **aumenta** o valor",
+     "**Preferência tributária**: ganho menos tributado ⇒ payout alto **reduz** · melhor **recomprar**",
+     "**Clientela**: mudar a política afugenta o investidor · **sinalização**: corte **derruba** o preço",
+     "**Residual**: só o que sobra dos projetos de VPL > 0 ⇒ **volátil** · na prática, **suavização**",
+     "Obrigatório: estatuto **omisso ⇒ metade** do lucro ajustado · se fixado depois, **mínimo 25%**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**D₀ no lugar de D₁** em Gordon: 'acabou de pagar' ⇒ **× (1 + g)**; 'pagará' **já é D₁**",
+     "**Esquecer de trazer o valor terminal a valor presente** — ele nasce no ano N e volta N períodos",
+     "**Cruzar EV com lucro líquido** — ou preço da ação com EBITDA: quebra a coerência do múltiplo",
+     "**DDM não serve para quem não distribui** · o valor **explode** quando g se aproxima de K_e",
+     "**Distribuir 100% do lucro** sem captar recursos novos ⇒ crescimento sustentável **nulo**",
+     "**Bonificação e desdobramento não criam valor** · **JCP é dedutível**, dividendo não"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Acabou de pagar? Multiplique",
+    "c": "Gordon só come **D₁**. 'A empresa **acabou de pagar** R$ 2,00' ⇒ D₁ = 2 × (1 + g). 'A empresa **pagará** R$ 2,00 no próximo ano' ⇒ já é D₁, não mexe em nada. As duas contas estão sempre entre as alternativas."
+   },
+   {
+    "t": "Firma antes, acionista depois",
+    "c": "Numerador **EV (firma)** ⇒ denominador **antes dos juros**: EBITDA, EBIT, receita, FCFF. Numerador **preço (acionista)** ⇒ **depois dos juros**: lucro líquido, LPA, VPA, dividendo. **EV ÷ lucro líquido** é o distrator clássico."
+   },
+   {
+    "t": "A perpetuidade nasce um ano antes",
+    "c": "Valor terminal calculado com o fluxo do ano **6** fica posicionado no ano **5**: 120 ÷ (0,10 − 0,04) = **2.000 no ano 5** — e ainda tem de ser descontado por 5 períodos. O 2.000 cheio, sem descontar, está na alternativa."
+   },
+   {
+    "t": "Crescer exige reter",
+    "c": "**g = b × ROE** com **b = 1 − payout**. ROE 20% e payout 40% ⇒ b = 60% ⇒ **g = 12%**. Payout **100%** ⇒ b = 0 ⇒ **g = 0**: sem reter (ou captar recurso novo) não existe crescimento sustentável."
+   },
+   {
+    "t": "Metade se cala, 25 se fala",
+    "c": "Dividendo obrigatório: estatuto **omisso** (se **cala**) ⇒ **metade** do lucro líquido ajustado; se a assembleia **fala**, introduzindo norma em estatuto antes omisso, **não pode ser inferior a 25%**. Reserva legal: **5% do lucro, até 20% do capital**."
+   }
+  ]
+ },
+ "el1m7": {
+  "centro": "Matrizes, complexos e Laplace",
+  "nota": "o que mais cai: det(k·A) = kⁿ·det(A), a tabela de pares de Laplace e o sinal do polo",
+  "ramos": [
+   {
+    "t": "Matrizes: produto, inversa e det",
+    "cor": "acento",
+    "itens": [
+     "Soma só entre **mesma ordem** · produto A(m×n)·B(n×p) exige **colunas de A = linhas de B** ⇒ C(m×p)",
+     "**Não comuta** · **(A·B)ᵀ = Bᵀ·Aᵀ** e **(A·B)⁻¹ = B⁻¹·A⁻¹** — transpor e inverter **trocam a ordem**",
+     "**A⁻¹ = adj(A)/det(A)**, e só existe se **det(A) ≠ 0**",
+     "**det(k·A) = kⁿ·det(A)** · multiplicar **uma só linha** por k dá apenas **k·det(A)**",
+     "Trocar duas linhas **troca o sinal** · somar múltiplo de outra linha **não muda** (escalonamento)",
+     "det(Aᵀ) = det(A) · **det(A⁻¹) = 1/det(A)** · det(A·B) = det(A)·det(B) · triangular = **diagonal**"
+    ]
+   },
+   {
+    "t": "Sistemas lineares e vetores",
+    "cor": "ok",
+    "itens": [
+     "Única ⇔ **posto(A) = posto[A|b] = n** · iguais mas **< n** ⇒ **infinitas** · **diferentes** ⇒ **impossível**",
+     "**posto + nulidade = nº de colunas** · 4×4 de nulidade 1 tem posto 3, logo **não** é única",
+     "Homogêneo só tem solução **não trivial** se **det(A) = 0**",
+     "**Escalar** dá **número**: a_x·b_x + a_y·b_y + a_z·b_z = |a||b|cos θ · **nulo ⇒ ortogonais** (90°)",
+     "**Vetorial** dá **vetor ⊥** aos dois: |a||b|sen θ · **nulo ⇒ paralelos** · a×b = −(b×a) · F = q·v×B",
+     "**Misto** a·(b×c) = det 3×3 = **volume** do paralelepípedo · **nulo ⇒ coplanares**"
+    ]
+   },
+   {
+    "t": "Complexos: forma, fasor e impedância",
+    "cor": "acento",
+    "itens": [
+     "**Some e subtraia na retangular** (a + jb) · **multiplique, divida e potencie na polar** (r∠θ)",
+     "r = √(a² + b²) · θ = arctg(b/a) · Euler **r·e^(jθ)** é a forma de derivar, integrar e levar a Laplace",
+     "Multiplicando, **módulos multiplicam e ângulos somam** · De Moivre **zⁿ = rⁿ∠(n·θ)**, raízes a **360°/n**",
+     "**j² = −1** · **1/j = −j** · **z·z∗ = |z|²** · operador **a = 1∠120°**, com a³ = 1 e **1 + a + a² = 0**",
+     "**Z_R = R** · **Z_L = jωL** (+90°) · **Z_C = −j/(ωC)** (−90°) · **ω = 2πf**",
+     "**S = V·I∗ = P + jQ**, sempre com o **conjugado** da corrente · **Q > 0** na carga indutiva"
+    ]
+   },
+   {
+    "t": "Laplace: pares e propriedades",
+    "cor": "info",
+    "itens": [
+     "**L{δ} = 1** · **L{u(t)} = 1/s** · **L{t} = 1/s²** · L{tⁿ} = **n!/s^(n+1)**",
+     "**L{e^(−at)} = 1/(s + a)** · **L{sen ωt} = ω/(s² + ω²)** · **L{cos ωt} = s/(s² + ω²)**",
+     "Amortecida: **L{e^(−at)·sen ωt} = ω/[(s + a)² + ω²]** — é o **F(s + a)** do deslocamento em s",
+     "**L{f′} = s·F(s) − f(0)** · L{f″} = s²F(s) − s·f(0) − f′(0) · **L{∫f dt} = F(s)/s**",
+     "Atraso no tempo: **L{f(t − a)·u(t − a)} = e^(−as)·F(s)**",
+     "**Inicial** = lim(s→∞) s·F(s) · **final** = lim(s→0) s·F(s), **só com polos de parte real negativa**"
+    ]
+   },
+   {
+    "t": "Laplace no circuito",
+    "cor": "ok",
+    "itens": [
+     "Transforme os elementos: **R continua R**, indutor vira **sL**, capacitor vira **1/(sC)**",
+     "Valem Ohm, divisor, malhas e nós **como em CC** — a equação diferencial vira **algébrica**",
+     "Condições iniciais viram **fontes**: **L·i(0)** junto do sL e **v(0)/s** junto do 1/(sC)",
+     "Com CI nulas, **H(s) = Saída(s)/Entrada(s)** · a volta ao tempo é por **frações parciais**",
+     "Cobrado: i″ + 4i′ + 29i = 10v′ + 5v ⇒ **H(s) = (10s + 5)/(s² + 4s + 29)**",
+     "Daí **zero em s = −0,5** e **polos em s = −2 ± j5** · polo real −a ⇒ **e^(−at)**; par −σ ± jω ⇒ **oscilação**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Matriz **inteira** por k e responder k·det(A) · det 240 numa 3×3 dobrada dá **1.920**, não 480",
+     "Escrever **S = V·I** sem o **conjugado** — é **S = V·I∗**, que usa o ângulo de **V menos** o de I",
+     "Usar o **valor final** com polo de **parte real ≥ 0**: sistema **instável** não converge",
+     "Trocar os produtos: **escalar nulo é ortogonal**, **vetorial nulo é paralelo**",
+     "Errar o sinal do polo: **(s + a)** tem polo em **s = −a**, nunca em +a",
+     "Somar matrizes de **ordens diferentes**, ou manter a ordem em **(A·B)⁻¹ = B⁻¹·A⁻¹**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "O k sobe para o expoente",
+    "c": "Multiplicou a **matriz inteira** por k? O k vira **expoente da ordem**: **det(k·A) = kⁿ·det(A)**. Numa 3×3 dobrada são **2³ = 8 vezes** — det 240 vira **1.920**, e o 480 (que é só 2·240) está sempre esperando numa alternativa. Só **uma linha** multiplicada por k é que dá k·det(A)."
+   },
+   {
+    "t": "Reta soma, polar multiplica",
+    "c": "**R**etangular para so**m**ar e subtrair; **P**olar para **p**roduto, divisão e potência. Na polar, **módulos multiplicam e ângulos somam** — e De Moivre é só repetir n vezes: **zⁿ = rⁿ∠(n·θ)**, com as n raízes espaçadas de **360°/n**."
+   },
+   {
+    "t": "ELI the ICE man",
+    "c": "No indutor (**L**) a tensão **E** vem antes da corrente **I** — **E-L-I**, logo **Z_L = jωL**, com **+90°**. No capacitor (**C**) a corrente **I** vem antes — **I-C-E**, logo **Z_C = −j/(ωC)**, com **−90°**. O sinal de menos do capacitor é só o **1/j = −j**."
+   },
+   {
+    "t": "Cada derivada vira um s",
+    "c": "**L{f′} = s·F(s) − f(0)**: derivar **multiplica por s** e ainda **cobra a condição inicial**; integrar **divide por s**. No circuito é a mesma conta — indutor vira **sL**, capacitor vira **1/(sC)** e a equação diferencial vira **álgebra** de CC."
+   },
+   {
+    "t": "Reto igual, cruzado com menos",
+    "c": "Cauchy-Riemann em f(z) = u + jv: as derivadas **retas** são iguais (**∂u/∂x = ∂v/∂y**) e as **cruzadas** carregam o **menos** (**∂u/∂y = −∂v/∂x**). Cumprido isso a função é **analítica**, u e v são **harmônicas** (∇²u = 0) e suas curvas se cortam **ortogonais**."
+   }
+  ]
+ },
+ "el2m9": {
+  "centro": "NR-10 e Lei 14.133",
+  "nota": "As 6 etapas da desenergização e o par integrada × semi-integrada são as questões certas do módulo",
+  "ramos": [
+   {
+    "t": "NR-10: alcance, faixas e hierarquia",
+    "cor": "acento",
+    "itens": [
+     "Aplica-se de **geração a consumo** · projeto, montagem, operação, manutenção e **proximidades**",
+     "**EBT** ≤ **50 V CA** e **120 V CC** · medida sempre **entre fases ou entre fase e terra**",
+     "**BT**: acima de 50 V até **1000 V CA** · acima de 120 V até **1500 V CC** · **AT** é acima disso",
+     "Hierarquia: **coletiva antes do EPI** · e, na coletiva, **desenergizar** antes de tensão de segurança",
+     "**Prontuário acima de 75 kW**: unifilares atualizados, SPDA, aterramento, EPC/EPI, autorizações",
+     "**Adornos pessoais vedados** · vestimenta: **condutibilidade, inflamabilidade, eletromagnetismo**"
+    ]
+   },
+   {
+    "t": "Desenergizar e reenergizar",
+    "cor": "ok",
+    "itens": [
+     "**Seccionar · impedir · constatar · aterrar · proteger · sinalizar** — 6 etapas nessa ordem",
+     "Etapa 4 é o **aterramento temporário com equipotencialização**, depois de constatar a ausência de tensão",
+     "Reenergizar (5): ferramentas fora · pessoal fora · tira aterramento · tira sinalização · destrava e religa",
+     "**Circuito desligado não é circuito desenergizado**",
+     "Serviço **energizado em AT e no SEP nunca é individual** · há **direito de recusa** em risco grave e iminente",
+     "Responsabilidade **solidária entre contratante e contratado**"
+    ]
+   },
+   {
+    "t": "Zonas, autorização e choque",
+    "cor": "acento",
+    "itens": [
+     "**Risco**: autorizado **e** técnica · **controlada**: só autorizado · fora, **livre** · <1 kV: **0,20/0,70 m**",
+     "**Qualificado** = curso reconhecido · **habilitado** = qualificado **+ registro no conselho**",
+     "**Capacitado** vale **só na empresa que o capacitou** · **autorizado** = anuência formal da empresa",
+     "**40 h** básico + **40 h** de SEP · reciclagem **bienal**, troca de função e afastamento > **3 meses**",
+     "Escala: percepção · **tetanização** (não solta o condutor) · parada respiratória · queimadura · **fibrilação**",
+     "Quem mata é a **corrente e o percurso** · **DR de 30 mA** é proteção adicional · contra arco, **antichama**"
+    ]
+   },
+   {
+    "t": "Lei 14.133: alcance, fases e modalidades",
+    "cor": "ok",
+    "itens": [
+     "Rege a Administração **direta, autárquica e fundacional** · estatal como a Petrobras vai pela **13.303/2016**",
+     "Fases: preparatória · edital · propostas e lances · **julgamento** · **habilitação** · recursal · homologação",
+     "**Julga-se antes de habilitar** — só a documentação do vencedor do julgamento é conferida",
+     "Modalidades: **pregão · concorrência · concurso · leilão · diálogo competitivo**",
+     "**Obra e serviço especial de engenharia = concorrência** · **pregão nunca em obra**",
+     "Julga por menor preço, maior desconto, melhor técnica, técnica e preço, maior lance ou retorno · **PNCP**"
+    ]
+   },
+   {
+    "t": "Regimes de obra e números da lei",
+    "cor": "info",
+    "itens": [
+     "**Unitário** = unidades determinadas, quantitativo incerto · **global** = preço certo e total",
+     "**Integrada** parte do **anteprojeto** e faz **básico + executivo** · **semi-integrada** parte do **básico**",
+     "**Integral** = entrega em condições de operar · **tarefa** = pequenos trabalhos, com ou sem material",
+     "**Matriz de riscos** obrigatória em **integrada, semi-integrada e grande vulto**",
+     "**SINAPI** em obras e **SICRO** em transportes · custo ≤ **mediana** + **BDI**, sigiloso salvo maior desconto",
+     "Aditivo **25 %** (**50 %** em reforma) · garantia **5 %**, **10 %** justificada, **30 %** com retomada"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Aterrar antes de medir: **constata primeiro, aterra depois** e **sinaliza por último**",
+     "Igualar EPI a desenergização: a coletiva vem antes e **desenergizar** é a primeira escolha",
+     "Trocar os regimes: quem recebe o **anteprojeto** e faz o projeto básico é a **integrada**",
+     "Ressuscitar **tomada de preços e convite**, extintas · e aceitar **pregão para obra**",
+     "**Petrobras licita pela 13.303**, não pela 14.133 · e habilitar antes de julgar, que é o inverso da lei",
+     "Zona **controlada** pede só **autorizado**; a de **risco** exige também **técnica e instrumento apropriados**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Corta, tranca, mede, aterra, cerca, avisa",
+    "c": "Os seis passos na ordem: **seccionar, impedir, constatar, aterrar, proteger, sinalizar**. Ninguém aterra o que não mediu — **mede antes de aterrar** — e o **aviso é sempre o último**. Para religar, desfaz-se de trás para frente."
+   },
+   {
+    "t": "O contínuo é mais folgado",
+    "c": "**50 e 1000 V** em alternada · **120 e 1500 V** em contínua. Então **1200 V CC ainda é baixa tensão**, enquanto 1200 V CA já é **alta**. E a leitura é sempre **entre fases ou entre fase e terra**."
+   },
+   {
+    "t": "Só o Autorizado encosta",
+    "c": "**Qualificado** tem o curso · **habilitado** tem curso **+ conselho** · **capacitado** trabalha sob supervisão e **só na empresa que o capacitou**. Nenhum dos três entra na zona controlada sem a **anuência formal** que o torna **autorizado**."
+   },
+   {
+    "t": "Primeiro o preço, depois o papel",
+    "c": "Na 14.133 **julga-se antes de habilitar**: confere-se a documentação de quem já venceu a disputa. E a lei nem alcança a Petrobras — **estatal licita pela 13.303/2016**."
+   },
+   {
+    "t": "Menos projeto entregue, mais projeto contratado",
+    "c": "**Integrada** recebe só o **anteprojeto** e faz **básico + executivo + obra**; **semi-integrada** já recebe o **projeto básico** e faz **executivo + obra**. Nas duas, e no **grande vulto**, o edital traz a **matriz de riscos**."
+   }
+  ]
+ },
+ "v2m6": {
+  "centro": "Fratura, fadiga e fluência",
+  "nota": "o que mais cai: faixas de ciclo, praia × estria, dimples × clivagem e a taxa secundária de fluência",
+  "ramos": [
+   {
+    "t": "Dúctil × frágil e a trinca",
+    "cor": "acento",
+    "itens": [
+     "**Dúctil**: alta energia · **taça e cone**, lábio a **45°** · micro = **dimples** (coalescência de vazios)",
+     "**Frágil**: baixa energia, sem aviso · plana e brilhante, **chevron** aponta a origem · **clivagem**",
+     "Trinca dúctil é **estável** (só cresce com carga crescente) · a frágil é **instável**, autopropagante",
+     "Puxam para o frágil: **T baixa**, peça **espessa** (deformação plana), entalhe, impacto, **CCC**, grão grosso",
+     "**CCC tem TTDF** · **CFC (austenítico, Al) não tem** · baixam a TTDF: **Ni**, C baixo, **grão fino**",
+     "**K = Y·σ·√(π·a)**, falha em **K_IC** · **a_c = (1/π)·[K_IC/(Y·σ)]²**"
+    ]
+   },
+   {
+    "t": "Fadiga: os três estágios",
+    "cor": "acento",
+    "itens": [
+     "Carga **cíclica**, quase sempre **abaixo do escoamento** · falha progressiva, sem deformação geral",
+     "(i) **Nucleação** na **superfície**: bandas de deslizamento, intrusão/extrusão, entalhe, risco, inclusão",
+     "(ii) **Propagação estável** por **Paris: da/dN = C·(ΔK)^m**, com **m ≈ 2–4** nos metais",
+     "(iii) **Ruptura final** brusca · a superfície tem **zona lisa** + **zona rugosa**; rugosa grande = σ alta",
+     "**Marcas de praia**: macro, **uma por parada de carga** · **estrias**: micro (MEV), **uma por ciclo**"
+    ]
+   },
+   {
+    "t": "Baixo · alto · altíssimo ciclo",
+    "cor": "info",
+    "itens": [
+     "**Baixo ciclo < 10⁴** · σ **acima do escoamento** · **plástico** · ensaia por **ε** · **Coffin-Manson**",
+     "Baixo ciclo é partida/parada e **fadiga térmica** — poucos ciclos porque a tensão é **alta**",
+     "**Alto ciclo 10⁴–10⁷** · abaixo do escoamento · **elástico** · ensaia por **σ** · **Basquin**",
+     "**Altíssimo ciclo > 10⁷** (até 10⁹) · trinca **subsuperficial** em inclusão (**olho de peixe**)",
+     "No altíssimo ciclo **não há patamar**: a curva S–N continua caindo",
+     "**Aço: limite de fadiga ≈ 0,35–0,5·LR** · **alumínio não tem** — cota-se a **10⁷/10⁸** ciclos"
+    ]
+   },
+   {
+    "t": "O que decide a vida em fadiga",
+    "cor": "ok",
+    "itens": [
+     "**Pioram**: rugosidade, entalhe, seção brusca, **tensão média e residual trativas**, meio corrosivo",
+     "**Fadiga-corrosão elimina o patamar** — com meio agressivo não existe vida infinita",
+     "**Melhoram**: polimento, raios generosos, **jateamento com granalha**, roletamento, nitretação",
+     "Todos agem pelo mesmo caminho: **tensão residual compressiva** na superfície",
+     "**Ciclo todo compressivo não fadiga** — a compressão **fecha** a trinca",
+     "**Miner: Σ(n_i/N_i) = 1** · **σ_a = (σ_max − σ_min)/2** · **R = σ_min/σ_max**"
+    ]
+   },
+   {
+    "t": "Fluência",
+    "cor": "ok",
+    "itens": [
+     "Deformação lenta e **permanente** sob **σ constante**, nos metais acima de **0,4·T_fusão (K)**",
+     "**Primário** taxa cai · **secundário** taxa **mínima e constante** (o dado de projeto) · **terciário** rompe",
+     "**dε/dt = A·σⁿ·exp(−Q/RT)** · **n ≈ 3–8** escalada de discordâncias · **n ≈ 1** difusional",
+     "**Nabarro-Herring** (reticulado, ∝ d⁻²) · **Coble** (contornos, ∝ d⁻³, T menor) · **grão grosso resiste mais**",
+     "**Larson-Miller: P = T·(C + log t)** · T em **K**, t em **horas**, **C ≈ 20** nos aços",
+     "**Polímero flui na ambiente** (viscoelástico, perto da **T_g**) · **cerâmico** só em T altíssima, **sem discordâncias**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "\"Baixo ciclo = baixa tensão\": **errado** — baixo é o **nº de ciclos**; a tensão é **alta**, acima do escoamento",
+     "Trocar **marca de praia** (macro, por parada de carga) por **estria** (micro, **um ciclo cada**)",
+     "Dizer que a dúctil \"absorve pouca energia e é lisa por clivagem\" — é o **inverso**: dimples e alta energia",
+     "Afirmar que a taxa de fluência **sobe** com o tamanho de grão: ela **cai** · quem a sobe é **σ e T**",
+     "Igualar **K_IC** e **Charpy**: só K_IC é **propriedade**; o Charpy depende das dimensões do corpo de prova",
+     "Dar patamar de fadiga ao **alumínio**, ou mantê-lo no aço em **meio corrosivo** — nos dois casos **some**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Baixo é o ciclo, alta é a tensão",
+    "c": "**Baixo ciclo** tem **poucos ciclos (< 10⁴)** justamente porque a **tensão é alta, acima do escoamento**: cada ciclo deforma plástico, e por isso se ensaia por **deformação** (**Coffin-Manson**). Alto ciclo é o espelho — **10⁴–10⁷**, elástico, ensaiado por **tensão** (**Basquin**)."
+   },
+   {
+    "t": "Praia é parada, estria é ciclo",
+    "c": "**Marca de praia** se vê a olho nu e cada uma registra uma **parada ou mudança de carga**; **estria** só aparece no **MEV** e vale **um ciclo cada** — dentro de uma marca de praia cabem milhares de estrias. As duas são de fadiga; quem separa dúctil de frágil é **dimple × clivagem**."
+   },
+   {
+    "t": "Dobrou σ, o defeito cai a 1/4",
+    "c": "Em **a_c = (1/π)·[K_IC/(Y·σ)]²** o defeito tolerável vai com **1/σ²**: **dobrar a tensão divide a_c por 4**, triplicar divide por 9. Lido ao contrário — para tolerar um defeito **4× maior**, a tensão tem de cair **pela metade**."
+   },
+   {
+    "t": "CCC gela, CFC não",
+    "c": "Só as **CCC** (ferrita, martensita, aço-carbono) têm **TTDF** — abaixo dela o mesmo aço rompe **frágil**, sem mudar de composição. **CFC** (austenítico, alumínio, cobre) **não tem transição** e é o material de criogenia. Baixam a TTDF: **Ni**, **C baixo** e **grão fino**."
+   },
+   {
+    "t": "Grão fino na fria, grão grosso na quente",
+    "c": "À temperatura ambiente vale **Hall-Petch**: grão **fino** resiste mais. Em **fluência** inverte — **grão grosso** tem menos contorno para difundir e escorregar, e daí a palheta de turbina ser de **grão colunar ou monocristalina**. Quem **aumenta** a taxa secundária é **σ e T**, nunca o grão."
+   }
+  ]
+ },
+ "v3m5": {
+  "centro": "Ágil, EAP e caminho crítico",
+  "nota": "Caminho crítico, time-boxes do Scrum e regra dos 100% são o que mais cai — quase tudo literal",
+  "ramos": [
+   {
+    "t": "Projeto, ágil e Scrum",
+    "cor": "acento",
+    "itens": [
+     "**Projeto**: temporário (início e fim) e resultado **único** · restrição **escopo · prazo · custo**",
+     "**Preditivo** fixa o **escopo** · **ágil** fixa **prazo e custo** (a iteração) e deixa o escopo variar",
+     "**Manifesto: 4 valores e 12 princípios** · o lado direito **não é descartado**, só vale menos",
+     "Pilares **transparência, inspeção, adaptação** · Scrum = **3 papéis, 5 eventos, 3 artefatos**",
+     "**PO ordena o Product Backlog** e é **uma pessoa** · **SM** remove impedimentos e **não é gerente**",
+     "Devs **autogerenciáveis e multifuncionais**, time **≤ 10** · Incremento só com **Definição de Pronto**"
+    ]
+   },
+   {
+    "t": "Kanban: puxado e WIP",
+    "cor": "ok",
+    "itens": [
+     "Kanban = **cartão/sinal**, do sistema **puxado** · **evolutivo**: não cria papéis nem iterações",
+     "Práticas: visualizar o fluxo · **limitar o WIP** (o coração) · políticas explícitas · feedback",
+     "**Lei de Little: tempo de ciclo = WIP ÷ vazão** · limitar o WIP **reduz** o lead time",
+     "Puxa tarefa nova **só quando abre vaga** na coluna — o WIP é limite **por coluna**",
+     "Scrum: sprint fixa, escopo **congelado**, 3 papéis · métricas **velocidade e burndown**",
+     "Kanban: fluxo **contínuo**, **nenhum papel**, fila reordenável · métricas **lead time e vazão**"
+    ]
+   },
+   {
+    "t": "EAP, canvas e MVP",
+    "cor": "ok",
+    "itens": [
+     "EAP: decomposição **hierárquica** do escopo total, orientada a **ENTREGAS** — não a atividades",
+     "**Regra dos 100%** · fora da EAP, fora do projeto · **linha de base** = escopo + EAP + dicionário",
+     "Menor nível = **pacote de trabalho** (**8 a 80 h**), onde se estima custo e duração · acima, **conta de controle**",
+     "Canvas de negócio: **9 blocos**, proposta de valor no centro, só **2 financeiros**",
+     "Canvas de projeto: **13 componentes em 5 perguntas** · objetivo **SMART** no “por quê”",
+     "**MVP**: fatia **vertical** com **aprendizado validado** · construir → medir → aprender → **pivotar ou perseverar**"
+    ]
+   },
+   {
+    "t": "Cronograma e caminho crítico",
+    "cor": "acento",
+    "itens": [
+     "Precedência no nó: **TI é a mais comum**, IT a mais rara · **lead** antecipa, **lag** atrasa",
+     "Estimar: **análoga** (rápida) · paramétrica · **bottom-up** (mais precisa e cara) · três pontos",
+     "**Crítico = sequência mais longa** ⇒ **menor prazo possível** do projeto · **folga total zero**",
+     "**Folga total = UDI − PDI = UDT − PDT** · **folga livre** = menor PDI dos sucessores − PDT",
+     "**Crashing** custa **dinheiro**, **paralelismo** custa **risco** · nivelar recursos **alonga** o prazo",
+     "**CPM determinístico · PERT probabilístico** · corrente crítica: recursos e **pulmões** no lugar das folgas"
+    ]
+   },
+   {
+    "t": "Os números do módulo",
+    "cor": "info",
+    "itens": [
+     "Scrum **3 · 5 · 3** — papéis, eventos, artefatos · **3** pilares e **5** valores · time **≤ 10**",
+     "Sprint **≤ 1 mês** · Planning **≤ 8 h** · Daily **15 min** · Review **≤ 4 h** · Retrospectiva **≤ 3 h**",
+     "Manifesto **4 + 12** · canvas de negócio **9 blocos** · canvas de projeto **13 em 5** · pacote **8–80 h**",
+     "**t_e = (O + 4M + P)/6** (beta/PERT) · **(O + M + P)/3** (triangular) · **σ = (P − O)/6**",
+     "O = 4, M = 6, P = 14 ⇒ **t_e = 7 dias** e **σ ≈ 1,7** · marco tem **duração zero**",
+     "A-B-D-F = 3+4+5+2 = **14 dias** (crítico) · A-C-E-F = **10** ⇒ folga total de C e E = **4**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Crítico **não** é o mais curto, o mais caro nem o mais importante — é o **mais longo em duração**",
+     "Encurtar atividade **não crítica não adianta o projeto** — só aumenta a folga dela",
+     "Comprimir o crítico faz ele **migrar** de caminho · pode haver **mais de um** caminho crítico",
+     "**EAP não mostra sequência, dependência nem duração** — e não é lista de atividades",
+     "**Scrum Master não é gerente** e **não prioriza o backlog** — quem ordena é o **PO**",
+     "**MVP não é produto incompleto**: tem de funcionar · PoC testa viabilidade, protótipo testa forma"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "8 · 4 · 3 e a Daily de 15",
+    "c": "Os time-boxes caem em ordem decrescente: **Planning ≤ 8 h**, **Review ≤ 4 h**, **Retrospectiva ≤ 3 h** — planeja mais do que revisa, revisa mais do que reflete. Fora da conta ficam a **Daily de 15 min** e a **Sprint de até 1 mês**, que é o contêiner de todos os eventos."
+   },
+   {
+    "t": "PO Ordena, SM Serve",
+    "c": "**P**roduct **O**wner **O**rdena o Product Backlog e é **uma pessoa**, nunca um comitê. **S**crum **M**aster **S**erve: garante o método e remove impedimentos, sem ser chefe nem gerente. Alternativa que põe o Scrum Master priorizando o backlog é erro certo."
+   },
+   {
+    "t": "O mais longo é o menor prazo",
+    "c": "O caminho crítico é o **mais longo em duração** e, exatamente por isso, define o **menor prazo possível** do projeto — nada termina antes da sequência mais demorada. Suas atividades têm **folga total zero**; quem tem folga não manda no prazo do projeto."
+   },
+   {
+    "t": "1-4-1 sobre 6",
+    "c": "Na beta/PERT os pesos são **1, 4, 1** e o divisor é a soma deles, **6**: t_e = (O + 4M + P)/6. Na triangular todos pesam 1 e o divisor é **3**. O desvio usa só as pontas, com o mesmo 6: **σ = (P − O)/6** — com O = 4 e P = 14, σ ≈ **1,7**."
+   },
+   {
+    "t": "Substantivo na EAP, verbo no cronograma",
+    "c": "A EAP é orientada a **entregas**, então seus itens são substantivos (“relatório”, “fundação”). Se o item começa com verbo (“instalar”, “testar”), virou **atividade** e saiu da EAP. Cada nível soma **100%** do de cima e para no **pacote de trabalho**, de **8 a 80 h**."
+   }
+  ]
+ },
+ "pj1m8": {
+  "centro": "Custeio, EVA e orçamento",
+  "nota": "absorção × variável e os três pontos de equilíbrio já caíram literais · o que derruba é esquecer a despesa variável na MC",
+  "ramos": [
+   {
+    "t": "Absorção × variável",
+    "cor": "acento",
+    "itens": [
+     "**Absorção**: o CIF fixo **vai para o produto** e dorme no **estoque** até a venda · **único aceito pelo fisco**",
+     "**Variável (= direto)**: todo o fixo é **despesa do período** · **não existe rateio** · uso só **gerencial**",
+     "Absorção entrega **lucro bruto** · variável entrega **margem de contribuição**",
+     "O resultado do absorção varia com o volume **produzido** · o do variável, só com o **vendido**",
+     "**Produção > vendas ⇒ absorção lucra mais** · produção < vendas ⇒ lucra menos · iguais ⇒ empatam",
+     "Diferença exata entre os dois lucros = **Δestoque (un) × CIF fixo unitário**"
+    ]
+   },
+   {
+    "t": "MC, os três equilíbrios e o GAO",
+    "cor": "acento",
+    "itens": [
+     "**MC_u = preço − custos variáveis − despesas variáveis** · razão de contribuição = **MC ÷ receita**",
+     "**PE contábil = CF ÷ MC_u** — o do lucro zero · em valor: **CF ÷ razão de contribuição**",
+     "**PE econômico = (CF + lucro mínimo) ÷ MC_u**, e o mínimo vem como **taxa × investimento**",
+     "**PE financeiro = (CF − depreciação e demais não desembolsáveis) ÷ MC_u**",
+     "Ordem fixa: **financeiro < contábil < econômico** · muito custo fixo ⇒ **GAO alto** ⇒ mais risco",
+     "**GAO = MC ÷ lucro operacional = Δ% lucro ÷ Δ% vendas** · **MS = (vendas − vendas no PE) ÷ vendas**"
+    ]
+   },
+   {
+    "t": "Custo-padrão e as variações",
+    "cor": "ok",
+    "itens": [
+     "**Ideal** = condições perfeitas, **inatingível** · **corrente** = atingível, já embute as perdas normais",
+     "**Estimado** = **média histórica**, sem engenharia — repete a ineficiência que o padrão denuncia",
+     "**Variação = real − padrão** · custo real **acima** do padrão é variação **desfavorável**",
+     "Materiais: preço **(p_r − p_p) × q_r** (Compras) · quantidade **(q_r − q_p) × p_p** (Produção)",
+     "Mão de obra: taxa **(t_r − t_p) × h_r** (RH) · eficiência **(h_r − h_p) × t_p** (Produção)",
+     "CIF: **gasto · eficiência · volume** — a de **volume mede ociosidade**, produção abaixo do nível de rateio"
+    ]
+   },
+   {
+    "t": "Centros, ROI, lucro residual e EVA",
+    "cor": "info",
+    "itens": [
+     "Centros: **custo · receita · lucro · investimento** — **ROI e EVA só no centro de investimento**",
+     "**Controlável** = o que o gestor decide no período · **rateio de fixo comum não é controlável**",
+     "**ROI = lucro operacional ÷ ativo operacional = margem × giro** (lucro÷vendas × vendas÷ativo)",
+     "Vício do ROI: **recusa projeto bom** abaixo do ROI atual · corrige com **LR = LO − taxa mínima × ativo**",
+     "**EVA = NOPAT − WACC × capital = (ROIC − WACC) × capital** · NOPAT = LO após IR e **antes dos juros**",
+     "Transferência: mínimo = **CV + MC perdida** · ocioso ⇒ **CV** · plena ⇒ **mercado** · sempre **custo-padrão**"
+    ]
+   },
+   {
+    "t": "Orçamento e decisões relevantes",
+    "cor": "ok",
+    "itens": [
+     "**Vendas é a peça inicial e limitante** · **produzir = vender + EF − EI** · **comprar = consumir + EF − EI**",
+     "Sequência: vendas → produção → compras → MOD → CIF → CPV → **DRE, caixa e balanço projetados**",
+     "**Estático** (um nível) · **flexível** (volume real) · **contínuo** (soma um período) · **OBZ** (sem histórico)",
+     "Real − estático = **volume de vendas** (flex − estático) + **flexível** (real − flex)",
+     "**Eficiência só se avalia contra o orçamento flexível**, nunca contra o estático",
+     "Make or buy: só **futuros e diferenciais** — variáveis, fixos **evitáveis** e **custo de oportunidade**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Custeio direto = custeio variável** — não tem nada a ver com \"custos diretos\"",
+     "Esquecer as **despesas variáveis** (comissão, frete, imposto sobre venda) na MC — a alternativa já está pronta",
+     "Inverter o absorção: **quem estoca lucra mais nele**, porque empurra CIF fixo para o estoque",
+     "Trocar as variações: **preço multiplica pela quantidade REAL** e **quantidade, pelo preço PADRÃO**",
+     "**Custo afundado** ou **fixo comum rateado** no make or buy — nenhum dos dois muda com a decisão",
+     "Cortar segmento com **margem do segmento positiva**: o rateio grita prejuízo, mas o lucro total **cai**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Quem estoca lucra mais no absorção",
+    "c": "Produção **maior** que vendas ⇒ o CIF fixo fica **dormindo no estoque** e o **lucro do absorção é maior**. Vendeu mais do que produziu, inverte; produziu igual ao vendido, empatam. A diferença é sempre **Δestoque × CIF fixo unitário** — e a margem de contribuição só existe no **variável**."
+   },
+   {
+    "t": "Tira · nada · soma",
+    "c": "Os três pontos de equilíbrio na ordem: o **financeiro tira** a depreciação do CF, o **contábil não mexe** e o **econômico soma** o lucro mínimo. Daí sai sozinha a ordem **financeiro < contábil < econômico**. Fixos 250.000, investimento 1.200.000 a 10%, preço 85 e CV_u 35 ⇒ (250.000 + 120.000) ÷ 50 = **7.400 un** no econômico."
+   },
+   {
+    "t": "Preço com o Real, Quantidade com o Padrão",
+    "c": "Variação de **preço** multiplica pela quantidade **REAL**; variação de **quantidade** multiplica pelo preço **PADRÃO** — sempre cruzado, e trocar as duas é o distrator preparado. Vale igual na mão de obra: **taxa × horas reais**, **eficiência × taxa padrão**. Real acima do padrão = **desfavorável**."
+   },
+   {
+    "t": "A comissão também entra na MC",
+    "c": "MC = preço − **todos** os variáveis: custo variável **e** despesa variável (comissão, frete, imposto sobre venda). A banca lista as despesas em linha separada só para você somar errado. Vendas 600.000, CV 200.000, DV 50.000, CF 150.000 ⇒ MC **350.000**, lucro **200.000**, **GAO = 1,75**."
+   },
+   {
+    "t": "Acima do WACC ou nada",
+    "c": "**EVA = NOPAT − WACC × capital = (ROIC − WACC) × capital**. Se o retorno não cobre o WACC, a empresa **destrói valor mesmo com lucro contábil positivo**. Três alavancas: subir o NOPAT sem capital novo, **cortar capital investido** (vender ativo ocioso) e investir só acima do WACC."
+   }
+  ]
+ },
+ "pr2m6": {
+  "centro": "Gestão ambiental e P+L",
+  "nota": "o que mais cai: LP/LI/LO, ISO 14001, ordem da PNRS, NBR 10004 e P+L contra fim de tubo",
+  "ramos": [
+   {
+    "t": "Sustentabilidade: o que cai literal",
+    "cor": "acento",
+    "itens": [
+     "**Brundtland (1987)**: atende às **necessidades do presente** sem comprometer as **gerações futuras**",
+     "Tripé **econômico + ambiental + social** · Estocolmo **72** → Brundtland **87** → **Rio-92** → Quioto **97**",
+     "**Quioto/97**: **−5,2 %** sobre 1990, em 2008–2012, meta obrigatória só para o **Anexo I**",
+     "**Paris/2015**: bem abaixo de **2 °C**, buscando **1,5 °C** · **Agenda 2030**: **17 ODS e 169 metas**",
+     "**Prevenção** = risco **conhecido** · **precaução** = **incerteza científica**, e a dúvida não adia a medida",
+     "**Poluidor-pagador**: internalizar o custo do dano — **não é licença para poluir pagando**"
+    ]
+   },
+   {
+    "t": "SISNAMA, licenciamento e EIA",
+    "cor": "acento",
+    "itens": [
+     "**Lei 6.938/1981** = **PNMA** + **SISNAMA**, a base de toda a gestão ambiental no país",
+     "**CONAMA**: consultivo e **deliberativo**, **normatiza** · **IBAMA**: **executa**, licencia, fiscaliza e autua",
+     "**CONAMA 237/1997** · **LP** aprova concepção e viabilidade → **LI** autoriza construir → **LO** libera operar",
+     "Prazos: **LP até 5 anos · LI até 6 anos · LO de 4 a 10 anos**",
+     "**EIA** é o estudo técnico · **RIMA** é o mesmo conteúdo em **linguagem acessível** (**CONAMA 001/1986**)"
+    ]
+   },
+   {
+    "t": "ISO 14001, ACV e ISO 26000",
+    "cor": "ok",
+    "itens": [
+     "**ISO 14001** é a **única certificável** da família e roda em **PDCA**",
+     "SGA: política → **aspectos e impactos** → requisitos legais → controle operacional → **análise crítica**",
+     "Versão **2015**: contexto da organização, **risco e oportunidade** e **perspectiva de ciclo de vida**",
+     "**ACV (14040/14044)**, nesta ordem: **objetivo e escopo → inventário → avaliação de impacto → interpretação**",
+     "**14031** desempenho · **14064** GEE · **responsabilidade social** vai **além da lei**, com partes interessadas",
+     "**ISO 26000**: diretriz **não certificável**, **7 princípios e 7 temas** · **SA 8000** certifica trabalho"
+    ]
+   },
+   {
+    "t": "P+L, ecoeficiência, energia e água",
+    "cor": "ok",
+    "itens": [
+     "**P+L** é estratégia ambiental **preventiva, contínua e integrada** a processo, produto e serviço",
+     "**Nível 1 — redução na fonte** (prioritário) · **2 — reciclagem interna** · **3 — externa e ciclos biogênicos**",
+     "**Fim de tubo** age depois e **transfere o problema de meio** (gás vira lodo) · P+L evita a geração",
+     "**Ecoeficiência = valor do produto ÷ influência ambiental** ao longo do ciclo de vida",
+     "Energia: **eliminar desperdício → elevar eficiência → recuperar calor → cogerar → trocar a fonte**",
+     "**Cogeração** = elétrica e térmica **juntas** · **Lei 9.433/1997**: água é **bem público com valor econômico**"
+    ]
+   },
+   {
+    "t": "Resíduos e efluentes: quem é quem",
+    "cor": "info",
+    "itens": [
+     "**PNRS 12.305/2010**: não gerar → reduzir → **reutilizar** → **reciclar** → tratar → dispor o **rejeito**",
+     "**Resíduo** ainda tem uso · **rejeito** esgotou as opções — **só rejeito vai para aterro**",
+     "**Logística reversa** obrigatória em **6 cadeias** · **PGRS** e **responsabilidade compartilhada**",
+     "**NBR 10004** · **Classe I perigoso**: inflamável, corrosivo, reativo, tóxico ou patogênico",
+     "**II A não inerte**: biodegradável, combustível ou solúvel (lodo, papel) · **II B inerte**: entulho, vidro",
+     "Efluente: **preliminar** grosseiro e areia · **primário** suspenso e óleo · **secundário** = **biológico/DBO**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Aspecto** é a **causa** (lançar efluente, consumir água) · **impacto** é o **efeito** (mortandade de peixes)",
+     "**ISO 14001 não exige nível mínimo de desempenho** — exige conformidade legal e melhoria do **sistema**",
+     "**Filtro, lavador e ETE são fim de tubo**, nunca P+L — P+L age **antes** de gerar o poluente",
+     "Inverter a PNRS: **reciclar nunca vem antes de reutilizar** · e **resíduo não é rejeito** no aterro",
+     "**DQO > DBO sempre** · a DBO mede só o **biodegradável** — quem faz o **secundário** é o **biológico**",
+     "Na definição, é **necessidades** (não desejos) e **gerações futuras** (não a próxima geração)"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "CRIPT — o resíduo classe I",
+    "c": "Perigoso é o que tem **C**orrosividade, **R**eatividade, **I**nflamabilidade, **P**atogenicidade ou **T**oxicidade — guarde tudo na **CRIPT**a. Sem esses cinco: **II A não inerte** se for biodegradável, combustível ou solúvel; **II B inerte** só quando a solubilização não passa do padrão de potabilidade."
+   },
+   {
+    "t": "PAPELÓ — as seis da logística reversa",
+    "c": "**P**neu · **A**grotóxico e embalagem · **P**ilha e bateria · **E**letroeletrônico · **L**âmpada (fluorescente, vapor de sódio ou mercúrio, mista) · **Ó**leo lubrificante e embalagem. São **6** cadeias com logística reversa obrigatória na PNRS — alternativa que inventa uma sétima está errada."
+   },
+   {
+    "t": "Usar de novo vem antes de fazer de novo",
+    "c": "A ordem da PNRS é **não gerar → reduzir → reutilizar → reciclar → tratar → dispor**. **Reutilizar** é usar de novo sem reprocessar, por isso fica **antes** de **reciclar**, que refaz o material. E no fim da fila só o **rejeito** entra no aterro."
+   },
+   {
+    "t": "Prévia 5, Instalação 6, Operação 4 a 10",
+    "c": "A ordem é a do projeto — **P**lanejar, **I**nstalar, **O**perar: **LP → LI → LO**, com prazos de **5 · 6 · 4 a 10 anos**. Quem emite, fiscaliza e autua é o **executor** (IBAMA ou o órgão estadual); o **CONAMA** só normatiza. E o **RIMA** é o EIA traduzido para o público."
+   },
+   {
+    "t": "Grosseiro, Suspenso, Dissolvido, Nutriente",
+    "c": "As etapas na ordem: **preliminar** tira o grosseiro e a areia; **primário** o sólido **suspenso** e o óleo livre; **secundário** o orgânico **dissolvido** — a **DBO** (medida em **5 dias a 20 °C**), no biológico; **terciário** o **nutriente** (N e P), patógeno e cor. Regra de bolso: **DQO/DBO baixa ⇒ biológico**; alta ⇒ físico-químico."
+   }
+  ]
+ },
+ "pr2m8": {
+  "centro": "Contratação: 13.303, 14.133 e LC 123",
+  "nota": "Quem segue qual lei, integrada × semi-integrada e os números: 70% × 75%, R$ 100/50 mil, empate ficto 10% e 5%",
+  "ramos": [
+   {
+    "t": "Quem segue qual lei",
+    "cor": "acento",
+    "itens": [
+     "Petrobras e Transpetro são **sociedade de economia mista** ⇒ **13.303/2016** + **regulamento interno** próprio",
+     "A **14.133 não abrange as estatais** — dela só as **normas penais** alcançam todo mundo",
+     "A 14.133 é a lei do ente público e revogou **8.666**, a **lei do pregão** e o **RDC** ao fim de 2023",
+     "**Estatal → 13.303 · ente público → 14.133 · ME e EPP → LC 123** por cima das duas",
+     "Contrato da estatal é de **direito privado**, em **rito único** · 14.133: **público**, com **5 modalidades**",
+     "**14.129/2021**: autosserviço, **dados abertos por padrão**, licitação **eletrônica** e **PNCP**"
+    ]
+   },
+   {
+    "t": "Art. 31, vícios e rito",
+    "cor": "acento",
+    "itens": [
+     "Literal: proposta **mais vantajosa, inclusive quanto ao ciclo de vida do objeto**",
+     "**Sobrepreço** é **preço** acima do mercado · **superfaturamento** é **prejuízo**: medir a maior, vida útil menor",
+     "Art. 32: **padronização · parcelamento · pregão preferencial** para bens e serviços comuns",
+     "**Orçamento sigiloso**, aberto ao controle · abre em **maior desconto** e **melhor técnica** · 14.133: **publicidade**",
+     "Disputa **aberta** (lances sucessivos) ou **fechada** (sigilo até abrir), **combináveis**",
+     "**Habilitação só depois do julgamento** · **maior retorno econômico** só no **contrato de eficiência**"
+    ]
+   },
+   {
+    "t": "Fora da licitação e regimes",
+    "cor": "ok",
+    "itens": [
+     "**Não licita** comercialização e execução direta ligadas ao **objeto social** — vender derivado, por exemplo",
+     "**Não licita** a escolha presa a **oportunidade de negócio**: parceria, participação societária, mercado de capitais",
+     "**Inexigibilidade** = inviabilidade de competição: exclusivo e **notória especialização** · **vedada em publicidade**",
+     "**Integrada**: o edital traz o **anteprojeto** e o contratado faz **projeto básico e executivo**",
+     "**Semi-integrada**: **básico da estatal** no edital · contratado faz o executivo e só o altera provando **ganho**",
+     "Nos dois: quantitativo é risco do contratado (**matriz de riscos**) e **aditivo vedado**, salvo força maior"
+    ]
+   },
+   {
+    "t": "LC 123: ME e EPP na licitação",
+    "cor": "ok",
+    "itens": [
+     "Regularidade **fiscal e trabalhista** só é exigida **para assinar** — entrega tudo mesmo com restrição",
+     "**5 dias úteis** da declaração de vencedora, prorrogáveis por igual período · sem sanar, **decadência**",
+     "**Empate ficto**: até **10%** acima da melhor · **5% no pregão**, com **5 minutos** para cobrir · entre MEs, **sorteio**",
+     "Compras: **exclusiva** em item até **R$ 80 mil** · **subcontratação** · **cota de até 25%** em bem divisível",
+     "Teto do benefício: **25% do licitado no ano civil** · prioridade regional de até **10%** do melhor preço",
+     "Cai tudo sem **3 fornecedores ME/EPP locais**, sem vantagem, ou em **dispensa e inexigibilidade**"
+    ]
+   },
+   {
+    "t": "Os números que caem",
+    "cor": "info",
+    "itens": [
+     "**Dispensa**: **R$ 100 mil** em obra e serviço de engenharia · **R$ 50 mil** nas demais · **vedado fatiar**",
+     "Inexequível em engenharia: **abaixo de 70%** na 13.303 · **abaixo de 75%** na 14.133",
+     "Prazo: contrato de estatal até **5 anos** · 14.133 até **10** contínuos e **35** com investimento",
+     "Garantia **5%**, **10%** em grande vulto · aditivo **25%**, **50%** em reforma · retomada **30%** (14.133)",
+     "Sanções: a 13.303 tem **três** e para na **suspensão de 2 anos** · 14.133: impedimento **3**, inidoneidade **3 a 6**",
+     "Portes: ME até **R$ 360 mil** · EPP até **R$ 4,8 milhões** · MEI até **R$ 81 mil** por ano"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "Trocar o **70% da 13.303** pelo **75% da 14.133** na inexequibilidade — é a troca preferida da banca",
+     "Inverter o empate ficto: é **10% na regra geral** e **5% no pregão**, nunca o contrário",
+     "Dizer que a **Petrobras licita pela 14.133** — ela segue a **13.303 e o regulamento próprio**",
+     "Embaralhar **integrada** (anteprojeto, contratado faz o básico) com **semi-integrada** (básico é da estatal)",
+     "Confundir a **cota de até 25%** com o **teto de R$ 80 mil** da licitação exclusiva",
+     "Empate ficto **não se aplica** se a melhor proposta inicial **já for de ME ou EPP**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Cada um com a sua lei",
+    "c": "**A empresa estatal tem lei própria** (13.303 + regulamento interno), **o ente público tem a lei geral** (14.133) e **o pequeno tem a lei que passa por cima das duas** (LC 123). Da 14.133 só as **normas penais** alcançam a Petrobras."
+   },
+   {
+    "t": "13 leva 70, 14 leva 75",
+    "c": "Proposta inexequível em obra e serviço de engenharia: **abaixo de 70% na 13.303** e **abaixo de 75% na 14.133**. A ordem se mantém — **lei menor, percentual menor**. Enunciado com estatal, o corte é sempre **70%**."
+   },
+   {
+    "t": "No pregão, tudo é cinco",
+    "c": "Empate ficto: **10% na regra geral** e **5% no pregão**, com **5 minutos** para a ME cobrir o preço após os lances. O pregão é o rito rápido, por isso leva os **dois cincos**. Viu 5% como regra geral e 10% no pregão? Está invertido."
+   },
+   {
+    "t": "Semi é metade pronta",
+    "c": "**Semi-integrada = metade do projeto já está pronta**: o **básico é da estatal** e vai no edital, o contratado faz só o **executivo**. Na **integrada** o edital traz o **anteprojeto** e o contratado faz os dois. Nos dois, **aditivo vedado**."
+   },
+   {
+    "t": "80 mil é item, 25% é cota",
+    "c": "Na LC 123, **R$ 80 mil** é o teto do **item exclusivo** de ME/EPP e **25%** é a **cota** em bem divisível — um é valor, o outro é percentual. Na dispensa da estatal, engenharia vale o dobro: **R$ 100 mil** contra **R$ 50 mil**."
+   }
+  ]
+ },
+ "pr2m7": {
+  "centro": "Engenharia organizacional e Indústria 4.0",
+  "nota": "O que mais cai: as 4 perspectivas do BSC em ordem, o caminho crítico e os 4 modos do SECI",
+  "ramos": [
+   {
+    "t": "Estratégia: de fora e de dentro",
+    "cor": "acento",
+    "itens": [
+     "**Missão** (razão de existir hoje) → **visão** (destino, com prazo) → **valores** → ambiente → objetivos",
+     "Níveis: **corporativo** (em que negócios atuar) · **de negócio** (como competir) · **funcional**",
+     "**SWOT**: forças e fraquezas são **internas e controláveis**; oportunidades e ameaças, **externas**",
+     "**5 forças** — rivalidade, entrantes, substitutos, fornecedores, compradores — **reduzem** o lucro do setor",
+     "**Complementares** fazem o oposto: **aumentam a disposição do comprador a pagar**",
+     "**Genéricas**: custo, diferenciação e enfoque · **VBR**: recurso **apropriável, inimitável, insubstituível**"
+    ]
+   },
+   {
+    "t": "Desempenho: BSC e os cinco objetivos",
+    "cor": "acento",
+    "itens": [
+     "**BSC** é sistema de **gestão estratégica**, não só de medição · causa e efeito no **mapa estratégico**",
+     "Do topo à base: **Financeira · Clientes · Processos Internos · Aprendizado e Crescimento**",
+     "Financeira = como o acionista nos vê · Clientes = como o cliente nos vê · Processos = onde ser excelente",
+     "**Aprendizado e Crescimento** fica na **base**: o que sustenta a melhoria (competências)",
+     "**5 objetivos**: **qualidade, rapidez, confiabilidade, flexibilidade e custo**",
+     "**Produtividade = saídas ÷ entradas** · a matriz prioriza **alta importância ao cliente, baixo desempenho**"
+    ]
+   },
+   {
+    "t": "Projetos: EAP, rede e valor agregado",
+    "cor": "ok",
+    "itens": [
+     "Projeto é **temporário** e entrega resultado **exclusivo**; operação é contínua e repetitiva",
+     "**5 grupos**: iniciação, planejamento, execução, monitoramento e controle, encerramento",
+     "**EAP** desce até o **pacote de trabalho** e fecha em **100 %** · tripla restrição: escopo × prazo × custo",
+     "**Caminho crítico** = o **mais longo**, define a duração e tem **folga zero** · **t_e = (O + 4M + P) ÷ 6**",
+     "**Custo**: VC = VA − CR e **IDC = VA ÷ CR** · **Prazo**: VPR = VA − VP e **IDP = VA ÷ VP**",
+     "**Índice < 1 = estouro** · autoridade: funcional **mínima** < matricial **parcial** < projetizada **total**"
+    ]
+   },
+   {
+    "t": "Ética, informação e conhecimento",
+    "cor": "ok",
+    "itens": [
+     "**Utilitarismo** = maior bem para o maior número · **maquiavelismo** = os fins justificam os meios",
+     "**Darwinismo social** = o receio da extinção dita a moral e o emprego da força vira norma aceita",
+     "Governança: **transparência, equidade, prestação de contas e responsabilidade** · **compliance previne**",
+     "**Dado** (bruto) → **informação** (contexto) → **conhecimento** (decisão) · **ERP = base de dados única**",
+     "**Tácito** está na cabeça e na prática × **explícito** é codificado em norma e banco de dados",
+     "**SECI**: Socialização **T→T** · Externalização **T→E** · Combinação **E→E** · Internalização **E→T**"
+    ]
+   },
+   {
+    "t": "Inovação e Indústria 4.0",
+    "cor": "info",
+    "itens": [
+     "Inovação é a novidade **implementada**; ideia sem implantação é só invenção",
+     "Objeto: **produto, processo, marketing e organizacional** · grau: **incremental × radical**",
+     "Fonte **fechada** (só P&D interno) × **aberta** (universidade, fornecedor, cliente) · difusão em **curva S**",
+     "**Patente de invenção: 20 anos** · **modelo de utilidade: 15 anos**, contados do **depósito**",
+     "**1ª** vapor · **2ª** eletricidade e massa · **3ª** eletrônica e CLP · **4ª** (**2011**) **ciber-físico**",
+     "**9 tecnologias habilitadoras** · pirâmide de **5 níveis** que **se achata**: campo → CLP → SCADA → MES → ERP"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "No **BSC** a banca troca **Processos Internos** por 'externos' e Financeira por 'Fornecedores'",
+     "**Caminho crítico é o mais longo**, nunca o mais curto — e é justamente ele que tem **folga zero**",
+     "**Ambidestra** = incremental **e** radical **ao mesmo tempo**; não é 'analítico e criativo'",
+     "**Confiabilidade** é cumprir o **prazo prometido**; entregar em pouco tempo é **rapidez**",
+     "**Vantagem competitiva** = lucro **acima da média** dos rivais · não é **modelo de negócio** nem **visão**",
+     "Partes interessadas: **nunca 'afastar as menos importantes'** — identificar, classificar e **envolver**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "FI-CLI-PRO-AP, de cima para baixo",
+    "c": "As quatro perspectivas do BSC na ordem: **Financeira**, **Clientes**, **Processos Internos**, **Aprendizado e Crescimento**. A causa e efeito se lê ao contrário, de baixo para cima: aprender capacita o **processo**, o processo agrada o **cliente**, o cliente traz o **dinheiro**. Se a alternativa disser 'Processos Externos' ou 'Fornecedores', já está errada."
+   },
+   {
+    "t": "Rápido chega cedo, confiável chega na hora",
+    "c": "Os cinco objetivos são **qualidade, rapidez, confiabilidade, flexibilidade e custo**. **Rapidez** é entregar em pouco tempo; **confiabilidade** é cumprir o **prazo prometido** — uma entrega lenta pode ser confiável e uma rápida pode não ser. É nesse par que a banca inverte."
+   },
+   {
+    "t": "As cinco puxam para baixo, o complementar puxa para cima",
+    "c": "Todas as **cinco forças** (rivalidade, entrantes, substitutos, fornecedores, compradores) **reduzem** a lucratividade do setor. O **complementar** não é a sexta força: ele **aumenta a disposição do comprador a pagar**. E no **SWOT**, o que começa com **F** — forças e fraquezas — mora **dentro** e é controlável; **O** e **A** vêm de fora."
+   },
+   {
+    "t": "1 + 4 + 1 = 6, e abaixo de 1 é estouro",
+    "c": "Em **t_e = (O + 4M + P) ÷ 6** o divisor é a soma dos pesos: **1 otimista + 4 mais provável + 1 pessimista**. Nos indicadores o **VA fica sempre em cima**: **IDC = VA ÷ CR** e **IDP = VA ÷ VP**, com **índice abaixo de 1 = estouro**; nas variações (VC = VA − CR, VPR = VA − VP), **negativo é ruim**. Fecha com **EAP em 100 %** e **folga zero** no caminho crítico."
+   },
+   {
+    "t": "No SECI, o nome diz a direção",
+    "c": "**Externalização** põe o tácito **para fora** (tácito → explícito) e **Internalização** traz o explícito **para dentro** (explícito → tácito). Sobram as duas iguais: **Socialização** é gente com gente (tácito → tácito) e **Combinação** junta documento com documento (explícito → explícito)."
+   }
+  ]
+ },
+ "pj1m7": {
+  "centro": "Provisões, imobilizado e destinação",
+  "nota": "as caixinhas de probabilidade e a reserva legal caem literais · o que derruba é ativo contingente provável e dividendo no MEP",
+  "ramos": [
+   {
+    "t": "Provisão e as caixinhas de probabilidade",
+    "cor": "acento",
+    "itens": [
+     "**Provisão = passivo de prazo ou de valor incertos** — é passivo e entra no **balanço**",
+     "Exige as três **juntas**: **obrigação presente** de evento passado · saída **provável** · valor **estimável**",
+     "**Provável = acima de 50%**, mais provável que sim do que não: passivo vira **provisão**, ativo **só divulga**",
+     "**Possível**: passivo é **divulgado** como contingente, ativo **nada** · **remoto**: nem nota dos dois lados",
+     "**Praticamente certo**: entra no balanço nos dois lados — o ativo deixa de ser contingente",
+     "Mensuração: **muitos itens semelhantes ⇒ valor esperado** · **obrigação única ⇒ valor mais provável**"
+    ]
+   },
+   {
+    "t": "Imobilizado: custo e depreciação",
+    "cor": "acento",
+    "itens": [
+     "**Tangível**, usado na produção, no aluguel ou na administração, por **mais de um período**",
+     "**No custo**: impostos **não recuperáveis**, frete, seguro, instalação, montagem e **testes**",
+     "Entra a **desmontagem, remoção e restauração do local** — o abandono do poço já nasce no ativo",
+     "**Fora**: treinamento, propaganda de lançamento, abertura de instalação e perdas iniciais",
+     "Depreciável = **custo − valor residual** · começa na **disponibilidade para uso**, não na produção",
+     "**Não para na ociosidade** · deprecia **por componentes** · método baseado em **receita é proibido**"
+    ]
+   },
+   {
+    "t": "Os três destinos do imóvel",
+    "cor": "ok",
+    "itens": [
+     "**Uso próprio** ⇒ imobilizado · **custo − depreciação − perdas** · deprecia",
+     "**Aluguel ou valorização** ⇒ propriedade para investimento · **custo ou valor justo**, política única",
+     "A **valor justo**: a variação vai ao **resultado** e o bem **não deprecia**",
+     "**Recuperação pela venda** ⇒ mantido para venda · **menor** entre contábil e valor justo − despesas",
+     "Mantido para venda **não deprecia** · exige venda **altamente provável**, concluída em **até 1 ano**",
+     "Imóvel construído para vender no curso normal do negócio é **estoque**, não investimento"
+    ]
+   },
+   {
+    "t": "Investimento: custo × equivalência",
+    "cor": "ok",
+    "itens": [
+     "**Controlada**: preponderância nas deliberações e **elege a maioria dos administradores**",
+     "**Coligada**: **influência significativa**, presumida com **20% ou mais do votante** · presunção relativa",
+     "**MEP** em coligada, controlada e controle conjunto · **método do custo** nas demais participações",
+     "MEP: **lucro da investida × %** sobe o investimento e vira **receita de equivalência**",
+     "**Dividendo**: **receita** no método do custo · no **MEP reduz o investimento**",
+     "**Exterior**: ativo e passivo na **taxa de fechamento**, PL na **histórica**, diferença em **ORA**"
+    ]
+   },
+   {
+    "t": "Destinação do lucro e os números",
+    "cor": "info",
+    "itens": [
+     "Participações em cascata: **debênture → empregado → administrador → parte beneficiária**",
+     "Fila do lucro: **reserva legal** primeiro → estatutárias → contingências → incentivos → **dividendo**",
+     "**Reserva legal 5%** do lucro líquido · teto de **20% do capital** · facultativa acima de **30%**",
+     "Só compensa prejuízo ou aumenta capital · reservas de lucros não podem passar do capital social",
+     "**Lucro líquido ajustado = LL − reserva legal − reserva para contingências + reversões**",
+     "Estatuto **omisso: 50%** do ajustado · norma nova: **mínimo 25%** · **JCP dedutível**, limite de **50%**"
+    ]
+   },
+   {
+    "t": "O que derruba",
+    "cor": "err",
+    "itens": [
+     "**Ativo contingente provável não se reconhece** — só se divulga; reconhece só o praticamente certo",
+     "**Passivo contingente possível não se provisiona** — só nota; provisionar exige **provável**",
+     "Dividendo de investida em **MEP não é receita**: **reduz o investimento**, o lucro já entrou antes",
+     "Dividendo obrigatório **não sai do lucro líquido puro** — a base é o **lucro líquido ajustado**",
+     "**Devedores duvidosos** e **depreciação** com nome de provisão são **retificadoras do ativo**",
+     "Revisão de vida útil é **estimativa**: efeito **prospectivo** · **ágio de rentabilidade não amortiza**"
+    ]
+   }
+  ],
+  "mnemonicos": [
+   {
+    "t": "Os três P da provisão",
+    "c": "**P**resente (obrigação vinda de evento passado) · **P**rovável (saída acima de **50%**) · **P**reciso (valor estimável com confiabilidade). Faltou um P, **não é provisão**: no máximo vira nota explicativa — ou nem isso, se o risco for remoto."
+   },
+   {
+    "t": "O passivo é medroso, o ativo é cético",
+    "c": "No **passivo**, provável já **provisiona** e possível já vira **nota**. No **ativo**, provável **só divulga** e possível **não vira nada** — ele só entra no balanço quando é **praticamente certo**. A má notícia entra cedo, a boa entra tarde: a assimetria é proposital."
+   },
+   {
+    "t": "Muitos, média; um só, o mais provável",
+    "c": "População grande de itens semelhantes (garantia) ⇒ **valor esperado** ponderado. Obrigação única (um processo) ⇒ **valor individual mais provável**. Cuidado com o escopo: **perda operacional futura não se provisiona**, **contrato oneroso sim**, e o **reembolso** só entra se praticamente certo e **nunca supera a provisão**."
+   },
+   {
+    "t": "Até funcionar entra; depois, despesa",
+    "c": "Tudo que é diretamente atribuível **até o bem ficar operando** entra no custo: frete, instalação, montagem, **testes** e a **desmontagem e restauração futuras**. Depois disso é despesa — **treinamento, propaganda, abertura de instalação e perdas iniciais**. Na baixa, o resultado é **alienação − valor contábil**, nunca receita de vendas."
+   },
+   {
+    "t": "5 · 20 · 30 · 50 · 25",
+    "c": "**5%** do lucro líquido para a reserva legal, até o teto de **20% do capital**; ela fica facultativa quando, somada às reservas de capital, passa de **30%**. Dividendo obrigatório: **50%** do lucro líquido **ajustado** com estatuto omisso e **mínimo de 25%** quando a assembleia introduz a norma. O **JCP** também para em **50%** — e é o único **dedutível**."
    }
   ]
  }

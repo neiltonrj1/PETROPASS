@@ -1,5 +1,6 @@
 [
  {
+  "mod": "me1m1",
   "origem": "Cesgranrio 2023, Q33",
   "q": "Duas placas planas justapostas, de mesma espessura, separam dois ambientes, ambos evacuados. As temperaturas das faces esquerda e direita do conjunto das duas placas são mantidas a TQ e TF. Sejam kE e kD as condutividades térmicas das placas da esquerda e da direita, respectivamente. Suponha o regime permanente, e que L seja a espessura de cada placa. Nessas condições, verifica-se o seguinte:",
   "alts": {
@@ -24,6 +25,7 @@
   ]
  },
  {
+  "mod": "me1m1",
   "origem": "Cesgranrio 2023, Q34",
   "q": "A temperatura da carcaça de um trocador de calor indica perda de calor para o ambiente. Sabe-se que: • corrente quente: Capacidade térmica = 2 kJ/K.s Temperatura de entrada no trocador: 95 ºC Temperatura de saída no trocador: 45 ºC • corrente fria: Capacidade térmica = 3 kJ/K.s Temperatura de entrada no trocador: 25 ºC Temperatura de saída no trocador: 55 ºC Com essas informações, a quantidade de calor perdida para o ambiente, em kW, é igual a",
   "alts": {
@@ -48,6 +50,7 @@
   ]
  },
  {
+  "mod": "me1m1",
   "origem": "Cesgranrio 2015, Q40",
   "q": "O regime de escoamento na convecção natural é regido pelo adimensional conhecido como número de Grashof. Tal adimensional é uma medida da importância relativa da(s)",
   "alts": {
@@ -73,6 +76,7 @@
   ]
  },
  {
+  "mod": "me1m1",
   "origem": "Cesgranrio 2012, Q54",
   "q": "O adimensional que fornece uma medida da transferência de calor por convecção, que ocorre em uma superfície, e que corresponde ao gradiente de temperatura adimensional na superfície, é o número de",
   "alts": {
@@ -97,6 +101,7 @@
   ]
  },
  {
+  "mod": "me1m2",
   "origem": "Cesgranrio 2010, Q70",
   "q": "A insalubridade foi regulamentada pela NR-15, que trata das Atividades e Operações Insalubres. Com base na referida norma, considere as afirmativas a seguir. I - Se, durante a jornada de trabalho, ocorrerem dois ou mais períodos de exposição a ruídos de diferentes níveis, devem ser considerados os seus efeitos combinados e, assim, no caso de dois períodos de exposição a ruídos de diferentes níveis, deve-se obedecer à relação £ C1+ C2 1 T1+ T2 para não exceder o limite de tolerância, em que C indica o tempo total que o trabalhador fica exposto a um nível de ruído específico e T indica a máxima exposição diária permissível a este nível. II - As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB, sem proteção adequada, oferecerão risco grave e iminente. III - O exercício de trabalho em condições de insalubridade de grau máximo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 40%. IV - O exercício de trabalho em condições de insalubridade de grau mínimo assegura ao trabalhador a percepção de adicional incidente sobre o salário mínimo equivalente a 10%. Estão corretas as afirmativas",
   "alts": {
@@ -122,6 +127,7 @@
   ]
  },
  {
+  "mod": "me1m2",
   "origem": "Cesgranrio 2012, Q31",
   "q": "Se, no circuito primário de um transformador ideal, for desenvolvida uma potência de 100 W, e a tensão no ramo secundário for de 5 V, a corrente no secundário, em A, será de",
   "alts": {
@@ -146,6 +152,7 @@
   ]
  },
  {
+  "mod": "me1m2",
   "origem": "Cesgranrio 2023, Q28",
   "q": "A gerência de uma pizzaria registrou a venda diária de pizzas napolitanas durante um ano (dentro do horário de 12 h a 23 h). Com os dados obtidos das vendas, ajustou- -se a seguinte equação de regressão linear: Vendas = 2 x (horário do pedido) – 22 Com base nessas informações, o incremento horário no número de vendas é dado por",
   "alts": {
@@ -170,6 +177,7 @@
   ]
  },
  {
+  "mod": "me1m2",
   "origem": "Cesgranrio 2015, Q62",
   "q": "A radiação não ionizante, utilizada em trabalhos com solda elétrica, metais e vidros incandescentes é composta de raios",
   "alts": {
@@ -194,6 +202,7 @@
   ]
  },
  {
+  "mod": "me1m3",
   "origem": "Cesgranrio 2010, Q52",
   "q": "O processo de soldagem que produz a união por fusão dos elementos metálicos através do arco elétrico estabelecido entre um eletrodo de tungstênio, não consumível, e a peça ou um bocal constritor, que limita o diâmetro do arco e aumenta a intensidade da fonte de calor, com a presença de fluxo de gases, é",
   "alts": {
@@ -219,6 +228,7 @@
   ]
  },
  {
+  "mod": "me1m3",
   "origem": "Cesgranrio 2023, Q69",
   "q": "A soldagem pelo método TIG pode ser empregada com diferentes configurações de corrente elétrica, utilizando argônio como gás inerte. Em todas as configurações, o gás argônio é ionizado com carga positiva e, por isso, sofre uma aceleração que resulta em elevada energia cinética. Sobre o efeito que esse íon argônio apresenta sobre a superfície do metal soldado, tem-se que, com corrente",
   "alts": {
@@ -244,6 +254,7 @@
   ]
  },
  {
+  "mod": "me1m3",
   "origem": "Cesgranrio 2023, Q54",
   "q": "Um engenheiro mecânico, ao analisar as propriedades mecânicas do metal depositado em uma solda a arco submerso (SAW), identificou que essa solda apresentava 430 MPa de limite de resistência e 330 MPa de limite de escoamento mínimo (0,2%). Com base na informação acima, qual é a designação utilizada como base para classificar o material empregado nessa solda?",
   "alts": {
@@ -269,6 +280,7 @@
   ]
  },
  {
+  "mod": "me1m3",
   "origem": "Cesgranrio 2010, Q50",
   "q": "A utilização de pastilhas intercambiáveis de metal duro para usinagem tem reduzido custos da indústria, pois preserva o corpo da ferramenta, substituindo apenas a pastilha, seja em troca de pastilhas diferentes, ao usinar diferentes materiais ou ao apresentar desgaste elevado. As pastilhas são divididas comercialmente em diferentes classes para usinar diferentes materiais. As características do material a seguir relacionam-se a três diferentes classes de pastilhas. I - Nesta classe, a pastilha é composta de carbonetos de tungstênio aglomerados pelo cobalto, indicada para usinagem de materiais frágeis que formam cavacos curtos, como ferros fundidos e latões. II - Com elevado teor de TiC e TaC, esta classe apresenta alta dureza a quente e resistência ao desgaste, e é indicada para a usinagem de aços e materiais dúcteis em geral. III - Esta classe tem propriedades intermediárias entre as classes I e II e é destinada a ferramentas com aplicações múltiplas. A relação correta entre material e classe da pastilha é:",
   "alts": {
@@ -294,6 +306,7 @@
   ]
  },
  {
+  "mod": "me1m4",
   "origem": "Cesgranrio 2023, Q61",
   "q": "A corrosão eletroquímica é uma das principais causas para falhas de materiais em serviço. Ela sempre pode ocorrer para determinadas geometrias em que dois materiais são colocados em contato íntimo um com o outro. É favorável a uma corrosão eletroquímica o seguinte sistema de materiais:",
   "alts": {
@@ -319,6 +332,7 @@
   ]
  },
  {
+  "mod": "me1m4",
   "origem": "Cesgranrio 2023, Q67",
   "q": "Um engenheiro precisa construir um forno elétrico para trabalhar na faixa de temperatura de 25°C até 1200°C sob atmosfera oxidante. O material interno do forno servirá de barreira isolante térmica e de isolante elétrico. Nesse caso, o material mais adequado para a parte interna do forno é a(o)",
   "alts": {
@@ -344,6 +358,7 @@
   ]
  },
  {
+  "mod": "me1m4",
   "origem": "Cesgranrio 2010, Q48",
   "q": "A seleção de materiais é uma atividade da Engenharia que envolve um processo de decisão não trivial, pois deve-se realizar uma escolha entre as propriedades, por vezes uma em detrimento de outra, em função das condições de utilização da peça. Para selecionar um material, deve-se considerar, além das questões econômicas, fatores como corrosão, desgaste e integridade estrutural. A seleção de um aço de alta resistência e baixa liga (ARBL ou, em inglês, HSLA) está relacionada à aplicação em",
   "alts": {
@@ -369,6 +384,7 @@
   ]
  },
  {
+  "mod": "me1m5",
   "origem": "Cesgranrio 2023, Q46",
   "q": "Em um projeto a determinação das dimensões da seção transversal de uma viga utiliza a expressão da tensão normal de flexão,  = Mc/I, na qual M é o momento fletor máximo, c é a distância entre a linha neutra e a fibra mais afastada da linha neutra, e I é o momento de inércia da seção. Essa tensão é comparada à tensão admissível do projeto, e o módulo de resistência à flexão necessário (W = I/c) é determinado. Considerando-se que a seção transversal seja retangular, de base b e altura h, esse módulo será expresso por",
   "alts": {
@@ -394,6 +410,7 @@
   ]
  },
  {
+  "mod": "me1m5",
   "origem": "Cesgranrio 2015, Q34",
   "q": "A linha elástica de uma viga engastada-livre, sujeita a um carregamento transversal uniforme ao longo de todo o seu vão, é representada por um polinômio de ordem",
   "alts": {
@@ -419,6 +436,7 @@
   ]
  },
  {
+  "mod": "me1m5",
   "origem": "Cesgranrio 2012, Q34",
   "q": "Dois corpos de prova, (1) e (2), de materiais distintos (E 1 ≠ E 2) e geometrias idênticas (A 1 = A 2 e L 1 = L 2), são submetidos a um ensaio de tração no regime elástico até uma carga F. Sendo E 1 > E 2, a",
   "alts": {
@@ -444,6 +462,7 @@
   ]
  },
  {
+  "mod": "me1m5",
   "origem": "Cesgranrio 2010, Q37",
   "q": "No dimensionamento de um eixo de material dúctil sujeito à torção combinada com flexão, onde o ponto mais solicitado situa-se na superfície do eixo, o critério de resistência mais adequado é o da (de)",
   "alts": {
@@ -469,6 +488,7 @@
   ]
  },
  {
+  "mod": "me1m6",
   "origem": "Cesgranrio 2023, Q41",
   "q": "Um engenheiro deseja estimar a frequência natural de um veículo de passeio, modelado como sistema de um grau de liberdade. Para isso, ele considerou uma massa de 1.000 kg e uma rigidez equivalente às suspensões do veículo com valor de 100 kN/m. Diante do exposto acima, a frequência natural, expressa em Hz, está na faixa entre",
   "alts": {
@@ -493,6 +513,7 @@
   ]
  },
  {
+  "mod": "me1m6",
   "origem": "Cesgranrio 2010, Q35",
   "q": "Um determinado sistema mecânico possui uma frequência natural (wn = k/m) igual a 10 rad/s. Deseja-se aumentar essa frequência natural em 20% substituindo a mola. A constante elástica da nova mola (k = d 4 G/8D 3 N) deve ser obtida modificando-se apenas o número de espiras N. Mantidos inalterados todos os demais parâmetros do sistema, e considerando-se que a mola original tenha 14,4 espiras, o número de espiras necessárias à nova mola é",
   "alts": {
@@ -517,6 +538,7 @@
   ]
  },
  {
+  "mod": "me1m6",
   "origem": "Cesgranrio 2023, Q44",
   "q": "Um veículo cuja massa é de 1.000 kg deve manter-se em uma trajetória circular de 40 m de raio a uma velocidade constante de 36 km/h. Nessa condição, o valor da força de atrito atuante nos pneus, expresso em N, é de",
   "alts": {
@@ -542,6 +564,7 @@
   ]
  },
  {
+  "mod": "me1m6",
   "origem": "Cesgranrio 2015, Q29",
   "q": "Em um mecanismo clássico, do tipo manivela-biela-pistão, a manivela possui velocidade de rotação constante no sentido horário. Em uma das fases em que a manivela se alinha com a biela, se o comprimento da biela for igual ao dobro do da manivela, o valor da velocidade angular da biela será igual",
   "alts": {

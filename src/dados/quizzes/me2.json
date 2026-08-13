@@ -1,5 +1,6 @@
 [
  {
+  "mod": "me2m1",
   "origem": "Cesgranrio 2023, Q70",
   "q": "Um sistema binário A-B apresenta um líquido que se solidifica de forma eutética com uma fração molar de B igual a 0,5. A fase rica em B não apresenta solubilidade para o componente A. A fase rica em A apresenta uma solubilidade máxima de 0,2 de B na temperatura do eutético. Uma liga contendo 35% molar de B foi preparada pela mistura de proporções adequadas de A e B no estado líquido. Essa liga foi resfriada lentamente buscando alcançar a solidificação de equilíbrio. Qual a fase do primeiro constituinte precipitado e qual a sua quantidade, respectivamente?",
   "alts": {
@@ -25,6 +26,7 @@
   ]
  },
  {
+  "mod": "me2m1",
   "origem": "Cesgranrio 2015, Q43",
   "q": "Que tipo de tratamento térmico é recomendado quando se deseja obter um produto final com alta ductilidade e resistência ao impacto, sem perda expressiva da dureza?",
   "alts": {
@@ -50,6 +52,7 @@
   ]
  },
  {
+  "mod": "me2m1",
   "origem": "Cesgranrio 2010, Q49",
   "q": "A maioria dos ferros fundidos utilizados na indústria apresenta, na composição química, teor de carbono entre 3 e 5%, além de outros elementos de liga. A denominação recebida se deve ao fato de fundir a temperaturas mais baixas que os aços, além de compor peças de estrutura frágil, adequadas a serem fabricadas a partir do processo de fundição. Dentre esses materiais, está o Ferro Fundido Branco, que se caracteriza por apresentar",
   "alts": {
@@ -75,6 +78,7 @@
   ]
  },
  {
+  "mod": "me2m2",
   "origem": "Cesgranrio 2023, Q24",
   "q": "Comparando dois motores, um seguindo o ciclo OTTO e o outro seguindo o ciclo DIESEL, considere as afirmações abaixo. I - Na prática, os motores DIESEL têm eficiência térmica superior aos motores OTTO, pois se conseguem razões maiores de compressão nos primeiros que aquelas nos motores OTTO. II - Os motores OTTO devem ser usados quando grandes potências se fazem necessárias, pois operam em rotações mais elevadas. III - Os motores DIESEL são máquinas de combustão externa, enquanto os motores OTTO são máquinas de combustão interna. IV - Os motores OTTO comprimem uma mistura ar + combustível, e os motores DIESEL comprimem ar tão somente. São corretas APENAS as afirmações",
   "alts": {
@@ -100,6 +104,7 @@
   ]
  },
  {
+  "mod": "me2m2",
   "origem": "Cesgranrio 2023, Q52",
   "q": "De forma geral, os motores de combustão interna aproveitam o aumento de pressão resultante da combustão da mistura ar-combustível para gerar movimento, sendo a cilindrada e a taxa de compressão características importantes desses motores. Considere um motor de quatro cilindros, no qual cada cilindro tem diâmetro D e curso C. Qual é a expressão que determina a cilindrada desse motor?",
   "alts": {
@@ -125,6 +130,7 @@
   ]
  },
  {
+  "mod": "me2m2",
   "origem": "Cesgranrio 2023, Q59",
   "q": "Considere um motor cujos volumes nos pontos morto inferior e morto superior sejam, respectivamente, 100 cm 3 e 10 cm 3. Qual é a taxa de compressão desse motor?",
   "alts": {
@@ -150,6 +156,7 @@
   ]
  },
  {
+  "mod": "me2m2",
   "origem": "Cesgranrio 2023, Q64",
   "q": "Um motor alternativo do ciclo Otto, com relação diâmetro × curso do cilindro igual a 98,4 mm × 89,7 mm, é modificado, e sua taxa de compressão original de 8:1 sofre um aumento de 25%. A razão entre os volumes da câmara de combustão antes e depois de tal modificação é",
   "alts": {
@@ -175,6 +182,7 @@
   ]
  },
  {
+  "mod": "me2m3",
   "origem": "Cesgranrio 2023, Q42",
   "q": "O eixo 1 da transmissão de movimento realizada por um par de engrenagens cônicas gira a 1.800 rpm para acionar o eixo 2 que demanda um torque de 120 N.m. Considerando-se que o pinhão possui 30 dentes, e a coroa, 60 dentes, a potência mínima necessária ao motor, expressa em watts, é de",
   "alts": {
@@ -200,6 +208,7 @@
   ]
  },
  {
+  "mod": "me2m3",
   "origem": "Cesgranrio 2012, Q41",
   "q": "O número de Sommerfeld é definido pela equação, que relaciona cinco parâmetros. Se, mantidos os demais parâmetros, a razão de folga radial passa a ser 90% de seu valor original, o novo valor do número característico do mancal é",
   "alts": {
@@ -225,6 +234,7 @@
   ]
  },
  {
+  "mod": "me2m3",
   "origem": "Cesgranrio 2012, Q39",
   "q": "Um redutor de velocidade permite até cinco diferentes reduções usando engrenagens cilíndricas de dentes retos. Os eixos das engrenagens movidas e motoras são paralelos, cilíndricos e de mesmo diâmetro, apoiados em rolamentos somente nas extremidades. No eixo de entrada, as engrenagens giram solidárias ao mesmo, enquanto que as engrenagens do eixo de saída podem deslizar sobre estrias. O torque de entrada é constante e somente é possível uma redução atuar por vez. Com respeito à estrutura descrita, analise as diretrizes abaixo. I - O par de engrenagens de maior transmissão de torque deve ficar na extremidade do eixo, para reduzir sua flexão. II - O par de engrenagens de maior transmissão de velocidade deve ficar na extremidade do eixo, para reduzir sua flexão. III - A velocidade crítica do eixo de saída deve ser maior do que a maior velocidade de saída. Estão corretas as afirmações",
   "alts": {
@@ -250,6 +260,7 @@
   ]
  },
  {
+  "mod": "me2m3",
   "origem": "Cesgranrio 2010, Q36",
   "q": "Um elemento estrutural pode falhar em níveis de tensão significativamente inferiores ao limite de resistência de um ensaio estático, se for submetido a carregamentos repetidos em substituição a um carregamento estático. O fenômeno da falha por fratura sob cargas flutuantes é denominado Fadiga. A esse respeito, analise as afirmativas abaixo. I – A fadiga é influenciada por descontinuidades estruturais menores, dimensões, geometria e qualidade de acabamento superficial de uma peça. II – Uma trinca por fadiga se inicia, geralmente, em um ponto de concentração de tensões. III – A falha por fadiga possui natureza dúctil, mesmo nos materiais que normalmente são frágeis. Está(ão) correta(s) APENAS a(s) afirmativa(s)",
   "alts": {
@@ -275,6 +286,7 @@
   ]
  },
  {
+  "mod": "me2m4",
   "origem": "Cesgranrio 2023, Q32",
   "q": "Ao iniciar uma viagem, o carro tinha 0,2 kg de ar (suposto gás perfeito) em cada pneu, à temperatura de 27ºC e pressão manométrica de 450 kPa. Ao final da viagem, a temperatura atingiu 57ºC. Despreze as variações de volume do pneu. Admita o seguinte: • as propriedades termodinâmicas da substância não foram alteradas durante a viagem; • Rar = 0,3 kN × m / Kg × K; • P atm = 100 kPa. Ao final da viagem, a pressão manométrica do ar no pneu, em KPa, e o volume do pneu, em m3, serão, respectivamente, iguais a",
   "alts": {
@@ -300,6 +312,7 @@
   ]
  },
  {
+  "mod": "me2m4",
   "origem": "Cesgranrio 2023, Q29",
   "q": "Um gás perfeito experimental é utilizado em uma compressão adiabática reversível, saindo da pressão (absoluta) P1 = 100 kPa, temperatura T1 = 293 K e atingindo a pressão (absoluta) de P2 = 400 kPa. Sabendo-se que a razão entre os calores específicos (k = cp / cv) vale 2, a temperatura final, em K, é igual a",
   "alts": {
@@ -325,6 +338,7 @@
   ]
  },
  {
+  "mod": "me2m4",
   "origem": "Cesgranrio 2012, Q60",
   "q": "Um compressor que opera em regime estacionário admite R-134a a P 1, T 1 e h 1 = 400 kJ/kg. Na saída do compressor, o fluido é descarregado a P 2, T 2 e h 2 = 450 kJ/kg. A potência de acionamento do equipamento é de 200 kW. Sabendo que o compressor é refrigerado a água e que a taxa de transferência de calor para a água é de 40 kW, a vazão de R-134a no compressor, em kg/s, vale",
   "alts": {
@@ -350,6 +364,7 @@
   ]
  },
  {
+  "mod": "me2m4",
   "origem": "Cesgranrio 2015, Q42",
   "q": "Um sistema executa um ciclo de potência reversível para o qual a temperatura média de adição de calor é 552°C, e a temperatura média na qual o calor é descarregado é 57°C. A eficiência térmica máxima desse ciclo, conhecida como eficiência de Carnot, em porcentagem, é de",
   "alts": {
@@ -375,6 +390,7 @@
   ]
  },
  {
+  "mod": "me2m5",
   "origem": "Cesgranrio 2015, Q37",
   "q": "Considere as seguintes quantidades de fluidos colocadas em 3 reservatórios distintos: 14 m 3 de água, 1 m 3 de mercúrio e 15 m 3 de gasolina. Em ordem crescente de peso nos reservatórios, tem-se",
   "alts": {
@@ -400,6 +416,7 @@
   ]
  },
  {
+  "mod": "me2m5",
   "origem": "Cesgranrio 2015, Q38",
   "q": "Para determinar o nível de etanol ( = 790 kg/m 3) em um reservatório, um técnico verificou que um manômetro instalado na base do reservatório indicava a pressão de 23,7 kPa. Considerando-se g = 10 m/s 2, esse nível, em m, pode ser estimado em",
   "alts": {
@@ -425,6 +442,7 @@
   ]
  },
  {
+  "mod": "me2m5",
   "origem": "Cesgranrio 2023, Q23",
   "q": "O diâmetro da tubulação necessária para escoar cerca de 7,5 m3/s, com uma velocidade média de 2,5 m/s, deve ser determinado. O diâmetro, em metros, dessa tubulação e a natureza do escoamento (laminar ou turbulento) serão, respectivamente,",
   "alts": {
@@ -450,6 +468,7 @@
   ]
  },
  {
+  "mod": "me2m6",
   "origem": "Cesgranrio 2023, Q22",
   "q": "Considere um ciclo teórico de Rankine, sem superaquecimento. As seguintes informações foram disponibilizadas: • Entrada na turbina: pressão = 6 MPa, temperatura 275,4 ºC, entalpia = 2784,30 kJ/kg • Saída da turbina: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 2020,12 kJ/kg • Saída do condensador: pressão de 20 kPa, temperatura 60,06 ºC, entalpia = 251,38 kJ/kg • Entrada na caldeira: pressão de 6 MPa, temperatura 60,06 ºC; entalpia = 257,50 kJ/kg De posse dessas informações e sabendo-se que a potência da turbina é 7,64 MW, constata-se que o fluxo de massa, em kg/s, é igual a",
   "alts": {
@@ -475,6 +494,7 @@
   ]
  },
  {
+  "mod": "me2m6",
   "origem": "Cesgranrio 2023, Q30",
   "q": "Em um ciclo Brayton padrão de gás, foi determinado que: • trabalho no compressor: 458,90 kJ / kg • trabalho na turbina: 894,9 kJ / kg • calor liberado na câmara de combustão: não informado • calor liberado para a fonte fria: 284,2 kJ / kg Com essas informações, constata-se que a eficiência do ciclo é igual a",
   "alts": {
@@ -500,6 +520,7 @@
   ]
  },
  {
+  "mod": "me2m7",
   "origem": "Cesgranrio 2010, Q64",
   "q": "Um engenheiro consulta os resultados de ensaio de uma bomba centrífuga trabalhando com uma velocidade constante de 875 rpm. Esses resultados estão representados em um diagrama com as curvas características de carga, rendimento e potência absorvida, em relação à vazão. Através deste diagrama, ele observa o comportamento de uma bomba de 75 HP, 340 l/s e 13,5 m de altura manométrica. O engenheiro decide, então, verificar o que ocorreria, caso fosse introduzida uma determinada alteração na condição de funcionamento da bomba, no caso, uma redução de velocidade para 700 rpm. Para essa situação específica, quais são, respectivamente, os novos valores de potência (HP), vazão (l/s) e de altura manométrica (m)?",
   "alts": {
@@ -525,6 +546,7 @@
   ]
  },
  {
+  "mod": "me2m7",
   "origem": "Cesgranrio 2010, Q60",
   "q": "Uma bomba centrífuga é utilizada em um determinado sistema, fornecendo a vazão correta, porém apresentando uma altura de carga muito inferior à necessária. Uma possível solução para tal problema é",
   "alts": {
@@ -550,6 +572,7 @@
   ]
  },
  {
+  "mod": "me2m7",
   "origem": "Cesgranrio 2015, Q51",
   "q": "Um indutor preso no eixo da bomba é uma solução utilizada para melhorar as condições de sucção das bombas centrífugas quando determinadas condições se tornam um problema crítico de bombeamento. Tais condições são:",
   "alts": {

@@ -32,7 +32,11 @@ const WEB = path.join(RAIZ, 'ferramentas', 'web');
 const CHROME = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const PORTA_CDP = 9411, PORTA_HTTP = 8811;
 const ESCALA = 2.4;                 // resolução do recorte
-const VAO_MIN = 55;                 // pontos de PDF; abaixo disso é espaço entre parágrafos
+/* Vão mínimo, em pontos de PDF, para um buraco no texto contar como figura.
+   55 era conservador demais e deixava de fora desenho pequeno — gráfico de
+   uma linha, esquema de duas peças. 38 pega esses sem confundir com espaço
+   entre parágrafos, que raramente passa de 25.                          */
+const VAO_MIN = 38;
 const MARGEM = 4;                   // folga em pontos ao redor do recorte
 
 const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
@@ -140,6 +144,7 @@ await new Promise(r => (ws.onopen = r));
 const cdp = (m, params = {}) => new Promise(res => { const i = ++idc; pend.set(i, res); ws.send(JSON.stringify({ id: i, method: m, params })); });
 
 const ligadas = [];
+const brancos = [];
 let feitos = 0;
 for (const chave of paginas) {
   const [prova, npTxt] = chave.split('|');
@@ -175,6 +180,17 @@ for (const chave of paginas) {
     const ctx = cv.getContext('2d');
     ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h);
     ctx.drawImage(img, x0, y0, w, h, 0, 0, w, h);
+    /* Nem todo vão no texto é figura: às vezes é só espaço. Recorte em
+       branco na tela é pior que figura nenhuma, porque o aluno fica
+       procurando o desenho. Mede-se a tinta de verdade antes de gravar. */
+    const pix = ctx.getImageData(0, 0, w, h).data;
+    let escuros = 0;
+    for (let i = 0; i < pix.length; i += 4) {
+      if (pix[i] < 200 && pix[i + 1] < 200 && pix[i + 2] < 200) escuros++;
+    }
+    const tinta = escuros / (w * h);
+    if (tinta < 0.004) { brancos.push(`${t.prova} Q${t.n}`); continue; }
+
     const nome = `${t.prova}-q${t.n}.png`;
     fs.writeFileSync(path.join(DESTINO, nome), cv.toBuffer('image/png'));
     ligadas.push({ prova: t.prova, n: t.n, arquivo: nome, w, h });
@@ -194,3 +210,4 @@ const porProva = {};
 ligadas.forEach(l => (porProva[l.prova] = (porProva[l.prova] || 0) + 1));
 console.log(`\n\n✓ ${ligadas.length} figuras em figuras/`);
 console.log(JSON.stringify(porProva, null, 1));
+if (brancos.length) console.log(`\n${brancos.length} recortes descartados por virem em branco (o vão não era figura):\n  ${brancos.join(' · ')}`);

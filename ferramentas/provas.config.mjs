@@ -99,6 +99,29 @@ export const PROVAS = [
     pagina: 2, faixaX: [196, 214],
   },
 
+  {
+    id: 'prod-2023', trilha: 'producao', ano: 2023, num: 19,
+    nome: 'Profissional Jr — Engenharia de Produção',
+    processo: 'Transpetro PSP/Terra 2023.2',
+    pdf: 'engenharia_de_producao.pdf',
+    /* mesma folha das outras de 2023.2; a PROVA 19 ocupa duas colunas
+       na página 6 (21–45 em x=308 e 46–70 em x=367) */
+    gab: 'gab eng de pro.pdf', ini: 21, ate: 70,
+    pagina: 6, faixaX: [300, 375],
+  },
+  {
+    /* Estava de fora desde o começo por falta da folha de gabarito. O
+       gabarito da Transpetro 2023.2 chegou junto com os cadernos de
+       Mecânica e cobre as provas 1 a 28 — esta é a 22. Mesma folha da
+       mec-2023, outra coluna.                                          */
+    id: 'elet-2023', trilha: 'eletrica', ano: 2023, num: 22,
+    nome: 'Profissional Jr — Engenharia Elétrica',
+    processo: 'Transpetro PSP/Terra 2023.2',
+    pdf: 'Elétrica\\engenharia_eletrica.pdf',
+    gab: '1.pdf', ini: 21, ate: 70,
+    pagina: 7, faixaX: [180, 255],
+  },
+
   /* Uma prova de Elétrica ainda está de fora por falta da folha certa de
      gabarito: prova_7 (Petrobras PSP RH 2/2012). O "gabarito.pdf" que veio
      junto é de outro processo. Baixe a folha correta, jogue na pasta e

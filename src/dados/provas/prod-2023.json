@@ -1,0 +1,632 @@
+{
+ "id": "prod-2023",
+ "trilha": "producao",
+ "ano": 2023,
+ "nome": "Profissional Jr — Engenharia de Produção",
+ "processo": "Transpetro PSP/Terra 2023.2",
+ "caderno": "engenharia_de_producao.pdf",
+ "folhaGabarito": "gab eng de pro.pdf",
+ "total": 47,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2023, Q21",
+   "q": "A análise de valor é uma das abordagens utilizadas na engenharia de operações e processos de produção que visa",
+   "alts": {
+    "A": "identificar e eliminar os custos desnecessários ou as atividades que não agregam valor aos produtos ou serviços.",
+    "B": "representar e analisar o comportamento dos sistemas produtivos sob diferentes condições, por meio da utilização de modelos matemáticos, computacionais ou físicos.",
+    "C": "definir e padronizar os melhores métodos para executar as tarefas nos sistemas produtivos, por meio da aplicação de técnicas como o estudo de tempos e movimentos, o diagrama de operações e o balanceamento de linhas.",
+    "D": "adaptar os sistemas produtivos às características físicas, psicológicas e sociais dos trabalhadores, por meio da aplicação de técnicas como a análise postural, a análise biomecânica e a análise cognitiva.",
+    "E": "indicar o volume máximo de produtos ou serviços que podem ser gerados pelos sistemas produtivos em um determinado período de tempo."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2023, Q22",
+   "q": "O Poka Yoke é uma das técnicas utilizadas na engenharia de operações e processos de produção que tem como objetivo",
+   "alts": {
+    "A": "eliminar os desperdícios e aumentar o valor dos produtos ou serviços, por meio da aplicação dos princípios da produção enxuta.",
+    "B": "reduzir a variabilidade e os defeitos nos processos, por meio da aplicação de ferramentas estatísticas e da melhoria contínua.",
+    "C": "prevenir ou detectar os erros nos processos, por meio da utilização de dispositivos à prova de falhas.",
+    "D": "promover a melhoria contínua dos processos, envolvendo todos os funcionários da organização.",
+    "E": "estabelecer os requisitos e as diretrizes para a gestão de ativos físicos, para otimizar o valor, o desempenho e os riscos dos ativos ao longo do seu ciclo de vida."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2023, Q23",
+   "q": "O que é o conceito de bullwhip effect (efeito chicote) em uma cadeia de suprimento?",
+   "alts": {
+    "A": "Um tipo de equipamento de transporte utilizado para movimentar mercadorias em longas distâncias.",
+    "B": "A variação sazonal na demanda por produtos.",
+    "C": "A amplificação da demanda, à medida que se move da ponta do consumidor de uma cadeia de suprimento para o fornecedor.",
+    "D": "Um método de avaliação de fornecedores com base em suas classificações.",
+    "E": "A velocidade com que os produtos são entregues aos clientes."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2023, Q24",
+   "q": "As três dimensões da sustentabilidade, segundo o conceito de triple bottom line, são as seguintes:",
+   "alts": {
+    "A": "econômica, política e ambiental",
+    "B": "social, econômica e cultural",
+    "C": "ambiental, econômica e social",
+    "D": "cultural, ambiental e social",
+    "E": "política, cultural e social"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2023, Q25",
+   "q": "Uma das formas de incorporar a inflação na análise econômica de projetos é o uso de taxas",
+   "alts": {
+    "A": "de opções reais",
+    "B": "nominais unicamente",
+    "C": "reais e fluxos nominais",
+    "D": "nominais e fluxos reais",
+    "E": "nominais e fluxos nominais"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2023, Q26",
+   "q": "Uma das formas de considerar os impostos na análise econômica de projetos é usar fluxos de caixa",
+   "alts": {
+    "A": "antes dos impostos",
+    "B": "depois dos impostos",
+    "C": "equivalentes aos impostos",
+    "D": "isentos de impostos",
+    "E": "equivalentes aos impostos e depois dos impostos"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2023, Q27",
+   "q": "O seguinte critério é usado para avaliar a qualidade e a maturidade de um sistema organizacional na engenharia organizacional:",
+   "alts": {
+    "A": "Critério EFQM",
+    "B": "Critério CMMI",
+    "C": "Critério ISO 9001",
+    "D": "Critério PDCA",
+    "E": "Critério COBIT"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2023, Q28",
+   "q": "Qual abordagem de engenharia organizacional se concentra na adequação entre contexto, estrutura e desempenho das empresas?",
+   "alts": {
+    "A": "Teoria das Relações Humanas",
+    "B": "Teoria da Contingência",
+    "C": "Teoria institucional",
+    "D": "Gestão por Objetivos (MBO)",
+    "E": "Benchmarking"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2023, Q29",
+   "q": "O seguinte diagrama é uma das ferramentas utilizadas na gestão da manutenção para identificar as causas raízes dos problemas nos equipamentos:",
+   "alts": {
+    "A": "Sankey",
+    "B": "Pareto",
+    "C": "Gantt",
+    "D": "Venn",
+    "E": "Ishikawa"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2023, Q30",
+   "q": "Uma das tendências atuais na gestão da manutenção, impulsionada pelo avanço das tecnologias digitais, é a opção pela manutenção",
+   "alts": {
+    "A": "autônoma",
+    "B": "inteligente",
+    "C": "preditiva",
+    "D": "prescritiva",
+    "E": "proativa"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2023, Q31",
+   "q": "Qual é a principal diferença entre just-in-time e just-in- -sequence?",
+   "alts": {
+    "A": "Just-in-time é uma técnica de gestão da produção, enquanto just-in-sequence é uma técnica de gestão do estoque.",
+    "B": "Just-in-time é uma técnica de gestão do estoque, enquanto just-in-sequence é uma técnica de gestão da produção.",
+    "C": "Just-in-time é uma técnica de gestão da produção que visa reduzir os estoques e os custos, enquanto just- -in-sequence é uma técnica de gestão da produção que visa sincronizar a entrega dos componentes com a montagem dos produtos.",
+    "D": "Just-in-time é uma técnica de gestão da produção que visa aumentar a eficiência e a qualidade dos produtos, enquanto just-in-sequence é uma técnica de gestão da produção que visa adaptar a produção à demanda dos clientes.",
+    "E": "Just-in-time é uma técnica de gestão da produção que visa eliminar os desperdícios e melhorar os processos, enquanto just-in-sequence é uma técnica de gestão da produção que visa integrar os fornecedores e os distribuidores."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2023, Q32",
+   "q": "Os arranjos físicos e o layout variam segundo a variedade e o volume da produção. Qual é o arranjo físico ideal para uma produção por grandes lotes (batelada) com alta variedade e volume de produção?",
+   "alts": {
+    "A": "Posicional",
+    "B": "Posicional por processo",
+    "C": "Por processo celular",
+    "D": "Celular por produto",
+    "E": "Por produto"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2023, Q33",
+   "q": "Qual é o tipo de arranjo físico e o layout mais adequado para grande movimentação de materiais, controle complexo e altos estoques intermediários na produção?",
+   "alts": {
+    "A": "Produto em linha",
+    "B": "Posicional fixo",
+    "C": "Posicional por processo",
+    "D": "Funcional ou por processo",
+    "E": "Processo celular"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2023, Q34",
+   "q": "Uma das ferramentas utilizadas na engenharia de métodos para identificar e eliminar as perdas atribuídas às distâncias entre máquinas e funcionários desnecessárias ou ineficientes na execução das atividades é o diagrama de",
+   "alts": {
+    "A": "operações",
+    "B": "processo",
+    "C": "fluxo",
+    "D": "movimentos",
+    "E": "Gantt"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2023, Q35",
+   "q": "Uma das medidas utilizadas na engenharia de métodos para avaliar o tempo necessário para a execução das atividades, considerando-se os fatores que afetam o desempenho do operador, é o tempo",
+   "alts": {
+    "A": "padrão",
+    "B": "normal",
+    "C": "estimado",
+    "D": "cronometrado",
+    "E": "compartilhado"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2023, Q36",
+   "q": "O método Stage-Gate é um procedimento que apresenta várias etapas. A seguinte etapa é usada para a gestão do processo de desenvolvimento de produto para colocá-lo no mercado, que consiste em uma série de fases e portões para avaliar e controlar o progresso do projeto:",
+   "alts": {
+    "A": "descoberta e escopo",
+    "B": "escopo e desenvolvimento",
+    "C": "desenvolvimento e teste",
+    "D": "teste e lançamento",
+    "E": "lançamento"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2023, Q37",
+   "q": "Existe uma estrutura ética de tomada de decisão que consiste em quatro etapas: identificar, avaliar, resolver e comunicar. Trata-se do(a)",
+   "alts": {
+    "A": "Estrutura IERC",
+    "B": "Estrutura PLUS",
+    "C": "Modelo RIPS",
+    "D": "Modelo ÉTICA",
+    "E": "Modelo COMPLIANCE"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2023, Q38",
+   "q": "O S&OP é um processo participativo, que reúne profissionais de diversas áreas, de dentro e de fora da empresa. Nas variantes mais maduras e evoluídas desse processo, há departamentos ou áreas funcionais de uma empresa e de sua cadeia de suprimentos que devem participar de todas as reuniões mensais de S&OP. Considerando-se as variantes mais maduras de S&OP, devem participar de todas as reuniões mensais:",
+   "alts": {
+    "A": "Marketing, Vendas, Produção, Compras, Supply Chain/logística, Finanças, desenvolvimento de novos produtos, clientes-chave, fornecedores-chave",
+    "B": "Marketing, Vendas, Produção, Compras, Supply Chain/logística, desenvolvimento de novos produtos, fornecedores-chave",
+    "C": "Marketing, Vendas, Produção, Compras, Supply Chain/logística, desenvolvimento de novos produtos, clientes-chave, fornecedores-chave",
+    "D": "Vendas, Produção, Compras, Finanças, desenvolvimento de novos produtos, clientes-chave, fornecedores-chave",
+    "E": "Vendas, Produção, Compras, Supply Chain/logística, Finanças, desenvolvimento de novos produtos, clientes-chave"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2023, Q39",
+   "q": "O S&OP é a parte do planejamento agregado da produção que, na maioria das empresas, calcula a(o)",
+   "alts": {
+    "A": "quantidade de produtos acabados que deverão ser produzidos.",
+    "B": "quantidade de componentes que devem ser montados na fabricação de produtos.",
+    "C": "equilíbrio entre oferta e demanda para famílias de produtos.",
+    "D": "sequenciamento de máquinas nas linhas de produção.",
+    "E": "equilíbrio entre oferta e demanda para famílias de produtos e para produtos específicos."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2023, Q40",
+   "q": "Um engenheiro estava fazendo o planejamento da produção de uma fábrica de bicicletas. Foi-lhe pedido que utilizasse o software de planejamento da produção para calcular quanto e quando comprar componentes para montar a linha de bicicletas produzidas por essa fábrica. As heurísticas de reposição de estoque sob demanda variável no tempo buscam comprar as menores quantidades de componentes, ao menor custo e no momento certo da montagem. Dentre as heurísticas de reposição de demanda determinística variável no tempo, o engenheiro decidiu escolher a de menor custo, que é a seguinte:",
+   "alts": {
+    "A": "reposição lote a lote",
+    "B": "lote econômico de compras",
+    "C": "pedidos periódicos",
+    "D": "menor custo unitário",
+    "E": "heurística de Silver Meal"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2023, Q41",
+   "q": "Há diferentes maneiras de se medir o ciclo de vida dos combustíveis e seus efeitos na sustentabilidade. O ciclo de vida do “tanque à roda” preocupa-se com a eficiência energética e com as emissões causadas pelos veículos em movimento. O ciclo de vida do “poço à roda”, além da eficiência energética, mede igualmente as emissões de gases de efeito estufa desde o poço de petróleo até o tanque de combustível dos veículos. Nesse contexto, qual política nacional considera o ciclo de vida dos combustíveis do “poço à roda”?",
+   "alts": {
+    "A": "Conpet",
+    "B": "Proconve",
+    "C": "Renovabio",
+    "D": "Rota 2030",
+    "E": "Programa Brasileiro de Etiquetagem"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2023, Q42",
+   "q": "O grande volume de dados gerados por sensores, máquinas e equipamentos na Indústria 4.0 é chamado, em sistemas de informação, de Big Data. Para funcionar de forma eficiente, o Big Data tem alguns atributos chamados de Vs do Big Data. Esses atributos são",
+   "alts": {
+    "A": "Velocidade, Volume, Variedade, Veracidade, Valor",
+    "B": "Velocidade, Volume, Variedade, Veracidade, Vigência",
+    "C": "Velocidade, Volume, Variedade, Veracidade, Valor, Viabilidade",
+    "D": "Velocidade, Volume, Variedade, Veracidade, Valor, Viabilidade, Vigência",
+    "E": "Velocidade, Variedade, Veracidade, Valor, Viabilidade, Vigência"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2023, Q43",
+   "q": "O termo Indústria 4.0 foi cunhado em 2011 na feira de Hanover, na Alemanha, para designar fábricas inteligentes onde os sistemas físicos e virtuais cooperam de forma global e flexível. Essa colaboração é propiciada pelas seguintes tecnologias habilitadoras",
+   "alts": {
+    "A": "Internet das Coisas ou Internet Of Things (Iot), Simulação Digital, Cyber-Security ou Segurança Digital, Integração de Sistemas",
+    "B": "Robôs Autônomos, Internet das Coisas ou Internet Of Things (Iot), Cyber-Security ou Segurança Digital, Computação na Nuvem, Manufatura Aditiva, Big Data, Realidade Aumentada (“Augmented Reality”)",
+    "C": "Robôs Autônomos, Internet das Coisas ou Internet Of Things (Iot), Simulação Digital, Cyber-Security ou Segurança Digital, Integração de Sistemas, Computação na Nuvem, Manufatura Aditiva, Big Data.",
+    "D": "Robôs Autônomos, Internet das Coisas ou Internet Of Things (Iot), Simulação Digital, Integração de Sistemas, Computação na Nuvem, Manufatura Aditiva, Big Data, Realidade Aumentada (“Augmented Reality”)",
+    "E": "Robôs Autônomos, Internet das Coisas ou Internet Of Things (Iot), Simulação Digital, Cyber-Security ou Segurança Digital, Integração de Sistemas, Computação na Nuvem, Manufatura Aditiva, Big Data, Realidade Aumentada (“Augmented Reality”)"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2023, Q44",
+   "q": "O bom gerenciamento da cadeia de suprimentos é fundamental para as empresas, por tratar-se da(o)",
+   "alts": {
+    "A": "estrutura organizacional que define as responsabilidades, as funções e as relações entre os diferentes agentes da logística empresarial.",
+    "B": "rede de organizações envolvidas na produção, na transformação e na distribuição de um produto ou serviço desde os fornecedores até os clientes finais.",
+    "C": "sistema de informação que integra e coordena os dados e os fluxos de informação entre os diversos elos da logística empresarial.",
+    "D": "conjunto de processos que ligam as atividades de planejamento, de execução e de controle da logística empresarial em uma organização.",
+    "E": "modelo de gestão que busca otimizar o desempenho da logística empresarial por meio da melhoria contínua dos processos e da qualidade."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2023, Q45",
+   "q": "Sobre a diferença entre logística inbound e outbound, tem-se que a logística inbound é a que se refere ao fluxo de bens e serviços",
+   "alts": {
+    "A": "que entram na organização, enquanto a logística outbound é a que se refere ao fluxo de bens e serviços que saem da organização.",
+    "B": "que saem da organização, enquanto a logística outbound é a que se refere ao fluxo de bens e serviços que entram na organização.",
+    "C": "entre a organização e seus fornecedores, enquanto a logística outbound é a que se refere ao fluxo de bens e serviços entre a organização e seus clientes.",
+    "D": "entre a organização e seus clientes, enquanto a logística outbound é a que se refere ao fluxo de bens e serviços entre a organização e seus fornecedores.",
+    "E": "dentro da organização, enquanto a logística outbound é a que se refere ao fluxo de bens e serviços fora da organização."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2023, Q47",
+   "q": "O sistema dutoviário de transportes no Brasil é aquele que utiliza tubulações para transportar produtos. Esse modal surgiu no país na década de 50 e tem algumas vantagens, como baixo custo operacional, alta capacidade de carga, menor emissão de poluentes, maior segurança e funcionamento contínuo. Por outro lado, também tem algumas desvantagens, como baixa velocidade, pouca flexibilidade de destinos e de produtos e infraestrutura precária. Considerando-se o exposto, quais são os principais produtos transportados pelo modal dutoviário no Brasil?",
+   "alts": {
+    "A": "Óleo, carvão, cimento e água",
+    "B": "Óleo, gás, minério e sal-gema",
+    "C": "Óleo, minério, sal-gema e carvão",
+    "D": "Gás, sal-gema, cimento e água",
+    "E": "Minério, carvão, cimento e água"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2023, Q48",
+   "q": "Buscando atender à demanda de clientes, a manufatura utiliza três principais estratégias: antecipação da demanda, aumentando a capacidade produtiva antes que a demanda ocorra; seguimento da demanda, aguardando que a demanda ultrapasse a capacidade produtiva para aumentar a capacidade; e uma estratégia mista, combinando antecipação e seguimento da demanda. Em indústrias de fluxo contínuo de produção, como siderúrgicas ou fábricas de celulose, a estratégia mais utilizada é a de seguir a demanda, pois nesse tipo de indústria",
+   "alts": {
+    "A": "a complexidade do processo produtivo em fluxo contínuo exige maior tempo de planejamento para expandir.",
+    "B": "a demanda tem uma grande elasticidade, e os clientes aguardam as expansões.",
+    "C": "os tempos de realização da expansão são demasiadamente longos.",
+    "D": "os valores financeiros necessários para a expansão são muito altos, tornando a antecipação inviável.",
+    "E": "os fornecedores de máquinas e equipamentos para a indústria de fluxo contínuo demandam maior tempo de entrega."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2023, Q49",
+   "q": "Qual é a diferença entre missão e visão no planejamento estratégico?",
+   "alts": {
+    "A": "Missão é a razão de ser da empresa, e visão é a situação desejada para o futuro.",
+    "B": "Missão é a situação desejada para o futuro, e visão é a razão de ser da empresa.",
+    "C": "Missão é o conjunto de valores que guiam as decisões da empresa, e visão é o diferencial competitivo que ela oferece.",
+    "D": "Missão é o diferencial competitivo que a empresa oferece, e visão é o conjunto de valores que guiam as decisões da empresa.",
+    "E": "Missão e visão são sinônimos no planejamento estratégico."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2023, Q50",
+   "q": "No planejamento estratégico, quais são as características das metas SMART?",
+   "alts": {
+    "A": "Simples, Mensuráveis, Alcançáveis, Relevantes e Temporais",
+    "B": "Específicas, Mensuráveis, Atribuíveis, Realistas e Temporais",
+    "C": "Específicas, Mensuráveis, Alcançáveis, Relevantes e Temporais",
+    "D": "Estratégicas, Mensuráveis, Ajustáveis, Realistas e Temporais",
+    "E": "Estratégicas, Mensuráveis, Alcançáveis, Responsáveis e Temporais"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2023, Q51",
+   "q": "J confecciona raquetes de tênis de mesa, com uma montagem simples composta pelos seguintes materiais: um cabo, uma placa de madeira e duas espumas coladas em cada face da placa de madeira. Ele recebeu um pedido fechado para montagem e entrega de 5.000 unidades. Ele paga R$ 37,00 para cada pedido colocado e R$ 0,35 por unidade de estoque por mês. Considerando-se que J pretende minimizar seus custos de aquisição e de estocagem e utilizando-se o lote econômico de compras, qual seria o tamanho ótimo, em unidades, do lote de compras de manta de espuma que J deveria comprar?",
+   "alts": {
+    "A": "748",
+    "B": "1.028",
+    "C": "1.454",
+    "D": "1.543",
+    "E": "2.500"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2023, Q52",
+   "q": "São atribuídas aos autores Shewart e Deming as seguintes ferramentas de controle da qualidade:",
+   "alts": {
+    "A": "Análises de Pareto",
+    "B": "Arranjos físicos de qualidade",
+    "C": "Causas-raiz dos problemas da qualidade",
+    "D": "Ciclos PDCA",
+    "E": "Poka Yoke"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2023, Q53",
+   "q": "Seis Sigma é um sistema abrangente e flexível de controle estatístico da qualidade para se alcançar, sustentar e maximizar o êxito nos negócios, por meio da redução, ao mínimo, de defeitos e de variabilidade nos processos. Ele utiliza amplamente os princípios e as ferramentas da gestão de sistemas da qualidade. O sistema Seis Sigma foi desenvolvido nas fábricas da Motorola, obtendo o seguinte número de defeitos da qualidade para cada milhão de produtos produzidos:",
+   "alts": {
+    "A": "0,019",
+    "B": "3,4",
+    "C": "6,21",
+    "D": "233",
+    "E": "66.807"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2023, Q54",
+   "q": "O planejamento e o controle de qualidade com o método Seis Sigma utiliza uma ampla gama de métodos e de ferramentas extraídos da gestão da qualidade e dos sistemas de produção enxuta (Lean). O Seis Sigma, porém, tem um método próprio de estruturar o planejamento, cuja sigla é",
+   "alts": {
+    "A": "GEMBA",
+    "B": "DMAIC",
+    "C": "SIPOC",
+    "D": "PDCA",
+    "E": "VSM"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2023, Q55",
+   "q": "Uma cadeia de suprimentos que utiliza uma estratégia reativa para se adaptar às mudanças do ambiente após uma ruptura da cadeia de suprimentos é denominada uma cadeia de suprimentos",
+   "alts": {
+    "A": "robusta",
+    "B": "resistente",
+    "C": "tradicional",
+    "D": "enxuta",
+    "E": "ágil"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2023, Q56",
+   "q": "Considere que, em uma fábrica, após amostragem por grupos racionais, foi observado que uma determinada máquina que apresente defeito segue uma variável aleatória exponencial de taxa λ=1/2, ou seja, média de 2 horas para ser reparada. Essa fábrica, porém, encontra-se em um momento crítico da produção, e os gestores precisam saber qual é a probabilidade de que um reparo leve entre 2 e 4 horas para ser efetuado. Após realizar os cálculos, verificou-se que essa probabilidade é igual a",
+   "alts": {
+    "A": "0,1353",
+    "B": "0,2206",
+    "C": "0,2325",
+    "D": "0,3267",
+    "E": "0,3678"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2023, Q57",
+   "q": "Uma empresa de embalagens tem a seguinte distribuição de demanda para os próximos 12 meses: Período 1 2 3 4 5 6 7 8 9 10 11 12 Totais Demanda 15 70 20 115 160 140 70 60 150 180 240 60 1.280 Essa empresa também tem uma restrição de seu fornecedor principal na entrega de pedidos periódicos, porém a periodicidade das entregas pode ser decidida pelo comprador. Sabe-se que o custo de colocação de um pedido é de R$ 54,00, e o custo de manutenção de estoque, por unidade e por mês, é de R$ 0,40. Nesse cenário, utilizando-se a heurística de pedidos periódicos, de quantos em quantos meses essa empresa deve colocar os pedidos, de modo a minimizar seus custos?",
+   "alts": {
+    "A": "De uma única vez",
+    "B": "A cada seis meses",
+    "C": "A cada três meses",
+    "D": "A cada dois meses",
+    "E": "Todos os meses"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2023, Q58",
+   "q": "Uma usina de produção de moldes de plástico opera com três componentes independentes e vitais para o seu funcionamento. Caso um componente falhe, toda a produção para. O tempo de vida dos componentes segue uma distribuição exponencial com valores esperados de 10t, 10t/3 e 10t/6. O diretor de produção está orçando as aquisições para o próximo ano e solicitou o cálculo da probabilidade de o sistema não falhar antes de t. Essa probabilidade é igual a",
+   "alts": {
+    "A": "0,1353",
+    "B": "0,2206",
+    "C": "0,2325",
+    "D": "0,2540",
+    "E": "0,3678"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2023, Q59",
+   "q": "Qual é a principal diferença entre a Indústria 3.0 e a Indústria 4.0?",
+   "alts": {
+    "A": "A Indústria 3.0 é caracterizada pela utilização de máquinas controladas por computadores, enquanto na Indústria 4.0 as máquinas realizam o trabalho de forma autônoma.",
+    "B": "A Indústria 3.0 é caracterizada pela utilização de máquinas que são apenas automatizadas, enquanto na Indústria 4.0 as máquinas realizam o trabalho de forma autônoma.",
+    "C": "A Indústria 3.0 é caracterizada pela utilização de máquinas que realizam o trabalho de forma autônoma, enquanto na Indústria 4.0 as máquinas são apenas automatizadas.",
+    "D": "A Indústria 3.0 é caracterizada pela utilização de máquinas que realizam o trabalho de forma autônoma, enquanto na Indústria 4.0 as máquinas são controladas por computadores.",
+    "E": "Não há diferença entre as duas indústrias."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2023, Q61",
+   "q": "Quais são os principais tipos de transporte utilizados na logística empresarial?",
+   "alts": {
+    "A": "Rodoviário, ferroviário, aquaviário, aéreo e dutoviário",
+    "B": "Direto, indireto, intermodal, multimodal e unimodal",
+    "C": "Terrestre, marítimo, fluvial, lacustre e espacial",
+    "D": "Individual, coletivo, público, privado e misto",
+    "E": "Pesado, leve, médio, especial e alternativo"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2023, Q62",
+   "q": "As ferramentas mais adequadas para apoiar a gestão do conhecimento tácito são os sistemas de",
+   "alts": {
+    "A": "aprendizagem eletrônica",
+    "B": "comunidades de prática",
+    "C": "gerenciamento de documentos",
+    "D": "inteligência artificial",
+    "E": "mapas conceituais"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2023, Q64",
+   "q": "Qual modal de transporte de carga é indicado para mercadorias de volumes muito grandes, que precisam ser deslocados por longos trajetos?",
+   "alts": {
+    "A": "Aéreo",
+    "B": "Dutoviário",
+    "C": "Ferroviário",
+    "D": "Hidroviário",
+    "E": "Rodoviário"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2023, Q65",
+   "q": "Existe uma fase do planejamento estratégico que busca avaliar as forças, as fraquezas, as oportunidades e as ameaças (SWOT) da empresa, bem como os fatores políticos, econômicos, sociais, tecnológicos, ambientais e legais (PESTAL) que afetam um negócio. Trata-se da fase de",
+   "alts": {
+    "A": "acompanhamento dos resultados",
+    "B": "análise do cenário",
+    "C": "definição da missão, visão e valores",
+    "D": "formulação das estratégias",
+    "E": "implementação das ações"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2023, Q66",
+   "q": "A Indústria 4.0 traz mudanças disruptivas em diferentes modos de produção e setores econômicos, tais como serviços, agricultura e lazer, por exemplo. Além disso, novas tecnologias estão fundindo os mundos físico, digital e biológico, de forma a criar grandes promessas e possíveis perigos, incluindo uma mudança radical nas profissões. Nesse cenário, qual profissão tem maior probabilidade de ser substituída devido a essa revolução industrial?",
+   "alts": {
+    "A": "Diretor",
+    "B": "Psicólogo",
+    "C": "Gerente de vendas",
+    "D": "Corretor de Imóveis",
+    "E": "Engenheiro naval"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2023, Q67",
+   "q": "A Fundação Nacional da Qualidade desenvolveu, no Brasil, um modelo de excelência em gestão (MEG) composto pelas seguintes dimensões:",
+   "alts": {
+    "A": "liderança, estratégia e planos, clientes, resultados",
+    "B": "liderança, estratégia e planos, clientes, sociedade, resultados",
+    "C": "liderança, estratégia e planos, clientes, sociedade, resultados, informações, conhecimentos",
+    "D": "liderança, estratégia e planos, clientes, resultados, informações, conhecimentos, geração de valor, pensamento sistêmico",
+    "E": "pensamento sistêmico, aprendizado organizacional e inovação, liderança transformadora, compromisso com as partes interessadas, adaptabilidade, desenvolvimento sustentável, orientação por processos, geração de valor"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2023, Q68",
+   "q": "Uma empresa avalia duas opções de pagamento na compra de um equipamento, cujo preço inicial é de R$ 4.000.000,00. Opção I – Pagamento à vista, com 5% de desconto. Opção II – Pagamento a prazo, em duas prestações semestrais iguais e consecutivas, no valor de R$ 2.000.000,00 cada, sendo a primeira paga 6 meses após a compra. Comparando-se as duas opções, verifica-se que a taxa semestral de juros compostos, embutida nesse financiamento, está mais próxima de",
+   "alts": {
+    "A": "3,0%",
+    "B": "3,5%",
+    "C": "4,0%",
+    "D": "4,5%",
+    "E": "5,0%"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2023, Q69",
+   "q": "Um engenheiro coordena as aquisições de uma empresa pública e realiza estudo sobre preferências possíveis no procedimento licitatório. Nos termos da Lei Complementar n o 123/2006, nas contratações públicas da administração direta e indireta, autárquica e fundacional, federal, estadual e municipal, deverá ser concedido tratamento diferenciado e simplificado para as microempresas e empresas de pequeno porte, objetivando a promoção do desenvolvimento econômico e social no âmbito municipal e regional, a ampliação da eficiência das políticas públicas e o incentivo à",
+   "alts": {
+    "A": "inovação tecnológica",
+    "B": "redução de custos",
+    "C": "exploração do teletrabalho",
+    "D": "melhora da burocracia",
+    "E": "atualização de procedimentos"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2023, Q70",
+   "q": "Um engenheiro foi contratado por uma sociedade de economia mista como consultor para implantar métodos modernos de utilização das tecnologias mais eficazes e com menor custo, visando resolver o problema causado pela crise econômica pós-pandemia, que diminuiu o mercado consumidor. Nos termos da Lei n o 13.303/2016, as licitações e os contratos disciplinados por essa lei devem respeitar, especialmente, as normas relativas à utilização de produtos, equipamentos e serviços que, comprovadamente, reduzam o",
+   "alts": {
+    "A": "consumo de energia",
+    "B": "acesso à natureza",
+    "C": "gasto com informática",
+    "D": "nível de emprego",
+    "E": "custo alimentar"
+   },
+   "correta": "A"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [],
+  "quebradas": [
+   46,
+   60,
+   63
+  ]
+ }
+}

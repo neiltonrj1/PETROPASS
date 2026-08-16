@@ -1,0 +1,621 @@
+{
+ "id": "elet-2023",
+ "trilha": "eletrica",
+ "ano": 2023,
+ "nome": "Profissional Jr — Engenharia Elétrica",
+ "processo": "Transpetro PSP/Terra 2023.2",
+ "caderno": "Elétrica\\engenharia_eletrica.pdf",
+ "folhaGabarito": "1.pdf",
+ "total": 45,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2023, Q21",
+   "q": "O projeto de sistemas de transmissão de energia elétrica deve considerar os parâmetros elétricos das linhas de transmissão. No efeito pelicular que ocorre em corrente alternada, verifica-se que quanto maior é a frequência elétrica do sistema de transmissão,",
+   "alts": {
+    "A": "maior é a resistência aparente do condutor da linha, devido à distribuição não uniforme da corrente elétrica resultante da redução da densidade de corrente no centro do condutor.",
+    "B": "menor é a resistência aparente do condutor da linha, devido à redução da resistividade elétrica na periferia do condutor resultante do aumento de carga elétrica no centro do condutor.",
+    "C": "maior é a capacitância aparente do condutor da linha, devido ao aumento do campo elétrico na periferia do condutor resultante da redução da carga elétrica no centro do condutor.",
+    "D": "menor é a capacitância aparente do condutor da linha, devido ao aumento da carga elétrica na periferia do condutor resultante da redução da densidade de corrente no centro do condutor.",
+    "E": "menor é a condutância paralela aparente dos isoladores da linha, devido ao aumento do campo elétrico na periferia do condutor resultante da redução da densidade de corrente no centro do condutor."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2023, Q22",
+   "q": "Os Dispositivos de Proteção contra Surtos (DPS) devem ser instalados corretamente para a garantia da funcionalidade do dispositivo e da proteção da instalação e de seus usuários. Suponha que a linha elétrica de energia que chega à edificação não inclua neutro. Quando instalado junto ao ponto de entrada da linha na edificação ou no quadro de distribuição principal, os DPS",
+   "alts": {
+    "A": "se conectam em série, um em cada circuito, a jusante do ponto de entrega da instalação, substituindo o uso dos disjuntores na proteção contra curto-circuito da instalação.",
+    "B": "não podem ser conectados ao barramento de equipotencialização principal da edificação, sendo cada DPS instalado em paralelo aos terminais de cada disjuntor dos circuitos da instalação.",
+    "C": "devem ser instalados de modo a conduzir toda a corrente dos circuitos, sendo cada DPS instalado em série com cada disjuntor dos circuitos da instalação.",
+    "D": "substituem o sistema de aterramento da instalação, e cada DPS provê o potencial terra para cada circuito da instalação.",
+    "E": "se conectam, cada um, de um lado a um condutor de fase e, do outro, ao barramento de equipotencialização principal da edificação ou à barra dos condutores de proteção do quadro (barra PE)."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2023, Q23",
+   "q": "Um transformador monofásico de relação de transformação unitária foi submetido ao ensaio de curto-circuito, com os seguintes resultados: potência ativa igual a 800 W, tensão e corrente de alimentação, respectivamente, de 50 V e 20 A. Considere a corrente de magnetização e as perdas no núcleo do transformador desprezíveis. Quando o transformador for alimentado por uma fonte de 400 V no enrolamento primário, e uma carga, composta por uma resistência de 23 ohms em série com uma reatância capacitiva de 1,5 ohms, for conectada no enrolamento secundário, qual será o rendimento expresso percentualmente?",
+   "alts": {
+    "A": "100",
+    "B": "98",
+    "C": "95",
+    "D": "92",
+    "E": "90"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2023, Q24",
+   "q": "Um transformador monofásico está operando conectado como um autotransformador com tensão no primário de 300 V e tensão no secundário de 100 V. Nessas condições, o autotransformador tem potência nominal de 60 kVA. Qual é a potência nominal do transformador, em quilovolt- -ampère, quando operando na sua configuração original, ou seja, sem nenhuma conexão elétrica entre o primário e o secundário?",
+   "alts": {
+    "A": "120",
+    "B": "60",
+    "C": "40",
+    "D": "30",
+    "E": "20"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2023, Q25",
+   "q": "Um motor de corrente contínua, com o enrolamento de campo conectado em paralelo com o enrolamento de armadura, é alimentado pela tensão nominal de 200 V nos seus terminais e possui enrolamento de compensação e interpolos, de forma que seu fluxo pode ser considerado constante, independentemente da carga aplicada ao motor. Quando opera a vazio, possui torque induzido igual a zero, consome uma corrente total do alimentador de 10 A e produz uma velocidade de 1800 rpm. Considere que a resistência de armadura inclua as resistências do próprio enrolamento de armadura, das escovas, do enrolamento de compensação e dos interpolos. Sabendo-se que, quando o motor opera a uma velocidade de 1728 rpm, uma corrente total do alimentador de 170 A é consumida, qual é o valor da resistência da armadura, em miliohms?",
+   "alts": {
+    "A": "115",
+    "B": "50",
+    "C": "47",
+    "D": "40",
+    "E": "20"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2023, Q26",
+   "q": "Duas máquinas síncronas trifásicas operam acopladas uma a outra pelos seus eixos dos rotores. Uma máquina tem 6 polos, e a outra tem 8 polos. Uma máquina opera como motor, alimentada por uma fonte de frequência igual a 60 Hz, e a outra opera como gerador. Sabendo-se que a frequência da tensão gerada pelo gerador é menor que 60 Hz, qual é o valor, em hertz, dessa frequência?",
+   "alts": {
+    "A": "80",
+    "B": "50",
+    "C": "45",
+    "D": "40",
+    "E": "4"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2023, Q27",
+   "q": "Um motor de indução trifásico de quatro polos, 60 Hz, opera com 1,2 kW de perdas Joule no enrolamento do rotor e com potência do rotor (potência total transferida através do entreferro desde o estator) igual a 50 kW. Nessas condições, qual é a velocidade, em rpm, de operação do motor?",
+   "alts": {
+    "A": "1800,0",
+    "B": "1798,9",
+    "C": "1756,8",
+    "D": "1755,7",
+    "E": "1171,2"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2023, Q28",
+   "q": "Existem diversos procedimentos de acionamento de motores para partida que se propõem a condicionar a corrente e o torque de partida. Sendo assim, verifica-se que, na partida do motor",
+   "alts": {
+    "A": "de corrente contínua, o procedimento de acionamento deve garantir a inexistência de corrente elétrica no enrolamento de campo do motor para que, assim, haja torque de partida.",
+    "B": "de corrente contínua, deve ser utilizado um motor de indução auxiliar para, assim, alcançar velocidade próxima à velocidade síncrona antes de alimentar a armadura com tensão nominal, garantindo sincronismo e baixa corrente de partida.",
+    "C": "de indução de rotor bobinado, o procedimento de acionamento deve garantir inicialmente a menor resistência rotórica possível para que, assim, haja o maior torque de partida possível do motor.",
+    "D": "de indução, o procedimento de acionamento, com controle da razão entre a amplitude da tensão e a frequência de alimentação, possibilita uma menor corrente de partida com maior torque de partida com relação à corrente e ao torque obtidos na partida direta com tensão nominal.",
+    "E": "síncrono, a aplicação de corrente alternada de frequência progressiva no enrolamento de campo possibilita uma menor corrente de partida, com aumento gradativo da velocidade até valores próximos da velocidade síncrona."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2023, Q29",
+   "q": "Os relés de proteção são parte integrante das subestações de energia elétrica e exercem distintas funções. O relé de proteção com função de falha de disjuntor, com identificação 50 BF, atua comandando",
+   "alts": {
+    "A": "com retardo a abertura de disjuntor(es) para, assim, ser realizado ensaio de coordenação e de seletividade de proteção no trecho do ramal.",
+    "B": "com avanço a abertura de disjuntor a jusante do circuito para, assim, ser evitada falha de coordenação e de seletividade de proteção no trecho do ramal.",
+    "C": "o religamento de disjuntor(es), após detecção de atuação indevida de abertura de circuito, devido à corrente de inrush.",
+    "D": "a abertura do(s) disjuntor(es) adjacente(s) ao disjuntor em que tenha sido detectada falha no processo de abertura de circuito.",
+    "E": "o fechamento do disjuntor de by-pass ao disjuntor em que tenha sido detectada falha no processo de fechamento de circuito."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2023, Q30",
+   "q": "O correto dimensionamento dos componentes de uma instalação elétrica é necessário para a garantia da segurança da instalação e de seus usuários. Nesse sentido, deve haver a coordenação entre os dispositivos de proteção e os condutores no dimensionamento para proteção contra sobrecarga de um determinado circuito. Considere Id a corrente nominal do dispositivo de proteção, Ic a capacidade de condução de corrente elétrica dos condutores, ambas estabelecidas nas condições previstas de instalação, e IL a corrente de projeto para atendimento da carga de um determinado circuito. Para a garantia da coordenação no dimensionamento dos condutores e do dispositivo de proteção contra sobrecarga do circuito, qual deve ser a relação estabelecida entre essas correntes?",
+   "alts": {
+    "A": "I d ≤ I c ≤ I L",
+    "B": "I d ≤ I L ≤ I c",
+    "C": "I c ≤ I d ≤ I L",
+    "D": "I c ≤ I L ≤ I d",
+    "E": "I L ≤ I d ≤ I c"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2023, Q31",
+   "q": "Em um projeto de sistema de aterramento, foi adotado o esquema de aterramento TT, que possui",
+   "alts": {
+    "A": "um ponto da alimentação diretamente aterrado, com eletrodo de aterramento eletricamente distinto do(s) eletrodo(s) que se liga(m) às massas da instalação.",
+    "B": "um ponto da alimentação diretamente aterrado, com as massas da instalação ligadas a esse ponto através de condutores de proteção.",
+    "C": "um ponto de alimentação aterrado através de impedância, e as massas da instalação aterradas através de eletrodo(s) de aterramento próprio(s).",
+    "D": "nenhum ponto da alimentação diretamente aterrado, e as massas da instalação aterradas através de eletrodo(s) de aterramento próprio(s).",
+    "E": "dois pontos da alimentação diretamente aterrados a eletrodos de aterramento distintos, sendo as massas da instalação não aterradas."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2023, Q32",
+   "q": "Os seccionadores são componentes importantes de uma subestação de energia e podem desempenhar diferentes funções. Os seccionadores de aterramento, ou seccionadores com lâmina de aterramento, utilizam a lâmina de aterramento, após a abertura dos seccionadores, para",
+   "alts": {
+    "A": "isolar as carcaças dos seccionadores da malha de terra da subestação, extinguindo o arco elétrico formado entre a fase e o potencial terra da subestação.",
+    "B": "conectar no potencial terra os circuitos associados aos dispositivos seccionados, garantindo a realização de manutenção com segurança.",
+    "C": "conectar o sistema de proteção contra descargas atmosféricas à malha de terra da subestação, evitando a exposição dos componentes da subestação à incidência de raios.",
+    "D": "separar duas ou mais malhas de terra da subestação, permitindo a operação em diferentes esquemas de aterramento.",
+    "E": "enviar o sinal de abertura dos seccionadores aos sistemas auxiliares de proteção da subestação, permitindo o monitoramento do estado operativo dos seccionadores."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2023, Q33",
+   "q": "Um equipamento elétrico monofásico solicita da fonte de tensão de 250 40 V∠ - ° uma potência aparente de 1500 VA com fator de potência de cos 10°. A impedância dessa carga é igual a",
+   "alts": {
+    "A": "41,67 10∠ - °",
+    "B": "46,67 50∠ - °",
+    "C": "46,67 30∠ - °",
+    "D": "6,00 30∠ °",
+    "E": "6,00 10∠ - °"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2023, Q34",
+   "q": "Um sistema trifásico equilibrado, composto por uma fonte trifásica na configuração estrela e sequência de fases ACB, alimenta uma carga trifásica com característica indutiva de 7,5 kW e fator de potência de 0,5. Sabendo-se que a fase A da fonte é de 250 V e ângulo 20 o, a corrente elétrica que passa na fase B da carga é igual a",
+   "alts": {
+    "A": "30 80∠ °",
+    "B": "30 160∠ - °",
+    "C": "20 80∠ °",
+    "D": "20 160∠ - °",
+    "E": "10 80∠ °"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2023, Q35",
+   "q": "A respeito dos aparelhos eletrônicos de medidas, ohmímetros, voltímetros e amperímetros, utilizados em laboratório para medições de grandezas elétricas, constata-se que",
+   "alts": {
+    "A": "a Potência Ativa é o resultado da multiplicação das grandezas de corrente e tensão, respectivamente, medidas por meio de um amperímetro e de um voltímetro sobre uma carga.",
+    "B": "a medição da resistência elétrica é obtida sempre de forma indireta, por meio de outras grandezas elétricas medidas.",
+    "C": "a ponte de Wheatstone revela-se como um dos meios mais empregados para medição de tensões, onde a diferença de potencial a ser medida ocupa a posição de um dos resistores da ponte.",
+    "D": "o amperímetro, tipo alicate, mede a corrente elétrica de forma direta, sem a intermediação de outra grandeza.",
+    "E": "o voltímetro mede a diferença de potencial em um ponto, sem a necessidade de interrupção do circuito."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2023, Q36",
+   "q": "Na Figura abaixo, é apresentado o diagrama de sequência zero de um transformador: Esse diagrama corresponde ao transformador",
+   "alts": {
+    "A": "Estrela-Estrela, com primário e secundário aterrados por impedância.",
+    "B": "Estrela-Delta, com primário não aterrado.",
+    "C": "Estrela-Estrela, com primário aterrado e secundário não aterrado.",
+    "D": "Estrela-Delta, com primário aterrado.",
+    "E": "Delta-Delta."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2023, Q40",
+   "q": "A matriz transformação inversa apresentada abaixo relaciona os componentes simétricos aos seus respectivos fasores, considerando as condições de contorno de uma falta: 2 1 2 2 B 0 B I 01 1 I 1 I 3 1 1 1 I I a a = a a × -      O tipo de falta que essa matriz apresenta nas suas condições de contorno é",
+   "alts": {
+    "A": "abertura da fase A",
+    "B": "abertura das fases A e B",
+    "C": "curto-circuito simétrico",
+    "D": "curto-circuito fase-terra",
+    "E": "curto-circuito fase-fase"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2023, Q41",
+   "q": "A corrente no secundário de um transformador de corrente suprindo uma determinada carga é de 3,5 A. O valor da corrente no circuito primário sem correção, sabendo-se que o TC é de 400-5A, é igual a",
+   "alts": {
+    "A": "395 A",
+    "B": "350 A",
+    "C": "280 A",
+    "D": "114 A",
+    "E": "80 A"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2023, Q42",
+   "q": "Na Figura abaixo, apresenta-se um sistema trifásico composto por uma fonte alimentando uma carga: Sabendo-se que a carga é equilibrada, e que as medidas dos Wattímetros W1, W2 e W3 são iguais a, respectivamente, 30 W, 45 W e 65 W, a potência trifásica ativa solicitada pela fonte é igual a",
+   "alts": {
+    "A": "de linha, corrente de linha e impedância de uma das fases da carga para carga na configuração estrela ou no seu equivalente estrela para as cargas na configuração delta.",
+    "B": "de linha, corrente de linha e uma das impedâncias que compõem a carga trifásica para carga na configuração estrela ou na configuração delta.",
+    "C": "de linha, corrente de linha e uma das impedâncias que compõem a carga trifásica na configuração estrela ou tensões de linha, corrente de fase e uma das impedâncias que compõem a carga trifásica no seu equivalente estrela para as cargas na configuração delta.",
+    "D": "de linha, corrente de linha e uma das impedâncias que compõem a carga trifásica na configuração estrela ou tensões de fase, corrente de fase e uma das impedâncias que compõem a carga trifásica no seu equivalente estrela para as cargas na configuração delta.",
+    "E": "de fase, corrente de fase e impedância de uma das fases da carga para carga na configuração estrela ou no seu equivalente estrela para as cargas na configuração delta."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2023, Q43",
+   "q": "Seja C o conjunto dos números complexos e a função G:C→C, tal que 5(s 2) G(s) (s 2) - = + Se s = 2j, qual deverá ser o ângulo de fase, em graus, de G(s)?",
+   "alts": {
+    "A": "45 o",
+    "B": "90 o",
+    "C": "135 o",
+    "D": "180 o",
+    "E": "315 o"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2023, Q45",
+   "q": "Considere um sistema monovariável modelado em espaço de estado por: em que u representa o sinal de entrada, y o sinal de saída, e x o vetor de estados. Transformando-se esse modelo numa função de transferência, em que posições do plano s estarão localizados seus zeros?",
+   "alts": {
+    "A": "-3 e -4",
+    "B": "-2 e -4",
+    "C": "-2 e -3",
+    "D": "-1 e -3",
+    "E": "-1 e -2"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2023, Q46",
+   "q": "Um sistema foi modelado pela seguinte função de transferência: 5(s 1) G(s) (s 2 3j)(s 2 3j) + = + + + -. Caso esse modelo seja representado em espaço de estado, com a matriz da dinâmica no formato a b A 1 0   =     qual deverá ser o valor de b?",
+   "alts": {
+    "A": "-13",
+    "B": "-4",
+    "C": "0",
+    "D": "4",
+    "E": "13"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2023, Q47",
+   "q": "Na Figura, encontra-se ilustrado o esboço do gráfico obtido pelo método do Lugar das Raízes (Root Locus) de um sistema de controle com realimentação negativa, para ganhos K≥0. Analisando-se esse gráfico, pode-se afirmar que, com o aumento do ganho K, o sistema em malha fechada é",
+   "alts": {
+    "A": "sempre estável, para qualquer valor de ganho de realimentação K>0.",
+    "B": "sempre instável, para qualquer valor de ganho de realimentação K>0.",
+    "C": "inicialmente instável, mas se torna estável a partir de certo valor de ganho K.",
+    "D": "inicialmente estável, mas se torna instável a partir de certo valor de ganho K.",
+    "E": "inicialmente estável, mas se torna instável em uma faixa de valores de ganho K."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2023, Q48",
+   "q": "Considere o circuito apresentado na Figura, alimentado por uma fonte DC. O capacitor está inicialmente descarregado. No instante t = 0, a chave S é fechada. Qual deverá ser a expressão do valor da tensão V 0 de saída, em volts, no instante t = 30 s?",
+   "alts": {
+    "A": "12(1 - e -0,3)",
+    "B": "12(1 - e -1)",
+    "C": "12(1 - e -3)",
+    "D": "12(1 - e -10)",
+    "E": "12(1 - e -30)"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2023, Q49",
+   "q": "Na análise de um circuito trifásico por meio de suas componentes simétricas, foram identificados os seguintes valores de sequência da tensão da fase A: • positiva: 10 ∠ 30° V • negativa: 6 ∠ 330° V • zero: 3 ∠ 0° Diante do exposto, o valor da tensão da fase B, em V, é de",
+   "alts": {
+    "A": "5 ∠ - tg -1 (3/4)",
+    "B": "5 ∠ tg -1 (4/3)",
+    "C": "4 ∠ tg -1 (1)",
+    "D": "3 ∠ tg -1 (0)",
+    "E": "5 ∠ - tg -1 (4/3)"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2023, Q50",
+   "q": "Um gerador de um sistema elétrico de potência (SEP) hipotético, ligado em Y, possui uma potência de 15 3 MVA e uma tensão de armadura de 10 kV. Sabe-se que as reatâncias de sequências positiva, negativa e zero são, respectivamente, j 0,5 pu, j 0,3 pu e j 0,2 pu. Durante a execução dos testes de seu comissionamento, o gerador é colocado em operação em vazio, com tensão terminal nominal e, acidentalmente, ocorre um curto fase e terra. Diante do exposto, o módulo da corrente de falta, em kA, é",
+   "alts": {
+    "A": "1,5",
+    "B": "3,0",
+    "C": "4,5",
+    "D": "6,0",
+    "E": "9,0"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2023, Q51",
+   "q": "Um circuito monofásico é composto por uma fonte de tensão (E A) conectada a uma carga por meio de um cabo de impedância Z. Nas condições atuais de funcionamento, a carga opera com uma tensão terminal (V f) e corrente (I L). Os valores das tensões e das correntes são listados na Tabela abaixo. Grandeza Valor E A 150,0 ∠ 90° V V f 120,0 ∠ 0° V I L 10,0 ∠ 45° A Diante do exposto, conclui-se que o valor da resistência do cabo, em W, é de",
+   "alts": {
+    "A": "1,5",
+    "B": "1,5 2",
+    "C": "1,5 3",
+    "D": "7,5 2",
+    "E": "6,0 3"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2023, Q52",
+   "q": "A equipe de manutenção de uma empresa precisa realizar a medição da potência de uma máquina monofásica. Entretanto, o wattímetro encontra-se com defeito. De modo a conseguir realizar a medição, foi usado um osciloscópio para medir a tensão e a corrente na máquina. A tensão foi medida diretamente nos terminais da máquina, e a corrente foi medida indiretamente, por meio da leitura da tensão em um resistor shunt conectado em série com a carga, resultando: V carga (t) = 250 cos (377 t + 30º) V V shunt (t) = 10 cos (377 t + 60º) A Desprezando a potência dissipada no resistor shunt e sabendo que sua resistência é de 100 mW, a potência ativa da máquina, em W, é de",
+   "alts": {
+    "A": "625 3",
+    "B": "625 2",
+    "C": "1250 3",
+    "D": "1250 2",
+    "E": "1250"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2023, Q53",
+   "q": "Em uma auditoria de rotina em uma empresa, foi identificada uma irregularidade na capacitação dos empregados designados para trabalharem em suas instalações elétricas. Após a análise da documentação da empresa, de seus funcionários e de sua forma de trabalho, a capacitação teve que ser revogada porque",
+   "alts": {
+    "A": "os empregados capacitados não possuíam graduação em engenharia elétrica.",
+    "B": "os empregados capacitados não possuíam curso técnico em eletrotécnica.",
+    "C": "o profissional que realizou a capacitação não possuía registro no competente conselho de classe.",
+    "D": "os empregados capacitados não possuíam qualificação para o trabalho em instalações elétricas.",
+    "E": "o empregado capacitado estava trabalhando sob a supervisão de profissional habilitado e autorizado."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2023, Q54",
+   "q": "A equipe de engenharia de uma empresa hipotética deverá fazer o ajuste de um relé de sobrecorrente de fase a ser instalado no lado de alta tensão de um transformador de potência trifásico de 2500 3 kVA, 40 kV – 200 V, D - Y. Sabe-se que o transformador admite uma sobrecarga de 20%, e que o transformador de corrente empregado no sistema é de 100:5 A. Diante do exposto, verifica-se que a máxima corrente de sobrecarga vista pelo relé, em A, é:",
+   "alts": {
+    "A": "1,25",
+    "B": "2,50",
+    "C": "3,25",
+    "D": "3,75",
+    "E": "4,15"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2023, Q55",
+   "q": "De modo a permitir alterações em seu regime de funcionamento, o motor de indução bobinado possibilita a inserção de resistências adicionais no circuito do rotor por meio de escovas conectadas ao seu eixo. Considere um motor de indução trifásico (MIT) bobinado com as seguintes características: • Frequência da rede: 60 Hz; • Número de polos: 8 polos; • Tensão de alimentação: 440 V; • Resistência do rotor: 0,2 W. Sabendo-se que o torque nominal do motor ocorre com um escorregamento de 4%, o valor da resistência a ser adicionada ao circuito do rotor, em W, para que o torque nominal ocorra com um escorregamento de 10%, é de",
+   "alts": {
+    "A": "0,2",
+    "B": "0,3",
+    "C": "0,4",
+    "D": "0,5",
+    "E": "1,0"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2023, Q56",
+   "q": "Uma empresa possui, atualmente instalado em sua subestação, um transformador de 20 kVA, 12 kV – 200 V, D – Y. Dados de placa do gerador instalado na empresa indicam que ele tem uma reatância percentual de 5%, calculada nas bases de potência e tensão do gerador atual. Deve-se instalar um novo transformador em paralelo, com as mesmas especificações do transformador já existente, para atender ao aumento de carga previsto para a empresa. Para que a potência seja distribuída igualmente entre os dois transformadores, após a sua instalação em paralelo, a reatância, em W, referida para o lado de baixa tensão do novo transformador é de",
+   "alts": {
+    "A": "0,01",
+    "B": "0,05",
+    "C": "0,1",
+    "D": "0,2",
+    "E": "1,0"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2023, Q58",
+   "q": "A equipe de licitação de uma empresa hipotética está envolvida na elaboração do processo para a aquisição de ferramentas, equipamentos de proteção individual (EPI) e equipamentos de proteção coletiva (EPC) para a sua equipe de manutenção. Durante a fase inicial do processo, verificou-se que todos os itens podem ser bem definidos no edital para a licitação. Em face do exposto, a modalidade de licitação a ser escolhida pela administração para a aquisição dos bens é o(a)",
+   "alts": {
+    "A": "diálogo competitivo",
+    "B": "concurso",
+    "C": "pregão",
+    "D": "leilão",
+    "E": "concorrência"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2023, Q59",
+   "q": "Em um prédio comercial hipotético, o quadro de distribuição de energia de um escritório é conectado ao seu respectivo medidor, localizado no pilotis, por meio de um alimentador trifásico a 4 fios, tensão de linha de 220 V. Sabe-se que a carga instalada no quadro de distribuição é de 45 kW, e a distância entre o quadro de distribuição e o medidor é de 10 m. De acordo com o critério de queda de tensão admissível e adotando-se uma máxima queda de tensão de 4% entre o quadro de distribuição e o medidor, a seção do alimentador, em mm 2, é",
+   "alts": {
+    "A": "4",
+    "B": "6",
+    "C": "10",
+    "D": "16",
+    "E": "25 Dado Tabela: Soma das potências em watts × distância em metros V = 127 volts (circuitos monofásicos) mm2 Queda de tensão (4%) 4 74839 6 112258 10 187096 16 299354 25 467741"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2023, Q60",
+   "q": "A equação abaixo foi proposta por Bond para associar a energia E por quantidade de massa necessária para quebrar partículas de minério, de forma que elas passem de diâmetro d 1 para diâmetro d 2, onde d 2 < d 1. 2 1 1 1 E 2 K d d    = -     A dimensão da constante de Bond K da equação pode ser escrita como",
+   "alts": {
+    "A": "m -1/2 kg W s",
+    "B": "m 1/2 kg -1 W s -1",
+    "C": "m 1/2 kg -1 W s",
+    "D": "m -1/2 kg -1 W s",
+    "E": "m -1/2 kg W s -1"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2023, Q61",
+   "q": "Uma partícula segue um movimento retilíneo no R 3, com velocidade constante (1,2,2), até entrar numa região que provoca um vetor aceleração A sobre a partícula, tal que A = (2,-2,1) X v, onde X denota o produto vetorial, e v denota a velocidade instantânea da partícula. Enquanto estiver na região, a partícula descreverá um(a)",
+   "alts": {
+    "A": "arco de círculo de raio 1",
+    "B": "arco de círculo de raio 3",
+    "C": "arco de parábola",
+    "D": "trajetória helicoidal",
+    "E": "trajetória retilínea"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2023, Q62",
+   "q": "Uma linha de transmissão pode ser modelada como uma malha infinita de capacitores todos de capacitâncias iguais a C, arranjados conforme disposição mostrada na Figura abaixo. A capacitância equivalente entre os pontos A e B, indicados na Figura, é:",
+   "alts": {
+    "A": "C(1 2) 2 +",
+    "B": "C(1 3) 2 +",
+    "C": "C(1 3) 4 +",
+    "D": "C(1 2 2) 4 +",
+    "E": "C(1 3 2) 4 +"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2023, Q63",
+   "q": "Um circuito retificou a rede elétrica residencial de tensão eficaz monofásica V, de forma a oferecer uma saída em conformidade com a Figura abaixo. Em 50% do tempo, a saída do circuito é S, e nos outros 50% é -S, onde S é o valor de pico da onda senoidal da rede. Sendo assim, o circuito oferece uma tensão eficaz igual a",
+   "alts": {
+    "A": "2V",
+    "B": "pV",
+    "C": "2 V",
+    "D": "3 V",
+    "E": "V p"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2023, Q64",
+   "q": "Sabe-se que a Transformada de Laplace da função: at f(t) e,= para t 0,≥ onde a é uma constante Real, é 1 F(s). s a = - Aplicando-se as propriedades da Transformada de Laplace, a Transformada Inversa de 2 1 G(s), s 5s 6 = - + para t 0,≥ é",
+   "alts": {
+    "A": "2t 3t g(t) e e= +",
+    "B": "2t 3t g(t) e e - - = +",
+    "C": "2t 3t g(t) e e= -",
+    "D": "3t 2t g(t) e e= -",
+    "E": "3t t g(t) e e= +"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2023, Q65",
+   "q": "Considere a função 1 f(z) z 1 = +, de uma variável complexa z = x + jy. Decompondo-se a função f(z) em partes real e imaginária, obtém-se f(z) f(x,y) u(x,y) jv (x,y).= = + Qual é a expressão da função v (x,y)?",
+   "alts": {
+    "A": "2 2 x v (x,y) x y = +",
+    "B": "2 2 y v (x,y) x y 2x 1 - = + + +",
+    "C": "2 2 y v (x,y) x y 2x 1 = + + +",
+    "D": "2 2 x 1 v (x,y) x y 2x 1 + = + + +",
+    "E": "2 2 2 v (x,y) x y 2x = + +"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2023, Q66",
+   "q": "Uma sequência discreta e causal tem sua lei de formação dada por: x(n) = ax(n-1) + bx(n-2) + d(n) para n ≥ 0, sendo que x(n) = 0 para n < 0 d(n) é definido como Impulso Unitário discreto, ou seja: (n) 1 para n 0 (n) 0 para n 0 d = =  d = ≠ As primeiras cinco amostras dessa sequência são: x(0) = 1; x(1) = 2; x(2) = 7; x(3) = 20; x(4) = 61; A expressão de X(z), que é a Transformada Z dessa sequência, é dada por",
+   "alts": {
+    "A": "2 2 z 1 X(z) z 2z 3 - = - -",
+    "B": "2 z X(z) z 2z 3 = - -",
+    "C": "2 2 z X(z) z 2z 3 = - -",
+    "D": "2 1 X(z) z 2z 3 = - -",
+    "E": "2 2 z X(z) z 2z 3 = + +"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2023, Q67",
+   "q": "Para o circuito da Figura acima, onde as condições iniciais são consideradas nulas, qual é a expressão da corrente elétrica i(t), para t 0≥, quando u(t) é uma tensão do tipo DEGRAU de amplitude igual a E?",
+   "alts": {
+    "A": "R t L E i(t) 1 e R -  = -   ",
+    "B": "R t L E i(t) e R - =",
+    "C": "R t L i(t) E 1 e -  = -   ",
+    "D": "R t L i(t) Ee - =",
+    "E": "t RL E i(t) 1 e R -  = -   "
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2023, Q68",
+   "q": "A Função de Transferência em Laplace, mostrada a seguir, corresponde a um sistema linear, contínuo e de terceira ordem, operando em malha fechada em função de um ganho K. mf 3 2 K G (s) s 6s (50 K)s 3K 75 = + + - + - Para um determinado valor do ganho K, um dos polos do sistema estará na origem do plano S, e os outros dois polos estarão nas posições",
+   "alts": {
+    "A": "s 1 = -2 e s 2 = - 5",
+    "B": "s 1 = -4 e s 2 = - 5",
+    "C": "s 1 = -3 + j4 e s 2 = -3 - j4",
+    "D": "s 1 = -2 + j5 e s 2 = -2 - j5",
+    "E": "s 1 = j4 e s 2 = - j4"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2023, Q69",
+   "q": "A Função de Transferência mostrada a seguir representa o modelo de um sistema contínuo, linear, de 2 a ordem, alimentado por uma entrada U(s) e tendo, como saída, o sinal Y(s), ambos no domínio de Laplace. 2 Y(s) 200 U(s) 2s 8s 200 = + + Ao ser aplicado um Impulso Unitário na entrada desse sistema, o sinal de saída oscilará na forma de uma senoide exponencialmente amortecida. Dessa forma, pelo exposto acima, a constante conhecida como Razão de Amortecimento desse sistema vale",
+   "alts": {
+    "A": "0,1",
+    "B": "0,2",
+    "C": "0,4",
+    "D": "0,5",
+    "E": "0,8"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2023, Q70",
+   "q": "A Função de Transferência mostrada a seguir representa um modelo de sistema discreto, linear e causal, com sinais de entrada X(z) e de saída Y(z). 2 2 Y(z) 3z 3z G(z) X(z) z 6z 5 - = = - + No domínio do tempo discreto, quando esse sistema for submetido a uma entrada do tipo IMPULSO UNITÁRIO, x(n) = d(n), quais serão as três primeiras amostras da resposta y(n) desse sistema, ou seja, quanto valem as seguintes amostras discretas: y(0), y(1), y(2)?",
+   "alts": {
+    "A": "2, 5 e 8",
+    "B": "5, 15 e 36",
+    "C": "5, 20 e 45",
+    "D": "3, 25 e 87",
+    "E": "3, 15 e 75"
+   },
+   "correta": "E"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   31,
+   36,
+   42,
+   47,
+   48,
+   51,
+   62,
+   63,
+   67
+  ],
+  "quebradas": []
+ }
+}

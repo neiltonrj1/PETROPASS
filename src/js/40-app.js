@@ -871,6 +871,21 @@ function trocaAba(a){ LEITOR.aba=a; S.ult={vol:LEITOR.vol,mod:LEITOR.mod,aba:a};
 
 /* ---------------- tinta: caneta automática ---------------- */
 let TOOL = {modo:'caneta', dedo:false, cor:'#C8342B', corMarca:'#C9F24A', larg:2.4};
+/* A escolha da barra tem de sobreviver ao recarregamento: quem trava em
+   "Ler" para estudar não quer reencontrar a caneta ligada a cada abertura,
+   e quem liga o "Dedo" no tablet não quer refazer isso toda vez.      */
+function salvaTinta(){
+  S.cfg = S.cfg || {};
+  S.cfg.tinta = {modo:TOOL.modo, dedo:TOOL.dedo, cor:TOOL.cor, corMarca:TOOL.corMarca};
+  save();
+}
+function carregaTinta(){
+  const t = S.cfg && S.cfg.tinta; if(!t) return;
+  if(t.modo) TOOL.modo = t.modo;
+  if(typeof t.dedo === 'boolean') TOOL.dedo = t.dedo;
+  if(t.cor) TOOL.cor = t.cor;
+  if(t.corMarca) TOOL.corMarca = t.corMarca;
+}
 function corAtual(){ return TOOL.modo==='marca' ? TOOL.corMarca : TOOL.cor; }
 let cv, ctx, drawing=false, cur=null, undoOps=[], penPerto=false;
 function inkKey(){ return LEITOR.mod+':'+LEITOR.aba; }
@@ -891,16 +906,21 @@ function montaTools(){
      <button class="lbl ${TOOL.dedo?'on':''}" data-a="dedo" title="Deixar o dedo desenhar">✋ Dedo</button>
      <button data-a="undo" title="Desfazer">↶</button>
      <button data-a="limpar" title="Apagar tudo desta página">🗑</button>`;
-  el.querySelectorAll('[data-m]').forEach(b=>b.addEventListener('click',()=>{ TOOL.modo=b.dataset.m; montaTools(); ajustaTouch(); }));
+  el.querySelectorAll('[data-m]').forEach(b=>b.addEventListener('click',()=>{
+    TOOL.modo=b.dataset.m;
+    toast(TOOL.modo==='ler' ? '🔒 Travado para leitura — nada escreve na tela'
+        : TOOL.modo==='borracha' ? 'Borracha ligada'
+        : TOOL.modo==='marca' ? 'Marca-texto ligado' : 'Caneta ligada');
+    salvaTinta(); montaTools(); ajustaTouch(); }));
   el.querySelectorAll('[data-c]').forEach(b=>b.addEventListener('click',()=>{
     if(TOOL.modo==='marca') TOOL.corMarca=b.dataset.c;
     else { TOOL.cor=b.dataset.c; if(TOOL.modo==='ler'||TOOL.modo==='borracha') TOOL.modo='caneta'; }
-    montaTools(); ajustaTouch(); }));
+    salvaTinta(); montaTools(); ajustaTouch(); }));
   el.querySelector('[data-a="dedo"]').addEventListener('click',()=>{
     TOOL.dedo=!TOOL.dedo;
     if(TOOL.dedo && TOOL.modo==='ler') TOOL.modo='caneta';
     toast(TOOL.dedo? 'Dedo desenha — role a página pelas bordas' : 'Dedo volta a rolar a página');
-    montaTools(); ajustaTouch(); });
+    salvaTinta(); montaTools(); ajustaTouch(); });
   el.querySelector('[data-a="undo"]').addEventListener('click', undo);
   el.querySelector('[data-a="limpar"]').addEventListener('click', ()=>{
     if(!strokes().length) return toast('Nada para apagar aqui');
@@ -909,10 +929,22 @@ function montaTools(){
   });
   el.classList.toggle('hide', !LEITOR || LEITOR.aba==='figuras');
 }
+/* `touch-action` só tem efeito no elemento que RECEBE o toque. Quando os
+   eventos de ponteiro saíram do canvas para o #pagewrap (para os botões
+   dentro da página voltarem a receber clique), esta função continuou
+   ajustando o canvas — que hoje tem pointer-events:none e não recebe nada.
+   Resultado: a ordem "não role, deixe desenhar" ia para o elemento errado,
+   a página rolava sempre e não dava para escrever com o dedo nem com a
+   caneta. Tem de ser no mesmo elemento que escuta os eventos.          */
+function alvoDaTinta(){ return document.getElementById('pagewrap'); }
 function ajustaTouch(){
-  if(!cv) return;
+  const alvo = alvoDaTinta();
+  if(!alvo) return;
   const bloquear = TOOL.modo!=='ler' && (TOOL.dedo || penPerto);
-  cv.style.touchAction = bloquear ? 'none' : 'auto';
+  alvo.style.touchAction = bloquear ? 'none' : 'auto';
+  /* o canvas não escuta nada, mas deixar explícito evita que alguém
+     volte a mexer no lugar errado */
+  if(cv) cv.style.touchAction = 'auto';
 }
 function podeDesenhar(e){
   if(TOOL.modo==='ler') return false;
@@ -925,6 +957,7 @@ function podeDesenhar(e){
 }
 function setupInk(){
   cv = document.getElementById('ink'); if(!cv) return;
+  carregaTinta();
   ctx = cv.getContext('2d');
   sizeCanvas(); redraw();
   setTimeout(()=>{ sizeCanvas(); redraw(); }, 150);

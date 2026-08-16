@@ -290,6 +290,41 @@ ok('explicação de questão adaptada não é herdada pela prova', () => {
   })()`);
   if (n) throw new Error(`${n} questões de prova herdaram a explicação de uma versão adaptada`);
 });
+/* Regressão: quando os eventos de ponteiro saíram do canvas para o
+   #pagewrap, o ajustaTouch continuou mexendo no canvas — que tem
+   pointer-events:none. A ordem de não rolar a página ia para um elemento
+   que o navegador ignora, e não dava para escrever com dedo nem caneta. */
+ok('a barra da caneta manda no elemento que recebe o toque', () => {
+  const r = window.eval(`(function(){
+    escolheTrilha('inspecao'); VIEW='estudar'; abrirModulo('v1m1','licao');
+    var wrap = document.getElementById('pagewrap');
+    if(!wrap) return {erro:'não achei o #pagewrap'};
+    TOOL.modo='caneta'; TOOL.dedo=true; ajustaTouch();
+    var desenhando = wrap.style.touchAction;
+    TOOL.modo='ler'; ajustaTouch();
+    var lendo = wrap.style.touchAction;
+    TOOL.modo='caneta'; TOOL.dedo=false; penPerto=false; ajustaTouch();
+    var semDedo = wrap.style.touchAction;
+    fecharLeitor();
+    return {desenhando:desenhando, lendo:lendo, semDedo:semDedo};
+  })()`);
+  if (r.erro) throw new Error(r.erro);
+  if (r.desenhando !== 'none') throw new Error(`com o dedo ligado a página tinha de travar a rolagem, veio "${r.desenhando}"`);
+  if (r.lendo !== 'auto') throw new Error(`em modo Ler a página tem de rolar normalmente, veio "${r.lendo}"`);
+  if (r.semDedo !== 'auto') throw new Error(`sem dedo e sem caneta a página tem de rolar, veio "${r.semDedo}"`);
+});
+ok('a escolha da barra sobrevive ao recarregamento', () => {
+  const r = window.eval(`(function(){
+    TOOL.modo='ler'; TOOL.dedo=true; salvaTinta();
+    var gravado = JSON.parse(JSON.stringify(S.cfg.tinta));
+    TOOL.modo='caneta'; TOOL.dedo=false;      // finge que o app reabriu
+    carregaTinta();
+    return {gravado:gravado, modo:TOOL.modo, dedo:TOOL.dedo};
+  })()`);
+  if (r.gravado.modo !== 'ler') throw new Error('o modo não foi gravado');
+  if (r.modo !== 'ler' || r.dedo !== true) throw new Error('a escolha não voltou depois de recarregar');
+});
+
 /* Regressão: mapas, figuras e tabelas adicionados nas últimas versões
    fizeram várias lições crescerem bastante de altura. Um traço salvo
    antes disso reescalava proporcional a essa altura nova e virava um

@@ -243,7 +243,14 @@ function montaDados() {
       const p = provas.find(p => p.id === f.prova);
       if (!p) continue;
       const q = p.questoes.find(q => q.n === f.n);
-      if (q) { q.figArq = 'figuras/' + f.arquivo; postas++; usadas.push('./figuras/' + f.arquivo); }
+      if (q) {
+        q.figArq = 'figuras/' + f.arquivo;
+        /* 'bloco' = não deu para isolar o desenho, então o recorte traz o
+           enunciado inteiro do caderno. Nesse caso o app mostra a imagem
+           NO LUGAR do texto, senão o enunciado apareceria duas vezes. */
+        if (f.tipo === 'bloco') q.figBloco = true;
+        postas++; usadas.push('./figuras/' + f.arquivo);
+      }
     }
     if (postas) avisos.push(`${postas} questões receberam a figura recortada do caderno`);
   }
@@ -259,9 +266,11 @@ function montaDados() {
 
   /* marca as questões que chegaram incompletas, em todos os acervos */
   const contaAviso = {};
-  /* questão que já veio com o desenho refeito não precisa de aviso nenhum */
+  /* Questão que já tem o desenho — refeito em SVG ou recortado do caderno —
+     não pode continuar avisando que falta figura. O aviso existe para quem
+     ficou sem. */
   const marca = q => {
-    if (q.fig) return;
+    if (q.fig || q.figArq) return;
     const a = avisoDaQuestao(q);
     if (a) { q.aviso = a; contaAviso[a] = (contaAviso[a] || 0) + 1; }
   };

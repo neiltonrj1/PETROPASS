@@ -392,20 +392,33 @@ ok('as figuras das questões são SVG seguro e sem tamanho fixo', () => {
   })()`);
   if (r.ruins.length) throw new Error(r.ruins.slice(0, 4).join(' · '));
   if (!r.n) return;                       // ainda não há figura recuperada
-  /* e uma delas tem de renderizar de verdade */
+  /* e uma delas tem de renderizar de verdade — como <svg> desenhado à mão
+     ou como <img> do recorte do caderno, que tem prioridade por ser a
+     imagem original da prova */
   const desenhou = window.eval(`(function(){
     for(var i=0;i<DATA.provas.length;i++){
       var p = DATA.provas[i];
-      var q = p.questoes.filter(function(q){return !!q.fig})[0];
+      var q = p.questoes.filter(function(q){return !!q.fig || !!q.figArq})[0];
       if(!q) continue;
       escolheTrilha(p.trilha); iniciaSimulado(p.id);
       SIM.i = p.questoes.indexOf(q); render();
-      return !!document.querySelector('.qz-fig svg');
+      return !!document.querySelector('.qz-fig svg, .qz-fig img');
     }
     return true;
   })()`);
   if (!desenhou) throw new Error('a figura não apareceu na tela da questão');
   window.eval('SIM=null'); window.go('provas');
+});
+/* Questão que já tem desenho não pode continuar avisando que falta figura. */
+ok('questão com figura não avisa que falta figura', () => {
+  const n = window.eval(`(function(){
+    var n = 0;
+    DATA.provas.forEach(function(p){ p.questoes.forEach(function(q){
+      if((q.fig || q.figArq) && q.aviso === 'pede-desenho') n++;
+    }); });
+    return n;
+  })()`);
+  if (n) throw new Error(`${n} questões têm a figura e mesmo assim avisam que ela falta`);
 });
 ok('o caderno comentado usa a mesma peça das outras questões', () => {
   const r = window.eval(`(function(){

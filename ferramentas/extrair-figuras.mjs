@@ -49,6 +49,7 @@ const soEssa = process.argv[2];
 
 /* ---------- 1. descobrir, por prova, que recorte fazer ---------- */
 const tarefas = [];                 // {prova, pdfRel, pagina, n, x0,x1,y0,y1, alturaPag}
+const semTarefa = [];               // questões que nem chegaram a ter um recorte planejado
 
 for (const p of PROVAS) {
   if (soEssa && p.id !== soEssa) continue;
@@ -67,9 +68,24 @@ for (const p of PROVAS) {
     if (!it.length) continue;
     const vp = (await doc.getPage(np)).getViewport({ scale: 1 });
 
-    const marcas = it
+    /* Um número solto entre 21 e 70 no meio do enunciado NÃO é marcador de
+       questão — é um dado ("40 °C", "55 mm"). O marcador de verdade fica
+       sempre na margem da coluna, sempre no mesmo x. Então: junta os
+       candidatos, descobre quais x se repetem (as colunas) e só aceita
+       quem estiver ali. Sem isso, um número no texto virava início de
+       questão e o recorte saía do lugar — ou nem era planejado.       */
+    const candidatos = it
       .filter(i => /^\d{1,3}$/.test(i.s.trim()) && +i.s.trim() >= p.ini && +i.s.trim() <= p.ate)
       .map(i => ({ n: +i.s.trim(), y: i.y, x: i.x }));
+    if (!candidatos.length) continue;
+
+    const freq = new Map();
+    candidatos.forEach(c => freq.set(c.x, (freq.get(c.x) || 0) + 1));
+    const colunas = [...freq.entries()].filter(([, n]) => n >= 2).map(([x]) => x).sort((a, b) => a - b);
+    const marcas = (colunas.length ? candidatos.filter(c => colunas.some(x => Math.abs(c.x - x) <= 2)) : candidatos)
+      /* a mesma questão só pode começar uma vez na página: fica a de cima */
+      .sort((a, b) => a.n - b.n || b.y - a.y)
+      .filter((m, i, arr) => i === 0 || arr[i - 1].n !== m.n);
     if (!marcas.length) continue;
 
     const xs = [...new Set(marcas.map(m => m.x))].sort((a, b) => a - b);
@@ -96,15 +112,37 @@ for (const p of PROVAS) {
         const vao = linhas[k] - linhas[k + 1];
         if (vao >= VAO_MIN && (!melhor || vao > melhor.vao)) melhor = { vao, topo: linhas[k], base: linhas[k + 1] };
       }
-      if (!melhor) continue;
 
       const x0 = esquerda ? xs[0] - MARGEM : xs[xs.length - 1] - MARGEM;
-      tarefas.push({
+
+      /* O ENUNCIADO INTEIRO como saiu no caderno, do marcador até a
+         primeira alternativa: é a rede de segurança. Sempre existe, é a
+         imagem original da prova, e serve tanto quando não há vão
+         isolável quanto quando o recorte do vão sai em branco.        */
+      /* Preferência: parar na primeira alternativa, que deixa o recorte
+         limpo. Mas se o enunciado for curto, o desenho está DEPOIS das
+         alternativas ou na continuação — então o recorte vai até o
+         marcador da questão seguinte, pegando o bloco inteiro. É feio ter
+         a alternativa repetida na imagem, e é melhor que não ter figura. */
+      const primeiraAlt = it
+        .filter(t => /^\(?A\)/.test(t.s.trim()) && t.y < alvo.y && t.y > fim
+          && (t.x < meio + larguraCol * 0.55) === esquerda)
+        .sort((a, b) => b.y - a.y)[0];
+      const ateAlt = primeiraAlt ? primeiraAlt.y + 4 : null;
+      /* parar 14 pontos acima do próximo marcador: 4 deixava vazar a
+         primeira linha da questão seguinte para dentro do recorte */
+      const baseBloco = (ateAlt !== null && alvo.y - ateAlt >= 60) ? ateAlt : fim + 14;
+      const temBloco = alvo.y - baseBloco >= 60;
+
+      const comum = {
         prova: p.id, pdfRel: p.pdf, pagina: np, n: alvo.n,
-        x0, x1: x0 + larguraCol + MARGEM * 2,
-        yTopo: melhor.topo - 6, yBase: melhor.base + 6,
-        alturaPag: vp.height,
-      });
+        x0, x1: x0 + larguraCol + MARGEM * 2, alturaPag: vp.height,
+        ...(temBloco ? { blocoTopo: alvo.y + 12, blocoBase: baseBloco } : {}),
+      };
+
+      if (melhor) tarefas.push({ ...comum, yTopo: melhor.topo - 6, yBase: melhor.base + 6, tipo: 'figura' });
+      else if (temBloco) tarefas.push({ ...comum, yTopo: comum.blocoTopo, yBase: comum.blocoBase, tipo: 'bloco' });
+      else semTarefa.push(`${p.id} Q${alvo.n}`);
     }
   }
   console.log(`· ${p.id.padEnd(11)} ${tarefas.filter(t => t.prova === p.id).length} recortes de ${querem.size} questões com figura`);
@@ -172,29 +210,39 @@ for (const chave of paginas) {
     /* PDF conta o y de baixo para cima; a imagem, de cima para baixo */
     const px = x => Math.max(0, Math.round(x * ESCALA));
     const py = y => Math.max(0, Math.round((t.alturaPag - y) * ESCALA));
-    const x0 = px(t.x0), x1 = Math.min(W, px(t.x1));
-    const y0 = py(t.yTopo), y1 = Math.min(H, py(t.yBase));
-    const w = x1 - x0, h = y1 - y0;
-    if (w < 40 || h < 40) continue;
-    const cv = createCanvas(w, h);
-    const ctx = cv.getContext('2d');
-    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h);
-    ctx.drawImage(img, x0, y0, w, h, 0, 0, w, h);
-    /* Nem todo vão no texto é figura: às vezes é só espaço. Recorte em
-       branco na tela é pior que figura nenhuma, porque o aluno fica
-       procurando o desenho. Mede-se a tinta de verdade antes de gravar. */
-    const pix = ctx.getImageData(0, 0, w, h).data;
-    let escuros = 0;
-    for (let i = 0; i < pix.length; i += 4) {
-      if (pix[i] < 200 && pix[i + 1] < 200 && pix[i + 2] < 200) escuros++;
-    }
-    const tinta = escuros / (w * h);
-    if (tinta < 0.004) { brancos.push(`${t.prova} Q${t.n}`); continue; }
 
-    const nome = `${t.prova}-q${t.n}.png`;
-    fs.writeFileSync(path.join(DESTINO, nome), cv.toBuffer('image/png'));
-    ligadas.push({ prova: t.prova, n: t.n, arquivo: nome, w, h });
-    feitos++;
+    /* Tenta o recorte planejado; se vier em branco (o vão não era figura),
+       tenta o enunciado inteiro antes de desistir. Desistir deixava a
+       questão sem imagem nenhuma, que é justamente a reclamação.      */
+    const tentativas = [{ topo: t.yTopo, base: t.yBase, tipo: t.tipo }];
+    if (t.tipo === 'figura' && t.blocoTopo) tentativas.push({ topo: t.blocoTopo, base: t.blocoBase, tipo: 'bloco' });
+
+    let gravou = false;
+    for (const tent of tentativas) {
+      const x0 = px(t.x0), x1 = Math.min(W, px(t.x1));
+      const y0 = py(tent.topo), y1 = Math.min(H, py(tent.base));
+      const w = x1 - x0, h = y1 - y0;
+      if (w < 40 || h < 40) continue;
+      const cv = createCanvas(w, h);
+      const ctx = cv.getContext('2d');
+      ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, w, h);
+      ctx.drawImage(img, x0, y0, w, h, 0, 0, w, h);
+      /* Recorte em branco na tela é pior que figura nenhuma: o aluno fica
+         procurando um desenho que não existe. Mede-se a tinta de verdade. */
+      const pix = ctx.getImageData(0, 0, w, h).data;
+      let escuros = 0;
+      for (let i = 0; i < pix.length; i += 4) {
+        if (pix[i] < 200 && pix[i + 1] < 200 && pix[i + 2] < 200) escuros++;
+      }
+      if (escuros / (w * h) < 0.004) continue;
+
+      const nome = `${t.prova}-q${t.n}.png`;
+      fs.writeFileSync(path.join(DESTINO, nome), cv.toBuffer('image/png'));
+      ligadas.push({ prova: t.prova, n: t.n, arquivo: nome, w, h, tipo: tent.tipo });
+      feitos++; gravou = true;
+      break;
+    }
+    if (!gravou) { brancos.push(`${t.prova} Q${t.n}`); continue; }
     process.stdout.write(feitos % 10 === 0 ? String(feitos) : '.');
   }
 }
@@ -210,4 +258,5 @@ const porProva = {};
 ligadas.forEach(l => (porProva[l.prova] = (porProva[l.prova] || 0) + 1));
 console.log(`\n\n✓ ${ligadas.length} figuras em figuras/`);
 console.log(JSON.stringify(porProva, null, 1));
-if (brancos.length) console.log(`\n${brancos.length} recortes descartados por virem em branco (o vão não era figura):\n  ${brancos.join(' · ')}`);
+if (brancos.length) console.log(`\n${brancos.length} recortes descartados por virem em branco:\n  ${brancos.join(' · ')}`);
+if (semTarefa.length) console.log(`\n${semTarefa.length} questões sem recorte planejado (marcador ou alternativa não localizados):\n  ${semTarefa.join(' · ')}`);

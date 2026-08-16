@@ -24,6 +24,9 @@
    escuro ela ganha uma moldura clara para não flutuar sobre o preto */
 .qz-fig img{display:block;width:100%;max-width:520px;height:auto;margin:0 auto;
   border-radius:4px;background:#fff;}
+/* no modo bloco o recorte É o enunciado: precisa de mais largura para o
+   texto do caderno ficar legível */
+.qz-fig-bloco img{max-width:640px;}
 .qz-fig figcaption{margin-top:9px;font-size:.75rem;line-height:1.5;
   color:var(--ink2);text-align:center;}
 /* tabela que veio no lugar da figura */

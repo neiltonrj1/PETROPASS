@@ -114,7 +114,7 @@ function questaoHTML(fonte, q, mod, pos, total){
       ${errosAntes ? `<span class="qz-hist" title="quantas vezes você já errou esta questão">✘ ${errosAntes}× antes</span>` : ''}
       ${respondida ? `<span class="qz-sel ${acertou?'ok':'nao'}">${acertou?'✔ acertou':'✘ errou'}</span>` : ''}
     </header>
-    <div class="enun">${q.htm ? q.q : esc(q.q)}</div>
+    ${q.figBloco ? '' : `<div class="enun">${q.htm ? q.q : esc(q.q)}</div>`}
     ${figuraDaQuestao(q)}`;
 
   /* rascunho e dicas só antes de responder — depois viram ruído */
@@ -220,8 +220,15 @@ function questaoHTML(fonte, q, mod, pos, total){
 function figuraDaQuestao(q){
   const legenda = q.figLegenda
     ? `<figcaption>${q.htm ? q.figLegenda : esc(q.figLegenda)}</figcaption>` : '';
-  if(q.figArq) return `<figure class="qz-fig">
-    <img src="${esc(q.figArq)}" alt="Figura da questão ${q.n}" loading="lazy">${legenda}</figure>`;
+  if(q.figArq){
+    /* No modo bloco o recorte É o enunciado, então o texto fica no alt
+       (para leitor de tela e para a busca) e não é repetido na tela. */
+    const alt = q.figBloco ? esc(String(q.q||'').replace(/<[^>]+>/g,' ').slice(0,300))
+                           : `Figura da questão ${q.n}`;
+    return `<figure class="qz-fig${q.figBloco?' qz-fig-bloco':''}">
+      <img src="${esc(q.figArq)}" alt="${alt}" loading="lazy">
+      ${q.figBloco ? '<figcaption>Enunciado como saiu no caderno da prova</figcaption>' : legenda}</figure>`;
+  }
   if(q.fig) return `<figure class="qz-fig">${q.fig}${legenda}</figure>`;
   return '';
 }

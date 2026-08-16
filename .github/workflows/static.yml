@@ -57,6 +57,20 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html config.js sw.js manifest.webmanifest icon-192.png icon-512.png _site/
+          # As figuras das questões são arquivos, não vão embutidas no
+          # index.html (dobrariam o tamanho dele). Sem esta cópia elas
+          # aparecem quebradas no app, mesmo estando no repositório.
+          if [ -d figuras ]; then cp -r figuras _site/; fi
+
+      - name: Conferir se as figuras foram junto
+        run: |
+          esperadas=$(ls figuras/*.png 2>/dev/null | wc -l)
+          foram=$(ls _site/figuras/*.png 2>/dev/null | wc -l)
+          echo "figuras no repositório: $esperadas · no site: $foram"
+          if [ "$esperadas" != "$foram" ]; then
+            echo "::error::as figuras não foram para o _site — apareceriam quebradas no app"
+            exit 1
+          fi
 
       - name: Configurar o Pages
         uses: actions/configure-pages@v5

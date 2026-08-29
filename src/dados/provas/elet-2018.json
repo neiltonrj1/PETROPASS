@@ -6,8 +6,22 @@
  "processo": "Transpetro PSP RH 2018.1",
  "caderno": "Elétrica\\engenheiro_a_junior_eletrica.pdf",
  "folhaGabarito": "gabarito_definitivo.pdf",
- "total": 35,
+ "total": 41,
  "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2018, Q21",
+   "q": "Um engenheiro está desenvolvendo um projeto de partida de um motor de indução trifásico com corrente nominal de 10 A, Ip/In  10, cujo tempo de partida estimado é de 10 s. O fusível a ser empregado possui a curva característica corrente/tempo mostrada na Figura a seguir. Curva de característica corrente/tempo Corrente eficaz previsível",
+   "alts": {
+    "A": "10",
+    "B": "12",
+    "C": "16",
+    "D": "20",
+    "E": "25"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
   {
    "n": 22,
    "origem": "Cesgranrio 2018, Q22",
@@ -100,6 +114,19 @@
     "E": "79"
    },
    "correta": "E"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2018, Q29",
+   "q": "Um circuito terminal de 20 m e queda de tensão de 2% alimenta uma carga monofásica pontual de 1.000 VA. Sabendo-se que a tensão de fase da instalação onde essa carga se encontra é 200 V, a queda de tensão unitária, em V/A.km, do circuito é",
+   "alts": {
+    "A": "25",
+    "B": "30",
+    "C": "40",
+    "D": "55",
+    "E": "65"
+   },
+   "correta": "C"
   },
   {
    "n": 31,
@@ -329,6 +356,33 @@
    "correta": "C"
   },
   {
+   "n": 50,
+   "origem": "Cesgranrio 2018, Q50",
+   "q": "Um duto cilíndrico metálico, longo, imerso na água, conduz um fluido aquecido. Sabe-se que • o diâmetro interno do duto é 16 cm; • a condutividade térmica do duto é 40 W m C ; • o coeficiente de transferência de calor por convecção da água é 400 2 W m C ; • a temperatura do fluído é mantida constante; • a transferência de calor está em regime permanente. A espessura de parede do duto que confere a máxima transferência de calor do fluido à água é, em cm,",
+   "alts": {
+    "A": "0,1",
+    "B": "0,5",
+    "C": "2",
+    "D": "4",
+    "E": "8"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2018, Q52",
+   "q": "Na Figura a seguir, aparece o diagrama esquemático de um circuito regulador de tensão linear. A partir de uma fonte não regulada V DC, esse circuito é capaz de entregar uma tensão regulada para a carga, cujo valor pode ser ajustado através do resistor variável R 1. Nesse regulador, o amplificador operacional é considerado ideal, e o diodo zener Z 1 apresenta uma tensão de ruptura igual a 5,0 V. Dessa forma, qual deve ser, em quilo-ohms, o valor da resistência R 1, de modo que o regulador entregue para a carga uma tensão igual a 12 V?",
+   "alts": {
+    "A": "10",
+    "B": "14",
+    "C": "20",
+    "D": "24",
+    "E": "25"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
    "n": 53,
    "origem": "Cesgranrio 2018, Q53",
    "q": "O circuito da Figura abaixo tem como objetivo controlar a potência que uma fonte de tensão alternada V S entrega para uma carga resistiva R L. A potência na carga é controlada através do disparo de um SCR (Silicon Controlled Rectifier). As formas de onda da tensão alternada V S e da tensão de disparo V G também estão representadas na Figura abaixo. Considerando-se ideais o diodo e o SCR, a corrente média, em ampères, que circula pelo SCR é igual a",
@@ -469,6 +523,19 @@
    "pedeFigura": true
   },
   {
+   "n": 68,
+   "origem": "Cesgranrio 2018, Q68",
+   "q": "Considere o processo industrial modelado por meio da função de transferência discreta e causal (y(k)=0, para k < 0), em que U é o sinal de entrada, e Y é o sinal de saída, dada por:     2 Y z 10z + M = U z z 1,2z + 0,2 Medidas y(kT) = y(k), com k = 0,1,2,..., são obtidas a cada intervalo de tempo T quando a entrada é um impulso unitário. Sabendo-se que a resposta ao impulso unitário é dada pela sequência y(k) = {y(0), y(1), y(2),...} = {0, 10, 17,...}, qual é o valor do parâmetro M?",
+   "alts": {
+    "A": "1",
+    "B": "3",
+    "C": "5",
+    "D": "7",
+    "E": "9"
+   },
+   "correta": "C"
+  },
+  {
    "n": 69,
    "origem": "Cesgranrio 2018, Q69",
    "q": "O engenheiro responsável por uma planta industrial alterou seu comportamento dinâmico por meio de realimentação unitária, conforme ilustrado na Figura abaixo. Dessa forma, em malha fechada, as novas posições dos polos no plano s serão:",
@@ -481,6 +548,20 @@
    },
    "correta": "A",
    "pedeFigura": true
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2018, Q70",
+   "q": "A Figura abaixo ilustra um circuito alimentado por uma fonte de corrente de 2 A, conectado a uma carga de 80 . Para R=10 , o valor da fonte de tensão do equivalente de Thévenin, em volts, para o circuito inserido no retângulo pontilhado, entre os terminais da carga, é",
+   "alts": {
+    "A": "10",
+    "B": "20",
+    "C": "40",
+    "D": "50",
+    "E": "80"
+   },
+   "correta": "C",
+   "pedeFigura": true
   }
  ],
  "deFora": {
@@ -489,6 +570,7 @@
    57
   ],
   "comFigura": [
+   21,
    25,
    27,
    32,
@@ -497,6 +579,7 @@
    44,
    47,
    48,
+   52,
    53,
    55,
    56,
@@ -507,7 +590,8 @@
    63,
    64,
    67,
-   69
+   69,
+   70
   ],
   "quebradas": [
    30,

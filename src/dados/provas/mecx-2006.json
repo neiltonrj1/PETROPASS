@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP-RH-1/2006 (prova em 07/05/2006)",
  "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\34.pdf",
  "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\petrobras0106_gabsupII.pdf",
- "total": 24,
+ "total": 33,
  "questoes": [
   {
    "n": 21,
@@ -101,6 +101,20 @@
    "correta": "A"
   },
   {
+   "n": 29,
+   "origem": "Cesgranrio 2006, Q29",
+   "q": "Observe a figura abaixo. No manômetro diferencial representado na figura, os recipientes A e B contêm água sob pressões de 300 kPa e 68 kPa, respectivamente. A aceleração local da gravidade é considerada igual a 10 m/s 2. Para esta situação, a deflexão (h) do mercúrio (13600 kg/m 3) no manômetro diferencial, em m, é:",
+   "alts": {
+    "A": "0,5",
+    "B": "1,0",
+    "C": "1,5",
+    "D": "2,0",
+    "E": "2,5"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 30,
    "origem": "Cesgranrio 2006, Q30",
    "q": "Uma parede plana, cuja condutividade térmica é constante, apresenta uma distribuição de temperatura do tipo T(x) = a - bx 2, onde a e b são constantes conhecidas. A esse respeito, é correto afirmar que:",
@@ -110,6 +124,32 @@
     "C": "o processo de condução se dá em regime transiente.",
     "D": "a parede apresenta, em seu interior, uma taxa de geração de calor constante.",
     "E": "pode ser utilizado o conceito de resistência térmica neste problema."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2006, Q31",
+   "q": "Uma parede de 5 cm de espessura tem uma temperatura de 60°C em uma extremidade, enquanto que o outro lado troca calor por convecção com um meio externo cuja temperatura vale 30°C. Admitindo que a condutividade térmica da parede é igual a e que a taxa de transferência de calor na parede vale, o coeficiente de troca de calor por convecção, em, do meio externo é:",
+   "alts": {
+    "A": "20",
+    "B": "2",
+    "C": "0,75",
+    "D": "0,5",
+    "E": "0,1 W m °C"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2006, Q32",
+   "q": "Em relação ao processo de troca de calor através de radiação, afirma-se que: I - segundo a Lei do Deslocamento de Wien, o comprimento de onda que torna máximo o poder emissivo monocromático é diretamente proporcional à temperatura; II - o fator de forma de radiação é uma grandeza adimensional; III - uma superfície cinza emite menos energia radiante do que uma superfície negra; IV - a troca de calor radiante entre duas superfícies negras é função apenas das temperaturas de cada superfície. Estão corretas apenas as afirmações:",
+   "alts": {
+    "A": "I e II",
+    "B": "I e III",
+    "C": "I e IV",
+    "D": "II e III",
+    "E": "II e IV"
    },
    "correta": "D"
   },
@@ -127,6 +167,33 @@
    "correta": "C"
   },
   {
+   "n": 34,
+   "origem": "Cesgranrio 2006, Q34",
+   "q": "A deformação específica medida na superfície de um reservatório esférico contendo gás pressurizado é = 1000 μ. Considerando a teoria de membrana para o comportamento das tensões na parede do reservatório e sabendo que o material é um aço com módulo de elasticidade E = 210 GPa e Coeficiente de Poisson = 0,3, a tensão normal máxima atuante em qualquer ponto da superfície, em MPa, vale:",
+   "alts": {
+    "A": "100",
+    "B": "200",
+    "C": "300",
+    "D": "400",
+    "E": "500"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2006, Q35",
+   "q": "Observe a figura abaixo. Um tanque com raio R = 5 m deve ser projetado para suportar a carga imposta pela pressão hidrostática do volume de óleo em seu interior. O engenheiro projetista, como primeira aproximação, considerou o nível máximo de óleo no tanque correspondente à altura h = 15 m e, como critério de projeto, que a tensão atuante na direção circunferencial é dada pela teoria de vasos de paredes finas,, e que a tensão na direção vertical é nula. Considerando que as paredes do tanque são de aço com tensão de escoamento de 300 MPa, que o óleo tem uma massa específica de 900 kg/m 3, e admitindo um coeficiente de segurança igual a 3 e g = 10 m/s 2, a espessura mínima de projeto, em mm, obtida pelo engenheiro, deve ser de:",
+   "alts": {
+    "A": "5,00",
+    "B": "5,50",
+    "C": "6,00",
+    "D": "6,75",
+    "E": "7,20"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 36,
    "origem": "Cesgranrio 2006, Q36",
    "q": "Um eixo transmite potência a um sistema através de um par de engrenagens de dentes retos. A engrenagem fixa ao eixo recebe do sistema uma força F, conforme indicado na figura abaixo. O dimensionamento do eixo depende das tensões atuantes no ponto crítico do eixo. Considerando o eixo como “engastado” no motor, esse ponto está sujeito às tensões normal e cisalhante, devidas, respectivamente, aos esforços de:",
@@ -138,6 +205,20 @@
     "E": "flexão e torção."
    },
    "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2006, Q37",
+   "q": "A figura abaixo mostra uma seção longitudinal em corte de um vaso cilíndrico pressurizado, cujas extremidades são fechadas por flanges, onde 12 parafusos de cada lado estão igualmente espaçados. Considerando-se que cada parafuso possa resistir a uma força máxima de 10π kN sem que o limite elástico do material seja ultrapassado, a pressão máxima, em kPa, do fluido no interior do vaso deve ser de:",
+   "alts": {
+    "A": "100",
+    "B": "220",
+    "C": "350",
+    "D": "480",
+    "E": "550"
+   },
+   "correta": "D",
    "pedeFigura": true
   },
   {
@@ -180,6 +261,33 @@
    "correta": "A"
   },
   {
+   "n": 43,
+   "origem": "Cesgranrio 2006, Q43",
+   "q": "Em um Ciclo de Rankine, a bomba e a turbina têm eficiências isentrópicas de 80% e 50%, respectivamente. As entalpias na entrada da turbina e da bomba são, respectivamente, 2.700 kJ/kg e 190 kJ/kg. Considerando um processo adiabático e reversível nesses equipamentos, foi determinado um valor de 1.180 kJ/kg para a entalpia na saída da turbina e de 8 kJ/kg para o trabalho consumido pela bomba. Nesta situação, a eficiência térmica do ciclo é:",
+   "alts": {
+    "A": "25%",
+    "B": "30%",
+    "C": "35%",
+    "D": "40%",
+    "E": "50%"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2006, Q44",
+   "q": "O diagrama temperatura - entropia, abaixo, mostra o efeito da razão de compressão sobre o Ciclo Brayton ideal. O ponto 3 representa a entrada na turbina. Considere as afirmações a seguir, referentes à figura. I - A eficiência térmica do ciclo 1-2’-3’’-4’’-1 é menor do que a do ciclo 1-2-3-4-1. II - O trabalho líquido por unidade de massa do ciclo 1-2-3-4-1 é maior do que o do ciclo 1-2’-3’’-4’’-1. III - Em aplicações onde o peso da instalação é um fator limitante, é preferível operar com a razão de compressão do ciclo 1-2-3-4-1 do que a do ciclo 1-2’-3’’-4’’-1. Está(ão) correta(s) a(s) afirmação(ões):",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III. G. Van Wylen, R. Sonntag, C. Borgnakke. Fundamentos da Termodinâmica Clássica. p. 263."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 47,
    "origem": "Cesgranrio 2006, Q47",
    "q": "Assinale a opção que explica INCORRETAMENTE uma das formas pelas quais a corrosão pode se manifestar.",
@@ -204,6 +312,19 @@
     "E": "presença de cromo que migra para a superfície e impede a formação da pilha galvânica."
    },
    "correta": "B"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2006, Q49",
+   "q": "Na seleção de materiais para a indústria mecânica, é comum utilizar polímeros derivados do petróleo. Gaxetas, tubulações e buchas são exemplos desta aplicação. Sobre esse assunto, são feitas as afirmativas a seguir. I - Os polímeros termoplásticos, como o PVC, podem ser utilizados em aplicações onde o material é aquecido e resfriado sem alterar suas propriedades, pois, ao aquecer, não ocorrem reações químicas. II - O náilon, por ser um termofixo, ao ser aquecido se transforma quimicamente e endurece, num processo chamado de “cura”, sendo utilizado em aplicações onde o material é solicitado mecanicamente a uma alta temperatura. III - São utilizados “estabilizadores” para prevenir a degradação dos plásticos quando expostos à ação de luz e calor, à fratura por flexão continuada e à fratura por ação atmosférica prolongada. Está(ão) correta(s) a(s) afirmativa(s):",
+   "alts": {
+    "A": "II, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "C"
   },
   {
    "n": 50,
@@ -327,7 +448,11 @@
   "semGabarito": [],
   "comFigura": [
    27,
-   36
+   29,
+   35,
+   36,
+   37,
+   44
   ],
   "quebradas": [
    39

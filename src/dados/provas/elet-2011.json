@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 3/2011",
  "caderno": "Elétrica\\prova_9_engenheiro_a_junior_area_eletrica.pdf",
  "folhaGabarito": "gabaritos.pdf",
- "total": 32,
+ "total": 36,
  "questoes": [
   {
    "n": 21,
@@ -33,6 +33,19 @@
     "E": "nas sequências positiva, negativa e zero"
    },
    "correta": "E"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2011, Q23",
+   "q": "A respeito do curto-circuito em uma linha de transmissão, analise as afirmativas. I - O curto-circuito trifásico depende somente do circuito equivalente de Thèvenin de sequência positiva. II - O curto-circuito bifásico depende dos circuitos equivalentes de Thèvenin de sequências positiva e zero. III - O curto-circuito monofásico depende dos circuitos equivalentes de Thèvenin de sequências positiva, negativa e zero. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e III",
+    "E": "II e III"
+   },
+   "correta": "D"
   },
   {
    "n": 24,
@@ -70,6 +83,20 @@
     "C": "cos 60 o",
     "D": "cos 85 o",
     "E": "cos 110 o"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2011, Q28",
+   "q": "V b V c V a j3: j3: j3: j0,5: O circuito trifásico da figura acima mostra uma carga alimentada por uma fonte. A tensão da fonte é tal que as componentes de sequência zero, positiva e negativa são 9 0° V, 110 15° V e 20 5° V, respectivamente. A carga é aterrada por meio de uma impedância, conforme indicado na figura. De acordo com essas informações, o valor, em ampère, do módulo da corrente de sequência zero presente no circuito é",
+   "alts": {
+    "A": "1,5",
+    "B": "2,0",
+    "C": "2,6",
+    "D": "3,0",
+    "E": "6,0"
    },
    "correta": "B",
    "pedeFigura": true
@@ -116,6 +143,20 @@
    "pedeFigura": true
   },
   {
+   "n": 33,
+   "origem": "Cesgranrio 2011, Q33",
+   "q": "Para o circuito apresentado na figura acima, o valor da tensão V x, em volts, é",
+   "alts": {
+    "A": "– 4",
+    "B": "0",
+    "C": "4",
+    "D": "8",
+    "E": "12"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 34,
    "origem": "Cesgranrio 2011, Q34",
    "q": "Dado: obtêm-se as impedâncias por: para i = 1,2,...6. Considere o circuito da figura acima, com três nós (1, 2 e 3), seis admitâncias (y 1 a y 6), alimentado por duas fontes senoidais de corrente, em regime permanente. Equacionando a solução desse circuito na forma matricial, obtém-se I = Y.V, onde I é o vetor das injeções de correntes nodais, Y a matriz de admitância nodal, e V o vetor das tensões nodais. A expressão do elemento Y 22 da matriz Y é",
@@ -125,6 +166,20 @@
     "C": "y 4 + y 5 − y 6",
     "D": "z 1 + z 2 + z 3",
     "E": "(z 1 + z 4) − (z 3 − z 5)"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2011, Q35",
+   "q": "Com o objetivo de elaborar o projeto de malha de terra de um centro de processamento de dados, foi levantada a curva x a por meio do método de Werner, conforme a figura acima. Com base no método simplificado para a estratificação do solo em duas camadas, considere as afirmativas abaixo. I - A resistividade da 1 a camada do solo é aproximadamente igual a 800. II - A reflexão do solo vale 7/9. III - A resistividade da 2 a camada do solo é aproximadamente igual a 450. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "II e III"
    },
    "correta": "B",
    "pedeFigura": true
@@ -296,7 +351,7 @@
     "B": "0,15",
     "C": "0,20",
     "D": "0,25",
-    "E": "0,30 Considere as informações a seguir para responder às questões de n os 54 e 55. Um sistema de 2 a ordem tem seu modelo em função de transferência representado, na forma padrão, por. As posições dos seus polos estão mostradas no gráfico da figura acima."
+    "E": "0,30"
    },
    "correta": "D",
    "pedeFigura": true
@@ -442,9 +497,12 @@
   "semGabarito": [],
   "comFigura": [
    27,
+   28,
    29,
    32,
+   33,
    34,
+   35,
    38,
    40,
    53,

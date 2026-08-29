@@ -6,8 +6,36 @@
  "processo": "Transpetro PSP RH 002/2008",
  "caderno": "Elétrica\\prova8.pdf",
  "folhaGabarito": "Elétrica\\transpetro0208_gabsup.pdf",
- "total": 8,
+ "total": 14,
  "questoes": [
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2008, Q26",
+   "q": "O sinal periódico de tensão mostrado na figura acima é aplicado sobre um resistor de 10W. A potência média, em W, dissipada no resistor é",
+   "alts": {
+    "A": "18",
+    "B": "32",
+    "C": "38",
+    "D": "42",
+    "E": "54"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2008, Q27",
+   "q": "A figura acima apresenta um transformador de 400 VA 120/24 V (valores de tensão eficazes), conectado como um autotransformador com a interligação aditiva das espiras do lado de alta e de baixa tensão, respectivamente, denominadas N alta e N baixa.Nesta configuração, o transformador é capaz de transferir uma potência maior do que aquela para a qual ele foi originalmente projetado, tendo em vista que nem toda potência é transferida do primário para o secundário através do fluxo magnético, mas também através da conexão direta do circuito. Sendo aplicada em V in uma tensão de 120 V eficazes, a potência aparente nominal em que o autotransformador poderá operar, em VA, é",
+   "alts": {
+    "A": "1600",
+    "B": "2000",
+    "C": "2400",
+    "D": "3200",
+    "E": "4000"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
   {
    "n": 28,
    "origem": "Cesgranrio 2008, Q28",
@@ -18,6 +46,34 @@
     "C": "2 RS 2 R 2 S X cosEE2EE d-+",
     "D": "X cosEE2EE RS 2 R 2 S d++",
     "E": "2 RS 2 R 2 S X cosEE2EE d++ W Z T S Q"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2008, Q29",
+   "q": "Considere a figura acima, onde um gerador (G) de 25 MVA, 13,8 kV, com reatância subtransiente igual a 15%, é conectado a um barramento que alimenta quatro motores (M) idênticos por meio de um transformador (T) de 25 MVA, 13,8 kV/6,9 kV, com reatância de 10%. A reatância subtransiente de cada motor é igual a 20% na base 5 MVA, 6,9 kV. A tensão do barramento em que os motores estão conectados é de 6,9 kV, quando um curto-circuito trifásico ocorre no ponto P. Assim, o disjuntor que terá de interromper a maior corrente é",
+   "alts": {
+    "A": "DJ1",
+    "B": "DJ2",
+    "C": "DJ3",
+    "D": "DJ4",
+    "E": "DJ5"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2008, Q30",
+   "q": "Em uma subestação, o neutro da alimentação e as massas de todos os equipamentos existentes são diretamente conectados à mesma malha de terra. De acordo com as normas vigentes no Brasil, o esquema de aterramento dessa subestação é do tipo",
+   "alts": {
+    "A": "TT",
+    "B": "TN",
+    "C": "T I",
+    "D": "I T",
+    "E": "NT"
    },
    "correta": "A",
    "pedeFigura": true
@@ -61,6 +117,19 @@
     "E": "do BNDES. Es ER 0 jX S = P + jQS S S S = P + jQR R R I"
    },
    "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2008, Q35",
+   "q": "Duas amostras de um gás ideal são expandidas do estado inicial para o estado final, nos processos 1 e 2 quase-estáticos, de acordo com os diagramas PV mostrados acima. Os trabalhos realizados, em joules, por amostra de gás, são, respectivamente,",
+   "alts": {
+    "A": "6 e 6",
+    "B": "6 e 21",
+    "C": "15 e 21",
+    "D": "21e 15",
+    "E": "21 e 21"
+   },
+   "correta": "C"
   },
   {
    "n": 36,
@@ -113,12 +182,29 @@
     "E": "a geração por meio de pequenas centrais hidrelétricas é uma possibilidade viável para locais que possuem recursos hídricos compatíveis e dificuldades inerentes às linhas de transmissão."
    },
    "correta": "E"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2008, Q40",
+   "q": "O Brasil, com suas dimensões continentais, apresenta uma demanda crescente de energia. A energia elétrica é vital para o desenvolvimento do país, e a escolha da melhor forma de gerá-la implica um estudo detalhado que avalie a opção mais adequada. Quanto ao tema supracitado, considere as afirmativas a seguir. I - A bacia hidrográfica do Amazonas é a que apresenta maior potencial hidrelétrico, e sua distância dos grandes centros consumidores é o maior impeditivo para a implementação dos empreendimentos de geração de energia elétrica nessa região. II - O aproveitamento do potencial hidrelétrico da bacia hidrográfica do Rio Paraná visa, principalmente, ao abastecimento dos grandes centros industriais das Regiões Sul e Sudeste. III - A dependência do gás natural da Bolívia é um dos fatores que dificulta a expansão de termelétricas que usam este tipo de combustível. É(São) correta(s) APENAS a(s) afirmativa(s)",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e III",
+    "E": "II e III Processo 1 Processo 2"
+   },
+   "correta": "E"
   }
  ],
  "deFora": {
   "semGabarito": [],
   "comFigura": [
+   26,
+   27,
    28,
+   29,
+   30,
    31
   ],
   "quebradas": []

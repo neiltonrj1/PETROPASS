@@ -6,8 +6,60 @@
  "processo": "Petrobras PSP RH-2/2010 (prova em 27/02/2011)",
  "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\PROVA 9 - ENGENHEIRO DE EQUIPAMENTOS JÚNIOR - MECÂNICA.pdf",
  "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\Gabaritos.pdf",
- "total": 38,
+ "total": 46,
  "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2011, Q21",
+   "q": "Um grupo de estudos buscou nas tabelas de um livro de termodinâmica o valor da energia interna de uma determinada substância que se encontra no estado de vapor superaquecido. O grupo obteve a informação de que alguns livros não fornecem os valores da energia interna específica u na região do vapor superaquecido, uma vez que essa propriedade pode ser rapidamente calculada por meio de uma expressão que utiliza outras propriedades fornecidas na tabela. O grupo verificou que esse era o caso. Considerando h como a entalpia, p a pressão e v o volume específico, o grupo aplicou, para obter u, a expressão",
+   "alts": {
+    "A": "u = v – hp",
+    "B": "u = p + hv",
+    "C": "u = p – hv",
+    "D": "u = h + pv",
+    "E": "u = h – pv"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2011, Q22",
+   "q": "Um compressor que opera em regime permanente é alimentado com ar a pressão p 1 e a temperatura T 1, descarregando o fluido a p 2 e T 2. O fluxo de massa de ar é de 0,1 kg/s, ocorrendo uma perda de calor de 20 kJ/kg durante o processo. Considerando desprezíveis as variações das energias cinética e potencial, a entalpia, na entrada do compressor, como 300 kJ/kg e, na saída como 500 kJ/kg, a potência do compressor, em kW, vale",
+   "alts": {
+    "A": "10",
+    "B": "22",
+    "C": "40",
+    "D": "82",
+    "E": "100"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2011, Q23",
+   "q": "Um tanque rígido de 0,9 m 3 contém um gás ideal a p 1 = 0,5 MPa e T 1 = 500 K. Após um vazamento de 0,5 kg do gás, chegou-se a p 2 = 400 kPa. Considerando R = 0,3 kJ/kg.K, a temperatura T 2, em K, vale",
+   "alts": {
+    "A": "260",
+    "B": "400",
+    "C": "480",
+    "D": "2.400",
+    "E": "3.000"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2011, Q24",
+   "q": "Um laboratório de uma universidade situada em um país frio deve ser mantido a 37 ºC, com o auxílio de uma bomba de calor. Quando a temperatura do exterior cai para 6 ºC, a taxa de energia perdida do laboratório para o exterior corresponde a 30 kW. Considerando-se regime permanente, a potência elétrica mínima necessária para acionar a bomba de calor, vale, em kW, aproximadamente",
+   "alts": {
+    "A": "0,3",
+    "B": "3",
+    "C": "25",
+    "D": "250",
+    "E": "300"
+   },
+   "correta": "B"
+  },
   {
    "n": 25,
    "origem": "Cesgranrio 2011, Q25",
@@ -210,6 +262,20 @@
    "correta": "E"
   },
   {
+   "n": 42,
+   "origem": "Cesgranrio 2011, Q42",
+   "q": "A figura abaixo apresenta o diagrama Fe-C para teores de até 6,7% em peso de carbono. Uma liga binária Fe-C com 4,7% em peso de carbono sofrerá um esfriamento lento e, ao atingir a temperatura de 1.147 o C, se solidificará totalmente. Nessas condições, tal liga será composta por",
+   "alts": {
+    "A": "austenita e o eutético ledeburita.",
+    "B": "austenita e o eutético cementita.",
+    "C": "cementita e o eutético ledeburita.",
+    "D": "cementita e o eutético austenita.",
+    "E": "ledeburita e o eutético austenita."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
    "n": 43,
    "origem": "Cesgranrio 2011, Q43",
    "q": "Os aços de alta resistência e baixa liga são aqueles que têm maior resistência mecânica que os seus aços-carbono equivalentes. Tais aços",
@@ -271,7 +337,7 @@
     "B": "θ 3, apenas.",
     "C": "θ 1 e θ 2, apenas.",
     "D": "θ 2 e θ 3, apenas.",
-    "E": "θ 1, θ 2 e θ 3. Considere os dados e a figura a seguir para responder às questões de n os 48 e 49. O diagrama pressão-volume, abaixo, ilustra a redução do trabalho de compressão numa compressão em três estágios, com arrefecimento do gás ao sair na descarga de cada estágio. SILVA, N. F. Compressores Alternativos Industriais. Rio de Janeiro: Interciência, 2009."
+    "E": "θ 1, θ 2 e θ 3."
    },
    "correta": "D",
    "pedeFigura": true
@@ -316,6 +382,19 @@
    "correta": "B"
   },
   {
+   "n": 53,
+   "origem": "Cesgranrio 2011, Q53",
+   "q": "O ciclo de Rankine é o modelo ideal para as centrais térmicas a vapor utilizadas na produção de potência. No entanto, sabe-se que um ciclo real se afasta de um ciclo ideal, uma vez que ocorrem várias perdas. Com relação a essas perdas, analise as afirmativas a seguir. I – As perdas principais na turbina são aquelas associadas ao escoamento do fluido de trabalho, por meio dos canais e palhetas da turbina. II – As perdas na bomba decorrem principalmente das irreversibilidades associadas ao escoamento do fluido. III – A perda de carga provocada pelo atrito e a transferência de calor ao ambiente são as perdas mais importantes nas tubulações. IV – As perdas no condensador são extremamente significativas, considerando todo o conjunto. Estão corretas APENAS as afirmativas",
+   "alts": {
+    "A": "I e II.",
+    "B": "I e IV.",
+    "C": "III e IV.",
+    "D": "I, II e III.",
+    "E": "II, III e IV."
+   },
+   "correta": "D"
+  },
+  {
    "n": 54,
    "origem": "Cesgranrio 2011, Q54",
    "q": "MORAN, M.J. e SHAPIRO, H.N. Princípios de Termodinâmica para Engenharia. Rio de Janeiro: LTC, 2009. No ciclo de Rankine ilustrado na figura acima, o calor rejeitado no condensador vale em módulo 1.950 kJ/kg, e o calor recebido na caldeira corresponde em módulo a 3.000 kJ/kg. Com base nesses dados, para o rendimento do ciclo, tem-se",
@@ -354,6 +433,19 @@
     "E": "550"
    },
    "correta": "B"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2011, Q57",
+   "q": "Uma das superfícies de uma placa delgada absorve 793 W/m 2 de radiação solar e a dissipa por convecção para o ar ambiente a 30 o C, enquanto a outra superfície está isolada. Considerando que o coeficiente de transferência de calor envolvido vale h = 13 W/(m 2.o C), a temperatura da placa, em o C, é dada por",
+   "alts": {
+    "A": "31",
+    "B": "61",
+    "C": "78",
+    "D": "91",
+    "E": "101"
+   },
+   "correta": "D"
   },
   {
    "n": 58,
@@ -495,9 +587,22 @@
     "B": "resistência à fadiga, dureza a quente e módulo de elasticidade, que são resultantes dos elementos de liga Cr-Ni e do tratamento de têmpera e revenido.",
     "C": "dureza, tenacidade e resistência à ruptura, que são resultantes do teor dos elementos de liga Cr-Ni-Mo e do tratamento térmico de têmpera e revenido.",
     "D": "fragilidade, resiliência e resistência à fluência, que são resultantes do teor de carbono e do tratamento térmico de revenido.",
-    "E": "usinabilidade, resistência à ruptura e ductibilidade, que são resultantes dos elementos de liga S-Mn e do tratamento térmico de têmpera e revenido. Considere a figura a seguir, referente às curvas de desempenho de um motor elétrico, para responder às questões de n os 69 e 70."
+    "E": "usinabilidade, resistência à ruptura e ductibilidade, que são resultantes dos elementos de liga S-Mn e do tratamento térmico de têmpera e revenido."
    },
    "correta": "C"
+  },
+  {
+   "n": 69,
+   "origem": "Cesgranrio 2011, Q69",
+   "q": "Considerando as curvas de desempenho mostradas acima, conclui-se que a potência máxima ocorre na condição de",
+   "alts": {
+    "A": "velocidade mínima.",
+    "B": "eficiência máxima.",
+    "C": "tensão mínima.",
+    "D": "corrente mínima.",
+    "E": "torque mínimo."
+   },
+   "correta": "A"
   },
   {
    "n": 70,
@@ -522,6 +627,7 @@
    36,
    37,
    40,
+   42,
    44,
    47,
    54,

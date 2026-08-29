@@ -365,12 +365,12 @@
   {
    "n": 53,
    "origem": "Cesgranrio 2011, Q53",
-   "q": "A figura abaixo mostra, em linha cheia, as posições iniciais das curvas de demanda (D) e de oferta (S) pelo bem X. Os consumidores consideram X um bem inferior. Suponha que, para os consumidores de X, o bem Y seja um substituto de X. Um aumento no preço de Y, as demais variáveis que influenciam a demanda e a oferta de X permanecendo constantes, altera a curva de",
+   "q": "A figura abaixo mostra, em linha cheia, as posições iniciais das curvas de demanda",
    "alts": {
+    "D": "oferta S para uma posição como S 2",
     "A": "demanda D para uma posição como D 1",
     "B": "demanda D para uma posição como D 2",
     "C": "oferta S para uma posição como S 1",
-    "D": "oferta S para uma posição como S 2",
     "E": "oferta S para uma posição como D 1"
    },
    "correta": "A",
@@ -538,13 +538,13 @@
   {
    "n": 66,
    "origem": "Cesgranrio 2011, Q66",
-   "q": "Uma variável aleatória X tem uma distribuição de probabilidade normal de média nula e desvio padrão igual a 1. Se P (E) representar a probabilidade de um evento E, a única afirmação abaixo INCORRETA é",
+   "q": "Uma variável aleatória X tem uma distribuição de probabilidade normal de média nula e desvio padrão igual a 1. Se P",
    "alts": {
+    "E": "P (X > - 1) > P (X < -1)",
     "A": "P (X < −1) = zero",
     "B": "P (X > zero) = 0,5",
     "C": "P (X < zero) = P (X > zero)",
-    "D": "P (X < - 2) > P (X > 3)",
-    "E": "P (X > - 1) > P (X < -1)"
+    "D": "P (X < - 2) > P (X > 3)"
    },
    "correta": "A"
   },

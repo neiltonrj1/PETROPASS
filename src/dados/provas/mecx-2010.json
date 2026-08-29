@@ -6,7 +6,7 @@
  "processo": "Petrobras Biocombustível (prova em 06/06/2010)",
  "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\PROVA 22 - ENGENHEIRO(A) DE EQUIPAMENTOS JUNIOR - MECANICA.pdf",
  "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\gabaritos_Petrobras BioCombustível.pdf",
- "total": 24,
+ "total": 26,
  "questoes": [
   {
    "n": 21,
@@ -75,6 +75,19 @@
    },
    "correta": "A",
    "pedeFigura": true
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2010, Q26",
+   "q": "O controle de um processo é representado pelo diagrama de blocos acima, onde E(s) é a entrada, S(s) é a saída, G(s) é a função de transferência do processo a ser controlado e H(s) é a função de transferência do controlador. Considerando-se uma realimentação unitária, a função de transferência do sistema com o controlador, FT = S(s)/E(s), é expressa por",
+   "alts": {
+    "A": "1 1 G(s) - -",
+    "B": "G(s) 1 G(s)+",
+    "C": "1 G(s)+",
+    "D": "1 1 G(s)-",
+    "E": "1 1 G(s)+"
+   },
+   "correta": "B"
   },
   {
    "n": 27,
@@ -217,9 +230,22 @@
     "B": "quando se deseja tamanho reduzido.",
     "C": "para serviço intermitente.",
     "D": "para aplicações em condicionamento de ar de modo a minimizar ruído.",
-    "E": "para instalações com elevada demanda de potência e operação contínua. Considere o ciclo de ar padrão ideal Brayton da figura abaixo para responder às questões de nos 39 e 40."
+    "E": "para instalações com elevada demanda de potência e operação contínua."
    },
    "correta": "E"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2010, Q41",
+   "q": "Uma central de potência a vapor, operando num ciclo de Rankine, apresenta como valores de entalpia na entrada e na saída da caldeira, respectivamente, 200 kJ/kg e 2.900 kJ/kg. Sabendo-se que o trabalho desenvolvido pela turbina vale w t = 1.009 kJ/kg e que o trabalho de entrada na bomba é dado por bw = 10 kJ/kg, um engenheiro obtém, em %, para o rendimento do ciclo, o valor de",
+   "alts": {
+    "A": "33",
+    "B": "35",
+    "C": "37",
+    "D": "40",
+    "E": "42"
+   },
+   "correta": "C"
   },
   {
    "n": 42,

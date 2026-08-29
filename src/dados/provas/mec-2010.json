@@ -6,7 +6,7 @@
  "processo": "BR Distribuidora (prova em 02/05/2010)",
  "caderno": "5.pdf",
  "folhaGabarito": "55.pdf",
- "total": 35,
+ "total": 44,
  "questoes": [
   {
    "n": 26,
@@ -31,10 +31,23 @@
     "B": "S a tensão cisalhante t xy é nula e t xz é máxima.",
     "C": "S a tensão cisalhante t xy é máxima e a tensão normal s x é nula.",
     "D": "R a tensão normal s x e a tensão cisalhante t xy são máximas.",
-    "E": "S a tensão cisalhante t yz é máxima e a tensão s x é nula. F AtuadorPlataforma A B C D R S F y z x A B3 90 O 2 4O2 w2 O4 w4 90 O Considere o contexto abaixo para responder às questões de nos 28 e 29. No mecanismo de quatro barras da figura, a barra O 2 A é acionada por um motor acoplado ao mancal O 2 a uma velocidade angular constante w 2. Considere a fase indicada na figura e que os comprimentos das barras paralelas sejam tais que O 4 B = 2 O 2 A."
+    "E": "S a tensão cisalhante t yz é máxima e a tensão s x é nula. F AtuadorPlataforma A B C D R S F y z x A B3 90 O 2 4O2 w2 O4 w4 90 O"
    },
    "correta": "C",
    "pedeFigura": true
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2010, Q28",
+   "q": "A relação w 4 /w 2, entre as velocidades angulares das barras 4 e 2, nessa fase, vale",
+   "alts": {
+    "A": "0,25",
+    "B": "0,5",
+    "C": "1,0",
+    "D": "2,0",
+    "E": "4,0"
+   },
+   "correta": "B"
   },
   {
    "n": 29,
@@ -85,10 +98,23 @@
     "B": "primeira e terceira.",
     "C": "segunda e terceira.",
     "D": "terceira e segunda.",
-    "E": "terceira e quarta. Considere o contexto abaixo para responder às questões de n os 33 e 34. Uma placa de sinalização de peso P é fixada a uma coluna de seção transversal retangular através de dois parafusos, A e B, conforme ilustrado na figura. Considere a placa como um corpo rígido e a coluna como uma viga plana."
+    "E": "terceira e quarta."
    },
    "correta": "E",
    "pedeFigura": true
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2010, Q34",
+   "q": "O diagrama que melhor representa a distribuição das tensões normais atuantes na seção transversal a-b da viga é",
+   "alts": {
+    "A": "a I Isa I Isb> b",
+    "B": "a I Is a I Is b > b",
+    "C": "a I Isa I Isb b =",
+    "D": "a I Isa I Isb b =",
+    "E": "a I Is a I Is b b < a b C A B P B R"
+   },
+   "correta": "A"
   },
   {
    "n": 35,
@@ -157,6 +183,19 @@
    "correta": "D"
   },
   {
+   "n": 40,
+   "origem": "Cesgranrio 2010, Q40",
+   "q": "A Constituição Federal de 1988 estabelece, em alguns de seus artigos, a repartição de competência legislativa referente à administração, exploração e controle do meio ambiente. Analise as afirmativas abaixo sobre legislação ambiental. I - Compete à União, aos estados e aos municípios legislar sobre jazidas, minas, outros recursos minerais e metalurgia. II - Compete à União, aos estados e ao Distrito Federal legislar concorrentemente sobre florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição. III - Compete privativamente aos estados legislar sobre águas, energia, informática, telecomunicações e radiodifusão. Está(ão) correta(s) a(s) APENAS a(s) afirmativa(s):",
+   "alts": {
+    "A": "I.",
+    "B": "II.",
+    "C": "I e II.",
+    "D": "I e III.",
+    "E": "II e III."
+   },
+   "correta": "B"
+  },
+  {
    "n": 41,
    "origem": "Cesgranrio 2010, Q41",
    "q": "Vários sistemas e entidades foram criados nas últimas duas décadas para articular e dar suporte institucional e técnico para a gestão ambiental no país, entre eles, o Conselho Nacional do Meio Ambiente - CONAMA, que é um órgão",
@@ -210,6 +249,19 @@
    "correta": "D"
   },
   {
+   "n": 45,
+   "origem": "Cesgranrio 2010, Q45",
+   "q": "Uma das principais etapas do planejamento de uma obra é a elaboração da rede de precedência de atividades. Analise as afirmações a seguir relacionadas à referida rede. I - A rede de precedência é um procedimento para focalizar a atenção do administrador sobre providências e alterações com referência a emprego de tempo, recursos ou à atuação para aumentar as probabilidades de conclusão do projetado na data preestabelecida. II - A rede de precedência é um instrumento que permite ao administrador definir e coordenar o que deve ser realizado, a fim de que seja atingido, com sucesso, o objetivo projetado dentro do tempo preestabelecido. III - A rede de precedência é uma técnica que fornece ao administrador a solução de problemas, com base na precedência de eventos e nos tempos destinados às atividades. Está(ão) correta(s) APENAS a(s) afirmação(ões)",
+   "alts": {
+    "A": "I.",
+    "B": "II.",
+    "C": "I e II.",
+    "D": "I e III.",
+    "E": "II e III."
+   },
+   "correta": "C"
+  },
+  {
    "n": 46,
    "origem": "Cesgranrio 2010, Q46",
    "q": "O princípio da isonomia dentro de um processo licitatório tem como objetivo",
@@ -221,6 +273,19 @@
     "E": "garantir que nada poderá ser criado ou feito sem que haja previsão no ato convocatório."
    },
    "correta": "B"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2010, Q47",
+   "q": "Em relação a uma Liga Hipoeutetoide de Ferro-Carbono com 0,5% (peso) de carbono, considere as afirmativas a seguir. I - a microestrutura do material, abaixo de 727 o C apresenta três fases: Perlita, Cementita e Ferrita. II - a estrutura apresenta, entre 1000 o C e 1200 o C, duas fases: a Austenita e a Ferrita. III - o metal apresenta uma fase única a uma temperatura acima de 1600 o C. Está(ão) correta(s) APENAS a(s) afirmativa(s)",
+   "alts": {
+    "A": "I.",
+    "B": "II.",
+    "C": "III.",
+    "D": "I e II.",
+    "E": "II e III."
+   },
+   "correta": "C"
   },
   {
    "n": 48,
@@ -286,6 +351,34 @@
     "E": "soldagem a Laser."
    },
    "correta": "D"
+  },
+  {
+   "n": 53,
+   "origem": "Cesgranrio 2010, Q53",
+   "q": "Um bocal horizontal é alimentado com ar a uma determinada velocidade V 1. O escoamento ocorre em regime permanente, e o ar é descarregado para a atmosfera a uma velocidade V 2 = 60 m/s. Na entrada do bocal, a área é 0,2 m 2 e, na saída, 0,04 m 2. A massa específica do ar corresponde a 1,20 kg/m 3, conforme esquematizado na figura abaixo. A pressão manométrica necessária na entrada do bocal, em kPa, vale, aproximadamente,",
+   "alts": {
+    "A": "0,8",
+    "B": "2,1",
+    "C": "10,6",
+    "D": "54,0",
+    "E": "82,2"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2010, Q54",
+   "q": "A figura a seguir ilustra o escoamento de um gás em regime permanente através de um trecho de uma tubulação. Considerando-se os dados apresentados referentes à seção 1 e à seção 2, têm-se para a velocidade V 2, em m/s,",
+   "alts": {
+    "A": "20",
+    "B": "25",
+    "C": "30",
+    "D": "35",
+    "E": "40 1 2 A = 30 cm1 2 r1 = 5 kg/m 3 A = 15 cm 2 2 r2 = 16 kg/m V =? 2V = 40 m/s1 32 cm k = 1,20 W/(m. C) o ambiente externo T = 9,0 °Cext - ambiente interno T = 24 °Cint PA PB fluido 1 L fluido 2"
+   },
+   "correta": "B",
+   "pedeFigura": true
   },
   {
    "n": 55,
@@ -421,6 +514,33 @@
    "correta": "B"
   },
   {
+   "n": 65,
+   "origem": "Cesgranrio 2010, Q65",
+   "q": "A figura acima mostra o esboço de um condensador que opera em regime permanente. O Refrigerante 134a entra no condensador a 10 kg/min, 700 kPa, 70 °C e é descarregado como líquido saturado na mesma pressão. A água de resfriamento entra no condensador a 300 kPa, 15 °C, e sai a 25 °C na mesma pressão. Considere os seguintes valores aproximados de entalpias para o refrigerante: h 1 =310 kJ/kg; h 2 =90 kJ/kg e para a água: h 3 =65 kJ/kg; h 4 =105 kJ/kg. Supondo-se que as variações de energia cinética e potencial são desprezíveis e que a transferência de calor para o ambiente é nula, a vazão de água necessária para resfriar o refrigerante, em kg/min, é",
+   "alts": {
+    "A": "32",
+    "B": "55",
+    "C": "75",
+    "D": "82",
+    "E": "120"
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2010, Q66",
+   "q": "Considere as seguintes afirmativas sobre bomba centrífuga. I - A sigla NPSH, adotada universalmente, indica a energia disponível na sucção, ou seja, a carga positiva e efetiva na sucção. II - Antes de ser colocada em funcionamento, deve-se encher sua carcaça e toda a tubulação de sucção com o líquido a ser bombeado para que ela entre em funcionamento sem possibilidade de bolhas de ar em seu interior, denominando-se tal processo escorvamento. III - A cavitação pode ser evitada, se a pressão, em todos os pontos da bomba, for mantida abaixo da pressão de vapor do líquido de trabalho. IV - O ponto de operação é definido pela interseção de das curvas do sistema e do desempenho da bomba e corresponde à única condição em que as vazões do sistema e da bomba e as alturas de carga do sistema e da bomba são simultaneamente iguais. Estão corretas SOMENTE as afirmativas",
+   "alts": {
+    "A": "I e II.",
+    "B": "III e IV.",
+    "C": "I, II e III.",
+    "D": "I, II e IV.",
+    "E": "II, III e IV."
+   },
+   "correta": "D"
+  },
+  {
    "n": 67,
    "origem": "Cesgranrio 2010, Q67",
    "q": "Quando ocorre a diminuição total ou parcial do desempenho de uma peça ou equipamento, durante um período de tempo, com relação à sua função específica, o referido item deve sofrer manutenção ou ser substituído. Na área da manutenção, essa perda da capacidade é vista como um(a)",
@@ -482,9 +602,12 @@
    32,
    38,
    42,
+   53,
+   54,
    55,
    59,
-   61
+   61,
+   65
   ],
   "quebradas": [
    33

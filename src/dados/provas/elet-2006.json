@@ -6,8 +6,60 @@
  "processo": "Petrobras PSP 03/2006",
  "caderno": "Elétrica\\37.pdf",
  "folhaGabarito": "gabsup.pdf",
- "total": 11,
+ "total": 19,
  "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2006, Q21",
+   "q": "Um motor de indução trifásico, alimentado por uma fonte de tensão de 60 Hz, tem 3 ranhuras por pólo e por fase do estator. O escorregamento é de 2%. A velocidade de rotação, em rpm, deste motor é:",
+   "alts": {
+    "A": "3600",
+    "B": "3564",
+    "C": "1224",
+    "D": "1200",
+    "E": "1176"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2006, Q22",
+   "q": "Numa rede de 50 Hz, uma carga monofásica é alimentada com uma tensão eficaz de 100 V e recebe uma corrente eficaz de 10 A. O fator de potência da carga é de 0,867 indutivo. Para tornar o fator de potência do circuito unitário, é preciso colocar, em paralelo com a carga, um capacitor, com valor aproximado, em μF, de:",
+   "alts": {
+    "A": "80",
+    "B": "160",
+    "C": "240",
+    "D": "300",
+    "E": "420"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2006, Q23",
+   "q": "Um motor trifásico de 10 HP (considere 1 HP = 746 W) está conectado a uma fonte de 220 Volts de tensão de linha e possui um fator de potência 0,5 indutivo e um rendimento de 60%. O valor da corrente elétrica requerida da fonte, em Ampères, é:",
+   "alts": {
+    "A": "3,33",
+    "B": "9,25",
+    "C": "13,32",
+    "D": "65,25",
+    "E": "113,03"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2006, Q24",
+   "q": "Considere um transformador com reatância de 1,9044 ohms referida ao lado da tensão mais elevada, cujo valor é 13,8 kV, tendo como tensão e potência de bases, neste mesmo lado, 13,8 kV e 10 MVA, respectivamente. A referida reatância do transformador por unidade (p.u.) assume o valor de:",
+   "alts": {
+    "A": "0,10",
+    "B": "0,15",
+    "C": "0,20",
+    "D": "0,25",
+    "E": "0,30"
+   },
+   "correta": "A"
+  },
   {
    "n": 25,
    "origem": "Cesgranrio 2006, Q25",
@@ -20,6 +72,20 @@
     "E": "RT S LA LB LC C2 C2 C3 C2 C3 C1 C3 C1 C2 C1 C2 C3C1 C2 C3C1 S1 S2 S3"
    },
    "correta": "C"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2006, Q26",
+   "q": "A figura apresenta o circuito elétrico de comando de três máquinas trifásicas acionadas por intermédio dos contatores C1, C2 e C3. As chaves S1, S2 e S3 são do tipo sem retenção. Com relação a este circuito, considere as seguintes afirmações: I - As lâmpadas LA e LB podem acender simultaneamente, sendo que nessa condição as máquinas comandadas pelos contatores C2 e C3 deverão estar desligadas. II - A lâmpada LC somente acende quando a máquina comandada pelo contator C1 entra em operação. III - As máquinas não podem funcionar simultaneamente. IV - Ao ser acionada a chave S, todas as máquinas são desenergizadas e, após a chave S retornar à sua posição de repouso, as lâmpadas LA e LB acendem. V - Ao ser acionada a chave S1, as máquinas comandadas pelos contatores C2 e C3 são desenergizadas e as lâmpadas LA, LB e LC se acendem. São verdadeiras as afirmações:",
+   "alts": {
+    "A": "I e II, apenas.",
+    "B": "II, III e V, apenas.",
+    "C": "I, III e V, apenas.",
+    "D": "II, III, IV e V, apenas.",
+    "E": "I, II, III, IV e V."
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 27,
@@ -49,6 +115,20 @@
    "pedeFigura": true
   },
   {
+   "n": 29,
+   "origem": "Cesgranrio 2006, Q29",
+   "q": "O gráfico mostrado na figura acima ilustra o diagrama do Lugar das Raízes de um sistema de 3ª ordem, com três pólos, nenhum zero finito e com realimentação de saída. Com base nas informações contidas no gráfico, o valor do ganho 0K ≥ que posiciona os pólos de malha fechada no limiar da instabilidade é:",
+   "alts": {
+    "A": "40",
+    "B": "64",
+    "C": "120",
+    "D": "160",
+    "E": "240"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
    "n": 30,
    "origem": "Cesgranrio 2006, Q30",
    "q": "De acordo com a Primeira Lei da Termodinâmica, com relação às transformações isotérmicas de um gás ideal, é correto afirmar que o(a):",
@@ -74,6 +154,32 @@
    },
    "correta": "D",
    "pedeFigura": true
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2006, Q33",
+   "q": "O homem vem utilizando os diversos recursos energéticos ao longo de sua evolução, sem ter tido a preocupação com o meio ambiente ou com o esgotamento desses recursos. Nos dias atuais, a questão ambiental caminha lado a lado com a questão energética, a fim de otimizar a utilização da energia e diminuir a agressão ao meio ambiente. A respeito dessa temática, considere as seguintes afirmações: I - a utilização da energia solar é limpa em todo o seu processo; II - o protocolo de Kioto, que regula as obrigações para proteção do meio ambiente, foi assinado por todos os principais países do mundo; III - as fontes alternativas de energia tendem a ter uma participação maior no balanço energético mundial. A(s) afirmação(ões) correta(s) é(são) apenas:",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "I e II",
+    "E": "II e III"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2006, Q34",
+   "q": "As termelétricas a gás natural, por diversas razões, vêm se tornando uma opção interessante para os investidores na área da energia. Entretanto, os investimentos no setor, pela inciativa privada, não foram o esperado. A respeito dessa temática, considere as seguintes afirmações: I - O livre mercado de energia dificulta a inserção das termelétricas para o novo modelo competitivo, tendo em vista que o custo da energia das hidrelétricas em operação são menores. II – Uma cota específica de geração térmica poderia viabilizar os investimentos da iniciativa privada nesse setor. III – Uma garantia no custo do gás natural poderia incentivar os investimentos nesse tipo de geração. A(s) afirmação(ões) correta(s) é(são) apenas:",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "I e III",
+    "D": "II e III",
+    "E": "I, II e III"
+   },
+   "correta": "E"
   },
   {
    "n": 35,
@@ -158,7 +264,9 @@
  "deFora": {
   "semGabarito": [],
   "comFigura": [
+   26,
    28,
+   29,
    31,
    36
   ],

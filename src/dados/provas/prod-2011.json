@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP RH 3/2011",
  "caderno": "prova_14_engenheiro_a_junior_area_producao.pdf",
  "folhaGabarito": "gabaritos.pdf",
- "total": 40,
+ "total": 41,
  "questoes": [
   {
    "n": 21,
@@ -43,7 +43,7 @@
     "B": "distribuição e recebimento de materiais",
     "C": "planejamento e controle da produção",
     "D": "promoções e vendas de produtos e serviços",
-    "E": "marketing empresarial Considere as informações e a tabela a seguir para responder às questões de nos 24 e 25. A Indústria de Embalagens Cardoso Ltda. é uma conceituada empresa de fabricação de caixas de papelão especiais. A tabela abaixo apresenta uma lista de recursos básicos (papelão ondulado e tempo de trabalho) necessários para a produção de cada grupo de produto. Tabela: Recursos utilizados na produção Produto Papelão Ondulado (em cm 2) Tempo de Trabalho (minuto-padrão) caixa tipo A-1 60 3 caixa tipo B-5 30 2 caixa tipo C-7 15 1 Essa empresa recebeu uma encomenda de um cliente especial e precisa fabricar 2.000 caixas tipo A-1, 4.000 caixas tipo B-5 e 6.000 caixas tipo C-7."
+    "E": "marketing empresarial"
    },
    "correta": "C"
   },
@@ -475,6 +475,19 @@
     "E": "histograma"
    },
    "correta": "C"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2011, Q61",
+   "q": "Um dos desafios que se tem imposto aos responsáveis pelo recrutamento e seleção de pessoal numa empresa é, exatamente, a capacidade de atrair e reter os funcionários, particularmente aqueles mais qualificados. Considere as afirmativas abaixo sobre os princípios que devem nortear o planejamento de pessoal, especialmente quanto à eficiência do recrutamento e seleção de pessoal. I - O principal fator de sucesso no recrutamento e na seleção é a adequação das características e potenciais de um candidato às funções que se espera que ele desempenhe na empresa no curto, médio e longo prazos, caracterizando um processo complexo que exige uma análise sistêmica. II - O planejamento para o recrutamento e a seleção de pessoas deve-se pautar por uma análise de curto prazo, tendo em vista que o planejamento de médio e longo prazos representam apenas metas e expectativas da empresa, fatores insuficientes para recrutamento e seleção. III - O recrutamento e a seleção de pessoal têm por objetivo selecionar candidatos que, além de qualificados, sejam versáteis, trabalhem em equipe e tenham espírito de liderança, de modo que haja uma correlação intrínseca e harmônica entre o planejamento de curto, médio e longo prazos da empresa e os resultados da seleção. Está correto APENAS o que se afirma em",
+   "alts": {
+    "A": "I",
+    "B": "II",
+    "C": "I e II",
+    "D": "I e III",
+    "E": "II e III"
+   },
+   "correta": "A"
   },
   {
    "n": 63,

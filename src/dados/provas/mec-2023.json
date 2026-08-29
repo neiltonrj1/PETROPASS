@@ -6,7 +6,7 @@
  "processo": "Transpetro PSP/Terra 2023.2",
  "caderno": "11.pdf",
  "folhaGabarito": "1.pdf",
- "total": 48,
+ "total": 49,
  "questoes": [
   {
    "n": 21,
@@ -617,6 +617,20 @@
    "correta": "A"
   },
   {
+   "n": 68,
+   "origem": "Cesgranrio 2023, Q68",
+   "q": "Na Tabela abaixo são representados os potenciais de redução, em V, e o preço, em R$/kg, de alguns metais puros. Reação Potencial V Preço R$/kg Zn +2 + 2e = Zn  0,763 217,00 Cr +2 + 2e = Cr  0,744 300,00 Fe +2 + 2e = Fe  0,440 65,00 Sn +2 + 2e = Sn 0,136 117,00 Cu +2 + 2e = Cu 0,337 37,00 Considerando-se os dados da Tabela, o material que, na forma de eletrodo de sacrifício, é melhor para proteção de uma chapa de aço é",
+   "alts": {
+    "A": "Cr",
+    "B": "Cu",
+    "C": "Fe",
+    "D": "Sn",
+    "E": "Zn"
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
    "n": 69,
    "origem": "Cesgranrio 2023, Q69",
    "q": "A soldagem pelo método TIG pode ser empregada com diferentes configurações de corrente elétrica, utilizando argônio como gás inerte. Em todas as configurações, o gás argônio é ionizado com carga positiva e, por isso, sofre uma aceleração que resulta em elevada energia cinética. Sobre o efeito que esse íon argônio apresenta sobre a superfície do metal soldado, tem-se que, com corrente",
@@ -655,7 +669,8 @@
    49,
    60,
    62,
-   63
+   63,
+   68
   ],
   "quebradas": [
    58

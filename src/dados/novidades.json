@@ -4,5 +4,10 @@
   "Cada módulo de todas as trilhas agora mostra de qual <b>ênfase e item do edital 2026</b> ele vem — dá para conferir na hora se aquele assunto está mesmo no programa.",
   "Revisão de imagens: questões que citavam figura, gráfico ou diagrama e ainda não tinham a imagem ganharam o desenho.",
   "Correção de 3 questões (Q35 de Mecânica 2012, Q28 e Q29 das provas complementares) cujas alternativas tinham saído corrompidas da extração do PDF original."
+ ],
+ "7.9.0": [
+  "Corrigido o motivo de várias provas parecerem incompletas: um bug no extrator descartava em silêncio questões cujas alternativas vinham 2 ou mais por linha no PDF original (comum em respostas curtas, tipo \"(A) 0,5 (B) 1,0 (C) 1,5...\"). O conserto recuperou <b>61 questões</b> que sumiam em várias provas — algumas, como Elétrica 2006 e Mecânica 2010, ficaram 100% completas.",
+  "Corrigidas mais 12 questões com alternativas corrompidas ou coladas com o enunciado de outra questão vizinha.",
+  "Corrigidas 23 figuras: 2 que estavam com texto cortado na borda do desenho, e 21 que ainda não tinham imagem (recém-recuperadas pelo conserto acima)."
  ]
 }

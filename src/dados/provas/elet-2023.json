@@ -6,7 +6,7 @@
  "processo": "Transpetro PSP/Terra 2023.2",
  "caderno": "Elétrica\\engenharia_eletrica.pdf",
  "folhaGabarito": "1.pdf",
- "total": 45,
+ "total": 47,
  "questoes": [
   {
    "n": 21,
@@ -272,6 +272,20 @@
    "correta": "B"
   },
   {
+   "n": 44,
+   "origem": "Cesgranrio 2023, Q44",
+   "q": "Considere o circuito apresentado na Figura, conectado à carga resistiva de 10 W por meio dos terminais 1 e 2. Se o circuito apresentado for substituído por seu equivalente de Thevenin, isto é, Qual deverá ser o valor de R Th, em ohms?",
+   "alts": {
+    "A": "15",
+    "B": "20",
+    "C": "25",
+    "D": "30",
+    "E": "35"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
    "n": 45,
    "origem": "Cesgranrio 2023, Q45",
    "q": "Considere um sistema monovariável modelado em espaço de estado por: em que u representa o sinal de entrada, y o sinal de saída, e x o vetor de estados. Transformando-se esse modelo numa função de transferência, em que posições do plano s estarão localizados seus zeros?",
@@ -429,6 +443,20 @@
     "E": "1,0"
    },
    "correta": "C"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2023, Q57",
+   "q": "Com o objetivo de realizar o projeto de um sistema de aterramento de uma instalação hipotética, a equipe técnica da empresa realiza uma série de medidas empregando o método de Wenner. A partir dos dados obtidos nas medidas, foi plotado o gráfico espaçamento (a) pela resistividade (r), conforme mostrado na Figura a seguir. ρ (Ω.m) a (m) De acordo com o perfil da curva apresentada, o número de camadas estratificadas do solo é",
+   "alts": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "E": "5"
+   },
+   "correta": "E",
+   "pedeFigura": true
   },
   {
    "n": 58,
@@ -609,9 +637,11 @@
    31,
    36,
    42,
+   44,
    47,
    48,
    51,
+   57,
    62,
    63,
    67

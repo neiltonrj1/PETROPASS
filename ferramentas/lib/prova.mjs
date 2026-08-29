@@ -59,6 +59,17 @@ function junta(linhas) {
   return t.replace(/\s+/g, ' ').replace(/ ([,.;:!?)])/g, '$1').replace(/\( /g, '(').trim();
 }
 
+/* A última alternativa de uma questão não tem um próximo marcador "(X)" que
+   feche o buffer — então, quando duas questões compartilham um contexto (uma
+   figura, uma tabela) declarado como "Considere ... para responder às
+   questões de nos N e M" entre elas, esse texto de ligação (e tudo que vem
+   depois, que já é o enunciado da PRÓXIMA questão) era engolido inteiro pela
+   última alternativa. É um padrão fixo da Cesgranrio — cortar nele. */
+function cortaContextoCompartilhado(texto) {
+  const gatilho = texto.search(/\b(considere|utilize)\b[^.]*?para responder\b/i);
+  return gatilho < 0 ? texto : texto.slice(0, gatilho).trim();
+}
+
 /* Maior subsequência estritamente crescente (pelo número da questão). */
 function maiorSequencia(cands) {
   if (!cands.length) return [];
@@ -98,11 +109,31 @@ export function recortaQuestoes(paginas, { ate = 70, de = 1 } = {}) {
     const fim = k + 1 < marcos.length ? marcos[k + 1].i : linhas.length;
     const q = { n: marcos[k].n, enun: '', alts: {} };
     let buffer = [], alvo = null;
-    const guarda = () => { if (alvo) q.alts[alvo] = junta(buffer); else q.enun = junta(buffer); buffer = []; };
+    const guarda = () => {
+      if (alvo) q.alts[alvo] = cortaContextoCompartilhado(junta(buffer));
+      else q.enun = junta(buffer);
+      buffer = [];
+    };
     for (let i = ini; i < fim; i++) {
-      const m = linhas[i].match(/^\(([A-E])\)\s*(.*)$/);
-      if (m) { guarda(); alvo = m[1]; buffer = m[2] ? [m[2]] : []; }
-      else buffer.push(linhas[i]);
+      const linha = linhas[i];
+      /* Respostas curtas (números, "sim/não", fórmulas de uma letra) costumam
+         sair 2 a 5 por linha física no PDF — "(A) 0,5 (B) 1,0 (C) 1,5 ...".
+         Uma âncora só no início da linha lia a primeira e engolia o resto
+         como texto de A, derrubando a questão inteira no filtro final.
+         Por isso varremos TODOS os marcadores (A)-(E) da linha, não só o
+         primeiro.                                                        */
+      const marcadores = [...linha.matchAll(/\(([A-E])\)/g)];
+      if (!marcadores.length) { buffer.push(linha); continue; }
+      const antes = linha.slice(0, marcadores[0].index).trim();
+      if (antes) buffer.push(antes);
+      for (let j = 0; j < marcadores.length; j++) {
+        guarda();
+        alvo = marcadores[j][1];
+        const iniTexto = marcadores[j].index + marcadores[j][0].length;
+        const fimTexto = j + 1 < marcadores.length ? marcadores[j + 1].index : linha.length;
+        const texto = linha.slice(iniTexto, fimTexto).trim();
+        buffer = texto ? [texto] : [];
+      }
     }
     guarda();
     if (q.enun.length > 10 && LETRAS.every(L => (q.alts[L] || '').length > 0)) questoes.push(q);

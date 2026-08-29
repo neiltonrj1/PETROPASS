@@ -6,7 +6,7 @@
  "processo": "Petrobras PSP 03/2006",
  "caderno": "34.pdf",
  "folhaGabarito": "gabsup.pdf",
- "total": 11,
+ "total": 17,
  "questoes": [
   {
    "n": 22,
@@ -33,6 +33,84 @@
     "E": "não investir."
    },
    "correta": "C"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2006, Q24",
+   "q": "No problema de programação linear: maximizar 21 xx2 + sujeito a o valor ótimo da função objetivo é:",
+   "alts": {
+    "A": "20",
+    "B": "18",
+    "C": "16",
+    "D": "12",
+    "E": "10 ANO 0 1 2 3 4 Proj. X −100 40 40 40 40 Proj. Y −200 90 80 60 60"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2006, Q25",
+   "q": "Uma pressão de 1 atmosfera é igual a uma pressão de 101 325 pascais. Em atmosferas, qual é, aproximadamente, a pressão hidrostática exercida por uma coluna de água de 2 metros de altura?",
+   "alts": {
+    "A": "0,02",
+    "B": "0,19",
+    "C": "0,84",
+    "D": "1,01",
+    "E": "1,90"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2006, Q26",
+   "q": "Na cidade do Rio de Janeiro, a água se congela a 0 o C e ferve a 100 o C. Na cidade de La Paz, a água se congela a t o C e ferve a T o C. Podemos afirmar que:",
+   "alts": {
+    "A": "t = 0 e T = 100",
+    "B": "t < 0 e T > 100",
+    "C": "t < 0 e T < 100",
+    "D": "t > 0 e T > 100",
+    "E": "t > 0 e T < 100"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2006, Q27",
+   "q": "Um gás ideal é mantido a temperatura constante. Se reduzirmos seu volume de 20%, de quanto aumentará sua pressão?",
+   "alts": {
+    "A": "5%",
+    "B": "10%",
+    "C": "15%",
+    "D": "20%",
+    "E": "25%"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2006, Q29",
+   "q": "Um carro se move em linha reta, com velocidade 20m/s, quando os freios aplicam a ele uma aceleração de −4m/s 2. Em quantos segundos, a partir do momento em que os freios são acionados, o carro parará?",
+   "alts": {
+    "A": "2",
+    "B": "4",
+    "C": "5",
+    "D": "6",
+    "E": "10"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2006, Q30",
+   "q": "Um bloco de madeira flutua na água com 50% do seu volume submerso. Que porcentagem de seu volume submergiria em um líquido com massa específica de 1,25g/cm 3?",
+   "alts": {
+    "A": "62,5",
+    "B": "60,0",
+    "C": "50,0",
+    "D": "40,0",
+    "E": "37,5"
+   },
+   "correta": "D"
   },
   {
    "n": 31,
@@ -155,6 +233,9 @@
  "deFora": {
   "semGabarito": [],
   "comFigura": [],
-  "quebradas": []
+  "quebradas": [
+   21,
+   28
+  ]
  }
 }

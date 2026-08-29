@@ -6,7 +6,7 @@ const DIAS = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
 const DEF = {v:6, ink:{}, quiz:{}, chk:{}, wkdone:{}, curWeek:0, notas:{}, erros:[],
              trilha:null, tempo:{}, rev:{}, hist:{}, dicas:{}, dicasFechadas:{}, rascunho:{}, risca:{},
              tentativas:{}, rodada:{},
-             cfg:{tema:'claro', fs:16, dataProva:'', metaMin:60}, ult:null};
+             cfg:{tema:'claro', fs:16, dataProva:'', metaMin:60, verVista:''}, ult:null};
 
 let sb=null, USER=null, S=JSON.parse(JSON.stringify(DEF)), CFG=null, OFFLINE=false, SUJO=false;
 let VIEW='home', LEITOR=null, QZ=null, SIM=null, REV=null;
@@ -88,6 +88,16 @@ function migraEstado(){
   if(!S.rascunho || typeof S.rascunho!=='object') S.rascunho={};
   if(!S.cfg) S.cfg={};
   if(!S.cfg.metaMin) S.cfg.metaMin=60;
+  /* O cartão de novidades só existe a partir desta versão. Quem já tinha
+     conta (trilha escolhida ou histórico) é marcado como "já viu" a versão
+     atual, sem exibir nada agora — sem isso, todo mundo veria de uma vez
+     a lista inteira de novidades no primeiro carregamento depois do
+     deploy. Conta nova (S.trilha ainda null aqui) fica de fora do
+     backfill e pode ver o cartão desta versão normalmente.             */
+  if(S.cfg.verVista===undefined){
+    const usuarioExistente = !!(S.trilha || Object.keys(S.hist||{}).length || Object.keys(S.notas||{}).length);
+    S.cfg.verVista = usuarioExistente ? DATA.versao : '';
+  }
   if(!S.trilha) S.trilha=null;
   S.v=6;
 }
@@ -657,6 +667,30 @@ function totalQ(){
 }
 function findVol(vid){ return DATA.conteudo.find(v=>v.id===vid); }
 function findMod(vid,mid){ const v=findVol(vid); return v? v.mods.find(m=>m.id===mid):null; }
+/* De qual parte do edital 2026 um módulo vem — ver src/dados/edital.json.
+   Sem entrada: módulo comum a todas as trilhas (Português/Inglês), sem
+   etiqueta. Isso é diferente de {foraDoEdital:true}, que É uma etiqueta
+   (avisando que aquele assunto não tem respaldo no edital atual).       */
+function editalDoModulo(mid){ return (DATA.edital||{})[mid]; }
+function chipEdital(mid){
+  const e = editalDoModulo(mid);
+  if(!e) return '';
+  if(e.foraDoEdital) return `<span class="chip contorno" title="Este assunto não tem respaldo explícito no edital 2026 — fica como complemento.">fora do edital 2026</span>`;
+  return `<span class="chip contorno" title="${esc(e.titulo)}">Ênfase ${e.enfase} · item ${esc(e.item)}</span>`;
+}
+
+/* Cartão dispensável com o que mudou nesta versão — só aparece quando
+   S.cfg.verVista ainda não é a versão publicada e há itens para ela. */
+function cardNovidades(){
+  const itens = (DATA.novidades||{})[DATA.versao];
+  if(!itens || !itens.length || S.cfg.verVista===DATA.versao) return '';
+  return `<div class="aviso a-ok">
+    <b>Novidades da v${esc(DATA.versao)}</b>
+    <ul style="margin:7px 0 9px 18px;padding:0">${itens.map(i=>`<li style="margin-bottom:4px">${i}</li>`).join('')}</ul>
+    <button class="btn btn-p" style="width:100%" onclick="fecharNovidades()">Entendi</button>
+  </div>`;
+}
+function fecharNovidades(){ S.cfg.verVista = DATA.versao; save(); render(); }
 
 /* ---------------- INÍCIO ---------------- */
 function vHome(){
@@ -665,7 +699,7 @@ function vHome(){
   let cont='';
   if(S.ult){ const m = findMod(S.ult.vol, S.ult.mod);
     if(m) cont = `<button class="btn btn-p" style="width:100%;margin-bottom:9px" onclick="abrir('${S.ult.vol}','${S.ult.mod}','${S.ult.aba||'licao'}')">▶ Continuar: ${esc(m.n)} — ${esc(m.t.slice(0,42))}</button>`; }
-  main.innerHTML = capaHoje() + `
+  main.innerHTML = cardNovidades() + capaHoje() + `
   <div class="painel">
     ${cardMeta()}
     ${cardRevisao()}
@@ -770,7 +804,7 @@ function vEstudar(){
       const temInk = ['licao','questoes','gabarito'].some(a=>(S.ink[m.id+':'+a]||[]).length);
       const temNota = (S.notas[m.id]||'').trim().length;
       const nProva = questoesDoModulo(m.id).length;
-      html += `<button onclick="abrir('${v.id}','${m.id}','licao')"><span class="chip">${esc(m.n)}</span>${nProva?`<span class="chip contorno">${nProva} de prova</span>`:''}${temInk?'<span class="dot" style="background:var(--amarelo)"></span>':''}${temNota?'<span class="dot" style="background:var(--verde2)"></span>':''}
+      html += `<button onclick="abrir('${v.id}','${m.id}','licao')"><span class="chip">${esc(m.n)}</span>${nProva?`<span class="chip contorno">${nProva} de prova</span>`:''}${chipEdital(m.id)}${temInk?'<span class="dot" style="background:var(--amarelo)"></span>':''}${temNota?'<span class="dot" style="background:var(--verde2)"></span>':''}
         <div style="margin-top:5px">${esc(m.t)}</div></button>`;
     });
     html += `</div></div>`;
@@ -820,10 +854,12 @@ function renderLeitor(){
   if(nQs || m.questoes) abas.push(['questoes','Questões'+(nQs?' '+nQs:'')]);
   if(daProva.length) abas.push(['prova','De prova '+daProva.length]);
   if(!abas.some(a=>a[0]===LEITOR.aba)) LEITOR.aba = 'licao';
+  const chipEd = chipEdital(m.id);
   main.innerHTML = `
   <div id="leitorHead">
     <button class="btn btn-s" style="padding:8px 11px" onclick="fecharLeitor()">←</button>
     <div class="tt">${esc(m.n)} — ${esc(m.t)}</div>
+    ${chipEd ? `<div style="flex-shrink:0">${chipEd}</div>` : ''}
   </div>
   <div class="abas">${abas.map(a=>`<button class="${LEITOR.aba===a[0]?'on':''}" onclick="trocaAba('${a[0]}')">${a[1]}</button>`).join('')}</div>
   <div id="pagewrap"><div id="page">${conteudoAba(m)}</div><canvas id="ink"></canvas></div>
@@ -1110,30 +1146,43 @@ function errosDaTrilha(){
 }
 
 /* ---------------- PROVAS ANTERIORES ---------------- */
+/* Um card de prova — usado tanto na lista oficial quanto na complementar. */
+function botaoProva(p){
+  const r = S.quiz[p.id]||{};
+  const feitas = Object.keys(r).length;
+  const certas = Object.keys(r).filter(i=>p.questoes[i] && r[i]===p.questoes[i].correta).length;
+  const pct = feitas? Math.round(certas/feitas*100):0;
+  return `<button onclick="iniciaSimulado('${p.id}')"><span class="chip">${p.ano}</span>
+    <span class="chip contorno">${p.questoes.length} questões</span>
+    <div style="margin-top:6px;font-weight:600">${esc(p.nome)}</div>
+    <div class="sub">${esc(p.processo)}${feitas? ' · '+feitas+' respondidas · '+pct+'% de acerto':''}</div>
+    <div class="pbar"><div class="pfill" style="width:${feitas/p.questoes.length*100}%"></div></div></button>`;
+}
 function vProvas(){
   if(SIM) return renderSimulado();
-  const provas = provasTrilha();
+  const todas = provasTrilha();
+  const oficiais = todas.filter(p=>!p.extra);
+  const extras = todas.filter(p=>p.extra);
   let html = `<div class="card"><h2>Provas anteriores · ${esc(trilha().curto)}</h2>
     <p class="hint" style="margin-top:0">Cadernos reais da Cesgranrio, com o gabarito oficial conferido questão a
     questão. Ficaram de fora as que dependem de uma figura impressa no caderno — sem o desenho elas ensinariam
     errado.</p></div>`;
-  if(!provas.length){
+  if(!todas.length){
     html += `<div class="card"><p class="hint" style="margin:0">Ainda não há prova anterior cadastrada para esta trilha.</p></div>`;
     main.innerHTML = html; return;
   }
-  html += `<div class="list">`;
-  provas.slice().sort((a,b)=>b.ano-a.ano).forEach(p=>{
-    const r = S.quiz[p.id]||{};
-    const feitas = Object.keys(r).length;
-    const certas = Object.keys(r).filter(i=>p.questoes[i] && r[i]===p.questoes[i].correta).length;
-    const pct = feitas? Math.round(certas/feitas*100):0;
-    html += `<button onclick="iniciaSimulado('${p.id}')"><span class="chip">${p.ano}</span>
-      <span class="chip contorno">${p.questoes.length} questões</span>
-      <div style="margin-top:6px;font-weight:600">${esc(p.nome)}</div>
-      <div class="sub">${esc(p.processo)}${feitas? ' · '+feitas+' respondidas · '+pct+'% de acerto':''}</div>
-      <div class="pbar"><div class="pfill" style="width:${feitas/p.questoes.length*100}%"></div></div></button>`;
-  });
-  html += `</div>`;
+  if(oficiais.length){
+    html += `<div class="list">` + oficiais.slice().sort((a,b)=>b.ano-a.ano).map(botaoProva).join('') + `</div>`;
+  }
+  if(extras.length){
+    html += `<div class="card" style="margin-top:16px">
+        <h2 style="margin-bottom:4px">Provas complementares</h2>
+        <p class="hint" style="margin:0">De outros processos do Sistema Petrobras — mesma banca (Cesgranrio) e
+        mesmo cargo, mas de editais diferentes do que rege 2026. Valem para treinar; por isso não entram na
+        conta de "o que mais cai", que fica calibrada só pelas provas do processo atual.</p>
+      </div>
+      <div class="list">` + extras.slice().sort((a,b)=>b.ano-a.ano).map(botaoProva).join('') + `</div>`;
+  }
   main.innerHTML = html;
 }
 function iniciaSimulado(pid){

@@ -664,6 +664,102 @@
   "tipo": "bloco"
  },
  {
+  "prova": "mecx-2006",
+  "n": 27,
+  "arquivo": "mecx-2006-q27.png",
+  "w": 696,
+  "h": 281,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2010",
+  "n": 23,
+  "arquivo": "mecx-2010-q23.png",
+  "w": 696,
+  "h": 124,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2010",
+  "n": 24,
+  "arquivo": "mecx-2010-q24.png",
+  "w": 694,
+  "h": 266,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2010",
+  "n": 25,
+  "arquivo": "mecx-2010-q25.png",
+  "w": 694,
+  "h": 197,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2010",
+  "n": 27,
+  "arquivo": "mecx-2010-q27.png",
+  "w": 696,
+  "h": 881,
+  "tipo": "bloco"
+ },
+ {
+  "prova": "mecx-2010",
+  "n": 33,
+  "arquivo": "mecx-2010-q33.png",
+  "w": 696,
+  "h": 70,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 29,
+  "arquivo": "mecx-2011-q29.png",
+  "w": 619,
+  "h": 334,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 30,
+  "arquivo": "mecx-2011-q30.png",
+  "w": 619,
+  "h": 62,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 36,
+  "arquivo": "mecx-2011-q36.png",
+  "w": 619,
+  "h": 585,
+  "tipo": "bloco"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 37,
+  "arquivo": "mecx-2011-q37.png",
+  "w": 619,
+  "h": 739,
+  "tipo": "bloco"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 47,
+  "arquivo": "mecx-2011-q47.png",
+  "w": 619,
+  "h": 614,
+  "tipo": "figura"
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 54,
+  "arquivo": "mecx-2011-q54.png",
+  "w": 700,
+  "h": 583,
+  "tipo": "bloco"
+ },
+ {
   "prova": "prod-2018",
   "n": 36,
   "arquivo": "prod-2018-q36.png",

@@ -92,6 +92,7 @@ function montaDados() {
         provas.push({
           id: p.id, trilha: p.trilha, ano: p.ano, nome: p.nome,
           processo: p.processo, questoes: p.questoes,
+          ...(p.extra ? { extra: true } : {}),
         });
       }
     }
@@ -180,11 +181,15 @@ function montaDados() {
     }
   }
 
-  /* Incidência real por módulo, contada nas provas daquela trilha. */
+  /* Incidência real por módulo, contada nas provas daquela trilha. Prova
+     "extra" (complementar, de outro processo seletivo — ver provas.config)
+     fica de fora daqui: ela entra no treino normalmente, mas não pode
+     inflar "o que mais cai", que precisa ficar calibrado só pelo processo
+     que rege o edital atual.                                            */
   for (const t of trilhas) {
     const conta = new Map();
     let total = 0;
-    for (const p of provas.filter(p => p.trilha === t.id)) {
+    for (const p of provas.filter(p => p.trilha === t.id && !p.extra)) {
       for (const q of p.questoes) {
         if (!q.mod) continue;
         conta.set(q.mod, (conta.get(q.mod) || 0) + 1);
@@ -288,8 +293,18 @@ function montaDados() {
   for (const v of conteudo) for (const m of v.mods) if (!mapas[m.id]) semMapa.push(m.id);
   if (semMapa.length) avisos.push(`${Object.keys(mapas).length} módulos com mapa mental; ainda sem mapa: ${semMapa.length}`);
 
+  /* De qual parte do edital 2026 cada módulo vem — modId -> {enfase,
+     nomeEnfase, item, titulo} ou {foraDoEdital:true}. Módulo sem entrada
+     aqui simplesmente não ganha etiqueta (caso do v4, comum a todas as
+     trilhas: Português/Inglês são da Fase 2, fora da tabela por ênfase). */
+  const arqEdital = path.join(DADOS, 'edital.json');
+  const edital = existe(arqEdital) ? leJson(arqEdital) : {};
+
+  const arqNovidades = path.join(DADOS, 'novidades.json');
+  const novidades = existe(arqNovidades) ? leJson(arqNovidades) : {};
+
   const versao = leJson(path.join(RAIZ, 'package.json')).version;
-  return { versao, trilhas, conteudo, quizzes, provas, mapas };
+  return { versao, trilhas, conteudo, quizzes, provas, mapas, edital, novidades };
 }
 
 /* O SVG das figuras é escrito por agente e entra inline na página. Antes

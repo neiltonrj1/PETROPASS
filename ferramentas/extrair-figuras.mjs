@@ -252,8 +252,18 @@ ws.close(); chrome.kill(); srv.close();
    para apagar, não é motivo para perder o trabalho todo */
 try { fs.rmSync(perfil, { recursive: true, force: true }); } catch { /* fica para o TEMP */ }
 
+/* Rodar com `node extrair-figuras.mjs <prova>` só processa AQUELA prova —
+   mas escrever só o resultado desta rodada apagaria do índice as figuras
+   de todas as outras provas já extraídas antes. Por isso funde com o que
+   já existe: as entradas desta rodada substituem as da(s) mesma(s) prova(s)
+   processada(s) agora; as de qualquer outra prova ficam como estavam.    */
+const arqIndice = path.join(RAIZ, 'src/dados/figuras-provas.json');
+const provasProcessadas = new Set(tarefas.map(t => t.prova));
+const antigas = fs.existsSync(arqIndice) ? JSON.parse(fs.readFileSync(arqIndice, 'utf8')) : [];
+const mantidas = antigas.filter(l => !provasProcessadas.has(l.prova));
+ligadas.push(...mantidas);
 ligadas.sort((a, b) => a.prova.localeCompare(b.prova) || a.n - b.n);
-fs.writeFileSync(path.join(RAIZ, 'src/dados/figuras-provas.json'), JSON.stringify(ligadas, null, 1) + '\n', 'utf8');
+fs.writeFileSync(arqIndice, JSON.stringify(ligadas, null, 1) + '\n', 'utf8');
 const porProva = {};
 ligadas.forEach(l => (porProva[l.prova] = (porProva[l.prova] || 0) + 1));
 console.log(`\n\n✓ ${ligadas.length} figuras em figuras/`);

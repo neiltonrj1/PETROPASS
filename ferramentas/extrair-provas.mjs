@@ -76,6 +76,9 @@ for (const p of PROVAS) {
     total: questoes.length,
     questoes,
     deFora: descartadas,
+    /* prova de outro processo seletivo (não o que rege o edital atual):
+       entra no treino, mas fica fora da conta de incidência */
+    ...(p.extra ? { extra: true } : {}),
   };
   fs.writeFileSync(path.join(DESTINO, `${p.id}.json`), JSON.stringify(saida, null, 1), 'utf8');
 

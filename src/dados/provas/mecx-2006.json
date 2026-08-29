@@ -1,0 +1,337 @@
+{
+ "id": "mecx-2006",
+ "trilha": "mecanica",
+ "ano": 2006,
+ "nome": "Profissional Jr — Engenharia Mecânica (prova complementar)",
+ "processo": "Petrobras PSP-RH-1/2006 (prova em 07/05/2006)",
+ "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\34.pdf",
+ "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\petrobras0106_gabsupII.pdf",
+ "total": 24,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2006, Q21",
+   "q": "Considere uma função p(t) = e(t).f(t). Sendo e(t) = a.q(t), com a = cte, e q(t) = f(t)dt; então g(t) = p(t)dt é dada por:",
+   "alts": {
+    "A": "a.q 2",
+    "B": "a.f 2",
+    "C": "a.e 2",
+    "D": "a.p 2",
+    "E": "a.g 2"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2006, Q23",
+   "q": "O produto misto entre vetores perpendiculares entre si leva a um:",
+   "alts": {
+    "A": "escalar igual à razão dos módulos dos vetores multiplicados.",
+    "B": "escalar igual ao módulo dos vetores multiplicados.",
+    "C": "vetor paralelo ao plano dos vetores multiplicados.",
+    "D": "vetor perpendicular ao plano dos vetores multiplicados.",
+    "E": "vetor com módulo igual ao módulo dos vetores multiplicados."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2006, Q24",
+   "q": "Tendo em vista a necessidade de geração de potência em plataformas localizadas em alto mar, uma equipe de engenheiros propõe a utilização da conversão da diferença de temperatura dos oceanos em energia. Para a situação em análise, a temperatura na superfície do mar é 27°C, enquanto que, a 600 metros de profundidade, a temperatura está em torno de 9°C. Com base em uma análise termodinâmica, a eficiência térmica máxima de qualquer ciclo de geração de potência é de:",
+   "alts": {
+    "A": "6%",
+    "B": "18%",
+    "C": "35%",
+    "D": "66,7%",
+    "E": "100%"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2006, Q25",
+   "q": "Com respeito ao estado termodinâmico e às propriedades termodinâmicas de substâncias, é correto afirmar que:",
+   "alts": {
+    "A": "calor e trabalho são propriedades termodinâmicas.",
+    "B": "título é definido como a razão entre a massa da fase vapor e a massa total de uma substância.",
+    "C": "título é definido como a razão entre o volume ocupado pela massa da fase vapor e o volume total da substância.",
+    "D": "a variação de entalpia pode ser sempre calculada pelo produto do calor específico à pressão constante com o diferencial de temperatura.",
+    "E": "em um gás ideal, a energia interna específica depende fortemente da pressão e da temperatura."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2006, Q26",
+   "q": "Considere os seguintes valores de entalpia específica, obtidos nos componentes de um ciclo de potência: Entalpia específica na entrada da turbina: 3000 Entalpia específica na entrada do condensador: 2000 Entalpia específica na saída do condensador: 200 Entalpia específica na saída da bomba: 300 Com base nessas informações, o rendimento do ciclo é:",
+   "alts": {
+    "A": "3,3%",
+    "B": "3,7%",
+    "C": "33,3%",
+    "D": "37%",
+    "E": "66,7% kcal kg kcal kg kcal kg kcal kg"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2006, Q27",
+   "q": "Um tubo soldado de diâmetro igual a 0,2 / m transporta gasolina (720 kg/m 3) de uma refinaria para um tanque de armazenamento. A vazão do escoamento é de 0,05 m3 /s e a pressão da gasolina no tubo é de 400 kPa. O tubo apresenta um desvio vertical, conforme a figura abaixo, de forma a permitir a passagem de veículos pela refinaria. Se a perda de carga no interior do tubo e os pesos do líquido e do tubo forem desprezados, o torque (kN.m) exercido pelo fluido sobre a solda localizada a uma distância d = 0,5 m da primeira curva será:",
+   "alts": {
+    "A": "menor que 5.",
+    "B": "entre 5 e 10.",
+    "C": "maior que 10 e menor que 50.",
+    "D": "entre 50 e 100.",
+    "E": "maior que 100."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2006, Q28",
+   "q": "Em uma tubulação horizontal, de diâmetro interno D constante e comprimento L, escoa um fluido com velocidade média V. A tubulação possui uma válvula parcialmente aberta, que equivale, nesta situação, a um comprimento de tubo igual a 10 D. O fator de atrito em função do Número de Reynolds do escoamento e da rugosidade relativa da tubulação vale f. Por motivos operacionais, a válvula deverá ser manipulada de forma a reduzir a vazão à metade, mas a diferença de pressão entre as duas extremidades da tubulação deve ser mantida constante. Para que isso ocorra, o coeficiente de perda localizada K que a válvula deverá apresentar é:",
+   "alts": {
+    "A": "+ 40",
+    "B": "+ 20",
+    "C": "L + 20 D",
+    "D": "+ 40",
+    "E": "L + 40 D 3L D L D 5L D A B"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2006, Q30",
+   "q": "Uma parede plana, cuja condutividade térmica é constante, apresenta uma distribuição de temperatura do tipo T(x) = a - bx 2, onde a e b são constantes conhecidas. A esse respeito, é correto afirmar que:",
+   "alts": {
+    "A": "a e b têm dimensão de temperatura.",
+    "B": "o fluxo de calor por condução é invariante com a posição x.",
+    "C": "o processo de condução se dá em regime transiente.",
+    "D": "a parede apresenta, em seu interior, uma taxa de geração de calor constante.",
+    "E": "pode ser utilizado o conceito de resistência térmica neste problema."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2006, Q33",
+   "q": "Uma correlação de largo uso para a determinação do coeficiente de filme local de escoamentos no interior de tubos é:, onde Re D é o Número de Reynolds baseado no diâmetro da tubulação e Pr é o Número de Prandlt. Tendo em vista a expressão acima, a correlação:",
+   "alts": {
+    "A": "é válida para escoamento laminar de líquidos, para a situação de convecção forçada.",
+    "B": "é válida apenas para as situações de escoamento turbulento em convecção livre.",
+    "C": "é válida para a situação de convecção forçada em escoamento turbulento.",
+    "D": "pode ser empregada para a situação de convecção livre em escoamentos laminares e turbulentos.",
+    "E": "prevê uma correção para a variação da viscosidade com a temperatura."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2006, Q36",
+   "q": "Um eixo transmite potência a um sistema através de um par de engrenagens de dentes retos. A engrenagem fixa ao eixo recebe do sistema uma força F, conforme indicado na figura abaixo. O dimensionamento do eixo depende das tensões atuantes no ponto crítico do eixo. Considerando o eixo como “engastado” no motor, esse ponto está sujeito às tensões normal e cisalhante, devidas, respectivamente, aos esforços de:",
+   "alts": {
+    "A": "carga axial e cortante.",
+    "B": "carga axial e torção.",
+    "C": "torção e cortante",
+    "D": "flexão e cortante.",
+    "E": "flexão e torção."
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2006, Q38",
+   "q": "Em compressores, a relação de compressão é definida pela razão entre a pressão de descarga e a pressão de sucção do gás. Acerca das características de operação de um compressor alternativo, é correto afirmar que:",
+   "alts": {
+    "A": "o compressor de duplo efeito, quando comparado ao de simples efeito, oferece maior pressão de descarga para um certo volume da câmara de compressão, maior rendimento mecânico do compressor e maior regularidade da solicitação ao acionador.",
+    "B": "a operação do compressor, em uma temperatura menor do que a temperatura máxima prevista para a descarga do gás, resulta num aumento da resistência mecânica do material, permitindo a elevação da pressão acima da pressão máxima de descarga do sistema.",
+    "C": "se a relação de compressão for alterada pela mudança apenas da pressão de descarga, o pico de consumo de potência pelo compressor não corresponderá, necessariamente, ao valor máximo da pressão de descarga.",
+    "D": "se a relação de compressão for alterada pela mudança apenas da pressão de sucção, o valor máximo desta relação corresponderá ao pico de consumo de potência pelo compressor.",
+    "E": "quando o gás é uma substância pura, o trabalho por unidade de massa adiabático consumido pelo compressor é obtido através do diagrama pressão-entalpia, a partir do conhecimento da temperatura e pressão de sucção e da relação de compressão."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2006, Q41",
+   "q": "Observe as afirmações a seguir acerca de uma bomba centrífuga e assinale a única INCORRETA.",
+   "alts": {
+    "A": "A determinação da vazão máxima permissível da bomba de um sistema é obtida pela interseção das curvas de NPSH disponível versus vazão e de NPSH requerido versus vazão.",
+    "B": "O aumento da vazão implica o aumento do NPSH disponível e a redução do NPSH requerido.",
+    "C": "O NPSH requerido em função da vazão é fornecido pelo fabricante da bomba e pode ser reduzido com a utilização de pás guias na entrada do impelidor, gerando, assim, uma pré-rotação, ou ainda através do uso de um rotor axial colocado na frente do impelidor convencional de uma bomba.",
+    "D": "Como, em regra, a vazão e a carga são proporcionais à rotação e ao seu quadrado, respectivamente, para um mesmo ponto de trabalho, é preferível usar rotações altas, pois conduzem a bombas menores.",
+    "E": "Utilizam-se rotações baixas em situações onde as condições de sucção são desfavoráveis porque o NPSH requerido varia com o quadrado da rotação."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2006, Q42",
+   "q": "Das afirmações a seguir, referentes ao Ciclo de Rankine ideal, só uma está correta. Indique-a.",
+   "alts": {
+    "A": "A eficiência térmica pode ser calculada conhecendo-se a temperatura do lado do vapor no condensador e a temperatura média na qual o calor é transferido ao vapor na caldeira.",
+    "B": "A diminuição da pressão no condensador, enquanto a pressão na caldeira permanece a mesma, diminui a eficiência térmica do ciclo.",
+    "C": "O aumento da pressão na caldeira, enquanto a pressão no condensador permanece a mesma, diminui a eficiência térmica do ciclo.",
+    "D": "O aumento da pressão na caldeira, enquanto a pressão no condensador permanece a mesma, aumenta o título na saída da turbina.",
+    "E": "Quando a pressão no condensador diminui, enquanto a pressão na caldeira permanece a mesma, aumenta o título na saída da turbina."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2006, Q47",
+   "q": "Assinale a opção que explica INCORRETAMENTE uma das formas pelas quais a corrosão pode se manifestar.",
+   "alts": {
+    "A": "Corrosão por placas - ocorre quando dois materiais metálicos, sob a forma de placas, estão em contato e a corrosão se apresenta na interface entre os dois materiais.",
+    "B": "Corrosão por pite - ocorre quando a corrosão se apresenta de forma muito localizada com profundidade bem maior que o seu diâmetro.",
+    "C": "Corrosão alveolar - ocorre quando a corrosão age de forma localizada, tendo o aspecto de crateras.",
+    "D": "Corrosão intergranular - ocorre atacando o material no contorno dos grãos, quando expostos a meios agressivos.",
+    "E": "Corrosão transcristalina - é identificada sob a forma de trincas que se propagam pelo interior dos grãos do material."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2006, Q48",
+   "q": "Os aços inoxidáveis se caracterizam, principalmente, por resistirem à corrosão atmosférica. Esta característica ocorre devido à:",
+   "alts": {
+    "A": "formação de uma camada estável de óxido de cromo que protege a superfície contra a corrosão intergranular.",
+    "B": "formação de uma camada passiva estável, extremamente fina, resultado da combinação do cromo com o oxigênio, que se forma instantaneamente na superfície.",
+    "C": "passividade do aço inoxidável, garantida pelo cromo com teores de até 10%, em qualquer ponto do material.",
+    "D": "presença de cromo e vanádio no contorno dos grãos.",
+    "E": "presença de cromo que migra para a superfície e impede a formação da pilha galvânica."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2006, Q50",
+   "q": "Em relação aos materiais não ferrosos, é correto aifrmar que:",
+   "alts": {
+    "A": "todas as ligas de cobre podem ser endurecidas ou ter a sua resistência melhorada por meio de tratamento térmico.",
+    "B": "todas as ligas de alumínio são tratadas termicamente para aumentar a sua resistência e dureza por meio de endurecimento por precipitação.",
+    "C": "o alumínio tem uma estrutura cristalina CCC, mantendo a sua ductilidade até mesmo em temperaturas reduzidas.",
+    "D": "o alumínio, sob a atmosfera ambiente, apresenta resistência à corrosão e sua principal limitação é sua baixa temperatura de fusão.",
+    "E": "o latão é uma liga de cobre onde o estanho, na forma de uma impureza substitucional, é o elemento de liga predominante."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2006, Q51",
+   "q": "Considere os seguintes critérios de seleção de materiais para tubulações: fluido conduzido; condições de serviço (pressão e temperatura de operação) e processo de fabricação em relação ao comportamento mecânico durante a solicitação na aplicação. A esse respeito, assinale a afirmativa correta.",
+   "alts": {
+    "A": "Os tubos de aço galvanizado com costura, fabricados pela soldagem por resistência elétrica, são aplicados a tubulações em água salgada.",
+    "B": "Os tubos sem costura, fabricados por laminação ou por fundição por centrifugação, são utilizados para solicitações dinâmicas pela boa resistência à fadiga.",
+    "C": "Os tubos de chumbo são utilizados quando a aplicação exige alta resistência mecânica.",
+    "D": "A contaminação do fluido pela tubulação não é um fator determinante na escolha dos materiais quando trabalha à alta temperatura.",
+    "E": "Em temperaturas muito baixas, o aço-carbono perde a ductilidade, ficando sujeito à fratura frágil repentina; por isso, quando este material for utilizado para uma tubulação, será necessário verificar a temperatura de trabalho."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 52,
+   "origem": "Cesgranrio 2006, Q52",
+   "q": "Em relação aos aços resistentes à corrosão, observe as afirmações a seguir. I - Os aços inoxidáveis austeníticos, contendo teores de cromo e níquel, apresentam maior soldabilidade e resistência à corrosão do que os aços martensíticos e ferríticos. II - Uma variedade de aços inoxidáveis, chamada “dúplex”, tem microestrutura austenítica-ferrítica, combinando propriedades mecânicas elevadas com notável resistência à fissuração sob tensão por cloretos. III - Os aços inoxidáveis endurecíveis por precipitação se caracterizam por apresentar, simultaneamente, alta resistência à corrosão e elevada resistência mecânica. Um exemplo de aço inoxidável endurecível por precipitação é o 17-7PH, que contém 17% de níquel e 7% de cromo. Está(ão) correta(s) a(s) afirmação(ões):",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2006, Q54",
+   "q": "Qual a resistência de um fio de cobre de 1 km de extensão e de seção transversal de 3,6 mm 2 a 20°C? (Considere a resistividade do cobre a 20°C como 1,8.10 -8 Ω.m)",
+   "alts": {
+    "A": "200 mΩ",
+    "B": "5,00 mΩ",
+    "C": "500 Ω",
+    "D": "20,00 Ω",
+    "E": "5,00 Ω"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2006, Q55",
+   "q": "Qual o módulo da impedância de um circuito em que os componentes estão ligados em série, sendo alimentado por uma fonte alternada senoidal com tensão de 220 V (valor eficaz), freqüência de 60 Hz e com os seguintes componentes: resistência de 10 Ω, indutância de 500 mH e capacitância de 50μF?",
+   "alts": {
+    "A": "15 Ω < 50 Ω",
+    "B": "50 Ω < 100 Ω",
+    "C": "100 Ω < 150 Ω",
+    "D": "150 Ω < 200 Ω",
+    "E": "200 Ω < 250 Ω"
+   },
+   "correta": "C"
+  },
+  {
+   "n": 57,
+   "origem": "Cesgranrio 2006, Q57",
+   "q": "Em relação às ligas de ferro-carbono e considerando um processo de resfriamento lento, afirma-se que, para teores de carbono: I - inferiores a 0,77%, as ligas de ferro-carbono são constituídas, à temperatura ambiente, de ferrita e perlita; II - entre 0,77% e 2,11%, as ligas de ferro-carbono são constituídas, à temperatura ambiente, de perlita e cementita; III - acima de 0,77%, as ligas de ferro-carbono são constituídas, à temperatura ambiente, de perlita e cementita. Está(ão) correta(s) a(s) afirmação(ões):",
+   "alts": {
+    "A": "II, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2006, Q58",
+   "q": "Em relação ao tamanho do grão austenítico, observe as afirmações a seguir. I - Os aços com tamanho grande de grão austenítico tendem a apresentar mais facilmente, no esfriamento, uma estrutura martensítica. II - Deve-se preferir um aço com granulação grosseira, devido à menor suscetibilidade à presença de fissuras de têmpera. III - Quanto maior o tamanho do grão, mais para a esquerda são deslocadas as curvas de início e fim de transformação da austenita. Está(ão) correta(s) a(s) afirmativa(s):",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2006, Q59",
+   "q": "Em relação à estrutura dos metais, afirma-se que: I - os metais com elevada pureza são, de um modo geral, menos duros e resistentes do que as ligas compostas pelo mesmo metal de base; II - a expressão conhecida por Equação de Hall-Petch permite determinar a tensão de ruptura em função do diâmetro médio do grão para um metal policristalino; III - um metal com granulação fina tem maior área total de contornos de grãos, o que facilita o movimento das discordâncias e aumenta sua dureza e resistência. Está(ão) correta(s) a(s) afirmativa(s):",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2006, Q60",
+   "q": "Em relação à austêmpera, está correta uma das afirmações abaixo. Indique-a.",
+   "alts": {
+    "A": "Para assegurar uma completa transformação da austenita em bainita, o material deve ser resfriado lentamente a partir da temperatura de austenização até a temperatura do banho de austêmpera.",
+    "B": "O material deve ser mantido no banho de austêmpera, geralmente acima de 550°C, o tempo necessário para promover a completa transformação da austenita em bainita.",
+    "C": "A grande vantagem da austêmpera sobre a têmpera e revenido comuns reside no fato de as tensões internas resultantes serem muito menores devido à estrutura bainítica formar-se diretamente da austenita à temperatura mais alta que a martensita.",
+    "D": "As estruturas bainíticas obtidas na austêmpera caracterizam-se pela baixa ductilidade e pequena resistência ao choque, com durezas elevadas.",
+    "E": "A tenacidade das estruturas bainíticas obtidas na austêmpera são inferiores às da martensita revenida normal com, aproximadamente, a mesma dureza."
+   },
+   "correta": "C"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   27,
+   36
+  ],
+  "quebradas": [
+   39
+  ]
+ },
+ "extra": true
+}

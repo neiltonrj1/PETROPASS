@@ -1,0 +1,535 @@
+{
+ "id": "mecx-2011",
+ "trilha": "mecanica",
+ "ano": 2011,
+ "nome": "Profissional Jr — Engenharia Mecânica (prova complementar)",
+ "processo": "Petrobras PSP RH-2/2010 (prova em 27/02/2011)",
+ "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\PROVA 9 - ENGENHEIRO DE EQUIPAMENTOS JÚNIOR - MECÂNICA.pdf",
+ "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\Gabaritos.pdf",
+ "total": 38,
+ "questoes": [
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2011, Q25",
+   "q": "Um pesquisador de engenharia afirma ter criado uma unidade de refrigeração, com coeficiente de desempenho de 5,5, capaz de manter um espaço refrigerado a -33 ºC, enquanto o ambiente externo está a 7 ºC. Teoricamente, a invenção do pesquisador é",
+   "alts": {
+    "A": "impossível, uma vez que tal máquina possui desempenho maior do que o desempenho de um refrigerador de Carnot nas mesmas condições.",
+    "B": "impossível, uma vez que tal máquina possui desempenho menor do que o desempenho de um refrigerador de Carnot nas mesmas condições.",
+    "C": "possível, uma vez que o coeficiente de desempenho de um refrigerador de Carnot, nas mesmas condições, é dado por 1,2.",
+    "D": "possível, uma vez que o coeficiente de desempenho de um refrigerador de Carnot, nas mesmas condições, é dado por 6,0.",
+    "E": "possível, uma vez que o coeficiente de desempenho de um refrigerador de Carnot, nas mesmas condições, é dado por 7,0."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 26,
+   "origem": "Cesgranrio 2011, Q26",
+   "q": "Em um escoamento supersônico divergente, conforme a figura acima, tem-se",
+   "alts": {
+    "A": "diminuição da pressão e aumento da velocidade.",
+    "B": "diminuição da pressão e diminuição da velocidade.",
+    "C": "aumento da pressão e aumento da velocidade.",
+    "D": "aumento da pressão e diminuição da velocidade.",
+    "E": "pressão e velocidade constantes."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2011, Q27",
+   "q": "Entre os grupos adimensionais importantes na mecânica dos fluidos estão o número de Weber e o número de Mach, que correspondem, respectivamente, à razão entre as forças de",
+   "alts": {
+    "A": "pressão e as de inércia; e de inércia e as de compressibilidade.",
+    "B": "pressão e as de inércia; e de inércia e viscosas.",
+    "C": "inércia e viscosas; e de tensão superficial e as de compressibilidade.",
+    "D": "inércia e as de tensão superficial; e de inércia e as de compressibilidade.",
+    "E": "inércia e as de tensão superficial; e de gravidade e as de inércia. Escoamento supersônico"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2011, Q28",
+   "q": "Em relação a algumas características dos fluidos, analise as afirmativas a seguir. I - Os fluidos newtonianos são aqueles em que a tensão de cisalhamento é diretamente proporcional à taxa de deformação. II - A lei de Newton da viscosidade para um escoamento unidimensional é dada por, onde τ é a tensão de cisalhamento, u é a velocidade e μ é a viscosidade cinemática. III - Nos líquidos, a viscosidade aumenta com o aumento da temperatura, enquanto, nos gases, a viscosidade diminui com o aumento da temperatura. IV - Um fluido que se comporta como um sólido até que uma tensão limítrofe seja excedida e, em seguida, exibe uma relação linear entre a tensão de cisalhamento e a taxa de deformação, é denominado plástico de Bingham ou plástico ideal. Estão corretas APENAS as afirmativas",
+   "alts": {
+    "A": "I e II.",
+    "B": "I e IV.",
+    "C": "II e III.",
+    "D": "I, II e III.",
+    "E": "II, III e IV."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2011, Q29",
+   "q": "A figura acima ilustra um escoamento em regime permanente em um Venturi. Considere que o fluido manométrico é o mercúrio e que os pesos específicos envolvidos no problema valem γ Hg = 140.000 N/m 3 e γ água = 10.000 N/m 3. Supondo as perdas por atrito desprezíveis, propriedades uniformes nas seções e g = 10 m/s 2, para a velocidade da água, em m/s, obtém-se na seção 2",
+   "alts": {
+    "A": "v 2 =",
+    "B": "v 2 =",
+    "C": "v 2 =",
+    "D": "v 2 =",
+    "E": "v ="
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 30,
+   "origem": "Cesgranrio 2011, Q30",
+   "q": "Munson, B.R. et al. Fundamentos da Mecânica dos Fluidos. Edgar Blucher, 2004. A figura acima ilustra um manômetro com tubo em U, muito utilizado para medir diferenças de pressão. Considerando que os pesos específicos dos três fluidos envolvidos estão indicados na figura por γ 1, γ 2, e γ 3, a diferença de pressão p A − p B corresponde a",
+   "alts": {
+    "A": "γ 1 h 1 + γ 2 h 2 + γ 3 h 3",
+    "B": "γ 1 h 1 - γ 2 h 2 + γ 3 h 3",
+    "C": "γ 2 h 2 + γ 3 h 3 - γ 1 h 1",
+    "D": "γ 2 h 2 - γ 3 h 3 - γ 1 h 1",
+    "E": "(γ 1 h 1 + γ 2 h 2 + γ 3 h 3)/3"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2011, Q33",
+   "q": "Das estruturas acima, qual(is) possui(em) grau(s) de liberdade de corpo rígido?",
+   "alts": {
+    "A": "P, apenas.",
+    "B": "Q, apenas.",
+    "C": "P e Q, apenas.",
+    "D": "Q e R, apenas.",
+    "E": "P, Q e R."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2011, Q34",
+   "q": "Uma cadeira que possui 4 pontos de apoio no solo é uma estrutura",
+   "alts": {
+    "A": "isostática.",
+    "B": "hipostática.",
+    "C": "antiestática.",
+    "D": "inestática.",
+    "E": "hiperestática."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2011, Q35",
+   "q": "O fator de amortecimento, que representa as características relativas de dissipação de energia de uma estrutura ou componente, depende de suas propriedades",
+   "alts": {
+    "A": "de dissipação, apenas.",
+    "B": "de flexibilidade e dissipação, apenas.",
+    "C": "inerciais e de flexibilidade, apenas.",
+    "D": "inerciais e de dissipação, apenas.",
+    "E": "inerciais, de flexibilidade e de dissipação."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2011, Q36",
+   "q": "O sistema de transmissão utilizado para acionar um equipamento mecânico é constituído de um motor e um redutor, cuja relação de transmissão é de 1/10, conforme indicado na figura acima. Considerando que o equipamento requer um torque de 1,8 kN.m e desprezando as perdas no sistema, o torque, em N.m, a ser utilizado no projeto do eixo de saída do motor, vale",
+   "alts": {
+    "A": "10",
+    "B": "18",
+    "C": "100",
+    "D": "180",
+    "E": "1800"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2011, Q37",
+   "q": "Duas colunas de um mesmo material, mesmo comprimento e áreas de seção transversal obedecendo à relação A 2 = 2A 1, suportam uma plataforma, conforme indicado na figura acima. Considere que a plataforma seja submetida a uma força F e que as colunas sejam elásticas e lineares. Pela ação exclusiva da força F, se",
+   "alts": {
+    "A": "a = b, as tensões compressivas atuantes nas duas colunas são idênticas.",
+    "B": "a = 2b, as tensões compressivas atuantes nas duas colunas são idênticas.",
+    "C": "a = 2b, a tensão compressiva atuante na coluna 1 será maior do que a atuante na coluna 2.",
+    "D": "b = 2a, as tensões compressivas atuantes nas duas colunas são idênticas.",
+    "E": "b = 2a, a tensão compressiva atuante na coluna 2 será maior do que a atuante na coluna 1."
+   },
+   "correta": "B",
+   "pedeFigura": true
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2011, Q38",
+   "q": "Uma barra AB de área de seção transversal A é solicitada por uma força axial F, conforme ilustrado acima. Essa força gera uma tensão nominal atuante na seção transversal da barra expressa por σ 0 = F/A. A barra é fabricada pela união por solda de duas peças, 1 e 2. Considerando a orientação de 45° do cordão de solda, os valores das tensões atuantes nas direções perpendicular e tangencial ao cordão de solda são, respectivamente, iguais a",
+   "alts": {
+    "A": "σ 0 /2 e σ 0",
+    "B": "σ 0 e σ 0 /2",
+    "C": "σ 0 e σ 0",
+    "D": "2σ 0 e 2σ 0",
+    "E": "σ 0 /2 e σ 0 /2"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 39,
+   "origem": "Cesgranrio 2011, Q39",
+   "q": "Uma tubulação longa é instalada sobre um conjunto de apoios igualmente espaçados. Considerando o efeito de seu peso próprio juntamente com o peso do fluido em seu interior, o diagrama de momentos fletores atuantes ao longo da tubulação, entre dois apoios consecutivos, apresenta o valor nulo",
+   "alts": {
+    "A": "em uma seção transversal.",
+    "B": "em duas seções transversais.",
+    "C": "na seção transversal central entre os dois apoios.",
+    "D": "na seção transversal central entre os dois apoios e sobre os apoios.",
+    "E": "nas seções transversais sobre os apoios."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 40,
+   "origem": "Cesgranrio 2011, Q40",
+   "q": "O círculo de Mohr apresentado na figura ao lado representa o estado plano de tensões atuante em um ponto",
+   "alts": {
+    "A": "da superfície superior de uma viga sob flexão pura.",
+    "B": "da superfície de um eixo sujeito a torção combinada com carga axial.",
+    "C": "da superfície de um eixo sob torção pura.",
+    "D": "da linha neutra de uma viga sob flexão pura.",
+    "E": "entre a linha neutra e a superfície superior de uma viga sob flexão pura. BLOCO 2"
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 41,
+   "origem": "Cesgranrio 2011, Q41",
+   "q": "Ao estudar a transformação martensítica, um engenheiro concluiu que essa transformação",
+   "alts": {
+    "A": "ocorre exclusivamente nas ligas de ferro-carbono e é caracterizada, em parte, pela transformação com ausência de difusão.",
+    "B": "ocorre quando a velocidade de resfriamento é alta o suficiente, de modo que os átomos de carbono permanecem como impurezas substitucionais na martensita.",
+    "C": "ocorre de maneira que a austenita CFC experimenta uma transformação polimórfica em uma martensita tetragonal de face centrada (TFC).",
+    "D": "produz uma solução sólida substitucional com átomos de carbono, capaz de se transformar rapidamente em outras estruturas, quando aquecida.",
+    "E": "produz uma estrutura cristalina cuja célula unitária consiste em um cubo de corpo centrado que foi alongado na extensão de uma de suas dimensões."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2011, Q43",
+   "q": "Os aços de alta resistência e baixa liga são aqueles que têm maior resistência mecânica que os seus aços-carbono equivalentes. Tais aços",
+   "alts": {
+    "A": "possuem baixo teor de carbono, em geral inferior a 0,28%.",
+    "B": "são frágeis, não podem ser conformados e só podem ser usinados em condições especiais.",
+    "C": "são menos resistentes à corrosão em atmosferas normais do que os aços comuns ao carbono.",
+    "D": "contêm outros elementos de liga que, em concentrações combinadas, não ultrapassam 0,5%.",
+    "E": "devem ser endurecidos por deformação, pois não podem ter a sua resistência aumentada por meio de tratamento térmico, devido à fragilização."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2011, Q44",
+   "q": "A figura abaixo apresenta esquematicamente o diagrama de transformação isotérmica para um aço-carbono comum com 0,76% C, onde o trajeto tempo-temperatura para um tratamento térmico está indicado. A microestrutura final de uma pequena amostra submetida a esse tratamento será composta por",
+   "alts": {
+    "A": "100% de bainita.",
+    "B": "100% de perlita fina.",
+    "C": "100% de perlita grosseira.",
+    "D": "100% de martensita.",
+    "E": "50% de perlita fina e 50% de bainita."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2011, Q45",
+   "q": "Para minimizar as vibrações de um motor, em decorrência do desbalanceamento de seus componentes, um engenheiro projetou uma base elástica de rigidez K constante e amortecimento desprezível. Se a massa do motor é M, e a força desbalanceadora periódica tem amplitude F 0, considerando o sistema como sendo de um grau de liberdade, a amplitude dos deslocamentos vibratórios do motor é",
+   "alts": {
+    "A": "continuamente crescente com a rotação do motor.",
+    "B": "continuamente decrescente com a rotação do motor.",
+    "C": "independente da força desbalanceadora.",
+    "D": "independente da frequência natural do sistema.",
+    "E": "máxima quando o valor da rotação do motor coincidir com a frequência natural do sistema."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2011, Q46",
+   "q": "Um sistema mecânico em vibração é modelado como sistema linear de dois graus de liberdade, um de translação e outro de rotação. Sendo desprezíveis os eventuais efeitos dissipativos ocorrentes no sistema, suas duas frequências naturais",
+   "alts": {
+    "A": "independem das massas do sistema.",
+    "B": "independem das rigidezes dos elementos flexíveis do sistema.",
+    "C": "dependem das excitações atuantes no sistema.",
+    "D": "dependem das condições iniciais de movimento relativas aos graus de liberdade.",
+    "E": "dependem das massas e das rigidezes envolvidas no sistema."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 47,
+   "origem": "Cesgranrio 2011, Q47",
+   "q": "O sistema de transmissão ilustrado na figura acima é constituído de um motor elétrico, dois eixos flexíveis e três engrenagens rígidas. O sistema é utilizado para acionar uma carga, representada pelo torque T(t), atuante na engrenagem (3). As equações diferenciais que permitem o estudo das vibrações torcionais desse sistema devem ser escritas segundo o(s) grau(s) de liberdade",
+   "alts": {
+    "A": "θ 1, apenas.",
+    "B": "θ 3, apenas.",
+    "C": "θ 1 e θ 2, apenas.",
+    "D": "θ 2 e θ 3, apenas.",
+    "E": "θ 1, θ 2 e θ 3. Considere os dados e a figura a seguir para responder às questões de n os 48 e 49. O diagrama pressão-volume, abaixo, ilustra a redução do trabalho de compressão numa compressão em três estágios, com arrefecimento do gás ao sair na descarga de cada estágio. SILVA, N. F. Compressores Alternativos Industriais. Rio de Janeiro: Interciência, 2009."
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2011, Q48",
+   "q": "A área que representa a redução do trabalho adiabático reversível, devido à refrigeração do gás ao ser descarregado pelo 2 o estágio, corresponde a",
+   "alts": {
+    "A": "A 1-2a-4a-4-1",
+    "B": "A 2a’-2b’-4b-4a-2a’",
+    "C": "A 2a-2b-2b’-2a’-2a",
+    "D": "A 2b”-2c’-3-4b-2b”",
+    "E": "A 2b-2-2c’-2b”-2b"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2011, Q50",
+   "q": "Relacione as bombas centrífugas da coluna à esquerda com suas respectivas características, apresentadas na coluna à direita. A associação correta é",
+   "alts": {
+    "A": "I – P, II – Q, III – R e IV – S",
+    "B": "I – P, II – R, III – S e IV – T",
+    "C": "I – Q, II – R, III – S e IV – P",
+    "D": "I – Q, II – S, III – R e IV – T",
+    "E": "I – T, II – Q, III – P e IV – S"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 51,
+   "origem": "Cesgranrio 2011, Q51",
+   "q": "Com relação ao ciclo Brayton, analise as afirmativas a seguir. I – A turbina a gás real difere do ciclo ideal, principalmente devido às irreversibilidades no compressor e na turbina, e à perda de carga nas passagens do fluido e na câmara de combustão (ou no trocador de calor para um ciclo fechado). II – O fluido de trabalho apresenta mudança de fase. III – O compressor utiliza uma pequena quantidade de trabalho na sua operação, em comparação ao trabalho gerado na turbina. IV – O rendimento do ciclo de turbina a gás pode ser melhorado pela introdução de um regenerador. Estão corretas APENAS as afirmativas",
+   "alts": {
+    "A": "I e II.",
+    "B": "I e IV.",
+    "C": "III e IV.",
+    "D": "I, II e III.",
+    "E": "II, III e IV. I – Radial II – Helicoidal III – Diagonal IV – Axial P – Toda a energia recebida pelo fluido é obtida por meio de forças centrífugas aplicadas no líquido devido à rotação. Utilizada quando se necessita de cargas manométricas mais significativas do que as vazões. Também denominada centrífuga pura. Q – Parte da energia fornecida ao fluido é devida à força centrífuga, e parte é devida à força de arrasto. Utilizada para cargas manométricas e vazões com valores médios. R – Parte da energia fornecida ao fluido é devida à força centrífuga, e parte é devida à força de arrasto. Utilizada para vazões mais significativas do que às cargas atendidas. S – A energia transmitida ao fluido é devida puramente às forças de arrasto. Utilizada para vazões mais significativas do que para as cargas atendidas. T – Toda a energia recebida pelo fluido é obtida por meio de forças centrífugas aplicadas no líquido devido à rotação. Utilizada quando se necessita de baixas cargas manométricas e baixas vazões."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 54,
+   "origem": "Cesgranrio 2011, Q54",
+   "q": "MORAN, M.J. e SHAPIRO, H.N. Princípios de Termodinâmica para Engenharia. Rio de Janeiro: LTC, 2009. No ciclo de Rankine ilustrado na figura acima, o calor rejeitado no condensador vale em módulo 1.950 kJ/kg, e o calor recebido na caldeira corresponde em módulo a 3.000 kJ/kg. Com base nesses dados, para o rendimento do ciclo, tem-se",
+   "alts": {
+    "A": "16,5%",
+    "B": "25,4%",
+    "C": "28,6%",
+    "D": "35,0%",
+    "E": "54,0%"
+   },
+   "correta": "D",
+   "pedeFigura": true
+  },
+  {
+   "n": 55,
+   "origem": "Cesgranrio 2011, Q55",
+   "q": "As turbinas a vapor de vários conjuntos de pás no mesmo eixo, conforme o modo de disposição dos estágios, são classificadas como turbinas de estágios de:",
+   "alts": {
+    "A": "temperatura; velocidade; e temperatura e velocidade.",
+    "B": "temperatura; pressão; e temperatura e pressão.",
+    "C": "pressão; entropia; e pressão e entropia.",
+    "D": "pressão; velocidade; e pressão e velocidade.",
+    "E": "pressão; entalpia; e pressão e entalpia. BLOCO 3"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 56,
+   "origem": "Cesgranrio 2011, Q56",
+   "q": "Duas grandes placas paralelas finas, cujas superfícies podem ser consideradas corpos negros, estão separadas por uma distância de 2 cm e trocam calor entre si por condução e radiação. Admita que: • uma das placas está a T 1 = 400 K, enquanto a outra está a T 2 = 300 K; • o espaço entre elas é ocupado pelo ar (k ar = 0,02 W/m.K); e • as correntes de convecção natural envolvidas são desprezíveis. Considerando que a taxa de transferência de calor por radiação entre as placas por unidade de área é de 300 W, a taxa de transferência de calor total entre as placas por unidade de área, em W, corresponde a",
+   "alts": {
+    "A": "350",
+    "B": "400",
+    "C": "450",
+    "D": "500",
+    "E": "550"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 58,
+   "origem": "Cesgranrio 2011, Q58",
+   "q": "Considerando-se os modos de transferência de calor, estão corretas as afirmativas abaixo, EXCETO a seguinte:",
+   "alts": {
+    "A": "um corpo negro absorve toda a radiação incidente sobre ele.",
+    "B": "alumínio em folhas, madeira e água estão citados em ordem crescente de emissividade, quando se encontram a 300 K.",
+    "C": "a radiação emitida por um corpo negro representa a quantidade máxima de radiação que pode ser emitida por uma superfície em uma determinada temperatura, sendo uma condição ideal que serve como referência.",
+    "D": "a lei de Kirchhoff sustenta que a emissividade espectral para a emissão de radiação à temperatura T é igual ao poder de absorção espectral para a radiação proveniente de um corpo negro a mesma temperatura T.",
+    "E": "a transferência de calor através do vácuo só ocorre por radiação e convecção, já que a condução exige a presença de um meio para ocorrer."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 59,
+   "origem": "Cesgranrio 2011, Q59",
+   "q": "Uma fábrica está investindo na produção de uma nova bomba altamente sofisticada. Uma pesquisa que considera as duas maiores empresas da região mostrou que a probabilidade da empresa 1 comprar tal bomba é de 0,7, e a da empresa 2 é de 0,5. Já a probabilidade de a compra ser efetuada pelas duas empresas corresponde a 0,4. Nessa perspectiva, a probabilidade de a bomba ser comprada por pelo menos uma das empresas é",
+   "alts": {
+    "A": "0,5",
+    "B": "0,6",
+    "C": "0,7",
+    "D": "0,8",
+    "E": "0,9"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 60,
+   "origem": "Cesgranrio 2011, Q60",
+   "q": "No estoque de uma empresa, há trinta compressores do mesmo tipo. Seis deles, no entanto, são defeituosos. Um funcionário seleciona aleatoriamente dois desses compressores. Considerando-se que, uma vez selecionados, não há reposição de qualquer dos equipamentos, qual a probabilidade de ambos serem defeituosos?",
+   "alts": {
+    "A": "1/36",
+    "B": "1/29",
+    "C": "1/25",
+    "D": "1/5",
+    "E": "2/5"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 61,
+   "origem": "Cesgranrio 2011, Q61",
+   "q": "Considere os motores movidos a óleo diesel de injeção direta na câmara de combustão, e os motores movidos a gasolina, nos quais há um bico injetor para cada cilindro e injeção no coletor de admissão, conhecidos como multiponto. Tais dados são acrescidos ao fato de que",
+   "alts": {
+    "A": "a pressão de injeção do combustível deve ser alta o suficiente para pulverizar o jato e favorecer a turbulência, em função de a queima nos motores a gasolina ser espontânea.",
+    "B": "a pressão de injeção deve ser maior que a pressão no tempo de compressão do motor, em decorrência de o combustível ser injetado dentro da câmara nos motores diesel.",
+    "C": "a injeção da gasolina no coletor de admissão se dá a uma pressão abaixo da atmosférica, a fim de que o fluxo de ar presente no coletor de admissão possa arrastar o combustível.",
+    "D": "a pressão de injeção da gasolina não deve ultrapassar a atmosférica em dez vezes seu valor ao nível do mar, para não haver detonação.",
+    "E": "os motores a diesel equipados com velas de ignição têm bicos injetores cuja pressão de injeção pode ser menor do que os motores a diesel comuns."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 62,
+   "origem": "Cesgranrio 2011, Q62",
+   "q": "O diagrama indicador real de um motor de combustão interna ICE de 4 tempos pode ser obtido por meio de instrumentação adequada e está representado na figura a seguir, na qual P 0 é a pressão atmosférica. No diagrama, um motor aspirado funciona em carga plena, com a borboleta do acelerador completamente aberta. Nesse contexto, analise as afirmações a seguir. I - As áreas B e C representam as perdas por bombeamento na admissão e na descarga. II - Ao ser mantida a mesma rotação do motor, se a borboleta do acelerador estiver parcialmente fechada, a área B aumenta. III - A linha cd representa o tempo de admissão, e como o motor é aspirado, está abaixo da pressão atmosférica P 0. Está correto o que se afirma em",
+   "alts": {
+    "A": "I, apenas.",
+    "B": "II, apenas.",
+    "C": "I e II, apenas.",
+    "D": "II e III, apenas.",
+    "E": "I, II e III."
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 63,
+   "origem": "Cesgranrio 2011, Q63",
+   "q": "O ataque uniforme é uma das classificações da corrosão em relação à maneira como ela se manifesta. Sobre esse tipo de corrosão, são corretas as afirmativas a seguir, EXCETO que",
+   "alts": {
+    "A": "seus exemplos mais comuns incluem a ferrrugem generalizada do aço e o escurecimento de pratarias.",
+    "B": "as reações de oxidação e de redução, do ponto de vista microscópico, ocorrem aleatoriamente sobre a superfície metálica.",
+    "C": "é uma forma de corrosão eletroquímica que ocorre em intensidade equivalente ao longo de toda a superfície exposta.",
+    "D": "é relativamente fácil de ser levada em consideração nos projetos de engenharia e, por isso, é menos questionada e estudada.",
+    "E": "é subclassificada em ataque uniforme em frestas quando se localiza uniformemente ao redor da parcela oclusa do metal."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 64,
+   "origem": "Cesgranrio 2011, Q64",
+   "q": "Analise as equações a seguir, que ocorrem comumente na corrosão dos aços carbono utilizados em aplicações industriais em sistemas de água de resfriamento. I - Dissolução do ferro e redução da carga: II - Combinação do íon hidroxila com o íon ferroso: III - Precipitação do hidróxido ferroso na interface metal/eletrólito como consequência da baixa solubilidade e rápida oxidação para hidróxido férrico: IV - Formação dos produtos de corrosão encontrados na superfície de materiais ferrosos, após desidratação do hidróxido férrico: São corretas APENAS as equações apresentadas em",
+   "alts": {
+    "A": "I e II.",
+    "B": "II e IV.",
+    "C": "III e IV.",
+    "D": "I, II e III.",
+    "E": "I, II e IV."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 65,
+   "origem": "Cesgranrio 2011, Q65",
+   "q": "O processo de corte a gás é realizado pela reação do oxigênio puro com o metal a alta temperatura. A respeito desse processo, é INCORRETO afirmar que",
+   "alts": {
+    "A": "uma chama de oxigênio-gás combustível é utilizada para alcançar a temperatura necessária para o corte.",
+    "B": "o uso de preaquecimento para prevenir a têmpera e fissuração do material é necessário para cortar aços com mais de 0,25% de carbono.",
+    "C": "a oxidação do metal produz um material particulado óxido, que se descola do metal contínuo, removendo material e provocando o corte.",
+    "D": "a adição de cobre, em teores de até 2%, como elemento de liga do material a ser processado pelo oxicorte, não apresenta qualquer efeito relevante ao processo.",
+    "E": "a temperatura de ignição é aquela em que ocorre a reação do metal com o oxigênio e deve preceder a emissão do jato de oxigênio puro para realizar o processo."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 66,
+   "origem": "Cesgranrio 2011, Q66",
+   "q": "Nos processos de soldagem por fusão, formam-se três regiões distintas como resultado do campo de temperaturas resultante do aquecimento inerente ao processo. A composição e as características da Zona Fundida dependem principalmente da interação do metal de adição transferido à zona de fusão do metal de base fundido e da temperatura em que ocorre a mistura, que pode provocar a absorção de gases. Nesse contexto, o coeficiente de diluição",
+   "alts": {
+    "A": "tem valor máximo (10%) em soldas realizadas pelo processo de brasagem.",
+    "B": "tem valor máximo (100%) em soldas sem metal de adição.",
+    "C": "é calculado a partir da proporção de elementos de liga que foram diluídos no metal de base.",
+    "D": "é calculado a partir da massa total do cordão de solda dividida pela massa fundida do metal de base.",
+    "E": "é estimado pela presença de gases diluídos no metal fundido da poça de fusão."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 67,
+   "origem": "Cesgranrio 2011, Q67",
+   "q": "O termo plástico se aplica a um grande grupo de materiais, constituídos por uma substância de alto peso molecular. Tais materiais podem ser moldados mediante a aplicação de calor e pressão. Eles são classificados em duas grandes categorias: termoplásticos e termofixos. A diferença entre essas duas categorias é a propriedade de",
+   "alts": {
+    "A": "poder ser remoldado repetidas vezes por ciclos de aquecimento e resfriamento.",
+    "B": "poder ser remoldado repetidas vezes por deformação a frio.",
+    "C": "diminuir a sua dureza por aquecimento.",
+    "D": "aumentar a sua resistência ao escoamento por deformação a frio.",
+    "E": "aumentar a sua resistência mecânica por ciclos de aquecimento e resfriamento."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 68,
+   "origem": "Cesgranrio 2011, Q68",
+   "q": "Em uma aplicação na qual um componente mecânico de aço será submetido a esforços cíclicos de alta intensidade, foi indicado um aço com a seguinte composição química: C = 0,38 a 0,43% Mn = 0,65 a 0,85% S = 0,040% max P = 0,040% max Si = 0,20 a 0,35% Cr = 0,70 a 0,90% Mo = 0,20 a 0,30% Ni = 1,65 a 2,00% Foi ainda especificado um tratamento térmico de têmpera a 850 o C, com resfriamento em óleo, seguido de revenido a 400 o C. A seleção desse aço e seu respectivo tratamento térmico, são corretos porque o comportamento mecânico desse componente estará associado às seguintes propriedades mecânicas:",
+   "alts": {
+    "A": "resistência à corrosão, resistência ao escoamento e ductibilidade, que são resultantes do teor dos elementos de liga Ni-Mo e do tratamento térmico de têmpera.",
+    "B": "resistência à fadiga, dureza a quente e módulo de elasticidade, que são resultantes dos elementos de liga Cr-Ni e do tratamento de têmpera e revenido.",
+    "C": "dureza, tenacidade e resistência à ruptura, que são resultantes do teor dos elementos de liga Cr-Ni-Mo e do tratamento térmico de têmpera e revenido.",
+    "D": "fragilidade, resiliência e resistência à fluência, que são resultantes do teor de carbono e do tratamento térmico de revenido.",
+    "E": "usinabilidade, resistência à ruptura e ductibilidade, que são resultantes dos elementos de liga S-Mn e do tratamento térmico de têmpera e revenido. Considere a figura a seguir, referente às curvas de desempenho de um motor elétrico, para responder às questões de n os 69 e 70."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 70,
+   "origem": "Cesgranrio 2011, Q70",
+   "q": "Ao se considerar as curvas de desempenho mostradas acima, conclui-se que existe uma relação",
+   "alts": {
+    "A": "linear entre a potência e a corrente.",
+    "B": "linear entre a eficiência e o torque.",
+    "C": "quadrática entre a corrente e o torque.",
+    "D": "quadrática entre a potência e o torque.",
+    "E": "linear entre a potência e a velocidade."
+   },
+   "correta": "A"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   26,
+   29,
+   30,
+   36,
+   37,
+   40,
+   44,
+   47,
+   54,
+   62
+  ],
+  "quebradas": [
+   49
+  ]
+ },
+ "extra": true
+}

@@ -27,8 +27,8 @@
    "E": "duas vezes a tensão entre fase e neutro."
   },
   "correta": "A",
-  "fig": "",
-  "legenda": "",
+  "fig": "<svg viewBox=\"0 0 440 210\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Esquema de aterramento TN-C: da fonte, com o neutro aterrado, sai o condutor PEN (neutro e terra combinados) que alimenta a carcaça do motor; o PEN está rompido entre a fonte e o motor</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"30\" y=\"55\" width=\"80\" height=\"55\"/><rect x=\"330\" y=\"55\" width=\"80\" height=\"55\"/><rect x=\"320\" y=\"45\" width=\"100\" height=\"75\" stroke-dasharray=\"5 4\"/><path d=\"M110,70 H330\"/><path d=\"M110,95 H196\"/><path d=\"M224,95 H320\"/><path d=\"M65,110 V140\"/><path d=\"M48,140 H82\"/><path d=\"M54,148 H76\"/><path d=\"M60,156 H70\"/><path d=\"M196,86 L224,104 M224,86 L196,104\"/><path d=\"M210,124 L210,106\"/><path d=\"M210,106 L205,114 L215,114 Z\" fill=\"currentColor\" stroke=\"none\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"14\" text-anchor=\"middle\"><text x=\"70\" y=\"87\">Fonte</text><text x=\"370\" y=\"87\">M</text><text x=\"220\" y=\"62\">F (fase)</text><text x=\"220\" y=\"118\">PEN</text><text x=\"210\" y=\"140\">neutro rompido</text><text x=\"370\" y=\"38\">carcaça</text></g></svg>",
+  "legenda": "Esquema TN-C: a fonte tem o ponto de neutro aterrado (símbolo de terra) e envia à carga um condutor de fase (F) e um único condutor combinado PEN (neutro e terra); o PEN está rompido no trecho entre a fonte e a carcaça do motor, que fica ligada apenas ao trecho de PEN a jusante da ruptura.",
   "conferida": true
  },
  {
@@ -1179,8 +1179,8 @@
    "E": "11,50 cm e 8,50 cm"
   },
   "correta": "C",
-  "fig": "",
-  "legenda": "",
+  "fig": "<svg viewBox=\"0 0 400 220\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Gráfico de controle genérico: linha central e limites superior e inferior de controle, com pontos amostrais oscilando entre eles</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"><path d=\"M50,190 H370\"/><path d=\"M50,190 V30\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"><path d=\"M50,60 H360\"/><path d=\"M50,150 H360\"/></g><path d=\"M50,105 H360\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><polyline points=\"80,95 115,120 150,80 185,105 220,70 255,130 290,90 325,110 355,75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"currentColor\" stroke=\"none\"><circle cx=\"80\" cy=\"95\" r=\"3.4\"/><circle cx=\"115\" cy=\"120\" r=\"3.4\"/><circle cx=\"150\" cy=\"80\" r=\"3.4\"/><circle cx=\"185\" cy=\"105\" r=\"3.4\"/><circle cx=\"220\" cy=\"70\" r=\"3.4\"/><circle cx=\"255\" cy=\"130\" r=\"3.4\"/><circle cx=\"290\" cy=\"90\" r=\"3.4\"/><circle cx=\"325\" cy=\"110\" r=\"3.4\"/><circle cx=\"355\" cy=\"75\" r=\"3.4\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"13\"><text x=\"368\" y=\"64\">LSC</text><text x=\"368\" y=\"109\">LC</text><text x=\"368\" y=\"154\">LIC</text><text x=\"30\" y=\"115\" text-anchor=\"end\">medida</text><text x=\"360\" y=\"208\" text-anchor=\"middle\">amostras</text></g></svg>",
+  "legenda": "Gráfico de controle por variáveis: linha central (LC) e, em tracejado, os limites superior (LSC) e inferior (LIC) de controle, com uma sequência de pontos amostrais oscilando entre os limites.",
   "conferida": false
  },
  {
@@ -1390,5 +1390,195 @@
   "fig": "<svg viewBox=\"0 0 420 260\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Gráfico velocidade × tempo: V vale 3 m/s em t = 0, sobe até 5 m/s em t = 10 s e desce até 4 m/s em t = 20 s</title><g stroke=\"currentColor\" stroke-width=\"1\" fill=\"none\"><line x1=\"60\" y1=\"206\" x2=\"60\" y2=\"58\"/><line x1=\"46\" y1=\"200\" x2=\"298\" y2=\"200\"/><line x1=\"55\" y1=\"90\" x2=\"65\" y2=\"90\"/><line x1=\"55\" y1=\"112\" x2=\"65\" y2=\"112\"/><line x1=\"55\" y1=\"134\" x2=\"65\" y2=\"134\"/></g><path d=\"M60 48 L55 61 L65 61 Z\" fill=\"currentColor\"/><path d=\"M308 200 L295 195 L295 205 Z\" fill=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\" fill=\"none\"><line x1=\"60\" y1=\"90\" x2=\"150\" y2=\"90\"/><line x1=\"60\" y1=\"112\" x2=\"240\" y2=\"112\"/><line x1=\"150\" y1=\"90\" x2=\"150\" y2=\"200\"/><line x1=\"240\" y1=\"90\" x2=\"240\" y2=\"200\"/></g><polyline points=\"60,134 150,90 240,112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"240\" cy=\"112\" r=\"4\" fill=\"currentColor\"/><text x=\"76\" y=\"56\" font-size=\"13\" fill=\"currentColor\">V (m/s)</text><text x=\"48\" y=\"95\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"48\" y=\"117\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"48\" y=\"139\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"60\" y=\"221\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">0</text><text x=\"150\" y=\"221\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"240\" y=\"221\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">20</text><text x=\"314\" y=\"197\" font-size=\"13\" fill=\"currentColor\">tempo</text><text x=\"314\" y=\"213\" font-size=\"13\" fill=\"currentColor\">(segundos)</text></svg>",
   "legenda": "Gráfico da velocidade V (m/s) contra o tempo (segundos): a reta parte de V = 3 em t = 0, sobe até V = 5 em t = 10 s e depois desce até o ponto marcado V = 4 em t = 20 s, com linhas tracejadas de referência nos níveis 5 e 4 e nos instantes 10 e 20.",
   "conferida": false
+ },
+ {
+  "prova": "mec-2012",
+  "n": 35,
+  "q": "O estado plano de tensões ocorrente em um ponto da superfície de um eixo sujeito a torção pura é tal que suas tensões principais são σ 1 e σ 2. A relação entre essas tensões é",
+  "alts": {
+   "A": "σ 1 = σ 2",
+   "B": "σ 1 = −σ 2",
+   "C": "σ 1 = 2 σ 2",
+   "D": "σ 2 = −2 σ 1",
+   "E": "σ 1 = √2 σ 2"
+  },
+  "correta": "B",
+  "fig": "",
+  "legenda": "",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2006",
+  "n": 28,
+  "q": "Em uma tubulação horizontal, de diâmetro interno D constante e comprimento L, escoa um fluido com velocidade média V. A tubulação possui uma válvula parcialmente aberta, que equivale, nesta situação, a um comprimento de tubo igual a 10 D. O fator de atrito em função do Número de Reynolds do escoamento e da rugosidade relativa da tubulação vale f. Por motivos operacionais, a válvula deverá ser manipulada de forma a reduzir a vazão à metade, mas a diferença de pressão entre as duas extremidades da tubulação deve ser mantida constante. Para que isso ocorra, o coeficiente de perda localizada K que a válvula deverá apresentar é:",
+  "alts": {
+   "A": "3L/D + 40",
+   "B": "L/D + 20",
+   "C": "L + 20 D",
+   "D": "5L/D + 40",
+   "E": "L + 40 D"
+  },
+  "correta": "A",
+  "fig": "",
+  "legenda": "",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 29,
+  "q": "A figura acima ilustra um escoamento em regime permanente em um Venturi. Considere que o fluido manométrico é o mercúrio e que os pesos específicos envolvidos no problema valem γ Hg = 140.000 N/m 3 e γ água = 10.000 N/m 3. Supondo as perdas por atrito desprezíveis, propriedades uniformes nas seções e g = 10 m/s 2, para a velocidade da água, em m/s, obtém-se na seção 2",
+  "alts": {
+   "A": "v<sub>2</sub> = √18,2",
+   "B": "v<sub>2</sub> = √42,6",
+   "C": "v<sub>2</sub> = √69,3",
+   "D": "v<sub>2</sub> = √93,5",
+   "E": "v<sub>2</sub> = √800,0"
+  },
+  "correta": "C",
+  "conferida": true
+ },
+ {
+  "prova": "elet-2018",
+  "n": 47,
+  "q": "Considere a Figura a seguir que mostra um trecho de uma rede de distribuição aérea. O dispositivo destacado na Figura é um(a)",
+  "alts": {
+   "A": "para-raio",
+   "B": "disjuntor",
+   "C": "religador",
+   "D": "chave-faca",
+   "E": "chave-fusível"
+  },
+  "correta": "E",
+  "fig": "<svg viewBox=\"0 0 360 320\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Trecho de rede de distribuição aérea: cruzeta com isoladores e cabos, um transformador de poste e, em destaque com moldura e seta, um dispositivo de proteção tubular inclinado instalado entre a cruzeta e o cabo</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M180,20 V300\"/><rect x=\"40\" y=\"46\" width=\"260\" height=\"14\"/><path d=\"M80,46 V22 M170,46 V22 M260,46 V22\"/><circle cx=\"80\" cy=\"18\" r=\"6\"/><circle cx=\"170\" cy=\"18\" r=\"6\"/><circle cx=\"260\" cy=\"18\" r=\"6\"/><rect x=\"130\" y=\"150\" width=\"100\" height=\"90\" rx=\"10\"/><path d=\"M155,150 V118 M180,150 V108 M205,150 V118\"/><circle cx=\"155\" cy=\"114\" r=\"5\"/><circle cx=\"180\" cy=\"104\" r=\"5\"/><circle cx=\"205\" cy=\"114\" r=\"5\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M260,60 L246,92\"/><ellipse cx=\"246\" cy=\"98\" rx=\"8\" ry=\"12\" transform=\"rotate(25 246 98)\"/><rect x=\"238\" y=\"106\" width=\"14\" height=\"48\" rx=\"6\" transform=\"rotate(25 245 130)\"/></g><rect x=\"205\" y=\"55\" width=\"92\" height=\"72\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/><path d=\"M350,90 L308,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M296,90 L308,82 L308,98 Z\" fill=\"currentColor\" stroke=\"none\"/></svg>",
+  "legenda": "Trecho de rede de distribuição aérea, com um poste sustentando uma cruzeta de três isoladores e, mais abaixo, um transformador; em destaque, com moldura e seta apontando, um dispositivo tubular montado de forma inclinada e articulada entre a cruzeta e o condutor.",
+  "conferida": true
+ },
+ {
+  "prova": "elet-2023",
+  "n": 36,
+  "q": "Na Figura abaixo, é apresentado o diagrama de sequência zero de um transformador: Esse diagrama corresponde ao transformador",
+  "alts": {
+   "A": "Estrela-Estrela, com primário e secundário aterrados por impedância.",
+   "B": "Estrela-Delta, com primário não aterrado.",
+   "C": "Estrela-Estrela, com primário aterrado e secundário não aterrado.",
+   "D": "Estrela-Delta, com primário aterrado.",
+   "E": "Delta-Delta."
+  },
+  "correta": "C",
+  "fig": "<svg viewBox=\"0 0 400 190\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Diagrama de sequência zero: da referência sobe um condutor até o nó de entrada, passa em série pela impedância Z e por 3Zn, terminando em circuito aberto</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M60,60 H100\"/><path d=\"M100,60 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0\"/><path d=\"M156,60 H210\"/><path d=\"M210,60 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0 a7,7 0 0 1 14,0\"/><path d=\"M266,60 H300\"/><path d=\"M60,60 V140\"/><path d=\"M40,140 H340\"/></g><g fill=\"currentColor\" stroke=\"none\"><circle cx=\"60\" cy=\"60\" r=\"4\"/><circle cx=\"300\" cy=\"60\" r=\"4\"/><circle cx=\"316\" cy=\"60\" r=\"3\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"15\" text-anchor=\"middle\"><text x=\"128\" y=\"42\">Z</text><text x=\"238\" y=\"42\">3Zn</text><text x=\"190\" y=\"162\">Referência</text></g></svg>",
+  "legenda": "Diagrama de sequência zero: a partir da barra de referência (terra), um condutor sobe até um nó, passa em série pela impedância Z e depois por 3Zn, terminando em circuito aberto — sem retorno à referência do lado direito.",
+  "conferida": true
+ },
+ {
+  "prova": "mec-2012",
+  "n": 43,
+  "q": "A figura representa a curva característica da vida de equipamentos, constituída de três períodos, a saber: Mortalidade Infantil, Vida Útil e Envelhecimento ou Degradação. As justificativas para o seu formato são que",
+  "alts": {
+   "A": "a grande incidência de falhas no período 1 decorre de componentes com defeitos de fabricação, deficiências de projeto ou de instalação.",
+   "B": "o comportamento praticamente constante nas falhas no período 2 é decorrente de manutenções corretivas.",
+   "C": "o comportamento praticamente constante nas falhas no período 2 é decorrente de desgaste natural.",
+   "D": "a ocorrência de falhas no período 3 decorre de fatores menos controláveis, como fadiga ou corrosão acelerada, e, assim, sua previsão é mais difícil.",
+   "E": "o comportamento crescente das falhas no período 3 decorre da complexidade do equipamento."
+  },
+  "correta": "A",
+  "fig": "<svg viewBox=\"0 0 420 260\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Curva da banheira: taxa de falhas em função do tempo, com os períodos 1 (mortalidade infantil, decrescente), 2 (vida útil, constante) e 3 (envelhecimento, crescente)</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M60,220 V40\"/><path d=\"M40,200 H380\"/></g><path d=\"M60,32 L54,46 L66,46 Z\" fill=\"currentColor\"/><path d=\"M392,200 L378,194 L378,206 Z\" fill=\"currentColor\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"5 4\"><path d=\"M160,40 V200\"/><path d=\"M280,40 V200\"/></g><path d=\"M60,60 C110,150 140,178 160,180 C220,184 220,184 280,180 C320,178 350,120 378,55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"15\" text-anchor=\"middle\"><text x=\"108\" y=\"70\">1</text><text x=\"218\" y=\"70\">2</text><text x=\"330\" y=\"70\">3</text><text x=\"30\" y=\"60\" text-anchor=\"end\">Taxa de</text><text x=\"30\" y=\"76\" text-anchor=\"end\">Falhas</text><text x=\"380\" y=\"222\">Tempo</text></g></svg>",
+  "legenda": "Curva da banheira (taxa de falhas × tempo): decrescente no período 1 (mortalidade infantil), praticamente constante e baixa no período 2 (vida útil) e crescente no período 3 (envelhecimento/degradação), com linhas tracejadas separando os três períodos.",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2006",
+  "n": 36,
+  "q": "Um eixo transmite potência a um sistema através de um par de engrenagens de dentes retos. A engrenagem fixa ao eixo recebe do sistema uma força F, conforme indicado na figura abaixo. O dimensionamento do eixo depende das tensões atuantes no ponto crítico do eixo. Considerando o eixo como “engastado” no motor, esse ponto está sujeito às tensões normal e cisalhante, devidas, respectivamente, aos esforços de:",
+  "alts": {
+   "A": "carga axial e cortante.",
+   "B": "carga axial e torção.",
+   "C": "torção e cortante",
+   "D": "flexão e cortante.",
+   "E": "flexão e torção."
+  },
+  "correta": "E",
+  "fig": "<svg viewBox=\"0 0 400 220\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Motor cilíndrico sobre uma base, ligado por um eixo a uma engrenagem (disco) na extremidade direita, com a força F aplicada verticalmente para baixo sobre a engrenagem</title><defs><marker id=\"mx06q36seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"70\" width=\"120\" height=\"70\" rx=\"6\"/><ellipse cx=\"40\" cy=\"105\" rx=\"14\" ry=\"35\"/><path d=\"M20,160 H340 L360,180 H0 Z\"/><path d=\"M160,105 H300\"/><ellipse cx=\"300\" cy=\"105\" rx=\"26\" ry=\"46\"/></g><path d=\"M300,40 V95\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#mx06q36seta)\"/><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"15\" text-anchor=\"middle\"><text x=\"90\" y=\"110\">MOTOR</text><text x=\"304\" y=\"34\">F</text></g></svg>",
+  "legenda": "Motor cilíndrico apoiado numa base, com um eixo horizontal que se estende até uma engrenagem (disco) na extremidade direita; a força F é aplicada verticalmente para baixo sobre a engrenagem, e o eixo é considerado engastado no motor.",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 26,
+  "q": "Em um escoamento supersônico divergente, conforme a figura acima, tem-se",
+  "alts": {
+   "A": "diminuição da pressão e aumento da velocidade.",
+   "B": "diminuição da pressão e diminuição da velocidade.",
+   "C": "aumento da pressão e aumento da velocidade.",
+   "D": "aumento da pressão e diminuição da velocidade.",
+   "E": "pressão e velocidade constantes."
+  },
+  "correta": "A",
+  "fig": "<svg viewBox=\"0 0 380 210\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Duto divergente com escoamento supersônico: a seção transversal aumenta da esquerda para a direita, seta indicando o sentido do escoamento</title><path d=\"M20,90 C120,60 260,50 360,20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M20,110 C120,140 260,150 360,180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><defs><marker id=\"mx11q26seta\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0L10 5L0 10z\" fill=\"currentColor\"/></marker></defs><path d=\"M60,100 H220\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" marker-end=\"url(#mx11q26seta)\"/><text x=\"190\" y=\"200\" fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"15\" text-anchor=\"middle\">Escoamento supersônico</text></svg>",
+  "legenda": "Duto divergente (a seção transversal aumenta da esquerda para a direita), com uma seta indicando o sentido do escoamento supersônico da esquerda para a direita.",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 40,
+  "q": "O círculo de Mohr apresentado na figura ao lado representa o estado plano de tensões atuante em um ponto",
+  "alts": {
+   "A": "da superfície superior de uma viga sob flexão pura.",
+   "B": "da superfície de um eixo sujeito a torção combinada com carga axial.",
+   "C": "da superfície de um eixo sob torção pura.",
+   "D": "da linha neutra de uma viga sob flexão pura.",
+   "E": "entre a linha neutra e a superfície superior de uma viga sob flexão pura."
+  },
+  "correta": "C",
+  "fig": "<svg viewBox=\"0 0 340 300\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Círculo de Mohr centrado na origem, com o eixo σ horizontal e τ vertical: o círculo tangencia σ_I à direita, −σ_I (=σ_II) à esquerda, e τ_máx = σ_I no topo</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M170,270 V30\"/><path d=\"M40,150 H300\"/></g><path d=\"M170,20 L164,34 L176,34 Z\" fill=\"currentColor\"/><path d=\"M310,150 L296,144 L296,156 Z\" fill=\"currentColor\"/><circle cx=\"170\" cy=\"150\" r=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"><path d=\"M170,150 V60\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"15\"><text x=\"182\" y=\"46\">τ<tspan font-size=\"11\" dy=\"3\">máx</tspan><tspan dy=\"-3\"> = σ</tspan><tspan font-size=\"11\" dy=\"3\">I</tspan></text><text x=\"70\" y=\"140\" text-anchor=\"end\">σ<tspan font-size=\"11\" dy=\"3\">II</tspan><tspan dy=\"-3\"> = −σ</tspan><tspan font-size=\"11\" dy=\"3\">I</tspan></text><text x=\"272\" y=\"140\">σ<tspan font-size=\"11\" dy=\"3\">I</tspan></text><text x=\"182\" y=\"168\">0</text><text x=\"322\" y=\"146\">σ</text><text x=\"192\" y=\"26\">τ</text></g></svg>",
+  "legenda": "Círculo de Mohr centrado na origem dos eixos σ (horizontal) e τ (vertical): o círculo passa pela origem em relação ao centro, tangenciando σ_I à direita e σ_II = −σ_I à esquerda, com τ_máx = σ_I no topo — estado típico de torção pura, sem tensão normal média.",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 44,
+  "q": "A figura abaixo apresenta esquematicamente o diagrama de transformação isotérmica para um aço-carbono comum com 0,76% C, onde o trajeto tempo-temperatura para um tratamento térmico está indicado. A microestrutura final de uma pequena amostra submetida a esse tratamento será composta por",
+  "alts": {
+   "A": "100% de bainita.",
+   "B": "100% de perlita fina.",
+   "C": "100% de perlita grosseira.",
+   "D": "100% de martensita.",
+   "E": "50% de perlita fina e 50% de bainita."
+  },
+  "correta": "A",
+  "fig": "<svg viewBox=\"0 0 400 280\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Diagrama de transformação isotérmica (TTT): curvas de início e fim de transformação e, em traço mais grosso, o trajeto tempo-temperatura de um resfriamento rápido até um patamar isotérmico que atravessa as duas curvas, seguido de resfriamento até a temperatura ambiente</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M60,20 V240\"/><path d=\"M60,240 H380\"/></g><path d=\"M60,12 L54,26 L66,26 Z\" fill=\"currentColor\"/><path d=\"M392,240 L378,234 L378,246 Z\" fill=\"currentColor\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"><path d=\"M60,50 H340\"/></g><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"><path d=\"M140,45 C185,55 210,95 208,135 C206,165 225,195 260,210 C285,220 305,225 330,228\"/><path d=\"M165,45 C205,58 232,100 230,148 C228,178 245,200 275,212 C300,222 315,226 335,230\"/></g><path d=\"M60,50 H100 V190 H270 V235\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"14\"><text x=\"30\" y=\"30\" text-anchor=\"end\">Temperatura</text><text x=\"360\" y=\"260\">Tempo (log)</text><text x=\"120\" y=\"66\">início</text><text x=\"150\" y=\"66\">fim</text></g></svg>",
+  "legenda": "Diagrama TTT (temperatura × log do tempo) para o aço eutetoide: duas curvas em C, de início e de fim de transformação; o trajeto do tratamento térmico, em traço grosso, desce rapidamente da temperatura de austenitização até um patamar por volta de 390 °C sem tocar as curvas, permanece nesse patamar tempo suficiente para atravessar as duas curvas (começando e terminando a transformação nessa faixa de temperatura, que produz bainita) e só então é resfriado até a temperatura ambiente.",
+  "conferida": true
+ },
+ {
+  "prova": "mecx-2011",
+  "n": 62,
+  "q": "O diagrama indicador real de um motor de combustão interna ICE de 4 tempos pode ser obtido por meio de instrumentação adequada e está representado na figura a seguir, na qual P 0 é a pressão atmosférica. No diagrama, um motor aspirado funciona em carga plena, com a borboleta do acelerador completamente aberta. Nesse contexto, analise as afirmações a seguir. I - As áreas B e C representam as perdas por bombeamento na admissão e na descarga. II - Ao ser mantida a mesma rotação do motor, se a borboleta do acelerador estiver parcialmente fechada, a área B aumenta. III - A linha cd representa o tempo de admissão, e como o motor é aspirado, está abaixo da pressão atmosférica P 0. Está correto o que se afirma em",
+  "alts": {
+   "A": "I, apenas.",
+   "B": "II, apenas.",
+   "C": "I e II, apenas.",
+   "D": "II e III, apenas.",
+   "E": "I, II e III."
+  },
+  "correta": "E",
+  "fig": "<svg viewBox=\"0 0 460 320\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Diagrama indicador de um motor de combustão interna: pressão em função do volume, com o grande laço de trabalho (área A) entre os pontos a, e e b, e o laço estreito de bombeamento (áreas B e C) entre c, d e b, próximo da pressão atmosférica P0</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M70,280 V40\"/><path d=\"M70,280 H420\"/><path d=\"M70,225 H420\" stroke-dasharray=\"4 3\"/></g><path d=\"M70,32 L64,46 L76,46 Z\" fill=\"currentColor\"/><path d=\"M432,280 L418,274 L418,286 Z\" fill=\"currentColor\"/><path d=\"M180,60 C120,72 100,112 106,150 C110,182 132,206 182,216 C262,224 342,220 378,208 C398,200 402,186 396,170 C380,116 318,74 180,60 Z\" fill=\"currentColor\" fill-opacity=\".18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M100,224 C182,234 300,232 376,226 C300,240 182,241 100,230 Z\" fill=\"currentColor\" fill-opacity=\".10\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"currentColor\" stroke=\"none\"><circle cx=\"180\" cy=\"60\" r=\"3.4\"/><circle cx=\"112\" cy=\"146\" r=\"3.4\"/><circle cx=\"378\" cy=\"208\" r=\"3.4\"/><circle cx=\"100\" cy=\"224\" r=\"3.4\"/><circle cx=\"376\" cy=\"226\" r=\"3.4\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"14\"><text x=\"180\" y=\"50\" text-anchor=\"middle\">a</text><text x=\"96\" y=\"142\" text-anchor=\"end\">e</text><text x=\"390\" y=\"204\">b</text><text x=\"84\" y=\"220\" text-anchor=\"end\">c</text><text x=\"390\" y=\"234\">d</text><text x=\"235\" y=\"146\" text-anchor=\"middle\">A</text><text x=\"230\" y=\"248\" text-anchor=\"middle\">B</text><text x=\"330\" y=\"242\" text-anchor=\"middle\">C</text><text x=\"58\" y=\"230\" text-anchor=\"end\">P0</text><text x=\"100\" y=\"298\" text-anchor=\"middle\">PMS</text><text x=\"378\" y=\"298\" text-anchor=\"middle\">PMI</text><text x=\"248\" y=\"292\" text-anchor=\"middle\">Volume</text><text x=\"46\" y=\"70\" text-anchor=\"end\">Pressão</text><text x=\"46\" y=\"86\" text-anchor=\"end\">(psi)</text><text x=\"396\" y=\"58\">WOT</text></g></svg>",
+  "legenda": "Diagrama indicador (pressão × volume) de um motor de 4 tempos aspirado, com a borboleta totalmente aberta (WOT): o grande laço superior, entre os pontos a, e e b (área A), é o laço de trabalho positivo das fases de compressão e expansão; o laço estreito inferior, entre c, d e b (áreas B e C), próximo da linha tracejada de pressão atmosférica P0, é o laço de bombeamento das fases de admissão e descarga; PMS e PMI marcam o ponto morto superior e inferior no eixo do volume.",
+  "conferida": true
+ },
+ {
+  "prova": "proj-2011",
+  "n": 63,
+  "q": "A figura abaixo mostra uma distribuição de probabilidades discreta e simétrica em relação ao eixo vertical. Seu desvio padrão é",
+  "alts": {
+   "A": "igual a 0,6",
+   "B": "igual a 1",
+   "C": "igual à variância",
+   "D": "menor que a média",
+   "E": "menor que a moda"
+  },
+  "correta": "A",
+  "fig": "<svg viewBox=\"0 0 320 240\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Distribuição de probabilidades discreta e simétrica em relação ao eixo vertical: P(X=−1) = 0,18, P(X=0) = 0,64 e P(X=1) = 0,18</title><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M110,200 V40\"/><path d=\"M40,200 H280\"/></g><path d=\"M110,32 L104,46 L116,46 Z\" fill=\"currentColor\"/><path d=\"M292,200 L278,194 L278,206 Z\" fill=\"currentColor\"/><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"5 4\"><path d=\"M40,66 H110\"/><path d=\"M60,163 H160\"/><path d=\"M60,163 V200\"/><path d=\"M160,163 V200\"/></g><g fill=\"currentColor\" stroke=\"none\"><circle cx=\"110\" cy=\"66\" r=\"4\"/><circle cx=\"60\" cy=\"163\" r=\"4\"/><circle cx=\"160\" cy=\"163\" r=\"4\"/></g><g fill=\"currentColor\" font-family=\"system-ui, sans-serif\" font-size=\"14\"><text x=\"32\" y=\"70\" text-anchor=\"end\">0,64</text><text x=\"32\" y=\"167\" text-anchor=\"end\">0,18</text><text x=\"168\" y=\"167\">0,18</text><text x=\"60\" y=\"216\" text-anchor=\"middle\">−1</text><text x=\"122\" y=\"214\">0</text><text x=\"160\" y=\"216\" text-anchor=\"middle\">1</text><text x=\"286\" y=\"196\">x</text><text x=\"60\" y=\"26\">probabilidade</text></g></svg>",
+  "legenda": "Distribuição de probabilidades discreta e simétrica em relação ao eixo vertical: P(X=−1) = 0,18, P(X=0) = 0,64 e P(X=1) = 0,18, com linhas tracejadas ligando cada ponto aos eixos.",
+  "conferida": true
  }
 ]

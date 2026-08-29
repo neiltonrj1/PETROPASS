@@ -595,6 +595,91 @@ ok('progresso separado por prova', () => {
   if (a === 0 || b === 0) throw new Error('os blocos marcados no teste não foram registrados');
 });
 
+/* ---- provas complementares, etiqueta de edital, novidades (v7.8) ---- */
+process.stdout.write('\nv7.8        ');
+ok('provas complementares ficam numa seção separada e fora da incidência', () => {
+  window.escolheTrilha('mecanica');
+  window.go('provas');
+  const html = window.document.getElementById('main').innerHTML;
+  if (!html.includes('Provas complementares')) throw new Error('a seção de provas complementares não apareceu');
+  const r = window.eval(`(function(){
+    var t = trilha();
+    var extras = provasTrilha().filter(function(p){return p.extra});
+    var oficiais = provasTrilha().filter(function(p){return !p.extra});
+    var totalOficial = oficiais.reduce(function(a,p){return a + p.questoes.filter(function(q){return q.mod}).length}, 0);
+    var totalExtra = extras.reduce(function(a,p){return a + p.questoes.filter(function(q){return q.mod}).length}, 0);
+    return {nExtras: extras.length, baseEstats: t.baseEstats, totalOficial: totalOficial, totalExtra: totalExtra};
+  })()`);
+  if (r.nExtras < 3) throw new Error(`esperava pelo menos 3 provas complementares, achei ${r.nExtras}`);
+  if (!r.totalExtra) throw new Error('as provas complementares não têm nenhuma questão classificada por módulo');
+  if (r.baseEstats !== r.totalOficial) throw new Error(`a incidência (${r.baseEstats}) devia contar só as provas oficiais (${r.totalOficial}) — as complementares (${r.totalExtra}) vazaram`);
+});
+ok('prova complementar abre e responde normalmente', () => {
+  const pid = window.eval("provasTrilha().find(function(p){return p.extra}).id");
+  window.iniciaSimulado(pid);
+  window.respondeSim('A');
+  if (!window.document.querySelector('.qz-alts .alt')) throw new Error('a prova complementar não renderizou as alternativas');
+  window.eval('SIM=null'); window.go('provas');
+});
+ok('etiqueta de edital aparece na lição e na lista de módulos', () => {
+  window.abrirModulo('me1m1', 'licao');
+  const head = window.document.getElementById('leitorHead').innerHTML;
+  if (!/Ênfase 25/.test(head)) throw new Error('a etiqueta de edital não apareceu no cabeçalho da lição');
+  window.fecharLeitor();
+  window.go('estudar');
+  const html = window.document.getElementById('main').innerHTML;
+  if (!/Ênfase 25/.test(html)) throw new Error('a etiqueta de edital não apareceu na lista de módulos');
+});
+ok('módulo fora do edital mostra o aviso certo', () => {
+  window.escolheTrilha('eletrica');
+  window.abrirModulo('el2m3', 'licao');
+  const head = window.document.getElementById('leitorHead').innerHTML;
+  if (!/fora do edital 2026/.test(head)) throw new Error('o módulo el2m3 devia mostrar "fora do edital 2026"');
+  window.fecharLeitor();
+});
+ok('edital.json só referencia módulos que existem', () => {
+  const orfaos = window.eval(`(function(){
+    var ids = {};
+    DATA.conteudo.forEach(function(v){ v.mods.forEach(function(m){ ids[m.id]=true; }); });
+    return Object.keys(DATA.edital||{}).filter(function(id){ return !ids[id]; });
+  })()`);
+  if (orfaos.length) throw new Error('edital.json referencia módulo inexistente: ' + orfaos.join(', '));
+});
+ok('cartão de novidades aparece e some ao clicar em Entendi', () => {
+  window.eval("S.cfg.verVista=''");
+  window.go('home');
+  let html = window.document.getElementById('main').innerHTML;
+  if (!html.includes('Novidades da v')) throw new Error('o cartão de novidades não apareceu com verVista vazio');
+  window.fecharNovidades();
+  html = window.document.getElementById('main').innerHTML;
+  if (html.includes('Novidades da v')) throw new Error('o cartão de novidades não sumiu depois de "Entendi"');
+  if (window.eval('S.cfg.verVista') !== window.eval('DATA.versao')) throw new Error('S.cfg.verVista não foi atualizado para a versão atual');
+});
+ok('migração marca conta existente como já tendo visto a versão, sem mostrar o card', () => {
+  const r = window.eval(`(function(){
+    var salvo = JSON.parse(JSON.stringify(DEF));
+    delete salvo.cfg.verVista;
+    salvo.trilha = 'mecanica';
+    var antes = S; S = salvo;
+    migraEstado();
+    var depois = S.cfg.verVista;
+    S = antes;
+    return depois;
+  })()`);
+  if (r !== window.eval('DATA.versao')) throw new Error(`conta existente sem verVista devia ser marcada com "${window.eval('DATA.versao')}", veio "${r}"`);
+});
+ok('migração não mexe em conta nova (verVista continua vazio)', () => {
+  const r = window.eval(`(function(){
+    var salvo = JSON.parse(JSON.stringify(DEF));
+    var antes = S; S = salvo;
+    migraEstado();
+    var depois = S.cfg.verVista;
+    S = antes;
+    return depois;
+  })()`);
+  if (r !== '') throw new Error(`conta nova não devia ser marcada como já tendo visto a versão, veio "${r}"`);
+});
+
 ok('exportar backup', () => window.eval('JSON.stringify(S)'));
 
 console.log('\n');

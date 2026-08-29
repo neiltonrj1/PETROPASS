@@ -1,0 +1,346 @@
+{
+ "id": "mecx-2010",
+ "trilha": "mecanica",
+ "ano": 2010,
+ "nome": "Profissional Jr — Engenharia Mecânica (prova complementar)",
+ "processo": "Petrobras Biocombustível (prova em 06/06/2010)",
+ "caderno": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\PROVA 22 - ENGENHEIRO(A) DE EQUIPAMENTOS JUNIOR - MECANICA.pdf",
+ "folhaGabarito": "Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\gabaritos_Petrobras BioCombustível.pdf",
+ "total": 24,
+ "questoes": [
+  {
+   "n": 21,
+   "origem": "Cesgranrio 2010, Q21",
+   "q": "Dentre as possíveis soluções da equação diferencial ordinária homogênea, expressa por mx bx kx 0,+ + =\u0002\u0002 \u0002 onde m, b e k são constantes reais positivas, para condições iniciais x(0) = x 0 e x(0) 0,=\u0002 tem-se uma solução para x(t)",
+   "alts": {
+    "A": "oscilatória com amplitude constante.",
+    "B": "oscilatória com amplitude decrescente e assintótica a um valor diferente de zero.",
+    "C": "oscilatória com amplitude decrescente e assintótica a zero.",
+    "D": "exponencial decrescente e assintótica a um valor diferente de zero.",
+    "E": "exponencial crescente com o tempo."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 22,
+   "origem": "Cesgranrio 2010, Q22",
+   "q": "Se v = w x R, onde os vetores w e R são perpendiculares entre si, o vetor resultante da operação w x (w x R) é",
+   "alts": {
+    "A": "perpendicular aos vetores w e R.",
+    "B": "perpendicular aos vetores v e R.",
+    "C": "perpendicular ao vetor w.",
+    "D": "paralelo ao vetor R.",
+    "E": "paralelo ao vetor v."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 23,
+   "origem": "Cesgranrio 2010, Q23",
+   "q": "Considere o mecanismo biela-manivela-pistão de um motor a combustão na configuração mostrada na figura acima. Se, nessa fase, a velocidade angular da manivela é constante, a segunda Lei de Newton estabelece que a resultante das forças aplicadas ao pistão tem direção",
+   "alts": {
+    "A": "perpendicular ao plano de movimento do mecanismo.",
+    "B": "perpendicular a AB e sentido de N para M.",
+    "C": "perpendicular a AB e sentido de M para N.",
+    "D": "paralela a AB e sentido de A para B.",
+    "E": "paralela a AB e sentido de B para A."
+   },
+   "correta": "E",
+   "pedeFigura": true
+  },
+  {
+   "n": 24,
+   "origem": "Cesgranrio 2010, Q24",
+   "q": "Considere a estrutura mostrada na figura acima, constituída de uma barra rígida ABC e de duas barras flexíveis, (1) e (2), de mesmo material, mesmo comprimento e áreas que obedecem à relação A 2 = 2A 1. A estrutura sofre a ação de uma força F gradualmente crescente, atuante em C. Se o material utilizado na fabricação das barras flexíveis for dúctil, com tensão de escoamento s y (tração e compressão), ao se atingir esse valor de tensão na barra",
+   "alts": {
+    "A": "(1), a barra (2) apresentará uma tensão s 2 < s y.",
+    "B": "(1), a barra (2) apresentará uma tensão s 2 = s y /2.",
+    "C": "(2), a barra (1) apresentará uma tensão s 1 = s y.",
+    "D": "(2), a barra (1) apresentará uma tensão s 1 = s y /2.",
+    "E": "(2), a barra (1) apresentará uma tensão s 1 > s y."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 25,
+   "origem": "Cesgranrio 2010, Q25",
+   "q": "O circuito passivo, mostrado na figura acima, representa a configuração de um filtro passa-baixa, onde entra um sinal em tensão v e (t) e sai um sinal v s (t). Os elementos lineares resistor R e capacitor C desse circuito são, respectivamente,",
+   "alts": {
+    "A": "dissipador e armazenador de energia.",
+    "B": "dissipador e transformador de energia.",
+    "C": "armazenador e gerador de energia.",
+    "D": "armazenador e dissipador de energia.",
+    "E": "transformador e armazenador de energia. V (t)e V (t)s R C (1) (2) A a a B CBarra rígida F N M B pistão bielamanivelaO A"
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 27,
+   "origem": "Cesgranrio 2010, Q27",
+   "q": "O circuito RL, mostrado na figura acima, é alimentado por uma tensão alternada V(t) = V 0 cos(wt), onde V 0 é a amplitude da tensão e w a frequência de excitação do circuito. O equacionamento do circuito pela Lei de Kirshhoff das tensões resulta em uma equação diferencial de governo que, após ser resolvida, fornece para a corrente do circuito a expressão i(t) = I 0 cos(wt + f), onde I 0 é a amplitude da corrente e f = - tg -1 wL/R. Esse resultado para o ângulo f indica que, se",
+   "alts": {
+    "A": "L = 0, a corrente estará atrasada de 90 o em relação à tensão.",
+    "B": "L = 0, a corrente estará adiantada de 90 o em relação à tensão.",
+    "C": "L = 0, a corrente estará em fase com a tensão.",
+    "D": "R = 0, a corrente estará em fase com a tensão.",
+    "E": "R = 0, a corrente estará adiantada de 90 o em relação à tensão."
+   },
+   "correta": "C",
+   "pedeFigura": true
+  },
+  {
+   "n": 28,
+   "origem": "Cesgranrio 2010, Q28",
+   "q": "Em um reservatório cilíndrico de paredes finas, fechado nas extremidades, as tensões planas ocorrentes em um ponto da parede são tais que s 1 = 2s 2. A tensão cisalhante máxima ocorrente neste ponto possui um valor igual a",
+   "alts": {
+    "A": "s 1",
+    "B": "s 2",
+    "C": "s 2 /2",
+    "D": "(s 1 + s 2)/2",
+    "E": "(s 1 - s 2)/2"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 29,
+   "origem": "Cesgranrio 2010, Q29",
+   "q": "Um engenheiro é responsável por 8 funcionários em determinado projeto. O número de grupos de três funcionários que pode ser organizado, considerando-se que cada grupo deve diferir dos outros por, pelo menos, um dos seus componentes, é",
+   "alts": {
+    "A": "24",
+    "B": "56",
+    "C": "112",
+    "D": "168",
+    "E": "336"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 31,
+   "origem": "Cesgranrio 2010, Q31",
+   "q": "Um recipiente rígido de 2 m 3 contém um gás a 350 K e 0,5 MPa. Ocorre um vazamento e 0,52 kg desse gás é perdido para a atmosfera. Após o vazamento, a temperatura do gás no tanque é de 320 K. Considerando-se que esse gás segue o modelo de gás ideal, com R=0,3 kJ/kg.K, a pressão no tanque, no estado final desse processo, é dada, em kPa, por",
+   "alts": {
+    "A": "520",
+    "B": "484",
+    "C": "450",
+    "D": "432",
+    "E": "294 R LV(t) + E()s G(s) H(s) S(s) (a) Sistema 1: três tubos em série (b) Sistema 2: três tubos em paralelo 1 1 A A B B 2 2 3 3"
+   },
+   "correta": "D"
+  },
+  {
+   "n": 32,
+   "origem": "Cesgranrio 2010, Q32",
+   "q": "Um tanque rígido contém 1 kg de água, inicialmente a 1.400 KPa e 350 °C. Essa água é resfriada até a pressão de 400 kPa. Considerando-se que a energia interna no estado inicial corresponde a u 1 = 2.900 kJ/kg e, no estado final, vale u 2 = 1.500 kJ/kg, o calor transferido, nesse processo, é dado, em kJ, por",
+   "alts": {
+    "A": "1.100",
+    "B": "1.400",
+    "C": "3.100",
+    "D": "4.400",
+    "E": "4.900"
+   },
+   "correta": "B"
+  },
+  {
+   "n": 33,
+   "origem": "Cesgranrio 2010, Q33",
+   "q": "WHITE, F.M. Mecânica dos Fluidos. McGraw-Hill, 2002. As figuras acima ilustram dois sistemas com múltiplos tubos. Com relação à vazão (Q) e à perda de carga (h p) dos dois sistemas, verifica-se que",
+   "alts": {
+    "A": "Sistema 1: Q=Q 1 =Q 2 =Q 3; h pA->B = h p1 + h p2 + h p3. Sistema 2: Q=Q 1 +Q2 +Q 3; h pA->B = h p1 = h p2 = h p3.",
+    "B": "Sistema 1: Q=Q 1 +Q2 +Q 3; h pA->B = h p1 = h p2 = h p3. Sistema 2: Q=Q 1 =Q2 =Q 3; h pA->B = h p1 + h p2 + h p3.",
+    "C": "Sistema 1: Q=Q 1 =Q2 =Q 3; h pA->B = (h p1 + h p2 + h p3)/3. Sistema 2: Q=(Q 1 +Q2 +Q 3)/3; h pA->B = h p1 = h p2 = h p3.",
+    "D": "Sistema 1: Q=(Q 1 +Q 2 +Q 3)/3; h pA->B = h p1 = h p2 = h p3. Sistema 2: Q=Q 1 =Q 2 =Q 3; h pA->B = (h p1 + h p2 + h p3)/3.",
+    "E": "Sistema 1: Q=Q 1 =Q 2 =Q 3; h pA->B = h p1 = h p2 = h p3. Sistema 2: Q=Q 1 =Q2 =Q 3; h pA->B = h p1 = h p2 = h p3."
+   },
+   "correta": "A",
+   "pedeFigura": true
+  },
+  {
+   "n": 34,
+   "origem": "Cesgranrio 2010, Q34",
+   "q": "Associe os números adimensionais da primeira coluna com as características apresentadas na segunda coluna. A associação correta é",
+   "alts": {
+    "A": "I – P, II – Q e III – R.",
+    "B": "I – P, II – R e III – S.",
+    "C": "I – R, II – Q e III – P.",
+    "D": "I – Q, II – S e III – R.",
+    "E": "I – Q, II – R e III – S."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 35,
+   "origem": "Cesgranrio 2010, Q35",
+   "q": "Um engenheiro sabe que a distribuição de temperaturas ao longo de uma parede de 10 m 2 de área e de 0,8 m de espessura, em certo instante, corresponde a T(x)=a+bx+cx 2. Sabe-se que a = 780 °C; b = -250 °C/m; c = 70 °C/m 2. Considerando-se que a condutividade térmica do material é dada por 30 W/(m.°C), a taxa de transferência de calor que entra na parede (x=0) é dada, em kW, por",
+   "alts": {
+    "A": "75",
+    "B": "86",
+    "C": "98",
+    "D": "110",
+    "E": "210"
+   },
+   "correta": "A"
+  },
+  {
+   "n": 36,
+   "origem": "Cesgranrio 2010, Q36",
+   "q": "Algumas superfícies podem ser idealizadas como difusas, de acordo com a forma como refletem a radiação. Na reflexão difusa,",
+   "alts": {
+    "A": "toda a radiação incidente é absorvida.",
+    "B": "os raios incidente e refletido formam um ângulo de 90°.",
+    "C": "os raios incidente e refletido serão simétricos em relação à normal no ponto de incidência.",
+    "D": "a intensidade da radiação refletida é constante em todos os ângulos de reflexão e independente da direção da radiação incidente.",
+    "E": "a intensidade da radiação refletida depende da direção da radiação incidente. Adimensional I - Número de Froude II - Número de Mach III - Número de Euler Características P - Relação entre as forças de pressão e as de inércia Q - Relação entre as forças de inércia e as de compressibilidade R - Relação entre as forças de inércia e as de gravidade S - Relação entre as forças de compressibilidade e as de pressão."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 37,
+   "origem": "Cesgranrio 2010, Q37",
+   "q": "Quando se necessita de cargas manométricas mais significativas do que as vazões, em geral, utiliza-se a bomba",
+   "alts": {
+    "A": "axial.",
+    "B": "centrífuga helicoidal.",
+    "C": "centrífuga diagonal.",
+    "D": "centrífuga radial.",
+    "E": "centrífuga, de qualquer tipo, associada em paralelo com outra bomba idêntica."
+   },
+   "correta": "D"
+  },
+  {
+   "n": 38,
+   "origem": "Cesgranrio 2010, Q38",
+   "q": "Os ventiladores centrífugos com pás curvadas para frente, em geral, NÃO são indicados",
+   "alts": {
+    "A": "quando se deseja baixo custo inicial de instalação.",
+    "B": "quando se deseja tamanho reduzido.",
+    "C": "para serviço intermitente.",
+    "D": "para aplicações em condicionamento de ar de modo a minimizar ruído.",
+    "E": "para instalações com elevada demanda de potência e operação contínua. Considere o ciclo de ar padrão ideal Brayton da figura abaixo para responder às questões de nos 39 e 40."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 42,
+   "origem": "Cesgranrio 2010, Q42",
+   "q": "Associe os equipamentos da primeira coluna às características apresentadas na segunda coluna. A associação correta é",
+   "alts": {
+    "A": "I – P, II – Q e III – R.",
+    "B": "I – Q, II – P e III – R.",
+    "C": "I – Q, II – S e III – P.",
+    "D": "I – R, II – Q e III – S.",
+    "E": "I – S, II – P e III – R."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 43,
+   "origem": "Cesgranrio 2010, Q43",
+   "q": "Adicionando-se cloreto de sódio ao ácido sulfúrico, obtêmse sulfato de sódio e ácido clorídrico. Se essa reação for reproduzida em laboratório utilizando 0,98 g de ácido sulfúrico, e sabendo-se que as massas atômicas, em g/mol, são: Na = 23, Cl = 35,45, S = 32,06, O = 16 e H = 1, as massas de ácido clorídrico e sulfato de sódio obtidas são, respectivamente,",
+   "alts": {
+    "A": "0,364 g e 1,26 g",
+    "B": "0,364 g e 1,42 g",
+    "C": "0,729 g e 1,19 g",
+    "D": "0,729 g e 1,26 g",
+    "E": "0,729 g e 1,42 g 4 h =600 kJ/kg2 Qentra Trocador de calor Trocador de calor Compressor h =1500 kJ/kg3 h =800 kJ/kg4 h =300 kJ/kg1 Qsai W ciclo 1 2 3 Turbina Características P - Equipamento rotativo dedicado à produção de trabalho de eixo, produzido a partir da queda de pressão do fluido de trabalho. Q - Equipamento que opera com gases e é utilizado para aumentar a pressão no fluido pela adição de trabalho de eixo. R - Equipamento que opera com líquidos e é utilizado para aumentar a pressão no fluido pela adição de trabalho de eixo. S - Equipamento onde ocorre a transferência de calor de um fluido para outro. Equipamentos I - Compressor II - Turbina III - Bomba"
+   },
+   "correta": "E"
+  },
+  {
+   "n": 44,
+   "origem": "Cesgranrio 2010, Q44",
+   "q": "Uma forma eficaz de prevenção da corrosão é a proteção catódica que, em algumas situações, pode parar por completo o processo de corrosão. No caso de estruturas enterradas, submetidas à corrosão no solo, um tipo de proteção catódica é realizado",
+   "alts": {
+    "A": "com o suprimento de elétrons, a partir de uma fonte externa de corrente contínua (retificador), para a estrutura que se deseja proteger, sendo um terminal da fonte de energia ligado à estrutura e o outro, a um anodo inerte enterrado no solo.",
+    "B": "com o suprimento de elétrons, a partir de uma fonte externa de corrente contínua (retificador), para a estrutura que se deseja proteger, sendo o terminal negativo ligado à estrutura e o positivo, a um anodo de sacrifício enterrado no solo.",
+    "C": "pela aplicação de revestimentos não metálicos orgânicos, que consistem basicamente de: veículos, cuja função essencial é formar uma película, e que podem ser não conversíveis ou conversíveis; solventes, para dissolver o veículo, e pigmentos e carga.",
+    "D": "pela aplicação de revestimentos não metálicos inorgânicos que resultam de reações químicas entre o material metálico e o meio em que são colocados, sendo que os processos de revestimentos não metálicos inorgânicos mais comuns são anodização e cromatização.",
+    "E": "por meio de inibidores que, adicionados ao solo, reagem eliminando o oxigênio dissolvido, ou se fixam à superfície que está sofrendo corrosão, interferindo ou na reação de oxidação ou na de redução, podendo, também, formar um revestimento protetor muito fino."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 45,
+   "origem": "Cesgranrio 2010, Q45",
+   "q": "Uma pilha eletroquímica consiste em um eletrodo de ferro e outro de cobre, cada um dos quais imerso em uma solução 1M do seu íon, a uma temperatura de 25 °C. As reações para as duas semipilhas, na forma de reações de redução, e o respectivo potencial padrão são representados por Cu 2+ + 2e – Cu + 0,340 V Fe 2+ + 2e – Fe - 0,440 V Em relação à pilha eletroquímica, sabe-se que",
+   "alts": {
+    "A": "a reação de redução irá ocorrer para o ferro.",
+    "B": "o potencial global para a pilha é de - 0,78 V.",
+    "C": "o fluxo de elétrons, no circuito externo da pilha, é no sentido do cobre para o ferro.",
+    "D": "o ferro é o catodo e será depositado, enquanto o cobre é o anodo e será corroído.",
+    "E": "os íons Cu 2+ irão depositar-se na forma de cobre metálico sobre o eletrodo de cobre."
+   },
+   "correta": "E"
+  },
+  {
+   "n": 46,
+   "origem": "Cesgranrio 2010, Q46",
+   "q": "Alguns aços resistentes à corrosão são suscetíveis à precipitação de carbonetos ao longo dos contornos de grãos, quando aquecidos em uma determinada faixa de temperaturas, entre 400 e 900 °C. Esse fenômeno pode provocar",
+   "alts": {
+    "A": "a fragilização, devido à difusão do hidrogênio, denominada fragilidade pelo hidrogênio, ocorrendo, em geral, nos aços inoxidáveis martensíticos.",
+    "B": "a fragilização, devido à difusão do hidrogênio, denominada fragilidade pelo hidrogênio, ocorrendo, em geral, nos aços inoxidáveis ferríticos.",
+    "C": "um tipo de corrosão, denominado corrosão intergranular, ocorrendo, principalmente, nos aços inoxidáveis austeníticos.",
+    "D": "um tipo de corrosão, denominado corrosão intergranular, ocorrendo, principalmente, nos aços inoxidáveis martensíticos.",
+    "E": "um tipo de corrosão localizada, causada pela ação de íons negativos de cloro, denominada corrosão por pites, ocorrendo somente nos aços inoxidáveis austeníticos."
+   },
+   "correta": "C"
+  },
+  {
+   "n": 48,
+   "origem": "Cesgranrio 2010, Q48",
+   "q": "Ao se utilizar o modelo de esferas rígidas para representar a estrutura cristalina de metais, cada esfera representa um núcleo iônico. O fator de empacotamento atômico representa a fração do volume de uma célula unitária que corresponde às esferas, isto é, a razão entre o volume de átomos em uma célula unitária e o volume total da célula unitária. O fator de empacotamento atômico para a estrutura cristalina",
+   "alts": {
+    "A": "cúbica de face centrada (CFC), que está presente em metais como o cobre, o alumínio, a prata e o ouro, é maior do que o fator de empacotamento atômico para a estrutura cristalina cúbica de corpo centrado (CCC).",
+    "B": "cúbica de face centrada (CFC), que está presente em metais como o cobre, o alumínio, a prata e o ouro, é maior do que o fator de empacotamento atômico para a estrutura cristalina hexagonal compacta (HC).",
+    "C": "cúbica de corpo centrado (CCC), que está presente em metais como o cromo, o ferro e o tungstênio, é maior do que o fator de empacotamento atômico para a estrutura cristalina hexagonal compacta (HC).",
+    "D": "cúbica de corpo centrado (CCC), que está presente em metais como o cromo, o ferro e o tungstênio, é maior do que o fator de empacotamento atômico para a estrutura cristalina cúbica de face centrada (CFC).",
+    "E": "hexagonal compacta (HC), que está presente em metais como o cádmio, magnésio, titânio e zinco, é maior do que o fator de empacotamento atômico para a estrutura cristalina cúbica de face centrada (CFC)."
+   },
+   "correta": "A"
+  },
+  {
+   "n": 49,
+   "origem": "Cesgranrio 2010, Q49",
+   "q": "O aquecimento do ferro fundido branco a temperaturas entre 800 e 900 °C, por um período de tempo prolongado e em uma atmosfera neutra, para prevenir a oxidação, provoca a decomposição da",
+   "alts": {
+    "A": "austenita, formando perlita, e dá origem a um outro tipo de ferro fundido, denominado ferro fundido cinzento.",
+    "B": "cementita, formando grafita, e dá origem a um outro tipo de ferro fundido, denominado ferro fundido maleável.",
+    "C": "cementita, formando perlita, e dá origem a um outro tipo de ferro fundido, denominado ferro fundido mesclado.",
+    "D": "ledeburita, formando grafita, e dá origem a um outro tipo de ferro fundido, denominado ferro fundido nodular.",
+    "E": "ledeburita, formando perlita, e dá origem a um outro tipo de ferro fundido, denominado ferro fundido pudlado."
+   },
+   "correta": "B"
+  },
+  {
+   "n": 50,
+   "origem": "Cesgranrio 2010, Q50",
+   "q": "Analisando-se o diagrama de fases Fe-Fe 3 C e comparando-se as microestruturas dos aços com composição eutetoide, hipoeutetoide e hipereutetoide, resfriados lentamente até a temperatura ambiente, observa-se que o aço hipoeutetoide é constituído por",
+   "alts": {
+    "A": "cementita e perlita, resultantes da transformação da austenita; o aço hipereutetoide, por ferrita e perlita e o aço eutetoide, exclusivamente por perlita.",
+    "B": "ferrita proeutetoide, resultante da transformação da cementita; o aço hipereutetoide, por cementita e perlita, e o aço eutetoide, exclusivamente por perlita.",
+    "C": "ferrita e cementita, resultantes da transformação da austenita, o aço hipereutetoide, por perlita e cementita, e o aço eutetoide, exclusivamente por cementita.",
+    "D": "ferrita e perlita, resultantes da transformação da austenita; o aço hipereutetoide, por cementita e perlita, e o aço eutetoide, exclusivamente por perlita.",
+    "E": "ferrita e perlita, resultantes da transformação da cementita; o aço hipereutetoide, por cementita lamelar e o aço eutetoide, exclusivamente por perlita."
+   },
+   "correta": "D"
+  }
+ ],
+ "deFora": {
+  "semGabarito": [],
+  "comFigura": [
+   23,
+   24,
+   25,
+   27,
+   33
+  ],
+  "quebradas": [
+   30,
+   39,
+   40,
+   47
+  ]
+ },
+ "extra": true
+}

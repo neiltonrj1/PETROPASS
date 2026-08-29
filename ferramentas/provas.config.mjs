@@ -188,6 +188,46 @@ export const PROVAS = [
     },
   },
 
+  /* ---------------- MECÂNICA · PROVAS COMPLEMENTARES ----------------
+     Três processos diferentes do que rege 2026, todos Cesgranrio, todos
+     "Engenheiro(a) de Equipamentos Júnior — Mecânica". `extra: true` tira
+     estas da conta de incidência ("o que mais cai") em build.mjs — a
+     estatística fica calibrada só pelo processo atual — mas as questões
+     continuam entrando no treino normalmente, com aba "De prova" e tudo.
+
+     2006 e 2011 SÃO Petrobras (holding) de verdade, só que de processos
+     antigos e encerrados. 2010 é a Petrobras Biocombustível, subsidiária —
+     pessoa jurídica própria. As três têm zero questão anulada.          */
+  {
+    id: 'mecx-2006', trilha: 'mecanica', ano: 2006, num: 0, extra: true,
+    nome: 'Profissional Jr — Engenharia Mecânica (prova complementar)',
+    processo: 'Petrobras PSP-RH-1/2006 (prova em 07/05/2006)',
+    pdf: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\34.pdf',
+    gab: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2006\\petrobras0106_gabsupII.pdf',
+    ini: 21, ate: 60,
+    /* página única, tabela larga de 13 cargos; "Júnior–Mecânica" (x=121) é
+       vizinha de "Pleno–Mecânica" (x=254) — não confundir as duas */
+    pagina: 1, faixaX: [106, 136],
+  },
+  {
+    id: 'mecx-2010', trilha: 'mecanica', ano: 2010, num: 22, extra: true,
+    nome: 'Profissional Jr — Engenharia Mecânica (prova complementar)',
+    processo: 'Petrobras Biocombustível (prova em 06/06/2010)',
+    pdf: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\PROVA 22 - ENGENHEIRO(A) DE EQUIPAMENTOS JUNIOR - MECANICA.pdf',
+    gab: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2010\\gabaritos_Petrobras BioCombustível.pdf',
+    ini: 21, ate: 50,
+    pagina: 4, faixaX: [390, 450],
+  },
+  {
+    id: 'mecx-2011', trilha: 'mecanica', ano: 2011, num: 9, extra: true,
+    nome: 'Profissional Jr — Engenharia Mecânica (prova complementar)',
+    processo: 'Petrobras PSP RH-2/2010 (prova em 27/02/2011)',
+    pdf: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\PROVA 9 - ENGENHEIRO DE EQUIPAMENTOS JÚNIOR - MECÂNICA.pdf',
+    gab: 'Engenheiro_de_Equipamentos_Junior_Mecanica_CESGRANRIO_2011\\Gabaritos.pdf',
+    ini: 21, ate: 70,
+    pagina: 4, faixaX: [380, 415],
+  },
+
   /* ---------------- ANÁLISE E PROJETOS DE INVESTIMENTO ---------------- */
   {
     id: 'proj-2011', trilha: 'projetos', ano: 2011, num: 6,

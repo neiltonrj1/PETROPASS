@@ -75,6 +75,29 @@ function montaDados() {
     conteudo.push(vol);
   }
 
+  /* Questões de lição que citam figura mas nasceram sem uma: ao contrário
+     das questões de prova (extraídas de PDF, onde às vezes o TEXTO também
+     sai corrompido), a questão de lição é escrita à mão e o texto já está
+     certo — falta só o desenho. Por isso o override aqui é mais simples,
+     só `fig`/`legenda`, chaveado por {mod, n}, sem risco de apagar
+     alternativa (não mexe em `alts`).                                    */
+  const arqFigLicao = path.join(DADOS, 'questoes-figura-licao.json');
+  if (existe(arqFigLicao)) {
+    const figs = leJson(arqFigLicao).filter(x => x && x.mod && x.n && x.fig);
+    let postas = 0, semLugar = 0;
+    for (const f of figs) {
+      const v = conteudo.find(v => v.mods.some(m => m.id === f.mod));
+      const m = v && v.mods.find(m => m.id === f.mod);
+      const q = m && m.qs && m.qs.find(q => q.n === f.n);
+      if (!q) { semLugar++; continue; }
+      q.fig = limpaSvg(f.fig);
+      q.figLegenda = limpaEnunciado(f.legenda || '');
+      postas++;
+    }
+    if (postas || semLugar) avisos.push(`${postas} questões de lição receberam a figura` +
+      (semLugar ? ` · ${semLugar} sem questão correspondente` : ''));
+  }
+
   const quizzes = {};
   const dirQuiz = path.join(DADOS, 'quizzes');
   if (existe(dirQuiz)) {

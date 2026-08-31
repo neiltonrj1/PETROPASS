@@ -9,5 +9,10 @@
   "Corrigido o motivo de várias provas parecerem incompletas: um bug no extrator descartava em silêncio questões cujas alternativas vinham 2 ou mais por linha no PDF original (comum em respostas curtas, tipo \"(A) 0,5 (B) 1,0 (C) 1,5...\"). O conserto recuperou <b>61 questões</b> que sumiam em várias provas — algumas, como Elétrica 2006 e Mecânica 2010, ficaram 100% completas.",
   "Corrigidas mais 12 questões com alternativas corrompidas ou coladas com o enunciado de outra questão vizinha.",
   "Corrigidas 23 figuras: 2 que estavam com texto cortado na borda do desenho, e 21 que ainda não tinham imagem (recém-recuperadas pelo conserto acima)."
+ ],
+ "7.10.0": [
+  "Corrigidas mais 49 figuras faltando: 22 em provas/simulados, 22 em questões de lição e 5 no caderno comentado (quiz) — essas eram questões que, mesmo com texto certo, não davam pra resolver sem ver o desenho.",
+  "Questões de lição ganharam suporte a figura pela primeira vez — antes esse mecanismo só existia para provas.",
+  "Corrigida mais 1 questão (Mecânica Biocombustível 2010, Q26) cujas alternativas — frações de controle de sistemas — tinham saído embaralhadas da extração."
  ]
 }
